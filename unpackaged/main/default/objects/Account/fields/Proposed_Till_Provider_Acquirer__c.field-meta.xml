@@ -1,0 +1,1331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Proposed_Till_Provider_Acquirer__c</fullName>
+    <externalId>false</externalId>
+    <label>Proposed Till Provider/Acquirer</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Proposed_Solution__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aitana/LS NAV</fullName>
+                <default>false</default>
+                <label>Aitana/LS NAV</label>
+            </value>
+            <value>
+                <fullName>BRICOR Own System</fullName>
+                <default>false</default>
+                <label>BRICOR Own System</label>
+            </value>
+            <value>
+                <fullName>BRICOR-GENERICO Own System</fullName>
+                <default>false</default>
+                <label>BRICOR-GENERICO Own System</label>
+            </value>
+            <value>
+                <fullName>CHAPS Own System</fullName>
+                <default>false</default>
+                <label>CHAPS Own System</label>
+            </value>
+            <value>
+                <fullName>CPI Retail/Retail Manager</fullName>
+                <default>false</default>
+                <label>CPI Retail/Retail Manager</label>
+            </value>
+            <value>
+                <fullName>EL CORTE INGLES Own System</fullName>
+                <default>false</default>
+                <label>EL CORTE INGLES Own System</label>
+            </value>
+            <value>
+                <fullName>EL CORTE INGLES-GENERICO Own System</fullName>
+                <default>false</default>
+                <label>EL CORTE INGLES-GENERICO Own System</label>
+            </value>
+            <value>
+                <fullName>FOX Own System</fullName>
+                <default>false</default>
+                <label>FOX Own System</label>
+            </value>
+            <value>
+                <fullName>Gescode/QuickSportsPRO</fullName>
+                <default>false</default>
+                <label>Gescode/QuickSportsPRO</label>
+            </value>
+            <value>
+                <fullName>GrupoActive/LS Retail Nav/IECISA/Conexflow</fullName>
+                <default>false</default>
+                <label>GrupoActive/LS Retail Nav/IECISA/Conexflow</label>
+            </value>
+            <value>
+                <fullName>HIPERCOR Own System</fullName>
+                <default>false</default>
+                <label>HIPERCOR Own System</label>
+            </value>
+            <value>
+                <fullName>I LIKE TO BUY ZARAGOZA Own System</fullName>
+                <default>false</default>
+                <label>I LIKE TO BUY ZARAGOZA Own System</label>
+            </value>
+            <value>
+                <fullName>ICG/FrontRetail</fullName>
+                <default>false</default>
+                <label>ICG/FrontRetail</label>
+            </value>
+            <value>
+                <fullName>INTROPIA Own System</fullName>
+                <default>false</default>
+                <label>INTROPIA Own System</label>
+            </value>
+            <value>
+                <fullName>JESUS DEL POZO Own System</fullName>
+                <default>false</default>
+                <label>JESUS DEL POZO Own System</label>
+            </value>
+            <value>
+                <fullName>LA MARTINA Own System</fullName>
+                <default>false</default>
+                <label>LA MARTINA Own System</label>
+            </value>
+            <value>
+                <fullName>LUISA SPAGNOLI PUERTO BANUS Own System</fullName>
+                <default>false</default>
+                <label>LUISA SPAGNOLI PUERTO BANUS Own System</label>
+            </value>
+            <value>
+                <fullName>MARIONNAUD Own System</fullName>
+                <default>false</default>
+                <label>MARIONNAUD Own System</label>
+            </value>
+            <value>
+                <fullName>Moddo</fullName>
+                <default>false</default>
+                <label>Moddo</label>
+            </value>
+            <value>
+                <fullName>Moddo/TPV Gestion</fullName>
+                <default>false</default>
+                <label>Moddo/TPV Gestion</label>
+            </value>
+            <value>
+                <fullName>NAËLLE Own System</fullName>
+                <default>false</default>
+                <label>NAËLLE Own System</label>
+            </value>
+            <value>
+                <fullName>NCR</fullName>
+                <default>false</default>
+                <label>NCR</label>
+            </value>
+            <value>
+                <fullName>OFFICINE PANERAI Own System</fullName>
+                <default>false</default>
+                <label>OFFICINE PANERAI Own System</label>
+            </value>
+            <value>
+                <fullName>OPTICA 2000 Own System</fullName>
+                <default>false</default>
+                <label>OPTICA 2000 Own System</label>
+            </value>
+            <value>
+                <fullName>OUTLET TEMPE Own System</fullName>
+                <default>false</default>
+                <label>OUTLET TEMPE Own System</label>
+            </value>
+            <value>
+                <fullName>PracticsBS/VTiger</fullName>
+                <default>false</default>
+                <label>PracticsBS/VTiger</label>
+            </value>
+            <value>
+                <fullName>Prodware/FastSales</fullName>
+                <default>false</default>
+                <label>Prodware/FastSales</label>
+            </value>
+            <value>
+                <fullName>PUNT ROMA Own System</fullName>
+                <default>false</default>
+                <label>PUNT ROMA Own System</label>
+            </value>
+            <value>
+                <fullName>RABAT Own System</fullName>
+                <default>false</default>
+                <label>RABAT Own System</label>
+            </value>
+            <value>
+                <fullName>SALVADOR BACHILLER Own System</fullName>
+                <default>false</default>
+                <label>SALVADOR BACHILLER Own System</label>
+            </value>
+            <value>
+                <fullName>SFERA Own System</fullName>
+                <default>false</default>
+                <label>SFERA Own System</label>
+            </value>
+            <value>
+                <fullName>Sipay/SipayPLUS</fullName>
+                <default>false</default>
+                <label>Sipay/SipayPLUS</label>
+            </value>
+            <value>
+                <fullName>Status2/ST MODA V8</fullName>
+                <default>false</default>
+                <label>Status2/ST MODA V8</label>
+            </value>
+            <value>
+                <fullName>Status2/STMODA TPV 8</fullName>
+                <default>false</default>
+                <label>Status2/STMODA TPV 8</label>
+            </value>
+            <value>
+                <fullName>Stratesys/BrandPOS</fullName>
+                <default>false</default>
+                <label>Stratesys/BrandPOS</label>
+            </value>
+            <value>
+                <fullName>SUPERCOR Own System</fullName>
+                <default>false</default>
+                <label>SUPERCOR Own System</label>
+            </value>
+            <value>
+                <fullName>TENKEY Own System</fullName>
+                <default>false</default>
+                <label>TENKEY Own System</label>
+            </value>
+            <value>
+                <fullName>WHIZ Own System</fullName>
+                <default>false</default>
+                <label>WHIZ Own System</label>
+            </value>
+            <value>
+                <fullName>Wincor/TP. NET (Inditex Customized)</fullName>
+                <default>false</default>
+                <label>Wincor/TP. NET (Inditex Customized)</label>
+            </value>
+            <value>
+                <fullName>Winparf</fullName>
+                <default>false</default>
+                <label>Winparf</label>
+            </value>
+            <value>
+                <fullName>AIB</fullName>
+                <default>false</default>
+                <label>AIB</label>
+            </value>
+            <value>
+                <fullName>Banco Popular</fullName>
+                <default>false</default>
+                <label>Banco Popular</label>
+            </value>
+            <value>
+                <fullName>Banco Sabadell</fullName>
+                <default>false</default>
+                <label>Banco Sabadell</label>
+            </value>
+            <value>
+                <fullName>Banco Sabadell de Ibiza</fullName>
+                <default>false</default>
+                <label>Banco Sabadell de Ibiza</label>
+            </value>
+            <value>
+                <fullName>Bankia</fullName>
+                <default>false</default>
+                <label>Bankia</label>
+            </value>
+            <value>
+                <fullName>BBVA</fullName>
+                <default>false</default>
+                <label>BBVA</label>
+            </value>
+            <value>
+                <fullName>Cajas rurales unidas</fullName>
+                <default>false</default>
+                <label>Cajas rurales unidas</label>
+            </value>
+            <value>
+                <fullName>Catalunya banc</fullName>
+                <default>false</default>
+                <label>Catalunya banc</label>
+            </value>
+            <value>
+                <fullName>CCCR AJUNt. DE PALMA (Fundación Turismo Palma de Mallorca 365)</fullName>
+                <default>false</default>
+                <label>CCCR AJUNt. DE PALMA (Fundación Turismo Palma de Mallorca 365)</label>
+            </value>
+            <value>
+                <fullName>Ibercaja</fullName>
+                <default>false</default>
+                <label>Ibercaja</label>
+            </value>
+            <value>
+                <fullName>Kutxabank</fullName>
+                <default>false</default>
+                <label>Kutxabank</label>
+            </value>
+            <value>
+                <fullName>La Caixa</fullName>
+                <default>false</default>
+                <label>La Caixa</label>
+            </value>
+            <value>
+                <fullName>La Caixa – Powered by PTF</fullName>
+                <default>false</default>
+                <label>La Caixa – Powered by PTF</label>
+            </value>
+            <value>
+                <fullName>Liberbank</fullName>
+                <default>false</default>
+                <label>Liberbank</label>
+            </value>
+            <value>
+                <fullName>NovaGalicia Banco</fullName>
+                <default>false</default>
+                <label>NovaGalicia Banco</label>
+            </value>
+            <value>
+                <fullName>Unicaja</fullName>
+                <default>false</default>
+                <label>Unicaja</label>
+            </value>
+            <value>
+                <fullName>ALDI DATENKASSE</fullName>
+                <default>false</default>
+                <label>ALDI DATENKASSE</label>
+            </value>
+            <value>
+                <fullName>ALIDATA</fullName>
+                <default>false</default>
+                <label>ALIDATA</label>
+            </value>
+            <value>
+                <fullName>ATLANTIC AC2</fullName>
+                <default>false</default>
+                <label>ATLANTIC AC2</label>
+            </value>
+            <value>
+                <fullName>CR MAIS</fullName>
+                <default>false</default>
+                <label>CR MAIS</label>
+            </value>
+            <value>
+                <fullName>CRFAST</fullName>
+                <default>false</default>
+                <label>CRFAST</label>
+            </value>
+            <value>
+                <fullName>DIAMANTE</fullName>
+                <default>false</default>
+                <label>DIAMANTE</label>
+            </value>
+            <value>
+                <fullName>EYE PEAK</fullName>
+                <default>false</default>
+                <label>EYE PEAK</label>
+            </value>
+            <value>
+                <fullName>FACTURA NA HORA</fullName>
+                <default>false</default>
+                <label>FACTURA NA HORA</label>
+            </value>
+            <value>
+                <fullName>T&amp;T</fullName>
+                <default>false</default>
+                <label>T&amp;T</label>
+            </value>
+            <value>
+                <fullName>G-ATLAS</fullName>
+                <default>false</default>
+                <label>G-ATLAS</label>
+            </value>
+            <value>
+                <fullName>GESGOLD</fullName>
+                <default>false</default>
+                <label>GESGOLD</label>
+            </value>
+            <value>
+                <fullName>GESLAB</fullName>
+                <default>false</default>
+                <label>GESLAB</label>
+            </value>
+            <value>
+                <fullName>GILOR</fullName>
+                <default>false</default>
+                <label>GILOR</label>
+            </value>
+            <value>
+                <fullName>GLOCALWARE ERP</fullName>
+                <default>false</default>
+                <label>GLOCALWARE ERP</label>
+            </value>
+            <value>
+                <fullName>GOUWIN</fullName>
+                <default>false</default>
+                <label>GOUWIN</label>
+            </value>
+            <value>
+                <fullName>GPVWIN</fullName>
+                <default>false</default>
+                <label>GPVWIN</label>
+            </value>
+            <value>
+                <fullName>GU</fullName>
+                <default>false</default>
+                <label>GU</label>
+            </value>
+            <value>
+                <fullName>ICAR DMS</fullName>
+                <default>false</default>
+                <label>ICAR DMS</label>
+            </value>
+            <value>
+                <fullName>ISRETAIL</fullName>
+                <default>false</default>
+                <label>ISRETAIL</label>
+            </value>
+            <value>
+                <fullName>ITOT</fullName>
+                <default>false</default>
+                <label>ITOT</label>
+            </value>
+            <value>
+                <fullName>JD EDWARDS ENTERPRISE ONE</fullName>
+                <default>false</default>
+                <label>JD EDWARDS ENTERPRISE ONE</label>
+            </value>
+            <value>
+                <fullName>KEYINVOICE ONLINE</fullName>
+                <default>false</default>
+                <label>KEYINVOICE ONLINE</label>
+            </value>
+            <value>
+                <fullName>KORA</fullName>
+                <default>false</default>
+                <label>KORA</label>
+            </value>
+            <value>
+                <fullName>MAXIRETAIL</fullName>
+                <default>false</default>
+                <label>MAXIRETAIL</label>
+            </value>
+            <value>
+                <fullName>MF-POS</fullName>
+                <default>false</default>
+                <label>MF-POS</label>
+            </value>
+            <value>
+                <fullName>MCROS</fullName>
+                <default>false</default>
+                <label>MCROS</label>
+            </value>
+            <value>
+                <fullName>MULTI</fullName>
+                <default>false</default>
+                <label>MULTI</label>
+            </value>
+            <value>
+                <fullName>Q2</fullName>
+                <default>false</default>
+                <label>Q2</label>
+            </value>
+            <value>
+                <fullName>ONELIDER</fullName>
+                <default>false</default>
+                <label>ONELIDER</label>
+            </value>
+            <value>
+                <fullName>OPERA</fullName>
+                <default>false</default>
+                <label>OPERA</label>
+            </value>
+            <value>
+                <fullName>ORACLE</fullName>
+                <default>false</default>
+                <label>ORACLE</label>
+            </value>
+            <value>
+                <fullName>PENHORWIN</fullName>
+                <default>false</default>
+                <label>PENHORWIN</label>
+            </value>
+            <value>
+                <fullName>PEOPLE SOFT</fullName>
+                <default>false</default>
+                <label>PEOPLE SOFT</label>
+            </value>
+            <value>
+                <fullName>PHC</fullName>
+                <default>false</default>
+                <label>PHC</label>
+            </value>
+            <value>
+                <fullName>PIGWIN</fullName>
+                <default>false</default>
+                <label>PIGWIN</label>
+            </value>
+            <value>
+                <fullName>POS AHRESP</fullName>
+                <default>false</default>
+                <label>POS AHRESP</label>
+            </value>
+            <value>
+                <fullName>GESTGLOBAL</fullName>
+                <default>false</default>
+                <label>GESTGLOBAL</label>
+            </value>
+            <value>
+                <fullName>PRIMAVERA</fullName>
+                <default>false</default>
+                <label>PRIMAVERA</label>
+            </value>
+            <value>
+                <fullName>PROJECTO X</fullName>
+                <default>false</default>
+                <label>PROJECTO X</label>
+            </value>
+            <value>
+                <fullName>PSSST!</fullName>
+                <default>false</default>
+                <label>PSSST!</label>
+            </value>
+            <value>
+                <fullName>RESIDUM</fullName>
+                <default>false</default>
+                <label>RESIDUM</label>
+            </value>
+            <value>
+                <fullName>RETAIL MANAGEMENT</fullName>
+                <default>false</default>
+                <label>RETAIL MANAGEMENT</label>
+            </value>
+            <value>
+                <fullName>RETAIL PRO</fullName>
+                <default>false</default>
+                <label>RETAIL PRO</label>
+            </value>
+            <value>
+                <fullName>REVWIN</fullName>
+                <default>false</default>
+                <label>REVWIN</label>
+            </value>
+            <value>
+                <fullName>SAGE</fullName>
+                <default>false</default>
+                <label>SAGE</label>
+            </value>
+            <value>
+                <fullName>SALSA/G3</fullName>
+                <default>false</default>
+                <label>SALSA/G3</label>
+            </value>
+            <value>
+                <fullName>SENDYS</fullName>
+                <default>false</default>
+                <label>SENDYS</label>
+            </value>
+            <value>
+                <fullName>SHOPPY/MICROS</fullName>
+                <default>false</default>
+                <label>SHOPPY/MICROS</label>
+            </value>
+            <value>
+                <fullName>SIAC</fullName>
+                <default>false</default>
+                <label>SIAC</label>
+            </value>
+            <value>
+                <fullName>SIMPHONY</fullName>
+                <default>false</default>
+                <label>SIMPHONY</label>
+            </value>
+            <value>
+                <fullName>SOFTG</fullName>
+                <default>false</default>
+                <label>SOFTG</label>
+            </value>
+            <value>
+                <fullName>STORES2/MICROS</fullName>
+                <default>false</default>
+                <label>STORES2/MICROS</label>
+            </value>
+            <value>
+                <fullName>SW-1100</fullName>
+                <default>false</default>
+                <label>SW-1100</label>
+            </value>
+            <value>
+                <fullName>TETONLINE</fullName>
+                <default>false</default>
+                <label>TETONLINE</label>
+            </value>
+            <value>
+                <fullName>TLIM</fullName>
+                <default>false</default>
+                <label>TLIM</label>
+            </value>
+            <value>
+                <fullName>TP</fullName>
+                <default>false</default>
+                <label>TP</label>
+            </value>
+            <value>
+                <fullName>WCLINICAS</fullName>
+                <default>false</default>
+                <label>WCLINICAS</label>
+            </value>
+            <value>
+                <fullName>WGES</fullName>
+                <default>false</default>
+                <label>WGES</label>
+            </value>
+            <value>
+                <fullName>WHOTEL</fullName>
+                <default>false</default>
+                <label>WHOTEL</label>
+            </value>
+            <value>
+                <fullName>WIN</fullName>
+                <default>false</default>
+                <label>WIN</label>
+            </value>
+            <value>
+                <fullName>WINCOR</fullName>
+                <default>false</default>
+                <label>WINCOR</label>
+            </value>
+            <value>
+                <fullName>WINPLUS</fullName>
+                <default>false</default>
+                <label>WINPLUS</label>
+            </value>
+            <value>
+                <fullName>WINREST</fullName>
+                <default>false</default>
+                <label>WINREST</label>
+            </value>
+            <value>
+                <fullName>WINTOUCH</fullName>
+                <default>false</default>
+                <label>WINTOUCH</label>
+            </value>
+            <value>
+                <fullName>WPOS</fullName>
+                <default>false</default>
+                <label>WPOS</label>
+            </value>
+            <value>
+                <fullName>WSIR</fullName>
+                <default>false</default>
+                <label>WSIR</label>
+            </value>
+            <value>
+                <fullName>WVET</fullName>
+                <default>false</default>
+                <label>WVET</label>
+            </value>
+            <value>
+                <fullName>XD</fullName>
+                <default>false</default>
+                <label>XD</label>
+            </value>
+            <value>
+                <fullName>X-MOBILE</fullName>
+                <default>false</default>
+                <label>X-MOBILE</label>
+            </value>
+            <value>
+                <fullName>XSTORE</fullName>
+                <default>false</default>
+                <label>XSTORE</label>
+            </value>
+            <value>
+                <fullName>YOURCEGID</fullName>
+                <default>false</default>
+                <label>YOURCEGID</label>
+            </value>
+            <value>
+                <fullName>ZS GO</fullName>
+                <default>false</default>
+                <label>ZS GO</label>
+            </value>
+            <value>
+                <fullName>ZSCAFÉ</fullName>
+                <default>false</default>
+                <label>ZSCAFÉ</label>
+            </value>
+            <value>
+                <fullName>ZSFACT</fullName>
+                <default>false</default>
+                <label>ZSFACT</label>
+            </value>
+            <value>
+                <fullName>ZSPOS</fullName>
+                <default>false</default>
+                <label>ZSPOS</label>
+            </value>
+            <value>
+                <fullName>ZSREST</fullName>
+                <default>false</default>
+                <label>ZSREST</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>AIB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>Banco Popular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>Banco Sabadell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>Banco Sabadell de Ibiza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>Bankia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>BBVA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>Cajas rurales unidas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>Catalunya banc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>CCCR AJUNt. DE PALMA (Fundación Turismo Palma de Mallorca 365)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>Ibercaja</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>Kutxabank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>La Caixa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>La Caixa – Powered by PTF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>Liberbank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>NovaGalicia Banco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <valueName>Unicaja</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>Aitana/LS NAV</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>BRICOR Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>BRICOR-GENERICO Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>CHAPS Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>CPI Retail/Retail Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>EL CORTE INGLES Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>EL CORTE INGLES-GENERICO Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>FOX Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>Gescode/QuickSportsPRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>GrupoActive/LS Retail Nav/IECISA/Conexflow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>HIPERCOR Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>I LIKE TO BUY ZARAGOZA Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>ICG/FrontRetail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>INTROPIA Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>JESUS DEL POZO Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>LA MARTINA Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>LUISA SPAGNOLI PUERTO BANUS Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>MARIONNAUD Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>Moddo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>Moddo/TPV Gestion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>NAËLLE Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>NCR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>OFFICINE PANERAI Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>OPTICA 2000 Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>OUTLET TEMPE Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>PracticsBS/VTiger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>Prodware/FastSales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>PUNT ROMA Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>RABAT Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>SALVADOR BACHILLER Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>SFERA Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>Sipay/SipayPLUS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>Status2/ST MODA V8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>Status2/STMODA TPV 8</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>Stratesys/BrandPOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>SUPERCOR Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>TENKEY Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>WHIZ Own System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>Wincor/TP. NET (Inditex Customized)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>Winparf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>ALDI DATENKASSE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>ALIDATA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>ATLANTIC AC2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>CR MAIS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>CRFAST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>DIAMANTE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>EYE PEAK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>FACTURA NA HORA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>T&amp;T</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>G-ATLAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>GESGOLD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>GESLAB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>GILOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>GLOCALWARE ERP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>GOUWIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>GPVWIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>GU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>ICAR DMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>ISRETAIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>ITOT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>JD EDWARDS ENTERPRISE ONE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>KEYINVOICE ONLINE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>KORA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>MAXIRETAIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>MF-POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>MCROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>MULTI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>Q2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>ONELIDER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>OPERA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>ORACLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>PENHORWIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>PEOPLE SOFT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>PHC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>PIGWIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>POS AHRESP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>GESTGLOBAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>PRIMAVERA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>PROJECTO X</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>PSSST!</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>RESIDUM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>RETAIL MANAGEMENT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>RETAIL PRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>REVWIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>SAGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>SALSA/G3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>SENDYS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>SHOPPY/MICROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>SIAC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>SIMPHONY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>SOFTG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>STORES2/MICROS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>SW-1100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>TETONLINE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>TLIM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>TP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>WCLINICAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>WGES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>WHOTEL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>WIN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>WINCOR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>WINPLUS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>WINREST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>WINTOUCH</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>WPOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>WSIR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>WVET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>XD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>X-MOBILE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>XSTORE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>YOURCEGID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>ZS GO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>ZSCAFÉ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>ZSFACT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>ZSPOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>ZSREST</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

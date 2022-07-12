@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Tourist_Email_Address__c</columns>
+    <columns>Tourist_Passport_Number__c</columns>
+    <columns>Tourist_Premier_Pass_Id__c</columns>
+    <columns>Country_of_Purchase1__c</columns>
+    <columns>Latest_Payment_Status__c</columns>
+    <columns>Purchase_Date__c</columns>
+    <columns>Refund_Amount__c</columns>
+    <columns>Sales_Amount__c</columns>
+    <columns>Sales_Currency__c</columns>
+    <columns>Tourist_First_Name__c</columns>
+    <columns>Tourist_Last_Name__c</columns>
+    <columns>Credit_Card_Number__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

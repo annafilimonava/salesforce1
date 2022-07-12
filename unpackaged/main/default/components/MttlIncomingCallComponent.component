@@ -1,0 +1,218 @@
+<apex:component controller="MttlIncomingcallcontroller" allowDML="true">
+    <head>
+        <script type="text/javascript">
+            var __sfdcSessionId = '{!$Api.Session_Id}';
+            var ispopupvisible = false;
+            var notified = '{!$Label.Call_Notified}';
+            var contd = '{!$Label.Call_Connected}';
+            var onhld = '{!$Label.Call_OnHold}';
+            var discon = '{!$Label.Call_Disconnected}';
+            var transfring = '{!$Label.Call_Transferring}';
+            var wlp = window.location.protocol;
+            var wlh = window.location.hostname;
+            var url = wlp  + '//' + wlh + '/cometd/24.0/';
+            var isIncoming = false;
+            var firstCallNo;
+            var secCallNo;            
+        </script>
+        <script src="/soap/ajax/29.0/connection.js" type="text/javascript"></script>
+        <script src="/soap/ajax/29.0/apex.js" type="text/javascript"></script>
+        <apex:stylesheet value="{!URLFOR($Resource.Uidesigns, 'assets/styles/salesforce-lightning-design-system-vf.css')}" />
+        <link rel='stylesheet' type='text/css' href='//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css' />
+        <link rel='stylesheet' type='text/css' href="{!URLFOR($Resource.lyncfiles, '/MttlIncomingCall.css')}" />
+        <script src="{!URLFOR($Resource.lyncfiles, '/apex.js')}" type="text/javascript"></script>
+        <apex:includeScript value="{!URLFOR($Resource.JqueryFiles, 'Jquery/cometd.js')}" />
+        <apex:includeScript value="{!URLFOR($Resource.JqueryFiles, 'Jquery/jquery.js')}" />
+        <apex:includeScript value="{!URLFOR($Resource.JqueryFiles, 'Jquery/jquery_cometd.js')}" />
+        <apex:includeScript value="/support/console/37.0/integration.js" />
+        <script src="{!URLFOR($Resource.lyncfiles, '/MttlStreamingAPI.js')}" type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.js"></script>
+        <script src="{!URLFOR($Resource.aljs, '/jquery/jquery.aljs-all.min.js')}"></script>
+        <script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+        <script src="{!URLFOR($Resource.lyncfiles, '/MttlIncomingCall.js')}" type="text/javascript"></script>
+
+    </head>
+    <div class="slds">
+        <!--call popup start-->
+        <div class="slds-modal slds-fade-in-close slds-full-pop" id="slds-full-pop" aria-hidden="false" role="dialog">
+            <div class="slds-modal__container">
+                <div class="slds-modal__content slds-p-around--medium">
+                    <div>
+                        <div class="slds-close-button">
+                            <span>x</span>
+                        </div>
+                        <div class="slds-lookup" data-select="single" data-scope="single">
+                            <div class="slds-form-element">
+                                <!--External number call start-->
+                                <div class="slds-form-element__control">
+                                    <input class="slds-input-transfer-popup" id="externalno-popup" placeholder="Enter External Number" type="text" style="background-color: transparent;border-radius: 24px;" />
+                                    <span class="slds-ext-call-image slds-sidebar-call-image slds-popup-ext-call" onclick="externalcall('externalno-popup')">
+                  <img src="{!URLFOR($Resource.fintraximages, 'call_icon_.svg')}" />
+                  </span>
+                                </div>
+                                <!--External number call end-->
+                                <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon--right">
+                                    <input id="call-transfer-id" class="slds-input slds-input-popup" type="text" aria-autocomplete="list" role="combobox" aria-expanded="true" aria-activedescendant="" placeholder='Enter Name' />
+                                    <div class="slds-scroll">
+                                        <table class="slds-table slds-table--bordered slds-table--cell-buffer slds-table--fixed-layout slds-table-popup " id='contactsTableName'>
+                                            <tbody>
+                                                <apex:repeat value="{!lstusr}" var="u">
+                                                    <tr class="slds-hint-parent">
+                                                        <td>
+                                                            {!u.name}
+                                                            <span class="slds-call-image" onClick="AcceptCallTransfer('{!u.LyncId__c}');">
+                              <img src="{!URLFOR($Resource.fintraximages, 'call_icon_.svg')}" />
+                              </span>
+                                                        </td>
+                                                    </tr>
+                                                </apex:repeat>
+                                                <tr class="slds-nrec">
+                                                    <td>no records found</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--end-->
+        <!--start mini popu-->
+        <div class="slds-popup  samllcalllog" id="drag1">
+            <div class="slds-mini-component">
+                <span id="countdown">00:00:00</span>
+                <img src="{!URLFOR($Resource.fintraximages, 'call_sm.svg')}" class="slds-call-lift" />
+                <img src="{!URLFOR($Resource.fintraximages, 'call_transfer_sm.svg')}" class="slds-transfer-call" onClick="callTransfer();" />
+                <img src="{!URLFOR($Resource.fintraximages, 'call_hold_sm.svg')}"  onClick="callResume();" class="slds-icon-resume-call slds-hide"/>
+                <img src="{!URLFOR($Resource.fintraximages, 'call_end_sm.svg')}" onClick="endOngoingCall();" />
+            </div>
+        </div>
+        <!--end mini popup-->
+        <!--start popup-->
+        <div class="slds-modal slds-fade-in-open slds-calllog" aria-hidden="false" role="dialog">
+            <div class="slds-modal__container">
+                <div class="slds-modal__header">
+                    <div class="slds-image">
+
+                        <!--<img src="{!URLFOR($Resource.fintraximages, 'user_placeholder_call_popup.svg')}" />-->
+                        <div class="slds-avatar-icon-wrapper">
+                            <span class="slds-icon_container">
+                            <svg aria-hidden="true" class="slds-icon--small slds-icon-text-default">
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Resource.Uidesigns, '/assets/icons/utility-sprite/svg/symbols.svg#user')}"></use>
+                            </svg>
+                          </span>
+                        </div>
+                        <h3 class="slds-text-heading--small">
+            <apex:outputPanel rendered="{!accountList.size>0}">
+              {!accountList[0].Name}
+            </apex:outputPanel>
+            <apex:outputPanel rendered="{!accountList.size==0}" >
+              {!popupcontactName}
+            </apex:outputPanel>
+          </h3>
+                        <img src="{!URLFOR($Resource.fintraximages, 'progress.gif')}" />
+                        <div class="slds-call-receive">
+                            <img src="{!URLFOR($Resource.fintraximages, 'call_btn_lg.svg')}" onClick="acceptCallIncomingCall();" class="callstart" />
+                            <img src="{!URLFOR($Resource.fintraximages, 'call_end_btn_lg.svg')}" onClick="rejectIncomingCall();" class="slds-not-selected slds-end-call-progress" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="slds-backdrop slds-backdrop--open" id="slds-background"></div>
+        <!-- End Popup --->
+        <!-- Side Bar Menu --->
+        <div class="slds-dropdown-trigger slds-dropdown-trigger--click slds-is-open" style="display:none;" aria-expanded="true">
+            <button class="btn_show slds-button slds-button--icon-border-filled" aria-haspopup="true">
+        <label>Create</label>
+        <svg aria-hidden="true" class="slds-button__icon">
+          <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Resource.Uidesigns, '/assets/icons/utility-sprite/svg/symbols.svg#down')}"></use>
+        </svg>
+        <span class="slds-assistive-text">Show More</span>
+      </button>
+            <div class="slds-dropdown slds-dropdown--left slds-dropdown--small" style="display:none;">
+                <ul class="dropdown__list" role="menu">
+                    <li class="slds-dropdown__item slds-is-selected" aria-selected="true">
+                        <a href="javascript:void(0);" onclick="OpenCreateRecordSubtab('accounttab');" role="menuitem">
+                            <p class="slds-truncate">
+                                <svg aria-hidden="true" class="slds-icon slds-icon--selected slds-icon--x-small slds-icon-text-default slds-m-right--x-small">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Resource.Uidesigns, '/assets/icons/utility-sprite/svg/symbols.svg#check')}"></use>
+                </svg> New Account
+                            </p>
+                            <svg aria-hidden="true" class="slds-icon slds-icon--x-small slds-icon-text-default slds-m-left--small slds-shrink-none">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="/assets/icons/utility-sprite/svg/symbols.svg#table"></use>
+              </svg>
+                        </a>
+                    </li>
+                    <li class="slds-dropdown__item">
+                        <a href="javascript:void(0);" onclick="OpenCreateRecordSubtab('contacttab');" role="menuitem">
+                            <p class="slds-truncate">
+                                <svg aria-hidden="true" class="slds-icon slds-icon--selected slds-icon--x-small slds-icon-text-default slds-m-right--x-small">
+                  <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Resource.Uidesigns, '/assets/icons/utility-sprite/svg/symbols.svg#check')}"></use>
+                </svg> New Contact
+                            </p>
+                            <svg aria-hidden="true" class="slds-icon slds-icon--x-small slds-icon-text-default slds-m-left--small slds-shrink-none">
+                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Resource.Uidesigns, '/assets/icons/utility-sprite/svg/symbols.svg#kanban')}"></use>
+              </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- End Side bar Menu --->
+        <apex:form id="x">
+            <apex:outputPanel >
+                <div class="slds-container--center slds-container--fluid">
+                    <div class="slds-grid slds-grid--align-center">
+
+                        <div class="slds-avatar-icon-wrapper">
+                            <span class="slds-icon_container">
+                            <svg aria-hidden="true" class="slds-icon--small slds-icon-text-default">
+                              <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Resource.Uidesigns, '/assets/icons/utility-sprite/svg/symbols.svg#user')}"></use>
+                            </svg>
+                          </span>
+                        </div>
+
+                    </div>
+                    <!--account related contacts -->
+                    <apex:actionFunction name="af_reRenderSearchBlock" reRender="searchBlock" />
+                    <apex:outputPanel id="searchBlock">
+                        <apex:outputPanel rendered="{!searchResults.size>0}">
+                            <table class="slds-table slds-table--bordered slds-table--cell-buffer slds-table--fixed-layout" id='contactsTable'>
+                                <thead>
+                                    <tr>
+                                        <th>Type</th>
+                                        <th>Name</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <apex:repeat value="{!searchResults}" var="c">
+                                        <tr class="slds-hint-parent">
+                                            <td class="slds-truncate" data-label="Objectname" title="Cloudhub">
+                                                {!c.sObjectTypeName}
+                                            </td>
+                                            <td class="slds-truncate" data-label="name" title="Cloudhub">
+                                                <a onclick="OpenMatchRecordSubtab('{!c.record['id']}','{!c.record['Name']}');"> {!c.record['Name']}</a>
+                                            </td>
+                                        </tr>
+                                    </apex:repeat>
+                                </tbody>
+                            </table>
+                        </apex:outputPanel>
+                    </apex:outputPanel>
+                    <!--end account related contacts -->
+                </div>
+            </apex:outputPanel>
+            <!--<apex:outputPanel rendered="{!globalsearchblock}">-->
+            <apex:outputPanel rendered="{!searchResults.size==0}">
+                <c:MttlGlobalSearch />
+            </apex:outputPanel>
+        </apex:form>
+    </div>
+</apex:component>

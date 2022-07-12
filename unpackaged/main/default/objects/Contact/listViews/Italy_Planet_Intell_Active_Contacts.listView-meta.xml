@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Italy_Planet_Intell_Active_Contacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Position__c</columns>
+    <columns>Planet_Intelligence__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.PHONE3</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Contact_Roles__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account.Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>Italy</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Active,Prospect</value>
+    </filters>
+    <filters>
+        <field>CONTACT.LAST_NAME</field>
+        <operation>notEqual</operation>
+        <value>PEC</value>
+    </filters>
+    <filters>
+        <field>Account.Account_ID__c</field>
+        <operation>startsWith</operation>
+        <value>IT,ITS</value>
+    </filters>
+    <filters>
+        <field>Account.Owner_Last_Name__c</field>
+        <operation>equals</operation>
+        <value>Zancan</value>
+    </filters>
+    <filters>
+        <field>Inactive__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Italy Planet Intell. Active Contacts</label>
+</ListView>

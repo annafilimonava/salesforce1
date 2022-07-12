@@ -1,0 +1,16 @@
+<font face="verdana,arial,sans-serif">
+Buongiorno<p>
+
+Il seguente POS sarà sostituito, potreste prenotare un ritiro di quello guasto?<p>
+
+Grazie mille<br>
+POS Support IT<p>
+
+<b>Account ID</b> = {!Account.Account_ID__c}<br>
+<b>Account Name</b>  = {!Case.Account}<br>
+<b>Case Creation Date:</b>  {!Case.CreatedDate}<br>
+<b>Case Priority Case:</b>  {!Case.Priority}<br>
+<b>Case Type:</b>                {!Case.Type}<br>
+<b>Case Reason:</b>           {!Case.Case_Reason__c}<br>
+<b>Case Subject:</b>           {!Case.Subject}<br>
+<b>Case Status:</b>             {!Case.Status}<br>

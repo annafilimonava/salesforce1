@@ -1,0 +1,11 @@
+<apex:page standardController="Account" tabStyle="Account" recordSetVar="AllAccounts" lightningStylesheets="true"  >
+    <!-- Add below each field you reference in your Flow -->   
+    <apex:repeat value="{!AllAccounts}" var="row" rendered="false">
+        {!row.Name}
+        </apex:repeat>
+    <!-- Runs your Flow -->   
+    <flow:interview name="Shop_Visits"
+          finishLocation="{!URLFOR($Action.Account.Tab, $ObjectType.Account)}">
+        <apex:param name="CollVarAccounts" value="{!Selected}"/>
+    </flow:interview>
+</apex:page>

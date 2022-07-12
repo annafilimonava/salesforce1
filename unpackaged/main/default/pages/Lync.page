@@ -1,0 +1,28 @@
+<apex:page showHeader="false" standardStylesheets="true">
+     <script>
+      var __sfdcSessionId = '{!$Api.Session_Id}';
+      sforce.connection.sessionId = "{!$Api.Session_ID}";
+      var wlp = window.location.protocol;
+      var wlh = window.location.hostname;
+      var url = wlp  + '//' + wlh + '/cometd/24.0/';      
+      var tab1Id;
+      var tab2Id;
+      var openTab1;
+      var openTab2;
+      var isCloseEvntInvoked;
+      var notified='{!$Label.Call_Notified}';
+      var discon='{!$Label.Call_Disconnected}';
+      var conctng='{!$Label.Call_Connecting}';
+      var conectd='{!$Label.Call_Connected}';
+      var statuschanged='{!$Label.Call_StatusChanged}';      
+   </script>
+   <apex:includeScript value="/soap/ajax/34.0/connection.js" />
+   <apex:includeScript value="/soap/ajax/34.0/apex.js" />
+   <apex:includeScript value="{!URLFOR($Resource.JqueryFiles, 'Jquery/cometd.js')}"/>
+   <apex:includeScript value="{!URLFOR($Resource.JqueryFiles, 'Jquery/jquery.js')}"/>
+   <apex:includeScript value="{!URLFOR($Resource.JqueryFiles, 'Jquery/jquery_cometd.js')}"/>
+   <apex:includeScript value="/soap/ajax/24.0/connection.js" />
+   <apex:includeScript value="/soap/ajax/24.0/apex.js" />
+   <apex:includeScript value="/support/console/37.0/integration.js" />
+   <script src="{!URLFOR($Resource.lyncfiles, '/lync.js')}" type="text/javascript"></script>
+</apex:page>

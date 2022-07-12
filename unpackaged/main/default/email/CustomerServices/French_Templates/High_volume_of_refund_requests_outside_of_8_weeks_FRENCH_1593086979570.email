@@ -1,0 +1,22 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Bonjour </span><span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Tourist__c}}}</span><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">,</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Merci pour votre courrier.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Nous connaissons actuellement un volume &eacute;lev&eacute; de demandes de remboursement et, par cons&eacute;quent, le traitement des bordereaux peut prendre plus de temps que la p&eacute;riode indiqu&eacute;e de 6 &agrave; 8 semaines.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">J'ai v&eacute;rifi&eacute; notre base de donn&eacute;es et &agrave; ce jour nous n'avons pas re&ccedil;u votre bordereau </span><span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Tax_Free_Form__c}}}</span><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">. D&egrave;s que nous le recevrons, nous le traiterons en cons&eacute;quence.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Cela peut prendre 3 &agrave; 4 semaines suppl&eacute;mentaires, donc je voudrais vous demander un peu de patience. Une fois la p&eacute;riode mentionn&eacute;e ci-dessus &eacute;coul&eacute;e, veuillez nous contacter &agrave; nouveau pour une mise &agrave; jour.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Merci de votre patience et de vos excuses pour le retard dans le processus.</span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Cordialement. </span></p>
+ </body>
+</html>

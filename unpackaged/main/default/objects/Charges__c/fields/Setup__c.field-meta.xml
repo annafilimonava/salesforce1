@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Setup__c</fullName>
+    <externalId>false</externalId>
+    <label>Setup</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Charges__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pay by link</fullName>
+                <default>false</default>
+                <label>Pay by link</label>
+            </value>
+            <value>
+                <fullName>i-Pay</fullName>
+                <default>false</default>
+                <label>i-Pay</label>
+            </value>
+            <value>
+                <fullName>Straight W2P Website/Booking Engine</fullName>
+                <default>false</default>
+                <label>Straight W2P Website/Booking Engine</label>
+            </value>
+            <value>
+                <fullName>Remote installation</fullName>
+                <default>false</default>
+                <label>Remote installation</label>
+            </value>
+            <value>
+                <fullName>Onsite installation</fullName>
+                <default>false</default>
+                <label>Onsite installation</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Web2Pay Set Up Fee Per MID</controllingFieldValue>
+            <valueName>Pay by link</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web2Pay Set Up Fee Per MID</controllingFieldValue>
+            <valueName>i-Pay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web2Pay Set Up Fee Per MID</controllingFieldValue>
+            <valueName>Straight W2P Website/Booking Engine</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

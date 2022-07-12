@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CC Approval Request Notification</name>
+    <style>none</style>
+    <subject>Commercial Committee Approval Request for Opportunity for {!Opportunity.Account}</subject>
+    <textOnly>The opportunity with a value of {!Opportunity.Opportunity_Value__c} has been submitted for approval by {!Approval_Requesting_User.Name}.
+
+This opportunity will require approval by the Commercial Committee.  If you are the country manager you may reject and then amend opportunity and resubmit or you may approve and the opportunity approval request will be forwarded to the Regional Director.  If you are the Regional Director please get approval from the Commercial Committee for this opportunity before approving.
+
+You may view the record by clicking here -&gt;{!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

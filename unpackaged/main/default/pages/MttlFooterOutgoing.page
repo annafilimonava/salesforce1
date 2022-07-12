@@ -1,0 +1,524 @@
+<apex:page showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" docType="html-5.0" controller="MttlFooterOutgoingCallController">
+    <script type="text/javascript">
+    var __sfdcSessionId = '{!$Api.Session_Id}';
+    sforce.connection.sessionId = __sfdcSessionId;
+    var wlp = window.location.protocol;
+    var wlh = window.location.hostname;
+    var url = wlp  + '//' + wlh + '/cometd/24.0/';
+    var enableCallTranfer=false; 
+    var discon = '{!$Label.Call_Disconnected}';
+    var contd = '{!$Label.Call_Connected}';
+    var transfring = '{!$Label.Call_Transferring}';
+    var contng = '{!$Label.Call_Connecting}';
+    var notified = '{!$Label.Call_Notified}';
+    var onhld = '{!$Label.Call_OnHold}';
+    var isOnhold = false;
+    var isSecondCall = false;  
+    var isFooter = false;
+    var firstCallNo;
+    var secCallNo;              
+    </script>
+    <apex:includeScript value="/soap/ajax/34.0/connection.js" />
+    <apex:includeScript value="/soap/ajax/34.0/apex.js" />
+    <apex:includeScript value="{!URLFOR($Resource.JqueryFiles, 'Jquery/cometd.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.JqueryFiles, 'Jquery/jquery.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.JqueryFiles, 'Jquery/jquery_cometd.js')}" />
+    <apex:includeScript value="/support/console/37.0/integration.js" />
+    <script src="{!URLFOR($Resource.lyncfiles, '/MttlStreamingAPI.js')}" type="text/javascript"></script>
+    <apex:stylesheet value="{!URLFOR($Resource.Uidesigns, 'assets/styles/salesforce-lightning-design-system-vf.css')}" />
+        <link rel='stylesheet' type='text/css' href='//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css' />
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.js"></script>
+    <script src="{!URLFOR($Resource.aljs, '/jquery/jquery.aljs-all.min.js')}"></script>
+    <script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script> 
+    <script src="{!URLFOR($Resource.lyncfiles, '/MttlFooterOutgoing.js')}" type="text/javascript"></script>
+    <link rel='stylesheet' type='text/css' href="{!URLFOR($Resource.lyncfiles, '/MttlFooterOutgoing.css')}" />
+    <script>
+    $(document).on('click','.slds-search-con',function(){
+        var searchVal = $('#slds-filter1').val();
+        if(searchVal.length>0){
+            $('.slds-search-status').text('Search Results');
+            filterCont($('#slds-filter1').val());
+        }
+    })
+    
+    
+ $(document).on("keyup","#slds-filter1",function(e){
+    var key = e.keyCode;  
+    var searchVal = $(this).val();
+    //alert(searchVal.length);
+    if((key == 8 || key == 46) && searchVal.length==0) { 
+    
+            $('.slds-search-status').text('Recently Viewed');
+            filterCont($('#slds-filter1').val());
+    }    
+});      
+    </script>
+    <style>
+.slds-search-contact{
+  position:relative;
+}
+#slds-filter1{
+  background-color:white;
+  background:white;
+}
+#slds-filter1+.slds-icon_container>svg{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 30px;
+    top: 7px;
+    cursor:pointer;
+}
+#slds-filter1{
+    background-color: white;
+    background: white;
+}
+
+#slds-filter1{
+    border-radius: 24px !important;
+    background-position: right 10px bottom 1px !important;
+}
+
+.slds-search-status{
+    text-transform: capitalize;
+    color: #177cd6;
+    padding-left: 15px;
+    display: block;
+    font-size: 12px;
+    padding-bottom: 5px;
+}
+</style>
+    <apex:form >
+        <apex:actionFunction name="updateStatus" reRender="aaa" action="{!updateUserStatus}">
+            <apex:param name="userstatus" value="" />
+        </apex:actionFunction>
+       <!-- <apex:actionFunction name="searchServer" action="{!runSearch}" rerender="content,debug,errors">
+            <apex:param name="Name" value="" />
+        </apex:actionFunction>-->
+        <apex:actionFunction name="callSubmit" action="{!addNotes}" rerender="content,activityblock,callblock,callingblock,externalcall">
+            <apex:param name="notes" value="" assignTo="{!callnotes}" />
+        </apex:actionFunction>
+                    
+                    <!-- ********************************** Notes and attachments for External Number ****************************************-->
+         <apex:actionFunction name="callSubmit1" action="{!addNotesexternalnumber}" rerender="content,activityblock,callblock,callingblock,externalcall">
+               <apex:param name="notes" value="" assignTo="{!callnotes}" />
+         </apex:actionFunction>                
+       <!-- <apex:actionFunction name="searchServer" action="{!runSearch}" rerender="content,debug,errors">
+             <apex:param name="Name" value="" />
+        </apex:actionFunction>-->
+              <apex:outputPanel >
+                      <div class="slds">
+                            
+                    <!--**********************call transfer popup start***************************-->
+                            
+                            <div class="slds-modal slds-fade-in-close slds-full-pop" id="slds-full-pop" aria-hidden="false" role="dialog">
+                                <apex:outputPanel id="transferpopup">
+                                    <div class="slds-modal__container slds-modal__container-custom">
+                                        <div class="slds-modal__content slds-p-around--medium">
+                                            <div>
+                                                <div class="slds-close-button">
+                                                    <span>x</span>
+                                                </div>
+                                                <div class="slds-form-element slds-external" style="margin-top: 0px;margin-bottom: 10px;width: 95%;">
+                                                    <div class="slds-form-element__control">
+                                                    <input class="slds-input-transfer-popup" id="externalno-popup" placeholder="Enter External Number" type="text" style="background-color: transparent;border-radius: 24px;"/>
+                                                        <span class="slds-ext-call-image slds-sidebar-call-image slds-popup-ext-call" onclick="externalcall('externalno-popup')">
+                                                        <img src="{!URLFOR($Resource.fintraximages, 'call_icon_.svg')}" />
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                                <div class="slds-lookup" data-select="single" data-scope="single">
+                                                    <div class="slds-form-element">
+                                                        <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon--right">
+                                                        <input id="call-transfer-id" class="slds-input slds-input-popup" type="text" aria-autocomplete="list" role="combobox" aria-expanded="true" aria-activedescendant="" placeholder='Enter Name'/>
+                                                            <div class="slds-scroll">
+                                                                <table class="slds-table slds-table--bordered slds-table--cell-buffer slds-table--fixed-layout slds-table-popup " id='contactsTableName'>
+                                                                    <tbody>
+                                                                        <apex:repeat value="{!lstusr}" var="u">
+                                                                            <tr class="slds-hint-parent">
+                                                                                <td>
+                                                                                    {!u.name} 
+                                                                                    <span class="slds-call-image" onClick="AcceptCallTransfer('{!u.LyncId__c}');">
+                                                                                        <img src="{!URLFOR($Resource.fintraximages, 'call_icon_.svg')}" />
+                                                                                    </span>
+                                                                                </td>
+                                                                            </tr>
+                                                                        </apex:repeat>
+                                                                            <tr class="slds-nrec">
+                                                                                <td>no records found</td>
+                                                                            </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </apex:outputPanel>
+                            </div>
+                            <div class="slds-backdrop" id="slds-background"></div>
+                            <!--*********************************************call transfer popup end******************************************-->
+                            <div class="slds-grid slds-grid--frame slds-grid--vertical">
+                            <!-- Header -->
+                            <!-- Stage Container -->
+                            <div class="stage-container slds-grid slds-nowrap slds-size--1-of-1">  
+                            <!--******************************* start Stage Left - Navigation ******************************************-->
+                                <div class="slds-col--padded slds-size--1-of-4  slds-right-border">
+                                            <div class="slds-avatar-header">
+                                                <span class="slds-icon_container">
+                                                    <svg aria-hidden="true" class="slds-icon--small slds-icon-text-default">
+                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Resource.Uidesigns, '/assets/icons/utility-sprite/svg/symbols.svg#user')}"></use>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                        <!--*****************************************status drop down**********************************-->
+                                        <div class="slds-profile">
+                                            <div class="slds-picklist" aria-expanded="true" data-aljs="picklist">
+                                                <p>
+                                                    <b>{!$User.FirstName} {!$User.LastName}</b>
+                                                </p>
+                                                <button class="slds-button slds-button--neutral slds-picklist__label slds-button-label" aria-haspopup="true">
+                                                    <span class="slds-truncate" id='usid'>{!st.User_Status__c}</span>
+                                                </button>
+                                                <button class="slds-button slds-button--neutral slds-picklist__label slds-button--svg slds-p-right--none" aria-haspopup="true">
+                                                    <svg aria-hidden="true" class="slds-button__icon slds-status-button">
+                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Resource.Uidesigns, '/assets/icons/utility-sprite/svg/symbols.svg#down')}"></use>
+                                                    </svg>
+                                                </button>
+                                                <div class="slds-dropdown slds-dropdown--left slds-dropdown--menu slds-dropdown-wrapper slds-hide">
+                                                    <ul class="slds-dropdown__list" role="menu">
+                                                        <li id="menu-0-0" href="#" class="slds-dropdown__item">
+                                                            <a href="javascript:void(0)" role="menuitemradio" onclick="callStatus(1);">
+                                                                <p class="slds-truncate">
+                                                                    <svg aria-hidden="true" class="slds-icon--small slds-m-right--small slds-icon-action-available">
+                                                                        <use href="{!URLFOR($Resource.Uidesigns, '/assets/icons/standard-sprite/svg/symbols.svg#available')}"></use>
+                                                                    </svg>
+                                                                    Available
+                                                                </p>
+                                                            </a>
+                                                        </li>
+                                                    <li id="menu-0-1" href="#" class="slds-dropdown__item">
+                                                        <a href="javascript:void(0)" role="menuitemradio" onclick="callStatus(2);">
+                                                            <p class="slds-truncate">
+                                                                <svg aria-hidden="true" class="slds-icon--small slds-m-right--small slds-icon-action-busy">
+                                                                    <use href="{!URLFOR($Resource.Uidesigns, '/assets/icons/standard-sprite/svg/symbols.svg#busy')}"></use>
+                                                                </svg>
+                                                                Busy
+                                                            </p>
+                                                        </a>
+                                                    </li>
+                                                    <li id="menu-0-2" href="#" class="slds-dropdown__item">
+                                                        <a href="javascript:void(0)" role="menuitemradio" onclick="callStatus(3);">
+                                                            <p class="slds-truncate">
+                                                                <svg aria-hidden="true" class="slds-icon--small slds-m-right--small slds-icon-action-do-not-disturb">
+                                                                    <use href="{!URLFOR($Resource.Uidesigns, '/assets/icons/standard-sprite/svg/symbols.svg#do-not-disturb')}"></use>
+                                                                </svg>
+                                                                Do Not Disturb
+                                                            </p>
+                                                        </a>
+                                                    </li>
+                                                    <li id="menu-0-3" href="#" class="slds-dropdown__item">
+                                                        <a href="javascript:void(0)" role="menuitemradio" onclick="callStatus(4);">
+                                                            <p class="slds-truncate">
+                                                                <svg aria-hidden="true" class="slds-icon--small slds-m-right--small slds-icon-action-be-right-back">
+                                                                    <use href="{!URLFOR($Resource.Uidesigns, '/assets/icons/standard-sprite/svg/symbols.svg#be-right-back')}"></use>
+                                                                </svg>
+                                                                Be Right Back
+                                                            </p>
+                                                        </a>
+                                                    </li>
+                                                    <li id="menu-0-4" href="#" class="slds-dropdown__item">
+                                                        <a href="javascript:void(0)" role="menuitemradio" onclick="callStatus(5);">
+                                                            <p class="slds-truncate">
+                                                                <svg aria-hidden="true" class="slds-icon--small slds-m-right--small slds-icon-action-off-work">
+                                                                    <use href="{!URLFOR($Resource.Uidesigns, '/assets/icons/standard-sprite/svg/symbols.svg#off-work')}"></use>
+                                                                </svg>
+                                                                Off Work
+                                                            </p>
+                                                        </a>
+                                                    </li>
+                                                    <li id="menu-0-5" href="#" class="slds-dropdown__item">
+                                                        <a href="javascript:void(0)" role="menuitemradio" onclick="callStatus(6);">
+                                                            <p class="slds-truncate">
+                                                                <svg aria-hidden="true" class="slds-icon--small slds-m-right--small slds-icon-action-away">
+                                                                    <use href="{!URLFOR($Resource.Uidesigns, '/assets/icons/standard-sprite/svg/symbols.svg#away')}"></use>
+                                                                </svg>
+                                                                Appear Away
+                                                            </p>
+                                                        </a>
+                                                    </li>
+                                                    </ul>
+                                                </div>
+                                        </div>
+                                <!--**************************************************end of the drop down**********************************************-->
+                                </div>
+                                
+                                    <div class="slds-search-bottom">
+                                        <span class="slds-icon__container slds-align-middle slds-search-pad">
+                                            <div class="slds-form-element slds-search-contact">
+                                                <input class="slds-input" id="slds-filter1" placeholder="Search Contact" type="text" />
+                                                <span class="slds-icon_container slds-search-con">
+                                                  <svg aria-hidden="true" class="slds-icon slds-icon-text-default">
+                                                      <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Resource.Uidesigns, '/assets/icons/utility-sprite/svg/symbols.svg#search')}"></use>
+                                                  </svg>
+                                                </span>
+                                            </div>
+                                        </span> 
+                                        <span class="slds-search-status">recently viewed</span>
+                                    </div>
+                                   
+                                    <apex:outputPanel id="existingcon">
+                                    <nav class="slds-right-border slds-scrollable--y">
+                                        <div class='slds-contactlist-wrapper'>
+                                            
+                                            <ul role="navigation" class="slds-has-block-links">
+                                                <apex:repeat value="{!contactList}" var="con">
+                                                    <li>
+                                                        <a href="#"  class="slds-contact" onClick="displayContact('{!con.Id}');">
+                                                            <svg aria-hidden="true" class="slds-icon--small slds-icon-text-default">
+                                                                <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Resource.Uidesigns, '/assets/icons/utility-sprite/svg/symbols.svg#user')}"></use>
+                                                            </svg>
+                                                            <span class="stage-left__text">
+                                                                <apex:facet name="header">
+                                                                    <apex:commandLink value="Last Name" action="{!toggleSort}" rerender="content">
+                                                                        <apex:param name="sortField" value="Name" assignTo="{!sortField}"/>
+                                                                    </apex:commandLink>
+                                                                </apex:facet>
+                                                                <apex:outputField value="{!con.Name}"/>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                </apex:repeat>
+                                                <li class="slds-nrec">No Contacts Found </li>
+                                                <apex:outputPanel rendered="{!contactList.size==0}"><li>No Contacts Found </li></apex:outputPanel>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </apex:outputPanel>
+                            </div>
+                            <!--******************************* end Stage Left - Navigation ******************************************-->
+                            <!--******************************* another half start ***************************************************-->
+                            <div class="slds-col--padded slds-size--3-of-4 slds-background">
+                                <div>
+                                    <span class="slds-icon__container slds-align-middle">
+                                        <div class="slds-form-element slds-external">
+                                            <div class="slds-form-element__control">
+                                                <input class="slds-input-ext" placeholder="Enter External Number" type="text" id="externalno"/>
+                                                <span class="slds-ext-call-image slds-sidebar-call-image" onclick="externalcall('externalno')">
+                                                    <img src="{!URLFOR($Resource.fintraximages, 'call_icon_.svg')}" />
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </span>
+                                </div>
+                            <!--************************************activity block****************************************************-->
+                            <!-- *********************************** External Number *************************************************---------->
+                            <apex:outputPanel id="externalcall">
+                                <apex:outputPanel rendered="{!block4}">
+                                <!-- icon-->
+                                <div class="slds-grid slds-call-wrapper">
+                                    <div class="slds-col--padded slds-size--1-of-3">
+                                        <div class="slds-caller-details-wrapper">
+                                            <div class="slds-avatar-icon-wrapper slds-avatar-icon-wrapper-ext">
+                                                <span class="slds-icon_container">
+                                                    <svg aria-hidden="true" class="slds-icon--small slds-icon-text-default">
+                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Resource.Uidesigns, '/assets/icons/utility-sprite/svg/symbols.svg#user')}"></use>
+                                                    </svg>
+                                                </span>
+                                                <div class="slds-text-longform">
+                                                    <apex:outputText value="{!extsearchname}"/>
+                                                </div>
+                                                <div class="slds-text-longform">
+                                                    <p class='slds-call-duration'></p>
+                                                    <p class="slds-call-status"></p>
+                                                        <div class='calling-btns'>
+                                                            <apex:commandButton image="{!URLFOR($Resource.fintraximages, 'call_sm.svg')}" styleClass="slds-call-lift" reRender="transferpopup"/>
+                                                            <img src="{!URLFOR($Resource.fintraximages, 'call_end_sm.svg')}"  class="slds-end-call" onClick="endOngoingCall();" />
+                                                            <img src="{!URLFOR($Resource.fintraximages, 'call_transfer_sm.svg')}" class="slds-transfer-call" onClick="callTransfer();"/>
+                                                            <img src="{!URLFOR($Resource.fintraximages, 'call_hold_sm.svg')}"  onClick="callResume();" class="slds-icon-resume-call slds-hide"/> 
+                                                            <img src="{!URLFOR($Resource.fintraximages, 'call_end_btn_lg.svg')}" class="slds-end-call-lg" onclick="contactrecend()" /> 
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                        <div class="slds-col--padded slds-size--2-of-3">
+                                            <div class="slds-form-element">
+                                                <div class="slds-form-element__control">
+                                                    <textarea class="slds-textarea" id="notesId" placeholder="add notes here"></textarea>
+                                                     <div class="clear"></div>
+                                                    <input class="slds-button-submit" onclick="if($('.slds-text-longform:first').text()=='Un-Known' || $('.slds-text-longform:first').text().length==0){alert('You cannot submit notes for unknown numbers.');return false;}callSubmit1(document.getElementById('notesId').value);" type="button" value="submit" disabled="disabled"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slds-text-wrapper"></div>
+                                    </div>
+                                <!-- end icon-->
+                                </apex:outputPanel>
+                            </apex:outputPanel>
+                            <!------ End External Number ------->
+                            <!-----------------------------activity block----------->
+                            <apex:outputPanel id="activityblock">
+                                <apex:outputPanel rendered="{!block1}">
+                                    <div class='slds-call-wrapper'>
+                                        <h1><b>Latest Calls Info</b></h1>
+                                        <div class="slds-table-wrapper">
+                                            <div class="slds-table-head-container">
+                                                <table class="slds-table slds-table--bordered slds-table--cell-buffer">
+                                                <thead>
+                                                <tr>
+                                                <th style="width: 15%;padding-left: 22px !important;">Category</th>
+                                                <th style="width: 35%;padding-left: 7px !important;">Call From</th>
+                                                <th style="width: 35%;">Call To</th>
+                                                <th style="width: 15%;">Duration</th>
+                                                </tr>
+                                                </thead>
+                                                </table>
+                                            </div>
+                                            <div class="slds-table-body-container">
+                                                <table  class="slds-table slds-table--bordered slds-table--cell-buffer">
+                                                    <thead>
+                                                        <tr>
+                                                            <th  style="width: 15%;">Category</th>
+                                                            <th style="width: 35%;">Call From</th>
+                                                            <th style="width: 35%;">Call To</th>
+                                                            <th style="width: 15%;">Duration</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <apex:repeat value="{!usercallsInfo}" var="act">
+                                                            <tr>
+                                                                <td style="width: 15%;">{!act.Call_Category__c}</td>
+                                                                <td style="width: 35%;">{!act.Call_From__c}</td>
+                                                                <td style="width: 35%;">{!act.Call_To__c}</td>
+                                                                <td style="width: 15%;">{!act.CallDuration__c}</td>
+                                                            </tr>
+                                                        </apex:repeat>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                <!-- <apex:image value="{!$Resource.Callcenter}"/>-->
+                                </apex:outputPanel>
+                            </apex:outputPanel>
+                            <!----****************************************************---end activity block--------******************************--------->
+                            <!---------************************************-call block*******************************************------>
+                            <div class='slds-calling-block'>
+                                <apex:outputPanel id="callblock">
+                                    <apex:outputPanel rendered="{!block2}">
+                                    <!--******************* start icon ******************************************-->
+                                    <div class="slds-grid slds-call-wrapper">
+                                        <div class="slds-col--padded slds-size--1-of-2 slds-medium-size--0-of-6 slds-large-size--4-of-12">
+                                            <div class="slds-avatar-icon-wrapper">
+                                                <span class="slds-icon_container">
+                                                    <svg aria-hidden="true" class="slds-icon--small slds-icon-text-default">
+                                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Resource.Uidesigns, '/assets/icons/utility-sprite/svg/symbols.svg#user')}"></use>
+                                                    </svg>
+                                                </span>
+                                            </div>
+                                            <div class="slds-text-longform">
+                                                <b>
+                                                    <p>{!selCon.name}</p>
+                                                </b>
+                                                    <p>{!selCon.MobilePhone}</p>
+                                            </div>
+                                            <span class="slds-call-img-right" onclick="callingblockcon('{!selCon.MobilePhone}')">
+                                                <img src="{!URLFOR($Resource.fintraximages, 'call_btn_lg.svg')}" />
+                                            </span>
+                                            <span id="j_id0:j_id4:callingblock"></span>
+                                        </div>
+                                        <div class="slds-col--padded slds-size--1-of-2 slds-medium-size--5-of-6 slds-large-size--8-of-12 slds-notes-wrapper">
+                                            <div class="slds-form-element">
+                                                <div class="slds-form-element__control">
+                                                    <textarea class="slds-textarea" id="notesId" placeholder="add notes here"></textarea>
+                                                    <div class="clear"></div>
+                                                    <input class="slds-button-submit" onclick="callSubmit(document.getElementById('notesId').value);" type="button" value="submit" disabled="disabled"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slds-text-wrapper"></div>
+                                    </div>
+                                    <!--*********************************end call  image icon *************************************-->
+                                    </apex:outputPanel>
+                                </apex:outputPanel>
+                            </div>
+                            <!---************************************************ left panel calling block********************************************--->
+                            <apex:outputPanel id="callingblock">
+                                <apex:outputPanel rendered="{!block3}">
+                                <!-- icon-->
+                                <div class="slds-grid slds-call-wrapper">
+                                    <div class="slds-col--padded slds-size--1-of-3">
+                                        <div class="slds-avatar-icon-wrapper slds-avatar-icon-wrapper-outgng">
+                                            <span class="slds-icon_container">
+                                                <svg aria-hidden="true" class="slds-icon--small slds-icon-text-default">
+                                                    <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="{!URLFOR($Resource.Uidesigns, '/assets/icons/utility-sprite/svg/symbols.svg#user')}"></use>
+                                                </svg>
+                                            </span>
+                                            <div class="slds-text-longform">
+                                                <h3 class="slds-text-heading--small">{!selCon.Name}</h3>
+                                                <p>{!selCon.MobilePhone}</p>
+                                            </div>
+                                            <span id="j_id0:j_id4:callingblock"></span>
+                                            <div class="slds-text-longform">
+                                                <p class='slds-call-duration'></p>
+                                                <p class="slds-call-status"></p>
+                                                <div class='calling-btns'>
+                                                    <img src="{!URLFOR($Resource.fintraximages, 'call_sm.svg')}" class="slds-call-lift" />
+                                                    <img src="{!URLFOR($Resource.fintraximages, 'call_transfer_sm.svg')}" class="slds-transfer-call" onClick="callTransfer();"/>
+                                                    <img src="{!URLFOR($Resource.fintraximages, 'call_hold_sm.svg')}"  onClick="callResume();" class="slds-icon-resume-call slds-hide"/> 
+                                                    <img src="{!URLFOR($Resource.fintraximages, 'call_end_sm.svg')}"  class="slds-end-call" onClick="endOngoingCall();"/>
+                                                    <img src="{!URLFOR($Resource.fintraximages, 'call_end_btn_lg.svg')}" class="slds-end-call-lg" onclick="contactrecend()" /> 
+                                                    <!--<span class="slds-call-img-right slds-call-img-end-lg" onclick="contactrecend()">
+                                                    <img src="{!URLFOR($Resource.fintraximages, 'call_end_btn_lg.svg')}" onclick="contactrecend()" />
+                                                    </span>-->
+                                                </div>
+                                                     <!-- <apex:image value="/resource/progress"/> -->
+                                            </div>                        
+                                        </div>
+                                    </div>
+                                    <div class="slds-col--padded slds-size--2-of-3">
+                                        <div class="slds-form-element">
+                                            <div class="slds-form-element__control">
+                                                <textarea class="slds-textarea" id="notesId" placeholder="add notes here"></textarea>
+                                                <div class="clear"></div>
+                                                    <input class="slds-button-submit" onclick="callSubmit(document.getElementById('notesId').value);" type="button" value="submit" disabled="disabled"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="slds-text-wrapper"></div>
+                                    </div>
+                                <!-- end icon-->
+                                </apex:outputPanel>
+                            </apex:outputPanel>
+                            </div>
+                            <!-- Stage -->
+                                <apex:actionFunction name="displayContact" reRender="activityblock,callblock,callingblock,externalcall,existingcon" action="{!displayContact}">
+                                    <apex:param name="conId" value=""/>
+                                </apex:actionFunction>
+                                <apex:actionFunction name="connecting" reRender="activityblock,callblock,callingblock,externalcall,existingcon" action="{!ConnectingBlock}"  >
+                                    <apex:param name="conId" value=""/>
+                                </apex:actionFunction>
+                            <!--<apex:actionFunction name="connecting1" reRender="callingblock,externalcall"/ >
+                                <apex:actionFunction name="cancelOnGoing" reRender="activityblock,callingblock,activityblock" action="{!cancelOnGoingcall}" />-->
+                            <!--********************************************************* External Number *****************************************************-->
+                                <apex:actionFunction name="externalnum" reRender="externalcall,activityblock,callblock,callingblock,existingcon" action="{!externalcontact}"/ >
+                                <apex:actionFunction name="externalend" reRender="activityblock,callblock,callingblock,externalcall,existingcon" action="{!externalcontactend}" />
+                                <apex:actionFunction name="contactendcall" reRender="activityblock,callblock,callingblock,externalcall,existingcon" action="{!contactend}" />
+                                <apex:actionFunction name="extrnalnumsrch" reRender="activityblock,callblock,callingblock,externalcall,existingcon" action="{!Externalnumsearch}" >
+                                    <apex:param name="extrphno" value="" assignTo="{!extrphnoval}"/>
+                                </apex:actionFunction>
+                                </div>
+                            </div>
+                            </div>    
+              </apex:outputPanel>
+              <apex:actionFunction name="filterCont" action="{!filterContacts}" reRender="existingcon" >
+                  <apex:param value="" assignTo="{!contkey}" name="contkey"/>
+              </apex:actionFunction>
+    </apex:form>
+    
+</apex:page>

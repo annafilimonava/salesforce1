@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_Support_PT_WorkOrder</fullName>
+    <columns>Name</columns>
+    <columns>Solution_Type__c</columns>
+    <columns>Subject</columns>
+    <columns>Account</columns>
+    <columns>Status</columns>
+    <columns>Priority</columns>
+    <columns>CreatedDate</columns>
+    <filterScope>Queue</filterScope>
+    <label>POS Support PT</label>
+    <queue>POS_Support_PT</queue>
+    <sharedTo>
+        <role>POS_Support_PT</role>
+    </sharedTo>
+</ListView>

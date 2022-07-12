@@ -1,0 +1,14 @@
+<font face="arial" size=2>
+<b>***Notification of Case/Request Status Change***</b><br>
+Please reply above this message and do not modify the Subject line<br>
+------------------------------------------------------------------------------------------<br>
+<br>
+Dear Customer<p>
+
+The status of your request has been changed to <b><u>{!Case.Status}</u></b> with the priority of <b>{!Case.Priority}</b>.<br>
+
+We will reply soon to your request.<p>
+
+Kind Regards,<p>
+
+POS Support

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard</fullName>
+    <fields>Name</fields>
+    <fields>Account__c</fields>
+    <fields>Street__c</fields>
+    <fields>Solution__c</fields>
+    <fields>Tax_Free_Form_Type__c</fields>
+    <fields>Product__c</fields>
+    <label>Standard</label>
+</CompactLayout>

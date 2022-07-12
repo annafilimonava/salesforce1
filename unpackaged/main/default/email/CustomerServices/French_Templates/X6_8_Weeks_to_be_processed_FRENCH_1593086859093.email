@@ -1,0 +1,21 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span style="font-family:Barlow">Bonjour </span><span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Tourist__c}}}</span><span style="font-family:Barlow">,</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Merci pour votre email.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">J'ai v&eacute;rifi&eacute; notre base de donn&eacute;es et &agrave; ce jour nous n'avons pas re&ccedil;u votre bordereau </span><span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Tax_Free_Form__c}}}</span><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">. Si vous nous avez r&eacute;cemment retourn&eacute; votre bordereau, il se peut qu'il ne soit pas livr&eacute; ou trait&eacute; &agrave; ce stade.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Les formulaires de d&eacute;taxe <span style="mso-spacerun:yes">&nbsp;</span>peuvent prendre jusqu'&agrave; 6 &agrave; 8 semaines pour &ecirc;tre trait&eacute;s avec succ&egrave;s, nous vous demandons donc de rester avec nous pendant cette p&eacute;riode.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Si vous avez besoin d'une assistance suppl&eacute;mentaire, veuillez nous revenir apr&egrave;s la p&eacute;riode mentionn&eacute;e et nous ferons de notre mieux pour vous aider davantage.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Merci pour votre patience.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Cordialement. </span></p>
+ </body>
+</html>

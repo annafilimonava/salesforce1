@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Value__c</fullName>
+    <externalId>false</externalId>
+    <formula>TF_Annual_Net_Commission1__c + DCC_Annual_Gross_Profit1__c +  Net_Commission__c + Payments_Annual_GP__c +  Pay_by_Link_Annual_GP__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Opportunity Value</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

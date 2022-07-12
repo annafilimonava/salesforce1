@@ -1,0 +1,140 @@
+<apex:page sidebar="false" standardController="account" extensions="New_Tourist_Form_Ctrl" showHeader="false" standardStylesheets="false">
+    <apex:includeScript value="/soap/ajax/34.0/connection.js" />
+    <apex:includeScript value="/support/console/37.0/integration.js" />
+    <apex:includeScript value="/soap/ajax/34.0/apex.js" />
+    <apex:slds />
+    <style>
+        .slds-scope .slds-box {
+        padding: 1rem;
+        border-radius: 1.25rem;
+        border: 4px solid #a4bfe4;
+        width: 50%;
+        padding-left: 55px;
+        padding-right: 55px;
+        margin: 0 auto;
+        background-color: #fdfdfd;
+        }   
+        .slds-scope .slds-text-heading_small {
+        font-size: 1rem;
+        line-height: 2.25;
+        }
+        .slds-scope .slds-input {
+        background-color: #fff;
+        color: #16325c;
+        border: 2px solid #d8dde6;
+        border-radius: .25rem;
+        width: 100%;
+        transition: border .1s linear,background-color .1s linear;
+        display: inline-block;
+        padding: 2px 1rem 2px .75rem;
+        line-height: 1.875rem;
+        min-height: calc(1.875rem + (1px * 2));
+        }
+        .message {
+        background-color: #ffc;
+        border-style: solid;
+        border-width: 1px;
+        color: #000;
+        padding: 6px 8px 6px 6px;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 5px;
+        margin-bottom: 20px;
+        }
+     
+    </style>
+    <script>
+     $(document).ready(function() { 
+        //$('#modal-3').modal('show');
+        });
+    </script>
+    <apex:form >
+        <br/>
+        <div class="slds"><apex:pageMessages />
+        <apex:outputPanel rendered="{!tff_Rec.Tourist__c != ''}">
+           <!-- <div aria-hidden="true" role="dialog" class="slds-modal slds-fade-in-open " id="modal-3">
+              <div class="slds-modal__container">
+                <div class="slds-modal__content slds-p-around--medium">
+                    <p>Tourist already exist for this Tax Free Form!.</p>
+                </div>
+                <div class="slds-modal__footer slds-align--absolute-center">
+                  <apex:commandButton value="Ok" styleClass="slds-button slds-button--neutral slds-button--brand" action="/{!tff_Rec.ID}" immediate="true"/>
+                </div>
+              </div>
+            </div>
+            <div class="slds-backdrop slds-backdrop--open"></div> 
+            -->
+             <div class="demo-only" style="height: 640px;">
+              <section role="dialog" tabindex="-1" aria-labelledby="modal-heading-01" aria-modal="true" aria-describedby="modal-content-id-1" class="slds-modal slds-fade-in-open">
+                <div class="slds-modal__container">
+                  <div class="slds-modal__content slds-p-around_medium" id="modal-content-id-1">
+                     <p>Tourist already exist for this Tax Free Form!.</p>
+                  </div>
+                  <footer class="slds-modal__footer">
+                  <apex:commandButton value="Ok" styleClass="slds-button slds-button--neutral slds-button--brand" action="/{!tff_Rec.ID}" immediate="true"/>
+                  </footer>
+                </div>
+              </section>
+              <div class="slds-backdrop slds-backdrop_open"></div>
+            </div>  
+             
+           </apex:outputPanel>
+        </div><br/>
+        
+        <div class="slds-scope slds-box">
+            <div class="slds-text-align_center slds-text-heading_small">New Tourist Form</div>
+            <div id="formDiv">
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label">First Name</label>
+                    <div class="slds-form-element__control">
+                        <apex:inputText value="{!accFstName}" styleClass="slds-input" html-placeholder="First Name" required=""/>
+                    </div>
+                </div>
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label"><abbr class="slds-required">*</abbr>Last Name</label>
+                    <div class="slds-form-element__control">
+                        <apex:inputText value="{!accLstName}" styleClass="slds-input" html-placeholder="Last Name"/>
+                    </div>
+                </div>
+                <div class="slds-form-element">
+                    <div class="slds-form-element">
+                        <label class="slds-form-element__label">Email</label>
+                        <div class="slds-form-element__control">
+                            <apex:inputField value="{!acc.PersonEmail}" styleClass="slds-input" html-placeholder="Email"/>
+                        </div>
+                    </div>
+                </div>
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label">Phone</label>
+                    <div class="slds-form-element__control">
+                        <apex:inputField value="{!acc.Phone}" styleClass="slds-input" html-placeholder="Phone"/>
+                    </div>
+                </div>
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label">Premier Pass ID</label>
+                    <div class="slds-form-element__control">
+                        <apex:inputField value="{!acc.Premier_Pass_ID__c}" styleClass="slds-input" html-placeholder="Premier Pass ID"/>
+                    </div>
+                </div>
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label">Passport Number</label>
+                    <div class="slds-form-element__control">
+                        <apex:inputField value="{!acc.Passport_Number__c}" styleClass="slds-input" html-placeholder="Passport Number"/>
+                    </div>
+                </div>
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label">Description</label>
+                    <div class="slds-form-element__control">
+                        <apex:inputField value="{!acc.Description}" styleClass="slds-input"/>
+                    </div>
+                </div>
+            </div><br/>
+            <div id="buttonDiv">
+                <center>
+                    <apex:commandButton action="{!saveAcc}" value="Save" styleClass="slds-button slds-button_brand"/>
+                    <apex:commandButton action="{!cancelAcc}" value="Cancel" immediate="true" styleClass="slds-button slds-button_brand"/>
+                </center>
+            </div>
+        </div>
+    </apex:form>
+</apex:page>

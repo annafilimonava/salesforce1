@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TF_Contract</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(Product__c) = &quot;TF&quot; , TEXT(Rebate__c) = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Rebate__c</errorDisplayField>
+    <errorMessage>You must complete the Rebate % for TF contracts.</errorMessage>
+</ValidationRule>

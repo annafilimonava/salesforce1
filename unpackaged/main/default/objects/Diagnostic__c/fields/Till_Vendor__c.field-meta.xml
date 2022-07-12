@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Till_Vendor__c</fullName>
+    <externalId>false</externalId>
+    <label>Till Vendor</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>123bon</fullName>
+                <default>false</default>
+                <label>123bon</label>
+            </value>
+            <value>
+                <fullName>3BC SOFTWARE</fullName>
+                <default>false</default>
+                <label>3BC SOFTWARE</label>
+            </value>
+            <value>
+                <fullName>ABANQ</fullName>
+                <default>false</default>
+                <label>ABANQ</label>
+            </value>
+            <value>
+                <fullName>ACE</fullName>
+                <default>false</default>
+                <label>ACE</label>
+            </value>
+            <value>
+                <fullName>ACL-Retail</fullName>
+                <default>false</default>
+                <label>ACL-Retail</label>
+            </value>
+            <value>
+                <fullName>Actosoft</fullName>
+                <default>false</default>
+                <label>Actosoft</label>
+            </value>
+            <value>
+                <fullName>Advarics</fullName>
+                <default>false</default>
+                <label>Advarics</label>
+            </value>
+            <value>
+                <fullName>ALIDATA S2</fullName>
+                <default>false</default>
+                <label>ALIDATA S2</label>
+            </value>
+            <value>
+                <fullName>Apatyka Servis- MEDIOX</fullName>
+                <default>false</default>
+                <label>Apatyka Servis- MEDIOX</label>
+            </value>
+            <value>
+                <fullName>Apito</fullName>
+                <default>false</default>
+                <label>Apito</label>
+            </value>
+            <value>
+                <fullName>APTEAN</fullName>
+                <default>false</default>
+                <label>APTEAN</label>
+            </value>
+            <value>
+                <fullName>Aptos</fullName>
+                <default>false</default>
+                <label>Aptos</label>
+            </value>
+            <value>
+                <fullName>ARM In House Armani</fullName>
+                <default>false</default>
+                <label>ARM In House Armani</label>
+            </value>
+            <value>
+                <fullName>ARTBUTLER</fullName>
+                <default>false</default>
+                <label>ARTBUTLER</label>
+            </value>
+            <value>
+                <fullName>AS400/MANAGEMENT COMMERCIAL</fullName>
+                <default>false</default>
+                <label>AS400/MANAGEMENT COMMERCIAL</label>
+            </value>
+            <value>
+                <fullName>ASTUTO</fullName>
+                <default>false</default>
+                <label>ASTUTO</label>
+            </value>
+            <value>
+                <fullName>aTop</fullName>
+                <default>false</default>
+                <label>aTop</label>
+            </value>
+            <value>
+                <fullName>AVS Apothekensoftware</fullName>
+                <default>false</default>
+                <label>AVS Apothekensoftware</label>
+            </value>
+            <value>
+                <fullName>BeanStore Vision PCMS Bizeta</fullName>
+                <default>false</default>
+                <label>BeanStore Vision PCMS Bizeta</label>
+            </value>
+            <value>
+                <fullName>BEDAV</fullName>
+                <default>false</default>
+                <label>BEDAV</label>
+            </value>
+            <value>
+                <fullName>BeeStore Sirio Informatica</fullName>
+                <default>false</default>
+                <label>BeeStore Sirio Informatica</label>
+            </value>
+            <value>
+                <fullName>Best Store</fullName>
+                <default>false</default>
+                <label>Best Store</label>
+            </value>
+            <value>
+                <fullName>Best Store Autel</fullName>
+                <default>false</default>
+                <label>Best Store Autel</label>
+            </value>
+            <value>
+                <fullName>BHS</fullName>
+                <default>false</default>
+                <label>BHS</label>
+            </value>
+            <value>
+                <fullName>Bizerba</fullName>
+                <default>false</default>
+                <label>Bizerba</label>
+            </value>
+            <value>
+                <fullName>BMD</fullName>
+                <default>false</default>
+                <label>BMD</label>
+            </value>
+            <value>
+                <fullName>Bonit Flexx</fullName>
+                <default>false</default>
+                <label>Bonit Flexx</label>
+            </value>
+            <value>
+                <fullName>BTE</fullName>
+                <default>false</default>
+                <label>BTE</label>
+            </value>
+            <value>
+                <fullName>Cashline</fullName>
+                <default>false</default>
+                <label>Cashline</label>
+            </value>
+            <value>
+                <fullName>CASSIOPEE</fullName>
+                <default>false</default>
+                <label>CASSIOPEE</label>
+            </value>
+            <value>
+                <fullName>CASTOR</fullName>
+                <default>false</default>
+                <label>CASTOR</label>
+            </value>
+            <value>
+                <fullName>CBR/Y2 Cegid</fullName>
+                <default>false</default>
+                <label>CBR/Y2 Cegid</label>
+            </value>
+            <value>
+                <fullName>Cegid</fullName>
+                <default>false</default>
+                <label>Cegid</label>
+            </value>
+            <value>
+                <fullName>CEGID CBR</fullName>
+                <default>false</default>
+                <label>CEGID CBR</label>
+            </value>
+            <value>
+                <fullName>CEGID COLOMBUS</fullName>
+                <default>false</default>
+                <label>CEGID COLOMBUS</label>
+            </value>
+            <value>
+                <fullName>CIAO</fullName>
+                <default>false</default>
+                <label>CIAO</label>
+            </value>
+            <value>
+                <fullName>Clarity</fullName>
+                <default>false</default>
+                <label>Clarity</label>
+            </value>
+            <value>
+                <fullName>COMOGRAMA</fullName>
+                <default>false</default>
+                <label>COMOGRAMA</label>
+            </value>
+            <value>
+                <fullName>CPI - FRONT OFFICE</fullName>
+                <default>false</default>
+                <label>CPI - FRONT OFFICE</label>
+            </value>
+            <value>
+                <fullName>CPI Retail</fullName>
+                <default>false</default>
+                <label>CPI Retail</label>
+            </value>
+            <value>
+                <fullName>Crafthouse</fullName>
+                <default>false</default>
+                <label>Crafthouse</label>
+            </value>
+            <value>
+                <fullName>Cybertill</fullName>
+                <default>false</default>
+                <label>Cybertill</label>
+            </value>
+            <value>
+                <fullName>Cylande</fullName>
+                <default>false</default>
+                <label>Cylande</label>
+            </value>
+            <value>
+                <fullName>DATALIDER</fullName>
+                <default>false</default>
+                <label>DATALIDER</label>
+            </value>
+            <value>
+                <fullName>DataNova</fullName>
+                <default>false</default>
+                <label>DataNova</label>
+            </value>
+            <value>
+                <fullName>Datona</fullName>
+                <default>false</default>
+                <label>Datona</label>
+            </value>
+            <value>
+                <fullName>DDD</fullName>
+                <default>false</default>
+                <label>DDD</label>
+            </value>
+            <value>
+                <fullName>Deniba</fullName>
+                <default>false</default>
+                <label>Deniba</label>
+            </value>
+            <value>
+                <fullName>DIAMANTE</fullName>
+                <default>false</default>
+                <label>DIAMANTE</label>
+            </value>
+            <value>
+                <fullName>Diebold Nixdorf</fullName>
+                <default>false</default>
+                <label>Diebold Nixdorf</label>
+            </value>
+            <value>
+                <fullName>D-Moda Emmedata</fullName>
+                <default>false</default>
+                <label>D-Moda Emmedata</label>
+            </value>
+            <value>
+                <fullName>E2K POS Storm Open Solutions</fullName>
+                <default>false</default>
+                <label>E2K POS Storm Open Solutions</label>
+            </value>
+            <value>
+                <fullName>Enactor</fullName>
+                <default>false</default>
+                <label>Enactor</label>
+            </value>
+            <value>
+                <fullName>Epicor</fullName>
+                <default>false</default>
+                <label>Epicor</label>
+            </value>
+            <value>
+                <fullName>ERP+</fullName>
+                <default>false</default>
+                <label>ERP+</label>
+            </value>
+            <value>
+                <fullName>eSOLVER Sistemi Spa</fullName>
+                <default>false</default>
+                <label>eSOLVER Sistemi Spa</label>
+            </value>
+            <value>
+                <fullName>Etron</fullName>
+                <default>false</default>
+                <label>Etron</label>
+            </value>
+            <value>
+                <fullName>EUROSTOP</fullName>
+                <default>false</default>
+                <label>EUROSTOP</label>
+            </value>
+            <value>
+                <fullName>Extenda</fullName>
+                <default>false</default>
+                <label>Extenda</label>
+            </value>
+            <value>
+                <fullName>F&amp;G</fullName>
+                <default>false</default>
+                <label>F&amp;G</label>
+            </value>
+            <value>
+                <fullName>FACTUSQUATRO</fullName>
+                <default>false</default>
+                <label>FACTUSQUATRO</label>
+            </value>
+            <value>
+                <fullName>Famowa</fullName>
+                <default>false</default>
+                <label>Famowa</label>
+            </value>
+            <value>
+                <fullName>Fashion Farm Methodos</fullName>
+                <default>false</default>
+                <label>Fashion Farm Methodos</label>
+            </value>
+            <value>
+                <fullName>Fashion Master</fullName>
+                <default>false</default>
+                <label>Fashion Master</label>
+            </value>
+            <value>
+                <fullName>Fastmag</fullName>
+                <default>false</default>
+                <label>Fastmag</label>
+            </value>
+            <value>
+                <fullName>Fee</fullName>
+                <default>false</default>
+                <label>Fee</label>
+            </value>
+            <value>
+                <fullName>FPOS</fullName>
+                <default>false</default>
+                <label>FPOS</label>
+            </value>
+            <value>
+                <fullName>Frontol (Atol)</fullName>
+                <default>false</default>
+                <label>Frontol (Atol)</label>
+            </value>
+            <value>
+                <fullName>Front Systems</fullName>
+                <default>false</default>
+                <label>Front Systems</label>
+            </value>
+            <value>
+                <fullName>Fujitsu</fullName>
+                <default>false</default>
+                <label>Fujitsu</label>
+            </value>
+            <value>
+                <fullName>Futura Retail Solution</fullName>
+                <default>false</default>
+                <label>Futura Retail Solution</label>
+            </value>
+            <value>
+                <fullName>Gescode</fullName>
+                <default>false</default>
+                <label>Gescode</label>
+            </value>
+            <value>
+                <fullName>GESPOS</fullName>
+                <default>false</default>
+                <label>GESPOS</label>
+            </value>
+            <value>
+                <fullName>GESVEN</fullName>
+                <default>false</default>
+                <label>GESVEN</label>
+            </value>
+            <value>
+                <fullName>GK Software</fullName>
+                <default>false</default>
+                <label>GK Software</label>
+            </value>
+            <value>
+                <fullName>GLOBALSTORE - FUJITSU</fullName>
+                <default>false</default>
+                <label>GLOBALSTORE - FUJITSU</label>
+            </value>
+            <value>
+                <fullName>Gshop Vision Maxima</fullName>
+                <default>false</default>
+                <label>Gshop Vision Maxima</label>
+            </value>
+            <value>
+                <fullName>Hano</fullName>
+                <default>false</default>
+                <label>Hano</label>
+            </value>
+            <value>
+                <fullName>HelloCash</fullName>
+                <default>false</default>
+                <label>HelloCash</label>
+            </value>
+            <value>
+                <fullName>Hermes</fullName>
+                <default>false</default>
+                <label>Hermes</label>
+            </value>
+            <value>
+                <fullName>Hiltes</fullName>
+                <default>false</default>
+                <label>Hiltes</label>
+            </value>
+            <value>
+                <fullName>Höltl Retail Solutions</fullName>
+                <default>false</default>
+                <label>Höltl Retail Solutions</label>
+            </value>
+            <value>
+                <fullName>ICG</fullName>
+                <default>false</default>
+                <label>ICG</label>
+            </value>
+            <value>
+                <fullName>ICG FRONT RETAIL PT</fullName>
+                <default>false</default>
+                <label>ICG FRONT RETAIL PT</label>
+            </value>
+            <value>
+                <fullName>INFOS MaxiRetail</fullName>
+                <default>false</default>
+                <label>INFOS MaxiRetail</label>
+            </value>
+            <value>
+                <fullName>In House</fullName>
+                <default>false</default>
+                <label>In House</label>
+            </value>
+            <value>
+                <fullName>Internal</fullName>
+                <default>false</default>
+                <label>Internal</label>
+            </value>
+            <value>
+                <fullName>Inventorum</fullName>
+                <default>false</default>
+                <label>Inventorum</label>
+            </value>
+            <value>
+                <fullName>iom.at</fullName>
+                <default>false</default>
+                <label>iom.at</label>
+            </value>
+            <value>
+                <fullName>Iposcash</fullName>
+                <default>false</default>
+                <label>Iposcash</label>
+            </value>
+            <value>
+                <fullName>ISIS</fullName>
+                <default>false</default>
+                <label>ISIS</label>
+            </value>
+            <value>
+                <fullName>ITAUTEC</fullName>
+                <default>false</default>
+                <label>ITAUTEC</label>
+            </value>
+            <value>
+                <fullName>Itim</fullName>
+                <default>false</default>
+                <label>Itim</label>
+            </value>
+            <value>
+                <fullName>iVend Retail DDWAY</fullName>
+                <default>false</default>
+                <label>iVend Retail DDWAY</label>
+            </value>
+            <value>
+                <fullName>JLR</fullName>
+                <default>false</default>
+                <label>JLR</label>
+            </value>
+            <value>
+                <fullName>K3</fullName>
+                <default>false</default>
+                <label>K3</label>
+            </value>
+            <value>
+                <fullName>Kassa24</fullName>
+                <default>false</default>
+                <label>Kassa24</label>
+            </value>
+            <value>
+                <fullName>Kassaline</fullName>
+                <default>false</default>
+                <label>Kassaline</label>
+            </value>
+            <value>
+                <fullName>Kassengeist</fullName>
+                <default>false</default>
+                <label>Kassengeist</label>
+            </value>
+            <value>
+                <fullName>Kiara Fashion Konvergence</fullName>
+                <default>false</default>
+                <label>Kiara Fashion Konvergence</label>
+            </value>
+            <value>
+                <fullName>Laser Symag</fullName>
+                <default>false</default>
+                <label>Laser Symag</label>
+            </value>
+            <value>
+                <fullName>LEOPOS</fullName>
+                <default>false</default>
+                <label>LEOPOS</label>
+            </value>
+            <value>
+                <fullName>Lindbak</fullName>
+                <default>false</default>
+                <label>Lindbak</label>
+            </value>
+            <value>
+                <fullName>LOGITOOLS</fullName>
+                <default>false</default>
+                <label>LOGITOOLS</label>
+            </value>
+            <value>
+                <fullName>LS Retail</fullName>
+                <default>false</default>
+                <label>LS Retail</label>
+            </value>
+            <value>
+                <fullName>LUKAS</fullName>
+                <default>false</default>
+                <label>LUKAS</label>
+            </value>
+            <value>
+                <fullName>Luwosoft</fullName>
+                <default>false</default>
+                <label>Luwosoft</label>
+            </value>
+            <value>
+                <fullName>Luxe Retail</fullName>
+                <default>false</default>
+                <label>Luxe Retail</label>
+            </value>
+            <value>
+                <fullName>MagicStore MagicSolution</fullName>
+                <default>false</default>
+                <label>MagicStore MagicSolution</label>
+            </value>
+            <value>
+                <fullName>Magnisoft</fullName>
+                <default>false</default>
+                <label>Magnisoft</label>
+            </value>
+            <value>
+                <fullName>Medoc</fullName>
+                <default>false</default>
+                <label>Medoc</label>
+            </value>
+            <value>
+                <fullName>MGM Software</fullName>
+                <default>false</default>
+                <label>MGM Software</label>
+            </value>
+            <value>
+                <fullName>MICRODIGITAL</fullName>
+                <default>false</default>
+                <label>MICRODIGITAL</label>
+            </value>
+            <value>
+                <fullName>Micros</fullName>
+                <default>false</default>
+                <label>Micros</label>
+            </value>
+            <value>
+                <fullName>Microsoft Dynamics</fullName>
+                <default>false</default>
+                <label>Microsoft Dynamics</label>
+            </value>
+            <value>
+                <fullName>Moda Accord</fullName>
+                <default>false</default>
+                <label>Moda Accord</label>
+            </value>
+            <value>
+                <fullName>ModoGroup</fullName>
+                <default>false</default>
+                <label>ModoGroup</label>
+            </value>
+            <value>
+                <fullName>MS POS</fullName>
+                <default>false</default>
+                <label>MS POS</label>
+            </value>
+            <value>
+                <fullName>Mx Data</fullName>
+                <default>false</default>
+                <label>Mx Data</label>
+            </value>
+            <value>
+                <fullName>NaviPartner</fullName>
+                <default>false</default>
+                <label>NaviPartner</label>
+            </value>
+            <value>
+                <fullName>Navision</fullName>
+                <default>false</default>
+                <label>Navision</label>
+            </value>
+            <value>
+                <fullName>NCR</fullName>
+                <default>false</default>
+                <label>NCR</label>
+            </value>
+            <value>
+                <fullName>Negoziando Sme.Up</fullName>
+                <default>false</default>
+                <label>Negoziando Sme.Up</label>
+            </value>
+            <value>
+                <fullName>NEORETAIL</fullName>
+                <default>false</default>
+                <label>NEORETAIL</label>
+            </value>
+            <value>
+                <fullName>Notia</fullName>
+                <default>false</default>
+                <label>Notia</label>
+            </value>
+            <value>
+                <fullName>Nova POS</fullName>
+                <default>false</default>
+                <label>Nova POS</label>
+            </value>
+            <value>
+                <fullName>Octave</fullName>
+                <default>false</default>
+                <label>Octave</label>
+            </value>
+            <value>
+                <fullName>OKI</fullName>
+                <default>false</default>
+                <label>OKI</label>
+            </value>
+            <value>
+                <fullName>Omnico</fullName>
+                <default>false</default>
+                <label>Omnico</label>
+            </value>
+            <value>
+                <fullName>OMNI ERP</fullName>
+                <default>false</default>
+                <label>OMNI ERP</label>
+            </value>
+            <value>
+                <fullName>OPTICWIN</fullName>
+                <default>false</default>
+                <label>OPTICWIN</label>
+            </value>
+            <value>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+                <label>Oracle</label>
+            </value>
+            <value>
+                <fullName>Oracle PowerPOS</fullName>
+                <default>false</default>
+                <label>Oracle PowerPOS</label>
+            </value>
+            <value>
+                <fullName>Oracle Retail J</fullName>
+                <default>false</default>
+                <label>Oracle Retail J</label>
+            </value>
+            <value>
+                <fullName>Oracle SAP In House</fullName>
+                <default>false</default>
+                <label>Oracle SAP In House</label>
+            </value>
+            <value>
+                <fullName>Oracle X Store</fullName>
+                <default>false</default>
+                <label>Oracle X Store</label>
+            </value>
+            <value>
+                <fullName>Oracle Xstore 4.5+ Accenture</fullName>
+                <default>false</default>
+                <label>Oracle Xstore 4.5+ Accenture</label>
+            </value>
+            <value>
+                <fullName>Oracle Xstore 6.x Accenture</fullName>
+                <default>false</default>
+                <label>Oracle Xstore 6.x Accenture</label>
+            </value>
+            <value>
+                <fullName>Oracle Xstore v16 Oracle</fullName>
+                <default>false</default>
+                <label>Oracle Xstore v16 Oracle</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>OURIVES WEB</fullName>
+                <default>false</default>
+                <label>OURIVES WEB</label>
+            </value>
+            <value>
+                <fullName>Paragon</fullName>
+                <default>false</default>
+                <label>Paragon</label>
+            </value>
+            <value>
+                <fullName>PCK</fullName>
+                <default>false</default>
+                <label>PCK</label>
+            </value>
+            <value>
+                <fullName>PCMS</fullName>
+                <default>false</default>
+                <label>PCMS</label>
+            </value>
+            <value>
+                <fullName>Pharmagest</fullName>
+                <default>false</default>
+                <label>Pharmagest</label>
+            </value>
+            <value>
+                <fullName>PHC</fullName>
+                <default>false</default>
+                <label>PHC</label>
+            </value>
+            <value>
+                <fullName>PHC – Anturio</fullName>
+                <default>false</default>
+                <label>PHC – Anturio</label>
+            </value>
+            <value>
+                <fullName>PHC – Basetx</fullName>
+                <default>false</default>
+                <label>PHC – Basetx</label>
+            </value>
+            <value>
+                <fullName>Phizzard</fullName>
+                <default>false</default>
+                <label>Phizzard</label>
+            </value>
+            <value>
+                <fullName>Pohoda</fullName>
+                <default>false</default>
+                <label>Pohoda</label>
+            </value>
+            <value>
+                <fullName>POS Atelier98 Reprosoft</fullName>
+                <default>false</default>
+                <label>POS Atelier98 Reprosoft</label>
+            </value>
+            <value>
+                <fullName>Posman</fullName>
+                <default>false</default>
+                <label>Posman</label>
+            </value>
+            <value>
+                <fullName>POStronik</fullName>
+                <default>false</default>
+                <label>POStronik</label>
+            </value>
+            <value>
+                <fullName>Power2Retail</fullName>
+                <default>false</default>
+                <label>Power2Retail</label>
+            </value>
+            <value>
+                <fullName>PRIMAVERA</fullName>
+                <default>false</default>
+                <label>PRIMAVERA</label>
+            </value>
+            <value>
+                <fullName>Prins</fullName>
+                <default>false</default>
+                <label>Prins</label>
+            </value>
+            <value>
+                <fullName>Prodware</fullName>
+                <default>false</default>
+                <label>Prodware</label>
+            </value>
+            <value>
+                <fullName>Pro Logic</fullName>
+                <default>false</default>
+                <label>Pro Logic</label>
+            </value>
+            <value>
+                <fullName>Pursuit</fullName>
+                <default>false</default>
+                <label>Pursuit</label>
+            </value>
+            <value>
+                <fullName>Quorion</fullName>
+                <default>false</default>
+                <label>Quorion</label>
+            </value>
+            <value>
+                <fullName>Raymark</fullName>
+                <default>false</default>
+                <label>Raymark</label>
+            </value>
+            <value>
+                <fullName>ready2order</fullName>
+                <default>false</default>
+                <label>ready2order</label>
+            </value>
+            <value>
+                <fullName>Retail Fashion Sys-Dat</fullName>
+                <default>false</default>
+                <label>Retail Fashion Sys-Dat</label>
+            </value>
+            <value>
+                <fullName>Retail Integration (Ireland)</fullName>
+                <default>false</default>
+                <label>Retail Integration (Ireland)</label>
+            </value>
+            <value>
+                <fullName>RETAIL MANAGER FRONTOFFICE</fullName>
+                <default>false</default>
+                <label>RETAIL MANAGER FRONTOFFICE</label>
+            </value>
+            <value>
+                <fullName>Retail Pro</fullName>
+                <default>false</default>
+                <label>Retail Pro</label>
+            </value>
+            <value>
+                <fullName>Retail Pro 8.x DDWAY</fullName>
+                <default>false</default>
+                <label>Retail Pro 8.x DDWAY</label>
+            </value>
+            <value>
+                <fullName>Retail Pro 9.x Venistar</fullName>
+                <default>false</default>
+                <label>Retail Pro 9.x Venistar</label>
+            </value>
+            <value>
+                <fullName>Retail Pro Prism DDWAY</fullName>
+                <default>false</default>
+                <label>Retail Pro Prism DDWAY</label>
+            </value>
+            <value>
+                <fullName>Retalix</fullName>
+                <default>false</default>
+                <label>Retalix</label>
+            </value>
+            <value>
+                <fullName>Richemont IT</fullName>
+                <default>false</default>
+                <label>Richemont IT</label>
+            </value>
+            <value>
+                <fullName>SAGE</fullName>
+                <default>false</default>
+                <label>SAGE</label>
+            </value>
+            <value>
+                <fullName>Sage- Gestecnica</fullName>
+                <default>false</default>
+                <label>Sage- Gestecnica</label>
+            </value>
+            <value>
+                <fullName>Sage – Mundices</fullName>
+                <default>false</default>
+                <label>Sage – Mundices</label>
+            </value>
+            <value>
+                <fullName>Sage – Smartdigit</fullName>
+                <default>false</default>
+                <label>Sage – Smartdigit</label>
+            </value>
+            <value>
+                <fullName>SAP BUSINESS SUITE ERP6.0</fullName>
+                <default>false</default>
+                <label>SAP BUSINESS SUITE ERP6.0</label>
+            </value>
+            <value>
+                <fullName>SBH</fullName>
+                <default>false</default>
+                <label>SBH</label>
+            </value>
+            <value>
+                <fullName>SCT</fullName>
+                <default>false</default>
+                <label>SCT</label>
+            </value>
+            <value>
+                <fullName>Selectline</fullName>
+                <default>false</default>
+                <label>Selectline</label>
+            </value>
+            <value>
+                <fullName>SHOGUN POS</fullName>
+                <default>false</default>
+                <label>SHOGUN POS</label>
+            </value>
+            <value>
+                <fullName>Shtrih-M</fullName>
+                <default>false</default>
+                <label>Shtrih-M</label>
+            </value>
+            <value>
+                <fullName>SIFARMA</fullName>
+                <default>false</default>
+                <label>SIFARMA</label>
+            </value>
+            <value>
+                <fullName>Sitoo</fullName>
+                <default>false</default>
+                <label>Sitoo</label>
+            </value>
+            <value>
+                <fullName>SKJ</fullName>
+                <default>false</default>
+                <label>SKJ</label>
+            </value>
+            <value>
+                <fullName>SMART RETAIL</fullName>
+                <default>false</default>
+                <label>SMART RETAIL</label>
+            </value>
+            <value>
+                <fullName>Softline</fullName>
+                <default>false</default>
+                <label>Softline</label>
+            </value>
+            <value>
+                <fullName>SOFTMAIS PREMIUM</fullName>
+                <default>false</default>
+                <label>SOFTMAIS PREMIUM</label>
+            </value>
+            <value>
+                <fullName>Solteq</fullName>
+                <default>false</default>
+                <label>Solteq</label>
+            </value>
+            <value>
+                <fullName>Status 2</fullName>
+                <default>false</default>
+                <label>Status 2</label>
+            </value>
+            <value>
+                <fullName>Steingress</fullName>
+                <default>false</default>
+                <label>Steingress</label>
+            </value>
+            <value>
+                <fullName>STMODA</fullName>
+                <default>false</default>
+                <label>STMODA</label>
+            </value>
+            <value>
+                <fullName>STORE2 MICRO RETAIL</fullName>
+                <default>false</default>
+                <label>STORE2 MICRO RETAIL</label>
+            </value>
+            <value>
+                <fullName>STORELINE</fullName>
+                <default>false</default>
+                <label>STORELINE</label>
+            </value>
+            <value>
+                <fullName>Stores 2 Oracle Oracle</fullName>
+                <default>false</default>
+                <label>Stores 2 Oracle Oracle</label>
+            </value>
+            <value>
+                <fullName>Syncore</fullName>
+                <default>false</default>
+                <label>Syncore</label>
+            </value>
+            <value>
+                <fullName>Szentivanyi</fullName>
+                <default>false</default>
+                <label>Szentivanyi</label>
+            </value>
+            <value>
+                <fullName>TCPOS</fullName>
+                <default>false</default>
+                <label>TCPOS</label>
+            </value>
+            <value>
+                <fullName>Teinor</fullName>
+                <default>false</default>
+                <label>Teinor</label>
+            </value>
+            <value>
+                <fullName>TEMA Cash Idea Informatica</fullName>
+                <default>false</default>
+                <label>TEMA Cash Idea Informatica</label>
+            </value>
+            <value>
+                <fullName>Three Software</fullName>
+                <default>false</default>
+                <label>Three Software</label>
+            </value>
+            <value>
+                <fullName>TiPOS</fullName>
+                <default>false</default>
+                <label>TiPOS</label>
+            </value>
+            <value>
+                <fullName>TP.NET Diebold-Nixdorf</fullName>
+                <default>false</default>
+                <label>TP.NET Diebold-Nixdorf</label>
+            </value>
+            <value>
+                <fullName>TP NET INDITEX - DIEBOLD</fullName>
+                <default>false</default>
+                <label>TP NET INDITEX - DIEBOLD</label>
+            </value>
+            <value>
+                <fullName>Trigis</fullName>
+                <default>false</default>
+                <label>Trigis</label>
+            </value>
+            <value>
+                <fullName>Visma</fullName>
+                <default>false</default>
+                <label>Visma</label>
+            </value>
+            <value>
+                <fullName>Wincash</fullName>
+                <default>false</default>
+                <label>Wincash</label>
+            </value>
+            <value>
+                <fullName>Wincor</fullName>
+                <default>false</default>
+                <label>Wincor</label>
+            </value>
+            <value>
+                <fullName>Win Fashion EDS ema</fullName>
+                <default>false</default>
+                <label>Win Fashion EDS ema</label>
+            </value>
+            <value>
+                <fullName>WINOPT</fullName>
+                <default>false</default>
+                <label>WINOPT</label>
+            </value>
+            <value>
+                <fullName>WINPHAR</fullName>
+                <default>false</default>
+                <label>WINPHAR</label>
+            </value>
+            <value>
+                <fullName>Winpos</fullName>
+                <default>false</default>
+                <label>Winpos</label>
+            </value>
+            <value>
+                <fullName>WINREST</fullName>
+                <default>false</default>
+                <label>WINREST</label>
+            </value>
+            <value>
+                <fullName>Winshop</fullName>
+                <default>false</default>
+                <label>Winshop</label>
+            </value>
+            <value>
+                <fullName>Wintersteiger</fullName>
+                <default>false</default>
+                <label>Wintersteiger</label>
+            </value>
+            <value>
+                <fullName>WINTOUCH RETALHO 2018</fullName>
+                <default>false</default>
+                <label>WINTOUCH RETALHO 2018</label>
+            </value>
+            <value>
+                <fullName>WI-TOUCH / PHC</fullName>
+                <default>false</default>
+                <label>WI-TOUCH / PHC</label>
+            </value>
+            <value>
+                <fullName>WP</fullName>
+                <default>false</default>
+                <label>WP</label>
+            </value>
+            <value>
+                <fullName>XD POS RETAIL</fullName>
+                <default>false</default>
+                <label>XD POS RETAIL</label>
+            </value>
+            <value>
+                <fullName>XLsoft</fullName>
+                <default>false</default>
+                <label>XLsoft</label>
+            </value>
+            <value>
+                <fullName>Xstore</fullName>
+                <default>false</default>
+                <label>Xstore</label>
+            </value>
+            <value>
+                <fullName>YOUR CEGID WSH</fullName>
+                <default>false</default>
+                <label>YOUR CEGID WSH</label>
+            </value>
+            <value>
+                <fullName>Zimmel &amp; Partner</fullName>
+                <default>false</default>
+                <label>Zimmel &amp; Partner</label>
+            </value>
+            <value>
+                <fullName>ZSPOS</fullName>
+                <default>false</default>
+                <label>ZSPOS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

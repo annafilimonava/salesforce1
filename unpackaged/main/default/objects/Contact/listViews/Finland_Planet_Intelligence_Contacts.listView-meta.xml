@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Finland_Planet_Intelligence_Contacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Position__c</columns>
+    <columns>Planet_Intelligence__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.PHONE3</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Contact_Roles__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Planet_Intelligence__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Account.Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>Finland</value>
+    </filters>
+    <label>Finland Planet Intelligence Contacts</label>
+    <sharedTo>
+        <roleAndSubordinates>Finland_Management</roleAndSubordinates>
+    </sharedTo>
+</ListView>

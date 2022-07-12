@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PA_Emergency_Contacts</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Position__c</columns>
+    <columns>Owning_Country__c</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>IT_Outage__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>IT_Outage__c</field>
+        <operation>includes</operation>
+        <value>PA</value>
+    </filters>
+    <label>PA Emergency Contacts</label>
+    <sharedTo>
+        <group>Spain_All_Users</group>
+    </sharedTo>
+</ListView>

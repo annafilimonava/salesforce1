@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Percent_of_Business_from_non_EUR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Percent_of_Business_from_non_EU__c) = &quot;5 or less&quot;, 5,
+IF(TEXT(Percent_of_Business_from_non_EU__c) = &quot;Between 5 and 10&quot;, 4,
+IF(TEXT(Percent_of_Business_from_non_EU__c) = &quot;Between 10 and 20&quot;, 3,
+IF(TEXT(Percent_of_Business_from_non_EU__c) = &quot;Between 20 and 30&quot;, 2,
+IF(TEXT(Percent_of_Business_from_non_EU__c) = &quot;More than 30&quot;, 1,
+IF(TEXT(Percent_of_Business_from_non_EU__c) = &quot;None&quot;, 5, 0))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Percent of Business from non-EUR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

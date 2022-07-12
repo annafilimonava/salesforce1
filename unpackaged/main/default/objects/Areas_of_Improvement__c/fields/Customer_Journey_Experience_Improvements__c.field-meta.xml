@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Journey_Experience_Improvements__c</fullName>
+    <description>Marketing and Digital</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Marketing and Digital</inlineHelpText>
+    <label>Customer Journey/Experience Improvements</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

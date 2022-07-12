@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Arts &amp; Entertainment</fullName>
+        <default>false</default>
+        <label>Arts &amp; Entertainment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ATMs</fullName>
+        <default>false</default>
+        <label>ATMs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Banking</fullName>
+        <default>false</default>
+        <label>Banking</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Beauty (Fragrance and Cosmetics)</fullName>
+        <default>false</default>
+        <label>Beauty (Fragrance and Cosmetics)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Car Rental</fullName>
+        <default>false</default>
+        <label>Car Rental</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Casino</fullName>
+        <default>false</default>
+        <label>Casino</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Department Store</fullName>
+        <default>false</default>
+        <label>Department Store</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ecommerce</fullName>
+        <default>false</default>
+        <label>Ecommerce</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Electronics</fullName>
+        <default>false</default>
+        <label>Electronics</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fast Fashion</fullName>
+        <default>false</default>
+        <label>Fast Fashion</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Food &amp; Beverage</fullName>
+        <default>false</default>
+        <label>Food &amp; Beverage</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Gaming &amp; Gambling</fullName>
+        <default>false</default>
+        <label>Gaming &amp; Gambling</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Highstreet Fashion &amp; Accessories</fullName>
+        <default>false</default>
+        <label>Highstreet Fashion &amp; Accessories</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hotel &amp; Leisure</fullName>
+        <default>false</default>
+        <label>Hotel &amp; Leisure</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hotel 1-3 Star</fullName>
+        <default>false</default>
+        <label>Hotel 1-3 Star</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hotel 4 Star</fullName>
+        <default>false</default>
+        <label>Hotel 4 Star</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hotel 5 Star</fullName>
+        <default>false</default>
+        <label>Hotel 5 Star</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Jewellery</fullName>
+        <default>false</default>
+        <label>JEWELLERY</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Large retail</fullName>
+        <default>false</default>
+        <label>Large retail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Leisure or Theme Park</fullName>
+        <default>false</default>
+        <label>Leisure or Theme Park</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Luxury Fashion &amp; Accessories</fullName>
+        <default>false</default>
+        <label>Luxury Fashion &amp; Accessories</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MOTO</fullName>
+        <default>false</default>
+        <label>MOTO</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Museum/Attraction</fullName>
+        <default>false</default>
+        <label>Museum/Attraction</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Night Club</fullName>
+        <default>false</default>
+        <label>Night Club</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opticians</fullName>
+        <default>false</default>
+        <label>Opticians</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Parking</fullName>
+        <default>false</default>
+        <label>Parking</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payments</fullName>
+        <default>false</default>
+        <label>Payments</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Petrol Station</fullName>
+        <default>false</default>
+        <label>Petrol Station</label>
+    </standardValue>
+    <standardValue>
+        <fullName>POS solutions</fullName>
+        <default>false</default>
+        <label>POS solutions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Premium Fashion</fullName>
+        <default>false</default>
+        <label>Premium Fashion</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Restaurant</fullName>
+        <default>false</default>
+        <label>Restaurant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail</fullName>
+        <default>false</default>
+        <label>Retail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Services</fullName>
+        <default>false</default>
+        <label>Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ski Hire</fullName>
+        <default>false</default>
+        <label>Ski Hire</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Ski Lift</fullName>
+        <default>false</default>
+        <label>Ski Lift</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Souvenirs</fullName>
+        <default>false</default>
+        <label>Souvenirs</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sports</fullName>
+        <default>false</default>
+        <label>Sports</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sportswear</fullName>
+        <default>false</default>
+        <label>Sportswear</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technology/Electronics</fullName>
+        <default>false</default>
+        <label>Technology/Electronics</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Transportation</fullName>
+        <default>false</default>
+        <label>Transportation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Vending</fullName>
+        <default>false</default>
+        <label>Vending</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Watches &amp; Jewellery</fullName>
+        <default>false</default>
+        <label>Watches &amp; Jewellery</label>
+    </standardValue>
+</StandardValueSet>

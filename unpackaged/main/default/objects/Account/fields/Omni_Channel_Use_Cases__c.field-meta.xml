@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Omni_Channel_Use_Cases__c</fullName>
+    <description>Proximis Retail Field - Saurabh 30/03/2022</description>
+    <externalId>false</externalId>
+    <label>Omni-Channel Use Cases</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>C&amp;C ecommerce (ecomm warehouse stock)</fullName>
+                <default>false</default>
+                <label>C&amp;C ecommerce (ecomm warehouse stock)</label>
+            </value>
+            <value>
+                <fullName>C&amp;C store (store stock)</fullName>
+                <default>false</default>
+                <label>C&amp;C store (store stock)</label>
+            </value>
+            <value>
+                <fullName>E-reservation</fullName>
+                <default>false</default>
+                <label>E-reservation</label>
+            </value>
+            <value>
+                <fullName>Mobile check-out</fullName>
+                <default>false</default>
+                <label>Mobile check-out</label>
+            </value>
+            <value>
+                <fullName>Not available</fullName>
+                <default>false</default>
+                <label>Not available</label>
+            </value>
+            <value>
+                <fullName>Order in-store orchestrated from warehouse</fullName>
+                <default>false</default>
+                <label>Order in-store orchestrated from warehouse</label>
+            </value>
+            <value>
+                <fullName>Order in-store orchestrated through stores</fullName>
+                <default>false</default>
+                <label>Order in-store orchestrated through stores</label>
+            </value>
+            <value>
+                <fullName>Order orchestration through stores</fullName>
+                <default>false</default>
+                <label>Order orchestration through stores</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Return in store of any order</fullName>
+                <default>false</default>
+                <label>Return in store of any order</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

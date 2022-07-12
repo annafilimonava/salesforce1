@@ -1,0 +1,4 @@
+<font face="arial" size=2>
+Your request for a Premier Automatic POS Solution has been declined for {!WorkOrder.Account}.  Please request a different type of POS Solution for this account.<p>
+
+You can view the Work Order by clicking here {!WorkOrder.Link}

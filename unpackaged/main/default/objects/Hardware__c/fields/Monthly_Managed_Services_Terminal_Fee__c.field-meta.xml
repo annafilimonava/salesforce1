@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Monthly_Managed_Services_Terminal_Fee__c</fullName>
+    <description>Monthly Recurring Managed Services fee Per Terminal (Hardware)</description>
+    <externalId>false</externalId>
+    <label>Monthly Managed Serv per Terminal Fee</label>
+    <precision>12</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

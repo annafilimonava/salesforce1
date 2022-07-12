@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Store_Summary_Shop_External_ID</fullName>
+    <active>true</active>
+    <errorConditionFormula>Account_Type__c  = &#39;Shop&#39;
+ &amp;&amp; 
+Account_ID__r.External_Tax_System_ID__c = &#39;&#39;</errorConditionFormula>
+    <errorDisplayField>Account_ID__c</errorDisplayField>
+    <errorMessage>The &#39;External Tax System ID&#39; is missing from the Store Record. Please contact BI team for more information.</errorMessage>
+</ValidationRule>

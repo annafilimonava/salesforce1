@@ -1,0 +1,5 @@
+<apex:page standardController="Tax_Free_Form__c" extensions="Tax_Free_Form_Search_Ctrl" action="{!fintrax_API_Sync}">
+<apex:form >
+<apex:inputHidden value="{!Tax_Free_Form__c.name}"/>
+</apex:form>
+</apex:page>

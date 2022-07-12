@@ -1,0 +1,14 @@
+<font face="arial"><font size=2><p>
+<p>
+A new DCC POS Solution has been set up for {!POS_Solution__c.Account_Name__c} at {!POS_Solution__c.Street__c}, {!POS_Solution__c.City__c} {!POS_Solution__c.Post_Code__c}.  Please schedule and complete a training.<p>
+<p>
+Contact Name: {!POS_Solution__c.Contact__c}<p>
+Position: {!POS_Solution__c.Position__c}<p>
+Phone: {!POS_Solution__c.Contact_Phone__c}<p>
+Mobile: {!POS_Solution__c.Contact_Mobile__c}<p>
+Email: {!POS_Solution__c.Contact_Email__c}<p>
+<p>
+<p>
+A task in the POS Solution section of the shop has already been created and assigned to you.  Please close the task once the training has been done.
+<p>
+{!POS_Solution__c.Link}

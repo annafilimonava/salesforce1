@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Batch__c</columns>
+    <columns>UpsalesAccId__c</columns>
+    <columns>UpsalesOppId__c</columns>
+    <columns>Stage__c</columns>
+    <columns>current_Payments_contract_expiry__c</columns>
+    <columns>Current_Payments_provider_used__c</columns>
+    <columns>current_POS_contract_expiry__c</columns>
+    <columns>Current_POS_provider_used__c</columns>
+    <columns>Reason_Lost__c</columns>
+    <columns>Reason_on_Hold__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Notes__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

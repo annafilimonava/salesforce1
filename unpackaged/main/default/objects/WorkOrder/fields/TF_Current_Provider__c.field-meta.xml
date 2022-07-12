@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TF_Current_Provider__c</fullName>
+    <externalId>false</externalId>
+    <formula>INCLUDES(Account.TF_Current_Provider__c, &quot;Caixa&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TF Current Provider</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

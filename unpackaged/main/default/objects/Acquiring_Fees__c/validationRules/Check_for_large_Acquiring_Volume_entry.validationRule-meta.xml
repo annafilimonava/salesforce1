@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_for_large_Acquiring_Volume_entry</fullName>
+    <active>true</active>
+    <description>volume should be set in millions, hence checking anything entered &gt; 1000000</description>
+    <errorConditionFormula>Acquiring_Volume__c  &gt;= 1000000</errorConditionFormula>
+    <errorDisplayField>Acquiring_Volume__c</errorDisplayField>
+    <errorMessage>Please check your Acquiring Volume (Millions) value.  The number should be entered in millions i.e. if the volume is 1 million, enter 1 as opposed to 1000000</errorMessage>
+</ValidationRule>

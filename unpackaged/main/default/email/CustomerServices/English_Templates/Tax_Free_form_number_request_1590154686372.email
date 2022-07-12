@@ -1,0 +1,24 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-bidi-font-family:Calibri;color:windowtext">Dear {{{Case.Tourist__c}}}, </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-bidi-font-family:Calibri;color:windowtext"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">Thank you for your email. </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-bidi-font-family:Calibri;color:windowtext"><span style="mso-spacerun:yes">&nbsp; </span> </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-bidi-font-family:Calibri;color:windowtext">In order to assist you with your refund query, please send me your Tax Free form number or a scanned copy of it and I will check our database for you. </span></p> 
+  <p class="MsoPlainText" style="tab-stops:76.2pt"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Barlow;
+mso-bidi-font-family:Calibri;color:windowtext"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-bidi-font-family:Calibri;color:windowtext">When sending through your scanned copy, please ensure that the Tax Free form number at the top of the Tax Free form below the barcode is clearly visible. </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-bidi-font-family:Calibri;color:windowtext">&nbsp; </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-bidi-font-family:Calibri;color:windowtext">I look forward to assisting you further.</span></p>
+ </body>
+</html>

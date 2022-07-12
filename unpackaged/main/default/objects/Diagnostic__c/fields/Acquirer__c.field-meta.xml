@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acquirer__c</fullName>
+    <externalId>false</externalId>
+    <label>Acquirer</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Adyen</fullName>
+                <default>false</default>
+                <label>Adyen</label>
+            </value>
+            <value>
+                <fullName>AIB</fullName>
+                <default>false</default>
+                <label>AIB</label>
+            </value>
+            <value>
+                <fullName>B+S Card Services</fullName>
+                <default>false</default>
+                <label>B+S Card Services</label>
+            </value>
+            <value>
+                <fullName>Babs Pay</fullName>
+                <default>false</default>
+                <label>Babs Pay</label>
+            </value>
+            <value>
+                <fullName>Bambora</fullName>
+                <default>false</default>
+                <label>Bambora</label>
+            </value>
+            <value>
+                <fullName>Barclaycard</fullName>
+                <default>false</default>
+                <label>Barclaycard</label>
+            </value>
+            <value>
+                <fullName>BBVA</fullName>
+                <default>false</default>
+                <label>BBVA</label>
+            </value>
+            <value>
+                <fullName>BNP</fullName>
+                <default>false</default>
+                <label>BNP</label>
+            </value>
+            <value>
+                <fullName>B-Payment,</fullName>
+                <default>false</default>
+                <label>B-Payment,</label>
+            </value>
+            <value>
+                <fullName>CAIXA AGRICOLA</fullName>
+                <default>false</default>
+                <label>CAIXA AGRICOLA</label>
+            </value>
+            <value>
+                <fullName>ČSOB</fullName>
+                <default>false</default>
+                <label>ČSOB</label>
+            </value>
+            <value>
+                <fullName>Edel Bank</fullName>
+                <default>false</default>
+                <label>Edel Bank</label>
+            </value>
+            <value>
+                <fullName>Elavon</fullName>
+                <default>false</default>
+                <label>Elavon</label>
+            </value>
+            <value>
+                <fullName>First Data</fullName>
+                <default>false</default>
+                <label>First Data</label>
+            </value>
+            <value>
+                <fullName>Global Payments</fullName>
+                <default>false</default>
+                <label>Global Payments</label>
+            </value>
+            <value>
+                <fullName>Hobex</fullName>
+                <default>false</default>
+                <label>Hobex</label>
+            </value>
+            <value>
+                <fullName>HSBC</fullName>
+                <default>false</default>
+                <label>HSBC</label>
+            </value>
+            <value>
+                <fullName>KB Smart Pay</fullName>
+                <default>false</default>
+                <label>KB Smart Pay</label>
+            </value>
+            <value>
+                <fullName>MILLENIUM BCP</fullName>
+                <default>false</default>
+                <label>MILLENIUM BCP</label>
+            </value>
+            <value>
+                <fullName>NEXI</fullName>
+                <default>false</default>
+                <label>NEXI</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>REVO</fullName>
+                <default>false</default>
+                <label>REVO</label>
+            </value>
+            <value>
+                <fullName>SIBS</fullName>
+                <default>false</default>
+                <label>SIBS</label>
+            </value>
+            <value>
+                <fullName>SIX</fullName>
+                <default>false</default>
+                <label>SIX</label>
+            </value>
+            <value>
+                <fullName>SIX PAYMENTS SERVICES</fullName>
+                <default>false</default>
+                <label>SIX PAYMENTS SERVICES</label>
+            </value>
+            <value>
+                <fullName>Swedbank</fullName>
+                <default>false</default>
+                <label>Swedbank</label>
+            </value>
+            <value>
+                <fullName>UNICRE</fullName>
+                <default>false</default>
+                <label>UNICRE</label>
+            </value>
+            <value>
+                <fullName>UniCredit Bank</fullName>
+                <default>false</default>
+                <label>UniCredit Bank</label>
+            </value>
+            <value>
+                <fullName>Worldpay</fullName>
+                <default>false</default>
+                <label>Worldpay</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,2852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Till_Provider__c</fullName>
+    <externalId>false</externalId>
+    <label>POS Provider</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Owning_Country__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Access Group</fullName>
+                <default>false</default>
+                <label>Access Group</label>
+            </value>
+            <value>
+                <fullName>Ace Informatique</fullName>
+                <default>false</default>
+                <label>Ace Informatique</label>
+            </value>
+            <value>
+                <fullName>Actosoft</fullName>
+                <default>false</default>
+                <label>Actosoft</label>
+            </value>
+            <value>
+                <fullName>Advarics</fullName>
+                <default>false</default>
+                <label>Advarics</label>
+            </value>
+            <value>
+                <fullName>Aptean</fullName>
+                <default>false</default>
+                <label>Aptean</label>
+            </value>
+            <value>
+                <fullName>Aptos</fullName>
+                <default>false</default>
+                <label>Aptos</label>
+            </value>
+            <value>
+                <fullName>Atelier 98</fullName>
+                <default>false</default>
+                <label>Atelier 98</label>
+            </value>
+            <value>
+                <fullName>Bean Store/Bizeta</fullName>
+                <default>false</default>
+                <label>Bean Store/Bizeta</label>
+            </value>
+            <value>
+                <fullName>Best Store Autel</fullName>
+                <default>false</default>
+                <label>Best Store Autel</label>
+            </value>
+            <value>
+                <fullName>Beterna</fullName>
+                <default>false</default>
+                <label>Beterna</label>
+            </value>
+            <value>
+                <fullName>BITS</fullName>
+                <default>false</default>
+                <label>BITS</label>
+            </value>
+            <value>
+                <fullName>Bleep</fullName>
+                <default>false</default>
+                <label>Bleep</label>
+            </value>
+            <value>
+                <fullName>BlueYonder</fullName>
+                <default>false</default>
+                <label>BlueYonder</label>
+            </value>
+            <value>
+                <fullName>Bording/52</fullName>
+                <default>false</default>
+                <label>Bording/52</label>
+            </value>
+            <value>
+                <fullName>Bright Pearl</fullName>
+                <default>false</default>
+                <label>Bright Pearl</label>
+            </value>
+            <value>
+                <fullName>Cashdash</fullName>
+                <default>false</default>
+                <label>Cashdash</label>
+            </value>
+            <value>
+                <fullName>Cash IT</fullName>
+                <default>false</default>
+                <label>Cash IT</label>
+            </value>
+            <value>
+                <fullName>Cassiopee</fullName>
+                <default>false</default>
+                <label>Cassiopee</label>
+            </value>
+            <value>
+                <fullName>Cegid</fullName>
+                <default>false</default>
+                <label>Cegid</label>
+            </value>
+            <value>
+                <fullName>CI Bruneau</fullName>
+                <default>false</default>
+                <label>CI Bruneau</label>
+            </value>
+            <value>
+                <fullName>Codysis</fullName>
+                <default>false</default>
+                <label>Codysis</label>
+            </value>
+            <value>
+                <fullName>Combase/Korona</fullName>
+                <default>false</default>
+                <label>Combase/Korona</label>
+            </value>
+            <value>
+                <fullName>Comerzzia</fullName>
+                <default>false</default>
+                <label>Comerzzia</label>
+            </value>
+            <value>
+                <fullName>Cowhills</fullName>
+                <default>false</default>
+                <label>Cowhills</label>
+            </value>
+            <value>
+                <fullName>CPI Retail</fullName>
+                <default>false</default>
+                <label>CPI Retail</label>
+            </value>
+            <value>
+                <fullName>Crafthouse</fullName>
+                <default>false</default>
+                <label>Crafthouse</label>
+            </value>
+            <value>
+                <fullName>Crystal Works</fullName>
+                <default>false</default>
+                <label>Crystal Works</label>
+            </value>
+            <value>
+                <fullName>Cunninghams/Fashion Master</fullName>
+                <default>false</default>
+                <label>Cunninghams/Fashion Master</label>
+            </value>
+            <value>
+                <fullName>Cybertill</fullName>
+                <default>false</default>
+                <label>Cybertill</label>
+            </value>
+            <value>
+                <fullName>Cylande/Cegid</fullName>
+                <default>false</default>
+                <label>Cylande/Cegid</label>
+            </value>
+            <value>
+                <fullName>DATALIDER</fullName>
+                <default>false</default>
+                <label>DATALIDER</label>
+            </value>
+            <value>
+                <fullName>DDD</fullName>
+                <default>false</default>
+                <label>DDD</label>
+            </value>
+            <value>
+                <fullName>Deniba</fullName>
+                <default>false</default>
+                <label>Deniba</label>
+            </value>
+            <value>
+                <fullName>Diebold Nixdorf</fullName>
+                <default>false</default>
+                <label>Diebold Nixdorf</label>
+            </value>
+            <value>
+                <fullName>EG</fullName>
+                <default>false</default>
+                <label>EG</label>
+            </value>
+            <value>
+                <fullName>Elfo Vision POS</fullName>
+                <default>false</default>
+                <label>Elfo Vision POS</label>
+            </value>
+            <value>
+                <fullName>Enactor</fullName>
+                <default>false</default>
+                <label>Enactor</label>
+            </value>
+            <value>
+                <fullName>Entersoft</fullName>
+                <default>false</default>
+                <label>Entersoft</label>
+            </value>
+            <value>
+                <fullName>Epicor</fullName>
+                <default>false</default>
+                <label>Epicor</label>
+            </value>
+            <value>
+                <fullName>Epsilon</fullName>
+                <default>false</default>
+                <label>Epsilon</label>
+            </value>
+            <value>
+                <fullName>Etron</fullName>
+                <default>false</default>
+                <label>Etron</label>
+            </value>
+            <value>
+                <fullName>Extenda</fullName>
+                <default>false</default>
+                <label>Extenda</label>
+            </value>
+            <value>
+                <fullName>Famowa</fullName>
+                <default>false</default>
+                <label>Famowa</label>
+            </value>
+            <value>
+                <fullName>FarmaPro</fullName>
+                <default>false</default>
+                <label>FarmaPro</label>
+            </value>
+            <value>
+                <fullName>FDT</fullName>
+                <default>false</default>
+                <label>FDT</label>
+            </value>
+            <value>
+                <fullName>Front Systems</fullName>
+                <default>false</default>
+                <label>Front Systems</label>
+            </value>
+            <value>
+                <fullName>Fujitsu</fullName>
+                <default>false</default>
+                <label>Fujitsu</label>
+            </value>
+            <value>
+                <fullName>Generix</fullName>
+                <default>false</default>
+                <label>Generix</label>
+            </value>
+            <value>
+                <fullName>Giz</fullName>
+                <default>false</default>
+                <label>Giz</label>
+            </value>
+            <value>
+                <fullName>GK Software</fullName>
+                <default>false</default>
+                <label>GK Software</label>
+            </value>
+            <value>
+                <fullName>Hermes</fullName>
+                <default>false</default>
+                <label>Hermes</label>
+            </value>
+            <value>
+                <fullName>IBM</fullName>
+                <default>false</default>
+                <label>IBM</label>
+            </value>
+            <value>
+                <fullName>ICG</fullName>
+                <default>false</default>
+                <label>ICG</label>
+            </value>
+            <value>
+                <fullName>INFOS</fullName>
+                <default>false</default>
+                <label>INFOS</label>
+            </value>
+            <value>
+                <fullName>Inside POS</fullName>
+                <default>false</default>
+                <label>Inside POS</label>
+            </value>
+            <value>
+                <fullName>J. Ahola</fullName>
+                <default>false</default>
+                <label>J. Ahola</label>
+            </value>
+            <value>
+                <fullName>JBM Merit</fullName>
+                <default>false</default>
+                <label>JBM Merit</label>
+            </value>
+            <value>
+                <fullName>JDC</fullName>
+                <default>false</default>
+                <label>JDC</label>
+            </value>
+            <value>
+                <fullName>JLR</fullName>
+                <default>false</default>
+                <label>JLR</label>
+            </value>
+            <value>
+                <fullName>Joolan</fullName>
+                <default>false</default>
+                <label>Joolan</label>
+            </value>
+            <value>
+                <fullName>Kappture</fullName>
+                <default>false</default>
+                <label>Kappture</label>
+            </value>
+            <value>
+                <fullName>Kassaline</fullName>
+                <default>false</default>
+                <label>Kassaline</label>
+            </value>
+            <value>
+                <fullName>LCR Data/Diamante</fullName>
+                <default>false</default>
+                <label>LCR Data/Diamante</label>
+            </value>
+            <value>
+                <fullName>Lightspeed</fullName>
+                <default>false</default>
+                <label>Lightspeed</label>
+            </value>
+            <value>
+                <fullName>Logo</fullName>
+                <default>false</default>
+                <label>Logo</label>
+            </value>
+            <value>
+                <fullName>LS Retail</fullName>
+                <default>false</default>
+                <label>LS Retail</label>
+            </value>
+            <value>
+                <fullName>Maestro</fullName>
+                <default>false</default>
+                <label>Maestro</label>
+            </value>
+            <value>
+                <fullName>Manhattan</fullName>
+                <default>false</default>
+                <label>Manhattan</label>
+            </value>
+            <value>
+                <fullName>Micro</fullName>
+                <default>false</default>
+                <label>Micro</label>
+            </value>
+            <value>
+                <fullName>Micromania (in-house)</fullName>
+                <default>false</default>
+                <label>Micromania (in-house)</label>
+            </value>
+            <value>
+                <fullName>Microsoft Dynamics</fullName>
+                <default>false</default>
+                <label>Microsoft Dynamics</label>
+            </value>
+            <value>
+                <fullName>Moddo</fullName>
+                <default>false</default>
+                <label>Moddo</label>
+            </value>
+            <value>
+                <fullName>NaviPartner</fullName>
+                <default>false</default>
+                <label>NaviPartner</label>
+            </value>
+            <value>
+                <fullName>Nebim</fullName>
+                <default>false</default>
+                <label>Nebim</label>
+            </value>
+            <value>
+                <fullName>Nepting</fullName>
+                <default>false</default>
+                <label>Nepting</label>
+            </value>
+            <value>
+                <fullName>New Black</fullName>
+                <default>false</default>
+                <label>New Black</label>
+            </value>
+            <value>
+                <fullName>Notia</fullName>
+                <default>false</default>
+                <label>Notia</label>
+            </value>
+            <value>
+                <fullName>Octave</fullName>
+                <default>false</default>
+                <label>Octave</label>
+            </value>
+            <value>
+                <fullName>Odoo</fullName>
+                <default>false</default>
+                <label>Odoo</label>
+            </value>
+            <value>
+                <fullName>Openbravo</fullName>
+                <default>false</default>
+                <label>Openbravo</label>
+            </value>
+            <value>
+                <fullName>Oracle</fullName>
+                <default>false</default>
+                <label>Oracle</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PCK</fullName>
+                <default>false</default>
+                <label>PCK</label>
+            </value>
+            <value>
+                <fullName>PCMS/Flooid</fullName>
+                <default>false</default>
+                <label>PCMS/Flooid</label>
+            </value>
+            <value>
+                <fullName>Persis</fullName>
+                <default>false</default>
+                <label>Persis</label>
+            </value>
+            <value>
+                <fullName>Pharmadata</fullName>
+                <default>false</default>
+                <label>Pharmadata</label>
+            </value>
+            <value>
+                <fullName>Pharmagest</fullName>
+                <default>false</default>
+                <label>Pharmagest</label>
+            </value>
+            <value>
+                <fullName>Pharmaland</fullName>
+                <default>false</default>
+                <label>Pharmaland</label>
+            </value>
+            <value>
+                <fullName>PHC – Anturio</fullName>
+                <default>false</default>
+                <label>PHC – Anturio</label>
+            </value>
+            <value>
+                <fullName>Pohoda</fullName>
+                <default>false</default>
+                <label>Pohoda</label>
+            </value>
+            <value>
+                <fullName>Posman</fullName>
+                <default>false</default>
+                <label>Posman</label>
+            </value>
+            <value>
+                <fullName>Power2Retail</fullName>
+                <default>false</default>
+                <label>Power2Retail</label>
+            </value>
+            <value>
+                <fullName>PrimaveraBSS</fullName>
+                <default>false</default>
+                <label>PrimaveraBSS</label>
+            </value>
+            <value>
+                <fullName>Prins</fullName>
+                <default>false</default>
+                <label>Prins</label>
+            </value>
+            <value>
+                <fullName>Pursuit</fullName>
+                <default>false</default>
+                <label>Pursuit</label>
+            </value>
+            <value>
+                <fullName>R4P/OKI-Itautec</fullName>
+                <default>false</default>
+                <label>R4P/OKI-Itautec</label>
+            </value>
+            <value>
+                <fullName>ready2order</fullName>
+                <default>false</default>
+                <label>ready2order</label>
+            </value>
+            <value>
+                <fullName>Receptum</fullName>
+                <default>false</default>
+                <label>Receptum</label>
+            </value>
+            <value>
+                <fullName>Red Ant</fullName>
+                <default>false</default>
+                <label>Red Ant</label>
+            </value>
+            <value>
+                <fullName>Retail Integration</fullName>
+                <default>false</default>
+                <label>Retail Integration</label>
+            </value>
+            <value>
+                <fullName>Retail Pro</fullName>
+                <default>false</default>
+                <label>Retail Pro</label>
+            </value>
+            <value>
+                <fullName>Retail Realm (D365)</fullName>
+                <default>false</default>
+                <label>Retail Realm (D365)</label>
+            </value>
+            <value>
+                <fullName>Roqqio/Future</fullName>
+                <default>false</default>
+                <label>Roqqio/Future</label>
+            </value>
+            <value>
+                <fullName>SAGE</fullName>
+                <default>false</default>
+                <label>SAGE</label>
+            </value>
+            <value>
+                <fullName>SAP</fullName>
+                <default>false</default>
+                <label>SAP</label>
+            </value>
+            <value>
+                <fullName>Set</fullName>
+                <default>false</default>
+                <label>Set</label>
+            </value>
+            <value>
+                <fullName>Shopify</fullName>
+                <default>false</default>
+                <label>Shopify</label>
+            </value>
+            <value>
+                <fullName>Singular</fullName>
+                <default>false</default>
+                <label>Singular</label>
+            </value>
+            <value>
+                <fullName>Sitoo</fullName>
+                <default>false</default>
+                <label>Sitoo</label>
+            </value>
+            <value>
+                <fullName>Skidata</fullName>
+                <default>false</default>
+                <label>Skidata</label>
+            </value>
+            <value>
+                <fullName>SKJ</fullName>
+                <default>false</default>
+                <label>SKJ</label>
+            </value>
+            <value>
+                <fullName>Smart RX</fullName>
+                <default>false</default>
+                <label>Smart RX</label>
+            </value>
+            <value>
+                <fullName>Softingal</fullName>
+                <default>false</default>
+                <label>Softingal</label>
+            </value>
+            <value>
+                <fullName>SOFTMAIS PREMIUM</fullName>
+                <default>false</default>
+                <label>SOFTMAIS PREMIUM</label>
+            </value>
+            <value>
+                <fullName>Softone</fullName>
+                <default>false</default>
+                <label>Softone</label>
+            </value>
+            <value>
+                <fullName>Solteq</fullName>
+                <default>false</default>
+                <label>Solteq</label>
+            </value>
+            <value>
+                <fullName>Status 2</fullName>
+                <default>false</default>
+                <label>Status 2</label>
+            </value>
+            <value>
+                <fullName>Suite one</fullName>
+                <default>false</default>
+                <label>Suite one</label>
+            </value>
+            <value>
+                <fullName>Syncore</fullName>
+                <default>false</default>
+                <label>Syncore</label>
+            </value>
+            <value>
+                <fullName>Tad Solution</fullName>
+                <default>false</default>
+                <label>Tad Solution</label>
+            </value>
+            <value>
+                <fullName>TCPOS</fullName>
+                <default>false</default>
+                <label>TCPOS</label>
+            </value>
+            <value>
+                <fullName>Tehden</fullName>
+                <default>false</default>
+                <label>Tehden</label>
+            </value>
+            <value>
+                <fullName>TRC</fullName>
+                <default>false</default>
+                <label>TRC</label>
+            </value>
+            <value>
+                <fullName>Treibauf</fullName>
+                <default>false</default>
+                <label>Treibauf</label>
+            </value>
+            <value>
+                <fullName>Vend/Lightspeed</fullName>
+                <default>false</default>
+                <label>Vend/Lightspeed</label>
+            </value>
+            <value>
+                <fullName>Wincor through DFS</fullName>
+                <default>false</default>
+                <label>Wincor through DFS</label>
+            </value>
+            <value>
+                <fullName>Winparf</fullName>
+                <default>false</default>
+                <label>Winparf</label>
+            </value>
+            <value>
+                <fullName>Winpos</fullName>
+                <default>false</default>
+                <label>Winpos</label>
+            </value>
+            <value>
+                <fullName>Winshop</fullName>
+                <default>false</default>
+                <label>Winshop</label>
+            </value>
+            <value>
+                <fullName>WinTouch</fullName>
+                <default>false</default>
+                <label>WinTouch</label>
+            </value>
+            <value>
+                <fullName>Wise</fullName>
+                <default>false</default>
+                <label>Wise</label>
+            </value>
+            <value>
+                <fullName>XL Soft</fullName>
+                <default>false</default>
+                <label>XL Soft</label>
+            </value>
+            <value>
+                <fullName>XY</fullName>
+                <default>false</default>
+                <label>XY</label>
+            </value>
+            <value>
+                <fullName>Zimmel</fullName>
+                <default>false</default>
+                <label>Zimmel</label>
+            </value>
+            <value>
+                <fullName>ZoneSoft</fullName>
+                <default>false</default>
+                <label>ZoneSoft</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Access Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Aptean</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Aptos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>BlueYonder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Bording/52</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Cash IT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Cegid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Crafthouse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>DDD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Diebold Nixdorf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>EG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Elfo Vision POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Enactor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Epicor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Extenda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>FarmaPro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>FDT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Front Systems</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Fujitsu</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>GK Software</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>ICG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Inside POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>J. Ahola</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Lightspeed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>LS Retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Maestro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Manhattan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Microsoft Dynamics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>NaviPartner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>New Black</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Odoo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Openbravo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Oracle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>PCK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>PCMS/Flooid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Pharmadata</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Receptum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Red Ant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Retail Pro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Retail Realm (D365)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>SAGE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>SAP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Shopify</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Sitoo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Skidata</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>SKJ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Solteq</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Tehden</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Treibauf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Vend/Lightspeed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Winpos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Estonia</controllingFieldValue>
+            <controllingFieldValue>Denmark</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <controllingFieldValue>Iceland</controllingFieldValue>
+            <controllingFieldValue>Faroe Islands</controllingFieldValue>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Wise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Actosoft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Advarics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Beterna</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>BITS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Combase/Korona</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Crystal Works</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Deniba</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Etron</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Famowa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Hermes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Kassaline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Notia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Pohoda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Posman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Prins</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>ready2order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Roqqio/Future</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Syncore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Winshop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <controllingFieldValue>Czech Republic</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Poland</controllingFieldValue>
+            <controllingFieldValue>Slovak Republic</controllingFieldValue>
+            <controllingFieldValue>Latvia</controllingFieldValue>
+            <controllingFieldValue>Lithuania</controllingFieldValue>
+            <controllingFieldValue>Hungary</controllingFieldValue>
+            <controllingFieldValue>Slovenia</controllingFieldValue>
+            <valueName>Zimmel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <valueName>Bleep</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <valueName>Bright Pearl</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <valueName>Cashdash</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <valueName>Cunninghams/Fashion Master</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <valueName>Cybertill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <valueName>JBM Merit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <valueName>Kappture</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <valueName>Pursuit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <valueName>Retail Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Canada</controllingFieldValue>
+            <controllingFieldValue>Mexico</controllingFieldValue>
+            <controllingFieldValue>United States</controllingFieldValue>
+            <controllingFieldValue>Gibraltar</controllingFieldValue>
+            <valueName>TRC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Ace Informatique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>CI Bruneau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Cowhills</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Cylande/Cegid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Generix</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>JDC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>JLR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Joolan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Micromania (in-house)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Nepting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Octave</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Pharmagest</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Pharmaland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Smart RX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>TCPOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Wincor through DFS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Winparf</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <controllingFieldValue>Luxembourg</controllingFieldValue>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>XL Soft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Atelier 98</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Bean Store/Bizeta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Best Store Autel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Power2Retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Suite one</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Tad Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>XY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>Cassiopee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>Codysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>Comerzzia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>CPI Retail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>DATALIDER</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>Entersoft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>Epsilon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>INFOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>LCR Data/Diamante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>Moddo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>PHC – Anturio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>PrimaveraBSS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>R4P/OKI-Itautec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>Singular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>Softingal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>SOFTMAIS PREMIUM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>Softone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>Status 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>WinTouch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <controllingFieldValue>Cyprus</controllingFieldValue>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <controllingFieldValue>Malta</controllingFieldValue>
+            <valueName>ZoneSoft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <valueName>Giz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <valueName>IBM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <valueName>Logo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <valueName>Micro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <valueName>Nebim</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <valueName>Persis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Turkey</controllingFieldValue>
+            <valueName>Set</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

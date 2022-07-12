@@ -1,0 +1,29 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Barlow">Dear {{{Case.Tourist__c}}},</span></span></span></span></span></span> 
+  <br /> 
+  <br /> 
+  <span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Barlow">Thank you for your email.</span></span></span></span></span></span> 
+  <br /> 
+  <br /> 
+  <span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Barlow">I can confirm that the email which you have received is authentic and it has been sent by Planet. </span></span></span></span></span></span> 
+  <br /> 
+  <br /> 
+  <span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Barlow">The email was sent by our debt collection team who carries out a different operation. </span></span></span></span></span></span> 
+  <br /> 
+  <br /> 
+  <span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Barlow">As our customer service team is not allowed to intervene their operations, I kindly ask you to reply back to the same email that you originally received. </span></span></span></span></span></span> 
+  <br /> 
+  <br /> 
+  <span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Barlow">I’m sure they will be able to answer your questions promptly as they are responsible for the overall process.</span></span></span></span></span></span> 
+  <br /> 
+  <br /> 
+  <span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Barlow">I am very sorry for the inconvenience caused.</span></span></span></span></span></span> 
+  <br /> 
+  <br /> 
+  <span style="font-size:11pt"><span style="line-height:normal"><span style="text-autospace:none"><span style="font-family:Calibri,sans-serif"><span style="font-size:12.0pt"><span style="font-family:Barlow">Best Regards.</span></span></span></span></span></span>
+ </body>
+</html>

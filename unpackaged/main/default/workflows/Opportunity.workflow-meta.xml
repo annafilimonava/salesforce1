@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Appproval_Not_Required_Notice</fullName>
+        <description>Appproval Not Required Notice</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>julien.richard@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Approval_Not_Required</template>
+    </alerts>
+    <alerts>
+        <fullName>Approval_Approved</fullName>
+        <description>Approval Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Approval_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Approval_Rejected</fullName>
+        <description>Approval Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Approval_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Approval_Request_Notification</fullName>
+        <description>Approval Request Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>julien.richard@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Approval_Request_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Big_Opportunity_Alert</fullName>
+        <description>Big Opportunity Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>david.perrotta@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Big_Opportunity_Alert</template>
+    </alerts>
+    <alerts>
+        <fullName>Close_Date_30_Days</fullName>
+        <description>Close Date 30 Days</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Overdue_Opportunity</template>
+    </alerts>
+    <alerts>
+        <fullName>Close_Date_in_14_Days</fullName>
+        <description>Close Date in 14 Days</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Overdue_Opportunity</template>
+    </alerts>
+    <alerts>
+        <fullName>Close_Date_in_14_Days1</fullName>
+        <description>Close Date in 14 Days</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Overdue_Opportunity</template>
+    </alerts>
+    <alerts>
+        <fullName>Close_Date_in_30_Days</fullName>
+        <description>Close Date in 30 Days</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Overdue_Opportunity</template>
+    </alerts>
+    <alerts>
+        <fullName>DCC_Approval_Notice</fullName>
+        <description>DCC Approval Notice</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>julien.richard@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/DCC_Approval_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>DCC_Rejection_Notice</fullName>
+        <description>DCC Rejection Notice</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>julien.richard@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/DCC_Approval_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Hoist_Opportunity_Approval</fullName>
+        <description>Hoist Opportunity Approval</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>dane.voboril@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>davinder.ahluwalia@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>ishtiaque.chowdhury@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>michael.kelly@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Hoist_Opportunity_Approval</template>
+    </alerts>
+    <alerts>
+        <fullName>LinkedIn_Team_Angela</fullName>
+        <description>LinkedIn Team Angela</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>angela.clift@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Opportunity_Change</template>
+    </alerts>
+    <alerts>
+        <fullName>LinkedIn_Team_Nathalie</fullName>
+        <description>LinkedIn Team Nathalie</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>nathalie.delacretaz@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Opportunity_Change</template>
+    </alerts>
+    <alerts>
+        <fullName>LinkedIn_Team_Rebekka</fullName>
+        <description>LinkedIn Team Rebekka</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>rebekka.baer@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Opportunity_Change</template>
+    </alerts>
+    <alerts>
+        <fullName>Opportunity_Change</fullName>
+        <description>Opportunity Change</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>stuart.way@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Opportunity_Change</template>
+    </alerts>
+    <alerts>
+        <fullName>Opportunity_Close_Date</fullName>
+        <description>Opportunity Close Date</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Overdue_Opportunity</template>
+    </alerts>
+    <alerts>
+        <fullName>Opportunity_Close_Date1</fullName>
+        <description>Opportunity Close Date</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Overdue_Opportunity</template>
+    </alerts>
+    <alerts>
+        <fullName>Opportunity_Close_Date_Expired</fullName>
+        <description>Opportunity Close Date Expired</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Overdue_Opportunity_Past</template>
+    </alerts>
+    <alerts>
+        <fullName>Ownership_Change_Alert</fullName>
+        <description>Ownership Change Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>stuart.way@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Ownership_Change_Alert</template>
+    </alerts>
+    <alerts>
+        <fullName>Product_Group_Email</fullName>
+        <ccEmails>product.management.team@planetpayment.com</ccEmails>
+        <description>Product Group Email</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Approval_Request_Product</template>
+    </alerts>
+    <alerts>
+        <fullName>Proposal_Accepted_Notification</fullName>
+        <description>Proposal Accepted Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>julien.richard@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Proposal_Accepted_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>Proposal_Signed</fullName>
+        <description>Proposal Signed</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>affiliationreview.fr@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Merchant_Service/New_Won_Oppportunity</template>
+    </alerts>
+    <alerts>
+        <fullName>Reset_Opportunity_Stage_And_Status</fullName>
+        <description>Reset Opportunity Stage &amp; Status if fees require approval</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderAddress>salesforce@planetpayment.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Reset_Opportunity_Stage_Status</template>
+    </alerts>
+    <alerts>
+        <fullName>TwoWeekstoOverdue</fullName>
+        <description>2 Weeks to Overdue</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Overdue_Opportunity</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>ANC1</fullName>
+        <field>ANC1__c</field>
+        <formula>Annual_Net_Commission_1__c</formula>
+        <name>ANC1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ANC2</fullName>
+        <field>ANC2__c</field>
+        <formula>Annual_Net_Commission_2__c</formula>
+        <name>ANC2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ANC3</fullName>
+        <field>ANC3__c</field>
+        <formula>Annual_Net_Commission_3__c</formula>
+        <name>ANC3</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ANC4</fullName>
+        <field>ANC4__c</field>
+        <formula>Annual_Net_Commission_4__c</formula>
+        <name>ANC4</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>ANC5</fullName>
+        <field>ANC5__c</field>
+        <formula>Annual_Net_Commission_5__c</formula>
+        <name>ANC5</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Amount_Update1</fullName>
+        <field>Amount</field>
+        <formula>Opportunity_Value__c</formula>
+        <name>Amount Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval_Not_Required</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Not Required</literalValue>
+        <name>Approval Not Required</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval_Not_Required_2</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Not Required</literalValue>
+        <name>Approval Not Required 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval_Update</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Not Approved</literalValue>
+        <name>Approval Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approved</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approved1</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approvers_User_ID</fullName>
+        <field>Approver_s_User_ID__c</field>
+        <formula>$User.Id</formula>
+        <name>Approvers User ID</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approvers_User_ID_IE</fullName>
+        <field>Approver_s_User_ID__c</field>
+        <formula>$User.Id</formula>
+        <name>Approvers User ID</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Automatic_Approval</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Automatic Approval</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Campaign_Name</fullName>
+        <field>Campaign__c</field>
+        <formula>Campaign.Name</formula>
+        <name>Campaign Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Contract_Start_Date</fullName>
+        <field>Contract_Start_Date__c</field>
+        <formula>CloseDate + 30</formula>
+        <name>Contract Start Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Internal_Sign_Off_Stage</fullName>
+        <description>Upon rejection, change the stage to Internal Sign-Off</description>
+        <field>StageName</field>
+        <literalValue>Internal Sign-Off</literalValue>
+        <name>Internal Sign-Off Stage</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Manager_s_Email_Address</fullName>
+        <description>Changing name from Manager to Opportunity Approver - Saurabh 06/10/21 (Case No -&gt; 00090743)</description>
+        <field>Manager_s_Email_Address__c</field>
+        <formula>Manager_s_Email__c</formula>
+        <name>Opportunity Approver&#39;s Email Address</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Not_Approved</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Not Approved</literalValue>
+        <name>Not Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Opportunity_Approved</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Opportunity Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Proposal_Submitted</fullName>
+        <field>Probability</field>
+        <formula>50</formula>
+        <name>Proposal Submitted</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Rate_Change</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Not Approved</literalValue>
+        <name>Rate Change</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Refund_Method_Approved</fullName>
+        <field>Refund_Method_Approval__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Refund Method Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Refund_Method_Not_Approved</fullName>
+        <field>Refund_Method_Approval__c</field>
+        <literalValue>Not Approved</literalValue>
+        <name>Refund Method Not Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Refund_Method_Rejected</fullName>
+        <field>Refund_Method_Approval__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Refund Method Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Roll_back_to_Stage_2</fullName>
+        <field>StageName</field>
+        <literalValue>Value Proposition Presented</literalValue>
+        <name>Roll back to Stage 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_to_Approved</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Set to Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_to_Not_Approved</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Not Approved</literalValue>
+        <name>Set to Not Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Set_to_Rejected</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Set to Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>TF_Approval_Advice</fullName>
+        <field>Approval_Advice_TF__c</field>
+        <formula>&quot;This Solution is available and ready to sell in your market.&quot;</formula>
+        <name>TF Approval Advice</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>TF_Not_Approved_Advice</fullName>
+        <field>Approval_Advice_TF__c</field>
+        <formula>&quot;This solution requires approval from the Product Manager.&quot;</formula>
+        <name>TF Not Approved Advice</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>TF_Proposed_Solution_Approved</fullName>
+        <field>TF_Solution_Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>TF Proposed Solution Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>TF_Proposed_Solution_Not_Approved</fullName>
+        <field>TF_Solution_Approval_Status__c</field>
+        <literalValue>Not Approved</literalValue>
+        <name>TF Proposed Solution Not Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>TF_Proposed_Solution_Rejected</fullName>
+        <field>TF_Solution_Approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>TF Proposed Solution Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_to_Pending</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Pending</literalValue>
+        <name>Update to Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Value_Proposition_Presented</fullName>
+        <description>Upon rejection, change the stage to Value Proposition Presented</description>
+        <field>StageName</field>
+        <literalValue>Value Proposition Presented</literalValue>
+        <name>Value Proposition Presented</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>stage_update</fullName>
+        <field>StageName</field>
+        <literalValue>Internal Sign-Off</literalValue>
+        <name>stage update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Amount Update</fullName>
+        <actions>
+            <name>Amount_Update1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.CreatedDate</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Big Opportunity Alert</fullName>
+        <actions>
+            <name>Big_Opportunity_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.Opportunity_Value__c</field>
+            <operation>greaterOrEqual</operation>
+            <value>&quot;EUR 20,000&quot;</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>Cyprus,Czech Republic,Denmark,Faroe Islands,Finland,Greece,Iceland,Ireland,Norway,Poland,Sweden,Russian Federation,Turkey,Latvia,Lithuania,Hungary,Portugal</value>
+        </criteriaItems>
+        <description>Alerts SMM Management when an opportunity &gt;= NC 20k is created</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Campaign Update</fullName>
+        <actions>
+            <name>Campaign_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.CampaignId</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Updates the campaign field when a new campaign is added</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Close Date Within 30 Days</fullName>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>notEqual</operation>
+            <value>Proposal Signed,Proposal Lost,Proposal Stopped</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Opportunity_Value__c</field>
+            <operation>greaterThan</operation>
+            <value>EUR 0</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Close_Date_in_30_Days</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Opportunity.CloseDate</offsetFromField>
+            <timeLength>-30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Opportunity_Close_Date_Expired</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Opportunity.CloseDate</offsetFromField>
+            <timeLength>1</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Close_Date_in_14_Days1</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Opportunity.CloseDate</offsetFromField>
+            <timeLength>-14</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>Contract Start Date</fullName>
+        <actions>
+            <name>Contract_Start_Date</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>notEqual</operation>
+            <value>Proposal Signed,Proposal Lost,Proposal Stopped</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Contract_Start_Date__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Updates the Contract Start Date on create to Close Date +30D</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Opportunity Approver%27s Email Address</fullName>
+        <actions>
+            <name>Manager_s_Email_Address</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Opportunity.Manager_s_Email_Address__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <description>Changing name from Manager to Opportunity Approver - Saurabh 06/10/21 (Case No -&gt; 00090743)</description>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Owner Change Alert</fullName>
+        <actions>
+            <name>Ownership_Change_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Alert to Stuart Way when Opportunity ownership changed.</description>
+        <formula>(PRIORVALUE(OwnerId) = &quot;00524000001CTJT&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Proposal Accepted Notification</fullName>
+        <actions>
+            <name>Proposal_Accepted_Notification</name>
+            <type>Alert</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(ISCHANGED(StageName), TEXT(StageName)=&quot;Proposal Accepted&quot;,  Owning_Country__c = &quot;France&quot;, TEXT(Product__c) &lt;&gt; &quot;DCC&quot; )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Proposal Signed FR</fullName>
+        <actions>
+            <name>Proposal_Signed</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Proposal_Signed_and_Account_and_Opportunity_Ready_for_Review</name>
+            <type>Task</type>
+        </actions>
+        <active>false</active>
+        <criteriaItems>
+            <field>Opportunity.Product__c</field>
+            <operation>equals</operation>
+            <value>TF,TF &amp; DCC,TF &amp; DCC &amp; Payments</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Type</field>
+            <operation>equals</operation>
+            <value>New,Country In-Fill,Cross-Sell</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.StageName</field>
+            <operation>equals</operation>
+            <value>Proposal Signed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>France</value>
+        </criteriaItems>
+        <description>Sends email alert and creates task for Affiliation Review France when opportunity stage changed to proposal signed.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Proposal Submitted ATM</fullName>
+        <actions>
+            <name>Proposal_Submitted</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(ISCHANGED(StageName), TEXT(StageName) = &quot;Proposal Submitted&quot;/*,  RecordType.Name = &quot;ATM Opportunity&quot;*/)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Rate Approved</fullName>
+        <actions>
+            <name>Approved</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(ISCHANGED(Rate__c), Rate__c &gt;= 0.02)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Rate New</fullName>
+        <actions>
+            <name>Approved1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>Rate__c &gt; 0.019999</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Rate Not Approved</fullName>
+        <actions>
+            <name>Not_Approved</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>false</active>
+        <formula>AND(ISCHANGED(Rate__c), Rate__c &lt; 2)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Wirecard Rate Change</fullName>
+        <actions>
+            <name>Rate_Change</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Changes Approval Status from Approved to Not Approved if Rate field is changed.</description>
+        <formula>AND(ISCHANGED(Rate__c),  TEXT(Approval_Status__c) = &quot;Approved&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <tasks>
+        <fullName>Proposal_Signed_and_Account_and_Opportunity_Ready_for_Review</fullName>
+        <assignedTo>affiliationreview.fr@planetpayment.com</assignedTo>
+        <assignedToType>user</assignedToType>
+        <dueDateOffset>-5</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <offsetFromField>Opportunity.Contract_Start_Date__c</offsetFromField>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Proposal Signed and Account and Opportunity Ready for Review</subject>
+    </tasks>
+</Workflow>

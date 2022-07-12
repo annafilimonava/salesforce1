@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Work_Orders</fullName>
+    <columns>Name</columns>
+    <columns>Subject</columns>
+    <columns>Account</columns>
+    <columns>Priority</columns>
+    <columns>Status</columns>
+    <columns>New_POS_Solution_Request__c</columns>
+    <columns>TID__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>StartDate</columns>
+    <columns>EndDate</columns>
+    <columns>Owner</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>equals</operation>
+        <value>Completed,Closed</value>
+    </filters>
+    <label>Closed Work Orders</label>
+    <language>en_US</language>
+</ListView>

@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Threats__c</fullName>
+    <externalId>false</externalId>
+    <label>Threats</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Workstream_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Budget Freeze - Merchant Side</fullName>
+                <default>false</default>
+                <label>Budget Freeze - Merchant Side</label>
+            </value>
+            <value>
+                <fullName>Cannot Make Autonomous Decisions as Part of a Group</fullName>
+                <default>false</default>
+                <label>Cannot Make Autonomous Decisions as Part of a Group</label>
+            </value>
+            <value>
+                <fullName>Competition Still Operating Service in Some Countries</fullName>
+                <default>false</default>
+                <label>Competition Still Operating Service in Some Countries</label>
+            </value>
+            <value>
+                <fullName>Competitor is TF Provider</fullName>
+                <default>false</default>
+                <label>Competitor is TF Provider</label>
+            </value>
+            <value>
+                <fullName>Competitor Agencies</fullName>
+                <default>false</default>
+                <label>Competitor Agencies</label>
+            </value>
+            <value>
+                <fullName>Competitor has Better Benchmark</fullName>
+                <default>false</default>
+                <label>Competitor has Better Benchmark</label>
+            </value>
+            <value>
+                <fullName>Competitor Offers Superior Solution</fullName>
+                <default>false</default>
+                <label>Competitor Offers Superior Solution</label>
+            </value>
+            <value>
+                <fullName>Competitors Working with Merchant in Other Countries</fullName>
+                <default>false</default>
+                <label>Competitors Working with Merchant in Other Countries</label>
+            </value>
+            <value>
+                <fullName>Contact is Not Decision Maker</fullName>
+                <default>false</default>
+                <label>Contact is Not Decision Maker</label>
+            </value>
+            <value>
+                <fullName>Decision Maker Left/Changed</fullName>
+                <default>false</default>
+                <label>Decision Maker Left/Changed</label>
+            </value>
+            <value>
+                <fullName>Delay on Merchant&#39;s Side (Internal Process/Resourcing/Investment)</fullName>
+                <default>false</default>
+                <label>Delay on Merchant&#39;s Side (Internal Process/Resourcing/Investment)</label>
+            </value>
+            <value>
+                <fullName>Exclusivity Not Permitted in Some Markets (Competition Laws)</fullName>
+                <default>false</default>
+                <label>Exclusivity Not Permitted in Some Markets (Competition Laws)</label>
+            </value>
+            <value>
+                <fullName>Gaps in Relationship are Entry Point for Competition</fullName>
+                <default>false</default>
+                <label>Gaps in Relationship are Entry Point for Competition</label>
+            </value>
+            <value>
+                <fullName>GB Offers Cultural Training for Free</fullName>
+                <default>false</default>
+                <label>GB Offers Cultural Training for Free</label>
+            </value>
+            <value>
+                <fullName>Go to Tender</fullName>
+                <default>false</default>
+                <label>Go to Tender</label>
+            </value>
+            <value>
+                <fullName>High Staff Turnover</fullName>
+                <default>false</default>
+                <label>High Staff Turnover</label>
+            </value>
+            <value>
+                <fullName>High Turnover of Top Management</fullName>
+                <default>false</default>
+                <label>High Turnover of Top Management</label>
+            </value>
+            <value>
+                <fullName>Legacy Solution with Limited Functionality</fullName>
+                <default>false</default>
+                <label>Legacy Solution with Limited Functionality</label>
+            </value>
+            <value>
+                <fullName>Long Standing Relationship with Competitor</fullName>
+                <default>false</default>
+                <label>Long Standing Relationship with Competitor</label>
+            </value>
+            <value>
+                <fullName>Long-Time Relationship with Competitor</fullName>
+                <default>false</default>
+                <label>Long-Time Relationship with Competitor</label>
+            </value>
+            <value>
+                <fullName>Marketing/Consultancy Offer is Not Competitive</fullName>
+                <default>false</default>
+                <label>Marketing/Consultancy Offer is Not Competitive</label>
+            </value>
+            <value>
+                <fullName>Merchant Complaints</fullName>
+                <default>false</default>
+                <label>Merchant Complaints</label>
+            </value>
+            <value>
+                <fullName>Merchant Does Not Permit Planet Training</fullName>
+                <default>false</default>
+                <label>Merchant Does Not Permit Planet Training</label>
+            </value>
+            <value>
+                <fullName>Merchant Doesn’t Agree With GDPR Terms</fullName>
+                <default>false</default>
+                <label>Merchant Doesn’t Agree With GDPR Terms</label>
+            </value>
+            <value>
+                <fullName>Merchant Doesn&#39;t See Us a  Priority</fullName>
+                <default>false</default>
+                <label>Merchant Doesn&#39;t See Us a  Priority</label>
+            </value>
+            <value>
+                <fullName>Merchant Engagement</fullName>
+                <default>false</default>
+                <label>Merchant Engagement</label>
+            </value>
+            <value>
+                <fullName>Merchant has a Direct Agreement with Alipay and/or WeChat Pay</fullName>
+                <default>false</default>
+                <label>Merchant has a Direct Agreement with Alipay and/or WeChat Pay</label>
+            </value>
+            <value>
+                <fullName>Merchant is Changing ePOS Provider</fullName>
+                <default>false</default>
+                <label>Merchant is Changing ePOS Provider</label>
+            </value>
+            <value>
+                <fullName>Merchant Not Engaged in Discussion on Reporting</fullName>
+                <default>false</default>
+                <label>Merchant Not Engaged in Discussion on Reporting</label>
+            </value>
+            <value>
+                <fullName>Merchant Not Satisfied with Service Delivered</fullName>
+                <default>false</default>
+                <label>Merchant Not Satisfied with Service Delivered</label>
+            </value>
+            <value>
+                <fullName>Mystery Shop Not Permitted</fullName>
+                <default>false</default>
+                <label>Mystery Shop Not Permitted</label>
+            </value>
+            <value>
+                <fullName>No Decision Makers at Local Level</fullName>
+                <default>false</default>
+                <label>No Decision Makers at Local Level</label>
+            </value>
+            <value>
+                <fullName>No Engagement from Store Staff</fullName>
+                <default>false</default>
+                <label>No Engagement from Store Staff</label>
+            </value>
+            <value>
+                <fullName>No Measurable Outcome to Present Following Mystery Shop</fullName>
+                <default>false</default>
+                <label>No Measurable Outcome to Present Following Mystery Shop</label>
+            </value>
+            <value>
+                <fullName>Non Compliance Due to Not Signing</fullName>
+                <default>false</default>
+                <label>Non Compliance Due to Not Signing</label>
+            </value>
+            <value>
+                <fullName>Planet is Competing Against the In-Store Acquirer</fullName>
+                <default>false</default>
+                <label>Planet is Competing Against the In-Store Acquirer</label>
+            </value>
+            <value>
+                <fullName>Planet Not Allowed to Deliver Trainings</fullName>
+                <default>false</default>
+                <label>Planet Not Allowed to Deliver Trainings</label>
+            </value>
+            <value>
+                <fullName>Planet Not Allowed to Send Store Reports</fullName>
+                <default>false</default>
+                <label>Planet Not Allowed to Send Store Reports</label>
+            </value>
+            <value>
+                <fullName>Poor Campaign Performance</fullName>
+                <default>false</default>
+                <label>Poor Campaign Performance</label>
+            </value>
+            <value>
+                <fullName>Poor Engagement from Head Office</fullName>
+                <default>false</default>
+                <label>Poor Engagement from Head Office</label>
+            </value>
+            <value>
+                <fullName>Pricing Offer is Not Competitive</fullName>
+                <default>false</default>
+                <label>Pricing Offer is Not Competitive</label>
+            </value>
+            <value>
+                <fullName>Pricing with Current Provider</fullName>
+                <default>false</default>
+                <label>Pricing with Current Provider</label>
+            </value>
+            <value>
+                <fullName>Recently Renewed Agreement with Their e-Comm Provider</fullName>
+                <default>false</default>
+                <label>Recently Renewed Agreement with Their e-Comm Provider</label>
+            </value>
+            <value>
+                <fullName>Recipients Don’t Read the Report</fullName>
+                <default>false</default>
+                <label>Recipients Don’t Read the Report</label>
+            </value>
+            <value>
+                <fullName>Relationship with Current Provider</fullName>
+                <default>false</default>
+                <label>Relationship with Current Provider</label>
+            </value>
+            <value>
+                <fullName>Slow Decision Making Process</fullName>
+                <default>false</default>
+                <label>Slow Decision Making Process</label>
+            </value>
+            <value>
+                <fullName>Strong Relationship with Competition</fullName>
+                <default>false</default>
+                <label>Strong Relationship with Competition</label>
+            </value>
+            <value>
+                <fullName>Stronger Offering from Competitor</fullName>
+                <default>false</default>
+                <label>Stronger Offering from Competitor</label>
+            </value>
+            <value>
+                <fullName>Technical Offer is Not Competitive</fullName>
+                <default>false</default>
+                <label>Technical Offer is Not Competitive</label>
+            </value>
+            <value>
+                <fullName>Tourist Complaints</fullName>
+                <default>false</default>
+                <label>Tourist Complaints</label>
+            </value>
+            <value>
+                <fullName>Under Negotiation with Other Provider</fullName>
+                <default>false</default>
+                <label>Under Negotiation with Other Provider</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <valueName>GB Offers Cultural Training for Free</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <valueName>High Staff Turnover</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <valueName>Long Standing Relationship with Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <valueName>Merchant Does Not Permit Planet Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <valueName>Poor Engagement from Head Office</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <valueName>Cannot Make Autonomous Decisions as Part of a Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <valueName>Planet is Competing Against the In-Store Acquirer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <valueName>Recently Renewed Agreement with Their e-Comm Provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Slow Decision Making Process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Competition Still Operating Service in Some Countries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Decision Maker Left/Changed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Exclusivity Not Permitted in Some Markets (Competition Laws)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Marketing/Consultancy Offer is Not Competitive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Merchant Complaints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Pricing Offer is Not Competitive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Strong Relationship with Competition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Technical Offer is Not Competitive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Tourist Complaints</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Gaps in Relationship are Entry Point for Competition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Go to Tender</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>High Turnover of Top Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Long-Time Relationship with Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Merchant Doesn&#39;t See Us a  Priority</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>No Decision Makers at Local Level</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>Merchant Engagement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>Merchant Not Satisfied with Service Delivered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>Mystery Shop Not Permitted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>No Measurable Outcome to Present Following Mystery Shop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDPR</controllingFieldValue>
+            <valueName>Merchant Doesn’t Agree With GDPR Terms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDPR</controllingFieldValue>
+            <valueName>Non Compliance Due to Not Signing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planet Intelligence/Tableau</controllingFieldValue>
+            <valueName>Merchant Not Engaged in Discussion on Reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Competitor has Better Benchmark</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>No Engagement from Store Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Planet Not Allowed to Deliver Trainings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Planet Not Allowed to Send Store Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Recipients Don’t Read the Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Budget Freeze - Merchant Side</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Competitor Offers Superior Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Delay on Merchant&#39;s Side (Internal Process/Resourcing/Investment)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Legacy Solution with Limited Functionality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Merchant is Changing ePOS Provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Competitor Agencies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Contact is Not Decision Maker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Poor Campaign Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <valueName>Competitors Working with Merchant in Other Countries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <valueName>Pricing with Current Provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Relationship with Current Provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <valueName>Under Negotiation with Other Provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Competitor is TF Provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Merchant has a Direct Agreement with Alipay and/or WeChat Pay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Stronger Offering from Competitor</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

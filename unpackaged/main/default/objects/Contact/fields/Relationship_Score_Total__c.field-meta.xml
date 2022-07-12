@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relationship_Score_Total__c</fullName>
+    <externalId>false</externalId>
+    <label>Relationship Score Total</label>
+    <summarizedField>Relationship_Details__c.Relationship_Score__c</summarizedField>
+    <summaryForeignKey>Relationship_Details__c.Contact__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

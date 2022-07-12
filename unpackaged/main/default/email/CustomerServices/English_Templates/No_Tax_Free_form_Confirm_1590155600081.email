@@ -1,0 +1,30 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">Dear {{{Case.Tourist__c}}}, </span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">Thank you for your email.</span><span lang="EN-IE" style="font-family:Barlow;
+mso-fareast-font-family:Verdana;mso-bidi-font-family:&quot;Times New Roman&quot;;
+color:black"> </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-ansi-language:EN-US"><span style="mso-spacerun:yes">&nbsp;</span></span><span style="font-size:11.0pt;font-family:Barlow;mso-ansi-language:EN-US"> </span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">I have checked our database and to date we have not received your Tax Free form {{{Case.Tax_Free_Form__c}}}. </span></p> 
+  <p class="MsoPlainText" style="tab-stops:37.5pt"><span style="font-size:11.0pt;
+font-family:Barlow;mso-ansi-language:EN-US"><span style="mso-spacerun:yes">&nbsp;</span><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> </span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">Please confirm that you returned your stamped Tax Free form to us including the date it was sent, the address it was sent to and the method you sent it to our office (for example: via post to an address in Poland, airport drop-box).<span style="mso-spacerun:yes">&nbsp; </span> </span></p> 
+  <p class="MsoPlainText"><span style="font-family:Barlow;mso-ansi-language:EN-US"><span style="mso-spacerun:yes">&nbsp;</span> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">Please be aware </span><span lang="EN-IE" style="font-family:
+Barlow">that </span><span lang="EN-IE" style="font-family:Barlow;mso-fareast-font-family:
+Verdana;mso-bidi-font-family:Calibri;color:black">without the return of a stamped Tax Free form within the outlined timeframe we are not able to provide you with a refund. </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-ansi-language:EN-US"><span style="mso-spacerun:yes">&nbsp;</span></span><span style="font-size:11.0pt;font-family:Barlow;mso-ansi-language:EN-US"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Once I receive the above information from you, I will be able to investigate further.</span></p>
+ </body>
+</html>

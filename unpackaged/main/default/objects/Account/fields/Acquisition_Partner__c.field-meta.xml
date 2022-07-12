@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acquisition_Partner__c</fullName>
+    <externalId>false</externalId>
+    <label>Acquisition Partner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Owning_Country__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Alpha Bank</fullName>
+                <default>false</default>
+                <label>Alpha Bank</label>
+            </value>
+            <value>
+                <fullName>Altair</fullName>
+                <default>false</default>
+                <label>Altair</label>
+            </value>
+            <value>
+                <fullName>BNL Positivity</fullName>
+                <default>false</default>
+                <label>BNL Positivity</label>
+            </value>
+            <value>
+                <fullName>Deutsche Bank</fullName>
+                <default>false</default>
+                <label>Deutsche Bank</label>
+            </value>
+            <value>
+                <fullName>Gastropool</fullName>
+                <default>false</default>
+                <label>Gastropool</label>
+            </value>
+            <value>
+                <fullName>Hogast</fullName>
+                <default>false</default>
+                <label>Hogast</label>
+            </value>
+            <value>
+                <fullName>Jumana</fullName>
+                <default>false</default>
+                <label>Jumana</label>
+            </value>
+            <value>
+                <fullName>Jumana FS</fullName>
+                <default>false</default>
+                <label>Jumana FS</label>
+            </value>
+            <value>
+                <fullName>Setefi</fullName>
+                <default>false</default>
+                <label>Setefi</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Greece</controllingFieldValue>
+            <valueName>Alpha Bank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Altair</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>BNL Positivity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Deutsche Bank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Gastropool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Hogast</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Jumana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Jumana FS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Setefi</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

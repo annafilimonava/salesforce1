@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to alert creator of task that it has been closed by another user</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Closed Task</name>
+    <style>none</style>
+    <subject>Task {!Task.Subject} Has Been Closed</subject>
+    <textOnly>The Task, {!Task.Subject}, has been closed by {!Task.LastModifiedBy}.  Click here to see further details {!Task.Link}.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

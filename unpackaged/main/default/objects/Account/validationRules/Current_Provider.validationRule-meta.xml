@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Provider</fullName>
+    <active>false</active>
+    <description>Makes at least one of the current provider fields mandatory for Germany.</description>
+    <errorConditionFormula>AND(ISBLANK(TEXT(DCC_Current_Provider__c)),  ISBLANK(TF_Current_Provider__c), TEXT(Owning_Country__c) = &quot;Germany&quot;, OR(RecordType.Name = &quot;Head Office&quot;, RecordType.Name = &quot;Shop&quot;, RecordType.Name = &quot;IKA Head Office&quot;, RecordType.Name = &quot;IKA In-Fill Head Office&quot;, RecordType.Name = &quot;NKA Head Office&quot;, RecordType.Name = &quot;NKA In-Fill Head Office&quot;))</errorConditionFormula>
+    <errorMessage>You must supply a value on the TF Current Provider and/or the DCC Current Provider fields.</errorMessage>
+</ValidationRule>

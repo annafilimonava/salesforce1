@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_Open_Account_Objectives</fullName>
+    <columns>Account_Plan__c</columns>
+    <columns>Account__c</columns>
+    <columns>NAME</columns>
+    <columns>Objective__c</columns>
+    <columns>Objective_Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>Owner__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Past_Due__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Current_User__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Not Started,In Progress,Ongoing</value>
+    </filters>
+    <label>My Open Account Objectives</label>
+</ListView>

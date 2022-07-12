@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POL_Solutions</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Owning_Country__c = &quot;Italy&quot;, OR(TEXT(Status__c) = &quot;Active&quot;, TEXT(Status__c) = &quot;Pending&quot;, TEXT(Status__c) = &quot;Managed&quot;), OR(TEXT(Solution__c) = &quot;POL&quot;, TEXT(Solution__c) = &quot;POL Pro&quot;, TEXT(Solution__c) = &quot;POL Pro PAX&quot;), OR(ISBLANK(Contact__r.LastName), ISBLANK(Login__c), ISBLANK(Password__c)))</errorConditionFormula>
+    <errorMessage>For POL Solutions please complete the Contact, Login and Password fields.</errorMessage>
+</ValidationRule>

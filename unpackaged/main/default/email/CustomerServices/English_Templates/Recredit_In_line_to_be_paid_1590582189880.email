@@ -1,0 +1,34 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span style="font-family:Barlow;mso-ansi-language:EN-US">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow;mso-ansi-language:EN-US">Thank you for your email. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">The reason your account was debited was because we had not received your Tax Free form {{{Case.Tax_Free_Form__c}}} within the 21 days. Upon receiving your cash refund you have signed a declaration authorising Planet to debit your card if we did not receive your stamped Tax Free form within the agreed period. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow;mso-ansi-language:EN-US">Now that we have just received and processed your Tax Free form I will request a priority payment to be issued for you. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow;mso-ansi-language:EN-US">Please allow 30 days for this process to be completed. If we can be of any further assistance, please do not hesitate to ask and in the meantime I ask for your patience. 
+    <o:p></o:p></span> 
+   <!--EndFragment--></p>
+ </body>
+</html>

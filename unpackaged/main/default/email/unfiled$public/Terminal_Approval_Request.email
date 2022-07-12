@@ -1,0 +1,12 @@
+<font face="arial"><font size=2><p>
+A terminal request for terminals has been submitted for your approval by {!Terminal_Request__c.CreatedBy}.</p>
+<br>
+Number of Vx Terminals: {!Terminal_Request__c.Quantity_Vx__c}<br>
+<br>
+Number of PAX Terminals: {!Terminal_Request__c.Quantity_PAX__c}<br>
+<br>
+Number of PTF Terminals: {!Terminal_Request__c.Quantity_PTF__c}<br>
+<br>
+Comments: {!ApprovalRequest.Comments}
+<br>
+<p>You may view the record by clicking here ->{!Terminal_Request__c.Link}</p>

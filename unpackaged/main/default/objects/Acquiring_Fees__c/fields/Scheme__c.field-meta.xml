@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Scheme__c</fullName>
+    <externalId>false</externalId>
+    <label>Scheme</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Platform__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Visa/Mastercard</fullName>
+                <default>false</default>
+                <label>Visa/Mastercard</label>
+            </value>
+            <value>
+                <fullName>Union Pay</fullName>
+                <default>false</default>
+                <label>Union Pay</label>
+            </value>
+            <value>
+                <fullName>Alipay</fullName>
+                <default>false</default>
+                <label>Alipay</label>
+            </value>
+            <value>
+                <fullName>WeChat</fullName>
+                <default>false</default>
+                <label>WeChat</label>
+            </value>
+            <value>
+                <fullName>Amex</fullName>
+                <default>false</default>
+                <label>Amex</label>
+            </value>
+            <value>
+                <fullName>Alipay/WeChat</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Alipay/WeChat</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>POS/Online PBL</controllingFieldValue>
+            <controllingFieldValue>POS</controllingFieldValue>
+            <controllingFieldValue>Online PBL</controllingFieldValue>
+            <controllingFieldValue>Online Cybersource</controllingFieldValue>
+            <valueName>Visa/Mastercard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS/Online PBL</controllingFieldValue>
+            <controllingFieldValue>POS</controllingFieldValue>
+            <controllingFieldValue>Online PBL</controllingFieldValue>
+            <controllingFieldValue>Online Cybersource</controllingFieldValue>
+            <valueName>Amex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS</controllingFieldValue>
+            <controllingFieldValue>Online PBL</controllingFieldValue>
+            <controllingFieldValue>Online Cybersource</controllingFieldValue>
+            <valueName>Union Pay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS</controllingFieldValue>
+            <controllingFieldValue>Online PBL</controllingFieldValue>
+            <controllingFieldValue>Online Cybersource</controllingFieldValue>
+            <valueName>Alipay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS</controllingFieldValue>
+            <controllingFieldValue>Online PBL</controllingFieldValue>
+            <controllingFieldValue>Online Cybersource</controllingFieldValue>
+            <valueName>WeChat</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

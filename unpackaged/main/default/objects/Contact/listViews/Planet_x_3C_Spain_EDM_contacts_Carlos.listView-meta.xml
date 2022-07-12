@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Planet_x_3C_Spain_EDM_contacts_Carlos</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Position__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Mobile__c</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.LAST_ACTIVITY</columns>
+    <columns>CONTACT.REPORTS_TO.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account.Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>Spain</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>CONTACT.EMAIL</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>FULL_NAME</field>
+        <operation>notEqual</operation>
+        <value>.</value>
+    </filters>
+    <filters>
+        <field>FULL_NAME</field>
+        <operation>notEqual</operation>
+        <value>. .</value>
+    </filters>
+    <filters>
+        <field>FULL_NAME</field>
+        <operation>notEqual</operation>
+        <value>¿? ¿?</value>
+    </filters>
+    <filters>
+        <field>Account.Owner_Last_Name__c</field>
+        <operation>equals</operation>
+        <value>Deza</value>
+    </filters>
+    <filters>
+        <field>Position__c</field>
+        <operation>notEqual</operation>
+        <value>Store Manager,Store Manager (Country)</value>
+    </filters>
+    <label>Planet x 3C Spain EDM contacts - Carlos</label>
+</ListView>

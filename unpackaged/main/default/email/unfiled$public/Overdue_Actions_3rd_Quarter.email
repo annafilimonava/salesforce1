@@ -1,0 +1,12 @@
+<font face="arial"><font size=2><p>
+The Action on the Merchant Account Plan for {!Action_3rd_Quarter__c.Account__c} is overdue.<br>
+<br>
+Action: {!Action_3rd_Quarter__c.Action__c}<br>
+Action Details: {!Action_3rd_Quarter__c.Action_Details__c}<br>
+Due Date: {!Action_3rd_Quarter__c.Due_Date__c}<br>
+<br>
+Please update the status or the due date of the action.  You can navigate directly to the action by clicking the link below.<br>
+<br>
+{!Action_3rd_Quarter__c.Link}<br>
+<br>
+If the action is not updated in the next 2 days and escalation will be sent to your country manager and Regional Markets management.<br>

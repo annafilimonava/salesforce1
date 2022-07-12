@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Survey_Invitation__c</fullName>
+    <externalId>false</externalId>
+    <label>Survey Invitation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Training Survey: ISTP Complete</fullName>
+                <default>false</default>
+                <label>Training Survey: ISTP Complete</label>
+            </value>
+            <value>
+                <fullName>Planet Intelligence Survey</fullName>
+                <default>false</default>
+                <label>Planet Intelligence Survey</label>
+            </value>
+            <value>
+                <fullName>Onboarding Survey</fullName>
+                <default>false</default>
+                <label>Onboarding Survey</label>
+            </value>
+            <value>
+                <fullName>Training Survey: Store Staff</fullName>
+                <default>false</default>
+                <label>Training Survey: Store Staff</label>
+            </value>
+            <value>
+                <fullName>Training Survey: Mystery Shopping</fullName>
+                <default>false</default>
+                <label>Training Survey: Mystery Shopping</label>
+            </value>
+            <value>
+                <fullName>Training Survey: ISTP</fullName>
+                <default>false</default>
+                <label>Training Survey: ISTP</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

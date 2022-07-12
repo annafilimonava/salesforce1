@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cluster_Retail__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( TEXT(Owning_Country__c),
+&quot;Austria&quot;,&quot;Central Europe&quot;,
+&quot;Belgium&quot;,&quot;France &amp; Benelux&quot;,
+&quot;Canada&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;Cyprus&quot;,&quot;Southern Europe&quot;,
+&quot;Czech Republic&quot;,&quot;Central Europe&quot;,
+&quot;Denmark&quot;,&quot;Nordics &amp; Russia&quot;,
+&quot;Estonia&quot;,&quot;Nordics &amp; Russia&quot;,
+&quot;Faroe Islands&quot;,&quot;Nordics &amp; Russia&quot;,
+&quot;Finland&quot;,&quot;Nordics &amp; Russia&quot;,
+&quot;France&quot;,&quot;France &amp; Benelux&quot;,
+&quot;Germany&quot;,&quot;Central Europe&quot;,
+&quot;Gibraltar&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;Greece&quot;,&quot;Southern Europe&quot;,
+&quot;Hungary&quot;,&quot;Central Europe&quot;,
+&quot;Iceland&quot;,&quot;Nordics &amp; Russia&quot;,
+&quot;Ireland&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;Italy&quot;,&quot;Italy&quot;,
+&quot;Latvia&quot;,&quot;Central Europe&quot;,
+&quot;Lithuania&quot;,&quot;Central Europe&quot;,
+&quot;Luxembourg&quot;,&quot;France &amp; Benelux&quot;,
+&quot;Malta&quot;,&quot;Southern Europe&quot;,
+&quot;Mexico&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;Netherlands&quot;,&quot;Central Europe&quot;,
+&quot;Norway&quot;,&quot;Nordics &amp; Russia&quot;,
+&quot;Poland&quot;,&quot;Central Europe&quot;,
+&quot;Portugal&quot;,&quot;Southern Europe&quot;,
+&quot;Russian Federation&quot;,&quot;Nordics &amp; Russia&quot;,
+&quot;Slovak Republic&quot;,&quot;Central Europe&quot;,
+&quot;Slovenia&quot;,&quot;Central Europe&quot;,
+&quot;Spain&quot;,&quot;Southern Europe&quot;,
+&quot;Sweden&quot;,&quot;Nordics &amp; Russia&quot;,
+&quot;Switzerland&quot;,&quot;Central Europe&quot;,
+&quot;Turkey&quot;,&quot;Southern Europe&quot;,
+&quot;United Kingdom&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;United States&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Cluster Retail</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

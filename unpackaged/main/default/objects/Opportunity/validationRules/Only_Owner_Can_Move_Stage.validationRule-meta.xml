@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Only_Owner_Can_Move_Stage</fullName>
+    <active>true</active>
+    <description>Prevents anyone other that the Opportunity Owner from moving the stage</description>
+    <errorConditionFormula>AND(
+$User.Id  &lt;&gt;  OwnerId ,
+ISCHANGED( StageName ) ,
+NOT(CONTAINS($Profile.Name ,&quot;Admin&quot;)),
+NOT($Profile.Name = &quot;Finance Approver&quot;)
+)</errorConditionFormula>
+    <errorMessage>You must be the Opportunity Owner to change the Stage.</errorMessage>
+</ValidationRule>

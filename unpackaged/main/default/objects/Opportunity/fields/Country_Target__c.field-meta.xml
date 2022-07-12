@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country_Target__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Account.Owning_Country__c) = &quot;Austria&quot;, 104336,
+IF(TEXT(Account.Owning_Country__c) = &quot;Belgium&quot;, 43178,
+IF(TEXT(Account.Owning_Country__c) = &quot;Czech Republic&quot;, 1422087,
+IF(TEXT(Account.Owning_Country__c) = &quot;Cyprus&quot;, 42431,
+IF(TEXT(Account.Owning_Country__c) = &quot;Denmark&quot;, 893044,
+IF(TEXT(Account.Owning_Country__c) = &quot;Faroe Islands&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Finland&quot;, 85277,
+IF(TEXT(Account.Owning_Country__c) = &quot;France&quot;, 1277466,
+IF(TEXT(Account.Owning_Country__c) = &quot;Germany&quot;, 1334993,
+IF(TEXT(Account.Owning_Country__c) = &quot;Greece&quot;, 53608,
+IF(TEXT(Account.Owning_Country__c) = &quot;Iceland&quot;, 15139794,
+IF(TEXT(Account.Owning_Country__c) = &quot;Ireland&quot;, 32149,
+IF(TEXT(Account.Owning_Country__c) = &quot;Italy&quot;, 455755,
+IF(TEXT(Account.Owning_Country__c) = &quot;Luxembourg&quot;, 5012,
+IF(TEXT(Account.Owning_Country__c) = &quot;Netherlands&quot;, 124772,
+IF(TEXT(Account.Owning_Country__c) = &quot;Norway&quot;, 1133931,
+IF(TEXT(Account.Owning_Country__c) = &quot;Poland&quot;, 115763,
+IF(TEXT(Account.Owning_Country__c) = &quot;Portugal&quot;, 165538,
+IF(TEXT(Account.Owning_Country__c) = &quot;Russian Federation&quot;, 5627505,
+IF(TEXT(Account.Owning_Country__c) = &quot;Spain&quot;, 182407,
+IF(TEXT(Account.Owning_Country__c) = &quot;Sweden&quot;, 1161489,
+IF(TEXT(Account.Owning_Country__c) = &quot;Switzerland&quot;, 119996,
+IF(TEXT(Account.Owning_Country__c) = &quot;Turkey&quot;, 4263058,
+IF(TEXT(Account.Owning_Country__c) = &quot;United Kingdom&quot;, 299956, 0))))))))))))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Country Target</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

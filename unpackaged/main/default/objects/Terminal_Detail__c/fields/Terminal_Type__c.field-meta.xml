@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Terminal_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Terminal Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Solution__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Vx520</fullName>
+                <default>false</default>
+                <label>Vx520</label>
+            </value>
+            <value>
+                <fullName>Vx520/820</fullName>
+                <default>false</default>
+                <label>Vx520/820</label>
+            </value>
+            <value>
+                <fullName>Vx680 3G</fullName>
+                <default>false</default>
+                <label>Vx680 3G</label>
+            </value>
+            <value>
+                <fullName>Vx680 BT/Wi-Fi</fullName>
+                <default>false</default>
+                <label>Vx680 BT/Wi-Fi</label>
+            </value>
+            <value>
+                <fullName>Vx690</fullName>
+                <default>false</default>
+                <label>Vx690</label>
+            </value>
+            <value>
+                <fullName>A920</fullName>
+                <default>false</default>
+                <label>A920</label>
+            </value>
+            <value>
+                <fullName>Samsung A10</fullName>
+                <default>false</default>
+                <label>Samsung A10</label>
+            </value>
+            <value>
+                <fullName>Samsung Tab Active2</fullName>
+                <default>false</default>
+                <label>Samsung Tab Active2</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>PA</controllingFieldValue>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <controllingFieldValue>PAOL</controllingFieldValue>
+            <valueName>Vx520</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA</controllingFieldValue>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <controllingFieldValue>PAOL</controllingFieldValue>
+            <valueName>Vx520/820</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA</controllingFieldValue>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <controllingFieldValue>PAOL</controllingFieldValue>
+            <valueName>Vx680 3G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA</controllingFieldValue>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <controllingFieldValue>PAOL</controllingFieldValue>
+            <valueName>Vx680 BT/Wi-Fi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA</controllingFieldValue>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <controllingFieldValue>PAOL</controllingFieldValue>
+            <valueName>Vx690</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PA</controllingFieldValue>
+            <controllingFieldValue>POL Pro PAX</controllingFieldValue>
+            <controllingFieldValue>PA 3rd Party</controllingFieldValue>
+            <controllingFieldValue>PAX Payments</controllingFieldValue>
+            <controllingFieldValue>PAOL</controllingFieldValue>
+            <controllingFieldValue>PT PAX</controllingFieldValue>
+            <valueName>A920</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PTF</controllingFieldValue>
+            <valueName>Samsung A10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PTF</controllingFieldValue>
+            <valueName>Samsung Tab Active2</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

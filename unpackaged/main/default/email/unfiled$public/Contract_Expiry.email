@@ -1,0 +1,7 @@
+<font face="arial" size=2> 
+<br>
+The contract on {!Service_Contract__c.Account_Name__c} will expire in 6 months on {!Service_Contract__c.Contract_End_Date__c}.  Please start the renewal process and complete the Contract Renewal task when done.<br>
+<br>
+Click below to go directly to the contract record.<br>
+<br>
+{!Service_Contract__c.Link}

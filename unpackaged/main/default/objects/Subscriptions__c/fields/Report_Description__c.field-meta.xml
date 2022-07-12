@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Report_Description__c</fullName>
+    <externalId>false</externalId>
+    <formula>&quot;This &quot;+text(Report_Name__c) + &quot; report subscription for &quot;+Account_ID__r.Name+&quot; will be uploaded to Salesforce on the defined day and repeat  &quot;+text(Recurrence__c)+&quot;. The report will be run for  &quot;+text(Outlet_Option__c)+&quot; stores, and will be  &quot;+text(Report_Rollup__c)+&quot; across all selected markets.&quot;</formula>
+    <label>Report Description</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

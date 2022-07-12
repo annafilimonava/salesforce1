@@ -1,0 +1,5285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Airline</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Partner_Account</compactLayoutAssignment>
+    <label>Airline</label>
+    <picklistValues>
+        <picklist>A4_Printer__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>AccountSource</picklist>
+        <values>
+            <fullName>Advertisement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CEO Roundtable 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Employee Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing merchant cross-sell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>External Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FITUR 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality Paper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Independent Hotel Show</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intertraffic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pambianco 2021</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paris Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proximis Merchant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public Relations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail Forum 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail Paper</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail Tech Show 2022</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Persons Own</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar %E2%80%93 External</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar %E2%80%93 Internal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Word of mouth</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Account_Plan_Group__c</picklist>
+        <values>
+            <fullName>Austria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nordics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SMM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Account_Segment__c</picklist>
+        <values>
+            <fullName>Maintained</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Managed</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Acquisition_Partner__c</picklist>
+        <values>
+            <fullName>Altair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BNL Positivity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deutsche Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gastropool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hogast</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jumana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Setefi</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Active_Countries__c</picklist>
+        <values>
+            <fullName>Austria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hungary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Italy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portugal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sweden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switzerland</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Additional_Refund_Methods__c</picklist>
+        <values>
+            <fullName>Alipay Instant Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ctrip Pass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fast Refund Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TOPOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Union Pay Instant Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WeChat Real-Time</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Alipay__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Back_End_System__c</picklist>
+        <values>
+            <fullName>AX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSMSNET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DCC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ENACTOR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTEGRA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MMR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TLG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Brand_or_Retailer__c</picklist>
+        <values>
+            <fullName>Brand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retailer</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Browser__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Card_Schemes_Offered_for_DCC__c</picklist>
+        <values>
+            <fullName>Mastercard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visa</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Category__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Company_Sector__c</picklist>
+        <values>
+            <fullName>Financial Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hospitality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Computer__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Connection_to_Till__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_In_Place__c</picklist>
+        <values>
+            <fullName>Adhoc %2B Monthly Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Annual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract Being Finalised</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engagement Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly Invoiced</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly Subscription</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TBC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contract_Received__c</picklist>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Countries_of_Interest__c</picklist>
+        <values>
+            <fullName>Austria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belgium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cyprus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Czech Republic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Faroe Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greece</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hungary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iceland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Italy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxembourg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morocco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Netherlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portugal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Republic of Korea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singapore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sweden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switzerland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Kingdom</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Current_POS_DCC_Provider__c</picklist>
+        <values>
+            <fullName>Cardtronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ConCardis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Euronet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fexco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fintrax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>First Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Blue%2FCurrency Select</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MONEX Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redsys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travelex</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Current_eComm_DCC_Provider__c</picklist>
+        <values>
+            <fullName>Cardtronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ConCardis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Euronet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fexco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fintrax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>First Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Blue%2FCurrency Select</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MONEX Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Redsys</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travelex</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DCC_Current_Provider__c</picklist>
+        <values>
+            <fullName>Applepay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BBVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banca March</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banca Sella</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Mare Nostrum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Popular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Sabadell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Santander</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BankInter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bankia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barclays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CaixaBank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cajas Rurales Unidas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catalunya Banc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ConCardis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deutsche Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elavon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EuroNet %2F Pure Commerce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Euronet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Euronet Worldwide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fexco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fexco%2FGlobal Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fexco%2FOmnipay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Blue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HSBC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ibercaja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kutxabank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liberbank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MONEX Financial Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Money</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Natixis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Current Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NovaGalicia Banco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Setefi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travelex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unicaja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worldline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worldpay</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Deals_with_Personal_Data__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>E_Com_PSP__c</picklist>
+        <values>
+            <fullName>ACI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AIB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adyen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anderson Zaks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Axerve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BBVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIC Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BNL POSitivity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BNP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BPI Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BS Payone GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Babs Paylink</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banca Sella</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banque Populaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barclays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bred %2F CDN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCAM Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CGD Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Card Complete</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CardProcess GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardtech Card %26 POS Service GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CartaSi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chiara Boni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concardis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concardis GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Mutuel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crédit Agricole</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cybersource</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Datacash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Douglas Informatik %26 Service GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EVO Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Easycash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elavon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elavon Merchant Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enactor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Euronet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filoblu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fintrax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>First Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Globalcollect%2FDiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HSBC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hobex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICP International Cash Processing GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingenico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingenico Payment Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InterCard AG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JCC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KB Smart Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAVEGO AG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LCL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logic Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Millennium BCP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moneynet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montepio Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montrada GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nexi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Current Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ogone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oracle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PBT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PXP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palatine Banque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PayBox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PaySquare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PayZen %E2%80%93 Lyra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payleven</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paylife</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payone GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paypal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payplug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ReD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rea Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Realex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIX Payment Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sage Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santander</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Setefi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shopify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Six</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Societe Generale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Societe general</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stripe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stripe%2FPaypal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SumUp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swedbank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Systempay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TNS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TeleCash GmbH %26 Co%2E KG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecash%2FFirst Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Level Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Logic Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transact Elektronische Zahlungssysteme GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNICRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unicredit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VR Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verifone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VÖB-ZVD Processing GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wirecard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worldpay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worldpay Total</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yoox Net a Porter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>cardlink</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ec-plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iZettle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ČSOB</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ecommerce_Solution__c</picklist>
+        <values>
+            <fullName>Magento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP Commerce Cloud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shopify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SoCloz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WooCommerce</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Frequency_dates_of_review__c</picklist>
+        <values>
+            <fullName>Bi-Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Weekly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yearly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Function__c</picklist>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operations</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>GDPR__c</picklist>
+        <values>
+            <fullName>Final Letter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Recipient</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Required</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Returned</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>IKA__c</picklist>
+        <values>
+            <fullName>Adidas AG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adolfo Dominguez</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All Saints</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Armani</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bottega Veneta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calzedonia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cath Kidston</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chanel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christian Dior</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Christian Louboutin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FNAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Forever 21</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Geox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gucci</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Guess</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jaeger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Karen Millen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L%27Occitane</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mango</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massimo Dutti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michael Kors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mulberry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ralph Lauren</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saint Laurent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schuh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sephora</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swatch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thomas Sabo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tommy Hilfiger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zadig %26 Voltaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zara</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ITBS_Contact__c</picklist>
+        <values>
+            <fullName>Bernardo Vicente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Charles Mardirossian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daniel Sanchez</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Isabelle Schmit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luca Calzoni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luis Guilherme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maurizio Simeone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Richard Smith</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samuel Montero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tobias Pecksteiner</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Indexation_Agreed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry</picklist>
+        <values>
+            <fullName>Arts %26 Entertainment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beauty %28Fragrance and Cosmetics%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Car Rental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Casino</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Department Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaming %26 Gambling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Highstreet Fashion %26 Accessories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel 1-3 Star</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel 4 Star</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hotel 5 Star</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Leisure or Theme Park</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxury Fashion %26 Accessories</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Museum%2FAttraction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Night Club</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Petrol Station</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Restaurant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ski Hire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ski Lift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sportswear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technology%2FElectronics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Watches %26 Jewellery</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Industry_Segment__c</picklist>
+        <values>
+            <fullName>Basic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxury</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Integration_Type__c</picklist>
+        <values>
+            <fullName>PCM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PII</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Internet_Connection__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Invoice_Market_Share__c</picklist>
+        <values>
+            <fullName>0-25%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25-50%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50-75%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>75-99%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exclusive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Invoicing_Frequency__c</picklist>
+        <values>
+            <fullName>Bi-Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Daily</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weekly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yearly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Local_Card_Scheme__c</picklist>
+        <values>
+            <fullName>Bancontact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bankaxept</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Benefit cards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carte Bancaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carte bancaire%2C loyalty cards</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carte bancaire%2C loyalty cards%2C Cofinoga</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dankort</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Girocard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MB Way</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PagoBANCOMAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PostFinance</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Merchant_Incentive_Scheme__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NKA_Tier__c</picklist>
+        <values>
+            <fullName>1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NKA__c</picklist>
+        <values>
+            <fullName>Answer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aran Sweater Market</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barbour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Canada Goose</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Galeria Lisl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gina Shoes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Millenia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Penhaligon%27s</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Printemps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rimowa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TLG Brands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Watch Gallery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unibail Rodamco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vaalimaan Kauppakartano</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Åhléns</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>NSP__c</picklist>
+        <values>
+            <fullName>AIB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adyen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alpha Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Axerve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B-payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BBVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BNP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BS Payone GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Babs Paylink</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banca Sella</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Sabadell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bank of Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banque Populaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barclays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bnl Positivity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bred %2F CDN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCV Deutschland GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSOB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caisse d%27épargne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caixabank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardnet%2FLloyds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardtech GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cartasi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concardis GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Mutuel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deutsche Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Douglas Informatik %26 Service GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EVO Payments GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elavon Financial Services Ltd%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eurobank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Euronet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fintrax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>First Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>First Data Merchant Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Payments %2F Banque Populaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HSBC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HSBC %2F Global Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hobex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingenico Payment Services GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InterCard AG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JCC Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JCC%2FSIX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KB Smartpay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>L AVEGO AG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LCL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Caixa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Le Crédit Mutuel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mercury Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mercury Payments UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NETS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nexi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nexi Spa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Open Yet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTHER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PBT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palatine Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PaySquare SE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PayTec AG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paymentsense</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payone GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RCB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REA Card GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIX Payment Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIX Payment Services UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santander</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shopify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart Pay - KB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Societe general</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Société Générale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sumup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TeleCash GmbH %26 Co%2E KG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unicredit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VIVA Wallet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VR Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verifone GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VÖB-ZVD Processing GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WEAT Electronic Datenservice GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wirecard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worldpay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>epay - transact Elektronische Zahlungssysteme GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iZettle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Non_Settlement_Exposure__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Omni_Channel_Use_Cases__c</picklist>
+        <values>
+            <fullName>C%26C ecommerce %28ecomm warehouse stock%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C%26C store %28store stock%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-reservation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mobile check-out</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order in-store orchestrated from warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order in-store orchestrated through stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order orchestration through stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Return in store of any order</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Omni_Channel__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>On_Boarding_Owner__c</picklist>
+        <values>
+            <fullName>Alessandro Bonincontro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Andrea Colombo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chiara Cenedese</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Claudia Cipolla</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrica Zancan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Francesca Bertolino</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michela Amoruso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monica Capobianco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sara Bernabe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simone Cattani</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stefano Uggeri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yuliya Skrypnik</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>On_Boarding__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Ownership</picklist>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Public</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subsidiary</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Owning_Country__c</picklist>
+        <values>
+            <fullName>Austria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belgium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belize</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cambodia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cyprus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Czech Republic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estonia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Faroe Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greece</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hong Kong</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hungary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iceland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Italy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Latvia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lithuania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxembourg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Malta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Netherlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portugal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Republic of Korea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Romania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Russian Federation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singapore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slovak Republic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sri Lanka</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sweden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switzerland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Turkey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Arab Emirates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Kingdom</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PBL_Current_Provider__c</picklist>
+        <values>
+            <fullName>NEXI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PMS_Current_Provider__c</picklist>
+        <values>
+            <fullName>NEXI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>POS_Rental__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>POS_System__c</picklist>
+        <values>
+            <fullName>Artema Hybrid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardtech</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concardis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFT930B Couleur %28Réf 280%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFT930B Noir et blanc %28Réf 270%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFT930B Noir et blanc %28Réf 280%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFT930G Couleur %28Réf 270%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFT930P %28Réf 260%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFT930S %28Réf 290%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFT930W Noir et Blanc %28Réf 250%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFTSMART %28Réf 320%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFTSMART %28Réf 420%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFTSMART %2B PinPad avec carte %28Réf 321%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFTSMART %2B PinPad avec insertion carte %28Réf 421%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFTSMART %2B PinPad sans insertion carte %28Réf 324%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EFTSMART %2B PinPad sans insertion carte %28Réf 424%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Easy Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extenda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hypercom</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT220 PEM %28Réf 100%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT220 PEM %2B PinPad sans carte %28Réf 104%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT220 PEM PinPad carte %28Réf 101%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT220 PGEM %28Réf 170%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT220 PGEM %2B PP30S %28Réf 174%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT220 PGEM PinPad Carte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT250 PEM  %2B PPad sans insertion carte %28Réf 104_109%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT250 PEM %2B PinPad avec insertion carte %28Réf 101_106%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT250 PEM Sans PinPad %28Réf 100_105%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT250 PGEM %28Réf 170%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT250 PGEM %2B PinPad avec insertion carte %28Réf 171%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICT250 PGEM %2B PinPad sans insertion carte %28Réf 174%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IPP320 %28Réf 120%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IPP320 %28Réf 330%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IPP350 %28Réf 120%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IPP350 %28Réf 340%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IWL250 Bluetooth %28Réf 180%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IWL250 GPRS %28modèle 180%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IWL280 TOUCH %28Réf 150%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IWL350</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingenico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingenico IWL 250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingenico iCT220</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingenico iCT250</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingenico%C2%A0iWL 250B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingenico%C2%A0iWL 250G</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>REA T3 Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Six</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Thales Artema Hybrid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verifone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verifone Artema Hybrid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verifone H5000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verifone Mx925</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verifone Vx520</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verifone Vx670</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verifone Vx680</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verifone Vx810 Duet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verifone Vx820</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verifone Vx825</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yomani</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iSC480</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iSC480 %2B PPAD IPP280</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iSMP %28Réf 190%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iWL 250 Flexible</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>PSP_Provider__c</picklist>
+        <values>
+            <fullName>ACI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>AIB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Adyen</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anderson Zaks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Axerve</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BBVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIC Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BNL POSitivity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BNP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BPI Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BS Payone GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Babs Paylink</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banca Sella</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banque Populaire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Barclays</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bred %2F CDN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCAM Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CGD Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CardProcess GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cardtech Card %26 POS Service GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CartaSi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chiara Boni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Concardis GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Mutuel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crédit Agricole</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cybersource</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Datacash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Douglas Informatik %26 Service GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EVO Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Easycash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elavon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elavon Merchant Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enactor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Euronet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FIS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Filoblu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fintrax</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Globalcollect%2FDiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HSBC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICP International Cash Processing GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingenico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ingenico Payment Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>InterCard AG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JCC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LAVEGO AG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LCL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Millennium BCP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moneynet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montepio Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montrada GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nexi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Current Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ogone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oracle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PBT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PXP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Palatine Banque</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PayBox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PaySquare</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PayZen %E2%80%93 Lyra</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payleven</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payone GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paypal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payplug</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ReD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Realex</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SIBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sage Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santander</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Setefi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shopify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Six</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Societe Generale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Societe general</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stripe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stripe%2FPaypal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SumUp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swedbank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Systempay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TNS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TeleCash GmbH %26 Co%2E KG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecash%2FFirst Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Level Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>The Logic Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transact Elektronische Zahlungssysteme GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNICRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unicredit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VR Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Verifone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VÖB-ZVD Processing GmbH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wirecard</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worldpay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Worldpay Total</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yoox Net a Porter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>cardlink</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ec-plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iZettle</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Pay_by_Link_Provider_del__c</picklist>
+        <values>
+            <fullName>TBD</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payments_System_Full_Integration__c</picklist>
+        <values>
+            <fullName>Connection to Till</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stand Alone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Primary_TF_Issuing_Solution__c</picklist>
+        <values>
+            <fullName>JCC Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Supported</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Own Offline Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA Web Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PC Web Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PII Plus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POL Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iPad Solution</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Proposed_Solution__c</picklist>
+        <values>
+            <fullName>Kiosk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA 3rd Party</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAOL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAX Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PII</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Connect Mobility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>p%40c</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Proposed_Till_Provider_Acquirer__c</picklist>
+        <values>
+            <fullName>AIB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aitana%2FLS NAV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BBVA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRICOR Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BRICOR-GENERICO Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Popular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Sabadell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banco Sabadell de Ibiza</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bankia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CCCR AJUNt%2E DE PALMA %28Fundación Turismo Palma de Mallorca 365%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CHAPS Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPI Retail%2FRetail Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cajas rurales unidas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Catalunya banc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EL CORTE INGLES Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EL CORTE INGLES-GENERICO Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FOX Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gescode%2FQuickSportsPRO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GrupoActive%2FLS Retail Nav%2FIECISA%2FConexflow</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HIPERCOR Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I LIKE TO BUY ZARAGOZA Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICG%2FFrontRetail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INTROPIA Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ibercaja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JESUS DEL POZO Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kutxabank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LA MARTINA Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LUISA SPAGNOLI PUERTO BANUS Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Caixa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>La Caixa %E2%80%93 Powered by PTF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liberbank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MARIONNAUD Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moddo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moddo%2FTPV Gestion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NAËLLE Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NCR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NovaGalicia Banco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OFFICINE PANERAI Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OPTICA 2000 Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OUTLET TEMPE Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PUNT ROMA Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PracticsBS%2FVTiger</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prodware%2FFastSales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RABAT Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SALVADOR BACHILLER Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SFERA Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SUPERCOR Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sipay%2FSipayPLUS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Status2%2FST MODA V8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Status2%2FSTMODA TPV 8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stratesys%2FBrandPOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TENKEY Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unicaja</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WHIZ Own System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wincor%2FTP%2E NET %28Inditex Customized%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winparf</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Provider_Type__c</picklist>
+        <values>
+            <fullName>PSP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Till Provider</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Quality_of_Relationship__c</picklist>
+        <values>
+            <fullName>Amber</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Green</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>REAN_stage__c</picklist>
+        <values>
+            <fullName>Activate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nurture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reach</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rating</picklist>
+        <values>
+            <fullName>Cold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Warm</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Rebate_Payment_Frequency__c</picklist>
+        <values>
+            <fullName>Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bi-Annually</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Monthly</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quarterly</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Refund_Template__c</picklist>
+        <values>
+            <fullName>10 %25 Table</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CWG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DM30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E1 6AN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EWM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EWM20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAV</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBAY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBBC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBBD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBBE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBBF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBBI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBBJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBBK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBCG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBCH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBCI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBCJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBCK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBH</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GBY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>KGTable</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Omega</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PTF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rohan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rox Jewell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spec25%2F50</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Table 10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Table 20</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Table 30</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Table 40</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Table30C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Table30Z</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Variable</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Region__c</picklist>
+        <values>
+            <fullName>Abruzzo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Basilicata</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calabria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Campania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emilia romagna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Friuli venezia giulia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lazio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liguria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lombardia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marche</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Molise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Piemonte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Puglia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sardegna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sicilia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Toscana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trentino alto adige</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Umbria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Veneto</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sales_Channel__c</picklist>
+        <values>
+            <fullName>Direct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indirect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Seasonality__c</picklist>
+        <values>
+            <fullName>All Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Summer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winter</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Service_Type__c</picklist>
+        <values>
+            <fullName>Exclusive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non-Exclusive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Shop_Category__c</picklist>
+        <values>
+            <fullName>A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>C</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>D1</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Stand_Alone__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Supplier_Category__c</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Key</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regular</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Supplier_Type__c</picklist>
+        <values>
+            <fullName>Accountant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Agency</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auditor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banking</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consultancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Courier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cultural Trainer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Service Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Developers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Events</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Front end solution partners</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Health Care</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insight%2FData</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legal and Financial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing %26 Promotion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Misc HR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Misc IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Costs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Partnerships</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payroll</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Postage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Printing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recruitment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retailer Hardware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Security</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Storage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Telecommunications</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TF_Current_Provider__c</picklist>
+        <values>
+            <fullName>B%2EFree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Caixa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cerfa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Custom Cash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DSD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Détaxe SA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Easy Tax Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eurotaxfree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fair Tax Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GB Tax Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Blue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Government</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Innova</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MR Antalya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Tax Free Vat Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Current Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PieVat</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Tax Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Safety Tax Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simply Tax Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solpay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Free Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Free Zone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Refund Italy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Easy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Travel Tax Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VP Tax Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zone</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Taxfree_Market_share__c</picklist>
+        <values>
+            <fullName>0-25%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>25-50%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>50-75%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>75-99%25</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exclusive</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Till_Provider__c</picklist>
+        <values>
+            <fullName>Access Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ace Informatique</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Actosoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advarics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aptean</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aptos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Atelier 98</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BITS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bean Store%2FBizeta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Best Store Autel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Beterna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bleep</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BlueYonder</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bording%2F52</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bright Pearl</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CI Bruneau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CPI Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cashdash</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cassiopee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cegid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Codysis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Combase%2FKorona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comerzzia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cowhills</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crafthouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Crystal Works</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cunninghams%2FFashion Master</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cybertill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cylande%2FCegid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DATALIDER</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DDD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Deniba</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Diebold Nixdorf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Elfo Vision POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enactor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entersoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Epicor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Epsilon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Etron</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extenda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FDT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Famowa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FarmaPro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Front Systems</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fujitsu</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GK Software</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generix</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Giz</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hermes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IBM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ICG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>INFOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inside POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>J%2E Ahola</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JBM Merit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JDC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>JLR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joolan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kappture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kassaline</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LCR Data%2FDiamante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LS Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lightspeed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Logo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maestro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Manhattan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Micromania %28in-house%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Microsoft Dynamics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Moddo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NaviPartner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nebim</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nepting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Black</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Notia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Octave</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Odoo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Openbravo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oracle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PCMS%2FFlooid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PHC %E2%80%93 Anturio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Persis</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmadata</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmagest</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pharmaland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pohoda</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Posman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Power2Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PrimaveraBSS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pursuit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>R4P%2FOKI-Itautec</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Receptum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Red Ant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail Pro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retail Realm %28D365%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Roqqio%2FFuture</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAGE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SKJ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SOFTMAIS PREMIUM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Set</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shopify</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sitoo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Skidata</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smart RX</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Softingal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Softone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solteq</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Status 2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Suite one</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Syncore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TCPOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tad Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tehden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Treibauf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vend%2FLightspeed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WinTouch</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wincor through DFS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winparf</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winpos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Winshop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XL Soft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>XY</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Zimmel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZoneSoft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ready2order</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Top_Street__c</picklist>
+        <values>
+            <fullName>Ariel Way</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avenue Montaigne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avenue des Champs Elysees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avinguda Diagonal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Avinguda del Portal de l%27Angel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Boulevard Haussmann</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Brompton Road</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calle Juan Ramon Jimenez</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calle Preciados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calle de Jose Ortega y Gasset</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Calle de Serrano</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carrer d%27Aristides Maillol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cours de la Garonne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gernsbacher Strasse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goethestrasse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Knightsbridge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Konigsallee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kurfurstendamm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maximilianstrasse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mount Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Bond Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Old Bond Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otto-Hahn-Strasse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oxford Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Passeig de Gracia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Piazza della Signoria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Piazza di Spagna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pingle Drive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Plaza de Catalunya</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regent Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reutlinger Strasse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rue Cambon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rue Royale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rue Saint Honore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rue de Rivoli</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rue de Sevres</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rue du Faubourg Saint-Honore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>San Marco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Santa Agnes de Malanyanes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schwangauer Strasse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sloane Street</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tauentzienstrasse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unterschweinstiege</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Via Europa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Via Monte Napoleone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Via Sant%27Andrea</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Via Ugo Foscolo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Via de%27 Tornabuoni</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Via dei Condotti</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Via della Moda</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Active</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Prospect</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Contract__c</picklist>
+        <values>
+            <fullName>Auto-Renewal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Term</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rolling</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>VIP_Service__c</picklist>
+        <values>
+            <fullName>Charged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Free</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>WeChat_Pay__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>ltnadptn__Active__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comms_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Comms Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Terminal_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Comms_Type</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Vx520/820</controllingFieldValue>
+            <controllingFieldValue>Vx690</controllingFieldValue>
+            <controllingFieldValue>Vx520</controllingFieldValue>
+            <valueName>PSTN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vx520/820</controllingFieldValue>
+            <controllingFieldValue>A920</controllingFieldValue>
+            <controllingFieldValue>Vx690</controllingFieldValue>
+            <controllingFieldValue>Vx520</controllingFieldValue>
+            <controllingFieldValue>Vx680 BT/Wi-Fi</controllingFieldValue>
+            <valueName>IP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A920</controllingFieldValue>
+            <controllingFieldValue>Samsung A10</controllingFieldValue>
+            <controllingFieldValue>Samsung Tab Active2</controllingFieldValue>
+            <controllingFieldValue>Vx690</controllingFieldValue>
+            <controllingFieldValue>Vx680 BT/Wi-Fi</controllingFieldValue>
+            <valueName>WiFi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A920</controllingFieldValue>
+            <controllingFieldValue>Samsung A10</controllingFieldValue>
+            <controllingFieldValue>Samsung Tab Active2</controllingFieldValue>
+            <valueName>4G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vx570</controllingFieldValue>
+            <controllingFieldValue>Vx610</controllingFieldValue>
+            <controllingFieldValue>Vx670</controllingFieldValue>
+            <controllingFieldValue>Vx810</controllingFieldValue>
+            <controllingFieldValue>i7780</controllingFieldValue>
+            <controllingFieldValue>i5100</controllingFieldValue>
+            <controllingFieldValue>Unknown</controllingFieldValue>
+            <controllingFieldValue>Artema Compact</controllingFieldValue>
+            <controllingFieldValue>ICT220</controllingFieldValue>
+            <controllingFieldValue>ICT250</controllingFieldValue>
+            <controllingFieldValue>IWL220</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <controllingFieldValue>IWL250</controllingFieldValue>
+            <controllingFieldValue>Omni 3350</controllingFieldValue>
+            <controllingFieldValue>Omni 3750</controllingFieldValue>
+            <controllingFieldValue>Vx510</controllingFieldValue>
+            <controllingFieldValue>Artema Compact V3</controllingFieldValue>
+            <valueName>Not Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vx680 3G</controllingFieldValue>
+            <controllingFieldValue>Vx690</controllingFieldValue>
+            <valueName>3G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Unknown</controllingFieldValue>
+            <valueName>Unknown</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Planet_Payment_North_America</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Planet Payment North America</label>
+        <sharedTo>
+            <group>North_America_Sales</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>North_America_Sales</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

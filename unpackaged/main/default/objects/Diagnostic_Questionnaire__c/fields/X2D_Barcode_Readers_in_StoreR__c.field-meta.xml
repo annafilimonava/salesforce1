@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>X2D_Barcode_Readers_in_StoreR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(X2D_Barcode_Readers_in_Store__c) = &quot;Yes&quot;, 5, 
+IF(TEXT(X2D_Barcode_Readers_in_Store__c) = &quot;No&quot;, 0, 0))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>2D Barcode Readers in StoreR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

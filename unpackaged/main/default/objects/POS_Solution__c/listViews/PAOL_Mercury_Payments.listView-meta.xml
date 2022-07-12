@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PAOL_Mercury_Payments</fullName>
+    <booleanFilter>1 AND 2 AND 3 AND 4 AND (5 OR 6)</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Head_Office_Rank__c</columns>
+    <columns>Account_ID__c</columns>
+    <columns>Account_Name__c</columns>
+    <columns>Solution__c</columns>
+    <columns>On_Boarding__c</columns>
+    <columns>PSP1__c</columns>
+    <columns>Parent_Number_of_Child_Records__c</columns>
+    <columns>Terminal_ID_TID__c</columns>
+    <columns>Bank_TID__c</columns>
+    <columns>Terminal__c</columns>
+    <columns>Comms_Type__c</columns>
+    <columns>Account_Owner__c</columns>
+    <columns>Status__c</columns>
+    <columns>Rolled_Out__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>012240000002qoj</value>
+    </filters>
+    <filters>
+        <field>Product__c</field>
+        <operation>notEqual</operation>
+        <value>Payments,Payments &amp; DCC</value>
+    </filters>
+    <filters>
+        <field>Solution__c</field>
+        <operation>equals</operation>
+        <value>PA,PA 3rd Party,PAOL</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Managed,Pending,Active,Dispatched,Spare</value>
+    </filters>
+    <filters>
+        <field>Terminal_ID_TID__c</field>
+        <operation>startsWith</operation>
+        <value>93</value>
+    </filters>
+    <filters>
+        <field>Terminal_ID_TID__c</field>
+        <operation>startsWith</operation>
+        <value>97</value>
+    </filters>
+    <label>PAOL_Mercury_Payments</label>
+    <sharedTo>
+        <role>POS_Support_IT</role>
+    </sharedTo>
+</ListView>

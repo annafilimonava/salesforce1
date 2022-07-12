@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Adjusted_Response_Time__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(((datevalue(First_Response__c) - datevalue(CreatedDate) - 2*( floor((datevalue(First_Response__c) - DATE(1985, 6, 24))/7) - floor ((datevalue(CreatedDate) - DATE(1985, 6, 24))/7)))=0),
+
+(round( (First_Response__c - CreatedDate),6)*24),
+
+if ((MOD(DateValue(CreatedDate) - Date(1900, 1, 6), 7)=6),
+
+(round((First_Response__c - CreatedDate),6)*24)
+
+- ((datevalue(First_Response__c) - datevalue(CreatedDate) - 2*( floor((datevalue(First_Response__c) - DATE(1985, 6, 24))/7) - floor ((datevalue(CreatedDate) - DATE(1985, 6, 24))/7)))
+
+*12)
+
+-48,
+
+(round((First_Response__c - CreatedDate),6)*24)
+
+- ((datevalue(First_Response__c) - datevalue(CreatedDate) - 2*( floor((datevalue(First_Response__c) - DATE(1985, 6, 24))/7) - floor ((datevalue(CreatedDate) - DATE(1985, 6, 24))/7)))
+
+*12)
+
+))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Adjusted Response Time</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

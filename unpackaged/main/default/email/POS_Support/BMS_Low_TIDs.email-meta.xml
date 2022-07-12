@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>BMS Low TIDs</name>
+    <style>none</style>
+    <subject>BMS TIDs Running Low</subject>
+    <textOnly>The available Terminal IDs for BMS are almost out. Currently there are {!BMS_TID__c.00N2400000IQZSW} remaining.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

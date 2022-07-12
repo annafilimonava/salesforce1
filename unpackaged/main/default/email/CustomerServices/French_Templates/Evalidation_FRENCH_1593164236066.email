@@ -1,0 +1,49 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Bonjour <span style="color:black">{{{Case.Tourist__c}}}</span>,</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">&nbsp;</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Merci pour votre email.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">&nbsp;</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">J'ai v&eacute;rifi&eacute; notre base de donn&eacute;es et je peux confirmer que nous avons bien re&ccedil;u votre bordereau {{{Case.Tax_Free_Form__c}}}, mais malheureusement, nous ne pouvons pas &eacute;mettre de remboursement car votre bordereau ne contenait pas d'approbation douani&egrave;re.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">&nbsp;</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Sur votre feuillet de validation &eacute;lectronique &eacute;crit &laquo; Thank you! Validation request deficient &raquo;, cela signifie que l'approbation n'a pas &eacute;t&eacute; finalis&eacute;e car le formulaire ou le re&ccedil;u en franchise d'imp&ocirc;t ne satisfait pas aux exigences l&eacute;gales. Vous &ecirc;tes cens&eacute; compl&eacute;ter les donn&eacute;es manquantes et soumettre &agrave; nouveau le formulaire au bureau de douane afin de recevoir un bordereau de douane valide. Il est de la responsabilit&eacute; du touriste d’obtenir l’agr&eacute;ment des douanes pour la r&eacute;gion et malheureusement sans lui nous ne pourrons pas accepter le formulaire.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">&nbsp;</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Si vous avez manqu&eacute; de montrer &agrave; nouveau les marchandises au comptoir des douanes, vous n'avez pas termin&eacute; le processus &agrave; l'a&eacute;roport. La douane autrichienne vous propose d'estampiller votre formulaire hors taxes et le re&ccedil;u original de la boutique, si vous leur envoyez les documents (formulaire hors taxes avec le re&ccedil;u original du magasin ou des copies confirm&eacute;es de la boutique) avec un tampon d'importation / confirmation d'importation. Si vous pr&eacute;sentez les marchandises aux douanes locales de votre pays, vous pouvez obtenir un tampon d'importation / confirmation d'importation (des frais peuvent s'appliquer). Ensuite, vous pouvez envoyer les documents aux douanes autrichiennes :</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">&nbsp;</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Zollamt</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Eisenstadt Flughafen Wien</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Abfertigung Reiseverkehr</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">1300</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Flughafen Wien</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">L'Autriche</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">T&eacute;l. : 0043 50 233 56300</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">&nbsp;</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">D&egrave;s que nous recevrons vos documents avec approbation douani&egrave;re, nous les traiterons en cons&eacute;quence et le remboursement vous sera d&eacute;livr&eacute;.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">&nbsp;</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Bien Cordialement.</span></p>
+ </body>
+</html>

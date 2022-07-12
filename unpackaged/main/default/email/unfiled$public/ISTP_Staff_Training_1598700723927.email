@@ -1,0 +1,21 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <div style="font-size: 0.875rem; font-family: Barlow,sans-serif;"> 
+   <meta content="text/html; charset=utf-8" /> 
+   <meta name="ProgId" content="Word.Document" />Dear Valued Customer, 
+   <br /> 
+   <br /> You are receiving this invitation to complete a survey because you recently participated in a Planet Consulting Training programme. 
+   <span style="mso-fareast-language:
+EN-GB"> </span> 
+   <p><span style="font-size: 0.875rem;">Your feedback is important. We actively use surveys to constantly improve our training programmes and provide you with best in class consultancy services. Typically it takes less than 5 minutes to complete.</span></p> 
+   <p><span style="font-size: 0.875rem;">We thank you for your time.</span></p> 
+   <p><span style="font-size: 0.875rem;">If you have any questions, please feel free to contact the Planet Consultancy Team at</span></p> 
+   <br /> 
+   <span style="font-size:14px;"><span style="font-family:Arial,Helvetica,sans-serif;"><a href="mailto:PlanetConsultancy@Planetpayment.com">Planet.Consulting@Planetpayment.com</a></span></span> 
+   <p style="text-align: center;"><span><a href="[[SURVEY_INVITATION_URL]]" style="[[DISABLE_LINK]] vertical-align: middle; border: 1px solid rgb(221, 219, 218); transition: border .15s linear; background-color: rgb(55, 180, 90); border-color: rgb(0, 112, 210); color: rgb(255, 255, 255); display: inline-block; background-clip: border-box; border: 1px solid transparent; border-radius: .25rem; line-height: 1.875rem; text-decoration: none; -webkit-appearance: none; white-space: normal; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; padding: 0 1rem;" target="_blank">Open Survey</a></span></p> 
+  </div>
+ </body>
+</html>

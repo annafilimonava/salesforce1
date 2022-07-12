@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>POS_Support_FI_Unit</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_FI</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Support FI Unit</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Support_FR</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_FR</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Support FR</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Support_PT</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_PT</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Support PT</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Unit_Ownership</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_GB</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Unit Ownership</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Unit_Ownership_CH</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_CH</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Unit Ownership CH</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Unit_Ownership_CZ</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_CZ</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Unit Ownership CZ</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Unit_Ownership_DE</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_DE</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Unit Ownership DE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Unit_Ownership_ES</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_ES</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Unit Ownership ES</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Unit_Ownership_HU</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_HU</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Unit Ownership HU</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Unit_Ownership_IE</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_IE</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Unit Ownership IE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Unit_Ownership_IT</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_Italy</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Unit Ownership IT</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Unit_to_Pending</fullName>
+        <field>Status__c</field>
+        <literalValue>Pending</literalValue>
+        <name>Update Unit to Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Unit Ownership CH</fullName>
+        <actions>
+            <name>Unit_Ownership_CH</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support CH&quot;,  TEXT(Location__c) = &quot;Switzerland&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unit Ownership CZ</fullName>
+        <actions>
+            <name>Unit_Ownership_CZ</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support CZ&quot;,  TEXT(Location__c) = &quot;Czech Republic&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unit Ownership DE</fullName>
+        <actions>
+            <name>Unit_Ownership_DE</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support DE&quot;,  TEXT(Location__c) = &quot;Germany&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unit Ownership ES</fullName>
+        <actions>
+            <name>Unit_Ownership_ES</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support ES&quot;,  TEXT(Location__c) = &quot;Spain&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unit Ownership FI</fullName>
+        <actions>
+            <name>POS_Support_FI_Unit</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support FI&quot;,  TEXT(Location__c) = &quot;Finland&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unit Ownership FR</fullName>
+        <actions>
+            <name>POS_Support_FR</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support FR&quot;,  TEXT(Location__c) = &quot;France&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unit Ownership GB</fullName>
+        <actions>
+            <name>Unit_Ownership</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support GB&quot;,  TEXT(Location__c) = &quot;United Kingdom&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unit Ownership HU</fullName>
+        <actions>
+            <name>Unit_Ownership_HU</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support HU&quot;,  TEXT(Location__c) = &quot;Hungary&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unit Ownership IE</fullName>
+        <actions>
+            <name>Unit_Ownership_IE</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support IE&quot;,  TEXT(Location__c) = &quot;Ireland&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unit Ownership IT</fullName>
+        <actions>
+            <name>Unit_Ownership_IT</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support IT&quot;,  TEXT(Location__c) = &quot;Italy&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Unit Ownership PT</fullName>
+        <actions>
+            <name>POS_Support_PT</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support PT&quot;,  TEXT(Location__c) = &quot;Portugal&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Unit Status</fullName>
+        <actions>
+            <name>Update_Unit_to_Pending</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Unit Status to Pending once related to a POS Solution</description>
+        <formula>AND(POS_Solution__c &lt;&gt;&quot;&quot;, TEXT(Status__c) = &quot;Stock&quot;)</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

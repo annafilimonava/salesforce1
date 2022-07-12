@@ -1,0 +1,115 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span lang="IT" style="font-family: &quot;Barlow Light&quot;;">&nbsp; Gentile
+Cliente </span><span lang="IT" style="font-family:&quot;Barlow Light&quot;;mso-bidi-font-family:
+Arial">{!POS_Solution__c.Account_Name__c} -&nbsp;{!POS_Solution__c.AccountId__c}</span><span lang="IT" style="font-family: &quot;Barlow Light&quot;;">,<o:p></o:p></span></p><p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span lang="IT" style="font-family: &quot;Barlow Light&quot;;"><br></span></p>
+
+<div>
+
+<table cellspacing="0" cellpadding="0" hspace="0" vspace="0" align="left">
+ <tbody><tr>
+  <td valign="top" align="left" style="padding-top:0cm;padding-right:7.05pt;
+  padding-bottom:0cm;padding-left:7.05pt">
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  column;mso-element-top:.05pt;mso-height-rule:exactly"><span style="font-family: &quot;Barlow Light&quot;; font-size: 12pt;">Grazie per aver scelto il nostro
+  servizio Standalone for Desktop. Di seguito il link e le credenziali di
+  accesso al nostro portale:</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  column;mso-element-top:.05pt;mso-height-rule:exactly"><span lang="IT" style="font-family: &quot;Barlow Light&quot;;">&nbsp;</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  column;mso-element-top:.05pt;mso-height-rule:exactly"><span lang="EN-US" style="font-family: &quot;Barlow Light&quot;;">Sito Web:&nbsp;</span><span style="color: rgb(0, 176, 80); font-family: &quot;Barlow Light&quot;; font-size: 11pt;">https://premieronline.premiertaxfree.com</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  column;mso-element-top:.05pt;mso-height-rule:exactly"><span lang="EN-US" style="font-family: &quot;Barlow Light&quot;;">&nbsp;</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  column;mso-element-top:.05pt;mso-height-rule:exactly"><span lang="EN-US" style="font-family: &quot;Barlow Light&quot;;">User Name:
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {!POS_Solution__c.Login__c}<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  column;mso-element-top:.05pt;mso-height-rule:exactly"><span lang="EN-US" style="font-family: &quot;Barlow Light&quot;;">Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {!POS_Solution__c.Password__c}<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  column;mso-element-top:.05pt;mso-height-rule:exactly"><span lang="EN-US" style="font-family: &quot;Barlow Light&quot;;">&nbsp;</span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  column;mso-element-top:.05pt;mso-height-rule:exactly"><span lang="IT" style="font-family: &quot;Barlow Light&quot;;">Vi ricordiamo che è necessario
+  consentire i popup per poter stampare la fattura Tax Free tramite il nostro
+  portale ed utilizzare una versione aggiornata di Acrobat Reader.<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+  justify;line-height:normal;mso-element:frame;mso-element-frame-hspace:7.05pt;
+  mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  column;mso-element-top:.05pt;mso-height-rule:exactly"><span lang="IT" style="font-family: &quot;Barlow Light&quot;;">&nbsp;<o:p></o:p></span></p>
+  <p class="MsoNormal" style="margin-bottom:5.0pt;text-align:justify;line-height:
+  normal;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  column;mso-element-top:.05pt;mso-height-rule:exactly"><span lang="IT" style="font-family: &quot;Barlow Light&quot;;">Le ricordiamo che in caso sia
+  necessario supporto, può contattarci:&nbsp;</span></p><p class="MsoNormal" style="margin-bottom:5.0pt;text-align:justify;line-height:
+  normal;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  column;mso-element-top:.05pt;mso-height-rule:exactly"></p><ul><li><span lang="IT" style="text-indent: -17.85pt; font-size: 12pt; font-family: &quot;Barlow Light&quot;;">via email, scrivendo all’indirizzo</span><span lang="IT" style="text-indent: -17.85pt; font-size: 12pt; font-family: &quot;Barlow Light&quot;; color: rgb(0, 102, 0);">&nbsp;</span><a href="mailto:possupport.it@planetpayment.com"><span style="font-family:&quot;Barlow Light&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:Arial;
+color:#00B050;mso-fareast-language:IT">possupport.it@planetpayment.com</span></a></li><li><span lang="IT" style="font-size: 12pt; font-family: &quot;Barlow Light&quot;;">telefonicamente</span><span lang="IT" style="font-size: 12pt; font-family: &quot;Barlow Light&quot;;">,&nbsp;</span><span lang="IT" style="font-size: 12pt; font-family: &quot;Barlow Light&quot;;">chiamando&nbsp;il&nbsp;numero&nbsp;+39
+       06 69923383</span></li></ul><p></p>
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal;mso-element:frame;mso-element-frame-hspace:7.05pt;mso-element-wrap:
+  around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
+  column;mso-element-top:.05pt;mso-height-rule:exactly"><span style="font-family: &quot;Barlow Light&quot;; font-size: 12pt;">Prima di contattarci, le consigliamo di
+  installare l’app gratuita TeamViewer Support per consentirci di fornirle un
+  più rapido supporto condividendo lo schermo del suo computer.</span></p>
+  </td>
+ </tr>
+</tbody></table>
+
+</div>
+
+<span lang="IT" style="font-size:11.0pt;line-height:107%;font-family:&quot;Calibri&quot;,sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:
+minor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-bidi-theme-font:minor-bidi;mso-ansi-language:IT;mso-fareast-language:EN-US;
+mso-bidi-language:AR-SA"><span style="font-family:
+&quot;Barlow Light&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+Arial;color:#00B050;mso-fareast-language:IT">&nbsp; &nbsp;</span></span><a href="https://www.teamviewer.com/it/download/windows/" style="font-family: Calibri, sans-serif; font-size: 11pt;"><span style="font-family:
+&quot;Barlow Light&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+Arial;color:#00B050;mso-fareast-language:IT">https://www.teamviewer.com/it/download/windows/</span></a></div><div style=""><p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"><span lang="IT" style="font-size:11.0pt;line-height:
+107%;font-family:&quot;Calibri&quot;,sans-serif;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+mso-ansi-language:IT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><span lang="IT" style="font-size: 11pt; line-height: 107%; font-family: &quot;Barlow Light&quot;;"><br></span></span></p><p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"><span lang="IT" style="font-size:11.0pt;line-height:
+107%;font-family:&quot;Calibri&quot;,sans-serif;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+mso-ansi-language:IT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><span lang="IT" style="font-size: 11pt; line-height: 107%; font-family: &quot;Barlow Light&quot;;">&nbsp; &nbsp;Cordiali Saluti</span></span></p><p class="MsoNormal" style="margin-bottom: 0.0001pt; line-height: normal;"><span lang="IT" style="font-size:11.0pt;line-height:
+107%;font-family:&quot;Calibri&quot;,sans-serif;mso-ascii-theme-font:minor-latin;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;mso-hansi-theme-font:
+minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi;
+mso-ansi-language:IT;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"><span lang="IT" style="font-size: 11pt; line-height: 107%; font-family: &quot;Barlow Light&quot;;">&nbsp; &nbsp;Planet Payment Italy S.r.l.</span></span></p></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family: &quot;Lucida Sans Unicode&quot;, sans-serif; font-size: 11.5pt;"><br></span></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family: &quot;Lucida Sans Unicode&quot;, sans-serif; font-size: 11.5pt;"><img src="https://fintrax--c.documentforce.com/servlet/servlet.ImageServer?id=0151o000004vF7G&amp;oid=00D24000000ac79" border="0" align="left" alt=""><br></span></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><span style="font-family: &quot;Lucida Sans Unicode&quot;, sans-serif; font-size: 11.5pt;">Italian
+Office</span></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><div style=""><br></div><div style=""><span style="font-size:10.0pt;font-family:&quot;Lucida Sans Unicode&quot;,sans-serif;
+mso-fareast-font-family:Calibri;mso-fareast-theme-font:minor-latin;color:#00B140;
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA">T&nbsp;</span><span style="font-family: &quot;Lucida Sans Unicode&quot;, sans-serif; font-size: 10pt;">+390669923383&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></div><div><div style=""><span style="font-family: &quot;Lucida Sans Unicode&quot;, sans-serif; font-size: 10pt;"><span style="white-space:pre">	</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<span style="white-space:pre">	</span><span style="white-space:pre">	</span></span></div><div style=""></div><div style=""><span style="font-size: 7.5pt; font-family: &quot;Lucida Sans Unicode&quot;, sans-serif;">We
+have changed. Fintrax Group, Premier Tax Free, GB Tax Free, Planet Payment are
+now Planet –</span><span style="font-size: 7pt; font-family: &quot;Lucida Sans Unicode&quot;, sans-serif;"><span style="color: black; text-decoration-line: none;"><a href="https://www.planetpayment.com"> </a><a href="https://www.planetpayment.com/">Click here for more</a></span></span></div><div style=""><span style="font-size: 7pt; font-family: &quot;Lucida Sans Unicode&quot;, sans-serif; color: rgb(191, 191, 191);"><a href="http://www.fintrax.com/disclaimer">Disclaimer</a></span><span style="font-size: 10pt; font-family: &quot;Lucida Sans Unicode&quot;, sans-serif; color: rgb(191, 191, 191);">•</span><span style="font-size: 7pt; font-family: &quot;Lucida Sans Unicode&quot;, sans-serif; color: rgb(191, 191, 191);"><a href="http://www.fintrax.com/registered-companies">Registered Companies</a></span></div><div style=""><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="600" style="width:6.25in;mso-cellspacing:0in;mso-yfti-tbllook:1184;mso-padding-alt:
+ 0in 0in 0in 0in">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes;
+  height:38.25pt">
+  <td width="200" style="width:150.0pt;padding:0in 0in 0in 0in;height:38.25pt">
+  <p class="MsoNormal"><br></p>
+  </td>
+ </tr>
+</tbody></table></div><div style=""></div><div style=""><span style="font-size: 11.5pt; font-family: &quot;Lucida Sans Unicode&quot;, sans-serif;"></span></div></div></div>]]></td>
+</tr>
+</table>

@@ -1,0 +1,17 @@
+<apex:page standardController="Merchant_Account_Plan__c" lightningStylesheets="true">
+<apex:form >
+   <apex:outputPanel styleClass="summary">
+        <apex:outputField value="{!Merchant_Account_Plan__c.Executive_Summary__c}" styleClass="summary"/>
+        </apex:outputPanel>
+      <style>
+        .summary {
+      color: black;
+      font-size: 14px;
+      font-family: Arial;      
+      margin: 10px 0 10px 30px;
+      float: left;
+      width: 100%;
+    }
+    </style>
+    </apex:form>
+</apex:page>

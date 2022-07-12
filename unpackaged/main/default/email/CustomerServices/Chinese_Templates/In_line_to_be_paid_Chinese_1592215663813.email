@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">尊敬的{{{Case.Tourist__c}}}，</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">感谢您的邮件。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">检索数据库显示，您的退税单{{{Case.Tax_Free_Form__c}}}已经收到且受理成功。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;
+font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">退税款将支付至银行卡{{{Case.Credit_Card_Number__c}}}。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"><span style="mso-spacerun:yes">&nbsp; </span> </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">已经为您备注优先退款，因此退款应出现在您的</span>X$X<span lang="ZH-CN" style="font-size:12.0pt"><span style="font-family:SimSun"><span style="color:#e67e22;">7</span>月</span></span><span lang="ZH-CN" style="font-size:12.0pt;
+font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">银行对帐单上。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">如需进一步服务，请随时与我们联系。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p>
+
+</body></html>

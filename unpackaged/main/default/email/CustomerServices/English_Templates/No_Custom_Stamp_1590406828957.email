@@ -1,0 +1,21 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;color:windowtext">Dear {{{Case.Tourist__c}}}, </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;color:windowtext">&nbsp; </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow">Thank you for your email.</span><span lang="EN-IE" style="font-size:11.0pt;
+font-family:Barlow;mso-bidi-font-family:Calibri;color:windowtext"> I have checked our database and I can confirm that we did receive your Tax Free form {{{Case.Tax_Free_Form__c}}}, but unfortunately, we are unable to issue a refund as your Tax Free form did not contain a customs stamp.<span style="mso-spacerun:yes">&nbsp; </span> </span></p> 
+  <p class="MsoPlainText">&nbsp;</p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;color:windowtext">The tourist needs to obtain a customs approval for the region and without it we are not able to issue the refund as per country’s regulations. </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;color:windowtext">&nbsp; </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;color:windowtext">We are very sorry for this situation and please let us know if you require any additional support.</span></p>
+ </body>
+</html>

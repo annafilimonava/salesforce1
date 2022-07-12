@@ -1,0 +1,51 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">Thank you for your email.&nbsp; I have checked our database but unfortunately, your Tax Free form {{{Case.Tax_Free_Form__c}}} did not contain a valid Pablo approval. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="SmallPTFStyle"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:black">As a result of this, an automatic debit for the cash refund has taken place on the account. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">To complete the process of cash refund we need to receive Customs approval from the region. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">Can you advise if you received a physical stamp on your Tax Free form and whether you posted it back to us from the airport? 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">If we can be of further assistance, please do not hesitate to contact us.</span></p>
+ </body>
+</html>

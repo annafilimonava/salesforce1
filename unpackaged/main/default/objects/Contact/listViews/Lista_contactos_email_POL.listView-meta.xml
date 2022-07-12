@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lista_contactos_email_POL</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Position__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Mobile__c</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.LAST_ACTIVITY</columns>
+    <columns>CONTACT.REPORTS_TO.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>portugal</value>
+    </filters>
+    <filters>
+        <field>Account.ltnadptn__Active__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </filters>
+    <filters>
+        <field>Account.Proposed_Solution__c</field>
+        <operation>equals</operation>
+        <value>POL</value>
+    </filters>
+    <label>Lista contactos email POL</label>
+</ListView>

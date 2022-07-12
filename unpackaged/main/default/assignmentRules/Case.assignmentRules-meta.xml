@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Case Assignment</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>Merchant_Services_ES</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(
+ISNEW() ,
+$User.Country = &quot;Spain&quot;,
+RecordType.Name = &quot;Merchant Support&quot;,
+TEXT(Type)  &lt;&gt; &quot;Onboarding&quot;
+)</formula>
+            <template>Merchant_Service/Notify_Merchant_Services_New_Case</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Sales_Support_ES</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(
+ISNEW() ,
+$User.Country = &quot;Spain&quot;,
+RecordType.Name = &quot;Sales Support&quot;
+)</formula>
+            <template>Merchant_Service/Notify_Sales_Support_New_Case</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>POS_Support_IE</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND( 
+ISNEW(),
+ POS_Solution__r.Owning_Country__c  = &quot;Ireland&quot;, POS_Solution__c &lt;&gt;&quot;&quot;,   
+TEXT(Status) &lt;&gt;&quot;Closed&quot; )</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Sales_Support_ES</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND( 
+ISNEW(),
+$User.Country = &quot;Spain&quot;,   
+RecordType.Name = &quot;POS Support&quot;,  
+OR( 
+INCLUDES(Account.TF_Current_Provider__c, &quot;Caixa&quot;),  POS_Solution__r.Caixa__c = TRUE ) 
+)</formula>
+            <template>POS_Support/Notify_Account_Owner_New_Case</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>POS_Support_ES</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND( 
+ISNEW(),
+$User.Country = &quot;Spain&quot;,  
+RecordType.Name = &quot;POS Support&quot;,  
+OR ( 
+NOT(INCLUDES(Account.TF_Current_Provider__c, &quot;Caixa&quot;)), POS_Solution__r.Caixa__c = TRUE ) 
+)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>POS_Support_FR</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND( 
+ISNEW(),
+ POS_Solution__r.Owning_Country__c  = &quot;France&quot;, POS_Solution__c &lt;&gt; &quot;&quot;,   
+TEXT(Status) &lt;&gt; &quot;Closed&quot;,  
+$Profile.Name &lt;&gt; &quot;POS Support FR&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>POS_Support_Italy</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(
+ISNEW() ,
+$User.Country = &quot;Italy&quot;,
+RecordType.Name = &quot;POS Support&quot;
+)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>POS_Support_DE</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND( 
+ISNEW(),
+RecordType.Name = &quot;POS Support&quot;,  
+OR( 
+TEXT(Account.Owning_Country__c) = &quot;Germany&quot;,  TEXT(Account.Owning_Country__c) = &quot;Netherlands&quot;, 
+TEXT(Account.Owning_Country__c) = &quot;Switzerland&quot;, 
+TEXT(Account.Owning_Country__c) = &quot;Austria&quot;,
+POS_Solution__r.Owning_Country__c = &quot;Germany&quot;, 
+POS_Solution__r.Owning_Country__c = &quot;Netherlands&quot;, 
+POS_Solution__r.Owning_Country__c = &quot;Switzerland&quot;,
+POS_Solution__r.Owning_Country__c = &quot;Austria&quot;
+),  
+TEXT(Status) &lt;&gt;&quot;Closed&quot;)</formula>
+            <template>POS_Support/Case_Email_Notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>POS_Support_GB</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND( 
+ISNEW(),
+ POS_Solution__r.Owning_Country__c  = &quot;United Kingdom&quot;, POS_Solution__c &lt;&gt; &quot;&quot;,   
+TEXT(Status) &lt;&gt; &quot;Closed&quot;,  
+$Profile.Name &lt;&gt; &quot;POS Support GB&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>POS_Support_PT</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND( 
+ISNEW(),
+ POS_Solution__r.Owning_Country__c  = &quot;Portugal&quot;, POS_Solution__c &lt;&gt;&quot;&quot;,   
+TEXT(Status) &lt;&gt;&quot;Closed&quot;)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>WebQueries</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(
+ISNEW() ,
+CONTAINS(Subject, &quot;New form submission&quot;)
+)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>DCC_Best_rate_guarantee</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND(
+ISNEW() ,
+CONTAINS(Subject, &quot;Best Rate&quot;)
+)</formula>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Onboarding_ES</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Country_Office__c</field>
+                <operation>equals</operation>
+                <value>Spain</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Onboarding</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Merchant Support</value>
+            </criteriaItems>
+            <template>Merchant_Service/Case_PT_ES_Email_Notification</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Onboarding_PT</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.Country_Office__c</field>
+                <operation>equals</operation>
+                <value>Portugal</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Onboarding</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Merchant Support</value>
+            </criteriaItems>
+            <template>Merchant_Service/Case_PT_ES_Email_Notification</template>
+        </ruleEntry>
+        <ruleEntry />
+    </assignmentRule>
+</AssignmentRules>

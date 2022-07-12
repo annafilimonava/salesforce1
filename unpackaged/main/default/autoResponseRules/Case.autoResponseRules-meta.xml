@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>POS Case Auto-Response IT</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <formula>AND(ISNEW(),  RecordType.Name = &quot;POS Support&quot;, Owner:Queue.QueueName  = &quot;POS Support Italy&quot;)</formula>
+            <notifyCcRecipients>true</notifyCcRecipients>
+            <replyToEmail>possupport.it@planetpayment.com</replyToEmail>
+            <senderEmail>possupport.autoreply@planetpayment.com</senderEmail>
+            <senderName>POS Support IT</senderName>
+            <template>POS_Support/Email_to_Case_Auto_Response</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

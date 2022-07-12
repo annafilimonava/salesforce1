@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Use__c</fullName>
+    <externalId>false</externalId>
+    <label>Use</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Terminal_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Use</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Vx520</controllingFieldValue>
+            <controllingFieldValue>Vx680 3G</controllingFieldValue>
+            <controllingFieldValue>Vx680 BT/Wi-Fi</controllingFieldValue>
+            <controllingFieldValue>Vx690</controllingFieldValue>
+            <controllingFieldValue>A920</controllingFieldValue>
+            <controllingFieldValue>Samsung A10</controllingFieldValue>
+            <controllingFieldValue>Samsung Tab Active2</controllingFieldValue>
+            <valueName>Tax Free Only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vx520</controllingFieldValue>
+            <controllingFieldValue>Vx520/820</controllingFieldValue>
+            <controllingFieldValue>Vx680 3G</controllingFieldValue>
+            <controllingFieldValue>Vx680 BT/Wi-Fi</controllingFieldValue>
+            <controllingFieldValue>Vx690</controllingFieldValue>
+            <controllingFieldValue>A920</controllingFieldValue>
+            <valueName>Domestic Payments Only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vx520</controllingFieldValue>
+            <controllingFieldValue>Vx520/820</controllingFieldValue>
+            <controllingFieldValue>Vx680 3G</controllingFieldValue>
+            <controllingFieldValue>Vx680 BT/Wi-Fi</controllingFieldValue>
+            <controllingFieldValue>Vx690</controllingFieldValue>
+            <controllingFieldValue>A920</controllingFieldValue>
+            <valueName>Wallets (AP &amp; WXP)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vx520</controllingFieldValue>
+            <controllingFieldValue>Vx680 3G</controllingFieldValue>
+            <controllingFieldValue>Vx680 BT/Wi-Fi</controllingFieldValue>
+            <valueName>Payments &amp; DCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vx520/820</controllingFieldValue>
+            <controllingFieldValue>Vx680 3G</controllingFieldValue>
+            <controllingFieldValue>Vx680 BT/Wi-Fi</controllingFieldValue>
+            <controllingFieldValue>Vx690</controllingFieldValue>
+            <controllingFieldValue>A920</controllingFieldValue>
+            <valueName>DCC Only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vx520/820</controllingFieldValue>
+            <controllingFieldValue>Vx680 3G</controllingFieldValue>
+            <controllingFieldValue>Vx680 BT/Wi-Fi</controllingFieldValue>
+            <controllingFieldValue>Vx690</controllingFieldValue>
+            <controllingFieldValue>A920</controllingFieldValue>
+            <valueName>Tax Free &amp; DCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vx520/820</controllingFieldValue>
+            <controllingFieldValue>Vx680 3G</controllingFieldValue>
+            <controllingFieldValue>Vx680 BT/Wi-Fi</controllingFieldValue>
+            <controllingFieldValue>Vx690</controllingFieldValue>
+            <controllingFieldValue>A920</controllingFieldValue>
+            <valueName>Tax Free &amp; Domestic Payments Only</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vx520/820</controllingFieldValue>
+            <controllingFieldValue>Vx680 3G</controllingFieldValue>
+            <controllingFieldValue>Vx680 BT/Wi-Fi</controllingFieldValue>
+            <controllingFieldValue>Vx690</controllingFieldValue>
+            <valueName>Tax Free &amp; Planet Union Pay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vx520/820</controllingFieldValue>
+            <controllingFieldValue>Vx680 3G</controllingFieldValue>
+            <controllingFieldValue>Vx680 BT/Wi-Fi</controllingFieldValue>
+            <controllingFieldValue>Vx690</controllingFieldValue>
+            <valueName>Planet Union Pay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>A920</controllingFieldValue>
+            <valueName>Wallets and Union Pay</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

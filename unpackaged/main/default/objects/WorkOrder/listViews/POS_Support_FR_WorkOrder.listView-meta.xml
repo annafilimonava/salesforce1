@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_Support_FR_WorkOrder</fullName>
+    <columns>Name</columns>
+    <columns>Account</columns>
+    <columns>Priority</columns>
+    <columns>Status</columns>
+    <columns>New_POS_Solution_Request__c</columns>
+    <columns>New_Merchant_Closure__c</columns>
+    <columns>TID__c</columns>
+    <columns>Due_Date__c</columns>
+    <columns>Owner</columns>
+    <columns>CreatedBy</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owner</field>
+        <operation>equals</operation>
+        <value>POS Support FR</value>
+    </filters>
+    <filters>
+        <field>Status</field>
+        <operation>notEqual</operation>
+        <value>Completed,Closed</value>
+    </filters>
+    <label>POS Support FR</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>France_Users</group>
+    </sharedTo>
+</ListView>

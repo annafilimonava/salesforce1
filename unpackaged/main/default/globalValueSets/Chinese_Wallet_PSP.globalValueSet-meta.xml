@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Wirecard</fullName>
+        <default>false</default>
+        <label>Wirecard</label>
+    </customValue>
+    <customValue>
+        <fullName>Concardis</fullName>
+        <default>false</default>
+        <label>Concardis</label>
+    </customValue>
+    <customValue>
+        <fullName>Payone</fullName>
+        <default>false</default>
+        <label>Payone</label>
+    </customValue>
+    <customValue>
+        <fullName>SIX</fullName>
+        <default>false</default>
+        <label>SIX</label>
+    </customValue>
+    <customValue>
+        <fullName>Elavon</fullName>
+        <default>false</default>
+        <label>Elavon</label>
+    </customValue>
+    <customValue>
+        <fullName>Adyen</fullName>
+        <default>false</default>
+        <label>Adyen</label>
+    </customValue>
+    <customValue>
+        <fullName>Planet MS</fullName>
+        <default>false</default>
+        <label>Planet MS</label>
+    </customValue>
+    <masterLabel>Chinese Wallet PSP</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

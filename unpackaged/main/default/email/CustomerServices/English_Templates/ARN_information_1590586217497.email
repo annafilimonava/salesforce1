@@ -1,0 +1,27 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Thank you for your email. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">I can confirm that the payment of {{{Case.Refund_Amount__c}}}&nbsp;was sent to your {{{Case.Credit_Card_Type__c}}}&nbsp;card {{{Case.Credit_Card_Number__c}}}. It has been processed successfully and the ARN (Acquirer Reference Number) was generated for this transaction. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp;&nbsp; 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">If you require any further assistance on tracing the payment, please call the department at your bank that handles disputed payments and provide them with this number. They should be able to assist you further. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow">If I can be of any further assistance, please do not hesitate to contact us.</span></p>
+ </body>
+</html>

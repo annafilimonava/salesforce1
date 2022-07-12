@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AnalyticSnapshot xmlns="http://soap.sforce.com/2006/04/metadata">
+    <groupColumn>GRAND_SUMMARY</groupColumn>
+    <mappings>
+        <aggregateType>Sum</aggregateType>
+        <sourceField>Opportunity.Signed__c.CONVERT</sourceField>
+        <sourceType>summary</sourceType>
+        <targetField>Country_Targets_Tax_Free__c.Signed__c</targetField>
+    </mappings>
+    <name>Country Targets Tax Free</name>
+    <runningUser>eric.hansen@planetpayment.com</runningUser>
+    <sourceReport>unfiled$public/Country_Targets1</sourceReport>
+    <targetObject>Country_Targets_Tax_Free__c</targetObject>
+</AnalyticSnapshot>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>jana.coric@planetpayment.com</email>
+    <name>POS Support DE</name>
+    <queueMembers>
+        <users>
+            <user>ines.zillmann@planetpayment.com</user>
+            <user>jana.coric@planetpayment.com</user>
+            <user>lara.gottwald@planetpayment.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>POS_Solution__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Unit__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>WorkOrder</sobjectType>
+    </queueSobject>
+</Queue>

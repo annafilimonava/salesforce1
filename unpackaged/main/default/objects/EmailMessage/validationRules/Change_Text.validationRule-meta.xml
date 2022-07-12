@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Change_Text</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(CONTAINS(HtmlBody, &quot;X$X&quot;),CONTAINS(HtmlBody, &quot;X$X&quot;))</errorConditionFormula>
+    <errorMessage>You must replace the data highlighted in red and remove the X$X marks before sending this email.</errorMessage>
+</ValidationRule>

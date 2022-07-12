@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>spam_test</fullName>
+    <booleanFilter>(1 OR 2 OR 3 OR 4 OR 5 OR 7 OR 8 OR 9 OR 10) AND 6</booleanFilter>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>Case_Reason__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>Tourist__c</columns>
+    <columns>CASES.CREATED_DATE</columns>
+    <columns>Date_Time_Replied__c</columns>
+    <columns>Re_opened_Date__c</columns>
+    <columns>CASES.EMAIL</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.EMAIL</field>
+        <operation>contains</operation>
+        <value>postmaster@nextdeal.gr,#globalinternalreporting-eu@elavon.com,info@rfqbidding.com,info@maminutedujour29.fr,corey@advancedbizfi.com,contacts@mobupps.com,alex.laner@lend-cloud.com,news,purchasing,no-reply,delivery,marketing,notification</value>
+    </filters>
+    <filters>
+        <field>CASES.EMAIL</field>
+        <operation>contains</operation>
+        <value>trishaketchumrkdata@outlook.com,thewhitecompany@emailuk.thewhitecompany.com,info@bfoesco.es,info@she-eostore.com,yourquote@financecomparisonforbusiness.co.uk,amazon-business,no.reply@advice.hmrc.gov.uk,newsletter,marketing</value>
+    </filters>
+    <filters>
+        <field>CASES.EMAIL</field>
+        <operation>contains</operation>
+        <value>sales08@stronglumen.com,dallas@lactoferrin.co,noreply.odd@dhl.com,tws@dm.roxtech.cn,info@conicontraining.com,onlinestore@2468group.com,mk@zoytravel.com,notification@ifax.com</value>
+    </filters>
+    <filters>
+        <field>CASES.SUBJECT</field>
+        <operation>contains</operation>
+        <value>HITEC Professionals,Position,HYDRA,HITEC,Epson,Professionals,Beneficiary,hybrid,Wine,Quote,Qoutation,golfer,Marketing,Health,Capital,Solar,eBook,Awards,Quotation,HRDA</value>
+    </filters>
+    <filters>
+        <field>CASES.EMAIL</field>
+        <operation>contains</operation>
+        <value>stephanie@thewritersmarq.com,yourquote@comparefinance-for-business.co.uk,marketing@veem.com,charlie@essentialbusinessfinancing.com,info@clearcreditlines.com,alex.stuart@ins.trustedbusinessreviews.co.uk,checkin@vanguardlogistics.com</value>
+    </filters>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>On Hold,Escalated 3rd Line Support,Resolved 3rd Line Support,Closed</value>
+    </filters>
+    <filters>
+        <field>CASES.EMAIL</field>
+        <operation>contains</operation>
+        <value>contact@b.choix-des-professionnels.fr,contact@optionfinance.fr,customer-care@mvagrippa.com,netwrix-team@netwrix.com,news@mail.apl-2go.net,ofertas89@central05.mrkt-divulgacao-info.com</value>
+    </filters>
+    <filters>
+        <field>CASES.EMAIL</field>
+        <operation>contains</operation>
+        <value>sales@profitsflow.com,sales@eable-solar.com,info@fc-system.net,jade@email.thefdcentre.co.uk,marketing@identeco.co.uk,s3.pmp@semar.gob.mx,pedini@mailer.formaremarketing.it,nootc@fabricland.ca,kris.fleming@patriotbl.com,test1@pomina.com.tw</value>
+    </filters>
+    <filters>
+        <field>CASES.EMAIL</field>
+        <operation>contains</operation>
+        <value>mohammedhassan.albashir@consultant.com,ellen@thelakeforestshop.com,email@mailtalktalk-business.co.uk,rebecca+thegreenmerchant.com@ccsend.com,enquiries@globallegalpost.com,joe@yourbizgpsllc.com,info@invisionheart.com</value>
+    </filters>
+    <filters>
+        <field>CASES.EMAIL</field>
+        <operation>contains</operation>
+        <value>info@maminutedujour27.fr,info@webpays.com,maya.walker@newstrategicleads.com,morgan@unitedbusinesscap.com,buisnessonline.cc1242@mail.ru,soficat@promos-soficat2.com,hello@f24.shop4business.co.uk,purchasing@intilab.com</value>
+    </filters>
+    <label>spam test</label>
+</ListView>

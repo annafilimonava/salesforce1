@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>How_Are_Customer_Details_EnteredR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(How_Are_Customer_Details_Entered__c ) = &quot;Entered in CRM&quot;, 3,
+IF(TEXT(How_Are_Customer_Details_Entered__c ) = &quot;Entered in Tax Free Interface&quot;, 5,
+IF(TEXT(How_Are_Customer_Details_Entered__c ) = &quot;Not Available&quot;, 0, 0)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>How Are Customer Details EnteredR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

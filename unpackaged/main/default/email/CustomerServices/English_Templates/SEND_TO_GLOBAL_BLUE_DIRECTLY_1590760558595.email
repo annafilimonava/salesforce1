@@ -1,0 +1,22 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Thank you for contacting Planet. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Please be advised if we receive competitors' forms, we regularly send them to their address. However, we cannot provide you with the exact date and any copy of the form as we do not take any record. For more information, please contact X$X<span style="color:red">Global Blue Company/ Innova Tax Free/ etc</span>. directly.</span></p>
+ </body>
+</html>

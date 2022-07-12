@@ -1,0 +1,42 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-ansi-language:EN-US">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-ansi-language:EN-US">Thank you for your email.<span style="mso-spacerun:yes">&nbsp; </span> 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-family:Barlow;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-ansi-language:EN-US">I have checked our database and would like to inform you that the payment which was sent to your card&nbsp;{{{Case.Credit_Card_Number__c}}}&nbsp;was rejected. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-ansi-language:EN-US">If possible, please provide an alternative credit card in order to update your Tax Free form {{{Case.Tax_Free_Form__c}}} and issue the refund for you.<span style="mso-spacerun:yes">&nbsp; </span>Please divide the number across two emails for security reasons. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-ansi-language:EN-US">I look forward to your response and assisting you further.</span></p>
+ </body>
+</html>

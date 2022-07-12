@@ -1,0 +1,76 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">尊敬的{{{Case.Tourist__c}}}，</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">您好。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">您的退税单</span><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;">{{{Case.Tax_Free_Form__c}}}</span><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">并未完成在线注册。由于信息安全原因，有些法国的商家需要顾客在线注册并填写希望接收退税的银行卡卡号。您可以在如下网站上完成此步骤：</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE"><a href="https://premieronline.premiertaxfree.com/vcu/" target="_blank"><span style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:minor-fareast;
+mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast">https://premieronline.premiertaxfree.com/vcu/</span></a></span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">由于您没有在完成海关认证之前完成银行卡卡号注册的程序，我公司无法向您发放退税款。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoNormal" style="tab-stops:64.45pt"><span lang="ZH-CN" style="font-size:
+12.0pt;font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-bidi-font-family:&quot;Microsoft YaHei&quot;;
+mso-fareast-language:ZH-CN">烦请您提供所希望接收退款的银行卡卡号。或是手机为账户的支付宝账号。同时请您附加上您护照的扫描件以验证身份。介于安全起见，本公司建议您将银行卡卡号分</span><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN">两封</span><span lang="ZH-CN" style="font-size:12.0pt;
+font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-bidi-font-family:&quot;Microsoft YaHei&quot;;
+mso-fareast-language:ZH-CN">邮件发送，并标明先后。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:minor-fareast;
+mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoNormal" style="tab-stops:64.45pt"><span lang="EN-IE" style="font-size:
+12.0pt;font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoNormal" style="tab-stops:64.45pt"><span lang="ZH-CN" style="font-size:
+12.0pt;font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-bidi-font-family:&quot;Microsoft YaHei&quot;;
+mso-fareast-language:ZH-CN">当我公司收到以上信息之后会按照相应的步骤完成退税程序。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:minor-fareast;
+mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoNormal" style="margin-left:36.0pt;tab-stops:64.45pt"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoNormal" style="tab-stops:64.45pt"><span lang="ZH-CN" style="font-size:
+12.0pt;font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-bidi-font-family:&quot;Microsoft YaHei&quot;;
+mso-fareast-language:ZH-CN">感谢使用</span><span lang="EN-IE" style="font-size:12.0pt;
+font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-bidi-font-family:&quot;Microsoft YaHei&quot;;
+mso-fareast-language:ZH-CN">Planet</span><span lang="ZH-CN" style="font-size:
+12.0pt;font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-bidi-font-family:&quot;Microsoft YaHei&quot;;
+mso-fareast-language:ZH-CN">。</span><span lang="EN-IE" style="font-size:12.0pt;
+font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN"> </span></p>
+ </body>
+</html>

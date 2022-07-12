@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Overdue Actions 1st Quarter +3</name>
+    <style>none</style>
+    <subject>The Action on Account {!Actions_1st_Quarter__c.Account__c} is 3 Days Overdue</subject>
+    <textOnly>The Action on the Merchant Account Plan for {!Actions_1st_Quarter__c.Account__c} is 3 days overdue.
+
+Action: {!Actions_1st_Quarter__c.Action__c}
+Action Details: {!Actions_1st_Quarter__c.Action_Details__c}
+Due Date: {!Actions_1st_Quarter__c.Due_Date__c}
+
+Please update the status or the due date of the action.  You can navigate directly to the action by clicking the link below.
+
+{!Actions_1st_Quarter__c.Link}
+
+This notification has also been sent to your country manager and Regional Markets management.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

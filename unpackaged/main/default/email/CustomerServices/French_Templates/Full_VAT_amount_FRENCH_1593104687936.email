@@ -1,0 +1,24 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNoSpacing"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Bonjour </span><span style="font-family:Barlow;color:black">{{{Case.Tourist__c}}}</span>,</p> 
+  <p class="MsoNoSpacing"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">&nbsp;</span></p> 
+  <p class="MsoNoSpacing"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Merci pour votre message.</span></p> 
+  <p class="MsoNoSpacing"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">&nbsp;</span></p> 
+  <p class="MsoNoSpacing"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Planet est un op&eacute;rateur priv&eacute; de d&eacute;taxe. Le gouvernement nous accorde une partie de la TVA pour les services que nous proposons. Lorsqu'il utilise notre service, le client accepte et autorise que des frais de service soient d&eacute;duits du montant total de la TVA, conform&eacute;ment &agrave; nos conditions g&eacute;n&eacute;rales de vente, au point 6:</span></p> 
+  <p class="MsoNoSpacing"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">&nbsp;</span></p> 
+  <p class="MsoNoSpacing"><span style="font-family:Barlow"><a href="https://www.planetpayment.com/en/terms-and-conditions/"><span lang="FR" style="mso-ansi-language:FR">https://www.planetpayment.com/en/terms-and-conditions/</span></a></span></p> 
+  <p class="MsoNoSpacing"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">&nbsp;</span></p> 
+  <p class="MsoNoSpacing"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">J'esp&egrave;re que cela r&eacute;pond &agrave; votre question et si je peux vous &ecirc;tre utile, veuillez me le faire savoir.<br /> <br /> <br /> <br /> Cordialement.</span></p>
+ </body>
+</html>

@@ -1,0 +1,432 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <meta content="text/html; charset=utf-8" /> 
+  <meta name="ProgId" content="Word.Document" /> 
+  <meta name="Generator" content="Microsoft Word 15" /> 
+  <meta name="Originator" content="Microsoft Word 15" /> 
+  <style type="text/css"><!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:宋体;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-IE;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-IE;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-IE;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-IE;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-IE;
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-IE;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:1114599040;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-192371946 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+
+
+  </style> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">尊敬的{{{Case.Tourist__c}}}，</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">感谢您的邮件。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">由于您在离开欧盟前没有获得法国海关验证，我们将无法为您的退税单</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN">{{{Case.Tax_Free_Form__c}}}</span><span lang="ZH-CN" style="font-size:
+12.0pt;font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">提供增值税退税。建议您可以选择提出要求书面验证</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN">&laquo; a posteriori &raquo; </span><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:minor-fareast;
+mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN">。</span><span lang="EN-IE" style="font-size:12.0pt;
+font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">为了使我们能够将您的退税文件提交法国海关获得批准，您需要从法国大使馆</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN">/</span><span lang="ZH-CN" style="font-size:12.0pt;
+font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">领事馆获得消费税印章。 请将您的退税单退税联（</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">Refund Copy</span><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN">）及以下文件邮寄到法国办公室：</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:minor-fareast;
+mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoListParagraphCxSpFirst" style="margin-bottom:8.0pt;mso-add-space:
+auto;text-indent:-18.0pt;line-height:107%;mso-list:l0 level1 lfo1"><span lang="EN-IE" style="font-size:12.0pt;line-height:107%;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-fareast-language:
+ZH-CN"><span style="mso-list:Ignore">&middot;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span> <span lang="ZH-CN" style="font-size:12.0pt;
+line-height:107%;font-family:SimSun;mso-ascii-theme-font:minor-fareast;
+mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN">消费税盖章。退税单须获得法国领事馆的消费税印章，证明货物已出口。您须前往法国驻贵国大使馆或法国领事馆接受此类确认。</span><span lang="EN-IE" style="font-size:12.0pt;line-height:107%;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoListParagraphCxSpMiddle" style="margin-bottom:8.0pt;mso-add-space:
+auto;text-indent:-18.0pt;line-height:107%;mso-list:l0 level1 lfo1"><span lang="EN-IE" style="font-size:12.0pt;line-height:107%;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-fareast-language:
+ZH-CN"><span style="mso-list:Ignore">&middot;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span> <span lang="ZH-CN" style="font-size:12.0pt;
+line-height:107%;font-family:SimSun;mso-ascii-theme-font:minor-fareast;
+mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN">解释信。一封解释您离开欧盟时退税单未经海关验证原因的信件。</span><span lang="EN-IE" style="font-size:12.0pt;line-height:107%;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoListParagraphCxSpMiddle" style="margin-bottom:8.0pt;mso-add-space:
+auto;text-indent:-18.0pt;line-height:107%;mso-list:l0 level1 lfo1"><span lang="EN-IE" style="font-size:12.0pt;line-height:107%;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-fareast-language:
+ZH-CN"><span style="mso-list:Ignore">&middot;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span> <span lang="ZH-CN" style="font-size:12.0pt;
+line-height:107%;font-family:SimSun;mso-ascii-theme-font:minor-fareast;
+mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN">机票复印件或任何证明您离开欧洲的文件。</span><span lang="EN-IE" style="font-size:12.0pt;line-height:107%;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoListParagraphCxSpMiddle" style="margin-bottom:8.0pt;mso-add-space:
+auto;text-indent:-18.0pt;line-height:107%;mso-list:l0 level1 lfo1"><span lang="EN-IE" style="font-size:12.0pt;line-height:107%;font-family:Symbol;
+mso-fareast-font-family:Symbol;mso-bidi-font-family:Symbol;mso-fareast-language:
+ZH-CN"><span style="mso-list:Ignore">&middot;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span> <span lang="ZH-CN" style="font-size:12.0pt;
+line-height:107%;font-family:SimSun;mso-ascii-theme-font:minor-fareast;
+mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN">非欧盟居住证明。其他相关证明您在欧盟国家以外居住的法律文件（护照和外交卡复印件</span><span lang="EN-IE" style="font-size:12.0pt;line-height:107%;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">-</span><span lang="ZH-CN" style="font-size:12.0pt;line-height:107%;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">如有必要）。</span><span lang="EN-IE" style="font-size:12.0pt;line-height:107%;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoListParagraphCxSpLast"><span lang="EN-IE" style="font-size:12.0pt;
+font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">请通过挂号信或国际快递形式邮寄所有上述文件原件到以下地址：</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoNormal"> 
+   <!--StartFragment --> 
+   <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" /> 
+   <meta name="Generator" content="Microsoft Word 15 (filtered)" /> 
+   <style type="text/css"><!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"\@DengXian";
+	panose-1:2 1 6 0 3 1 1 1 1 1;}
+@font-face
+	{font-family:Barlow;
+	panose-1:0 0 5 0 0 0 0 0 0 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+.MsoChpDefault
+	{font-family:"Calibri",sans-serif;}
+.MsoPapDefault
+	{margin-bottom:8.0pt;
+	line-height:107%;}
+ /* Page Definitions */
+ @page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+
+ 
+   </style> </p> 
+  <div class="WordSection1"> 
+   <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;line-height:normal;text-autospace:none"><b><span lang="FR" style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,serif">Direction r&eacute;gionale des douanes de Paris</span></b><br /> <b><span lang="FR" style="font-size:12.0pt;font-family:Barlow">30 rue Raoul Wallenberg<br /> 75019 PARIS</span></b></p> 
+  </div> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">法国办事处在收到您的文件后，将能够代表您联系海关，以批准您的退税单。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">这个过程可能需要二至三个月才能完成，因此，我们请您在此期间的耐心等待。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">如需更多信息，请随时与我们联系。 </span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p>
+ </body>
+</html>

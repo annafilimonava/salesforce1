@@ -1,0 +1,4 @@
+<font face="arial" size=2> 
+The close date for the opportunity on the Account {!Account.Name} expired on {!Opportunity.CloseDate}.  Please change the Close Date or close the opportunity.<p>
+
+Click on the link to go directly to the opportunity.  <b>{!Opportunity.Link}<b/>

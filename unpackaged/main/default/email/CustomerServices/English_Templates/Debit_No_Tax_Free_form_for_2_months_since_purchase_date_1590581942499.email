@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">Dear {{{Case.Tourist__c}}},</span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow">Thank you for your email.</span><span lang="EN-IE" style="font-size:11.0pt;
+font-family:Barlow;color:windowtext"><span style="mso-spacerun:yes">&nbsp; </span></span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">&nbsp;</span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin">Upon receiving your cash refund you have signed a declaration authorizing Planet to debit your <span style="color:black">card if we did not receive your stamped Tax Free form {{{Case.Tax_Free_Form__c}}} within the 21 days. </span></span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin;color:black">&nbsp;</span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin;color:black">To date, we have not received the form and as a result an automated debit for the cash refund has taken place on your account.&nbsp;Can you please specify any problems you faced while completing the process?</span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">&nbsp;</span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">To issue a refund we need a Tax Free form stamped by the Customs for processing.</span></p>
+
+</body></html>

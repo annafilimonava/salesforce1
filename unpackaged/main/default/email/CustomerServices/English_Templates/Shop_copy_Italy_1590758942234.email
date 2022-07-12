@@ -1,0 +1,23 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Thank you for your email. </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">I am glad to inform you that we received your Tax Free form {{{Case.Tax_Free_Form__c}}}, but is an authenticated copy (COPIA CONFORME), which means that is not the original copy but a duplicata of the Tax Free form. </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Although we are accepting for the refund only original Tax Free forms since your authenticated copy has been validated with the Customs approval, therefore we are allowed to refund you. </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">However, in this case we must follow a different procedure and enter your Tax Free form into the system next to its expiry date (four months from the purchase date). </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">This procedure has applied in order to avoid a double refund in case your original copy was lost or wrongly given to another customer. </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">As your Tax Free form was issued in September, you can expect to receive your money by the end of January. </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">I hope that it helps. Do not hesitate to revert in case of any further assistance. </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Yours sincerely,</span></p>
+ </body>
+</html>

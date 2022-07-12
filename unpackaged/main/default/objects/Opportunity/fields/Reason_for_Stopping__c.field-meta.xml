@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Stopping__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason for Stopping</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Blacklisted</fullName>
+                <default>false</default>
+                <label>Blacklisted</label>
+            </value>
+            <value>
+                <fullName>Closed</fullName>
+                <default>false</default>
+                <label>Closed</label>
+            </value>
+            <value>
+                <fullName>Demand Too Low</fullName>
+                <default>false</default>
+                <label>Demand Too Low</label>
+            </value>
+            <value>
+                <fullName>Directed by Finance</fullName>
+                <default>false</default>
+                <label>Directed by Finance</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Owner leaving</fullName>
+                <default>false</default>
+                <label>Owner leaving</label>
+            </value>
+            <value>
+                <fullName>Stage unchanged for &gt;300 days</fullName>
+                <default>false</default>
+                <label>Stage unchanged for &gt;300 days</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

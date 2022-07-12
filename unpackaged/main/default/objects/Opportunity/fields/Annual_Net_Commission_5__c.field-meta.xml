@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Net_Commission_5__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Contract_Start_Date_Month__c = 8,  Calendar_Month__c = 8),  TF_Net_Commission_Actual__c / 0.1203007,
+IF(AND(Contract_Start_Date_Month__c = 8,  Calendar_Month__c = 9),  TF_Net_Commission_Actual__c / 0.2300285,
+IF(AND(Contract_Start_Date_Month__c = 8,  Calendar_Month__c = 10),  TF_Net_Commission_Actual__c / 0.3427915,
+IF(AND(Contract_Start_Date_Month__c = 8,  Calendar_Month__c = 11),  TF_Net_Commission_Actual__c / 0.4248648,
+IF(AND(Contract_Start_Date_Month__c = 8,  Calendar_Month__c = 12),  TF_Net_Commission_Actual__c / 0.5001037,
+IF(AND(Contract_Start_Date_Month__c = 9,  Calendar_Month__c = 9),  TF_Net_Commission_Actual__c / 0.1097278,
+IF(AND(Contract_Start_Date_Month__c = 9,  Calendar_Month__c = 10),  TF_Net_Commission_Actual__c / 0.2224908,
+IF(AND(Contract_Start_Date_Month__c = 9,  Calendar_Month__c = 11),  TF_Net_Commission_Actual__c / 0.3045641,
+IF(AND(Contract_Start_Date_Month__c = 9,  Calendar_Month__c = 12),  TF_Net_Commission_Actual__c / 0.379803,
+IF(AND(Contract_Start_Date_Month__c = 10,  Calendar_Month__c = 10),  TF_Net_Commission_Actual__c / 0.112763,
+IF(AND(Contract_Start_Date_Month__c = 10,  Calendar_Month__c = 11),  TF_Net_Commission_Actual__c / 0.1948363,
+IF(AND(Contract_Start_Date_Month__c = 10,  Calendar_Month__c = 12),  TF_Net_Commission_Actual__c / 0.2700752,
+IF(AND(Contract_Start_Date_Month__c = 11,  Calendar_Month__c = 11),  TF_Net_Commission_Actual__c / 0.0820733,
+IF(AND(Contract_Start_Date_Month__c = 11,  Calendar_Month__c = 12),  TF_Net_Commission_Actual__c / 0.1573122,
+IF(AND(Contract_Start_Date_Month__c = 12,  Calendar_Month__c = 12),  TF_Net_Commission_Actual__c / 0.0752389,0)))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Annual Net Commission 5</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

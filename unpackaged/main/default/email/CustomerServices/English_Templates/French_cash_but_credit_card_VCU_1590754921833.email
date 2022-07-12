@@ -1,0 +1,28 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">It seems that you didn’t complete the online registration process for your Tax Free form {{{Case.Tax_Free_Form__c}}}. For security reasons certain shops in France require the tourists to provide their credit card details using<span style="mso-spacerun:yes">&nbsp; </span>our secured webpage: <a href="https://premieronline.premiertaxfree.com/vcu/" target="_blank">https://premieronline.premiertaxfree.com/vcu/</a> 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">As your credit card details were not updated before you stamped your Tax Free form, we were unable to issue your refund. In order for us to complete the process, please send us your credit card details. For security reasons, we request that you send the number divided across two emails. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">I’m looking forward to your reply.</span></p>
+ </body>
+</html>

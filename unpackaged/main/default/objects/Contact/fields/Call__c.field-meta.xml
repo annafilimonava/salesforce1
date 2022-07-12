@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Call__c</fullName>
+    <description>This field can be used for display call image with perform some action methods on out going call</description>
+    <externalId>false</externalId>
+    <formula>if(Contact_Mobile__c != null,HYPERLINK(&quot;javascript:var html_doc = document.getElementsByTagName(&#39;head&#39;)[0]; var js =document.createElement(&#39;script&#39;);js.setAttribute(&#39;type&#39;,&#39;text/javascript&#39;);js.onload = prmy();function prmy(){js.setAttribute(&#39;src&#39;,&#39;/support/console/37.0/integration.js&#39;);html_doc.appendChild(js);setTimeout(function(){window.location=&#39;Owf:InvokeLync?id=1,&quot;+ Contact_Mobile__c+&quot;,Y&#39;;sforce.console.openPrimaryTab(null, &#39;/apex/MttlOutgoingCallStd?outgoingId=&quot;+Contact_Mobile__c+&quot;&#39;, true, &#39;Outgoing Call&#39;, null, &#39;salesforceTab&#39;);},1000);}&quot;,IMAGE(&quot;/resource/Call&quot;, &quot;B&quot;),&#39;_self&#39;),&#39;&#39;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Call</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

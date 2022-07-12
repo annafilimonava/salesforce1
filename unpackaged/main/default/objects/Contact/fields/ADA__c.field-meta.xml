@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ADA__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TODAY()- LastActivityDate &lt;=  60, 4,
+IF(AND(TODAY()- LastActivityDate &lt;= 90, TODAY()- LastActivityDate &gt; 60), 3,
+IF(AND(TODAY()- LastActivityDate &lt;= 180, TODAY()- LastActivityDate &gt; 90), 2,
+IF(AND(TODAY()- LastActivityDate &lt;= 365, TODAY()- LastActivityDate &gt; 180), 1,
+IF(TODAY()- LastActivityDate &gt; 365, 0.5, 0)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ADA</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

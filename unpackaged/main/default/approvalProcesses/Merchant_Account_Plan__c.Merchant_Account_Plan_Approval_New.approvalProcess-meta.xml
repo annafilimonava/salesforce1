@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>true</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Account_Manager__c</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <type>userHierarchyField</type>
+            </approver>
+        </assignedApprover>
+        <label>Country Manager Approval</label>
+        <name>Country_Manager_Approval</name>
+    </approvalStep>
+    <emailTemplate>unfiled$public/Account_Plan_Approval_Request</emailTemplate>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Merchant_Account_Plan__c.Approval_Status__c</field>
+            <operation>equals</operation>
+            <value>Not Approved,Rejected</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>Faroe Islands,Finland,Hungary,Poland,Latvia,Lithuania</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Merchant_Account_Plan__c.RecordType</field>
+            <operation>notEqual</operation>
+            <value>Child Account Plan</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Account_Plan_Approval</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Update_to_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Account_Plan_Rejection</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Update_to_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Update_to_Pending</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>Merchant Account Plan Approval_New</label>
+    <nextAutomatedApprover>
+        <useApproverFieldOfRecordOwner>false</useApproverFieldOfRecordOwner>
+        <userHierarchyField>Manager</userHierarchyField>
+    </nextAutomatedApprover>
+    <processOrder>4</processOrder>
+    <recallActions>
+        <action>
+            <name>Update_to_Not_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>false</showApprovalHistory>
+</ApprovalProcess>

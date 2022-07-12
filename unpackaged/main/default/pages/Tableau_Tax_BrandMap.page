@@ -1,0 +1,4 @@
+<apex:page standardController="Subscriptions__c" showheader="false" sidebar="false" lightningStylesheets="true">
+  <apex:iframe src="https://intelligence.planetpayment.com/t/Planet/views/BrandMap/BrandCountryMap?:showAppBanner=false&:embed=y&:display_count=n&:showShareOptions=false&:toolbar=no&:highdpi=true&:showVizHome=n&:origin=viz_share_link&Store%20Brand={!URLENCODE(Subscriptions__c.Final_Brand__c)}" height="800px" width="100%" scrolling="false">
+  </apex:iframe>
+</apex:page>

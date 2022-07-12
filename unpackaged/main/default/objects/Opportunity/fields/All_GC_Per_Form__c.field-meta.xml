@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_GC_Per_Form__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(All_Annual_GC__c &gt; 0, All_Forms__c &gt; 0), (All_Annual_GC__c / All_Forms__c), 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>All GC Per Form</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

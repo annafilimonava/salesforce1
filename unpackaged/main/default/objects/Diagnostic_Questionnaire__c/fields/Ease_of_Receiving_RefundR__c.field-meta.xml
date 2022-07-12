@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ease_of_Receiving_RefundR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Ease_of_Receiving_Refund__c) = &quot;No Effort&quot;, 5, 
+IF(TEXT(Ease_of_Receiving_Refund__c) = &quot;Very Easy&quot;, 4, 
+IF(TEXT(Ease_of_Receiving_Refund__c) = &quot;Moderately Easy&quot;, 3, 
+IF(TEXT(Ease_of_Receiving_Refund__c) = &quot;Average&quot;, 2, 
+IF(TEXT(Ease_of_Receiving_Refund__c) = &quot;Difficult&quot;, 1, 
+IF(TEXT(Ease_of_Receiving_Refund__c) = &quot;Very Difficult&quot;, 0, 0))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Ease of Receiving RefundR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

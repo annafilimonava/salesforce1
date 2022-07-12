@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pending_Work_Order_Request</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(Approval_Status__c) &lt;&gt; &quot;Approved&quot;, TEXT(Status) &lt;&gt; &quot;New&quot;, TEXT(Status) &lt;&gt; &quot;Pending Approval&quot;,  Owning_Country__c = &quot;Spain&quot;)</errorConditionFormula>
+    <errorMessage>You must submit PA and PT PAX POS Solution requests for approval.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Weaknesses__c</fullName>
+    <externalId>false</externalId>
+    <label>Weaknesses</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Workstream_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Aged Debt</fullName>
+                <default>false</default>
+                <label>Aged Debt</label>
+            </value>
+            <value>
+                <fullName>Backup Solution Doesn&#39;t Meet All Needs</fullName>
+                <default>false</default>
+                <label>Backup Solution Doesn&#39;t Meet All Needs</label>
+            </value>
+            <value>
+                <fullName>Business Reviews Can Be Ad-Hoc/Inconsistent</fullName>
+                <default>false</default>
+                <label>Business Reviews Can Be Ad-Hoc/Inconsistent</label>
+            </value>
+            <value>
+                <fullName>Complexity/Accuracy of Reports</fullName>
+                <default>false</default>
+                <label>Complexity/Accuracy of Reports</label>
+            </value>
+            <value>
+                <fullName>Contract is Expiring This Year</fullName>
+                <default>false</default>
+                <label>Contract is Expiring This Year</label>
+            </value>
+            <value>
+                <fullName>Cost of Program</fullName>
+                <default>false</default>
+                <label>Cost of Program</label>
+            </value>
+            <value>
+                <fullName>Cost of Tableau</fullName>
+                <default>false</default>
+                <label>Cost of Tableau</label>
+            </value>
+            <value>
+                <fullName>Delay in Delivery and Errors</fullName>
+                <default>false</default>
+                <label>Delay in Delivery and Errors</label>
+            </value>
+            <value>
+                <fullName>Delay on Planet&#39;s Side (Resourcing, PDP Process, Investment)</fullName>
+                <default>false</default>
+                <label>Delay on Planet&#39;s Side (Resourcing, PDP Process, Investment)</label>
+            </value>
+            <value>
+                <fullName>Existing Relationship with Merchant</fullName>
+                <default>false</default>
+                <label>Existing Relationship with Merchant</label>
+            </value>
+            <value>
+                <fullName>Financial Issues - Planet Side</fullName>
+                <default>false</default>
+                <label>Financial Issues - Planet Side</label>
+            </value>
+            <value>
+                <fullName>Heavy Onboarding Process</fullName>
+                <default>false</default>
+                <label>Heavy Onboarding Process</label>
+            </value>
+            <value>
+                <fullName>Hidden/Complicated Fee Structure</fullName>
+                <default>false</default>
+                <label>Hidden/Complicated Fee Structure</label>
+            </value>
+            <value>
+                <fullName>Inconsistent Standard of Account Management</fullName>
+                <default>false</default>
+                <label>Inconsistent Standard of Account Management</label>
+            </value>
+            <value>
+                <fullName>Incumbent Acquirer Offers a Competitive  Service</fullName>
+                <default>false</default>
+                <label>Incumbent Acquirer Offers a Competitive  Service</label>
+            </value>
+            <value>
+                <fullName>Lack of Consistency of Refund Options Across Europe</fullName>
+                <default>false</default>
+                <label>Lack of Consistency of Refund Options Across Europe</label>
+            </value>
+            <value>
+                <fullName>Lack of Consistent Benchmark</fullName>
+                <default>false</default>
+                <label>Lack of Consistent Benchmark</label>
+            </value>
+            <value>
+                <fullName>Lack of Product To Sell</fullName>
+                <default>false</default>
+                <label>Lack of Product To Sell</label>
+            </value>
+            <value>
+                <fullName>Lack of Proper Mystery Shoppers in Some Countries</fullName>
+                <default>false</default>
+                <label>Lack of Proper Mystery Shoppers in Some Countries</label>
+            </value>
+            <value>
+                <fullName>Lack of Standardised Training Material</fullName>
+                <default>false</default>
+                <label>Lack of Standardised Training Material</label>
+            </value>
+            <value>
+                <fullName>Lack of Training on How to Sell In</fullName>
+                <default>false</default>
+                <label>Lack of Training on How to Sell In</label>
+            </value>
+            <value>
+                <fullName>Marketing Contract with Alternative Supplier</fullName>
+                <default>false</default>
+                <label>Marketing Contract with Alternative Supplier</label>
+            </value>
+            <value>
+                <fullName>Merchant is Not Satisfied with Planet Service</fullName>
+                <default>false</default>
+                <label>Merchant is Not Satisfied with Planet Service</label>
+            </value>
+            <value>
+                <fullName>Merchant is Not Satisfied with Planet Solution</fullName>
+                <default>false</default>
+                <label>Merchant is Not Satisfied with Planet Solution</label>
+            </value>
+            <value>
+                <fullName>Merchant Rebate Negatively Impacted</fullName>
+                <default>false</default>
+                <label>Merchant Rebate Negatively Impacted</label>
+            </value>
+            <value>
+                <fullName>No Benchmarking BI Offered</fullName>
+                <default>false</default>
+                <label>No Benchmarking BI Offered</label>
+            </value>
+            <value>
+                <fullName>No Collateral/Case Studies to Leverage From</fullName>
+                <default>false</default>
+                <label>No Collateral/Case Studies to Leverage From</label>
+            </value>
+            <value>
+                <fullName>No Integration to Shopping Carts</fullName>
+                <default>false</default>
+                <label>No Integration to Shopping Carts</label>
+            </value>
+            <value>
+                <fullName>No Partnership with Incumbent Acquirer</fullName>
+                <default>false</default>
+                <label>No Partnership with Incumbent Acquirer</label>
+            </value>
+            <value>
+                <fullName>No Payment Marketing Options</fullName>
+                <default>false</default>
+                <label>No Payment Marketing Options</label>
+            </value>
+            <value>
+                <fullName>No Standardised Training Material/Collateral</fullName>
+                <default>false</default>
+                <label>No Standardised Training Material/Collateral</label>
+            </value>
+            <value>
+                <fullName>No Structured Process</fullName>
+                <default>false</default>
+                <label>No Structured Process</label>
+            </value>
+            <value>
+                <fullName>Not Enough Resources Compared to Competitor</fullName>
+                <default>false</default>
+                <label>Not Enough Resources Compared to Competitor</label>
+            </value>
+            <value>
+                <fullName>Not Received</fullName>
+                <default>false</default>
+                <label>Not Received</label>
+            </value>
+            <value>
+                <fullName>Painful Automation/Modification Process</fullName>
+                <default>false</default>
+                <label>Painful Automation/Modification Process</label>
+            </value>
+            <value>
+                <fullName>Planet Delay in Delivering to Market</fullName>
+                <default>false</default>
+                <label>Planet Delay in Delivering to Market</label>
+            </value>
+            <value>
+                <fullName>Planet e-Comm Gateway Does Not Offer All Functionalities Required by Merchant</fullName>
+                <default>false</default>
+                <label>Planet e-Comm Gateway Does Not Offer All Functionalities Required by Merchant</label>
+            </value>
+            <value>
+                <fullName>Planet Infrastructural Pricing is Not Competitive</fullName>
+                <default>false</default>
+                <label>Planet Infrastructural Pricing is Not Competitive</label>
+            </value>
+            <value>
+                <fullName>Planet Integration Not Available</fullName>
+                <default>false</default>
+                <label>Planet Integration Not Available</label>
+            </value>
+            <value>
+                <fullName>Planet Intelligence Does Not Cover All Markets</fullName>
+                <default>false</default>
+                <label>Planet Intelligence Does Not Cover All Markets</label>
+            </value>
+            <value>
+                <fullName>Planet is Not Operating in Some Countries</fullName>
+                <default>false</default>
+                <label>Planet is Not Operating in Some Countries</label>
+            </value>
+            <value>
+                <fullName>Planet Package Does Not Differentiate</fullName>
+                <default>false</default>
+                <label>Planet Package Does Not Differentiate</label>
+            </value>
+            <value>
+                <fullName>Planet Package Too Expensive</fullName>
+                <default>false</default>
+                <label>Planet Package Too Expensive</label>
+            </value>
+            <value>
+                <fullName>Planet Pricing is Not Competitive</fullName>
+                <default>false</default>
+                <label>Planet Pricing is Not Competitive</label>
+            </value>
+            <value>
+                <fullName>Planet Scheme Pricing is Not Competitive</fullName>
+                <default>false</default>
+                <label>Planet Scheme Pricing is Not Competitive</label>
+            </value>
+            <value>
+                <fullName>Poor Awareness of Planet Marketing Services</fullName>
+                <default>false</default>
+                <label>Poor Awareness of Planet Marketing Services</label>
+            </value>
+            <value>
+                <fullName>Poor Comms Across IKA and In-Fill</fullName>
+                <default>false</default>
+                <label>Poor Comms Across IKA and In-Fill</label>
+            </value>
+            <value>
+                <fullName>Poor Relationship with Software House</fullName>
+                <default>false</default>
+                <label>Poor Relationship with Software House</label>
+            </value>
+            <value>
+                <fullName>Potential Financial Exposure from Chargebacks</fullName>
+                <default>false</default>
+                <label>Potential Financial Exposure from Chargebacks</label>
+            </value>
+            <value>
+                <fullName>Relationships Across Limited Number of Contacts/Roles</fullName>
+                <default>false</default>
+                <label>Relationships Across Limited Number of Contacts/Roles</label>
+            </value>
+            <value>
+                <fullName>Runtime Extremely Long</fullName>
+                <default>false</default>
+                <label>Runtime Extremely Long</label>
+            </value>
+            <value>
+                <fullName>Sales Managers Don’t Have Access to Tableau - Don’t Know How to Sell It</fullName>
+                <default>false</default>
+                <label>Sales Managers Don’t Have Access to Tableau - Don’t Know How to Sell It</label>
+            </value>
+            <value>
+                <fullName>Technical Issues - Planet Side</fullName>
+                <default>false</default>
+                <label>Technical Issues - Planet Side</label>
+            </value>
+            <value>
+                <fullName>Technical Issues for Integration</fullName>
+                <default>false</default>
+                <label>Technical Issues for Integration</label>
+            </value>
+            <value>
+                <fullName>Time Consuming Diagnostic Debrief</fullName>
+                <default>false</default>
+                <label>Time Consuming Diagnostic Debrief</label>
+            </value>
+            <value>
+                <fullName>Uncompetitive e-Commerce Acquiring Proposal</fullName>
+                <default>false</default>
+                <label>Uncompetitive e-Commerce Acquiring Proposal</label>
+            </value>
+            <value>
+                <fullName>Uncompetitive Proposal</fullName>
+                <default>false</default>
+                <label>Uncompetitive Proposal</label>
+            </value>
+            <value>
+                <fullName>Weak Relationship at HO Level</fullName>
+                <default>false</default>
+                <label>Weak Relationship at HO Level</label>
+            </value>
+            <value>
+                <fullName>Weak Relationship with Decision Makers</fullName>
+                <default>false</default>
+                <label>Weak Relationship with Decision Makers</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <valueName>Lack of Standardised Training Material</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <valueName>Not Enough Resources Compared to Competitor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Heavy Onboarding Process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <valueName>No Integration to Shopping Carts</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <valueName>Planet e-Comm Gateway Does Not Offer All Functionalities Required by Merchant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <valueName>Planet Pricing is Not Competitive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Aged Debt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Contract is Expiring This Year</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Financial Issues - Planet Side</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Hidden/Complicated Fee Structure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Merchant is Not Satisfied with Planet Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Merchant Rebate Negatively Impacted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Planet is Not Operating in Some Countries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Technical Issues - Planet Side</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Uncompetitive Proposal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Business Reviews Can Be Ad-Hoc/Inconsistent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Inconsistent Standard of Account Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Poor Comms Across IKA and In-Fill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Relationships Across Limited Number of Contacts/Roles</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Weak Relationship with Decision Makers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>Cost of Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>Lack of Product To Sell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>Lack of Proper Mystery Shoppers in Some Countries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>Lack of Training on How to Sell In</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>No Collateral/Case Studies to Leverage From</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>No Standardised Training Material/Collateral</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>No Structured Process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>Time Consuming Diagnostic Debrief</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDPR</controllingFieldValue>
+            <valueName>Not Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planet Intelligence/Tableau</controllingFieldValue>
+            <valueName>Cost of Tableau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planet Intelligence/Tableau</controllingFieldValue>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Lack of Consistent Benchmark</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planet Intelligence/Tableau</controllingFieldValue>
+            <valueName>Planet Intelligence Does Not Cover All Markets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planet Intelligence/Tableau</controllingFieldValue>
+            <valueName>Sales Managers Don’t Have Access to Tableau - Don’t Know How to Sell It</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Complexity/Accuracy of Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Delay in Delivery and Errors</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Painful Automation/Modification Process</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Runtime Extremely Long</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Backup Solution Doesn&#39;t Meet All Needs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Delay on Planet&#39;s Side (Resourcing, PDP Process, Investment)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Lack of Consistency of Refund Options Across Europe</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Merchant is Not Satisfied with Planet Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Planet Integration Not Available</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Poor Relationship with Software House</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Potential Financial Exposure from Chargebacks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Marketing Contract with Alternative Supplier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>No Payment Marketing Options</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Planet Package Does Not Differentiate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Planet Package Too Expensive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Poor Awareness of Planet Marketing Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Weak Relationship at HO Level</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <valueName>No Benchmarking BI Offered</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <valueName>No Partnership with Incumbent Acquirer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <valueName>Planet Infrastructural Pricing is Not Competitive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <valueName>Planet Scheme Pricing is Not Competitive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <valueName>Uncompetitive e-Commerce Acquiring Proposal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Existing Relationship with Merchant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Incumbent Acquirer Offers a Competitive  Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Planet Delay in Delivering to Market</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Technical Issues for Integration</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,23 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+mso-bidi-font-family:Calibri;color:windowtext;mso-ansi-language:EN-US">Bonjour </span><span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Tourist__c}}}</span><span style="font-size:11.0pt;font-family:Barlow;
+mso-bidi-font-family:Calibri;color:windowtext;mso-ansi-language:EN-US">,</span><br /> <br /> &nbsp;</p> 
+  <p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;font-family:Barlow;
+mso-bidi-font-family:Calibri;color:windowtext;mso-ansi-language:FR">Merci pour votre message.</span><br /> <br /> &nbsp;</p> 
+  <p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;font-family:Barlow;
+mso-bidi-font-family:Calibri;color:windowtext;mso-ansi-language:FR">J'ai v&eacute;rifi&eacute; notre base de donn&eacute;es et je peux confirmer que nous avons bien re&ccedil;u votre forme de d&eacute;taxe </span><span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Tax_Free_Form__c}}}</span><span lang="FR" style="font-size:11.0pt;font-family:Barlow;
+mso-bidi-font-family:Calibri;color:windowtext;mso-ansi-language:FR">, mais nous ne pouvons malheureusement pas proc&eacute;der avec le remboursement car votre formulaire de d&eacute;taxe ne contenait pas de tampon des douanes.</span></p> 
+  <p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;font-family:Barlow;
+mso-bidi-font-family:Calibri;color:windowtext;mso-ansi-language:FR">&nbsp;</span></p> 
+  <p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;font-family:Barlow;
+mso-bidi-font-family:Calibri;color:windowtext;mso-ansi-language:FR">Le touriste doit obtenir une autorisation douani&egrave;re pour la r&eacute;gion. Sans lui, nous ne sommes pas en mesure d’&eacute;mettre le remboursement conform&eacute;ment &agrave; la r&eacute;glementation en vigueur dans le pays.</span></p> 
+  <p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;font-family:Barlow;
+mso-bidi-font-family:Calibri;color:windowtext;mso-ansi-language:FR">&nbsp;</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-bidi-font-family:
+Calibri;mso-ansi-language:FR">Nous sommes d&eacute;sol&eacute;s pour cette situation et merci de nous faire savoir si vous avez besoin d’un soutien suppl&eacute;mentaire.<br /> <br /> <br /> Cordialement.</span></p>
+ </body>
+</html>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AX</fullName>
+        <default>false</default>
+        <label>AX</label>
+    </customValue>
+    <customValue>
+        <fullName>Elavon</fullName>
+        <default>false</default>
+        <label>Elavon</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Payments</fullName>
+        <default>false</default>
+        <label>Global Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>Kiosk</fullName>
+        <default>false</default>
+        <label>Kiosk</label>
+    </customValue>
+    <customValue>
+        <fullName>Manual</fullName>
+        <default>false</default>
+        <label>Manual</label>
+    </customValue>
+    <customValue>
+        <fullName>PA</fullName>
+        <default>false</default>
+        <label>PA</label>
+    </customValue>
+    <customValue>
+        <fullName>PA 3rd Party</fullName>
+        <default>false</default>
+        <label>PA 3rd Party</label>
+    </customValue>
+    <customValue>
+        <fullName>PAOL</fullName>
+        <default>false</default>
+        <label>PAOL</label>
+    </customValue>
+    <customValue>
+        <fullName>PAX</fullName>
+        <default>false</default>
+        <label>PAX</label>
+    </customValue>
+    <customValue>
+        <fullName>PAX Payments</fullName>
+        <default>false</default>
+        <label>PAX Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>Pay By Link</fullName>
+        <default>false</default>
+        <label>Pay By Link</label>
+    </customValue>
+    <customValue>
+        <fullName>PC</fullName>
+        <default>false</default>
+        <label>PC</label>
+    </customValue>
+    <customValue>
+        <fullName>PD</fullName>
+        <default>false</default>
+        <label>PD</label>
+    </customValue>
+    <customValue>
+        <fullName>PI</fullName>
+        <default>false</default>
+        <label>PI</label>
+    </customValue>
+    <customValue>
+        <fullName>PI (AX Integration)</fullName>
+        <default>false</default>
+        <label>PI (AX Integration)</label>
+    </customValue>
+    <customValue>
+        <fullName>PI (Elavon)</fullName>
+        <default>false</default>
+        <label>PI (Elavon)</label>
+    </customValue>
+    <customValue>
+        <fullName>PII</fullName>
+        <default>false</default>
+        <label>PII</label>
+    </customValue>
+    <customValue>
+        <fullName>Planet Pay on Mobile</fullName>
+        <default>false</default>
+        <label>Planet Pay on Mobile</label>
+    </customValue>
+    <customValue>
+        <fullName>Planet Pay on PAX</fullName>
+        <default>false</default>
+        <label>Planet Pay on PAX</label>
+    </customValue>
+    <customValue>
+        <fullName>POL</fullName>
+        <default>false</default>
+        <label>POL</label>
+    </customValue>
+    <customValue>
+        <fullName>POL Pro</fullName>
+        <default>false</default>
+        <label>POL Pro</label>
+    </customValue>
+    <customValue>
+        <fullName>POL Pro PAX</fullName>
+        <default>false</default>
+        <label>POL Pro PAX</label>
+    </customValue>
+    <customValue>
+        <fullName>PT</fullName>
+        <default>false</default>
+        <label>PT</label>
+    </customValue>
+    <customValue>
+        <fullName>PTF</fullName>
+        <default>false</default>
+        <label>PTF</label>
+    </customValue>
+    <customValue>
+        <fullName>PT PAX</fullName>
+        <default>false</default>
+        <label>PT PAX</label>
+    </customValue>
+    <customValue>
+        <fullName>TBD</fullName>
+        <default>false</default>
+        <label>TBD</label>
+    </customValue>
+    <customValue>
+        <fullName>Pay @ Counter</fullName>
+        <default>false</default>
+        <label>Pay @ Counter</label>
+    </customValue>
+    <customValue>
+        <fullName>Pay @ Table</fullName>
+        <default>false</default>
+        <label>Pay @ Table</label>
+    </customValue>
+    <customValue>
+        <fullName>Pay @ Reception</fullName>
+        <default>false</default>
+        <label>Pay @ Reception</label>
+    </customValue>
+    <customValue>
+        <fullName>Planet Connect Mobility</fullName>
+        <default>false</default>
+        <label>Planet Connect Mobility</label>
+    </customValue>
+    <customValue>
+        <fullName>PBL</fullName>
+        <default>false</default>
+        <label>PBL</label>
+    </customValue>
+    <customValue>
+        <fullName>WeChat Miniprogram</fullName>
+        <default>false</default>
+        <label>WeChat Miniprogram</label>
+    </customValue>
+    <customValue>
+        <fullName>p@c</fullName>
+        <default>false</default>
+        <label>p@c</label>
+    </customValue>
+    <masterLabel>Solutions</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

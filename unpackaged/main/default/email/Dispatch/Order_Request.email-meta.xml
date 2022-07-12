@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Order Request</name>
+    <style>none</style>
+    <subject>{!Order.Priority__c} Order Request for {!Account.Name} {!Account.Back_End_System__c} Number {!Account.Account_ID__c}</subject>
+    <textOnly>An order for {!Account.Name} {!Account.Back_End_System__c} Number {!Account.Account_ID__c} has been submitted for dispatch by {!Order.ActivatedBy}.
+
+Priority: {!Order.Priority__c}
+
+Refund Template: {!Account.Refund_Template__c}
+
+You may view the record by clicking here -&gt;{!Order.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

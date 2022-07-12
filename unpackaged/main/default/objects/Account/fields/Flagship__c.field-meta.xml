@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Flagship__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is this store a Flagship store</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Mark this checkbox if a Flagship store</inlineHelpText>
+    <label>Flagship</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

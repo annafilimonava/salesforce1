@@ -1,0 +1,4 @@
+<apex:page standardController="Account" showheader="false" sidebar="false" lightningStylesheets="true">
+  <apex:iframe src="https://intelligence.planetpayment.com/t/Planet/views/TaxFree-ExecutiveSummary/Cover?:showAppBanner=false&:embed=y&:display_count=n&:showShareOptions=false&:toolbar=yes&:highdpi=true&:showVizHome=n&:origin=viz_share_link&BrandParameter={!URLENCODE(Account.Warehouse_Brand__c)}&Store%20Brand={!URLENCODE(Account.Warehouse_Brand__c)}" height="1100px" width="100%" scrolling="false">
+  </apex:iframe>
+</apex:page>

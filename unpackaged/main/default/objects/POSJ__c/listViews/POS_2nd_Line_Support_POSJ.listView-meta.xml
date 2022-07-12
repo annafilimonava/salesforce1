@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_2nd_Line_Support_POSJ</fullName>
+    <filterScope>Queue</filterScope>
+    <label>POS 2nd Line Support GB</label>
+    <queue>POS_2nd_Line_Support_GB</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

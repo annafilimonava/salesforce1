@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Low TIDs</name>
+    <style>none</style>
+    <subject>{!TID_Tracker__c.Type__c} TIDs Running Low</subject>
+    <textOnly>The available Terminal IDs for {!TID_Tracker__c.Type__c} are almost out. Currently there are  {!TID_Tracker__c.TIDs_Remaining__c} remaining.
+
+Please get a new range of Terminal IDs and supply them to the Salesforce administrator.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

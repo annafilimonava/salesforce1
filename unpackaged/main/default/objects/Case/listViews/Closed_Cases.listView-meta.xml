@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Cases</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.CLOSED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>equals</operation>
+        <value>Closed,Resolved 3rd Line Support</value>
+    </filters>
+    <label>Closed Cases</label>
+    <sharedTo>
+        <roleAndSubordinates>France_Management</roleAndSubordinates>
+        <roleAndSubordinates>Germany_Management</roleAndSubordinates>
+        <roleAndSubordinates>Italy_Management</roleAndSubordinates>
+        <roleAndSubordinates>Korea_Management</roleAndSubordinates>
+        <roleAndSubordinates>POS_Support_Management</roleAndSubordinates>
+        <roleAndSubordinates>Partner_Management</roleAndSubordinates>
+        <roleAndSubordinates>Planet_Payment_North_America_Admin</roleAndSubordinates>
+        <roleAndSubordinates>Regional_Markets</roleAndSubordinates>
+        <roleAndSubordinates>South_west_Europe_Management</roleAndSubordinates>
+        <roleAndSubordinates>UAE_Management</roleAndSubordinates>
+        <roleAndSubordinates>UK_Management</roleAndSubordinates>
+    </sharedTo>
+</ListView>

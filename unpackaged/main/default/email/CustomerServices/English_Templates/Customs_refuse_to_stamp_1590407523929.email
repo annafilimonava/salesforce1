@@ -1,0 +1,50 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">Thank you for your email. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">Please be advised that the decision of Custom’s officers is beyond our control. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">Unfortunately, we are unable to issue a refund if a Tax Free form doesn’t contain a customs stamp. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">This approval is entirely at the discretion of the customs officers and we do not have any power to overturn it. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">If we can be of further assistance, please do not hesitate to contact us.</span></p>
+ </body>
+</html>

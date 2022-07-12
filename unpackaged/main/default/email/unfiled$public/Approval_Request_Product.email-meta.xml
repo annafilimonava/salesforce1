@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Approval Request Product</name>
+    <style>none</style>
+    <subject>Approval Request for Opportunity for {!Opportunity.Account}</subject>
+    <textOnly>The opportunity with a value of {!Opportunity.Opportunity_Value__c} has been submitted for your approval by {!Approval_Requesting_User.Name}.
+
+
+TF Proposed Solution: {!Opportunity.TF_Proposed_Solution__c}
+Additional Refund Methods: {!Opportunity.Additional_Refund_Methods__c}
+Opportunity Country: {!Opportunity.Opportunity_Owning_Country__c}}
+
+
+You may view the record by clicking here -&gt;{!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

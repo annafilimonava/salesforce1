@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Contract Expiry</name>
+    <style>none</style>
+    <subject>The Contract on {!Service_Contract__c.Account_Name__c} Will Expire in 6 Months</subject>
+    <textOnly>Dear {!Contract.OwnerFirstName},  The contract on {!Contract.Account} will expire in 6 months on {!Contract.EndDate}.  Please start the renewal process and complete the Contract Renewal task when done.  Click below to go directly to the contract record.  {!Contract.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

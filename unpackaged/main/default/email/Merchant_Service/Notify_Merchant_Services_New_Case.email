@@ -1,0 +1,12 @@
+<font face="arial" size=2> 
+Dear Merchant Services,<p>
+
+A new Merchant Support case has been created on {!NullValue(Case.Case_Account_Name__c, (Case.POS_Account__c))}. <p>
+
+Type: {!Case.Type}<p>
+
+Case Reason: {!Case.Reason}<p>
+
+Subject: {!Case.00N2400000IQf0F}<p>
+
+You can see full details by clicking this link: {!Case.Link}<p>

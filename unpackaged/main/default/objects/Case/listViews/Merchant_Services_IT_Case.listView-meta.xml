@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Merchant_Services_IT_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.ORIGIN</columns>
+    <columns>CASES.RECORDTYPE</columns>
+    <columns>CASES.EMAIL</columns>
+    <columns>Date_Time_Replied__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Closed</value>
+    </filters>
+    <label>All Open Cases - Merchant Services IT</label>
+    <queue>Merchant_Services_IT</queue>
+    <sharedTo>
+        <role>Customer_Service_IT</role>
+        <role>POS_Support_IT</role>
+        <role>POS_Support_Management</role>
+        <roleAndSubordinates>Italy_Management</roleAndSubordinates>
+    </sharedTo>
+</ListView>

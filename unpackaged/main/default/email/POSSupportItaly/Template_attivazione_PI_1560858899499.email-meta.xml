@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Template attivazione PI</name>
+    <relatedEntityType>POS_Solution__c</relatedEntityType>
+    <style>none</style>
+    <subject>Attivazione PI</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

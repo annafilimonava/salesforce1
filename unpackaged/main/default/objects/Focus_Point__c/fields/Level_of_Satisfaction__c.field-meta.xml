@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level_of_Satisfaction__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Happy__c = TRUE, IMAGE(&quot;/servlet/servlet.FileDownload?file=0151o000006yh1J&quot;, &quot;Happy&quot;,19,19),
+IF(Neutral__c = TRUE, IMAGE(&quot;/servlet/servlet.FileDownload?file=0151o000006yh1T&quot;, &quot;Neutral&quot;,19,19),
+IF(Sad__c = TRUE, IMAGE(&quot;/servlet/servlet.FileDownload?file=0151o000006yh1Y&quot;, &quot;Unhappy&quot;,19,19),
+IMAGE(&quot;/servlet/servlet.FileDownload?file=0151o000006yh1n&quot;, &quot;Unknown&quot;,19, 19))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Level of Satisfaction</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Report_Page_contains_ALL_and_Another</fullName>
+    <active>true</active>
+    <errorConditionFormula>includes( Report_Pages__c ,&quot;ALL&quot;)  &amp;&amp; (includes( Report_Pages__c ,&quot;Cover&quot;)  || includes( Report_Pages__c ,&quot;Splash&quot;))</errorConditionFormula>
+    <errorDisplayField>Report_Pages__c</errorDisplayField>
+    <errorMessage>You must select All Pages, or individual pages. Please remove as required.</errorMessage>
+</ValidationRule>

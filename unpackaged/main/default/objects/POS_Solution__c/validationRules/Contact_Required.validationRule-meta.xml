@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contact_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISBLANK(Contact__c), OR(TEXT(Solution__c) = &quot;PI&quot;, TEXT(Solution__c) = &quot;PII&quot;, TEXT(Solution__c) = &quot;PT&quot;, TEXT(Solution__c) = &quot;POL&quot;),  Owning_Country__c = &quot;Italy&quot;,  DATEVALUE(CreatedDate) &gt; DATE(2019,06,18))</errorConditionFormula>
+    <errorDisplayField>Contact__c</errorDisplayField>
+    <errorMessage>You must have a contact associated to PI, PII, POL and PT solution types.</errorMessage>
+</ValidationRule>

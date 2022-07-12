@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IT_Contact</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Email = &quot;&quot;,  NOT(ISBLANK(IT_Outage__c)))</errorConditionFormula>
+    <errorDisplayField>Email</errorDisplayField>
+    <errorMessage>An IT Outage contact must have an email address.</errorMessage>
+</ValidationRule>

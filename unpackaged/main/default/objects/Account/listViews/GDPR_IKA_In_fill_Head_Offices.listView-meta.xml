@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GDPR_IKA_In_fill_Head_Offices</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_ID__c</columns>
+    <columns>GDPR__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.ADDRESS1_STREET</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>United Kingdom</value>
+    </filters>
+    <filters>
+        <field>GDPR__c</field>
+        <operation>equals</operation>
+        <value>Sent,Not Sent,Returned</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.IKA_In_Fill_Head_Office</value>
+    </filters>
+    <label>GDPR IKA In-fill Head Offices</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>UK_Sales_Support</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,45 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">Thank you for your email.<span style="mso-spacerun:yes">&nbsp; </span> 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size:10.0pt;font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">The reason your account was debited was because we had not received your Tax Free form {{{Case.Tax_Free_Form__c}}} within the 21 days. Upon receiving your cash refund you have signed a declaration authorising Planet to debit your card if we did not receive your stamped Tax Free form within the agreed period. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">I have checked our database once again and can advise that in the meantime your Tax Free form has been processed successfully. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"><span style="mso-tab-count:2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Your refund was sent to your card&nbsp;{{{Case.Credit_Card_Number__c}}}. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Your refund was issued at X$X<span style="color:#FF6600">00/00/2018 </span>to your account, please note that this can take up to 10 working days. Please check your statement again and get back to me if you require further assistance.</span><span style="font-family:Barlow;mso-ansi-language:EN-US"> 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">If we can be of further assistance, please do not hesitate to contact us.</span></p>
+ </body>
+</html>

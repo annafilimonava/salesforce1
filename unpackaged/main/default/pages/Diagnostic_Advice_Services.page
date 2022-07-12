@@ -1,0 +1,99 @@
+<apex:page standardController="Diagnostic__c" applyBodyTag="false" renderAs="pdf">
+
+<apex:form >
+          
+    <apex:outputPanel styleClass="summary">
+        
+     <apex:outputText rendered="{!Diagnostic__c.Training_at_Store_Level__c == 'No'}">
+                                                <b><u>Training at Store Level - No</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                Have not seen GB for how long?<br></br>
+                                                 <b>Gaps</b><br></br>
+                                                1. No store support/training<br></br>
+                                                2. Lower Match and Hit rates because they have no training<br></br>
+                                                3. Lack of local benchmark info - impacting local market insight<br></br>
+                                                4. Lack of nationality data  - impacting recruitment insight (Chinese speakers)<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet Account Management<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Professional training support<br></br>
+                                                2. Increased Hit and Match Rates leading to higher rebates and enhanced customer experience<br></br>
+                                                3. Local reporting provides insight to marketing, recruitment, stock and merchandising 
+                                              
+     </apex:outputText>  <styleClass="summary"/>
+                                                          
+      <apex:outputText rendered="{!Diagnostic__c.Store_Level_Reports__c== 'No'}">
+                                                <br></br><br></br><b><u>Store Level Reports - No</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Lower Match and Hit rates as they have no sight of performance<br></br>
+                                                2. Lack of local benchmark info - impacting local market insight<br></br>
+                                                3. Lack of nationality data  - impacting recruitment insight (Chinese speakers)<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet Account Management<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Increased Hit and Match Rates leading to higher rebates and enhanced customer experience<br></br>
+                                                2. Local reporting provides insight to marketing, recruitment, stock and merchandising
+                                                                                                                                               
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.IB2C__c== 'No'}">
+                                                <br></br><br></br><b><u>IB2C - No</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                This will always be a no<br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Underperforming International Sales Conversion Rate<br></br>
+                                                2. Underperforming International ATV<br></br>
+                                                3. Underperforming International Customer Lifetime Value<br></br>
+                                                4. Result of above will equal a significant loss of Revenue<br></br>
+                                                5. Result of above will lead to a poor Customer Experience and loss of referral opportunity<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet International Sales Transformation Model<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Improved Sales Conversion and ATV<br></br>
+                                                2. Improved frequency of repeat business and referrals<br></br>
+                                                3. Enhanced Customer Experience<br></br>
+                                                4. International Sales Revenue growth without the need for new footfall/customers - ideal in times of low footfall
+                                                                                                                                              
+        </apex:outputText>  <styleClass="summary"/>
+         <apex:outputText rendered="{!Diagnostic__c.Insight_Reports__c== 'No'}">
+                                                <br></br><br></br><b><u>Insight Reports - No</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                Like Planet Intelligence<br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Lack of understanding of the general International Inbound Market<br></br>
+                                                2. Lack of knowledge around key drivers for International travel and spend<br></br> 
+                                                3. Lack of knowledge around key spending times of year by nationality<br></br> 
+                                                4. All of above leads to underperformance and lack of planning<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet Intelligence<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Aware of Macro drivers for travel and spend<br></br>
+                                                2. Able to forecast and plan to optimise International sales<br></br>
+                                                3. Empowers middle managers with information for their C-Suite                                               
+                                                                                                                                              
+        </apex:outputText>  <styleClass="summary"/>
+         <apex:outputText rendered="{!Diagnostic__c.Marketing_Footfall_Drivers__c== 'Yes'}">
+                                                <br></br><br></br><b><u>Marketing/Footfall Drivers - Yes</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                Is it just print? Is money taken from the Merchants rebate? What is the ROI?<br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Non-transparent ROI
+                                                2. Merchant rebate re-invested at Global Blue recommended retail pricing (highly uncompetitive)<br></br> 
+                                                3. Global Blue marketing tends to be print with no way of measuring performance/ROI<br></br> 
+                                                4. Often marketing fund has not been paid to Merchant for some time<br></br> 
+                                                5. Global Marketing Fund is a stealth Tax  - GB pay the rebate and then take it back for marketing with GB<br></br> 
+                                                6. Global Blue use the Merchant rebate to market Global Blue<br></br> 
+                                                <b>Solution</b><br></br>
+                                                Planet Channel Marketing<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Planet marketing is 100% transparent<br></br>
+                                                2. All activity can be accurately measured meaning the Merchant will always know the ROI<br></br>
+                                                3. Planet becomes the Merchants specialised International Marketing Department (without the cost)<br></br>
+                                                4. Planet Marketing is highly targeted, using Digital channels to fully optimise marketing spend<br></br>
+                                                5. Planet Marketing does not form part of our P and L, we re-sell all activity at cost<br></br>
+                                                6. Planet use the Merchant rebate to market the Merchant                                                 
+                                                                                                                                              
+        </apex:outputText>  <styleClass="summary"/>
+        </apex:outputPanel>
+     
+    </apex:form>
+</apex:page>

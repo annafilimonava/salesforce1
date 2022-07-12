@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Work Order Owner Change IT</name>
+    <style>none</style>
+    <subject>Work Order Ownership Change for {!WorkOrder.Account}</subject>
+    <textOnly>Dear {!WorkOrder.OwnerFullName},
+
+The ownership on the Work Order for a POS Solution on account {!WorkOrder.Account} with a due date of {!WorkOrder.Due_Date__c} has been changed to {!WorkOrder.OwnerFullName}.
+
+Solution: {!NullValue(WorkOrder.Solution__c, &quot;N/A&quot;)}
+Terminal: {!NullValue(WorkOrder.Terminal__c, &quot;N/A&quot;)}
+Till System: {!NullValue(WorkOrder.Till_System__c, &quot;N/A&quot;)}
+PSP: {!NullValue(WorkOrder.PSP__c, &quot;N/A&quot;)}
+
+Click on the below link to go directly to the Word Order.
+
+{!WorkOrder.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

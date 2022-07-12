@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Manual</fullName>
+        <default>false</default>
+        <label>Manual</label>
+    </customValue>
+    <customValue>
+        <fullName>PA - VAT Only Online</fullName>
+        <default>false</default>
+        <label>PA - VAT Only Online</label>
+    </customValue>
+    <customValue>
+        <fullName>PA - VAT Only Offline</fullName>
+        <default>false</default>
+        <label>PA - VAT Only Offline</label>
+    </customValue>
+    <customValue>
+        <fullName>PC</fullName>
+        <default>false</default>
+        <label>PC</label>
+    </customValue>
+    <customValue>
+        <fullName>PII</fullName>
+        <default>false</default>
+        <label>PII</label>
+    </customValue>
+    <customValue>
+        <fullName>POL</fullName>
+        <default>false</default>
+        <label>POL</label>
+    </customValue>
+    <customValue>
+        <fullName>PT</fullName>
+        <default>false</default>
+        <label>PT</label>
+    </customValue>
+    <customValue>
+        <fullName>Kiosk</fullName>
+        <default>false</default>
+        <label>Kiosk</label>
+    </customValue>
+    <customValue>
+        <fullName>PA via Distribution Channel</fullName>
+        <default>false</default>
+        <label>PA via Distribution Channel</label>
+    </customValue>
+    <customValue>
+        <fullName>eTF</fullName>
+        <default>false</default>
+        <label>eTF</label>
+    </customValue>
+    <customValue>
+        <fullName>PI</fullName>
+        <default>false</default>
+        <label>PI</label>
+    </customValue>
+    <customValue>
+        <fullName>PI (Elavon)</fullName>
+        <default>false</default>
+        <label>PI (Elavon)</label>
+    </customValue>
+    <customValue>
+        <fullName>PI (AX Integration)</fullName>
+        <default>false</default>
+        <label>PI (AX Integration)</label>
+    </customValue>
+    <customValue>
+        <fullName>Tokenisation Terminals</fullName>
+        <default>false</default>
+        <label>Tokenisation Terminals</label>
+    </customValue>
+    <customValue>
+        <fullName>POL Pro</fullName>
+        <default>false</default>
+        <label>POL Pro</label>
+    </customValue>
+    <customValue>
+        <fullName>PT PAX</fullName>
+        <default>false</default>
+        <label>PT PAX</label>
+    </customValue>
+    <customValue>
+        <fullName>Tour Operator Management</fullName>
+        <default>false</default>
+        <label>Tour Operator Management</label>
+    </customValue>
+    <customValue>
+        <fullName>PD</fullName>
+        <default>false</default>
+        <label>PD</label>
+    </customValue>
+    <customValue>
+        <fullName>Kiosk Cash Machine</fullName>
+        <default>false</default>
+        <label>Kiosk Cash Machine</label>
+    </customValue>
+    <customValue>
+        <fullName>Voucher Card Update (VCU)</fullName>
+        <default>false</default>
+        <label>Voucher Card Update (VCU)</label>
+    </customValue>
+    <customValue>
+        <fullName>DCC Upgrade</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>DCC Upgrade</label>
+    </customValue>
+    <customValue>
+        <fullName>Own Offline Solution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Own Offline Solution</label>
+    </customValue>
+    <customValue>
+        <fullName>PII Plus</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PII Plus</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Automatic</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Premier Automatic</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Mobile</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Premier Mobile</label>
+    </customValue>
+    <customValue>
+        <fullName>Terminal Integrated (Finland)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Terminal Integrated (Finland)</label>
+    </customValue>
+    <customValue>
+        <fullName>Terminal (Finland)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Terminal (Finland)</label>
+    </customValue>
+    <customValue>
+        <fullName>Terminal &amp; PC Application (Finland)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Terminal &amp; PC Application (Finland)</label>
+    </customValue>
+    <customValue>
+        <fullName>PC Application (Finland)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>PC Application (Finland)</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Integrated Interface (TOPOS)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Premier Integrated Interface (TOPOS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Online (TOPOS)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Premier Online (TOPOS)</label>
+    </customValue>
+    <customValue>
+        <fullName>JCC Integration</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>JCC Integration</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Automatic Real-time (TOPOS)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Premier Automatic Real-time (TOPOS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Connect Real-time (TOPOS)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Premier Connect Real-time (TOPOS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Desktop (TOPOS)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Premier Desktop (TOPOS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Integrated (TOPOS)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Premier Integrated (TOPOS)</label>
+    </customValue>
+    <customValue>
+        <fullName>Card Recognition Technology</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Card Recognition Technology</label>
+    </customValue>
+    <customValue>
+        <fullName>Auto Print</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Auto Print</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier  Kiosk</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Premier  Kiosk</label>
+    </customValue>
+    <customValue>
+        <fullName>iPad Solution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>iPad Solution</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Supported</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Not Supported</label>
+    </customValue>
+    <customValue>
+        <fullName>TP Automatic Real-time</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TP Automatic Real-time</label>
+    </customValue>
+    <customValue>
+        <fullName>TP Automatic Batch</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TP Automatic Batch</label>
+    </customValue>
+    <customValue>
+        <fullName>TP Automatic Offline</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>TP Automatic Offline</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Connect Real-time</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Premier Connect Real-time</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Connect Batch</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Premier Connect Batch</label>
+    </customValue>
+    <customValue>
+        <fullName>Premier Automatic Batch</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Premier Automatic Batch</label>
+    </customValue>
+    <customValue>
+        <fullName>Free Solo Evolution</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Free Solo Evolution</label>
+    </customValue>
+    <customValue>
+        <fullName>Free Solo</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Free Solo</label>
+    </customValue>
+    <customValue>
+        <fullName>Free Serve</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Free Serve</label>
+    </customValue>
+    <customValue>
+        <fullName>Free Move</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Free Move</label>
+    </customValue>
+    <customValue>
+        <fullName>Free Form</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Free Form</label>
+    </customValue>
+    <customValue>
+        <fullName>Free Core</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Free Core</label>
+    </customValue>
+    <customValue>
+        <fullName>Free Axept</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Free Axept</label>
+    </customValue>
+    <customValue>
+        <fullName>Terminal Integrated &amp; Mobile Application (Finland)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Terminal Integrated &amp; Mobile Application (Finland)</label>
+    </customValue>
+    <customValue>
+        <fullName>Terminal &amp; Mobile Application (Finland)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Terminal &amp; Mobile Application (Finland)</label>
+    </customValue>
+    <customValue>
+        <fullName>Terminal Integrated &amp; PC Application (Finland)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Terminal Integrated &amp; PC Application (Finland)</label>
+    </customValue>
+    <masterLabel>Proposed Solution</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,5 @@
+<apex:page standardController="opportunity" tabStyle="Opportunity" > 
+    <div style="height: 200px" class="bodyDiv" onclick="resizeFrame();">
+        <c:Opportunity_History Opp="{!Opportunity}" />
+    </div>
+</apex:page>

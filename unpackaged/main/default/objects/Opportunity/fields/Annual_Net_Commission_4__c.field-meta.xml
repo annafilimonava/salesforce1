@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Net_Commission_4__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Contract_Start_Date_Month__c = 6,  Calendar_Month__c = 6),  TF_Net_Commission_Actual__c / 0.0816927,
+IF(AND(Contract_Start_Date_Month__c = 6,  Calendar_Month__c = 7),  TF_Net_Commission_Actual__c / 0.1815006,
+IF(AND(Contract_Start_Date_Month__c = 6,  Calendar_Month__c = 8),  TF_Net_Commission_Actual__c / 0.3018013,
+IF(AND(Contract_Start_Date_Month__c = 6,  Calendar_Month__c = 9),  TF_Net_Commission_Actual__c / 0.4115291,
+IF(AND(Contract_Start_Date_Month__c = 6,  Calendar_Month__c = 10),  TF_Net_Commission_Actual__c / 0.5242921,
+IF(AND(Contract_Start_Date_Month__c = 6,  Calendar_Month__c = 11),  TF_Net_Commission_Actual__c / 0.6063654,
+IF(AND(Contract_Start_Date_Month__c = 6,  Calendar_Month__c = 12),  TF_Net_Commission_Actual__c / 0.6816043,
+IF(AND(Contract_Start_Date_Month__c = 7,  Calendar_Month__c = 7),  TF_Net_Commission_Actual__c / 0.0998079,
+IF(AND(Contract_Start_Date_Month__c = 7,  Calendar_Month__c = 8),  TF_Net_Commission_Actual__c / 0.2201086,
+IF(AND(Contract_Start_Date_Month__c = 7,  Calendar_Month__c = 9),  TF_Net_Commission_Actual__c / 0.3298364,
+IF(AND(Contract_Start_Date_Month__c = 7,  Calendar_Month__c = 10),  TF_Net_Commission_Actual__c / 0.4425994,
+IF(AND(Contract_Start_Date_Month__c = 7,  Calendar_Month__c = 11),  TF_Net_Commission_Actual__c / 0.5246727,
+IF(AND(Contract_Start_Date_Month__c = 7,  Calendar_Month__c = 12),  TF_Net_Commission_Actual__c / 0.5999116,0)))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Annual Net Commission 4</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

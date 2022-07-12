@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Memory_mb__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Required for the VX510 terminals.  3Mb is Low and 6Mb is High.</inlineHelpText>
+    <label>Memory (mb)</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Unit_Subtype__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1GB</fullName>
+                <default>false</default>
+                <label>1GB</label>
+            </value>
+            <value>
+                <fullName>2GB</fullName>
+                <default>false</default>
+                <label>2GB</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Vx820 Duet</controllingFieldValue>
+            <controllingFieldValue>Vx520</controllingFieldValue>
+            <controllingFieldValue>Vx680</controllingFieldValue>
+            <controllingFieldValue>PAX A920 Pro</controllingFieldValue>
+            <controllingFieldValue>Vx690</controllingFieldValue>
+            <controllingFieldValue>PAX A920 - Black</controllingFieldValue>
+            <controllingFieldValue>PAX A920 - White</controllingFieldValue>
+            <valueName>1GB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Vx820 Duet</controllingFieldValue>
+            <controllingFieldValue>Vx520</controllingFieldValue>
+            <controllingFieldValue>Vx680</controllingFieldValue>
+            <controllingFieldValue>PAX A920 Pro</controllingFieldValue>
+            <controllingFieldValue>Vx690</controllingFieldValue>
+            <controllingFieldValue>PAX A920 - Black</controllingFieldValue>
+            <controllingFieldValue>PAX A920 - White</controllingFieldValue>
+            <valueName>2GB</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

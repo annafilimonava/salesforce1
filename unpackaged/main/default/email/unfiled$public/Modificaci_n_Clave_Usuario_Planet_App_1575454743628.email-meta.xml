@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Modificación clave – usuario de acceso a Planet App (factura taxfree por móvil)</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Modificación Clave Usuario Planet App</name>
+    <relatedEntityType>Account</relatedEntityType>
+    <style>none</style>
+    <subject>modificación clave – usuario de acceso a Planet App (factura taxfree por móvil)</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

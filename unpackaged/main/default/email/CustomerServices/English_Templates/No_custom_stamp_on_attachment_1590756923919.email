@@ -1,0 +1,29 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p><span lang="EN-IE" style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Thank you for your email. </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">I have checked our database and I can confirm that we did receive your Tax Free form {{{Case.Tax_Free_Form__c}}}, but unfortunately, we are unable to issue a refund as your Tax Free form did not contain a customs approval.<span style="mso-spacerun:yes">&nbsp; </span> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">On your e-validation slip written “Thank you! Validation request deficient”, it means that the approval has not been finished as the Tax Free Form or Receipt does not meet the legal requirements. You supposed to complete missing data and submit the form again to customs office in order to receive valid customs slip. It is tourist’s responsibility to obtain the Customs approval for the region and unfortunately without it we are not able to accept the form. </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">If you have missed to show the goods again at a customs counter, you have not finished the process at the airport. The Austrian customs offers to stamp your tax free form and original shop receipt, if you send them the documents (Tax Free form with original store receipt or confirmed copies from the shop) with an import stamp / import confirmation. If you show the goods at the local customs in your country, you can get an import stamp / import confirmation (fees may apply). Then you can send the documents to the Austrian customs: </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Zollamt </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Eisenstadt Flughafen Wien </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Abfertigung Reiseverkehr </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">1300 </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Flughafen Wien </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Austria </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Tel.: 0043 50 233 56300 </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">As soon as we receive your documents with customs approval we will process them accordingly and the refund will be issued to you. </span></p> 
+  <p class="MsoNormal">&nbsp;</p> 
+  <p class="MsoNormal"><span style="mso-bookmark:_Hlk505587322"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></span></p> 
+  <p class="MsoNormal"><span style="mso-bookmark:_Hlk505587322"><span lang="EN-IE" style="font-family:Barlow">Should you require further information please do not hesitate to ask.</span></span><span lang="EN-IE" style="font-family:Barlow"> </span></p>
+ </body>
+</html>

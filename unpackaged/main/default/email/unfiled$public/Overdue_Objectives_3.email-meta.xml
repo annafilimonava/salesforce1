@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Overdue Objectives +3</name>
+    <style>none</style>
+    <subject>The Objective on Account {!Account_Objective__c.Account__c} is 3 Days Overdue</subject>
+    <textOnly>The Objective on the Merchant Account Plan for {!Account_Objective__c.Account__c} is 3 days overdue.
+
+Objective: {!Account_Objective__c.Objective__c}
+Objective Type: {!Account_Objective__c.Objective_Type__c}
+Due Date: {!Account_Objective__c.Due_Date__c}
+
+Please update the status or the due date of the action.  You can navigate directly to the action by clicking the link below.
+
+{!Account_Objective__c.Link}
+
+This notice has also been sent to your country manager and Regional Markets management.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

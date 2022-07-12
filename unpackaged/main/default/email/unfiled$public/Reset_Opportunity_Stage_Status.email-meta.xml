@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Planet</letterhead>
+    <name>Reset Opportunity Stage &amp; Status</name>
+    <style>freeForm</style>
+    <subject>{!Opportunity.Name} - Opportunity Stage &amp; Status Reset</subject>
+    <textOnly>The stage of the opportunity &#39;{!Opportunity.Name}&#39; has been moved back to &#39;Internal Sign Off&#39; and the Approval Status has been reset to &#39;Not Approved&#39;.  This is due to the Acquiring Fees having been updated, hence you must submit the Opportunity for approval again.
+
+Click on the link to go directly to the opportunity.
+
+{!Opportunity.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

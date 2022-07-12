@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Draft_Orders_CH</fullName>
+    <columns>ORDERS.ORDER_NUMBER</columns>
+    <columns>Priority__c</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>ORDER.BILLING_STREET</columns>
+    <columns>ORDER.BILLING_CITY</columns>
+    <columns>ORDER.BILLING_ZIP</columns>
+    <columns>ORDERS.EFFECTIVE_DATE</columns>
+    <columns>ORDERS.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ORDERS.STATUS_CODE</field>
+        <operation>equals</operation>
+        <value>D</value>
+    </filters>
+    <filters>
+        <field>Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>Switzerland</value>
+    </filters>
+    <label>All Draft Orders CH</label>
+    <sharedTo>
+        <group>Merchant_Services_CH</group>
+        <role>Germany_Sales_Support</role>
+        <role>Switzerland_National_Accounts</role>
+    </sharedTo>
+</ListView>

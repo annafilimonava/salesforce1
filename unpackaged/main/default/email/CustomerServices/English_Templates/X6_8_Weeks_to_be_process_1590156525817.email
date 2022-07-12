@@ -1,0 +1,28 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">Hello,</span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">Thank you for your email. </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">I have checked our database and to date we have not received your Tax Free form {{{Case.Tax_Free_Form__c}}}. If you have returned your Tax Free form to us recently,</span><span lang="EN-IE" style="font-family:Barlow"> it might not be delivered or processed at this stage. </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">Tax Free forms can take up to 6 to 8 weeks to be processed successfully, so we ask you to bear with us during this period. </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">Should you require further assistance, please revert back to us after the above-mentioned period and we will do our best in assisting your further. </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">Thank you for your patience.</span></p>
+
+</body></html>

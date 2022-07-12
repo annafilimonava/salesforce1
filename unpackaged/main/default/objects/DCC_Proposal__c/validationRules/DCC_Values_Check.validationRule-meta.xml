@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DCC_Values_Check</fullName>
+    <active>true</active>
+    <description>Ensuring new DCC values are selected if &#39;Total Processed Value&#39; is entered</description>
+    <errorConditionFormula>AND (
+NOT(ISBLANK(Total_Processed_Value__c)),
+OR(
+ISBLANK(Eligible_DCC_Value__c),
+ISBLANK(Opt_in__c),
+ISBLANK(Markup__c),
+ISBLANK(Rebate__c)
+)
+)</errorConditionFormula>
+    <errorMessage>To calculate the DCC values, you must enter: Total Processed Value, Eligible DCC Value %, Opt-in %, Markup % and Rebate %</errorMessage>
+</ValidationRule>

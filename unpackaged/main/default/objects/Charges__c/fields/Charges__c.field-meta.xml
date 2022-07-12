@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Charges__c</fullName>
+    <externalId>false</externalId>
+    <label>Charges</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>24/7 Customer Services</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>24/7 Customer Services</label>
+            </value>
+            <value>
+                <fullName>3C Payment Processing Fee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3C Payment Processing Fee</label>
+            </value>
+            <value>
+                <fullName>3C Project Management</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3C Project Management</label>
+            </value>
+            <value>
+                <fullName>3C Thermal Paper Box</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3C Thermal Paper Box</label>
+            </value>
+            <value>
+                <fullName>Datatrans Alias / Tokenisation</fullName>
+                <default>false</default>
+                <label>Datatrans Alias / Tokenisation</label>
+            </value>
+            <value>
+                <fullName>Gateway Processing Per Location</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Gateway Processing Per Location</label>
+            </value>
+            <value>
+                <fullName>Gateway Processing Per Terminal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Gateway Processing Per Terminal</label>
+            </value>
+            <value>
+                <fullName>Gateway Processing Per Transaction</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Gateway Processing Per Transaction</label>
+            </value>
+            <value>
+                <fullName>Gateway Recurring Fee</fullName>
+                <default>false</default>
+                <label>Gateway Recurring Fee</label>
+            </value>
+            <value>
+                <fullName>Incentive</fullName>
+                <default>false</default>
+                <label>Incentive</label>
+            </value>
+            <value>
+                <fullName>Installation Services Per Day</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Installation Services Per Day</label>
+            </value>
+            <value>
+                <fullName>Integration Fee</fullName>
+                <default>false</default>
+                <label>Integration Fee</label>
+            </value>
+            <value>
+                <fullName>Location Set Up Fee Per Location</fullName>
+                <default>false</default>
+                <label>Location Set Up Fee Per Location</label>
+            </value>
+            <value>
+                <fullName>Marketplace</fullName>
+                <default>false</default>
+                <label>Marketplace</label>
+            </value>
+            <value>
+                <fullName>Mobile Payment Libraries</fullName>
+                <default>false</default>
+                <label>Mobile Payment Libraries</label>
+            </value>
+            <value>
+                <fullName>Onsite Installation Services Per Day</fullName>
+                <default>false</default>
+                <label>Onsite Installation Services Per Day</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>P2PE License Fee Per Device</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>P2PE License Fee Per Device</label>
+            </value>
+            <value>
+                <fullName>Pay By Link</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Pay By Link</label>
+            </value>
+            <value>
+                <fullName>PCI Compliance &amp; Security Fee</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PCI Compliance &amp; Security Fee</label>
+            </value>
+            <value>
+                <fullName>PCI Compliance &amp; Tokenization</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PCI Compliance &amp; Tokenization</label>
+            </value>
+            <value>
+                <fullName>POS/PMS Integration Module Per Location</fullName>
+                <default>false</default>
+                <label>POS/PMS Integration Module Per Location</label>
+            </value>
+            <value>
+                <fullName>Protel Interface</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Protel Interface</label>
+            </value>
+            <value>
+                <fullName>Remote Engineer</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Remote Engineer</label>
+            </value>
+            <value>
+                <fullName>Rental 3C Terminal P2PE PAX A920</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rental 3C Terminal P2PE PAX A920</label>
+            </value>
+            <value>
+                <fullName>Service &amp; Support Recurring Fee Per Location</fullName>
+                <default>false</default>
+                <label>Service &amp; Support Recurring Fee Per Location</label>
+            </value>
+            <value>
+                <fullName>Service &amp; Support Recurring Fee Per Terminal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Service &amp; Support Recurring Fee Per Terminal</label>
+            </value>
+            <value>
+                <fullName>SIM Rental</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SIM Rental</label>
+            </value>
+            <value>
+                <fullName>Software License Fee Per Device</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Software License Fee Per Device</label>
+            </value>
+            <value>
+                <fullName>Terminal/PED Docking Unit Per Device</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Terminal/PED Docking Unit Per Device</label>
+            </value>
+            <value>
+                <fullName>Terminal/PED Purchase Per Device</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Terminal/PED Purchase Per Device</label>
+            </value>
+            <value>
+                <fullName>Terminal Managed Services Per Terminal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Terminal Managed Services Per Terminal</label>
+            </value>
+            <value>
+                <fullName>Terminal Rental Fee Per Terminal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Terminal Rental Fee Per Terminal</label>
+            </value>
+            <value>
+                <fullName>Terminal Setup &amp; Shipment</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Terminal Setup &amp; Shipment</label>
+            </value>
+            <value>
+                <fullName>Token Service Support Per Merchant</fullName>
+                <default>false</default>
+                <label>Token Service Support Per Merchant</label>
+            </value>
+            <value>
+                <fullName>Token Set Up Fee Per Merchant</fullName>
+                <default>false</default>
+                <label>Token Set Up Fee Per Merchant</label>
+            </value>
+            <value>
+                <fullName>Web2Pay Set Up Fee Per MID</fullName>
+                <default>false</default>
+                <label>Web2Pay Set Up Fee Per MID</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>One Off</controllingFieldValue>
+            <valueName>Datatrans Alias / Tokenisation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>One Off</controllingFieldValue>
+            <valueName>Incentive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>One Off</controllingFieldValue>
+            <valueName>Integration Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>One Off</controllingFieldValue>
+            <valueName>Location Set Up Fee Per Location</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>One Off</controllingFieldValue>
+            <valueName>Marketplace</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>One Off</controllingFieldValue>
+            <valueName>Mobile Payment Libraries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>One Off</controllingFieldValue>
+            <valueName>Onsite Installation Services Per Day</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>One Off</controllingFieldValue>
+            <controllingFieldValue>Monthly Recurring</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>One Off</controllingFieldValue>
+            <valueName>POS/PMS Integration Module Per Location</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>One Off</controllingFieldValue>
+            <valueName>Token Set Up Fee Per Merchant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>One Off</controllingFieldValue>
+            <valueName>Web2Pay Set Up Fee Per MID</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Monthly Recurring</controllingFieldValue>
+            <valueName>Gateway Recurring Fee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Monthly Recurring</controllingFieldValue>
+            <valueName>Service &amp; Support Recurring Fee Per Location</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Monthly Recurring</controllingFieldValue>
+            <valueName>Token Service Support Per Merchant</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

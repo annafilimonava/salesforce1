@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Refund_Mix_Low</fullName>
+    <active>false</active>
+    <errorConditionFormula>Refund_Mix_Cash__c + Refund_Mix_Credit_Card__c + Refund_Mix_Other__c &lt; 1</errorConditionFormula>
+    <errorDisplayField>Refund_Mix_Other__c</errorDisplayField>
+    <errorMessage>The Total Refund Mix cannot be less than 100.</errorMessage>
+</ValidationRule>

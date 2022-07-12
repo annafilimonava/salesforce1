@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NL_Contacts_Advent_International</fullName>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Position__c</columns>
+    <columns>Account_Record_Type__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Owner__c</columns>
+    <columns>TF_Influence_Level__c</columns>
+    <columns>DCC_Influence_Level__c</columns>
+    <columns>Account_City__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>Netherlands</value>
+    </filters>
+    <filters>
+        <field>CONTACT.EMAIL</field>
+        <operation>contains</operation>
+        <value>@</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Head_Office,Account.IKA_Head_Office,Account.NKA_Head_Office,Account.Shop,Account.IKA_In_Fill_Head_Office,Account.NKA_In_Fill_Head_Office</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <label>NL Contacts_Advent International</label>
+</ListView>

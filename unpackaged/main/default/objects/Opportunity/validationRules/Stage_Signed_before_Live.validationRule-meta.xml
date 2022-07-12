@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_Signed_before_Live</fullName>
+    <active>true</active>
+    <description>User must go to Contract Signed before moving to Live</description>
+    <errorConditionFormula>AND(
+ISCHANGED(StageName),
+NOT(ISPICKVAL(PRIORVALUE(StageName), &quot;Contract Signed&quot;)),
+ISPICKVAL(StageName, &quot;Live&quot;)
+)</errorConditionFormula>
+    <errorMessage>The Opportunity must be Contract Signed before moving to Live</errorMessage>
+</ValidationRule>

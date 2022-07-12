@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Store_Summary_Shop_Record_Only</fullName>
+    <active>true</active>
+    <errorConditionFormula>Account_Type__c  &lt;&gt; &#39;Shop&#39;
+ &amp;&amp; 
+text( Report_Name__c) = &quot;Store Summary&quot;</errorConditionFormula>
+    <errorDisplayField>Account_ID__c</errorDisplayField>
+    <errorMessage>The Store Summary report can only be run on Shop Account Record types.</errorMessage>
+</ValidationRule>

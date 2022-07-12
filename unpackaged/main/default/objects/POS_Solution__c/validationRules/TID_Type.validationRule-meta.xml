@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TID_Type</fullName>
+    <active>true</active>
+    <description>Once a TID Type has been set it cannot be changed.</description>
+    <errorConditionFormula>AND( 
+OR( 
+ISPICKVAL(PRIORVALUE (TID_Type__c), &quot;BMS&quot;), 
+ISPICKVAL( PRIORVALUE (TID_Type__c), &quot;BMS + DCC&quot;)),
+ISCHANGED(TID_Type__c))</errorConditionFormula>
+    <errorDisplayField>TID_Type__c</errorDisplayField>
+    <errorMessage>Once a Terminal ID has been assigned you may not change the TID Type field.</errorMessage>
+</ValidationRule>

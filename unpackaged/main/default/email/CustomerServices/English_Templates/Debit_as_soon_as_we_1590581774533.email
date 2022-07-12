@@ -1,0 +1,29 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p class="MsoNormal"><span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span lang="EN-IE" style="font-size:12.0pt"><span style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, </span></span></span></span></span><br />
+<br />
+<br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span lang="EN-IE" style="font-size:12.0pt"><span style="font-family:Barlow">Thank you for your email. </span></span></span></span></span><br />
+<br />
+<br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span lang="EN-IE" style="font-size:12.0pt"><span style="font-family:Barlow">The reason your account was debited was because we had not received your Tax Free form {{{Case.Tax_Free_Form__c}}}. </span></span></span></span></span><br />
+<br />
+<br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span lang="EN-IE" style="font-size:12.0pt"><span style="font-family:Barlow">Upon receiving your cash refund you have signed a declaration authorizing Planet to debit your card if we did not receive your stamped Tax Free form within 21 days. </span></span></span></span></span><br />
+<br />
+<br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span lang="EN-IE" style="font-size:12.0pt"><span style="font-family:Barlow">To date, we have not received it and as a result an automated debit for the cash refund has taken place on your account.&nbsp;Can you please specify any problems you faced while completing the process?</span></span></span></span></span><br />
+<br />
+<br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span lang="EN-IE" style="font-size:12.0pt"><span style="font-family:Barlow">Once we receive and process your Tax Free form we will be able to recredit you your refund amount. </span></span></span></span></span><br />
+<br />
+<br />
+<span style="font-size:11pt"><span style="line-height:normal"><span style="font-family:Calibri,sans-serif"><span lang="GA" style="font-size:12.0pt"><span style="font-family:Barlow">Should you require</span></span><span lang="EN-IE" style="font-size:12.0pt"><span style="font-family:Barlow"> any further assistance</span></span><span lang="GA" style="font-size:12.0pt"><span style="font-family:Barlow"> information</span></span><span lang="EN-IE" style="font-size:12.0pt"><span style="font-family:Barlow"> please do not hesitate to contact us.<br />
+<br />
+<br />
+Best Regards.</span></span></span></span></span></p>
+
+</body></html>

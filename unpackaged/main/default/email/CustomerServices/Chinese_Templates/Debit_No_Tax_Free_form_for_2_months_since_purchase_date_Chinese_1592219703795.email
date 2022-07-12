@@ -1,0 +1,64 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoPlainText"><span lang="ZH-CN" style="font-size:12.0pt;font-family:
+SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin;color:windowtext;mso-fareast-language:ZH-CN">尊敬的{{{Case.Tourist__c}}}，</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:windowtext;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:12.0pt;font-family:
+SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin;color:windowtext;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoPlainText"><span lang="ZH-CN" style="font-size:12.0pt;font-family:
+SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin;color:windowtext;mso-fareast-language:ZH-CN">感谢您的邮件。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:windowtext;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:12.0pt;font-family:
+SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin;color:windowtext;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size:12.0pt;font-family:SimSun;
+mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">在市中心获取现金退税款后，如果我们在</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN">21</span><span lang="ZH-CN" style="font-size:12.0pt;
+font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">天内未收到您的经海关验证的退税单，根据您已签署的声明，将授权</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN">Planet</span><span lang="ZH-CN" style="font-size:
+12.0pt;font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;mso-fareast-language:ZH-CN">从您的担保的信用卡中扣回退税款或并附以罚金。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:12.0pt;font-family:
+SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin;color:windowtext;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoPlainText"><span lang="ZH-CN" style="font-size:12.0pt;font-family:
+SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin;color:windowtext;mso-fareast-language:ZH-CN">到目前为止，我们尚未收到该退税单{{{Case.Tax_Free_Form__c}}}，因此您的账户已自动扣除现金退税款。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:windowtext;
+mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:12.0pt;font-family:
+SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin;color:windowtext;mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoPlainText"><span lang="ZH-CN" style="font-size:12.0pt;font-family:
+SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;mso-bidi-font-family:Calibri;mso-bidi-theme-font:
+minor-latin;color:windowtext;mso-fareast-language:ZH-CN">请知悉，我们需要收到经海关验证的退税单才能完成退税受理。</span><span lang="EN-IE" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:windowtext;
+mso-fareast-language:ZH-CN"> </span></p>
+ </body>
+</html>

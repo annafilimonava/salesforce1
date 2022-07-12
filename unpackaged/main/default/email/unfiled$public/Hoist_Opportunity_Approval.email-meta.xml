@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notifies Finance when a Hoist Hospitality Opportunity reaches Proposal Signed</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Hoist Opportunity Approval</name>
+    <style>none</style>
+    <subject>Hoist Opportunity on Account {!Account.Name} has been moved to Signed</subject>
+    <textOnly>The Stage on Hoist Opportunity, {!Opportunity.Name}, has heen moved to {!Opportunity.StageName}.
+
+Account Name - {!Opportunity.Account}
+
+Opportunity Owner - {!Opportunity.OwnerFullName}
+
+Total Opportunity Value - {!Opportunity.Total_Opportunity_Value__c}
+
+Click on the link below for more details.
+
+{!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

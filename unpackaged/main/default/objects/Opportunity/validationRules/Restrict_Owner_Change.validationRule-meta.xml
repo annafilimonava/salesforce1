@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Restrict_Owner_Change</fullName>
+    <active>true</active>
+    <description>Only admins can change the Opportunity Owner</description>
+    <errorConditionFormula>AND(
+NOT(CONTAINS($Profile.Name ,&quot;Admin&quot;)),
+ISCHANGED( OwnerId ),
+NOT( $User.Id = &#39;0055J000001tyfA&#39; ), /*philipp wagner - Sales Support DE*/
+NOT( $User.Id = &#39;0051o000009f703&#39; ), /*lara gottwald - Sales Support DE*/
+NOT( $User.Id = &#39;00524000004vQpt&#39; ), /*ana claudia Tavares - Merchant Services ES*/
+NOT( $User.Id = &#39;00524000004vQqA&#39; ), /*Raquel Hernandez - Merchant Services ES*/
+NOT( $User.Id = &#39;00524000001CpFE&#39; ) /*Nathalie Delacretaz - Management FR*/
+)</errorConditionFormula>
+    <errorMessage>Please raise a JIRA ticket if you would like to change the Opportunity Owner.</errorMessage>
+</ValidationRule>

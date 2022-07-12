@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>More_Than_One_Satisfaction_Level</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(AND(Happy__c = TRUE,  Neutral__c = TRUE), AND(Happy__c = TRUE,  Sad__c = TRUE), AND(Neutral__c = TRUE, Sad__c = TRUE))</errorConditionFormula>
+    <errorMessage>A Focus Point can only have one level of satisfaction.  Please select only one.</errorMessage>
+</ValidationRule>

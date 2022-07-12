@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;color:black;
+mso-ansi-language:FR">Bonjour {{{Case.Tourist__c}}},</span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;color:black;
+mso-ansi-language:FR">Merci pour votre message.</span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;color:black;
+mso-ansi-language:FR">Je voudrais vous informer que j'ai mis à jour les détails de votre carte de crédit et que votre remboursement a été ajouté au prochain cycle de paiement. Par conséquent, le remboursement devrait apparaître sur votre relevé bancaire de mois de juin / juillet.</span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Si vous avez besoin d'aide supplémentaire, veuillez-nous en informer.</span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Bien cordialement.</span></p>
+
+</body></html>

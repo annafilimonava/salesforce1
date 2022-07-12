@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Footfall__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Footfall_Total__c &lt;= 15, Footfall_Total__c &gt; 0), 
+IMAGE(&quot;/servlet/servlet.FileDownload?file=01524000004lpcl&quot;, &quot;Red&quot;,25, 25), 
+IF(AND(Footfall_Total__c &lt;= 25, Footfall_Total__c &gt; 15), IMAGE(&quot;/servlet/servlet.FileDownload?file=01524000004lpcq&quot;, &quot;Amber&quot;,25, 25), 
+IF(Footfall_Total__c &gt; 25, IMAGE(&quot;/servlet/servlet.FileDownload?file=01524000004lpcv&quot;, &quot;Green&quot;,25, 25), IMAGE(&quot;/servlet/servlet.FileDownload?file=0151o000005ZuOI&quot;, &quot;No Status&quot;, 25, 25))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Footfall</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

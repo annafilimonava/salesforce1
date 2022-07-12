@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">Dear {{{Case.Tourist__c}}}, </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">&nbsp; </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">Thank you for your email.<span style="mso-spacerun:yes">&nbsp; </span> </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow">The reason your account was debited was because we had received your Tax Free form {{{Case.Tax_Free_Form__c}}} without a Custom stamp. Upon receiving your cash refund you have signed a declaration authorizing Planet to debit your card if we did not receive your Customs stamped Tax Free form within the agreed period. </span></p>
+
+<p class="MsoPlainText">&nbsp;</p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;color:windowtext">It is tourist’s responsibility to obtain the Customs approval for the region and unfortunately without it we are not able to accept the form.&nbsp;Can you please specify any problems you faced while completing the process?</span></p>
+
+</body></html>

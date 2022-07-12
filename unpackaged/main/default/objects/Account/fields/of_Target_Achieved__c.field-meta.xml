@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>of_Target_Achieved__c</fullName>
+    <description>Field Used by Planet Payment Americas</description>
+    <externalId>false</externalId>
+    <formula>IF(FY_Budget_Gross_Profit__c &gt; 0, Run_Rate_Gross_Profit__c / FY_Budget_Gross_Profit__c, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>% of Target Achieved</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_Opportunity</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+TEXT(StageName) = &quot;Proposal Lost&quot; , 
+TEXT(Reason_for_Loss__c) = &quot;&quot;,
+ISBLANK( Parent_Opportunity__c ),
+TEXT(LeadSource) &lt;&gt; &quot;Hoist&quot;
+)</errorConditionFormula>
+    <errorDisplayField>Reason_for_Loss__c</errorDisplayField>
+    <errorMessage>Please enter the Reason for Loss.</errorMessage>
+</ValidationRule>

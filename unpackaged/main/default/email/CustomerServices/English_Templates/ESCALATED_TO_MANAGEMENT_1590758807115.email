@@ -1,0 +1,26 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow"><span style="mso-spacerun:yes">&nbsp;</span> 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Thank you for your mail.<span style="mso-spacerun:yes">&nbsp; </span> 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow"><span style="mso-spacerun:yes">&nbsp;</span> 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">I have escalated your case to management on your behalf.<span style="mso-spacerun:yes">&nbsp; </span>I have queried as to whether we can honour the scanned images you have provided. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow"><span style="mso-spacerun:yes">&nbsp;</span> 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Please be aware, I cannot guarantee they will be honoured.<span style="mso-spacerun:yes">&nbsp; </span>Once I have confirmation on the matter from management I will reply to you to advise you further. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow"><span style="mso-spacerun:yes">&nbsp;</span> 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Thank you for your patience so far.</span></p>
+ </body>
+</html>

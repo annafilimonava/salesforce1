@@ -1,0 +1,5 @@
+<font face="arial" size=2>
+Account ID: {!POS_Solution__c.Account_ID__c}<br>
+Account Owner: {!POS_Solution__c.Account_Owner_Text__c}<br>
+<br>
+{!POS_Solution__c.Link}

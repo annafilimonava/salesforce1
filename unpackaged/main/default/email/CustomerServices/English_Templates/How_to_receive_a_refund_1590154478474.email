@@ -1,0 +1,33 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">Thank you for your email. </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">To receive a refund, you must ask the store assistant for a Planet Tax Free form when purchasing your goods and follow the below steps afterwards:<br /> <br /> 1. Complete the Tax Free form in-store. </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">2. Upon exiting the country of purchase or the European Union, present your purchased goods, passport, store receipts and Planet Tax Free form to Customs whereby you will have your form stamped or scanned. Please be aware that without the Customs stamp we will not be able to provide you with the refund. </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">With Planet you have many ways to receive your Tax refund.&nbsp;<br /> <br /> 1) You may send your stamped Tax Free form to us in one of our self-addressed prepaid envelopes (available at point of sale when purchasing your goods) for a refund directly to your credit card or Alipay </span></p> 
+  <p class="MsoNormal"><br /> <span lang="EN-IE" style="font-family:Barlow">2) You may present your stamped Tax Free form to one of our many cash </span><a href="https://www.planetpayment.com/en/refund-locations/"><span lang="EN-IE" style="font-family:Barlow">refund locations</span></a> <span lang="EN-IE" style="font-family:Barlow"> throughout the world for an instant cash refund. Please consult our list of Cash Refund Locations </span><a href="https://www.planetpayment.com/en/refund-locations/"><span lang="EN-IE" style="font-family:Barlow">here</span></a><span lang="EN-IE" style="font-family:Barlow">.</span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">If you are not in the possession of one of our prepaid envelopes, please send your customs approved Tax Free forms to our main processing centre. Address below: </span></p> 
+  <p class="MsoNormal" style="text-indent:36.0pt"><i><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></i></p> 
+  <p class="MsoNormal"><span lang="EN-GB" style="font-family:Barlow;mso-ansi-language:
+EN-GB;mso-bidi-font-weight:bold">PLANET PAYMENT </span></p> 
+  <p class="MsoNormal"><span lang="EN-GB" style="font-family:Barlow;mso-ansi-language:
+EN-GB;mso-bidi-font-weight:bold">ul. DOMANIEWSKA 39 </span></p> 
+  <p class="MsoNormal"><span lang="EN-GB" style="font-family:Barlow;mso-ansi-language:
+EN-GB;mso-bidi-font-weight:bold">WARSZAWA </span></p> 
+  <p class="MsoNormal"><span lang="EN-GB" style="font-family:Barlow;mso-ansi-language:
+EN-GB;mso-bidi-font-weight:bold">POLAND </span></p> 
+  <p class="MsoNormal"><span lang="EN-GB" style="font-family:Barlow;mso-ansi-language:
+EN-GB;mso-bidi-font-weight:bold">02-672 </span></p> 
+  <p class="MsoNormal"><span lang="EN-GB" style="font-family:Barlow;mso-ansi-language:
+EN-GB">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Should you require further assistance, please do not hesitate to contact us. </span></p>
+ </body>
+</html>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Indirect_Opportunities_MK</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>OPPORTUNITY_SCORE</columns>
+    <columns>Total_Opportunity_Volume__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Count_of_Partners__c</field>
+        <operation>greaterThan</operation>
+        <value>1</value>
+    </filters>
+    <label>Indirect Opportunities</label>
+    <sharedTo>
+        <role>Indirect_Management</role>
+    </sharedTo>
+</ListView>

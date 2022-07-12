@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brands_Locations_PAX</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Quantity_PAX__c &lt;= 10, Quantity_PAX__c &gt; 0,  ISBLANK(Shop_Brand_Location__c))</errorConditionFormula>
+    <errorDisplayField>Shop_Brand_Location__c</errorDisplayField>
+    <errorMessage>Please enter the brands and locations of the shops.</errorMessage>
+</ValidationRule>

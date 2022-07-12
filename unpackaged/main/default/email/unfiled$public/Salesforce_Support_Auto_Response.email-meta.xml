@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Response to Salesforce Support email-to-case</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Salesforce Support Auto Response</name>
+    <style>none</style>
+    <subject>Salesforce Support Auto Response</subject>
+    <textOnly>This Salesforce support ticketing account is no longer in use.  Please raise a JIRA ticket:
+
+https://planet.atlassian.net/servicedesk/customer/portal/98</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

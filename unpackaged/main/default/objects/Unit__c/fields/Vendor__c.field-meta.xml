@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor__c</fullName>
+    <externalId>false</externalId>
+    <label>Vendor</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hemisphere</fullName>
+                <default>false</default>
+                <label>HEMISPHERE</label>
+            </value>
+            <value>
+                <fullName>PAX Technologies</fullName>
+                <default>false</default>
+                <label>PAX Technologies</label>
+            </value>
+            <value>
+                <fullName>Worldine</fullName>
+                <default>false</default>
+                <label>Worldine</label>
+            </value>
+            <value>
+                <fullName>Verifone</fullName>
+                <default>false</default>
+                <label>Verifone</label>
+            </value>
+            <value>
+                <fullName>Ingenico</fullName>
+                <default>false</default>
+                <label>Ingenico</label>
+            </value>
+            <value>
+                <fullName>Secure Retail</fullName>
+                <default>false</default>
+                <label>SECURE RETAIL</label>
+            </value>
+            <value>
+                <fullName>Planet POS</fullName>
+                <default>false</default>
+                <label>Planet POS</label>
+            </value>
+            <value>
+                <fullName>3C Payment UK LTD</fullName>
+                <default>false</default>
+                <label>3C Payment UK LTD</label>
+            </value>
+            <value>
+                <fullName>3C Payment Luxembourg SA</fullName>
+                <default>false</default>
+                <label>3C Payment Luxembourg SA</label>
+            </value>
+            <value>
+                <fullName>3C Payment USA Corp</fullName>
+                <default>false</default>
+                <label>3C Payment USA Corp</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

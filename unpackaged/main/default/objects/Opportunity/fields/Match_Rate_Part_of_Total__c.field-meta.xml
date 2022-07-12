@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Match_Rate_Part_of_Total__c</fullName>
+    <externalId>false</externalId>
+    <formula>TF_Match_Rate__c * ( TF_Annual_Vouchers__c /  Parent_Opportunity__r.All_Forms__c )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Match Rate % Part of Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

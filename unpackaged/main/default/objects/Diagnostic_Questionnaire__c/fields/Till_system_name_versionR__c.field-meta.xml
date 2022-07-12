@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Till_system_name_versionR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Till_system_application_name__c) = &quot;CBR&quot;, 1,
+IF(TEXT(Till_system_application_name__c) = &quot;Colombus&quot;, 1,
+IF(TEXT(Till_system_application_name__c) = &quot;Winshop&quot;, 2,
+IF(TEXT(Till_system_application_name__c) = &quot;Retail Java POS&quot;, 3,
+IF(TEXT(Till_system_application_name__c) = &quot;Retail Pro&quot;, 3,
+IF(TEXT(Till_system_application_name__c) = &quot;Sage&quot;, 4,
+IF(TEXT(Till_system_application_name__c) = &quot;Own System&quot;, 5, 0)))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Till system name versionR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

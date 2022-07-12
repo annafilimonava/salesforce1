@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manufacturer__c</fullName>
+    <description>Field to capture Manufacturer of Item - Dane&#39;s Request - Saurabh 15/03/2022</description>
+    <externalId>false</externalId>
+    <formula>IF( CONTAINS( TEXT(Item__c) , &#39;PAX&#39;) , &#39;PAX&#39;,
+IF( CONTAINS( TEXT(Item__c) , &#39;US - P400&#39;) , &#39;PAX&#39;,
+IF( CONTAINS( TEXT(Item__c) , &#39;US - A920&#39;) , &#39;PAX&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;WORLDLINE&#39;) , &#39;WORLDLINE&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;INGENICO&#39;) , &#39;INGENICO&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;Ingenico Lane&#39;) , &#39;INGENICO&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;YOMANI COMPACT US P2PE&#39;) , &#39;WORLDLINE&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;VERIFONE&#39;) , &#39;VERIFONE&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;YOMANI&#39;) , &#39;WORLDLINE&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;XENTEO&#39;) , &#39;WORLDLINE&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;YOXIMO&#39;) , &#39;WORLDLINE&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;XENOA&#39;) , &#39;WORLDLINE&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;YONEO&#39;) , &#39;WORLDLINE&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;Worldline&#39;) , &#39;WORLDLINE&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;VX&#39;) , &#39;VERIFONE&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;Verifone&#39;) , &#39;VERIFONE&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;E355&#39;) , &#39;VERIFONE&#39;,
+(IF( CONTAINS( TEXT(Item__c) , &#39;Yoximo P2PE 4G&#39;) , &#39;WORLDLINE&#39;,
+&#39;No Manufacturer Found&#39;)))))))))))))))))))))))))))))))))</formula>
+    <label>Manufacturer</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

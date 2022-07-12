@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hit_Rate_Part_of_Total__c</fullName>
+    <externalId>false</externalId>
+    <formula>DCC_Hit_Rate__c * (DCC_Annual_Eligible_Transactions__c /  Parent_Opportunity__r.All_Annual_Eligible_Transactions__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Hit Rate Part of Total</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

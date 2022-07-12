@@ -1,0 +1,15 @@
+<html> 
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;"> 
+  <img alt="Planet Logo_BLACK (1)" src="{[devName:Planet_Logo_BLACK_1]}" style="max-width: 590.14px; width: 222.137px; height: 50px;" title="Planet Logo_BLACK (1)" /> 
+  <br /> 
+  <br /> 
+  <br /> <span style="font-family:&quot;Barlow Light&quot;">Estimado/a {{{Recipient.FirstName}}}<br /> <br /> Deseamos informarle sobre las modificaciones que están introduciendo las compañías de tarjetas de crédito que afectan al procedimiento de reembolso de impuestos.<br /> <br /> A partir de este mes, será <b>obligatorio introducir la fecha de vencimiento de la tarjeta de crédito en las facturas Tax Free</b>. Este cambio, efectivo en sus sistemas desde el 16 de septiembre,&nbsp; es imprescindible para que los compradores continúen recibiendo el reembolso del IVA.<br /> <br /> <b>No se procesará ningún reembolso posterior al 16 de septiembre sin la fecha de vencimiento de la tarjeta de crédito</b>, por lo que es esencial que la introduzcamos en las facturas.<br /> Por ello, haremos un pequeño cambio en el proceso que usted y sus compradores deberán seguir:</span> 
+  <ul> 
+   <li><span style="font-family:&quot;Barlow Light&quot;">Para los formularios Tax Free&nbsp;que se completan manualmente, hemos agregado un lugar en el formulario para incluir la fecha de vencimiento de la tarjeta de crédito. Usted o sus compradores deberán asegurarse de que esta fecha se agregue al formulario.</span></li> 
+   <li><span style="font-family:&quot;Barlow Light&quot;">Para los formularios&nbsp; Tax Free que se generan de forma automática, el campo se actualizará para asegurarse de que los detalles de la tarjeta de crédito se capturen automáticamente. En este caso usted y sus compradores no necesitan hacer nada, ya que se registrará la fecha de vencimiento de la tarjeta.</span></li> 
+  </ul> <span style="font-family:&quot;Barlow Light&quot;">Esperamos que entienda el alcance e importancia de este cambio y si tiene alguna pregunta, no dude en ponerse en contacto conmigo mismo o con un miembro del equipo.<br /> <br /> Atentamente,&nbsp;<br /> <br /> Jorge Esteban, director general de Planet Spain</span> 
+ </body>
+</html>

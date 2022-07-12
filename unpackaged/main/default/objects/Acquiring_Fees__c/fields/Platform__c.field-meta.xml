@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Platform__c</fullName>
+    <externalId>false</externalId>
+    <label>Platform</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Setup__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>POS/Online PBL</fullName>
+                <default>false</default>
+                <label>POS/Online PBL</label>
+            </value>
+            <value>
+                <fullName>POS</fullName>
+                <default>false</default>
+                <label>POS</label>
+            </value>
+            <value>
+                <fullName>Online PBL</fullName>
+                <default>false</default>
+                <label>Online PBL</label>
+            </value>
+            <value>
+                <fullName>Online Cybersource</fullName>
+                <default>false</default>
+                <label>Online Cybersource</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Stand Alone</controllingFieldValue>
+            <controllingFieldValue>Integrated</controllingFieldValue>
+            <controllingFieldValue>All</controllingFieldValue>
+            <valueName>POS/Online PBL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>All</controllingFieldValue>
+            <valueName>POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>All</controllingFieldValue>
+            <valueName>Online PBL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>All</controllingFieldValue>
+            <valueName>Online Cybersource</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

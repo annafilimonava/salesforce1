@@ -1,0 +1,29 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  Добрый день, 
+  <br /> 
+  <br /> Спасибо за Ваше письмо. 
+  <br /> 
+  <br /> Возврат наличными Вы можете получить в одном из наших пунктов возврата 
+  <a href="https://www.planetpayment.com/en/refund-locations/">https://www.planetpayment.com/en/refund-locations/</a> &nbsp; 
+  <br /> 
+  <br /> Если Вы хотите получить возврат на карту, Вы можете прислать форму Tax Free&nbsp;{{{Case.Tax_Free_Form_Id__c}}} с отметкой таможни и оригиналами чеков в наш главный офис: 
+  <br /> 
+  <br /> PLANET 
+  <br /> ul. DOMANIEWSKA 39 
+  <br /> WARSZAWA 
+  <br /> POLAND&nbsp; 
+  <br /> 02-672 
+  <br /> 
+  <br /> Чтобы гарантировать доставку, рекомендуем послать заказным письмом.&nbsp; 
+  <br /> 
+  <br /> Для возврата на кредитную карту, укажите номер действующей карты.&nbsp; 
+  <br /> 
+  <br /> Также рекомендуем сделать копии всех документов и хранить до получения возмещения. 
+  <br /> 
+  <br /> С уважением,
+ </body>
+</html>

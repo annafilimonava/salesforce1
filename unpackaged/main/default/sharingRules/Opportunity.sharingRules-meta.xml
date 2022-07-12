@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>France_DCC_Opps</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>France DCC Opps</label>
+        <sharedTo>
+            <group>France_DCC</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Opportunity_Country__c</field>
+            <operation>equals</operation>
+            <value>France</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Nathalie_s_Ops</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Nathalie&#39;s Ops</label>
+        <sharedTo>
+            <role>France_Sales_Support</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>equals</operation>
+            <value>00524000001CpFE</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>New_Business_Opportunities</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>New Business Opportunities</label>
+        <sharedTo>
+            <group>New_Business</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>StageName</field>
+            <operation>notEqual</operation>
+            <value>Proposal Signed</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Payments_PT</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Payments PT</label>
+        <sharedTo>
+            <group>Payments_Team_PT</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>Opportunity_Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>Portugal</value>
+        </criteriaItems>
+        <includeRecordsOwnedByAll>false</includeRecordsOwnedByAll>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>Opportunities_Spain</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Opportunities Spain</label>
+        <sharedTo>
+            <role>Customer_Service_ES</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Spain_Management</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_Support_DE</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>POS Support DE</label>
+        <sharedTo>
+            <group>POS_Support_Germany</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Germany_Management</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

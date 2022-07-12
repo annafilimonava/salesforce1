@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Planet_Services_Migration_3</fullName>
+    <booleanFilter>(1 OR 2 OR 3 OR 4 OR 5) AND 6</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_ID__c</columns>
+    <columns>Position__c</columns>
+    <columns>Inactive__c</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account.Account_ID__c</field>
+        <operation>equals</operation>
+        <value>IT160260,IT160283,IT160301,IT160313,IT160337,IT160349,IT160350,IT160362,IT160374,IT160386,IT160416,IT160430,IT160441,IT160453,IT160465,IT160477,IT160489,IT160490,IT160507,IT160519,IT160520,IT160532,IT160544,IT160556,IT160568</value>
+    </filters>
+    <filters>
+        <field>Account.Account_ID__c</field>
+        <operation>equals</operation>
+        <value>IT160570,IT160581,IT160593,IT160600,IT160611,IT160623,IT160635,IT160660,IT160672,IT160684,IT160696,IT160702,IT160726,IT160738,IT160740,IT160751,IT160763,IT160787,IT160799,IT160805,IT160817,IT160829,IT160830,IT160842,IT160854</value>
+    </filters>
+    <filters>
+        <field>Account.Account_ID__c</field>
+        <operation>equals</operation>
+        <value>IT160866,IT160878</value>
+    </filters>
+    <filters>
+        <field>Account.Account_ID__c</field>
+        <operation>equals</operation>
+        <value>IT153205,IT153230,IT153266,IT153345,IT153382,IT153436,IT153448,IT153497,IT153552,IT153643,IT153710,IT153722,IT153734,IT153746,IT153813,IT153837,IT153904,IT153928,IT153965,IT154064,IT154192,IT154246,IT154260,IT154337,IT154362</value>
+    </filters>
+    <filters>
+        <field>Account.Account_ID__c</field>
+        <operation>equals</operation>
+        <value>IT159943,IT159967,IT159980,IT159992,IT160003,IT160015,IT160039,IT160040,IT160052,IT160064,IT160088,IT160090,IT160106,IT160118,IT160120,IT160143,IT160155,IT160179,IT160180,IT160192,IT160209,IT160210,IT160222,IT160246,IT160258</value>
+    </filters>
+    <filters>
+        <field>Inactive__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>Planet Services Migration 3</label>
+</ListView>

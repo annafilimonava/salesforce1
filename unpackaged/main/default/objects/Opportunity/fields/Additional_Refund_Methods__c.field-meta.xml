@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Refund_Methods__c</fullName>
+    <externalId>false</externalId>
+    <label>Additional Refund Methods</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>TF_Proposed_Solution__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TOPOS</fullName>
+                <default>false</default>
+                <label>TOPOS</label>
+            </value>
+            <value>
+                <fullName>Alipay Standard Refund</fullName>
+                <default>false</default>
+                <label>Alipay Standard Refund</label>
+            </value>
+            <value>
+                <fullName>Alipay Instant Store</fullName>
+                <default>false</default>
+                <label>Alipay Instant Store</label>
+            </value>
+            <value>
+                <fullName>Fast Refund Store</fullName>
+                <default>false</default>
+                <label>Fast Refund Store</label>
+            </value>
+            <value>
+                <fullName>CTrip Pass</fullName>
+                <default>false</default>
+                <label>CTrip Pass</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Kiosk Cash Machine</controllingFieldValue>
+            <controllingFieldValue>PI (AX Integration)</controllingFieldValue>
+            <controllingFieldValue>PA - VAT Only Offline</controllingFieldValue>
+            <controllingFieldValue>PA - VAT Only Online</controllingFieldValue>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>POL</controllingFieldValue>
+            <controllingFieldValue>PA via Distribution Channel</controllingFieldValue>
+            <controllingFieldValue>eTF</controllingFieldValue>
+            <controllingFieldValue>POL Pro</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <controllingFieldValue>PT</controllingFieldValue>
+            <controllingFieldValue>PT PAX</controllingFieldValue>
+            <controllingFieldValue>Kiosk</controllingFieldValue>
+            <controllingFieldValue>PI (Elavon)</controllingFieldValue>
+            <valueName>TOPOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kiosk Cash Machine</controllingFieldValue>
+            <controllingFieldValue>PI (AX Integration)</controllingFieldValue>
+            <controllingFieldValue>PA - VAT Only Offline</controllingFieldValue>
+            <controllingFieldValue>PA - VAT Only Online</controllingFieldValue>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>POL</controllingFieldValue>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <controllingFieldValue>PA via Distribution Channel</controllingFieldValue>
+            <controllingFieldValue>eTF</controllingFieldValue>
+            <controllingFieldValue>POL Pro</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <controllingFieldValue>PT</controllingFieldValue>
+            <controllingFieldValue>PT PAX</controllingFieldValue>
+            <controllingFieldValue>Kiosk</controllingFieldValue>
+            <controllingFieldValue>PI (Elavon)</controllingFieldValue>
+            <valueName>Alipay Standard Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kiosk Cash Machine</controllingFieldValue>
+            <controllingFieldValue>PI (AX Integration)</controllingFieldValue>
+            <controllingFieldValue>PA - VAT Only Online</controllingFieldValue>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>POL</controllingFieldValue>
+            <controllingFieldValue>PA via Distribution Channel</controllingFieldValue>
+            <controllingFieldValue>eTF</controllingFieldValue>
+            <controllingFieldValue>POL Pro</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <controllingFieldValue>Kiosk</controllingFieldValue>
+            <controllingFieldValue>PI (Elavon)</controllingFieldValue>
+            <valueName>Fast Refund Store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kiosk Cash Machine</controllingFieldValue>
+            <controllingFieldValue>PI (AX Integration)</controllingFieldValue>
+            <controllingFieldValue>PA - VAT Only Offline</controllingFieldValue>
+            <controllingFieldValue>PA - VAT Only Online</controllingFieldValue>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>POL</controllingFieldValue>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <controllingFieldValue>PA via Distribution Channel</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <controllingFieldValue>PT</controllingFieldValue>
+            <controllingFieldValue>PT PAX</controllingFieldValue>
+            <controllingFieldValue>Kiosk</controllingFieldValue>
+            <controllingFieldValue>PI (Elavon)</controllingFieldValue>
+            <valueName>CTrip Pass</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Kiosk Cash Machine</controllingFieldValue>
+            <controllingFieldValue>Voucher Card Update (VCU)</controllingFieldValue>
+            <controllingFieldValue>PI (AX Integration)</controllingFieldValue>
+            <controllingFieldValue>PA - VAT Only Offline</controllingFieldValue>
+            <controllingFieldValue>PA - VAT Only Online</controllingFieldValue>
+            <controllingFieldValue>PD</controllingFieldValue>
+            <controllingFieldValue>PC</controllingFieldValue>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>POL</controllingFieldValue>
+            <controllingFieldValue>Manual</controllingFieldValue>
+            <controllingFieldValue>PA via Distribution Channel</controllingFieldValue>
+            <controllingFieldValue>Tokenisation Terminals</controllingFieldValue>
+            <controllingFieldValue>eTF</controllingFieldValue>
+            <controllingFieldValue>POL Pro</controllingFieldValue>
+            <controllingFieldValue>PII</controllingFieldValue>
+            <controllingFieldValue>PT</controllingFieldValue>
+            <controllingFieldValue>PT PAX</controllingFieldValue>
+            <controllingFieldValue>Kiosk</controllingFieldValue>
+            <controllingFieldValue>PI (Elavon)</controllingFieldValue>
+            <controllingFieldValue>Tour Operator Management</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PI (AX Integration)</controllingFieldValue>
+            <controllingFieldValue>PA - VAT Only Online</controllingFieldValue>
+            <controllingFieldValue>PI</controllingFieldValue>
+            <controllingFieldValue>POL</controllingFieldValue>
+            <controllingFieldValue>PA via Distribution Channel</controllingFieldValue>
+            <controllingFieldValue>PI (Elavon)</controllingFieldValue>
+            <valueName>Alipay Instant Store</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

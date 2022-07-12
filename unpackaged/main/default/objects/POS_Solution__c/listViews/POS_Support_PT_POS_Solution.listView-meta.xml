@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_Support_PT_POS_Solution</fullName>
+    <columns>Account_ID__c</columns>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Street__c</columns>
+    <columns>Product__c</columns>
+    <columns>Solution__c</columns>
+    <columns>Terminal__c</columns>
+    <columns>Base_Station__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Solution__c</field>
+        <operation>equals</operation>
+        <value>POL</value>
+    </filters>
+    <label>POS Support PT</label>
+    <queue>POS_Support_PT</queue>
+    <sharedTo>
+        <role>POS_Support_PT</role>
+    </sharedTo>
+</ListView>

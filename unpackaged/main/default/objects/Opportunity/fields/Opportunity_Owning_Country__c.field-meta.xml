@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunity_Owning_Country__c</fullName>
+    <defaultValue>IF($User.Country = &quot;United Kingdom&quot;, &quot;United Kingdom&quot;, 
+IF($User.Country = &quot;Austria&quot;, &quot;Austria&quot;, 
+IF($User.Country = &quot;Belgium&quot;, &quot;Belgium&quot;, 
+IF($User.Country = &quot;Czech Republic&quot;, &quot;Czech Republic&quot;, 
+IF($User.Country = &quot;Denmark&quot;, &quot;Denmark&quot;, 
+IF($User.Country = &quot;Finland&quot;, &quot;Finland&quot;, 
+IF($User.Country = &quot;France&quot;, &quot;France&quot;, 
+IF($User.Country = &quot;Germany&quot;, &quot;Germany&quot;, 
+IF($User.Country = &quot;Greece&quot;, &quot;Greece&quot;, 
+IF($User.Country = &quot;Hungary&quot;, &quot;Hungary&quot;, 
+IF($User.Country = &quot;Iceland&quot;, &quot;Iceland&quot;, 
+IF($User.Country = &quot;Ireland&quot;, &quot;Ireland&quot;, 
+IF($User.Country = &quot;Italy&quot;, &quot;Italy&quot;, 
+IF($User.Country = &quot;Korea, Republic of&quot;, &quot;Korea, Republic of&quot;, 
+IF($User.Country = &quot;Poland&quot;, &quot;Poland&quot;, 
+IF($User.Country = &quot;Portugal&quot;, &quot;Portugal&quot;, 
+IF($User.Country = &quot;Singapore&quot;, &quot;Singapore&quot;, 
+IF($User.Country = &quot;Spain&quot;, &quot;Spain&quot;, 
+IF($User.Country = &quot;Sweden&quot;, &quot;Sweden&quot;, 
+IF($User.Country = &quot;Turkey&quot;, &quot;Turkey&quot;,
+IF($User.Country = &quot;Switzerland&quot;, &quot;Switzerland&quot;, null)))))))))))))))))))))</defaultValue>
+    <externalId>false</externalId>
+    <label>Opportunity Owning Country</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>Owning_Country</valueSetName>
+    </valueSet>
+</CustomField>

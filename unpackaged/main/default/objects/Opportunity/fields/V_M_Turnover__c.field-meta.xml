@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>V_M_Turnover__c</fullName>
+    <externalId>false</externalId>
+    <formula>(VISA_MC_Intl_of_Total__c + VISA_MC_Domestic_EEA_of_Total__c) *  Payments_Annual_Value__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>V/M Turnover</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

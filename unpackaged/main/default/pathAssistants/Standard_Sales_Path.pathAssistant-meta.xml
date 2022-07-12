@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Opportunity</entityName>
+    <fieldName>StageName</fieldName>
+    <masterLabel>Standard Sales Path</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Currently in this stage:&lt;/strong&gt; the Prospect has been “pre-qualified” but needs to be contacted&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;To move to the next stage:&lt;/strong&gt; Prospect must be qualified&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Prospect buying journey:&lt;/strong&gt; may or may not be aware of Planet and its services&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Note:&lt;/strong&gt; stage is for deals not ‘actively’ managed --&amp;gt; not pursuing a contract signature in the near future&lt;/p&gt;</info>
+        <picklistValueName>Opportunity Recorded</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <fieldNames>Lost_To__c</fieldNames>
+        <fieldNames>Reason_for_Loss__c</fieldNames>
+        <fieldNames>CloseDate</fieldNames>
+        <picklistValueName>Proposal Lost</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Currently in this stage:&lt;/strong&gt; Finalize commercial proposal; draft relevant contract for signing&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;To move to the next stage:&lt;/strong&gt; obtain contract signature&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Prospect buying journey:&lt;/strong&gt; making final decision and signing contract&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Proposal Submitted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Currently in this stage:&lt;/strong&gt; the Prospect has been qualified and Planet is actively pursuing a contract signature&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;To move to the next stage:&lt;/strong&gt; complete discovery session and present value proposition&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Prospect buying journey:&lt;/strong&gt; shown interest in Planet or its competition&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Prospect Qualified</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Currently in this stage:&lt;/strong&gt; Value proposition presented, further tailoring of solution to business needs&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;To move to the next stage: &lt;/strong&gt;present initial proposal for services, including approved pricing&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;font-size: 13px;&quot;&gt;Prospect buying journey:&lt;/strong&gt; exploring Planet solutions or its alternatives&lt;/li&gt;&lt;/ul&gt;</info>
+        <picklistValueName>Value Proposition Presented</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>__MASTER__</recordTypeName>
+</PathAssistant>

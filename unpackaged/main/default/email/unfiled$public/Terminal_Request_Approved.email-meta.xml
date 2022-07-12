@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Terminal Request Approved</name>
+    <style>none</style>
+    <subject>Terminal Request Approved</subject>
+    <textOnly>The terminal request has been approved.
+
+
+Parent Account: {!Terminal_Request__c.Parent_Account__c}
+
+Shop Brand and Location: {!Terminal_Request__c.Shop_Brand_Location__c}
+
+Number of Vx Terminals: {!Terminal_Request__c.Quantity_Vx__c}
+
+Number of PAX Terminals: {!Terminal_Request__c.Quantity_PAX__c}
+
+You may view the record by clicking here -&gt;{!Terminal_Request__c.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

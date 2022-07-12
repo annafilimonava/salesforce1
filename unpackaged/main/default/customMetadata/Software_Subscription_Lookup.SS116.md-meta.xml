@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>SS116</label>
+    <protected>false</protected>
+    <values>
+        <field>Amount__c</field>
+        <value xsi:type="xsd:double">18000.0</value>
+    </values>
+    <values>
+        <field>Max__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Min__c</field>
+        <value xsi:nil="true"/>
+    </values>
+    <values>
+        <field>Options__c</field>
+        <value xsi:type="xsd:string">Gold</value>
+    </values>
+    <values>
+        <field>Product__c</field>
+        <value xsi:type="xsd:string">SUPPORT</value>
+    </values>
+    <values>
+        <field>Rate__c</field>
+        <value xsi:type="xsd:double">6.0</value>
+    </values>
+</CustomMetadata>

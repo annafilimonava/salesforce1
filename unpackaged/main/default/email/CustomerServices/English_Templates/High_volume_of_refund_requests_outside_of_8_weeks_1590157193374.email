@@ -1,0 +1,18 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Thank you for your mail. </span></p> 
+  <p class="MsoNormal" style="text-indent:36.0pt"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">We are currently experiencing a high volume of refund requests and therefore processing Tax Free forms can take longer than the outlined period of 6-8 weeks. </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">I have checked our database and to date we have not received your Tax Free form {{{Case.Tax_Free_Form__c}}}. As soon as we receive it, we will process it accordingly. </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">This may take additional 3-4 weeks, therefore I would like to ask you for some additional patience. Once the above-mentioned period passes, please contact us once again for an update. </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Thank you for your continued patience and apologies for the delay in the process.</span></p>
+ </body>
+</html>

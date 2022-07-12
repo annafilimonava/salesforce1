@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Revenue_Optimisation_Subtotal__c</fullName>
+    <externalId>false</externalId>
+    <formula>TF_Provider_Provides_TrainingR__c +  What_do_they_cover_in_the_trainingR__c +  How_OftenR__c +  What_is_your_level_of_Staff_TurnoverR__c +  World_Class_Tourist_Customer_ExperienceR__c +  Historic_Sales_ReportsR__c +  Importance_of_Tax_Free_UnderstoodR__c +  Weekly_Growth_Model_RitualsR__c +  Staff_RecognitionR__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Revenue Optimisation Subtotal</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

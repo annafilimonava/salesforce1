@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Cardtronics</fullName>
+        <default>false</default>
+        <label>Cardtronics</label>
+    </customValue>
+    <customValue>
+        <fullName>ConCardis</fullName>
+        <default>false</default>
+        <label>ConCardis</label>
+    </customValue>
+    <customValue>
+        <fullName>Euronet</fullName>
+        <default>false</default>
+        <label>Euronet</label>
+    </customValue>
+    <customValue>
+        <fullName>Fexco</fullName>
+        <default>false</default>
+        <label>Fexco</label>
+    </customValue>
+    <customValue>
+        <fullName>Fintrax</fullName>
+        <default>false</default>
+        <label>Fintrax</label>
+    </customValue>
+    <customValue>
+        <fullName>First Data</fullName>
+        <default>false</default>
+        <label>First Data</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Blue/Currency Select</fullName>
+        <default>false</default>
+        <label>Global Blue/Currency Select</label>
+    </customValue>
+    <customValue>
+        <fullName>MONEX Financial Services</fullName>
+        <default>false</default>
+        <label>MONEX Financial Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Planet Payment</fullName>
+        <default>false</default>
+        <label>Planet Payment</label>
+    </customValue>
+    <customValue>
+        <fullName>Redsys</fullName>
+        <default>false</default>
+        <label>Redsys</label>
+    </customValue>
+    <customValue>
+        <fullName>SIX</fullName>
+        <default>false</default>
+        <label>SIX</label>
+    </customValue>
+    <customValue>
+        <fullName>Travelex</fullName>
+        <default>false</default>
+        <label>Travelex</label>
+    </customValue>
+    <masterLabel>DCC Providers</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

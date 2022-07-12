@@ -1,0 +1,1 @@
+<font face="calibri">The Account Plan on account, <b>{!Merchant_Account_Plan__c.Account__c}</b>, has not been updated in 30 days or more and requires updating.  To update the account plan please click here <b>{!Merchant_Account_Plan__c.Link}</b>.

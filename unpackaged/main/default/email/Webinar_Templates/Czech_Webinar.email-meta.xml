@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Planet</letterhead>
+    <name>Czech Webinar</name>
+    <style>formalLetter</style>
+    <subject>Webinar Invitation</subject>
+    <textOnly>Nyní, když se cestování pomalu vrací do našich životů a dle informací z trhu začínají EU ve větší míře navštěvovat Israelci, rádi bychom Vám, našich obchodním partnerů, pomohli využít této příležitosti.
+
+Naše společnost Planet by Vás ráda pozvala k účasti na webináři, během kterého bychom představili následující témata:
+
+
+Chování a návyky při návštěvě a nakupování u Vás v obchodě
+Jak zvýšit konverzní poměr a průměrnou hodnotu transakce při prodeji zákazníkům
+
+- Vývoj cesty od pozdravu k uzavření
+
+- Jak prodávat doplňky israelským zákazníkům
+
+- Jak budovat a vytvářet trvalý vztah se zákazníky
+
+
+Představíme také hlavní cestovní trendy pro poslední měsíce roku.
+
+
+Těšíme se na Vás 25. listopadu 2021 v 10 hod.
+
+
+Zaregistrujte se zde: https://attendee.gotowebinar.com/register/761643118192263439
+
+
+Dotazy zasílejte na e-mail: josef.vondrak@planetpayment.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

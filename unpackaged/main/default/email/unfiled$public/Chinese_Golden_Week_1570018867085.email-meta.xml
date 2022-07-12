@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Salve, vi ricordiamo che il China National Day (October Golden Week, 1-7 Ottobre) è ormai arrivato! Un’intera settimana di vacanza e la più alta stagione di turismo per i cinesi.  Milioni di turisti cinesi saranno in vacanza in questo periodo e quindi sarà una grande opportunità per massimizzare le vendite.  In allegato una piccola guida per comprendere le preferenze e le esigenze dei clienti cinesi e individuare le opportunità chiave per coinvolgerli in un’esperienza d’acquisto unica.  Buona October Golden Week a tutti!  Planet Payment Italy</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Chinese Golden Week</name>
+    <relatedEntityType>Contact</relatedEntityType>
+    <style>none</style>
+    <subject>Chinese Golden Week</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Date_This_Month_And_Year</fullName>
+    <active>false</active>
+    <description>Restrict Contract Signed With Close Date In The Past</description>
+    <errorConditionFormula>AND(
+ISPICKVAL( StageName , &#39;Contract Signed&#39;),
+CloseDate &lt; TODAY(),
+NOT(CONTAINS($Profile.Name ,&quot;Admin&quot;)),
+NOT($Profile.Name = &quot;Management GB&quot;),
+NOT($Profile.Name = &quot;Management&quot;),
+NOT($Profile.Name = &quot;Management RM&quot;),
+NOT($Profile.Name = &quot;Management FR&quot;),
+OR(
+YEAR(CloseDate) &lt;&gt; YEAR(TODAY()),
+MONTH(CloseDate)&lt;&gt; MONTH(TODAY())
+)
+)</errorConditionFormula>
+    <errorMessage>Close Date must be in current month and year when moving opportunity to Closed Won / Contract Signed</errorMessage>
+</ValidationRule>

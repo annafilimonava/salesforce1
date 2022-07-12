@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_Support</fullName>
+    <active>true</active>
+    <businessProcess>POS Support</businessProcess>
+    <label>POS Support</label>
+    <picklistValues>
+        <picklist>Additional_Resolution__c</picklist>
+        <values>
+            <fullName>12-16 Weeks Advice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6-8 Weeks Advice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARN Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account Currency Confirmation Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Additional Information Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advice to Contact the Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Escalated to PTF Queries for Investigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Escalated to Refund Network Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Forwarded to Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Forwarded to Turkey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Forwarded to UAE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case escalated to customs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash Dispute</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash Refund Airport%2FCity Center%2FTOPOS - No P2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash Refund Airport%2FCity Center%2FTOPOS - P2 received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheque%2FPrepaid Card Cancelation Requested from PTF Queries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheque%2FPrepaid Card was Sent to Customer Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copy of Stamped Voucher Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card Confirmation Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs Details Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs Office Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debit Confirmation Due to No Receipt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debit Confirmation Due to no Customs Stamp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debit Confirmation Due to no Tax Free Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Embassy Procedure Advised</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goodwill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Line to be Paid Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information About Alternative Tax Free Company Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information About Currency and Exchange Rate Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information About Difference Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information About Fees Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information from Customs Web-page%2C Confirming %22No Customs Stamp%22 Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Investigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invalid voucher sent back</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marked as Priority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Customs Stamp Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Receipt Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of 8 Weeks Advice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Posting Address Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Put on Missing Voucher Log</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recredit - In Line to be Paid Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recredit Successful Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund Method Updated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund Not Possible Due to Missing Invoice Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund Point Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund Point Details Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund Successful Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refunding Details Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refunding Not Possible Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan of Voucher%2C Confirming %22No Customs Stamp%22 Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan of Voucher%2C Confirming %22No Receipt%22 Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan%2Fphoto of Receipt Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Free Process Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracking Number Investigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voucher Status Confirmation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Reason__c</picklist>
+        <values>
+            <fullName>3rd Party TF activation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Additional training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Application Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cables order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complains</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Configuration Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Configuration Update</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumable Orders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>E-Customs error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hardware issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incident %5C Planet Outage</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inquiry</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Installation%5CTraining</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integrator issue %28not Planet related%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Login%5CPassword issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>OTELLO - Verifica XSD Fallita</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA ARN queries for customers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA Faulty Terminal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA Sale transaction not authorised</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA VAT voucher is not printed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA batch-in %2F TMS failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA bug found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA card reader not woring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA credit card not recognized for DCC or VAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA customer charged twice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA error security alarm %2F please reboot etc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA no communication between till %26 PDQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA no voucher range</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA offline auth transactions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA printer issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA switch to summer %2F winter time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA terminal is not loading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA terminal won%27t power up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA training needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAOL Error 24 %28Invocie already exist%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAOL Error 39 %28 specific character no accepted %29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Error code</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 1%5D Invoice Already Exists</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 10%5D Invoice Is Not Valid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 100%5D Invalid Credit Card Format</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 101%5D Invalid Expiry Date Format</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 102%5D Invalid Item Description</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 103%5D The customer country is not eligible for taxFree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 104%5D Passport Number is empty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 105%5D Invalid Date of birth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 106%5D Invalid Alipay phone number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 107%5D Invalid Customer Passport Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 108%5D Invalid Customer First Name</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 109%5D Invalid Customer Last Name</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 11%5D Invoice Exchanged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 110%5D Error Age Date Of Birth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 111%5D The date entered is not valid%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 112%5D The age of birth is not authorized</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 113%5D InvalidCreditCardNumber</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 114%5D CreditCardAuthorizationFailed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 115%5D UnAuthorizedOperation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 116%5D CustomerNotFound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 117%5D RefundAmountNotCalculated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 118%5D VoucherAlreadyVoided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 119%5D InvalidPremierPassId</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 12%5D Invoice Reversal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 120%5D InvalidIBAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 121%5D InvalidLoyaltyCardNumber</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 122%5D InvalidUnitDescription</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 123%5D TokenMaxLengthExceeded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 124%5D RefundMethodRefused</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 125%5D UpdateInvoiceFailed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 13%5D Invoice Fraud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 14%5D Reference To Original Invoice Cannot Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 15%5D Status Of Original Invoice Is Changed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 16%5D Invoice Updated Successfully</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 17%5D Invoice Barcode Or Barcodes Not Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 18%5D Invalid Invoice Barcode Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 19%5D Invalid Voucher Barcode Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 2%5D Two</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 20%5D No Voucher Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 21%5D Multiple Vouchers Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 22%5D Invoice Passed Is Not A Valid Sale Or Used Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 23%5D Already Invoice Added To This Voucher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 24%5D Invoice Added To A Different Voucher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 25%5D Operator Name Is Invalid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 26%5D Voucher Successfully Voided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 27%5D Void Voucher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 28%5D Voucher Range Not found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 29%5D Invoice Voided After Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 3%5D No XML Document Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 30%5D Invoice Expired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 31%5D Voucher And Invoice Refund Are Voided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 32%5D Invalid Merchant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 33%5D Voucher Range Not Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 34%5D Error Handler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 35%5D Invoice Already Refunded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 36%5D Invoice Not Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 37%5D The Voucher Eligible Amount is Under the Store Threshold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 38%5D Reference To Orignal Invoice Cannot Be Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 39%5D Unhandled Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 4%5D Barcode Is NULL String</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 40%5D Voucher Exported Unable To Reprint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 41%5D No Refund Processed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 42%5D Training Mode Set</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 43%5D XML Document Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 44%5D Voucher Design not set</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 45%5D Voucher Range Not Allocated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 46%5D Refund Method Not Allowed In Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 47%5D Merchant Already Exists</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 48%5D Store Already Exists</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 49%5D Insert Merchant Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 5%5D Multiple Invoices Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 50%5D Insert Store Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 51%5D Invalid Voucher Formula</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 52%5D An Invoice with this Invoice Number already exists for this store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 55%5D Cannot Void a Refunded Voucher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 56%5D Consolidation requires two or more vouchers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 57%5D Error Calling Web Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 58%5D No valid Invoice%28s%29 - Invoices are either fully refunded or have no valid line items</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 6%5D No Invoice Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 60%5D Maximum quantity is reached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 7%5D Seven</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 8%5D Invoice Issued In Different Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 9%5D Invoice Found Refered In Multiple Vouchers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server - %5BError 115%5D The fiscal number not provided nor generated for this store operation %28115%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PII - Fatal Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POL - user locked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POL user details missing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Setup issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Software issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TaxFree transaction Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminal Swap</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User creation%5CUpdate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voucher Range Update</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Type__c</picklist>
+        <values>
+            <fullName>GLTTP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Partnership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Questions about Tax Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voiding</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Country_Office__c</picklist>
+        <values>
+            <fullName>Austria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belgium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>China</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colombia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cyprus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Czech Republic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Faroe Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greece</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hungary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iceland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Italy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lithuania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxembourg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mauritius</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morocco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Netherlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Zealand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portugal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singapore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slovakia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sweden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switzerland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Kingdom</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DCC_System_Affected_Detail__c</picklist>
+        <values>
+            <fullName>AMPS Settlement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Authorisation Host</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRT %2F BRT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSMS%2ENET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DCC Datawarehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DCC Gateway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DCC Orchestrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dynamics Rates Generator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FDVO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>File Movements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27m not sure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27ve included a detailed description%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MCP %2F Way4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Operation Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operational Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Batch Host</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Softpay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Superpay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rates Configuration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TPP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tokenisation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Treasury Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visa%2FMastercard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DCC_Systems_Affected__c</picklist>
+        <values>
+            <fullName>Backoffice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Facing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27m not sure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Language__c</picklist>
+        <values>
+            <fullName>Chinese %28Mandarin%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>English</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>French</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portuguese</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Russian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spanish</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email to Case DE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email to Case ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email to Case EU</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email to Case IE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email to Case IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email to Case JC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email to Case LG</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email to Case UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Support ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Retail Support Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Other_Tax_Free_Provider__c</picklist>
+        <values>
+            <fullName>Euro Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GB Tax Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Blue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>P1 - system down%2C no service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P2 - severe - customer aware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P3 - severe - no customer impact</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>P4 - moderate</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>P5 - low</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA ARN queries for customers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA Sale transaction not authorised</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA VAT voucher is not printed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA batch-in %2F TMS failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA bug found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA card reader not woring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA credit card not recognized for DCC or VAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA customer charged twice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA error security alarm %2F please reboot etc</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA no communication between till %26 PDQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA no voucher range</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA offline auth transactions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA printer issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA switch to summer %2F winter time</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA terminal is not loading</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA terminal won%27t power up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PA training needed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAOL Error 24 %28Invocie already exist%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PAOL Error 39 %28 specific character no accepted %29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 1%5D Invoice Already Exists</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 10%5D Invoice Is Not Valid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 100%5D Invalid Credit Card Format</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 101%5D Invalid Expiry Date Format</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 102%5D Invalid Item Description</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 103%5D The customer country is not eligible for taxFree</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 104%5D Passport Number is empty</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 105%5D Invalid Date of birth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 106%5D Invalid Alipay phone number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 107%5D Invalid Customer Passport Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 108%5D Invalid Customer First Name</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 109%5D Invalid Customer Last Name</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 11%5D Invoice Exchanged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 110%5D Error Age Date Of Birth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 111%5D The date entered is not valid%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 112%5D The age of birth is not authorized</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 113%5D InvalidCreditCardNumber</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 114%5D CreditCardAuthorizationFailed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 115%5D UnAuthorizedOperation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 116%5D CustomerNotFound</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 117%5D RefundAmountNotCalculated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 118%5D VoucherAlreadyVoided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 119%5D InvalidPremierPassId</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 12%5D Invoice Reversal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 120%5D InvalidIBAN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 121%5D InvalidLoyaltyCardNumber</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 122%5D InvalidUnitDescription</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 123%5D TokenMaxLengthExceeded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 124%5D RefundMethodRefused</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 125%5D UpdateInvoiceFailed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 13%5D Invoice Fraud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 14%5D Reference To Original Invoice Cannot Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 15%5D Status Of Original Invoice Is Changed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 16%5D Invoice Updated Successfully</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 17%5D Invoice Barcode Or Barcodes Not Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 18%5D Invalid Invoice Barcode Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 19%5D Invalid Voucher Barcode Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 2%5D Two</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 20%5D No Voucher Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 21%5D Multiple Vouchers Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 22%5D Invoice Passed Is Not A Valid Sale Or Used Up</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 23%5D Already Invoice Added To This Voucher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 24%5D Invoice Added To A Different Voucher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 25%5D Operator Name Is Invalid</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 26%5D Voucher Successfully Voided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 27%5D Void Voucher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 28%5D Voucher Range Not found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 29%5D Invoice Voided After Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 3%5D No XML Document Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 30%5D Invoice Expired</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 31%5D Voucher And Invoice Refund Are Voided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 32%5D Invalid Merchant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 33%5D Voucher Range Not Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 34%5D Error Handler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 35%5D Invoice Already Refunded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 36%5D Invoice Not Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 37%5D The Voucher Eligible Amount is Under the Store Threshold</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 38%5D Reference To Orignal Invoice Cannot Be Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 39%5D Unhandled Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 4%5D Barcode Is NULL String</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 40%5D Voucher Exported Unable To Reprint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 41%5D No Refund Processed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 42%5D Training Mode Set</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 43%5D XML Document Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 44%5D Voucher Design not set</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 45%5D Voucher Range Not Allocated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 46%5D Refund Method Not Allowed In Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 47%5D Merchant Already Exists</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 48%5D Store Already Exists</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 49%5D Insert Merchant Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 5%5D Multiple Invoices Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 50%5D Insert Store Failed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 51%5D Invalid Voucher Formula</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 52%5D An Invoice with this Invoice Number already exists for this store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 55%5D Cannot Void a Refunded Voucher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 56%5D Consolidation requires two or more vouchers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 57%5D Error Calling Web Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 58%5D No valid Invoice%28s%29 - Invoices are either fully refunded or have no valid line items</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 6%5D No Invoice Found</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 60%5D Maximum quantity is reached</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 7%5D Seven</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 8%5D Invoice Issued In Different Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Server  - %5BError 9%5D Invoice Found Refered In Multiple Vouchers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POL user details missing</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolution__c</picklist>
+        <values>
+            <fullName>6-8 Weeks Advice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Note</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit%2FDebit Note</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exchange rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fallback procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General invoices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nota Debito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of 8 Weeks Advice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pos Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rebates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TF procedures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vat Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voucher Listing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voucher Verification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voucher issue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolutions__c</picklist>
+        <values>
+            <fullName>ARN provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account unlocked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Further details requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Investigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order status confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid and Positive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment not completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request forwarded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Free form not void</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Free form voided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voucher Issues</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TF_System_Affected_Detail__c</picklist>
+        <values>
+            <fullName>AXAPTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BI Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIZTalk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSMS Refunds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise API</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27ve added a detailed description</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kiosk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MCCP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orchestrator %28TAX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PABLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Chanel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Batch Host</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Softpay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Superpay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Int Interface</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Integrated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Online-POL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Tax Free tourist app %E2%80%93 Android</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Tax Free tourist app %E2%80%93 iOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Touch %E2%80%93 Android</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Touch %E2%80%93 iOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SalesForce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scanning System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UVT%2FFVF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF ATM - Airport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF ATM - Border</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF ATM - Harbour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF ATM - Merchant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF CRM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF Customs Interface</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF Merchant Terminal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF MyAccount App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF Validation app %26 Money exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTRS Singapore</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TF_Systems_Affected__c</picklist>
+        <values>
+            <fullName>Backoffice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Facing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27m not sure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Processing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Feature Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support Request</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

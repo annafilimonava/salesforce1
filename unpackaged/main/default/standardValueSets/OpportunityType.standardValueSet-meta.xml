@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>New</fullName>
+        <default>false</default>
+        <label>New</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Cross-Sell</fullName>
+        <default>false</default>
+        <label>Cross-Sell</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Renewal</fullName>
+        <default>false</default>
+        <label>Renewal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Upgrade</fullName>
+        <default>false</default>
+        <label>Upgrade</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Pan Euro</fullName>
+        <default>false</default>
+        <label>New Pan Euro</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Country In-Fill</fullName>
+        <default>false</default>
+        <label>Country In-Fill</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Adjustment</fullName>
+        <default>false</default>
+        <label>Adjustment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketing/B2C Consultancy</fullName>
+        <default>false</default>
+        <label>Marketing/B2C Consultancy</label>
+    </standardValue>
+</StandardValueSet>

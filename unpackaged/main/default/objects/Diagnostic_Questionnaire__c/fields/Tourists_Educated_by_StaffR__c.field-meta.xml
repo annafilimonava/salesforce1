@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tourists_Educated_by_StaffR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Tourists_Educated_by_Staff__c) = &quot;Yes&quot;, 5, 
+IF(TEXT(Tourists_Educated_by_Staff__c) = &quot;No&quot;, 0, 0))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tourists Educated by StaffR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

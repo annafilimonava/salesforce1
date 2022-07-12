@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Approval_Rejected</fullName>
+        <description>Approval Rejected</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Premier_Automatic_Request_Rejected</template>
+    </alerts>
+    <alerts>
+        <fullName>Closed_Work_Order_Notification</fullName>
+        <description>Closed Work Order Notification</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Owner_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Notify_Account_Owner_Closed_Work_Order</template>
+    </alerts>
+    <alerts>
+        <fullName>Closed_Work_Order_Notification_Notify_Parent_Account_Manager</fullName>
+        <description>Closed Work Order Notification Notify Parent Account Manager</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Parent_Account_Manager_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Notify_Account_Owner_Closed_Work_Order</template>
+    </alerts>
+    <alerts>
+        <fullName>Completed_Work_Order</fullName>
+        <description>Completed Work Order</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Notify_Account_Owner_Closed_Work_Order</template>
+    </alerts>
+    <alerts>
+        <fullName>Completed_Work_Order_Parent_Account_Manager</fullName>
+        <description>Completed Work Order Parent Account Manager</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Parent_Account_Manager_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Notify_Account_Owner_Closed_Work_Order</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Merchant_Service_ES_Work_Order</fullName>
+        <ccEmails>merchantsupport@planetpayment.com</ccEmails>
+        <description>New Merchant Service ES Work Order</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>Merchant_Service/New_Work_Order_Merchant_Services</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Sales_Support_ES_Work_Order</fullName>
+        <ccEmails>sales.supportspain@fintrax.com</ccEmails>
+        <description>New Sales Support ES Work Order</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/New_Work_Order</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Work_Order</fullName>
+        <ccEmails>sales.support.uk@planetpayment.com</ccEmails>
+        <description>New Work Order</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/New_Work_Order</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Work_Order_DE</fullName>
+        <description>New Work Order DE</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>POS_Support_DE</recipient>
+            <type>role</type>
+        </recipients>
+        <recipients>
+            <recipient>ines.zillmann@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jana.coric@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>lara.gottwald@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/New_Work_Order</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Work_Order_ES</fullName>
+        <description>New Work Order ES</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>POS_Support_ES</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/New_Work_Order</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Work_Order_FR</fullName>
+        <description>New Work Order FR</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>POS_Support_FR</recipient>
+            <type>role</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/New_Work_Order</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Work_Order_IT</fullName>
+        <description>New Work Order IT</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>daniele.promutico@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>roberto.rigo@premiertaxfree.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/New_Work_Order</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Work_Order_IT2</fullName>
+        <description>New Work Order IT</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>daniele.promutico@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/New_Work_Order</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_Account_Manager_New_Work_Order</fullName>
+        <description>Notify Account Manager New Work Order</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Owner_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Notify_Account_Owner_New_Work_Order</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_POS_Support</fullName>
+        <ccEmails>possupport.uk@planetpayment.com</ccEmails>
+        <description>Notify POS Support</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/New_Work_Order_POS_Support</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_Parent_Account_Manager_New_Work_Order</fullName>
+        <description>Notify Parent Account Manager New Work Order</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Parent_Account_Manager_Email__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Notify_Account_Owner_New_Work_Order</template>
+    </alerts>
+    <alerts>
+        <fullName>POS_Solution_Approved</fullName>
+        <description>POS Solution Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Premier_Automatic_Request_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Work_Order_Ownership_Change</fullName>
+        <description>Work Order Ownership Change</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Work_Order_Owner_Change_IT</template>
+    </alerts>
+    <alerts>
+        <fullName>Work_Order_Transferred</fullName>
+        <description>Work Order Transferred</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Notify_Account_Owner_Transferred_Work_Order</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Account_Owner_Email</fullName>
+        <field>Account_Owner_Email__c</field>
+        <formula>Account.Owner.Email</formula>
+        <name>Account Owner Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval_Rejected</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Rejected</literalValue>
+        <name>Approval Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval_Status</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Approval Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval_Status1</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Approval Status</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approved</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Automatic_Not_Approved</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Not Approved</literalValue>
+        <name>Automatic Not Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Not_Approved</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Not Approved</literalValue>
+        <name>Not Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Support</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_GB</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Support</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Support_FR</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_FR</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Support FR</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Support_GB</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_GB</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Support GB</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Support_PT</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_PT</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Support PT</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Parent_Owner_Email</fullName>
+        <field>Parent_Account_Manager_Email__c</field>
+        <formula>Parent_Account_Manager__c</formula>
+        <name>Parent Owner Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Pending</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Pending</literalValue>
+        <name>Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_New</fullName>
+        <field>Status</field>
+        <literalValue>New</literalValue>
+        <name>Status New</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Update</fullName>
+        <field>Status</field>
+        <literalValue>Pending Approval</literalValue>
+        <name>Status Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Update1</fullName>
+        <field>Status</field>
+        <literalValue>New</literalValue>
+        <name>Status Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Update2</fullName>
+        <field>Status</field>
+        <literalValue>New</literalValue>
+        <name>Status Update</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_to_New</fullName>
+        <field>Status</field>
+        <literalValue>New</literalValue>
+        <name>Status to New</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Work_Order_DE</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_DE</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Work Order DE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Work_Order_ES</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_ES</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Work Order ES</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Work_Order_ES_Caixa</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Sales_Support_ES</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Work Order ES Caixa</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Work_Order_IE</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_IE</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Work Order IE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Work_Order_IT</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_Italy</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Work Order IT</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>New Work Order</fullName>
+        <actions>
+            <name>Notify_Account_Manager_New_Work_Order</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Alerts account owner of new work order if Notify Account Owner box is ticked.</description>
+        <formula>AND(ISNEW(), Notify_Account_Owner__c = TRUE)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

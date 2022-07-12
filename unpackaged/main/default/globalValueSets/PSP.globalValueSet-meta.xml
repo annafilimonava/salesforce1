@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>ACI</fullName>
+        <default>false</default>
+        <label>ACI</label>
+    </customValue>
+    <customValue>
+        <fullName>Adyen</fullName>
+        <default>false</default>
+        <label>Adyen</label>
+    </customValue>
+    <customValue>
+        <fullName>AIB</fullName>
+        <default>false</default>
+        <label>AIB</label>
+    </customValue>
+    <customValue>
+        <fullName>Anderson Zaks</fullName>
+        <default>false</default>
+        <label>Anderson Zaks</label>
+    </customValue>
+    <customValue>
+        <fullName>Axerve</fullName>
+        <default>false</default>
+        <label>Axerve</label>
+    </customValue>
+    <customValue>
+        <fullName>Babs Paylink</fullName>
+        <default>false</default>
+        <label>Babs Paylink</label>
+    </customValue>
+    <customValue>
+        <fullName>Banca Sella</fullName>
+        <default>false</default>
+        <label>Banca Sella</label>
+    </customValue>
+    <customValue>
+        <fullName>Banque Populaire</fullName>
+        <default>false</default>
+        <label>Banque Populaire</label>
+    </customValue>
+    <customValue>
+        <fullName>Barclays</fullName>
+        <default>false</default>
+        <label>Barclays</label>
+    </customValue>
+    <customValue>
+        <fullName>BBVA</fullName>
+        <default>false</default>
+        <label>BBVA</label>
+    </customValue>
+    <customValue>
+        <fullName>BIC Bank</fullName>
+        <default>false</default>
+        <label>BIC Bank</label>
+    </customValue>
+    <customValue>
+        <fullName>BNL POSitivity</fullName>
+        <default>false</default>
+        <label>BNL POSitivity</label>
+    </customValue>
+    <customValue>
+        <fullName>BNP</fullName>
+        <default>false</default>
+        <label>BNP</label>
+    </customValue>
+    <customValue>
+        <fullName>B Payment</fullName>
+        <default>false</default>
+        <label>B Payment</label>
+    </customValue>
+    <customValue>
+        <fullName>BPI Bank</fullName>
+        <default>false</default>
+        <label>BPI Bank</label>
+    </customValue>
+    <customValue>
+        <fullName>Bred</fullName>
+        <default>false</default>
+        <label>BRED</label>
+    </customValue>
+    <customValue>
+        <fullName>Bred / CDN</fullName>
+        <default>false</default>
+        <label>Bred / CDN</label>
+    </customValue>
+    <customValue>
+        <fullName>BS Payone GmbH</fullName>
+        <default>false</default>
+        <label>BS Payone GmbH</label>
+    </customValue>
+    <customValue>
+        <fullName>Card Complete</fullName>
+        <default>false</default>
+        <label>Card Complete</label>
+    </customValue>
+    <customValue>
+        <fullName>cardlink</fullName>
+        <default>false</default>
+        <label>cardlink</label>
+    </customValue>
+    <customValue>
+        <fullName>CardProcess GmbH</fullName>
+        <default>false</default>
+        <label>CardProcess GmbH</label>
+    </customValue>
+    <customValue>
+        <fullName>Cardtech Card &amp; POS Service GmbH</fullName>
+        <default>false</default>
+        <label>Cardtech Card &amp; POS Service GmbH</label>
+    </customValue>
+    <customValue>
+        <fullName>CartaSi</fullName>
+        <default>false</default>
+        <label>CartaSi</label>
+    </customValue>
+    <customValue>
+        <fullName>CCAM Bank</fullName>
+        <default>false</default>
+        <label>CCAM Bank</label>
+    </customValue>
+    <customValue>
+        <fullName>CCV</fullName>
+        <default>false</default>
+        <label>CCV</label>
+    </customValue>
+    <customValue>
+        <fullName>CGD Bank</fullName>
+        <default>false</default>
+        <label>CGD Bank</label>
+    </customValue>
+    <customValue>
+        <fullName>Chiara Boni</fullName>
+        <default>false</default>
+        <label>Chiara Boni</label>
+    </customValue>
+    <customValue>
+        <fullName>CIC</fullName>
+        <default>false</default>
+        <label>CIC</label>
+    </customValue>
+    <customValue>
+        <fullName>Concardis</fullName>
+        <default>false</default>
+        <label>Concardis</label>
+    </customValue>
+    <customValue>
+        <fullName>Concardis GmbH</fullName>
+        <default>false</default>
+        <label>Concardis GmbH</label>
+    </customValue>
+    <customValue>
+        <fullName>Crédit Agricole</fullName>
+        <default>false</default>
+        <label>Crédit Agricole</label>
+    </customValue>
+    <customValue>
+        <fullName>Credit Mutuel</fullName>
+        <default>false</default>
+        <label>Credit Mutuel</label>
+    </customValue>
+    <customValue>
+        <fullName>ČSOB</fullName>
+        <default>false</default>
+        <label>ČSOB</label>
+    </customValue>
+    <customValue>
+        <fullName>Datacash</fullName>
+        <default>false</default>
+        <label>Datacash</label>
+    </customValue>
+    <customValue>
+        <fullName>Douglas Informatik &amp; Service GmbH</fullName>
+        <default>false</default>
+        <label>Douglas Informatik &amp; Service GmbH</label>
+    </customValue>
+    <customValue>
+        <fullName>Easycash</fullName>
+        <default>false</default>
+        <label>Easycash</label>
+    </customValue>
+    <customValue>
+        <fullName>ec-plus</fullName>
+        <default>false</default>
+        <label>ec-plus</label>
+    </customValue>
+    <customValue>
+        <fullName>Elavon</fullName>
+        <default>false</default>
+        <label>Elavon</label>
+    </customValue>
+    <customValue>
+        <fullName>Elavon Merchant Services</fullName>
+        <default>false</default>
+        <label>Elavon Merchant Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Enactor</fullName>
+        <default>false</default>
+        <label>Enactor</label>
+    </customValue>
+    <customValue>
+        <fullName>Euronet</fullName>
+        <default>false</default>
+        <label>Euronet</label>
+    </customValue>
+    <customValue>
+        <fullName>EVO Payments</fullName>
+        <default>false</default>
+        <label>EVO Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>Filoblu</fullName>
+        <default>false</default>
+        <label>Filoblu</label>
+    </customValue>
+    <customValue>
+        <fullName>Fintrax</fullName>
+        <default>false</default>
+        <label>Fintrax</label>
+    </customValue>
+    <customValue>
+        <fullName>First Data</fullName>
+        <default>false</default>
+        <label>First Data</label>
+    </customValue>
+    <customValue>
+        <fullName>FIS</fullName>
+        <default>false</default>
+        <label>FIS</label>
+    </customValue>
+    <customValue>
+        <fullName>Globalcollect/Diana</fullName>
+        <default>false</default>
+        <label>Globalcollect/Diana</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Payments</fullName>
+        <default>false</default>
+        <label>Global Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>Hobex</fullName>
+        <default>false</default>
+        <label>Hobex</label>
+    </customValue>
+    <customValue>
+        <fullName>HSBC</fullName>
+        <default>false</default>
+        <label>HSBC</label>
+    </customValue>
+    <customValue>
+        <fullName>ICP International Cash Processing GmbH</fullName>
+        <default>false</default>
+        <label>ICP International Cash Processing GmbH</label>
+    </customValue>
+    <customValue>
+        <fullName>Ingenico</fullName>
+        <default>false</default>
+        <label>Ingenico</label>
+    </customValue>
+    <customValue>
+        <fullName>Ingenico Payment Services</fullName>
+        <default>false</default>
+        <label>Ingenico Payment Services</label>
+    </customValue>
+    <customValue>
+        <fullName>In House</fullName>
+        <default>false</default>
+        <label>In House</label>
+    </customValue>
+    <customValue>
+        <fullName>InterCard AG</fullName>
+        <default>false</default>
+        <label>InterCard AG</label>
+    </customValue>
+    <customValue>
+        <fullName>iZettle</fullName>
+        <default>false</default>
+        <label>iZettle</label>
+    </customValue>
+    <customValue>
+        <fullName>JCC</fullName>
+        <default>false</default>
+        <label>JCC</label>
+    </customValue>
+    <customValue>
+        <fullName>KB Smart Pay</fullName>
+        <default>false</default>
+        <label>KB Smart Pay</label>
+    </customValue>
+    <customValue>
+        <fullName>LAVEGO AG</fullName>
+        <default>false</default>
+        <label>LAVEGO AG</label>
+    </customValue>
+    <customValue>
+        <fullName>LCL</fullName>
+        <default>false</default>
+        <label>LCL</label>
+    </customValue>
+    <customValue>
+        <fullName>Logic Group</fullName>
+        <default>false</default>
+        <label>Logic Group</label>
+    </customValue>
+    <customValue>
+        <fullName>Micros</fullName>
+        <default>false</default>
+        <label>Micros</label>
+    </customValue>
+    <customValue>
+        <fullName>Millennium BCP</fullName>
+        <default>false</default>
+        <label>Millennium BCP</label>
+    </customValue>
+    <customValue>
+        <fullName>Moneynet</fullName>
+        <default>false</default>
+        <label>Moneynet</label>
+    </customValue>
+    <customValue>
+        <fullName>Montepio Bank</fullName>
+        <default>false</default>
+        <label>Montepio Bank</label>
+    </customValue>
+    <customValue>
+        <fullName>Montrada GmbH</fullName>
+        <default>false</default>
+        <label>Montrada GmbH</label>
+    </customValue>
+    <customValue>
+        <fullName>Nets</fullName>
+        <default>false</default>
+        <label>Nets</label>
+    </customValue>
+    <customValue>
+        <fullName>Nexi</fullName>
+        <default>false</default>
+        <label>Nexi</label>
+    </customValue>
+    <customValue>
+        <fullName>No Current Provider</fullName>
+        <default>false</default>
+        <label>No Current Provider</label>
+    </customValue>
+    <customValue>
+        <fullName>Ogone</fullName>
+        <default>false</default>
+        <label>Ogone</label>
+    </customValue>
+    <customValue>
+        <fullName>Oracle</fullName>
+        <default>false</default>
+        <label>Oracle</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Palatine Banque</fullName>
+        <default>false</default>
+        <label>Palatine Banque</label>
+    </customValue>
+    <customValue>
+        <fullName>PayBox</fullName>
+        <default>false</default>
+        <label>PayBox</label>
+    </customValue>
+    <customValue>
+        <fullName>Payleven</fullName>
+        <default>false</default>
+        <label>Payleven</label>
+    </customValue>
+    <customValue>
+        <fullName>Paylife</fullName>
+        <default>false</default>
+        <label>Paylife</label>
+    </customValue>
+    <customValue>
+        <fullName>Payone GmbH</fullName>
+        <default>false</default>
+        <label>Payone GmbH</label>
+    </customValue>
+    <customValue>
+        <fullName>Paypal</fullName>
+        <default>false</default>
+        <label>Paypal</label>
+    </customValue>
+    <customValue>
+        <fullName>Payplug</fullName>
+        <default>false</default>
+        <label>Payplug</label>
+    </customValue>
+    <customValue>
+        <fullName>PaySquare</fullName>
+        <default>false</default>
+        <label>PaySquare</label>
+    </customValue>
+    <customValue>
+        <fullName>PayZen – Lyra</fullName>
+        <default>false</default>
+        <label>PayZen – Lyra</label>
+    </customValue>
+    <customValue>
+        <fullName>PBT</fullName>
+        <default>false</default>
+        <label>PBT</label>
+    </customValue>
+    <customValue>
+        <fullName>PCMS</fullName>
+        <default>false</default>
+        <label>PCMS</label>
+    </customValue>
+    <customValue>
+        <fullName>Planet</fullName>
+        <default>false</default>
+        <label>Planet</label>
+    </customValue>
+    <customValue>
+        <fullName>PXP</fullName>
+        <default>false</default>
+        <label>PXP</label>
+    </customValue>
+    <customValue>
+        <fullName>Rea Card</fullName>
+        <default>false</default>
+        <label>Rea Card</label>
+    </customValue>
+    <customValue>
+        <fullName>Realex</fullName>
+        <default>false</default>
+        <label>Realex</label>
+    </customValue>
+    <customValue>
+        <fullName>ReD</fullName>
+        <default>false</default>
+        <label>ReD</label>
+    </customValue>
+    <customValue>
+        <fullName>Sage Pay</fullName>
+        <default>false</default>
+        <label>Sage Pay</label>
+    </customValue>
+    <customValue>
+        <fullName>Santander</fullName>
+        <default>false</default>
+        <label>Santander</label>
+    </customValue>
+    <customValue>
+        <fullName>Setefi</fullName>
+        <default>false</default>
+        <label>Setefi</label>
+    </customValue>
+    <customValue>
+        <fullName>Shopify</fullName>
+        <default>false</default>
+        <label>Shopify</label>
+    </customValue>
+    <customValue>
+        <fullName>SIBS</fullName>
+        <default>false</default>
+        <label>SIBS</label>
+    </customValue>
+    <customValue>
+        <fullName>Six</fullName>
+        <default>false</default>
+        <label>Six</label>
+    </customValue>
+    <customValue>
+        <fullName>SIX Payment Services</fullName>
+        <default>false</default>
+        <label>SIX Payment Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Societe general</fullName>
+        <default>false</default>
+        <label>Societe general</label>
+    </customValue>
+    <customValue>
+        <fullName>Societe Generale</fullName>
+        <default>false</default>
+        <label>Societe Generale</label>
+    </customValue>
+    <customValue>
+        <fullName>Stripe</fullName>
+        <default>false</default>
+        <label>Stripe</label>
+    </customValue>
+    <customValue>
+        <fullName>Stripe/Paypal</fullName>
+        <default>false</default>
+        <label>Stripe/Paypal</label>
+    </customValue>
+    <customValue>
+        <fullName>SumUp</fullName>
+        <default>false</default>
+        <label>SumUp</label>
+    </customValue>
+    <customValue>
+        <fullName>Swedbank</fullName>
+        <default>false</default>
+        <label>Swedbank</label>
+    </customValue>
+    <customValue>
+        <fullName>Systempay</fullName>
+        <default>false</default>
+        <label>Systempay</label>
+    </customValue>
+    <customValue>
+        <fullName>Telecash/First Data</fullName>
+        <default>false</default>
+        <label>Telecash/First Data</label>
+    </customValue>
+    <customValue>
+        <fullName>TeleCash GmbH &amp; Co. KG</fullName>
+        <default>false</default>
+        <label>TeleCash GmbH &amp; Co. KG</label>
+    </customValue>
+    <customValue>
+        <fullName>The Level Group</fullName>
+        <default>false</default>
+        <label>The Level Group</label>
+    </customValue>
+    <customValue>
+        <fullName>The Logic Group</fullName>
+        <default>false</default>
+        <label>The Logic Group</label>
+    </customValue>
+    <customValue>
+        <fullName>TNS</fullName>
+        <default>false</default>
+        <label>TNS</label>
+    </customValue>
+    <customValue>
+        <fullName>Transact Elektronische Zahlungssysteme GmbH</fullName>
+        <default>false</default>
+        <label>Transact Elektronische Zahlungssysteme GmbH</label>
+    </customValue>
+    <customValue>
+        <fullName>UNICRE</fullName>
+        <default>false</default>
+        <label>UNICRE</label>
+    </customValue>
+    <customValue>
+        <fullName>Unicredit</fullName>
+        <default>false</default>
+        <label>Unicredit</label>
+    </customValue>
+    <customValue>
+        <fullName>Verifone</fullName>
+        <default>false</default>
+        <label>Verifone</label>
+    </customValue>
+    <customValue>
+        <fullName>VÖB-ZVD Processing GmbH</fullName>
+        <default>false</default>
+        <label>VÖB-ZVD Processing GmbH</label>
+    </customValue>
+    <customValue>
+        <fullName>VR Payment</fullName>
+        <default>false</default>
+        <label>VR Payment</label>
+    </customValue>
+    <customValue>
+        <fullName>Wirecard</fullName>
+        <default>false</default>
+        <label>Wirecard</label>
+    </customValue>
+    <customValue>
+        <fullName>Worldpay</fullName>
+        <default>false</default>
+        <label>Worldpay</label>
+    </customValue>
+    <customValue>
+        <fullName>Worldpay Total</fullName>
+        <default>false</default>
+        <label>Worldpay Total</label>
+    </customValue>
+    <customValue>
+        <fullName>Yes Pay</fullName>
+        <default>false</default>
+        <label>Yes Pay</label>
+    </customValue>
+    <customValue>
+        <fullName>Yoox Net a Porter</fullName>
+        <default>false</default>
+        <label>Yoox Net a Porter</label>
+    </customValue>
+    <customValue>
+        <fullName>Cybersource</fullName>
+        <default>false</default>
+        <label>Cybersource</label>
+    </customValue>
+    <customValue>
+        <fullName>CAISSE D’EPARGNE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CAISSE D’EPARGNE</label>
+    </customValue>
+    <customValue>
+        <fullName>Oracle Retail J</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Oracle Retail J</label>
+    </customValue>
+    <customValue>
+        <fullName>(HSBC)</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>(HSBC)</label>
+    </customValue>
+    <customValue>
+        <fullName>CREDIT AGRICOLE</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CREDIT AGRICOLE</label>
+    </customValue>
+    <customValue>
+        <fullName>CREDIT DU NORD</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>CREDIT DU NORD</label>
+    </customValue>
+    <masterLabel>PSP</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

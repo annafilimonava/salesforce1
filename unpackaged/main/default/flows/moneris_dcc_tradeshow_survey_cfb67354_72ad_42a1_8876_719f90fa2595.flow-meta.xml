@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <choices>
+        <name>c_000d3f5f_e8ad_4b4b_8689_a807e259d044</name>
+        <choiceText>All of the above</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>All of the above</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_06d9f56f_81ee_4b25_b8a8_40063feaa988</name>
+        <choiceText>Transparency, customers see the exact amount of their purchase in their home currency</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Transparency, customers see the exact amount of their purchase in their home currency</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_0d177520_884c_4e4d_be1c_c3c885970eee</name>
+        <choiceText>Dynamic Currency Conversion</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Dynamic Currency Conversion</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_163ab38d_2f64_4932_9d96_331b7bf9b78c</name>
+        <choiceText>American Express</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>American Express</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_1bfc86bc_7406_4c61_92db_fbe5246b8d9d</name>
+        <choiceText>Enjoy a revenue stream</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Enjoy a revenue stream</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_22ee3085_2273_48a4_9a03_eb048ae8d1e4</name>
+        <choiceText>Discover</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Discover</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_33b448ed_ca6c_4ff3_bc18_c69e26c91bdd</name>
+        <choiceText>MasterCard &amp;amp; Visa</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>MasterCard &amp; Visa</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_3afa0b03_49f5_457f_a8c0_feee5c035f13</name>
+        <choiceText>Dallas Cowboy Cheerleaders</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Dallas Cowboy Cheerleaders</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_44c6b522_bdb4_4d1b_99f5_d98633a87e73</name>
+        <choiceText>MasterCard</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>MasterCard</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_61bcb926_0d22_4b4b_bbd3_0fbccc6787db</name>
+        <choiceText>Attract new international customers</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Attract new international customers</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_87eacfd8_4f54_4cb5_87c8_3c84caec49cf</name>
+        <choiceText>All of the above</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>All of the above</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_8870d4c7_a630_4d0d_9ec7_c50dc936f6d6</name>
+        <choiceText>No</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>No</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_9fc4bb83_c9b9_495a_a805_a95ce6903efc</name>
+        <choiceText>Convenience</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Convenience</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_b087400a_f80e_4514_a958_3d67e6ced683</name>
+        <choiceText>Visa &amp;amp; MasterCard</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Visa &amp; MasterCard</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_b2fe8b8c_c528_4b0e_9d51_79352d170ef4</name>
+        <choiceText>All of the above</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>All of the above</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_b69b30cc_2c5a_46e1_9fb6_edbf466737f5</name>
+        <choiceText>Yes</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Yes</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_bd8fc4a2_38f9_49d9_adad_adc857074934</name>
+        <choiceText>Reduce chargebacks</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Reduce chargebacks</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_c9da1a26_98db_44d6_8dab_8d157858f7f1</name>
+        <choiceText>Customer satisfaction and loyalty</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Customer satisfaction and loyalty</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_eaf0f09f_698b_4913_9dbd_0db2d294d85a</name>
+        <choiceText>Simplifies expense reporting for business travelers</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Simplifies expense reporting for business travelers</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_efe0f71b_2695_491f_8496_98089be72152</name>
+        <choiceText>Dynamic Canadian Calculator</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Dynamic Canadian Calculator</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_f8f4747a_b4c3_46ca_a0e5_51af2f45c70a</name>
+        <choiceText>MasterCard</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>MasterCard</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_f9fbd666_3860_4ae0_8b08_cb34f7ca329c</name>
+        <choiceText>Visa</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Visa</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>c_fe1cdde4_cf21_4941_acd0_183c65d7b5b8</name>
+        <choiceText>Visa</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Visa</stringValue>
+        </value>
+    </choices>
+    <interviewLabel>Moneris DCC tradeshow survey</interviewLabel>
+    <label>Moneris DCC tradeshow survey</label>
+    <processMetadataValues>
+        <name>BrandingSet</name>
+        <value>
+            <stringValue>moneris_dcc_tradeshow_survey_cfb67354_72ad_42a1_8876_719f90fa2595</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>hasWelcomePage</name>
+        <value>
+            <booleanValue>true</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>overrideActiveVersion</name>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </processMetadataValues>
+    <processType>Survey</processType>
+    <screens>
+        <name>p_05444f6f_848f_4aa4_9397_2ca1d78841be</name>
+        <label>Page 7</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <fields>
+            <name>q_4c33f941_4b63_4a3d_85f5_64df2c78fe5c</name>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;&lt;b&gt;Enter your name and email address to receive a $10 gift card!&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <pausedText>Survey paused. To pick up where you left off, refresh this page or click the link in your survey invitation.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_08d59a60_1106_493d_af28_22910c7f6ce5</name>
+        <label>Page 6</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_05444f6f_848f_4aa4_9397_2ca1d78841be</targetReference>
+        </connector>
+        <fields>
+            <name>q_94ba5ffa_6809_4dff_b527_c18c48828b49</name>
+            <choiceReferences>c_61bcb926_0d22_4b4b_bbd3_0fbccc6787db</choiceReferences>
+            <choiceReferences>c_c9da1a26_98db_44d6_8dab_8d157858f7f1</choiceReferences>
+            <choiceReferences>c_bd8fc4a2_38f9_49d9_adad_adc857074934</choiceReferences>
+            <choiceReferences>c_1bfc86bc_7406_4c61_92db_fbe5246b8d9d</choiceReferences>
+            <choiceReferences>c_b2fe8b8c_c528_4b0e_9d51_79352d170ef4</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;&lt;b&gt;﻿﻿What are the benefits of DCC for a merchant?﻿&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <pausedText>Survey paused. To pick up where you left off, refresh this page or click the link in your survey invitation.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_13867319_6c1c_43df_ad91_e1be183dc5e1</name>
+        <label>Page 3</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_b6234206_4e87_4d4e_9859_843076f015bd</targetReference>
+        </connector>
+        <fields>
+            <name>q_a45a2e5b_7b75_4028_8f98_467575507e93</name>
+            <choiceReferences>c_b69b30cc_2c5a_46e1_9fb6_edbf466737f5</choiceReferences>
+            <choiceReferences>c_8870d4c7_a630_4d0d_9ec7_c50dc936f6d6</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;&lt;b&gt;﻿﻿Can you use a debit card for a DCC transaction?﻿&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <pausedText>Survey paused. To pick up where you left off, refresh this page or click the link in your survey invitation.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_1da34f8f_9fb3_4ee5_bc06_882f4cf050be</name>
+        <label>Page 5</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_08d59a60_1106_493d_af28_22910c7f6ce5</targetReference>
+        </connector>
+        <fields>
+            <name>q_dfd26e81_8ee5_4548_8a31_c1c3f2cb8956</name>
+            <choiceReferences>c_9fc4bb83_c9b9_495a_a805_a95ce6903efc</choiceReferences>
+            <choiceReferences>c_06d9f56f_81ee_4b25_b8a8_40063feaa988</choiceReferences>
+            <choiceReferences>c_eaf0f09f_698b_4913_9dbd_0db2d294d85a</choiceReferences>
+            <choiceReferences>c_87eacfd8_4f54_4cb5_87c8_3c84caec49cf</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;&lt;b&gt;﻿﻿What are the benefits of DCC for a customer/cardholder?﻿&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <pausedText>Survey paused. To pick up where you left off, refresh this page or click the link in your survey invitation.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_b6234206_4e87_4d4e_9859_843076f015bd</name>
+        <label>Page 4</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_1da34f8f_9fb3_4ee5_bc06_882f4cf050be</targetReference>
+        </connector>
+        <fields>
+            <name>q_b5c32f32_7741_4a77_9c07_c982d09fa264</name>
+            <choiceReferences>c_f9fbd666_3860_4ae0_8b08_cb34f7ca329c</choiceReferences>
+            <choiceReferences>c_f8f4747a_b4c3_46ca_a0e5_51af2f45c70a</choiceReferences>
+            <choiceReferences>c_b087400a_f80e_4514_a958_3d67e6ced683</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;&lt;b&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;﻿﻿Which association requires the markup disclosure to be displayed on both the screen and the receipt?&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <pausedText>Survey paused. To pick up where you left off, refresh this page or click the link in your survey invitation.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_d28f4ce0_873c_4f0f_a9ed_7775cb0d8f1e</name>
+        <label>Page 2</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_13867319_6c1c_43df_ad91_e1be183dc5e1</targetReference>
+        </connector>
+        <fields>
+            <name>q_8de37a85_b0f5_4d74_8ae0_df92471b8ba9</name>
+            <choiceReferences>c_22ee3085_2273_48a4_9a03_eb048ae8d1e4</choiceReferences>
+            <choiceReferences>c_44c6b522_bdb4_4d1b_99f5_d98633a87e73</choiceReferences>
+            <choiceReferences>c_163ab38d_2f64_4932_9d96_331b7bf9b78c</choiceReferences>
+            <choiceReferences>c_fe1cdde4_cf21_4941_acd0_183c65d7b5b8</choiceReferences>
+            <choiceReferences>c_33b448ed_ca6c_4ff3_bc18_c69e26c91bdd</choiceReferences>
+            <choiceReferences>c_000d3f5f_e8ad_4b4b_8689_a807e259d044</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;&lt;b&gt;﻿﻿What card brands are eligible to use DCC?&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <pausedText>Survey paused. To pick up where you left off, refresh this page or click the link in your survey invitation.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>p_db9e8702_5417_46ca_9380_64ec5bf2d1d3</name>
+        <label>Page 1</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>p_d28f4ce0_873c_4f0f_a9ed_7775cb0d8f1e</targetReference>
+        </connector>
+        <fields>
+            <name>q_0bc208df_75ed_4523_8491_affaa14ebe05</name>
+            <choiceReferences>c_0d177520_884c_4e4d_be1c_c3c885970eee</choiceReferences>
+            <choiceReferences>c_3afa0b03_49f5_457f_a8c0_feee5c035f13</choiceReferences>
+            <choiceReferences>c_efe0f71b_2695_491f_8496_98089be72152</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>&lt;p&gt;&lt;b&gt;﻿﻿What does DCC stand for?﻿&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <pausedText>Survey paused. To pick up where you left off, refresh this page or click the link in your survey invitation.</pausedText>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>welcome_page</name>
+        <label>Welcome Page</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <connector>
+            <targetReference>p_db9e8702_5417_46ca_9380_64ec5bf2d1d3</targetReference>
+        </connector>
+        <fields>
+            <name>welcome_question</name>
+            <extensionName>survey:runtimeWelcome</extensionName>
+            <fieldType>ComponentInstance</fieldType>
+            <inputParameters>
+                <name>label</name>
+                <value>
+                    <stringValue>{!welcome_question_lref_tt}</stringValue>
+                </value>
+            </inputParameters>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <startElementReference>welcome_page</startElementReference>
+    <status>Active</status>
+    <textTemplates>
+        <name>thankYouDescriptionTextTemplate</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text></text>
+    </textTemplates>
+    <textTemplates>
+        <name>thankYouLabelTextTemplate</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;b&gt;﻿﻿We appreciate you taking the time to test your DCC knowledge. As always, we value your partnership and feedback.&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Sincerely, Ben&lt;/b&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <textTemplates>
+        <name>welcome_question_lref_tt</name>
+        <isViewedAsPlainText>false</isViewedAsPlainText>
+        <text>&lt;p&gt;&lt;b&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;Let the survey begin!﻿&lt;/b&gt;&lt;/p&gt;</text>
+    </textTemplates>
+    <variables>
+        <name>guestUserLang</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+    <variables>
+        <name>invitationId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue></stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>previewMode</name>
+        <dataType>Boolean</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <booleanValue>false</booleanValue>
+        </value>
+    </variables>
+    <variables>
+        <name>thankYouDescription</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>{!thankYouDescriptionTextTemplate}</stringValue>
+        </value>
+    </variables>
+    <variables>
+        <name>thankYouLabel</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+        <value>
+            <stringValue>{!thankYouLabelTextTemplate}</stringValue>
+        </value>
+    </variables>
+</Flow>

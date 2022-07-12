@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Report_Outlet</fullName>
+    <active>true</active>
+    <description>By selecting outlet user also cannot have outlet pages in report</description>
+    <errorConditionFormula>(ISPICKVAL(Outlet_Option__c, &#39;Outlet&#39;)  
+ || ISPICKVAL(Outlet_Option__c, &#39;Full Price&#39;) 
+)
+&amp;&amp;  (includes( Report_Pages__c ,&quot;Outlet Full Price&quot;)
+ || includes( Report_Pages__c ,&quot;Outlet Destinations&quot;)
+ || includes( Report_Pages__c ,&quot;Outlet Nationalities&quot;) )</errorConditionFormula>
+    <errorDisplayField>Report_Pages__c</errorDisplayField>
+    <errorMessage>You cannot select an Outlet Option and an Outlet specific page. Please remove the Outlet related pages from the selection, or change the Outlet Option to show all stores.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Additional Information</name>
+    <style>none</style>
+    <subject>Premier Tax Free Customer Service Query</subject>
+    <textOnly>Dear {!Contact.Name},
+
+Thank you for your email.
+
+In order for me to assist you with your refund query, I require more information.
+
+Please provide as much additional information of your voucher in order to check our database and advise further:
+
+Name on voucher:
+Country of Purchase:
+Premier Tax Free Voucher Number:
+Purchase Date:
+Last 4 digits of provided credit card:
+Passport number:
+
+I look forward to your response and assisting you further.
+
+Kind Regards,
+
+{!User.Name}
+
+Customer Service Department | Premier Tax Free
+
+{!User.Street} | {!User.City} {!User.PostalCode} | {!User.Country}
+
+T {!User.Phone}
+
+Premier Tax Free Ltd. | reg. no. 2076853</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>T_tulo__c</fullName>
+    <externalId>false</externalId>
+    <label>Título</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Exmo. Sr.</fullName>
+                <default>false</default>
+                <label>Exmo. Sr.</label>
+            </value>
+            <value>
+                <fullName>Exma. Sra.</fullName>
+                <default>false</default>
+                <label>Exma. Sra.</label>
+            </value>
+            <value>
+                <fullName>Exmo. Dr.</fullName>
+                <default>false</default>
+                <label>Exmo. Dr.</label>
+            </value>
+            <value>
+                <fullName>Exma. Dra.</fullName>
+                <default>false</default>
+                <label>Exma. Dra.</label>
+            </value>
+            <value>
+                <fullName>Exmo. Eng.</fullName>
+                <default>false</default>
+                <label>Exmo. Eng.</label>
+            </value>
+            <value>
+                <fullName>Exma. Eng.ª</fullName>
+                <default>false</default>
+                <label>Exma. Eng.ª</label>
+            </value>
+            <value>
+                <fullName>Exmo. Arq.</fullName>
+                <default>false</default>
+                <label>Exmo. Arq.</label>
+            </value>
+            <value>
+                <fullName>Exma. Arq.ª</fullName>
+                <default>false</default>
+                <label>Exma. Arq.ª</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

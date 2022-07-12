@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Related_To</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND($User.CompanyName = &quot;Premier Tax Free&quot;,  WhatId = &quot;&quot;,  WhoId = &quot;&quot;)</errorConditionFormula>
+    <errorMessage>You must relate an Event to either a Contact or an Object.</errorMessage>
+</ValidationRule>

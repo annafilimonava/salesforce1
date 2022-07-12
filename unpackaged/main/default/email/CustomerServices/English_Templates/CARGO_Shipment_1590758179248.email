@@ -1,0 +1,30 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span style="mso-bookmark:_Hlk536013444"><span lang="EN-IE" style="font-family:Barlow">Dear {{{Case.Tourist__c}}},<br /> <br /> As the goods have been shipped with an international carrier you need now to contact your shop to claim your VAT refund. Planet Tax Free operates under VAT export scheme for personal goods only. This information is provided on our webpage under FAQs section: 
+     <o:p></o:p></span></span></p> 
+  <p class="MsoNormal"><span style="mso-bookmark:_Hlk536013444"><span lang="EN-IE" style="font-family:Barlow"> 
+     <o:p>
+       &nbsp; 
+     </o:p></span></span></p> 
+  <p class="MsoNormal"><span style="mso-bookmark:_Hlk536013444"><span lang="EN-IE" style="font-family:Barlow;color:red">What goods are eligible for Tax Free Shopping? 
+     <o:p></o:p></span></span></p> 
+  <p class="MsoNormal"><span style="mso-bookmark:_Hlk536013444"><span lang="EN-IE" style="font-family:Barlow">All taxable goods <u>that are exported in your personal baggage</u>. Goods should be sealed and unused. 
+     <o:p></o:p></span></span></p> 
+  <p class="MsoNormal"><span style="mso-bookmark:_Hlk536013444"><span lang="EN-IE" style="font-family:Barlow"> 
+     <o:p>
+       &nbsp; 
+     </o:p></span></span></p> 
+  <p class="MsoNormal"><span style="mso-bookmark:_Hlk536013444"><span lang="EN-IE" style="font-family:Barlow">If a shop issued you a tax free form they either did it in error or were not informed that the goods will be shipped. As we do not operate under this VAT export scheme, we are unfortunately not able to advise you on the next steps. 
+     <o:p></o:p></span></span></p> 
+  <p class="MsoNormal"><span style="mso-bookmark:_Hlk536013444"><span lang="EN-IE" style="font-family:Barlow"> 
+     <o:p>
+       &nbsp; 
+     </o:p></span></span></p> 
+  <p class="MsoNormal"><span style="mso-bookmark:_Hlk536013444"><span lang="EN-IE" style="font-family:Barlow">Nonetheless, I hope you will be able to claim your VAT from the store and let me know if you have any further queries.</span></span></p>
+ </body>
+</html>

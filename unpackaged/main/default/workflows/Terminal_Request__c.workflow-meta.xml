@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Request_Approved</fullName>
+        <description>Request Approved</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Terminal_Request_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Request_Approved_GB</fullName>
+        <ccEmails>sales.support.uk@planetpayment.com</ccEmails>
+        <description>Request Approved GB</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Terminal_Request_Approved</template>
+    </alerts>
+    <alerts>
+        <fullName>Request_Denied</fullName>
+        <description>Request Denied</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Terminal_Request_Denied</template>
+    </alerts>
+    <alerts>
+        <fullName>Request_Denied_GB</fullName>
+        <ccEmails>sales.support.uk@planetpayment.com</ccEmails>
+        <description>Request Denied GB</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Terminal_Request_Denied</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Request_Approved</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Approved</literalValue>
+        <name>Request Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>true</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Request_Denied</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Denied</literalValue>
+        <name>Request Denied</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Request_Pending</fullName>
+        <field>Approval_Status__c</field>
+        <literalValue>Pending Approval</literalValue>
+        <name>Request Pending</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

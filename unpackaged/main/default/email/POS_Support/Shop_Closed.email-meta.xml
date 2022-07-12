@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Shop Closed</name>
+    <style>none</style>
+    <subject>Shop Closed - {!Account.Account_Name_ID__c}</subject>
+    <textOnly>***Notification of Shop Closure***
+
+Dear POS Support,
+
+The shop, {!Account.Account_Name_ID__c} has had the Type changed to {!Account.Type} and may have POS Solutions that need to be removed and/or closed.
+
+Please click on the link below to go to the record.
+
+{!Account.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Case Escalation</name>
+    <style>none</style>
+    <subject>{!Case.Subject_Line__c}​ [ {!Case.Thread_Id} ]</subject>
+    <textOnly>***Notification of Case/Request Status Change***
+Please reply above this message and do not modify the Subject line
+------------------------------------------------------------------------------------------
+
+Dear Customer
+
+The status of your request has been changed to {!Case.Status} with the priority of {!Case.Priority}.
+We will reply soon to your request.
+
+Kind Regards,
+
+POS Support</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

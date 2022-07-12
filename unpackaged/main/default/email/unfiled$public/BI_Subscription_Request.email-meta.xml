@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>BI Subscription Request</description>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Planet</letterhead>
+    <name>BI Subscription Request</name>
+    <style>freeForm</style>
+    <subject>BI Subscription Request</subject>
+    <textOnly>{!Subscriptions__c.CreatedBy} has submitted a request to create a subscription for {!Subscriptions__c.Account_ID__c}. Please approve or change the request in Salesforce
+
+{!Subscriptions__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

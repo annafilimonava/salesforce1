@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>My_DCC_Accounts</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_ID__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.RECORDTYPE</columns>
+    <columns>ACCOUNT.ADDRESS1_STREET</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>DCC_Current_Provider__c</columns>
+    <columns>TF_Current_Provider__c</columns>
+    <columns>PARENT_NAME</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>DCC_Current_Provider__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>DCC_Current_Provider__c</field>
+        <operation>notEqual</operation>
+        <value>No Current Provider</value>
+    </filters>
+    <label>My DCC Accounts</label>
+    <sharedTo>
+        <group>Italy_Sales_All</group>
+    </sharedTo>
+</ListView>

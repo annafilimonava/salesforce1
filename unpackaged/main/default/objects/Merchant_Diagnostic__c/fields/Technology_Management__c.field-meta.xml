@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technology_Management__c</fullName>
+    <externalId>false</externalId>
+    <formula>(Ease_of_UseR__c + ReliabilityR__c + Quick_to_Respond_to_QueriesR__c + How_Quickly_Was_the_Issue_ResolvedR__c + Any_Stages_That_Disrupt_POS_ProcessR__c) / 5</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Technology Management</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

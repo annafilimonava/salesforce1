@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Serial_Number_Lock</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(PRIORVALUE(Serial_Number__c) &lt;&gt;&quot;&quot;,
+ISCHANGED(Serial_Number__c))</errorConditionFormula>
+    <errorDisplayField>Serial_Number__c</errorDisplayField>
+    <errorMessage>You cannot change a Serial Number once assigned.</errorMessage>
+</ValidationRule>

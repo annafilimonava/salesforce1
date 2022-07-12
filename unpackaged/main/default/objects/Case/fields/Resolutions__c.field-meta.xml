@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Resolutions__c</fullName>
+    <description>This is for PL sales support</description>
+    <externalId>false</externalId>
+    <label>Resolutions</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Case_Type__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Account unlocked</fullName>
+                <default>false</default>
+                <label>Account unlocked</label>
+            </value>
+            <value>
+                <fullName>ARN provided</fullName>
+                <default>false</default>
+                <label>ARN provided</label>
+            </value>
+            <value>
+                <fullName>Debit</fullName>
+                <default>false</default>
+                <label>Debit</label>
+            </value>
+            <value>
+                <fullName>Further details requested</fullName>
+                <default>false</default>
+                <label>Further details requested</label>
+            </value>
+            <value>
+                <fullName>General information</fullName>
+                <default>false</default>
+                <label>General information</label>
+            </value>
+            <value>
+                <fullName>Internal Investigation</fullName>
+                <default>false</default>
+                <label>Internal Investigation</label>
+            </value>
+            <value>
+                <fullName>Order status confirmed</fullName>
+                <default>false</default>
+                <label>Order status confirmed</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Paid and Positive</fullName>
+                <default>false</default>
+                <label>Paid and Positive</label>
+            </value>
+            <value>
+                <fullName>Payment Issues</fullName>
+                <default>false</default>
+                <label>Payment Issues</label>
+            </value>
+            <value>
+                <fullName>Payment not completed</fullName>
+                <default>false</default>
+                <label>Payment not completed</label>
+            </value>
+            <value>
+                <fullName>Request forwarded</fullName>
+                <default>false</default>
+                <label>Request forwarded</label>
+            </value>
+            <value>
+                <fullName>Tax Free form not void</fullName>
+                <default>false</default>
+                <label>Tax Free form not void</label>
+            </value>
+            <value>
+                <fullName>Tax Free form voided</fullName>
+                <default>false</default>
+                <label>Tax Free form voided</label>
+            </value>
+            <value>
+                <fullName>Voucher Issues</fullName>
+                <default>false</default>
+                <label>Voucher Issues</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Order</controllingFieldValue>
+            <valueName>Further details requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order</controllingFieldValue>
+            <controllingFieldValue>Voiding</controllingFieldValue>
+            <controllingFieldValue>GLTTP</controllingFieldValue>
+            <valueName>Internal Investigation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order</controllingFieldValue>
+            <valueName>Order status confirmed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Order</controllingFieldValue>
+            <controllingFieldValue>Technical Issue</controllingFieldValue>
+            <controllingFieldValue>New Partnership</controllingFieldValue>
+            <controllingFieldValue>Invoices</controllingFieldValue>
+            <valueName>Request forwarded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Issue</controllingFieldValue>
+            <valueName>Account unlocked</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Questions about Tax Free</controllingFieldValue>
+            <valueName>Debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Questions about Tax Free</controllingFieldValue>
+            <valueName>General information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Questions about Tax Free</controllingFieldValue>
+            <valueName>Others</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Questions about Tax Free</controllingFieldValue>
+            <valueName>Paid and Positive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Questions about Tax Free</controllingFieldValue>
+            <valueName>Payment Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Questions about Tax Free</controllingFieldValue>
+            <valueName>Voucher Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voiding</controllingFieldValue>
+            <valueName>Tax Free form not void</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voiding</controllingFieldValue>
+            <valueName>Tax Free form voided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GLTTP</controllingFieldValue>
+            <valueName>ARN provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GLTTP</controllingFieldValue>
+            <valueName>Payment not completed</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

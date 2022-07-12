@@ -1,0 +1,10 @@
+<apex:page standardController="Merchant_Account_Plan__c" tabStyle="Merchant_Account_Plan__c" recordSetVar="AllMerchantAccountPlans" lightningStylesheets="true"  >
+    <!-- Add below each field you reference in your Flow -->   
+    <apex:repeat value="{!AllMerchantAccountPlans}" var="row" rendered="false">
+        {!row.Name}
+        </apex:repeat>
+    <!-- Runs your Flow -->   
+    <flow:interview name="Mass_Approval_Request">
+         <apex:param name="varMerchantAccountPlan" value="{!Selected}"/>
+    </flow:interview>
+</apex:page>

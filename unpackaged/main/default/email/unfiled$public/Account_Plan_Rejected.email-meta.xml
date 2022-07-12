@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Account Plan Rejected</name>
+    <style>none</style>
+    <subject>Merchant Account Plan for {!Merchant_Account_Plan__c.Account__c} Rejected</subject>
+    <textOnly>The Merchant Account Plan for {!Merchant_Account_Plan__c.Account__c} has been rejected.
+
+Please review and update the plan and then resubmit for approval.
+
+Click on the link below to navigate directly to the plan.
+
+{!Merchant_Account_Plan__c.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

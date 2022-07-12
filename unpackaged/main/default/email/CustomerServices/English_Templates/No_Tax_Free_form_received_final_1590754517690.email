@@ -1,0 +1,35 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">Planet Tax Free works on behalf of the X$X<span style="color:#FF6600">XXX</span><span style="color:red"> </span>government who set in place the rules and regulations around tax refunds. We do not have the permission to overturn or overlook decisions such as timelines or processing guidelines. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">All original Tax Free forms must be stamped by Customs and returned to us within their expiration periods. If we do not receive a fully completed Tax Free form for processing, the government will not release the VAT amount to us for refunding. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">I am really sorry but I will not be able to assist you further on this occasion.</span></p>
+ </body>
+</html>

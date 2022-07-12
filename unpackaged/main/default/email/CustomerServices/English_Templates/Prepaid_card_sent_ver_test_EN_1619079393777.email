@@ -1,0 +1,25 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:11pt"><span style="line-height:107%"><span style="font-family:Calibri,sans-serif"><span style="font-family:Barlow">Hello,</span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+<span style="font-family:Barlow">Thank you for your email.&nbsp;&nbsp;I have checked our database and can advise that your Tax Free form {{{Case.Tax_Free_Form__c}}} has been processed successfully.&nbsp;</span><br />
+<span style="font-family:Barlow">Your refund was sent to you via VISA Planet Prepaid card&nbsp; to the address provided on the Tax Free form</span><br />
+<br />
+<br />
+<i><span style="font-family:Barlow">X$X# option 1 – use it when you see a note in TRS CC crossed out</span></i><br />
+<i><span lang="EN-IE" style="font-family:Barlow">as the credit card number has been crossed out.</span></i><br />
+<i>&nbsp;</i><br />
+<i><span style="font-family:Barlow">X$X# option 2 – use it when there is no any note in TRS</span></i><br />
+<i><span lang="EN-IE" style="font-family:Barlow">as there were no other refunding details provided or the details were not readable.&nbsp;</span></i><br />
+<br />
+<i><span style="font-family:Barlow">X$X# option 3 – use it when you see a note in TRS CC invalid/ BIN range</span></i><br />
+<i><span lang="EN-IE" style="font-family:Barlow">as the credit card number was not accepted by our system.&nbsp;</span></i><br />
+<br />
+<span style="font-family:Barlow">The Planet Prepaid card&nbsp; was issued to you in X$X<span style="color:red">MONTH.</span></span><br />
+<br />
+<span lang="EN-IE" style="font-family:Barlow">Please be advised that You can use your card as any standard payment card wherever you see the Visa Acceptance Mark, if you have sufficient money on the card.</span><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+<span style="font-family:Barlow">Please feel free to contact us if you need any further information.</span></span></span></span><br />
+<br />
+&nbsp;</body></html>

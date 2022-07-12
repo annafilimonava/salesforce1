@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Seamless Middle East 2020 Registration</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Seamless Dubai 2020</name>
+    <relatedEntityType>Contact</relatedEntityType>
+    <style>none</style>
+    <subject>Meet Planet at Seamless Middle East 2020</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

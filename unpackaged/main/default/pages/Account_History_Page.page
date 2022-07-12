@@ -1,0 +1,5 @@
+<apex:page standardController="account" tabStyle="Account" > 
+    <div style="height: 500px" class="bodyDiv" onclick="resizeFrame();">
+        <c:Account_History Acc="{!Account}" />
+    </div>
+</apex:page>

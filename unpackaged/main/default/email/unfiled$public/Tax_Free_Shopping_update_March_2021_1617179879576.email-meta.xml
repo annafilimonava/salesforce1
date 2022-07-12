@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>An update regarding Tax Free</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Tax Free Shopping update March 2021</name>
+    <relatedEntityType>Contact</relatedEntityType>
+    <style>none</style>
+    <subject>Tax Free update March 2021</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

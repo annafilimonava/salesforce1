@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wave__c</fullName>
+    <description>Hoist field</description>
+    <externalId>false</externalId>
+    <label>Wave</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Hospitality - Wave 1</fullName>
+                <default>false</default>
+                <label>Hospitality - Wave 1</label>
+            </value>
+            <value>
+                <fullName>Hospitality - Wave 2</fullName>
+                <default>false</default>
+                <label>Hospitality - Wave 2</label>
+            </value>
+            <value>
+                <fullName>Hospitality - Wave 3</fullName>
+                <default>false</default>
+                <label>Hospitality - Wave 3</label>
+            </value>
+            <value>
+                <fullName>Retail - Wave 1 Payments - only</fullName>
+                <default>false</default>
+                <label>Retail - Wave 1 Payments - only</label>
+            </value>
+            <value>
+                <fullName>Retail - Wave 1 Software - led</fullName>
+                <default>false</default>
+                <label>Retail - Wave 1 Software - led</label>
+            </value>
+            <value>
+                <fullName>Retail - Pilot</fullName>
+                <default>false</default>
+                <label>Retail - Pilot</label>
+            </value>
+            <value>
+                <fullName>Retail - Wave 3 Software - led</fullName>
+                <default>false</default>
+                <label>Retail - Wave 3 Software - led</label>
+            </value>
+            <value>
+                <fullName>Retail - Wave 2 Payments only</fullName>
+                <default>false</default>
+                <label>Retail - Wave 2 Payments only</label>
+            </value>
+            <value>
+                <fullName>Retail - Wave 2 Software - led</fullName>
+                <default>false</default>
+                <label>Retail - Wave 2 Software - led</label>
+            </value>
+            <value>
+                <fullName>Retail - Wave 4 Payments only</fullName>
+                <default>false</default>
+                <label>Retail - Wave 4 Payments only</label>
+            </value>
+            <value>
+                <fullName>Retail - Wave 4 Software - led</fullName>
+                <default>false</default>
+                <label>Retail - Wave 4 Software - led</label>
+            </value>
+            <value>
+                <fullName>Retail - Wave 3 Payments only</fullName>
+                <default>false</default>
+                <label>Retail - Wave 3 Payments only</label>
+            </value>
+            <value>
+                <fullName>Retail - T1</fullName>
+                <default>false</default>
+                <label>Retail - T1</label>
+            </value>
+            <value>
+                <fullName>Retail - T5</fullName>
+                <default>false</default>
+                <label>Retail - T5</label>
+            </value>
+            <value>
+                <fullName>4</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>4</label>
+            </value>
+            <value>
+                <fullName>5</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>5</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

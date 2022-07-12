@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Store_Country_Region__c</columns>
+    <columns>Internal_Recipient__c</columns>
+    <columns>Account_ID__c</columns>
+    <columns>Report_Name__c</columns>
+    <columns>Day_to_run__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Months_YoY__c</columns>
+    <columns>Outlet_Option__c</columns>
+    <columns>Approval_Status__c</columns>
+    <columns>Report_Last_Run__c</columns>
+    <columns>Benchmark__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

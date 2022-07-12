@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Temp__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Current_Temp_Check__c) = &quot;Red&quot;, IMAGE(&quot;/servlet/servlet.FileDownload?file=01524000004lpcl&quot;, &quot;Red&quot;, 20, 20),
+IF(TEXT(Current_Temp_Check__c) = &quot;Amber&quot;, IMAGE(&quot;/servlet/servlet.FileDownload?file=01524000004lpcq&quot;, &quot;Amber&quot;, 20, 20),
+IF(TEXT(Current_Temp_Check__c) = &quot;Green&quot;, IMAGE(&quot;/servlet/servlet.FileDownload?file=01524000004lpcv&quot;, &quot;Green&quot;, 20, 20),&quot;&quot;)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Current Temp</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

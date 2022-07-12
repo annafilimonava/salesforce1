@@ -1,0 +1,36 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt"><span style="font-family:Barlow">Bonjour</span></span><span style="font-size:medium; text-align:start"><span style="color:#000000"><span style="font-family:Barlow"><span style="font-style:normal"><span style="font-variant-ligatures:normal"><span style="font-weight:400"><span style="white-space:normal"><span style="text-decoration-style:initial"><span style="text-decoration-color:initial"><span style="display:inline !important"><span style="float:none">&nbsp;{{{Case.Tourist__c}}}</span></span></span></span></span></span></span></span></span></span></span><span lang="FR" style="font-size:11.0pt"><span style="font-family:Barlow">,</span></span><br />
+<br />
+<br />
+<span lang="FR" style="font-size:11.0pt"><span style="font-family:Barlow">Merci pour votre message.</span></span><br />
+<br />
+<br />
+<span lang="FR" style="font-size:11.0pt"><span style="font-family:Barlow">Nous ne sommes pas en mesure de vous rembourser la TVA&nbsp; pour le bordereau&nbsp;</span></span><span style="font-family:Barlow">{{{Case.Tax_Free_Form__c}}}</span><span lang="FR" style="font-size:11.0pt"><span style="font-family:Barlow">, car il n'a pas &eacute;t&eacute; tamponn&eacute; par les douanes fran&ccedil;aises le jour de votre d&eacute;part de l'UE.</span></span><br />
+<br />
+<br />
+<span lang="FR" style="font-size:11.0pt"><span style="font-family:Barlow">Cependant, il vous est possible de demander une validation &eacute;crite &quot;&agrave; posteriori&quot; de ce document. Afin de nous permettre de pr&eacute;senter votre dossier aux douanes fran&ccedil;aises pour approbation, nous avons besoin d'un timbre d'accise d'un consulat de France. Veuillez notez que l'ambassade prends un frais de +/- 20 EUR pour cette proc&eacute;dure.</span></span><br />
+<br />
+<br />
+<span lang="FR" style="font-size:11.0pt"><span style="font-family:Barlow">Veuillez envoyer une copie de remboursement de votre forme de d&eacute;taxe avec les documents et informations suivants:</span></span><br />
+<br />
+<br />
+<span lang="FR" style="font-size:11.0pt"><span style="font-family:Barlow">• Timbre d'accise d'un consulat fran&ccedil;ais attestant que les marchandises ont &eacute;t&eacute; export&eacute;es. Vous devez vous pr&eacute;senter au consulat ou &agrave; l'ambassade de France de votre pays pour recevoir une telle confirmation.</span></span><br />
+<span lang="FR" style="font-size:11.0pt"><span style="font-family:Barlow">• Une lettre expliquant les raisons pour lesquelles vous n’avez pas fait tamponner votre forme de d&eacute;taxe lors de votre d&eacute;part de l’UE.</span></span><br />
+<span lang="FR" style="font-size:11.0pt"><span style="font-family:Barlow">• la copie de votre billet d'avion ou toute preuve de votre d&eacute;part d'Europe</span></span><br />
+<span lang="FR" style="font-size:11.0pt"><span style="font-family:Barlow">• Tous les documents l&eacute;gaux qui justifient votre r&eacute;sidence dans un pays &eacute;tranger (copie de votre passeport et de votre carte diplomatique si n&eacute;cessaire)</span></span><br />
+<br />
+<br />
+<span lang="FR" style="font-size:11.0pt"><span style="font-family:Barlow">Veuillez envoyer tous les documents originaux par courrier recommand&eacute; &agrave; l'adresse ci-dessous:</span></span><br />
+<br />
+<br />
+<span style="vertical-align:baseline"><strong><span lang="FR" style="border:none windowtext 1.0pt; font-family:Barlow; padding:0in">Direction r&eacute;gionale des douanes de Paris</span></strong><br />
+<span lang="FR" style="font-family:Barlow"><b>30 rue Raoul Wallenberg<br />
+75019 PARIS</b></span></span><br />
+<br />
+<br />
+<span lang="FR" style="font-size:11.0pt"><span style="font-family:Barlow">Une fois qu’il aura &eacute;t&eacute; re&ccedil;u par&nbsp;les douanes,&nbsp;en votre nom, ils pourront faire approuver votre formulaire de d&eacute;taxe. Le processus peut malheureusement durer 2 &agrave; 3 mois. Nous vous demandons donc de patience pendant cette p&eacute;riode.</span></span><br />
+<br />
+<br />
+<span lang="FR" style="font-size:11.0pt"><span style="font-family:Barlow">Bien cordialement.</span></span></p></body></html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>IT Solution Rebranded</name>
+    <style>none</style>
+    <subject>IT Solution for {!Account.Name} Rebranded</subject>
+    <textOnly>***Notification of IT Solution Rebranded***
+The IT Solution on {!Account.Name} has been rebranded.
+
+Details:
+
+Account ID: {!Account.Text_Account_ID__c}
+Street: {!Account.BillingStreet}
+City: {!Account.BillingCity}
+Postcode: {!Account.BillingPostalCode}
+Account Manager: {!Account.OwnerFullName}
+
+Click below to navigate to the account record in Salesforce:
+
+{!Account.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

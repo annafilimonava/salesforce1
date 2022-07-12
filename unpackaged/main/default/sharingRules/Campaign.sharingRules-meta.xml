@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Campaigns_Sweden</fullName>
+        <accessLevel>All</accessLevel>
+        <label>Campaigns Sweden</label>
+        <sharedTo>
+            <group>Sweden_Sales_All</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Sweden_Sales_All</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>France_Campaigns</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>France Campaigns</label>
+        <sharedTo>
+            <roleAndSubordinates>France_Management</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>France_Management</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Germany_Campaigns</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Germany Campaigns</label>
+        <sharedTo>
+            <roleAndSubordinates>Germany_Management</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Germany_Management</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Italy_Campaigns</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Italy Campaigns</label>
+        <sharedTo>
+            <roleAndSubordinates>Italy_Management</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Italy_Management</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>LinkedIn_Campaign_AC</fullName>
+        <accessLevel>All</accessLevel>
+        <label>LinkedIn Campaign AC</label>
+        <sharedTo>
+            <group>LinkedIn_Team_Angela</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>LinkedIn_Team_Angela</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>LinkedIn_Team_Claudia</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>LinkedIn Team Claudia</label>
+        <sharedTo>
+            <group>LinkedIn_Team_Claudia</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>LinkedIn_Team_Claudia</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>LinkedIn_Team_Nathalie</fullName>
+        <accessLevel>All</accessLevel>
+        <label>LinkedIn Team Nathalie</label>
+        <sharedTo>
+            <group>LinkedIn_Team_Nathalie</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>LinkedIn_Team_Nathalie</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>LinkedIn_Team_Rebekka</fullName>
+        <accessLevel>All</accessLevel>
+        <label>LinkedIn Team Rebekka</label>
+        <sharedTo>
+            <group>LinkedIn_Team_Rebekka</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>LinkedIn_Team_Rebekka</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>LinkedIn_Team_Stuart</fullName>
+        <accessLevel>All</accessLevel>
+        <label>LinkedIn Team Stuart</label>
+        <sharedTo>
+            <group>LinkedIn_Team_Stuart</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>LinkedIn_Team_Stuart</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Portugal_Campaigns</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Portugal Campaigns sharing</description>
+        <label>Portugal Campaigns</label>
+        <sharedTo>
+            <roleAndSubordinates>Portugal_Management</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Portugal_Management</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Spain_Campaign</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Spain Campaign</label>
+        <sharedTo>
+            <roleAndSubordinates>Spain_Management</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Spain_Management</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>UK_Campaigns</fullName>
+        <accessLevel>All</accessLevel>
+        <label>UK Campaigns</label>
+        <sharedTo>
+            <roleAndSubordinates>UK_Management</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>UK_Management</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,19 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span lang="FR" style="font-size:12.0pt;line-height:107%;
+font-family:Barlow;mso-ansi-language:FR">Cher </span><span style="font-family:
+Barlow;color:black">{{{Case.Tourist__c}}}</span><span lang="FR" style="font-size:12.0pt;line-height:107%;font-family:Barlow;mso-ansi-language:
+FR">,</span><br /> &nbsp;</p> 
+  <p class="MsoNormal"><span lang="FR" style="font-size:12.0pt;line-height:107%;
+font-family:Barlow;mso-ansi-language:FR">Merci pour votre email et pour avoir contact&eacute; Planet au sujet de nos frais d’administration.</span><br /> &nbsp;</p> 
+  <p class="MsoPlainText"><span lang="FR" style="font-size:12.0pt;font-family:Barlow;
+mso-ansi-language:FR">Une fois une d&eacute;taxe en esp&egrave;ce &agrave; l’a&eacute;roport choisi, un frais suppl&eacute;mentaire est &eacute;tablie par l’agent de l’a&eacute;roport pour cette transaction.</span><br /> &nbsp;</p> 
+  <p class="MsoPlainText"><span lang="FR" style="font-size:12.0pt;font-family:Barlow;
+mso-ansi-language:FR">Nous restons &agrave; votre disposition si vous avez besoin de plus d’informations. </span><br /> &nbsp;</p> 
+  <p class="MsoPlainText"><span style="font-size:12.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">Cordialement.</span></p>
+ </body>
+</html>

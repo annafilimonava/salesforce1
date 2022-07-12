@@ -1,0 +1,11 @@
+<font face="verdana,arial,sans-serif"><b>***Notification of Order Dispatch***</b><p>
+-----------------------------------------------------------------------------------------<p>
+Dear {!Account.OwnerFirstName},<p>
+<p>
+A material order has been dispatched for {!Order.Company_Name__c}.
+<p>
+<b>Dispatch Date:</b> {!Order.Dispatch_Date__c}<p>
+<p>
+To view the order in Salesforce click on the link below.<p>
+<p>
+{!Order.Link}<p>

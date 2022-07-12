@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Objectives_Score_CY__c</fullName>
+    <externalId>false</externalId>
+    <label>Objectives Score 2021</label>
+    <summarizedField>Merchant_Account_Plan__c.Objectives_Health__c</summarizedField>
+    <summaryFilterItems>
+        <field>Merchant_Account_Plan__c.Name</field>
+        <operation>contains</operation>
+        <value>2021</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Merchant_Account_Plan__c.Account__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

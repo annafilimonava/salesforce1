@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SWOT__c</fullName>
+    <externalId>false</externalId>
+    <label>SWOT</label>
+    <referenceTo>SWOT__c</referenceTo>
+    <relationshipLabel>Actions 1st Quarter</relationshipLabel>
+    <relationshipName>SWOT_Actions</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

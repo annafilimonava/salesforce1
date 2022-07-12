@@ -1,0 +1,16 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Thank you for your reply. I’m glad to inform you I’ve updated your credit card details and your refund has been added to the next payment run, therefore it should appear on your X$X</span><b><span lang="EN-GB" style="font-size:11.0pt"><span style="font-family:Barlow"><span style="color:black">July/ August&nbsp;&nbsp;</span></span></span></b><span lang="EN-IE" style="font-family:Barlow">bank statement. </span></p>
+
+<p class="MsoNormal">&nbsp;</p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">If you require further assistance, please let us know.</span></p>
+
+</body></html>

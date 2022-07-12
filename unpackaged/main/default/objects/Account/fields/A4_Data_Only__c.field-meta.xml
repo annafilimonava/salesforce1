@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>A4_Data_Only__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field used on Provider record type for available page layouts.</description>
+    <externalId>false</externalId>
+    <label>A4 Data Only</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Support_Level_GMV_Check</fullName>
+    <active>true</active>
+    <description>Support Level &amp; GMV not available for PCI Proxy &amp; Payment Gateway Products</description>
+    <errorConditionFormula>AND(
+NOT(Click_Collect__c = TRUE || OMS__c = TRUE || Smart_POS__c = TRUE || Digital_Commerce__c = TRUE),
+IF(PCI_Proxy__c = TRUE || Payment_Gateway__c = TRUE, NOT(ISBLANK(TEXT(Support_Level__c))) || NOT(ISBLANK(TEXT(Predicted_GMV_Value__c))) , FALSE)
+)</errorConditionFormula>
+    <errorMessage>Support Level &amp; GMV Values are not supported for PCI Proxy &amp; Payment Gateway Product</errorMessage>
+</ValidationRule>

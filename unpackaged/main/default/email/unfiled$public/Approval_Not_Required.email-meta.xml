@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Approval Not Required</name>
+    <style>none</style>
+    <subject>No Approval Required for {!Opportunity.Account} Opportunity</subject>
+    <textOnly>The opportunity with a value of {!Opportunity.Opportunity_Value__c} created by {!Opportunity.CreatedBy} does not require approval because the NC Per Form is {!Opportunity.TF_NC_Per_Form__c} and the Rebate % is {!Opportunity.TF_Rebate__c}.
+
+You may view the record by clicking here -&gt;{!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

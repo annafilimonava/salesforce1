@@ -1,0 +1,55 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">Bonjour {{{Case.Tourist__c}}},</span> 
+  <br /> &nbsp; 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">Merci pour votre message.</span><br /> &nbsp;</p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">La raison pour laquelle votre carte a &eacute;t&eacute; d&eacute;bit&eacute;, c'est parce que nous avons re&ccedil;u votre forme de d&eacute;taxe {{{Case.Tax_Free_Form__c}}} sans le re&ccedil;u d’origine. Ceci est malheureusement obligatoire selon les conditions pour cette r&eacute;gion. D&egrave;s r&eacute;ception de votre remboursement en esp&egrave;ces, vous avez sign&eacute; une d&eacute;claration autorisant Planet &agrave; d&eacute;biter votre carte si nous n’avons pas re&ccedil;u votre forme de d&eacute;taxe avec le re&ccedil;u d’origine du magasin dans les d&eacute;lais convenus.</span><br /> &nbsp;</p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">Pouvez-vous s'il vous pla&icirc;t indiquer si vous avez le re&ccedil;u en votre possession et pouvez-vous l'envoyer &agrave; notre centre de traitement principal? Si oui, vous pouvez l'envoyer &agrave; l'adresse suivante:</span><br /> &nbsp;</p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR;mso-bidi-font-weight:bold">Planet Payment Poland</span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">ul. DOMANIEWSKA 39</span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">WARSZAWA</span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">POLOGNE</span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">02-672</span><br /> &nbsp;</p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">Veuillez ajouter une note avec votre num&eacute;ro de la forme de d&eacute;taxe lorsque vous envoyez le re&ccedil;u de magasin original.</span><br /> &nbsp;</p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">Nous recommandons aux clients d’utiliser le courrier recommand&eacute; lors de l’envoi de leurs documents. Si vous avez besoin d'aide, n'h&eacute;sitez pas &agrave; nous contacter.</span><br /> &nbsp;</p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">Cordialement.</span></p>
+ </body>
+</html>

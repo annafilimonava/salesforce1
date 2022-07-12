@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MwSt_Erh_hung_Value_Retail</fullName>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Position__c</columns>
+    <columns>Account_Record_Type__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Owner__c</columns>
+    <columns>TF_Influence_Level__c</columns>
+    <columns>DCC_Influence_Level__c</columns>
+    <columns>Account_City__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>Germany</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Active,Pending Activation</value>
+    </filters>
+    <filters>
+        <field>Inactive__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>CONTACT.EMAIL</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>CONTACT.EMAIL</field>
+        <operation>contains</operation>
+        <value>valueretail.com</value>
+    </filters>
+    <label>MwSt. Erhöhung_Value Retail</label>
+</ListView>

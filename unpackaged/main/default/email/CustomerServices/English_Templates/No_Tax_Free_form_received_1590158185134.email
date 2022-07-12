@@ -1,0 +1,17 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;mso-bidi-font-family:
+Calibri">Dear {{{Case.Tourist__c}}}, </span></p> 
+  <p class="MsoNormal" style="tab-stops:103.0pt"><span lang="EN-IE" style="font-family:
+Barlow;mso-bidi-font-family:Calibri"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">Thank you for your email. </span></p> 
+  <p class="MsoPlainText" style="text-indent:36.0pt"><span lang="EN-IE" style="font-size:11.0pt;font-family:Barlow;mso-bidi-font-family:Calibri">&nbsp; </span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow">I have checked our database and to date we have not received your Tax Free form {{{Case.Tax_Free_Form__c}}}. It is a very unfortunate situation as without the return of a stamped Tax Free form within the outlined timeframe neither the tourist nor the Tax Free operator is entitled to claim the VAT from the government and to benefit from the VAT refund scheme. <span style="mso-spacerun:yes">&nbsp;</span> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">Please accept our apologies for the inconvenience caused, but as a private Tax Free operator we need to adhere to rules set out by the local governments.</span></p>
+ </body>
+</html>

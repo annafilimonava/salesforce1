@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SS_DS_TRS_only__c</fullName>
+    <externalId>false</externalId>
+    <label>SS/DS (TRS only)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DS</fullName>
+                <default>false</default>
+                <label>DS</label>
+            </value>
+            <value>
+                <fullName>SS</fullName>
+                <default>false</default>
+                <label>SS</label>
+            </value>
+            <value>
+                <fullName>BBVA/POL</fullName>
+                <default>false</default>
+                <label>BBVA/POL</label>
+            </value>
+            <value>
+                <fullName>POL/PA</fullName>
+                <default>false</default>
+                <label>POL/PA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TF_Current_Provider__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES(Account__r.TF_Current_Provider__c,&quot;Caixa&quot;), &quot;Caixa&quot;,
+IF(INCLUDES(Account__r.TF_Current_Provider__c,&quot;Premier Tax Free&quot;), &quot;Premier Tax Free&quot;, &quot;&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TF Current Provider</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

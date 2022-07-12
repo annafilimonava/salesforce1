@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Segment__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>IKA – SiS is greater than €2,000,000 per annum, in at least 3 countries with SiS in at least 3
+NKA – SiS is greater than €1,000,000 per annum, substantial national presence
+Managed – SiS is greater than €100,000 per annum
+Maintained - All Others</inlineHelpText>
+    <label>Account Segment</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IKA</fullName>
+                <default>false</default>
+                <label>IKA</label>
+            </value>
+            <value>
+                <fullName>NKA</fullName>
+                <default>false</default>
+                <label>NKA</label>
+            </value>
+            <value>
+                <fullName>Maintained</fullName>
+                <default>false</default>
+                <label>Maintained</label>
+            </value>
+            <value>
+                <fullName>Managed</fullName>
+                <default>false</default>
+                <label>Managed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

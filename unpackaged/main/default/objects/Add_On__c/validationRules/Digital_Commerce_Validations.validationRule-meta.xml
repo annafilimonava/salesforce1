@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Digital_Commerce_Validations</fullName>
+    <active>true</active>
+    <description>If DC is &#39;Additional Domain Name&#39; or &#39;webfront&#39;, enter per DC &amp; per website
+If DC is &#39;StoreFront APIs for other channels&#39; or &#39;Distance selling checkout&#39;, enter per DC
+If DC is &#39;Digital Commerce&#39;, enter per independently managed number</description>
+    <errorConditionFormula>OR(
+AND
+( 
+TEXT(Digital_Commerce_Options__c) =&#39;Additional Domain Name&#39; || 
+TEXT(Digital_Commerce_Options__c) =&#39;Webfront&#39;, 
+ISBLANK(  Per_DC_Implementation__c ),
+ISBLANK(  Per_Website__c )
+),
+AND( TEXT(Digital_Commerce_Options__c) =&#39;StoreFront APIs For Other Channels&#39; || 
+TEXT(Digital_Commerce_Options__c) =&#39;Distance Selling Checkout&#39;, 
+ISBLANK(  Per_DC_Implementation__c )
+),
+AND( TEXT(Digital_Commerce_Options__c) =&#39;Digital Commerce&#39;, 
+ISBLANK(   Per_Independently_Managed_Brand__c )
+)
+)</errorConditionFormula>
+    <errorMessage>If DC Option is &#39;Additional Domain Name&#39;/&#39;Webfront&#39;, enter per DC &amp; per website
+If DC Option is &#39;StoreFront APIs for other channels&#39;/&#39;Distance selling checkout&#39;, enter per DC
+If DC Option is &#39;Digital Commerce&#39;, enter per independently managed brand</errorMessage>
+</ValidationRule>

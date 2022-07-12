@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pinpad</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(Terminal__c) &lt;&gt; &quot;Vx520&quot;, Pinpad__c = TRUE)</errorConditionFormula>
+    <errorDisplayField>Pinpad__c</errorDisplayField>
+    <errorMessage>This terminal type already has a pinpad.</errorMessage>
+</ValidationRule>

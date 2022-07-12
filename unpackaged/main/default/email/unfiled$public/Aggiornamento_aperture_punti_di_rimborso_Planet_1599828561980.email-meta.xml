@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Punti di Rimborso</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Aggiornamento aperture punti di rimborso Planet</name>
+    <relatedEntityType>Contact</relatedEntityType>
+    <style>none</style>
+    <subject>Aggiornamento aperture punti di rimborso Planet</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

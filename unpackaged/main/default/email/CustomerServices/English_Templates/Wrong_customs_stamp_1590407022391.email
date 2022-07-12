@@ -1,0 +1,28 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Thank you for your email. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">I can confirm that we have received your Tax Free Form {{{Case.Tax_Free_Form__c}}}, but unfortunately we were not able to issue you a refund, as it was stamped by X$X<span style="color:#FF6600">(insert country, ex. Russian) </span>Customs. X$X<span style="color:red">(I</span><span style="color:#FF6600">nsert country – ex. Russia) </span>is not a part of EU and unfortunately this stamp cannot be accepted for the European Tax Free process. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">If I can be of any further assistance, please let me know.</span></p>
+ </body>
+</html>

@@ -1,0 +1,4 @@
+<apex:page standardController="BI_Analytics__c" showheader="false" sidebar="false">
+  <apex:iframe src="https://intelligence.planetpayment.com/t/Planet/views/VATRetailDataTracker/SummaryDashboard?:showAppBanner=false&:tabs=no&:embed=yes&:display_count=y&:showShareOptions=true&:toolbar=yes&:highdpi=true&:origin=Salesforce" height="1050px" width="100%" scrolling="false">
+  </apex:iframe>
+</apex:page>

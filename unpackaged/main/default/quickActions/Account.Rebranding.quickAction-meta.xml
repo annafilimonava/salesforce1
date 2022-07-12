@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldOverrides>
+        <field>ActivityDateTime</field>
+        <formula>NOW()</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>DurationInMinutes</field>
+        <formula>15</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>EndDateTime</field>
+        <formula>NOW() + 15</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Location</field>
+        <formula>Account.BillingStreet &amp; &quot; &quot; &amp; Account.BillingCity</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>OwnerId</field>
+        <formula>$User.Id</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>StartDateTime</field>
+        <formula>NOW()</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Subject</field>
+        <formula>Account.Name &amp; &quot; &quot; &amp; &quot;Shop Visit - Rebranding&quot;</formula>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>Type</field>
+        <literalValue>Planned Shop Visit</literalValue>
+    </fieldOverrides>
+    <fieldOverrides>
+        <field>WhatId</field>
+        <formula>Account.Id</formula>
+    </fieldOverrides>
+    <label>Rebranding</label>
+    <optionsCreateFeedItem>true</optionsCreateFeedItem>
+    <quickActionLayout>
+        <layoutSectionStyle>TwoColumnsLeftToRight</layoutSectionStyle>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>In_Store_Collateral_Rebranded__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>IT_Solutions_Rebranded__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+        <quickActionLayoutColumns>
+            <quickActionLayoutItems>
+                <emptySpace>false</emptySpace>
+                <field>Forms_Rebranded__c</field>
+                <uiBehavior>Edit</uiBehavior>
+            </quickActionLayoutItems>
+        </quickActionLayoutColumns>
+    </quickActionLayout>
+    <targetObject>Event</targetObject>
+    <targetParentField>What</targetParentField>
+    <targetRecordType>Event.Shop_Visit</targetRecordType>
+    <type>Create</type>
+</QuickAction>

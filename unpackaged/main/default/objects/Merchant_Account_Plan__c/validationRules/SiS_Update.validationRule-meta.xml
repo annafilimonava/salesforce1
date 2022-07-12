@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SiS_Update</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(YEAR(SiS_L12M_Update__c)&lt;&gt; 2020, SiS_L12M__c &lt; 1)</errorConditionFormula>
+    <errorMessage>You must complete or update the TF SiS L12M field on the account record.</errorMessage>
+</ValidationRule>

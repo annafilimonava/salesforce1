@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Customer_Journey_Subtotal__c</fullName>
+    <externalId>false</externalId>
+    <formula>Pre_Shopping_JourneyR__c +  Guided_to_Store_via_Digital_AppR__c +  Clear_That_Store_Provides_Tax_FreeR__c +  Happy_with_In_Store_Customer_JourneyR__c +  Seamless_TF_Experience_at_CounterR__c +  Automated_Tax_Free_ProcessR__c +  Tourists_Educated_by_StaffR__c +  Ease_of_Receiving_RefundR__c +  How_Many_Refund_OptionsR__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Customer Journey Subtotal</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

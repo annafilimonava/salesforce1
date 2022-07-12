@@ -1,0 +1,4 @@
+<apex:page standardController="Account" showheader="false" sidebar="false" lightningStylesheets="true">
+  <apex:iframe src="https://intelligence.planetpayment.com/t/Planet/views/RecordCheck/HOCheck?:showAppBanner=false&:embed=y&:display_count=n&:showShareOptions=false&:toolbar=no&:tabs=no&:highdpi=true&:showVizHome=n&:origin=viz_share_link&WHCode={!URLENCODE(Account.External_Tax_System_ID__c)}" height="300px" width="100%" scrolling="no">
+  </apex:iframe>
+</apex:page>

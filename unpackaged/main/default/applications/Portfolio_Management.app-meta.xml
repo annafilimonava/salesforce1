@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultLandingTab>standard-home</defaultLandingTab>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Portfolio Management</label>
+    <tabs>Portfolio__c</tabs>
+    <tabs>Work_Request__c</tabs>
+    <tabs>PPM_Project__c</tabs>
+    <tabs>Team_Member__c</tabs>
+    <tabs>Benefit__c</tabs>
+    <tabs>Cost_Items__c</tabs>
+    <tabs>Issue_Risk_Threat__c</tabs>
+    <tabs>Status_Report__c</tabs>
+    <tabs>Time_Record__c</tabs>
+    <tabs>standard-Document</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>standard-report</tabs>
+    <tabs>Tax_Free_Form__c</tabs>
+    <tabs>Debug_Log_Track__c</tabs>
+    <tabs>Hoist_Update__c</tabs>
+    <tabs>Opportunity_Approval_Matrix__c</tabs>
+</CustomApplication>

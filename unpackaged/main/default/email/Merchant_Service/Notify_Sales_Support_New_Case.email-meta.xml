@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Notify Sales Support New Case</name>
+    <style>none</style>
+    <subject>New Case Created on {!Case.Account}</subject>
+    <textOnly>Dear Sales Support,
+
+A new Sales Support case has been created on {!Case.Account}
+
+Type: {!Case.Type}
+
+Case Reason: {!Case.Reason}
+
+Subject: {!Case.Subject}
+
+You can see full details by clicking this link: {!Case.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

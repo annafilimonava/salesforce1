@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_To__c</fullName>
+    <externalId>false</externalId>
+    <label>Lost To</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Product__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Adyen</fullName>
+                <default>false</default>
+                <label>Adyen</label>
+            </value>
+            <value>
+                <fullName>Applepay</fullName>
+                <default>false</default>
+                <label>Applepay</label>
+            </value>
+            <value>
+                <fullName>Banca Sella</fullName>
+                <default>false</default>
+                <label>Banca Sella</label>
+            </value>
+            <value>
+                <fullName>Cardtronics</fullName>
+                <default>false</default>
+                <label>Cardtronics</label>
+            </value>
+            <value>
+                <fullName>Cerfa</fullName>
+                <default>false</default>
+                <label>Cerfa</label>
+            </value>
+            <value>
+                <fullName>ConCardis</fullName>
+                <default>false</default>
+                <label>ConCardis</label>
+            </value>
+            <value>
+                <fullName>Detaxe SA</fullName>
+                <default>false</default>
+                <label>Detaxe SA</label>
+            </value>
+            <value>
+                <fullName>Elavon</fullName>
+                <default>false</default>
+                <label>Elavon</label>
+            </value>
+            <value>
+                <fullName>Euro Free Shopping</fullName>
+                <default>false</default>
+                <label>Euro Free Shopping</label>
+            </value>
+            <value>
+                <fullName>Euronet</fullName>
+                <default>false</default>
+                <label>Euronet</label>
+            </value>
+            <value>
+                <fullName>EuroNet/Pure Commerce</fullName>
+                <default>false</default>
+                <label>EuroNet/Pure Commerce</label>
+            </value>
+            <value>
+                <fullName>Euronet Worldwide</fullName>
+                <default>false</default>
+                <label>Euronet Worldwide</label>
+            </value>
+            <value>
+                <fullName>Eurorefund</fullName>
+                <default>false</default>
+                <label>Eurorefund</label>
+            </value>
+            <value>
+                <fullName>Eurotaxfree</fullName>
+                <default>false</default>
+                <label>Eurotaxfree</label>
+            </value>
+            <value>
+                <fullName>EU TaxFree</fullName>
+                <default>false</default>
+                <label>EU TaxFree</label>
+            </value>
+            <value>
+                <fullName>Fexco</fullName>
+                <default>false</default>
+                <label>Fexco</label>
+            </value>
+            <value>
+                <fullName>Fexco/Global Payment</fullName>
+                <default>false</default>
+                <label>Fexco/Global Payment</label>
+            </value>
+            <value>
+                <fullName>Fexco/Omnipay</fullName>
+                <default>false</default>
+                <label>Fexco/Omnipay</label>
+            </value>
+            <value>
+                <fullName>First Data</fullName>
+                <default>false</default>
+                <label>First Data</label>
+            </value>
+            <value>
+                <fullName>GB Tax Free</fullName>
+                <default>false</default>
+                <label>GB Tax Free</label>
+            </value>
+            <value>
+                <fullName>Global Blue</fullName>
+                <default>false</default>
+                <label>Global Blue</label>
+            </value>
+            <value>
+                <fullName>Global Blue/Currency Select</fullName>
+                <default>false</default>
+                <label>Global Blue/Currency Select</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Hi Sky</fullName>
+                <default>false</default>
+                <label>Hi Sky</label>
+            </value>
+            <value>
+                <fullName>Innova</fullName>
+                <default>false</default>
+                <label>Innova</label>
+            </value>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>MONEX Financial Services</fullName>
+                <default>false</default>
+                <label>MONEX Financial Services</label>
+            </value>
+            <value>
+                <fullName>Money</fullName>
+                <default>false</default>
+                <label>Money</label>
+            </value>
+            <value>
+                <fullName>Natixis</fullName>
+                <default>false</default>
+                <label>Natixis</label>
+            </value>
+            <value>
+                <fullName>New Tax Free Vat Refund</fullName>
+                <default>false</default>
+                <label>New Tax Free Vat Refund</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Planet Payments</fullName>
+                <default>false</default>
+                <label>Planet Payments</label>
+            </value>
+            <value>
+                <fullName>Setefi</fullName>
+                <default>false</default>
+                <label>Setefi</label>
+            </value>
+            <value>
+                <fullName>Simply Tax Free</fullName>
+                <default>false</default>
+                <label>Simply Tax Free</label>
+            </value>
+            <value>
+                <fullName>SIX</fullName>
+                <default>false</default>
+                <label>SIX</label>
+            </value>
+            <value>
+                <fullName>Smart Tax</fullName>
+                <default>false</default>
+                <label>Smart Tax</label>
+            </value>
+            <value>
+                <fullName>Tax Free Rus</fullName>
+                <default>false</default>
+                <label>Tax Free Rus</label>
+            </value>
+            <value>
+                <fullName>Tax Refund Italy</fullName>
+                <default>false</default>
+                <label>Tax Refund Italy</label>
+            </value>
+            <value>
+                <fullName>Travelex</fullName>
+                <default>false</default>
+                <label>Travelex</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>U Shop</fullName>
+                <default>false</default>
+                <label>U Shop</label>
+            </value>
+            <value>
+                <fullName>VP Tax Free</fullName>
+                <default>false</default>
+                <label>VP Tax Free</label>
+            </value>
+            <value>
+                <fullName>Worldline</fullName>
+                <default>false</default>
+                <label>Worldline</label>
+            </value>
+            <value>
+                <fullName>Worldpay</fullName>
+                <default>false</default>
+                <label>Worldpay</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <controllingFieldValue>DCC &amp; Payments</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC &amp; Payments</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Adyen</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Applepay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Banca Sella</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Cardtronics</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Cerfa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>ConCardis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Detaxe SA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Elavon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Euro Free Shopping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Euronet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>EuroNet/Pure Commerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Euronet Worldwide</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Eurorefund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Eurotaxfree</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>EU TaxFree</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Fexco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Fexco/Global Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Fexco/Omnipay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>First Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>GB Tax Free</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Global Blue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Global Blue/Currency Select</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Government</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Hi Sky</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Innova</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Invoice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>MONEX Financial Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Money</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Natixis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>New Tax Free Vat Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Wirecard</controllingFieldValue>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Planet Payments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Setefi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Simply Tax Free</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>SIX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Smart Tax</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Tax Free Rus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Tax Refund Italy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Travelex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Unknown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>U Shop</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>TF</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>VP Tax Free</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Worldline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; Gateway &amp; TF</controllingFieldValue>
+            <controllingFieldValue>Indirect</controllingFieldValue>
+            <controllingFieldValue>Gateway &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>TF &amp; DCC</controllingFieldValue>
+            <controllingFieldValue>Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring and Gateway</controllingFieldValue>
+            <controllingFieldValue>Acquiring &amp; TF</controllingFieldValue>
+            <valueName>Worldpay</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

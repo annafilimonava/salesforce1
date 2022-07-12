@@ -1,0 +1,571 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Unit_Subtype__c</fullName>
+    <externalId>false</externalId>
+    <label>Unit Subtype</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Unit_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>A920 Charging Cradle</fullName>
+                <default>false</default>
+                <label>A920 Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>Brother HL-L2365dw Laser Printers</fullName>
+                <default>false</default>
+                <label>Brother HL-L2365dw Laser Printers</label>
+            </value>
+            <value>
+                <fullName>Datalogic Magellan 110i (2D) Barcode scanner</fullName>
+                <default>false</default>
+                <label>Datalogic Magellan 110i (2D) Barcode scanner</label>
+            </value>
+            <value>
+                <fullName>Dell E1715S 17&quot; monitor</fullName>
+                <default>false</default>
+                <label>Dell E1715S 17&quot; monitor</label>
+            </value>
+            <value>
+                <fullName>Desk5000</fullName>
+                <default>false</default>
+                <label>Desk5000</label>
+            </value>
+            <value>
+                <fullName>E355</fullName>
+                <default>false</default>
+                <label>E355</label>
+            </value>
+            <value>
+                <fullName>E355 Charging Cradle</fullName>
+                <default>false</default>
+                <label>E355 Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>EPSON TM-m30 Thermal</fullName>
+                <default>false</default>
+                <label>EPSON TM-m30 Thermal</label>
+            </value>
+            <value>
+                <fullName>Epson TM T20 III Thermal</fullName>
+                <default>false</default>
+                <label>Epson TM T20 III Thermal</label>
+            </value>
+            <value>
+                <fullName>Epson TM T20 II Thermal</fullName>
+                <default>false</default>
+                <label>Epson TM T20 II Thermal</label>
+            </value>
+            <value>
+                <fullName>Epson TM T20 I Thermal</fullName>
+                <default>false</default>
+                <label>Epson TM T20 I Thermal</label>
+            </value>
+            <value>
+                <fullName>Epson TM T88IV Thermal</fullName>
+                <default>false</default>
+                <label>Epson TM T88IV Thermal</label>
+            </value>
+            <value>
+                <fullName>Epson TM T88V Thermal</fullName>
+                <default>false</default>
+                <label>Epson TM T88V Thermal</label>
+            </value>
+            <value>
+                <fullName>Epson TM U295 Impact</fullName>
+                <default>false</default>
+                <label>Epson TM U295 Impact</label>
+            </value>
+            <value>
+                <fullName>H500</fullName>
+                <default>false</default>
+                <label>H500</label>
+            </value>
+            <value>
+                <fullName>i5100</fullName>
+                <default>false</default>
+                <label>i5100</label>
+            </value>
+            <value>
+                <fullName>i7780</fullName>
+                <default>false</default>
+                <label>i7780</label>
+            </value>
+            <value>
+                <fullName>INGENICO Lane 3000</fullName>
+                <default>false</default>
+                <label>INGENICO Lane 3000</label>
+            </value>
+            <value>
+                <fullName>iPad Mini 4 A1550</fullName>
+                <default>false</default>
+                <label>iPad Mini 4 A1550</label>
+            </value>
+            <value>
+                <fullName>M010</fullName>
+                <default>false</default>
+                <label>M010</label>
+            </value>
+            <value>
+                <fullName>Move 2500</fullName>
+                <default>false</default>
+                <label>Move 2500</label>
+            </value>
+            <value>
+                <fullName>MOVE5000</fullName>
+                <default>false</default>
+                <label>MOVE5000</label>
+            </value>
+            <value>
+                <fullName>P400</fullName>
+                <default>false</default>
+                <label>P400</label>
+            </value>
+            <value>
+                <fullName>P400+</fullName>
+                <default>false</default>
+                <label>P400+</label>
+            </value>
+            <value>
+                <fullName>P400 with Security Pole</fullName>
+                <default>false</default>
+                <label>P400 with Security Pole</label>
+            </value>
+            <value>
+                <fullName>Pax A35</fullName>
+                <default>false</default>
+                <label>Pax A35</label>
+            </value>
+            <value>
+                <fullName>Pax A77</fullName>
+                <default>false</default>
+                <label>Pax A77</label>
+            </value>
+            <value>
+                <fullName>Pax A77 Charging Cradle</fullName>
+                <default>false</default>
+                <label>Pax A77 Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>Pax A80</fullName>
+                <default>false</default>
+                <label>Pax A80</label>
+            </value>
+            <value>
+                <fullName>PAX A920 - Black</fullName>
+                <default>false</default>
+                <label>PAX A920 - Black</label>
+            </value>
+            <value>
+                <fullName>Pax A920 Charging Cradle</fullName>
+                <default>false</default>
+                <label>Pax A920 Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>PAX A920 Pro</fullName>
+                <default>false</default>
+                <label>PAX A920 PRO</label>
+            </value>
+            <value>
+                <fullName>PAX A920 - White</fullName>
+                <default>false</default>
+                <label>PAX A920 - White</label>
+            </value>
+            <value>
+                <fullName>Pax IM30</fullName>
+                <default>false</default>
+                <label>Pax IM30</label>
+            </value>
+            <value>
+                <fullName>STAR TSP 700 Thermal</fullName>
+                <default>false</default>
+                <label>STAR TSP 700 Thermal</label>
+            </value>
+            <value>
+                <fullName>Terminal</fullName>
+                <default>false</default>
+                <label>Terminal</label>
+            </value>
+            <value>
+                <fullName>Tetra Move 5000 Charging Cradle</fullName>
+                <default>false</default>
+                <label>Tetra Move 5000 Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>TNS SIM Card</fullName>
+                <default>false</default>
+                <label>TNS SIM Card</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>VALINA</fullName>
+                <default>false</default>
+                <label>VALINA</label>
+            </value>
+            <value>
+                <fullName>VERIFONE VX820 PINPAD 3CP</fullName>
+                <default>false</default>
+                <label>VERIFONE VX820 PINPAD 3CP</label>
+            </value>
+            <value>
+                <fullName>Vx520</fullName>
+                <default>false</default>
+                <label>Vx520</label>
+            </value>
+            <value>
+                <fullName>Vx680</fullName>
+                <default>false</default>
+                <label>Vx680</label>
+            </value>
+            <value>
+                <fullName>Vx680 Charging Cradle</fullName>
+                <default>false</default>
+                <label>Vx680 Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>Vx680 Charging Cradle W/BT</fullName>
+                <default>false</default>
+                <label>Vx680 Charging Cradle W/BT</label>
+            </value>
+            <value>
+                <fullName>Vx690</fullName>
+                <default>false</default>
+                <label>Vx690</label>
+            </value>
+            <value>
+                <fullName>Vx690 Charging Cradle</fullName>
+                <default>false</default>
+                <label>Vx690 Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>Vx820 Duet</fullName>
+                <default>false</default>
+                <label>VX820 DUET</label>
+            </value>
+            <value>
+                <fullName>Vx820 PinPad</fullName>
+                <default>false</default>
+                <label>Vx820 PinPad</label>
+            </value>
+            <value>
+                <fullName>Worldline Valina</fullName>
+                <default>false</default>
+                <label>Worldline Valina</label>
+            </value>
+            <value>
+                <fullName>Worldline Yomani XR</fullName>
+                <default>false</default>
+                <label>Worldline Yomani XR</label>
+            </value>
+            <value>
+                <fullName>XENOA COMBI-PACK 3C</fullName>
+                <default>false</default>
+                <label>XENOA COMBI-PACK 3C</label>
+            </value>
+            <value>
+                <fullName>XENOA_PINPAD</fullName>
+                <default>false</default>
+                <label>XENOA PINPAD</label>
+            </value>
+            <value>
+                <fullName>XENTEO COMBI-PACK 3C</fullName>
+                <default>false</default>
+                <label>XENTEO COMBI-PACK 3C</label>
+            </value>
+            <value>
+                <fullName>XENTEO_PINPAD</fullName>
+                <default>false</default>
+                <label>XENTEO PINPAD</label>
+            </value>
+            <value>
+                <fullName>YOMANI_COMPACT</fullName>
+                <default>false</default>
+                <label>YOMANI COMPACT</label>
+            </value>
+            <value>
+                <fullName>YOMANI PINPAD</fullName>
+                <default>false</default>
+                <label>YOMANI PINPAD</label>
+            </value>
+            <value>
+                <fullName>YONEO</fullName>
+                <default>false</default>
+                <label>YONEO</label>
+            </value>
+            <value>
+                <fullName>Yoneo for Xenoa</fullName>
+                <default>false</default>
+                <label>Yoneo for Xenoa</label>
+            </value>
+            <value>
+                <fullName>Yoneo for Xentoa</fullName>
+                <default>false</default>
+                <label>Yoneo for Xentoa</label>
+            </value>
+            <value>
+                <fullName>YOXIMO</fullName>
+                <default>false</default>
+                <label>YOXIMO</label>
+            </value>
+            <value>
+                <fullName>Yoximo Charging Cradle</fullName>
+                <default>false</default>
+                <label>Yoximo Charging Cradle</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Tablet</controllingFieldValue>
+            <valueName>iPad Mini 4 A1550</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SIM Card</controllingFieldValue>
+            <valueName>TNS SIM Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Base Station</controllingFieldValue>
+            <valueName>A920 Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Base Station</controllingFieldValue>
+            <valueName>E355 Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Base Station</controllingFieldValue>
+            <valueName>Pax A77 Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Base Station</controllingFieldValue>
+            <valueName>Pax A920 Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Base Station</controllingFieldValue>
+            <valueName>Tetra Move 5000 Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Base Station</controllingFieldValue>
+            <controllingFieldValue>Kiosk</controllingFieldValue>
+            <controllingFieldValue>Pinpad</controllingFieldValue>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Unknown</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Base Station</controllingFieldValue>
+            <valueName>Vx680 Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Base Station</controllingFieldValue>
+            <valueName>Vx680 Charging Cradle W/BT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Base Station</controllingFieldValue>
+            <valueName>Vx690 Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Base Station</controllingFieldValue>
+            <valueName>Yoximo Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pinpad</controllingFieldValue>
+            <valueName>Vx820 PinPad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <valueName>Brother HL-L2365dw Laser Printers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <valueName>EPSON TM-m30 Thermal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <valueName>Epson TM T20 III Thermal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <valueName>Epson TM T20 II Thermal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <valueName>Epson TM T20 I Thermal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <valueName>Epson TM T88IV Thermal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <valueName>Epson TM T88V Thermal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <valueName>Epson TM U295 Impact</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <valueName>i5100</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <valueName>i7780</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Printer</controllingFieldValue>
+            <valueName>STAR TSP 700 Thermal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Desk5000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>E355</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>H500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>INGENICO Lane 3000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>M010</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Move 2500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>MOVE5000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>P400</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>P400+</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>P400 with Security Pole</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Pax A35</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Pax A77</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Pax A80</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>PAX A920 - Black</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>PAX A920 Pro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>PAX A920 - White</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Pax IM30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Terminal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>VALINA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>VERIFONE VX820 PINPAD 3CP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Vx520</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Vx680</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Vx690</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Vx820 Duet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Worldline Valina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Worldline Yomani XR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>XENOA COMBI-PACK 3C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>XENOA_PINPAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>XENTEO COMBI-PACK 3C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>XENTEO_PINPAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>YOMANI_COMPACT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>YOMANI PINPAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>YONEO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Yoneo for Xenoa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>Yoneo for Xentoa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Terminal</controllingFieldValue>
+            <valueName>YOXIMO</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

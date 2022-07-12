@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_Support_FR_POS_Solution</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Street__c</columns>
+    <columns>City__c</columns>
+    <columns>Post_Code__c</columns>
+    <columns>Terminal_ID_TID__c</columns>
+    <columns>Product__c</columns>
+    <columns>Solution__c</columns>
+    <columns>Terminal__c</columns>
+    <columns>Base_Station__c</columns>
+    <columns>Printer__c</columns>
+    <columns>Pinpad__c</columns>
+    <columns>Passport_Scanner__c</columns>
+    <filterScope>Queue</filterScope>
+    <label>POS Support FR</label>
+    <language>en_US</language>
+    <queue>POS_Support_FR</queue>
+    <sharedTo>
+        <group>France_Users</group>
+    </sharedTo>
+</ListView>

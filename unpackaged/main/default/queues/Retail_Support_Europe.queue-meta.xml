@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>retailsupport.eu@planetpayment.com</email>
+    <name>Retail Support Europe</name>
+    <queueMembers>
+        <users>
+            <user>daniele.promutico@planetpayment.com</user>
+            <user>david.martinez@planetpayment.com</user>
+            <user>diogo.saldanha@planetpayment.com</user>
+            <user>fabio.vitale@planetpayment.com</user>
+            <user>jana.coric@planetpayment.com</user>
+            <user>lara.gottwald@planetpayment.com</user>
+            <user>sheila.amaro@planetpayment.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

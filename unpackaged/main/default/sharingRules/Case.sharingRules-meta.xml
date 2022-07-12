@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Case_POS_IT_Share</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case POS IT Share</label>
+        <sharedTo>
+            <role>POS_Support_IT</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>POS_Support_IT</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Case_Share_2nd_Line_IT</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Share 2nd Line IT</label>
+        <sharedTo>
+            <role>POS_Support_IT</role>
+        </sharedTo>
+        <sharedFrom>
+            <queue>POS_2nd_Line_Support_Italy</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Case_Share_GB</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Share GB</label>
+        <sharedTo>
+            <group>UK_All_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>UK_All_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Case_Share_GB1</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Share GB</label>
+        <sharedTo>
+            <group>UK_All_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>POS_Support_GB</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Case_Share_IT</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Share IT</label>
+        <sharedTo>
+            <group>Italy_All_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Italy_All_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Case_Share_IT2</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Case Share IT</label>
+        <sharedTo>
+            <group>Italy_All_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>POS_Support_Italy</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Chinese_CS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Chinese CS</label>
+        <sharedTo>
+            <role>Customer_Service</role>
+        </sharedTo>
+        <sharedFrom>
+            <queue>Chinese_CS</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Customer_Service_Management</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Customer Service Management</label>
+        <sharedTo>
+            <roleAndSubordinates>Customer_Service_Management</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Customer_Service_Management</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Customer_Services</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Customer Services</label>
+        <sharedTo>
+            <roleAndSubordinates>Customer_Service</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Customer_Service</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>France_All_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>France All Users</label>
+        <sharedTo>
+            <group>France_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>France_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Germany_All_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Germany All Users</label>
+        <sharedTo>
+            <group>Germany_All_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Germany_All_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Group_IE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Group IE</label>
+        <sharedTo>
+            <group>Ireland_All_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Ireland_All_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_2nd_Line_FR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>POS 2nd Line FR</label>
+        <sharedTo>
+            <role>POS_Support_FR</role>
+        </sharedTo>
+        <sharedFrom>
+            <queue>POS_2nd_Line_Support_FR</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_2nd_Line_Support_FR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>POS 2nd Line Support FR</label>
+        <sharedTo>
+            <role>POS_Support_ES</role>
+        </sharedTo>
+        <sharedFrom>
+            <queue>POS_2nd_Line_Support_ES</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_Management</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>POS Management</label>
+        <sharedTo>
+            <role>POS_Support_Management</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>POS_Support_Management</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_Support</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>POS Support</label>
+        <sharedTo>
+            <role>POS_Support_GB</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>POS_Support_GB</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_Support_2nd_Line_Queue2</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>POS Support 2nd Line Queue</label>
+        <sharedTo>
+            <role>POS_Support_GB</role>
+        </sharedTo>
+        <sharedFrom>
+            <queue>POS_2nd_Line_Support_GB</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_Support_Case</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>POS Support Case</label>
+        <sharedTo>
+            <role>POS_Support_IE</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>POS_Support_IE</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_Support_DE</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>POS Support DE</label>
+        <sharedTo>
+            <group>Germany_All_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>POS_Support_DE</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_Support_ES</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>POS Support ES</label>
+        <sharedTo>
+            <role>POS_Support_ES</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>POS_Support_ES</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_Support_ES1</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>POS Support ES</label>
+        <sharedTo>
+            <group>Spain_All_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>POS_Support_ES</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_Support_FI</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>POS Support FI</label>
+        <sharedTo>
+            <roleAndSubordinates>Finland_Management</roleAndSubordinates>
+        </sharedTo>
+        <sharedFrom>
+            <queue>POS_Support_FI</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_Support_FR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>POS Support FR</label>
+        <sharedTo>
+            <role>POS_Support_FR</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>POS_Support_FR</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_Support_IE_Queue</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>POS Support IE Queue</label>
+        <sharedTo>
+            <group>Ireland_All_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>POS_Support_IE</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_Support_PT</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>POS Support PT</label>
+        <sharedTo>
+            <group>Portugal_All</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>POS_Support_PT</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>POS_Support_Queue_FR</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>POS Support Queue FR</label>
+        <sharedTo>
+            <group>France_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <queue>POS_Support_FR</queue>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Spain_All_Users</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Spain All Users</label>
+        <sharedTo>
+            <group>Spain_All_Users</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Spain_All_Users</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

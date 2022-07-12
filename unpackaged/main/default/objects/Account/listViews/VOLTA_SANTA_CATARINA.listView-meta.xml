@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VOLTA_SANTA_CATARINA</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Account_ID__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STREET</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_STREET</field>
+        <operation>contains</operation>
+        <value>S. CATARINA</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Shop</value>
+    </filters>
+    <label>VOLTA SANTA CATARINA</label>
+    <sharedTo>
+        <group>Portugal_All</group>
+    </sharedTo>
+</ListView>

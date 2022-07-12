@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Populate_Resolution_Reason_On_Case_Close</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+RecordTypeId = &#39;01224000000B9eQ&#39;,
+TEXT(Status) = &#39;Closed&#39;,
+ISBLANK( Resolution_Reason__c )
+)</errorConditionFormula>
+    <errorMessage>Please enter &#39;Resolution Reason&#39; while closing the case.</errorMessage>
+</ValidationRule>

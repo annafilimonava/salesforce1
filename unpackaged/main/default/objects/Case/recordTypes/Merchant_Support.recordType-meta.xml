@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Merchant_Support</fullName>
+    <active>true</active>
+    <businessProcess>Customer Service</businessProcess>
+    <label>Merchant Support</label>
+    <picklistValues>
+        <picklist>Additional_Resolution__c</picklist>
+        <values>
+            <fullName>12-16 Weeks Advice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6-8 Weeks Advice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ARN Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account Currency Confirmation Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Additional Information Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Advice to Contact the Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CIA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Escalated to PTF Queries for Investigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Escalated to Refund Network Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Forwarded to Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Forwarded to Turkey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case Forwarded to UAE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Case escalated to customs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash Dispute</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash Refund Airport%2FCity Center%2FTOPOS - No P2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cash Refund Airport%2FCity Center%2FTOPOS - P2 received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheque%2FPrepaid Card Cancelation Requested from PTF Queries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheque%2FPrepaid Card was Sent to Customer Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copy of Stamped Voucher Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card Confirmation Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs Details Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customs Office Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debit Confirmation Due to No Receipt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debit Confirmation Due to no Customs Stamp</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debit Confirmation Due to no Tax Free Form</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Embassy Procedure Advised</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Goodwill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Line to be Paid Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information About Alternative Tax Free Company Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information About Currency and Exchange Rate Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information About Difference Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information About Fees Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information from Customs Web-page%2C Confirming %22No Customs Stamp%22 Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Investigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invalid voucher sent back</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marked as Priority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Customs Stamp Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Receipt Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of 8 Weeks Advice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Posting Address Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Put on Missing Voucher Log</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recredit - In Line to be Paid Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recredit Successful Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund Method Updated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund Not Possible Due to Missing Invoice Payment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund Point Complaint</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund Point Details Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund Successful Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refunding Details Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refunding Not Possible Confirmation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan of Voucher%2C Confirming %22No Customs Stamp%22 Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan of Voucher%2C Confirming %22No Receipt%22 Provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scan%2Fphoto of Receipt Requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Free Process Information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tracking Number Investigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voucher Status Confirmation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Reason__c</picklist>
+        <values>
+            <fullName>Change of Details</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change of Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Change of Subscription Details</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error with Figures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Question</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone calls</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting Failure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store Closure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store Setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subscription Setup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Free Procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terminal Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tourist</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Case_Type__c</picklist>
+        <values>
+            <fullName>GLTTP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Partnership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Questions about Tax Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voiding</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Country_Office__c</picklist>
+        <values>
+            <fullName>Austria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Belgium</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>China</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colombia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cyprus</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Czech Republic</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Faroe Islands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>France</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Germany</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Greece</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hungary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iceland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ireland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Italy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lithuania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Luxembourg</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mauritius</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Morocco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Netherlands</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Zealand</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Norway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portugal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Singapore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slovakia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sweden</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switzerland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>USA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>United Kingdom</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DCC_System_Affected_Detail__c</picklist>
+        <values>
+            <fullName>AMPS Settlement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Authorisation Host</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CRT %2F BRT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSMS%2ENET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DCC Datawarehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DCC Gateway</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DCC Orchestrator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dynamics Rates Generator</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FDVO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>File Movements</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27m not sure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MCP %2F Way4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Operation Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operational Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Batch Host</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Softpay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Superpay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rates Configuration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TPP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tokenisation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Treasury Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visa%2FMastercard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>DCC_Systems_Affected__c</picklist>
+        <values>
+            <fullName>Backoffice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Facing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27m not sure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Language__c</picklist>
+        <values>
+            <fullName>Chinese %28Mandarin%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>English</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>French</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Portuguese</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Russian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spanish</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email to Case IT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Email to Case UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ITBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Support ES</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Web</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Other_Tax_Free_Provider__c</picklist>
+        <values>
+            <fullName>Euro Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GB Tax Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Global Blue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>Critical</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Administration Fees</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolution__c</picklist>
+        <values>
+            <fullName>6-8 Weeks Advice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Note</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit%2FDebit Note</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exchange rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fallback procedure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Finance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General Assistance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General invoices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nota Debito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Out of 8 Weeks Advice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pos Support</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rebates</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Refund information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TF procedures</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transaction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vat Off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voucher Listing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voucher Verification</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voucher issue</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resolutions__c</picklist>
+        <values>
+            <fullName>ARN provided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Account unlocked</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Debit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Further details requested</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>General information</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Internal Investigation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Order status confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Others</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paid and Positive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Issues</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment not completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Request forwarded</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Free form not void</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tax Free form voided</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Voucher Issues</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TF_System_Affected_Detail__c</picklist>
+        <values>
+            <fullName>AXAPTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BI Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BIZTalk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CSMS Refunds</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Warehouse</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enterprise API</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27ve added a detailed description</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kiosk</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MCCP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orchestrator %28TAX%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PABLO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PI Chanel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Int Interface</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Integrated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Online-POL</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Tax Free tourist app %E2%80%93 Android</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Tax Free tourist app %E2%80%93 iOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Touch %E2%80%93 Android</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premier Touch %E2%80%93 iOS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SalesForce</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Scanning System</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TRS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UVT%2FFVF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF ATM - Airport</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF ATM - Border</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF ATM - Harbour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF ATM - Merchant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF Admin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF CRM</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF Customs Interface</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF Merchant Terminal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF MyAccount App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF Refund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTF Validation app %26 Money exchange</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eTRS Singapore</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>TF_Systems_Affected__c</picklist>
+        <values>
+            <fullName>Backoffice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Customer Facing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>I%27m not sure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>None</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Invoices</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Queries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Questions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stationary</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Switchboard</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Joachim_Rexer_All_contacts_stores</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>Position__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Mobile__c</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.LAST_ACTIVITY</columns>
+    <columns>CONTACT.REPORTS_TO.NAME</columns>
+    <columns>Account_Owner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.EMAIL</field>
+        <operation>notEqual</operation>
+    </filters>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>equals</operation>
+        <value>active</value>
+    </filters>
+    <filters>
+        <field>Position__c</field>
+        <operation>equals</operation>
+        <value>Area Manager,Owner,Store Manager,Store Manager (Country)</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Shop</value>
+    </filters>
+    <filters>
+        <field>Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>Germany</value>
+    </filters>
+    <filters>
+        <field>Account.Parent_Account_ID__c</field>
+        <operation>notEqual</operation>
+        <value>DE104504S,DE104486S,DE104498S,DE133474,DE134650,DE142803,DE142815,DE142797,DE142827</value>
+    </filters>
+    <filters>
+        <field>Inactive__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>DE_Contacts_SM,AM &amp; Owner without GKK</label>
+</ListView>

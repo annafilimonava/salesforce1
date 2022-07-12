@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Recurrence_for_Reports_ER</fullName>
+    <active>true</active>
+    <errorConditionFormula>(ISPICKVAL(Report_Name__c, &#39;Executive Report&#39;)  &amp;&amp;  ISPICKVAL(Recurrence__c, &#39;Daily&#39;) )
+ || 
+(ISPICKVAL(Report_Name__c, &#39;Executive Report&#39;)  &amp;&amp;  ISPICKVAL(Recurrence__c, &#39;Quarterly&#39;) )</errorConditionFormula>
+    <errorDisplayField>Recurrence__c</errorDisplayField>
+    <errorMessage>The Executive Report can only be run Monthly.</errorMessage>
+</ValidationRule>

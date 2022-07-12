@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Refund Status</fullName>
+        <default>false</default>
+        <label>Refund Status</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Administration Fees</fullName>
+        <default>false</default>
+        <label>Administration Fees</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Charge Back</fullName>
+        <default>false</default>
+        <label>Charge Back</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>CTRIP</fullName>
+        <default>false</default>
+        <label>CTRIP</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Currency &amp; Exchange Rates</fullName>
+        <default>false</default>
+        <label>Currency &amp; Exchange Rates</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Digital Stamping</fullName>
+        <default>false</default>
+        <label>Digital Stamping</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Eligibility</fullName>
+        <default>false</default>
+        <label>Eligibility</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Form Lost or Rejected</fullName>
+        <default>false</default>
+        <label>Form Lost or Rejected</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Form Rejected</fullName>
+        <default>false</default>
+        <label>Form Rejected</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>New problem</fullName>
+        <default>false</default>
+        <label>New problem</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>No Stamp</fullName>
+        <default>false</default>
+        <label>No Stamp</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA ARN queries for customers</fullName>
+        <default>false</default>
+        <label>PA ARN queries for customers</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA batch-in / TMS failed</fullName>
+        <default>false</default>
+        <label>PA batch-in / TMS failed</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA bug found</fullName>
+        <default>false</default>
+        <label>PA bug found</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA card reader not woring</fullName>
+        <default>false</default>
+        <label>PA card reader not woring</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA credit card not recognized for DCC or VAT</fullName>
+        <default>false</default>
+        <label>PA credit card not recognized for DCC or VAT</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA customer charged twice</fullName>
+        <default>false</default>
+        <label>PA customer charged twice</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA error security alarm / please reboot etc</fullName>
+        <default>false</default>
+        <label>PA error security alarm / please reboot etc</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA no communication between till &amp; PDQ</fullName>
+        <default>false</default>
+        <label>PA no communication between till &amp; PDQ</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA no voucher range</fullName>
+        <default>false</default>
+        <label>PA no voucher range</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA offline auth transactions</fullName>
+        <default>false</default>
+        <label>PA offline auth transactions</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PAOL Error 24 (Invocie already exist)</fullName>
+        <default>false</default>
+        <label>PAOL Error 24 (Invocie already exist)</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PAOL Error 39 ( specific character no accepted )</fullName>
+        <default>false</default>
+        <label>PAOL Error 39 ( specific character no accepted )</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA printer issue</fullName>
+        <default>false</default>
+        <label>PA printer issue</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA Sale transaction not authorised</fullName>
+        <default>false</default>
+        <label>PA Sale transaction not authorised</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA switch to summer / winter time</fullName>
+        <default>false</default>
+        <label>PA switch to summer / winter time</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA terminal is not loading</fullName>
+        <default>false</default>
+        <label>PA terminal is not loading</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA terminal won&#39;t power up</fullName>
+        <default>false</default>
+        <label>PA terminal won&#39;t power up</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA training needed</fullName>
+        <default>false</default>
+        <label>PA training needed</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PA VAT voucher is not printed</fullName>
+        <default>false</default>
+        <label>PA VAT voucher is not printed</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 1] Invoice Already Exists</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 1] Invoice Already Exists</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 10] Invoice Is Not Valid</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 10] Invoice Is Not Valid</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 100] Invalid Credit Card Format</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 100] Invalid Credit Card Format</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 101] Invalid Expiry Date Format</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 101] Invalid Expiry Date Format</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 102] Invalid Item Description</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 102] Invalid Item Description</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 103] The customer country is not eligible for taxFree</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 103] The customer country is not eligible for taxFree</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 104] Passport Number is empty</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 104] Passport Number is empty</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 105] Invalid Date of birth</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 105] Invalid Date of birth</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 106] Invalid Alipay phone number</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 106] Invalid Alipay phone number</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 107] Invalid Customer Passport Number</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 107] Invalid Customer Passport Number</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 108] Invalid Customer First Name</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 108] Invalid Customer First Name</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 109] Invalid Customer Last Name</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 109] Invalid Customer Last Name</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 11] Invoice Exchanged</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 11] Invoice Exchanged</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 110] Error Age Date Of Birth</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 110] Error Age Date Of Birth</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 111] The date entered is not valid.</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 111] The date entered is not valid.</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 112] The age of birth is not authorized</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 112] The age of birth is not authorized</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 113] InvalidCreditCardNumber</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 113] InvalidCreditCardNumber</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 114] CreditCardAuthorizationFailed</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 114] CreditCardAuthorizationFailed</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 115] UnAuthorizedOperation</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 115] UnAuthorizedOperation</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 116] CustomerNotFound</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 116] CustomerNotFound</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 117] RefundAmountNotCalculated</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 117] RefundAmountNotCalculated</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 118] VoucherAlreadyVoided</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 118] VoucherAlreadyVoided</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 119] InvalidPremierPassId</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 119] InvalidPremierPassId</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 12] Invoice Reversal</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 12] Invoice Reversal</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 120] InvalidIBAN</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 120] InvalidIBAN</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 121] InvalidLoyaltyCardNumber</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 121] InvalidLoyaltyCardNumber</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 122] InvalidUnitDescription</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 122] InvalidUnitDescription</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 123] TokenMaxLengthExceeded</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 123] TokenMaxLengthExceeded</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 124] RefundMethodRefused</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 124] RefundMethodRefused</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 125] UpdateInvoiceFailed</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 125] UpdateInvoiceFailed</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 13] Invoice Fraud</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 13] Invoice Fraud</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 14] Reference To Original Invoice Cannot Found</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 14] Reference To Original Invoice Cannot Found</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 15] Status Of Original Invoice Is Changed</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 15] Status Of Original Invoice Is Changed</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 16] Invoice Updated Successfully</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 16] Invoice Updated Successfully</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 17] Invoice Barcode Or Barcodes Not Found</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 17] Invoice Barcode Or Barcodes Not Found</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 18] Invalid Invoice Barcode Data</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 18] Invalid Invoice Barcode Data</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 19] Invalid Voucher Barcode Data</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 19] Invalid Voucher Barcode Data</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 2] Two</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 2] Two</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 20] No Voucher Found</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 20] No Voucher Found</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 21] Multiple Vouchers Found</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 21] Multiple Vouchers Found</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 22] Invoice Passed Is Not A Valid Sale Or Used Up</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 22] Invoice Passed Is Not A Valid Sale Or Used Up</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 23] Already Invoice Added To This Voucher</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 23] Already Invoice Added To This Voucher</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 24] Invoice Added To A Different Voucher</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 24] Invoice Added To A Different Voucher</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 25] Operator Name Is Invalid</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 25] Operator Name Is Invalid</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 26] Voucher Successfully Voided</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 26] Voucher Successfully Voided</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 27] Void Voucher</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 27] Void Voucher</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 28] Voucher Range Not found</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 28] Voucher Range Not found</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 29] Invoice Voided After Refund</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 29] Invoice Voided After Refund</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 3] No XML Document Found</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 3] No XML Document Found</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 30] Invoice Expired</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 30] Invoice Expired</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 31] Voucher And Invoice Refund Are Voided</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 31] Voucher And Invoice Refund Are Voided</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 32] Invalid Merchant</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 32] Invalid Merchant</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 33] Voucher Range Not Found</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 33] Voucher Range Not Found</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 34] Error Handler</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 34] Error Handler</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 35] Invoice Already Refunded</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 35] Invoice Already Refunded</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 36] Invoice Not Found</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 36] Invoice Not Found</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 37] The Voucher Eligible Amount is Under the Store Threshold</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 37] The Voucher Eligible Amount is Under the Store Threshold</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 38] Reference To Orignal Invoice Cannot Be Found</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 38] Reference To Orignal Invoice Cannot Be Found</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 39] Unhandled Error</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 39] Unhandled Error</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 4] Barcode Is NULL String</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 4] Barcode Is NULL String</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 40] Voucher Exported Unable To Reprint</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 40] Voucher Exported Unable To Reprint</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 41] No Refund Processed</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 41] No Refund Processed</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 42] Training Mode Set</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 42] Training Mode Set</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 43] XML Document Error</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 43] XML Document Error</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 44] Voucher Design not set</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 44] Voucher Design not set</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 45] Voucher Range Not Allocated</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 45] Voucher Range Not Allocated</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 46] Refund Method Not Allowed In Store</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 46] Refund Method Not Allowed In Store</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 47] Merchant Already Exists</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 47] Merchant Already Exists</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 48] Store Already Exists</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 48] Store Already Exists</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 49] Insert Merchant Failed</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 49] Insert Merchant Failed</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 5] Multiple Invoices Found</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 5] Multiple Invoices Found</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 50] Insert Store Failed</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 50] Insert Store Failed</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 51] Invalid Voucher Formula</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 51] Invalid Voucher Formula</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 52] An Invoice with this Invoice Number already exists for this store</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 52] An Invoice with this Invoice Number already exists for this store</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 55] Cannot Void a Refunded Voucher</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 55] Cannot Void a Refunded Voucher</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 56] Consolidation requires two or more vouchers</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 56] Consolidation requires two or more vouchers</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 57] Error Calling Web Service</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 57] Error Calling Web Service</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 58] No valid Invoice(s) - Invoices are either fully refunded or have no valid line items</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 58] No valid Invoice(s) - Invoices are either fully refunded or have no valid line items</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 6] No Invoice Found</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 6] No Invoice Found</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 60] Maximum quantity is reached</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 60] Maximum quantity is reached</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 7] Seven</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 7] Seven</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 8] Invoice Issued In Different Store</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 8] Invoice Issued In Different Store</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PI Server  - [Error 9] Invoice Found Refered In Multiple Vouchers</fullName>
+        <default>false</default>
+        <label>PI Server  - [Error 9] Invoice Found Refered In Multiple Vouchers</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>POL user details missing</fullName>
+        <default>false</default>
+        <label>POL user details missing</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Premier Pass</fullName>
+        <default>false</default>
+        <label>Premier Pass</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>PTF Refund Points</fullName>
+        <default>false</default>
+        <label>PTF Refund Points</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Refund Issues</fullName>
+        <default>false</default>
+        <label>Refund Issues</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Refund Method</fullName>
+        <default>false</default>
+        <label>Refund Method</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Refund Points</fullName>
+        <default>false</default>
+        <label>Refund Points</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Supported Credit Cards</fullName>
+        <default>false</default>
+        <label>Supported Credit Cards</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Tourist - Merchant Support</fullName>
+        <default>false</default>
+        <label>Tourist - Merchant Support</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>What to Carry</fullName>
+        <default>false</default>
+        <label>What to Carry</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Where to Send and How</fullName>
+        <default>false</default>
+        <label>Where to Send and How</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+    <standardValue>
+        <fullName>Where to Stamp</fullName>
+        <default>false</default>
+        <label>Where to Stamp</label>
+        <cssExposed>false</cssExposed>
+    </standardValue>
+</StandardValueSet>

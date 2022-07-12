@@ -1,0 +1,38 @@
+<apex:page standardController="Diagnostic__c" applyBodyTag="false" renderAs="pdf">
+<apex:form >
+   <apex:outputPanel styleClass="summary">
+        <apex:outputText > <b><u>Till Vendor</u><br></br><br></br>Notes</b><br></br>Check that Pi / Pii is available in your Country for this Till Vendor<br></br>
+                                               <b>Solution</b><br></br>Pi/Pii<br></br><b>Features</b><br></br>
+                                                   1. Card Recognition with 40% plus increase in Issue Rate<br></br>
+                                                   2. Significant increase in Net Profit Rebate through increased Issue Rate<br></br>
+                                                   3. Increased Issue Rate even without CRT as it is a standard till solution accessible to all users at all tills <br></br>
+                                                   4. Highly compliant voucher with line items and customer details printed<br></br>
+                                                   5. Higher Match Rates through higher quality voucher<br></br> 
+                                                   6. Part 1 and 2 reporting with Product / SKU reporting level<br></br>
+                                                   7. CRM Auto Fill and Passport Reader Capable<br></br>
+                                                   8. Full range of Refund Options including Instant Alipay and Fast Card<br></br>
+                                                    9. A4 and Thermal Printing Options<br></br>
+                                                    10. Consolidation and Voiding<br></br>
+                                                    11. Digital Tax Free ready<br></br>
+                                                    12. Invoice linked to Voucher Number eliminating fraud<br></br>
+                                                    13. Removes need For Additional Hardware at POS reducing Merchant support<br></br> 
+                                                    14. Standard till operation making staff training BAU / SOP<br></br>
+                                                    15. Faster to issue voucher saving time at Point of Sale<br></br>
+                                                    16. Customs friendly Voucher with everything printed increasing Match Rates<br></br>
+                                                    17. Till integration might help to reclaim selling space given over to Tax Lounges or Customer Service areas<br></br><br></br>
+                                                    <b><u>Till Version</u></b><br></br><br></br>
+                                                    <b>Notes</b><br></br>
+                                                    Check that Pi/Pii is available in your Country for this Till Version<br></br>
+                                                    <b>Solution</b><br></br>
+                                                    Pi/Pii<br></br><br></br>
+                                                    <b><u>Operating System</u></b><br></br><br></br>
+                                                    <b>Notes</b><br></br>
+                                                    Check with your local IT for iOS, Android, Linux solutions<br></br>
+                                                    <b>Solution</b><br></br>
+                                                    Pi/Pii/POL/POL Pro/Touch<br></br>
+                                                    
+        </apex:outputText>  <styleClass="summary"/>
+        </apex:outputPanel>
+      
+    </apex:form>
+</apex:page>

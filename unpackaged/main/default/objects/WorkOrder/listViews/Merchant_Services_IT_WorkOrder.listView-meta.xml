@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Merchant_Services_IT_WorkOrder</fullName>
+    <columns>Name</columns>
+    <columns>Subject</columns>
+    <columns>Account</columns>
+    <columns>Priority</columns>
+    <columns>Status</columns>
+    <columns>Owner</columns>
+    <columns>CreatedBy</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owner</field>
+        <operation>equals</operation>
+        <value>Merchant Services IT</value>
+    </filters>
+    <label>Merchant Services IT</label>
+    <language>en_US</language>
+    <sharedTo>
+        <role>Customer_Service_IT</role>
+        <role>POS_Support_IT</role>
+        <role>POS_Support_Management</role>
+        <roleAndSubordinates>Italy_Management</roleAndSubordinates>
+    </sharedTo>
+</ListView>

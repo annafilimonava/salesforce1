@@ -1,0 +1,8 @@
+<font face="arial"><font size=2><p>The opportunity with a value of {!Opportunity.Opportunity_Value__c} has been submitted for your approval by {!Approval_Requesting_User.Name}.</p>
+<br>
+TF Proposed Solution: <b>{!Opportunity.TF_Proposed_Solution__c}</b><br>
+Additional Refund Methods: <b>{!Opportunity.Additional_Refund_Methods__c}</b><br>
+Opportunity Country: <b>{!Opportunity.Opportunity_Owning_Country__c}}</b><br>
+<br>
+<br>
+You may view the record by clicking here ->{!Opportunity.Link}</p>

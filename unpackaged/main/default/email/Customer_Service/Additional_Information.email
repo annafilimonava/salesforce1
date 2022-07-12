@@ -1,0 +1,84 @@
+<p class=MsoPlainText><span style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>
+<p>
+<p>
+<p>Dear {!Contact.Name},
+<p>
+Thank you for your email.
+<p>
+In order for me to assist you with your refund query, I require more information.
+<p>
+Please provide as much additional information of your voucher in order to check our database and advise further:
+<p>
+<i>Name on voucher:<br>
+Country of Purchase:<br>
+Premier Tax Free Voucher Number:<br>
+Purchase Date:<br>
+Last 4 digits of provided credit card:<br>
+Passport number:<br></i>
+<p>
+I look forward to your response and assisting you further.
+<p>
+Kind Regards,<br>
+<br>
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+style='mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+<tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'>
+<td style='padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal><b><span style='font-size:9.0pt;font-family:"Verdana",sans-serif;
+color:black;mso-fareast-language:EN-GB'>{!User.Name}</span></b>
+</tr>
+<tr style='mso-yfti-irow:1'>
+<td style='padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal><b><span style='font-size:9.0pt;font-family:"Verdana",sans-serif;
+color:black;mso-fareast-language:EN-GB'>Customer Service Department | </span></b><b><span
+style='font-size:9.0pt;font-family:"Verdana",sans-serif;color:#EA7106;
+mso-fareast-language:EN-GB'><a href="http://www.premiertaxfree.com" title=""><span
+style='color:#EA7106;text-decoration:none;text-underline:none'>Premier Tax
+Free</span></a></span></b><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:black;mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+</td>
+</tr>
+<tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes'>
+<td style='padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal><b><span style='font-size:9.0pt;font-family:"Verdana",sans-serif;
+color:black;mso-fareast-language:EN-GB'>{!User.Street} | {!User.City} {!User.PostalCode} | {!User.Country} </span></b><span style='font-size:12.0pt;font-family:"Times New Roman",serif; color:black;mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+ </td>
+ </tr>
+</table>
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+style='mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+<tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes;mso-yfti-lastrow:yes'>
+<td style='padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal><b><span style='font-size:9.0pt;font-family:"Verdana",sans-serif;
+color:black;mso-fareast-language:EN-GB'>T {!User.Phone}</span></b><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:black;
+mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+</td>
+<td style='padding:.75pt .75pt .75pt .75pt'></td>
+</tr>
+</table>
+<table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0
+style='mso-cellspacing:0cm;mso-yfti-tbllook:1184;mso-padding-alt:0cm 0cm 0cm 0cm'>
+<tr style='mso-yfti-irow:0;mso-yfti-firstrow:yes'> <td style='padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal><span style='font-size:9.0pt;font-family:"Verdana",sans-serif;
+color:#EA7106;mso-fareast-language:EN-GB'><a href="http://premiertaxfree.com/disclaimer" title=""><span style='color:#EA7106;
+text-decoration:none;text-underline:none'>Disclaimer</span></a></span><span
+style='font-size:12.0pt;font-family:"Times New Roman",serif;color:black;
+mso-fareast-language:EN-GB'></span></p>
+</td>
+</tr>
+<tr style='mso-yfti-irow:1'>
+<td style='padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal><span style='font-size:9.0pt;font-family:"Verdana",sans-serif;
+color:white;mso-fareast-language:EN-GB'>|</span><span style='font-size:12.0pt;
+font-family:"Times New Roman",serif;color:black;mso-fareast-language:EN-GB'></span></p>
+</td>
+</tr>
+<tr style='mso-yfti-irow:2'>
+<td style='padding:0cm 0cm 0cm 0cm'>
+<p class=MsoNormal><span style='font-size:9.0pt;font-family:"Verdana",sans-serif;
+color:#BFBFBF;mso-fareast-language:EN-GB'>Premier Tax Free Ltd. | reg. no.
+2076853</span><span style='font-size:12.0pt;font-family:"Times New Roman",serif;
+color:black;mso-fareast-language:EN-GB'><o:p></o:p></span></p>
+</td>
+</tr>

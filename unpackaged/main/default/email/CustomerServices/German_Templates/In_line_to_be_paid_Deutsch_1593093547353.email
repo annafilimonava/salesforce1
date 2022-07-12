@@ -1,0 +1,20 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  Lieber Kunde, 
+  <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
+  <br /> Vielen Dank f&uuml;r Ihre Email. &nbsp; 
+  <br /> 
+  <br /> Ich habe unsere Datenbank &uuml;berpr&uuml;ft und m&ouml;chte Ihnen mitteilen, dass Ihr Tax Free Formular {{{Case.Tax_Free_Form__c}}} erfolgreich bearbeitet wurde. 
+  <br /> Ihre R&uuml;ckerstattung wird auf Ihre Karte {{{Case.Credit_Card_Number__c}}} &uuml;berwiesen. 
+  <br /> 
+  <br /> Ich habe Ihre Unterlagen f&uuml;r eine vorrangige Zahlung markiert, daher sollte die R&uuml;ckerstattung demn&auml;chst &uuml;berwiesen. 
+  <br /> &nbsp;&nbsp; &nbsp; 
+  <br /> Bei weiteren Fragen stehe ich gerne zur Verf&uuml;gung. 
+  <br /> 
+  <br /> Herzliche Gr&uuml;&szlig;e, 
+  <br /> &nbsp;
+ </body>
+</html>

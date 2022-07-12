@@ -1,0 +1,12 @@
+<font face="arial" size=2> 
+Dear Sales Support,<p>
+
+A new Sales Support case has been created on {!Case.Account}<p>
+
+Type: {!Case.Type}<p>
+
+Case Reason: {!Case.Reason}<p>
+
+Subject: {!Case.Subject}<p>
+
+You can see full details by clicking this link: {!Case.Link}<p>

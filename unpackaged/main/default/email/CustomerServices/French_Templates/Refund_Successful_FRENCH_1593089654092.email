@@ -1,0 +1,26 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <span lang="FR" style="font-family:Barlow;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:FR">Bonjour&nbsp;{{{Case.Tourist__c}}},<br /> <br /> <br /> Merci pour votre e-mail.&nbsp;</span> 
+  <p>&nbsp;</p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:FR">&nbsp;</span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:FR">J'ai v&eacute;rifi&eacute; notre base de donn&eacute;es et votre formulaire Tax Free&nbsp;{{{Case.Tax_Free_Form__c}}}&nbsp;a &eacute;t&eacute; trait&eacute; et votre remboursement a &eacute;t&eacute; envoy&eacute; &agrave; votre carte&nbsp;{{{Case.Credit_Card_Number__c}}}.&nbsp;</span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:FR">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:FR">Votre remboursement a &eacute;t&eacute; &eacute;mis le&nbsp;X$X</span><span lang="FR" style="font-family:
+Barlow;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;
+color:#FF6600;mso-ansi-language:FR">00/00/2018</span><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+&quot;Times New Roman&quot;;color:black;mso-ansi-language:FR">&nbsp;sur votre compte.&nbsp;&nbsp;Veuillez noter que cela peut prendre jusqu'&agrave; 10 jours ouvrables pour que le remboursement apparaisse sur votre compte bancaire.</span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-bidi-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:FR">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-family:Barlow;mso-fareast-font-family:&quot;Times New Roman&quot;;mso-bidi-font-family:
+&quot;Times New Roman&quot;;color:black;mso-ansi-language:EN-US">Planet vous remercie.</span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">&nbsp;</p>
+ </body>
+</html>

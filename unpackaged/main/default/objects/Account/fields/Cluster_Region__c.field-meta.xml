@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cluster_Region__c</fullName>
+    <description>Requested by Dav @ Finance 27/1/22</description>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Company_Sector__c)=&quot;Hospitality&quot;,
+
+Cluster_Hospitality__c ,
+
+IF( TEXT(Company_Sector__c) = &quot;Retail&quot;,
+
+Cluster_Retail__c ,
+
+IF(TEXT(Company_Sector__c)=&quot;Parking&quot; || TEXT(Company_Sector__c)=&quot;Financial Partner&quot;,
+
+Cluster_Parking_and_Partner__c ,
+
+&quot;&quot;
+)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Cluster Region</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,20 @@
+<p><b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">***Notification of Case/Request Resolution***</span></span></b><br />
+<span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">Please reply above this message and do not modify the Subject line</span></span><br />
+<span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">-----------------------------------------------------------------------------------------</span></span><br />
+<span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">Dear Customer,</span></span><br />
+&nbsp;<br />
+<span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">We are pleased to inform you that your request has been <u>resolved</u>.</span></span><br />
+<br />
+<b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">Case Creation Date:</span></span></b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">&nbsp;</span></span>{!Case.CreatedDate}<br />
+<b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">Case Priority Case :</span></span></b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">&nbsp;</span></span>{!Case.Priority}<br />
+<b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">Case Type:</span></span></b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></span><span style="font-family:arial,sans-serif;"><span style="font-size:12.0pt;">​</span></span>{!Case.Type}<br />
+<b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">Case Reason:</span></span></b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span>{!Case.Case_Reason__c}​<br />
+<b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">Case Subject:</span></span></b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </span></span>{!Case.Subject}<span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">&nbsp;</span></span><br />
+<b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">Case Status:</span></span></b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;</span></span>{!Case.Status}<br />
+<b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">Case Closed Date:</span></span></b><span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">&nbsp;&nbsp; </span></span>{!Case.ClosedDate}&nbsp;<span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">&nbsp; &nbsp; &nbsp;</span></span><br />
+<br />
+<span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">Your request has been resolved with the following resolution:</span></span><br />
+​{!Case.Resolution_Reason__c}<br />
+<br />
+<span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">Kind Regards,</span></span><br />
+<span style="font-family:verdana,sans-serif;"><span style="font-size:12.0pt;">POS Support</span></span><span style="font-family:arial,sans-serif;"><span style="font-size:12.0pt;">​</span></span></p>

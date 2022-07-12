@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Free_Issuing_Solution_Subtotal__c</fullName>
+    <externalId>false</externalId>
+    <formula>Current_TF_Issuing_SolutionR__c +  Till_system_name_versionR__c +  Software_HouseR__c +  Operating_SystemR__c +  Fiscal_Printer_In_StoreR__c +  Any_back_up_in_case_of_breakdownR__c +  A4_Laser_Printer_In_StoreR__c +  One_for_Each_Till_PointR__c +  A4_or_Thermal_PrinterR__c +  Customisation_on_TF_FormR__c +  X2D_Barcode_Readers_in_StoreR__c + Specific_Tax_Free_ProcedureR__c +  How_Are_Customer_Details_EnteredR__c +  Check_Status_of_Issued_FormR__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tax Free Issuing Solution Subtotal</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

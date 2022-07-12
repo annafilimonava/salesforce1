@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Contract_Expiry</fullName>
+        <ccEmails>david.strachota@planetpayment.com</ccEmails>
+        <description>Contract Expiry</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Contract_Expiry</template>
+    </alerts>
+    <rules>
+        <fullName>Contract Expiry Alert DE</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Owning_Country__c</field>
+            <operation>equals</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Service_Contract__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Activated</value>
+        </criteriaItems>
+        <description>Sends email to Account Manager and creates task.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Contract_Expiry</name>
+                <type>Alert</type>
+            </actions>
+            <actions>
+                <name>Contract_Renewal</name>
+                <type>Task</type>
+            </actions>
+            <offsetFromField>Service_Contract__c.Contract_End_Date__c</offsetFromField>
+            <timeLength>-183</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <tasks>
+        <fullName>Contract_Renewal</fullName>
+        <assignedToType>owner</assignedToType>
+        <description>The contract on this account is due to expire in 6 months.</description>
+        <dueDateOffset>-183</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <offsetFromField>Service_Contract__c.Contract_End_Date__c</offsetFromField>
+        <priority>High</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Contract Renewal</subject>
+    </tasks>
+</Workflow>

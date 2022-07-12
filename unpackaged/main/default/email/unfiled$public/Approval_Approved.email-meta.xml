@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Approval Approved</name>
+    <style>none</style>
+    <subject>Approval Request for Opportunity for {!Opportunity.Account} Approved</subject>
+    <textOnly>The opportunity with a value of {!Opportunity.Total_Opportunity_Value__c} has been approved.
+
+You may view the record by clicking here -&gt;{!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

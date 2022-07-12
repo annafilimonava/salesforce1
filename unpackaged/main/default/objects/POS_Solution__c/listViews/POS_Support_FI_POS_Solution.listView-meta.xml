@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_Support_FI_POS_Solution</fullName>
+    <filterScope>Queue</filterScope>
+    <label>POS Support FI</label>
+    <queue>POS_Support_FI</queue>
+    <sharedTo>
+        <allInternalUsers></allInternalUsers>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,3 @@
+<font face="arial" size=2>
+The available Terminal IDs for {!TID_Tracker__c.Type__c} are almost out. Currently there are  {!TID_Tracker__c.TIDs_Remaining__c} remaining.<p>
+Please get a new range of Terminal IDs and supply them to the Salesforce administrator.

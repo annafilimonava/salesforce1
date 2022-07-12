@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pay_by_Link_Annual_GP__c</fullName>
+    <externalId>false</externalId>
+    <formula>Alipay_WeChat_Pay_Annual_Value__c * (Variable_Fee_Per_Transaction__c - Payment_Card_Charge__r.Chinese_Wallets_e_Comm__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Pay by Link Annual GP</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

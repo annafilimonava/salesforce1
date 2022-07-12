@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Platform__c</fullName>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Platform</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>POS/Online PBL</fullName>
+                <default>true</default>
+                <label>POS/Online PBL</label>
+            </value>
+            <value>
+                <fullName>POS</fullName>
+                <default>false</default>
+                <label>POS</label>
+            </value>
+            <value>
+                <fullName>Online PBL</fullName>
+                <default>false</default>
+                <label>Online PBL</label>
+            </value>
+            <value>
+                <fullName>Online Cybersource</fullName>
+                <default>false</default>
+                <label>Online Cybersource</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

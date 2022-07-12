@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Base_Station_Match2</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(TEXT(Base_Station__c) = &quot;iWL220-250 Base Station&quot;,
+NOT(CONTAINS(TEXT(Terminal__c), &quot;IWL&quot;)))</errorConditionFormula>
+    <errorDisplayField>Base_Station__c</errorDisplayField>
+    <errorMessage>Terminal and Base Stations do not match.</errorMessage>
+</ValidationRule>

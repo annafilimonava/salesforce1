@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Connect_to_Tour_Guides__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Connect to Tour Guides? Direct or Through Partner?</inlineHelpText>
+    <label>Connect to Tour Guides?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes - Direct</fullName>
+                <default>false</default>
+                <label>Yes - Direct</label>
+            </value>
+            <value>
+                <fullName>Yes - Partner</fullName>
+                <default>false</default>
+                <label>Yes - Partner</label>
+            </value>
+            <value>
+                <fullName>Yes - Direct &amp; Partner</fullName>
+                <default>false</default>
+                <label>Yes - Direct &amp; Partner</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

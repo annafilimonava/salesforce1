@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>POS/IT Solutions</fullName>
+        <default>false</default>
+        <label>POS/IT Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Service and Logistics</fullName>
+        <default>false</default>
+        <label>Service and Logistics</label>
+    </customValue>
+    <customValue>
+        <fullName>Marketing</fullName>
+        <default>false</default>
+        <label>Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>Reporting and Consultancy</fullName>
+        <default>false</default>
+        <label>Reporting and Consultancy</label>
+    </customValue>
+    <customValue>
+        <fullName>Payments</fullName>
+        <default>false</default>
+        <label>Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Strategic Business Development</fullName>
+        <default>false</default>
+        <label>Strategic Business Development</label>
+    </customValue>
+    <masterLabel>WorkStream</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

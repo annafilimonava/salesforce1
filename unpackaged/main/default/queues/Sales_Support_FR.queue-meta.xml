@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <name>French Sales Support</name>
+    <queueMembers>
+        <users>
+            <user>anastasiya.amelina@planetpayment.com</user>
+            <user>david.condis@planetpayment.com</user>
+            <user>fatima.oujdid@planetpayment.com</user>
+            <user>karolina.kwiatkowska@planetpayment.com</user>
+            <user>mateusz.tyminski@planetpayment.com</user>
+            <user>pawel.bazyl@planetpayment.com</user>
+            <user>virginie.clain@planetpayment.com</user>
+            <user>fatima.marzak@planetpayment.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Order</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>WorkOrder</sobjectType>
+    </queueSobject>
+</Queue>

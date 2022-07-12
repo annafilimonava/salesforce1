@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Materials_from_Tax_Free_Provider__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>What kind of materials do you receive from your Tax-Free supplier?</inlineHelpText>
+    <label>Materials from Tax Free Provider?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Point of Sale Leaflets</fullName>
+                <default>false</default>
+                <label>Point of Sale Leaflets</label>
+            </value>
+            <value>
+                <fullName>Point of Sale Plexis</fullName>
+                <default>false</default>
+                <label>Point of Sale Plexis</label>
+            </value>
+            <value>
+                <fullName>Window Stickers</fullName>
+                <default>false</default>
+                <label>Window Stickers</label>
+            </value>
+            <value>
+                <fullName>Posters</fullName>
+                <default>false</default>
+                <label>Posters</label>
+            </value>
+            <value>
+                <fullName>Dedicated Tax-Free Area/Lounge</fullName>
+                <default>false</default>
+                <label>Dedicated Tax-Free Area/Lounge</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>false</default>
+                <label>None</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

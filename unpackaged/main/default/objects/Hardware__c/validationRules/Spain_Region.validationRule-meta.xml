@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spain_Region</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+TEXT( Opportunity__r.Opportunity_Owning_Country__c ) &lt;&gt; &#39;Spain&#39;,
+ISPICKVAL(Region__c, &quot;EU&quot;),
+OR(
+ISPICKVAL(Item__c, &quot;WORLDLINE YOMANI PINPAD REDSYS PCI4 P2PE + Merchant Unit&quot;),
+ISPICKVAL(Item__c, &quot;WORLDLINE YOXIMO redsys PCI4 P2PE EU WITH CRADLE&quot;)
+)
+)</errorConditionFormula>
+    <errorMessage>The selected item is only available for Spain Region</errorMessage>
+</ValidationRule>

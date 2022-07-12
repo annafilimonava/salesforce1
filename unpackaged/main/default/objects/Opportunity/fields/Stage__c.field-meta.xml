@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF (TEXT(StageName) = &quot;Opportunity Recorded&quot;, 0, 
+IF (TEXT(StageName) = &quot;Prospect Qualified&quot;, 1, 
+IF (TEXT(StageName) = &quot;Value Proposition Presented&quot;, 2, 
+IF (TEXT(StageName) = &quot;Proposal Submitted&quot;, 3, 
+IF (TEXT(StageName) = &quot;Contract Signed&quot;, 4, 
+IF (TEXT(StageName) = &quot;Live&quot;, 4, 
+IF (TEXT(StageName) = &quot;Proposal Lost&quot;, 0 , 0
+)))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Stage #</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

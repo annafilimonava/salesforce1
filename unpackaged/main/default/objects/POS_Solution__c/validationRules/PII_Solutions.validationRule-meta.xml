@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PII_Solutions</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Owning_Country__c = &quot;Italy&quot;, TEXT(Solution__c) = &quot;PII&quot;, ISBLANK(Till_System__r.Name))</errorConditionFormula>
+    <errorMessage>For PII Solutions please complete the Till System field.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,12 @@
+<font face="arial" size=2> 
+Dear {!WorkOrder.Account_Manager__c},<p>
+
+The Work Order for {!WorkOrder.Account} has been closed.<p>
+
+New POS Solution Request? {!WorkOrder.New_POS_Solution__c}<p>
+
+New Merchant Closure? {!WorkOrder.Merchant_Closure__c}<p>
+
+Subject: {!WorkOrder.Subject}<p>
+
+You can see full details by clicking this link: {!WorkOrder.Link}<p>

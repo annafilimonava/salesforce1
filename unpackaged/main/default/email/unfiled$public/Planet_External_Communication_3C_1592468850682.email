@@ -1,0 +1,10 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <span style="font-family:&quot;Barlow Light&quot;">Dear {{{Recipient.FirstName}}},<br /> <br /> Today, 22nd June, 2020, we are delighted to announce that we have agreed to acquire high-growth payment solutions company 3C Payment. &nbsp;By bringing 3C Payment into the Planet family, we are accelerating our promise of delivering an exceptional payments experience to your customers through our service, technology and people.<br /> <br /> 3C Payment’s gateway, integration and terminal capabilities, when combined with our value-added payment services, will create a unique platform in the payments sector, serving businesses looking to grow their revenue.<br /> <br /> The integration of our combined products and customer network will enable both companies to enhance our offering. &nbsp;Whether that is through our acquiring and processing, currency conversion and Tax Free products and services, or 3C Payment’s deep integrations to enterprise systems and payments solutions within the Hospitality, Retail, Food &amp; Beverage, and Unattended sectors.<br /> <br /> For you, our valued customer, this means no disruption to our relationship with you. &nbsp;Indeed, it represents a huge opportunity to provide an even better technology and service offering that has your customers at its heart.<br /> <br /> By coming together, Planet and 3C Payment are creating a payments company that processes a combined €45 billion serving almost 600,000 merchants. You will, as one of our key customers, benefit from a unique revenue generating payments solution that simplifies the payments experience for you and your customers.<br /> <br /> The deal is subject to regulatory approval by the Financial Conduct Authority in the UK.<br /> <br /> Should have any questions please contact your account manager, {{{Recipient.Account_Owner__c}}}.&nbsp;<br /> <br /> Yours,<br /> <br /> {{{Sender.Name}}}</span> 
+  <br /> 
+  <br /> &nbsp;
+ </body>
+</html>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Ad hoc Shop Visit</fullName>
+        <default>false</default>
+        <label>Ad hoc Shop Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conference Call</fullName>
+        <default>false</default>
+        <label>Conference Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>HO Meeting</fullName>
+        <default>false</default>
+        <label>HO Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Planned Shop Visit</fullName>
+        <default>false</default>
+        <label>Planned Shop Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospect Cold Call</fullName>
+        <default>false</default>
+        <label>Prospect Cold Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+</StandardValueSet>

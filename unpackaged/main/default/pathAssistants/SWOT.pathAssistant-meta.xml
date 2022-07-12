@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>SWOT__c</entityName>
+    <fieldName>Progress__c</fieldName>
+    <masterLabel>SWOT</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Add the related Action(s) to the SWOT. To do this click on the down arrow on the Actions (1st 2nd 3rd or 4th) related list and select New.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;&lt;/span&gt;&lt;img src=&quot;https://fintrax--c.documentforce.com/servlet/rtaImage?eid=1CF5J000000bvZF&amp;amp;feoid=Info&amp;amp;refid=0EM5J000000x33B&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <picklistValueName>Add Actions</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Add the related Focus Point(s) to the SWOT. To do this click on the down arrow on the Focus Points related list and select New. Select the Focus Point and Save.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;&lt;/span&gt;&lt;img src=&quot;https://fintrax--c.documentforce.com/servlet/rtaImage?eid=1CF5J000000bvZG&amp;amp;feoid=Info&amp;amp;refid=0EM5J000000x32w&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <picklistValueName>Add Focus Point(s)</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Add the related Objective(s) to the SWOT. To do this click on the down arrow on the Objectives related list and select New.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;&lt;/span&gt;&lt;img src=&quot;https://fintrax--c.documentforce.com/servlet/rtaImage?eid=1CF5J000000bvZH&amp;amp;feoid=Info&amp;amp;refid=0EM5J000000x336&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <picklistValueName>Add Objective(s)</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;The minimum level for this SWOT has been achieved. Add any further required actions to complete the objective.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>SWOT Minimum Completed</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>SWOT_New</recordTypeName>
+</PathAssistant>

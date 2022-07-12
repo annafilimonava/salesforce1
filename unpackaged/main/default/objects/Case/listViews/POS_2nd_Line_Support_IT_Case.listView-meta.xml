@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_2nd_Line_Support_IT_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>NAME</columns>
+    <columns>POS_Solution__c</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CASES.TYPE</columns>
+    <columns>CASES.REASON</columns>
+    <columns>OWNER_NAME</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>CASES.STATUS</field>
+        <operation>notEqual</operation>
+        <value>Resolved 3rd Line Support,Closed</value>
+    </filters>
+    <label>POS 2nd Line Support Italy</label>
+    <queue>POS_2nd_Line_Support_Italy</queue>
+    <sharedTo>
+        <role>Italy_International_Accounts</role>
+        <role>Italy_Management</role>
+        <role>Italy_Marketing</role>
+        <role>Italy_National_Accounts</role>
+        <role>Italy_New_Business</role>
+        <role>Italy_Sales_Support</role>
+        <role>POS_Support_IT</role>
+        <role>POS_Support_Management</role>
+    </sharedTo>
+</ListView>

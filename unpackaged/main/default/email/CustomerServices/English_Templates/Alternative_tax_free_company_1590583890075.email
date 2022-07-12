@@ -1,0 +1,50 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">Dear&nbsp;{{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">Thank you for your email. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size:10.0pt;font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">Please be advised that the number you provided us with is not a Planet Tax Free form number. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">This retailer may be supported by an alternative Tax Free company and therefore we are not able to provide you with a refund status update. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">Please check your Tax Free form to determine your Tax Free operator. Their name is usually provided at the top of every Tax Free form. Alternatively, you contact the retailer and ask what their refunding partner is. Once you manage to do that you will need to contact them directly. <span style="mso-spacerun:yes">&nbsp;</span> 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">I hope you will be able to receive your refund soon.</span></p>
+ </body>
+</html>

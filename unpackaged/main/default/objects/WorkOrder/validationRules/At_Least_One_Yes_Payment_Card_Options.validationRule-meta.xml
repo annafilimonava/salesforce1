@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>At_Least_One_Yes_Payment_Card_Options</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(CONTAINS(TEXT(Product__c), &quot;Payments&quot;),  TEXT(Solution_Type__c)&lt;&gt;&quot;Planet App&quot;, TEXT(Visa__c) = &quot;No&quot;, TEXT(Mastercard__c) = &quot;No&quot;, TEXT(Amex__c) = &quot;No&quot;, TEXT(Diners__c) = &quot;No&quot;, TEXT(JCB__c) = &quot;No&quot;, TEXT(Alipay__c) = &quot;No&quot;, TEXT(WeChat_Pay__c) = &quot;No&quot;, TEXT(Planet_Union_Pay__c) = &quot;No&quot;,   DATEVALUE(CreatedDate) &gt; DATE(2019,06,25))</errorConditionFormula>
+    <errorMessage>For Payments terminals please select at least one Yes for the Card Options</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ATV_Last_Quarter_LY__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(SiS_Last_Quarter_LY__c &gt; 0, SiS_Last_Quarter_LY__c / Forms_Last_Quarter_LY__c, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>ATV Last Quarter LY</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

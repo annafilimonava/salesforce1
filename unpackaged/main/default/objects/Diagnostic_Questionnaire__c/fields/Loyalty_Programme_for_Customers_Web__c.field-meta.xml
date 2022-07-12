@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Loyalty_Programme_for_Customers_Web__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Any Loyalty Programme for Customers? With web access?</inlineHelpText>
+    <label>Loyalty Programme for Customers? Web?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes - Web Access</fullName>
+                <default>false</default>
+                <label>Yes - Web Access</label>
+            </value>
+            <value>
+                <fullName>Yes - No Web Access</fullName>
+                <default>false</default>
+                <label>Yes - No Web Access</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

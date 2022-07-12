@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Warn_on_moving_to_Proposal_Signed</fullName>
+    <active>true</active>
+    <description>Force user to select the &#39;Continue to Signed&#39; checkbox before changing stage to &#39;Contract Signed&#39;</description>
+    <errorConditionFormula>AND(
+ISPICKVAL(StageName,&quot;Contract Signed&quot;),
+NOT(Continue_to_Signed__c),
+NOT(CONTAINS($Profile.Name ,&quot;Admin&quot;)),
+NOT($Profile.Name = &quot;Finance Approver&quot;)
+)</errorConditionFormula>
+    <errorMessage>You must select the &#39;Continue to Signed&#39; checkbox to move stage to &#39;Contract Signed&#39;. Please note that by confirming Contract Signed the opportunity stage will be locked and may no longer be changed.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GB_Account_ID3</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(TEXT(Type)=&quot;Active&quot;, TEXT(Owning_Country__c) = &quot;United Kingdom&quot;, INCLUDES(TF_Current_Provider__c, &quot;Premier Tax Free&quot;), ISBLANK(Account_ID__c))</errorConditionFormula>
+    <errorDisplayField>Account_ID__c</errorDisplayField>
+    <errorMessage>The Account ID cannot be blank for an Active Shop or Head Office.</errorMessage>
+</ValidationRule>

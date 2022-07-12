@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contract_Start_Date__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Date that the Contract is expected to start. Renamed from Contract Start Date.</inlineHelpText>
+    <label>Go Live</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Date</type>
+</CustomField>

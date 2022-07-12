@@ -1,0 +1,34 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Thank you for your email. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify"><span lang="EN-IE" style="font-family:Barlow;color:black">X$X# For all countries, except Italy and France: 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify"><span lang="EN-IE" style="font-family:Barlow;color:black">The amount debited from your card is the total VAT amount plus the bank commissions. The debit amount is specified on your cash receipt that you’ve signed at the moment you received your refund. </span><span lang="EN-IE" style="font-family:Barlow">Unfortunately, the penalty fee and the bank commissions are not returnable for cases in which the process was not followed correctly. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify"><span lang="EN-IE" style="font-family:Barlow">X$X# For Italy: 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify"><span lang="EN-IE" style="font-family:Barlow;color:black">The amount debited from your card is the total VAT amount plus the bank commissions. The debit amount is specified on your cash receipt that you’ve signed at the moment you received your refund. </span><span lang="EN-IE" style="font-family:Barlow">Unfortunately, the bank commissions are not returnable for cases in which the process was not followed correctly. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify"><span lang="EN-IE" style="font-family:Barlow">X$X# For France: 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+text-align:justify"><span lang="EN-IE" style="font-family:Barlow;color:black">The amount debited from your card is refund amount plus the bank commissions. The debit amount is specified on your cash receipt that you’ve signed at the moment you received your refund. </span><span lang="EN-IE" style="font-family:Barlow">Unfortunately, the bank commissions are not returnable for cases in which the process was not followed correctly.</span></p>
+ </body>
+</html>

@@ -1,0 +1,48 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><span style="font-family:Barlow">Dear {{{Case.Tourist__c}}},</span></p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><span style="font-family:Barlow;
+mso-bidi-font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><span style="font-family:Barlow;
+mso-bidi-font-family:&quot;Times New Roman&quot;">Thank you for your email.&nbsp;&nbsp;I have checked our database and can advise that your Tax Free form {{{Case.Tax_Free_Form__c}}} has been processed successfully.&nbsp;</span></p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><span style="font-family:Barlow">Your refund was sent to you via cheque to the address provided on the Tax Free form</span><br /> &nbsp;</p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><i><span style="font-family:Barlow;
+mso-bidi-font-family:&quot;Times New Roman&quot;">X$X# option 1 – use it when you see a note in TRS CC crossed out</span></i></p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><i><span lang="EN-IE" style="font-family:
+Barlow;mso-ansi-language:EN-IE">as the credit card number has been crossed out.</span></i></p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><i><span style="font-family:Barlow;
+mso-bidi-font-family:&quot;Times New Roman&quot;">&nbsp;</span></i></p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><i><span style="font-family:Barlow;
+mso-bidi-font-family:&quot;Times New Roman&quot;">X$X# option 2 – use it when there is no any note in TRS</span></i></p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><i><span lang="EN-IE" style="font-family:
+Barlow;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-IE">as there were no other refunding details provided or the details were not readable.&nbsp;</span></i></p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><br /> <i><span style="font-family:Barlow;
+mso-bidi-font-family:&quot;Times New Roman&quot;">X$X# option 3 – use it when you see a note in TRS CC invalid/ BIN range</span></i></p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><i><span lang="EN-IE" style="font-family:
+Barlow;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-IE">as the credit card number was not accepted by our system.&nbsp;</span></i></p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><br /> <span style="font-family:Barlow">The cheque was issued to you in X$X<span style="color:red">MONTH</span>.</span><br /> &nbsp;</p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><span style="font-family:Barlow;
+mso-bidi-font-family:&quot;Times New Roman&quot;">In case you are not happy with the cheque or you have not received it, please provide us with X$X<span style="color:red">your/alternative&nbsp;</span>card number and we will have your refund reissued. For security reasons, we request that you send the number divided across two emails. Please put first half of your credit card number in one email and afterwards send your reply once again with the remaining digits.&nbsp;</span></p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><span style="font-family:Barlow;
+mso-bidi-font-family:&quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0in;margin-bottom:2.0pt;
+margin-left:0in;text-autospace:none"><span style="font-family:Barlow">Please feel free to contact us if you need any further information.</span><span style="font-family:Barlow;mso-bidi-font-family:&quot;Segoe UI&quot;;color:black"> </span></p>
+ </body>
+</html>

@@ -1,0 +1,46 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">Dear {{{Case.Tourist__c}}}, </span></p> 
+  <p class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">&nbsp; </span></p> 
+  <p class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">Thank you for your email. </span></p> 
+  <p class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">&nbsp; </span></p> 
+  <p class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">We are unable to refund the VAT on your Tax Free form number {{{Case.Tax_Free_Form__c}}}&nbsp;as it was not stamped by French Customs on the day of departure from EU. </span></p> 
+  <p class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">&nbsp; </span></p> 
+  <p class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">However, it is possible for you to ask for a written validation &laquo; a posteriori &raquo; of this document. In order to enable us to present your file to French customs for approval we require an excise stamp from a French consulate. </span></p> 
+  <p class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">&nbsp; </span></p> 
+  <p class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;
+font-family:Barlow;mso-ansi-language:EN-US">Please send refund copy of your Tax Free form with the following documents and information:</span><br /> &nbsp;</p> 
+  <ul> 
+   <li class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;
+font-family:Barlow;mso-ansi-language:EN-US">Excise stamp from a French consulate which certifies that the goods have been exported. You must to go to the French Consulate or French Embassy in your country to receive such a confirmation.</span></li> 
+   <li class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;
+font-family:Barlow;mso-ansi-language:EN-US">A letter to explain the reasons why you did not get your Tax Free form stamped upon your departure from EU. </span></li> 
+   <li class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;
+font-family:Barlow;mso-ansi-language:EN-US">The copy of your flight ticket or any proof of your departure from Europe </span></li> 
+   <li class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;
+font-family:Barlow;mso-ansi-language:EN-US">All legal documents which justify your residency in a foreign country (copy of your passport and Diplomatic card if necessary) </span></li> 
+  </ul> 
+  <p class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">&nbsp; </span></p> 
+  <p class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">Please send all original document by registered post to customs office at&nbsp;the below address: </span></p> 
+  <p class="MsoNormal"><span style="mso-bidi-font-size:12.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">&nbsp; </span></p> 
+  <p class="MsoNormal"><span style="font-size:12pt"><span style="vertical-align:baseline"><span style="font-family:&quot;Times New Roman&quot;,serif"><strong><span lang="FR" style="border:none windowtext 1.0pt; font-family:Barlow; padding:0cm">Direction r&eacute;gionale des douanes de Paris</span></strong><br /> <span lang="FR" style="font-family:Barlow"><b>30 rue Raoul Wallenberg<br /> 75019 PARIS</b></span></span></span></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+font-family:Barlow;color:windowtext;mso-ansi-language:EN-US">&nbsp; </span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;mso-bidi-font-size:12.0pt;
+font-family:Barlow;color:windowtext;mso-ansi-language:EN-US">The process can take unfortunately 2-3 months to complete, therefore we ask for your patience during this period.</span></p>
+ </body>
+</html>

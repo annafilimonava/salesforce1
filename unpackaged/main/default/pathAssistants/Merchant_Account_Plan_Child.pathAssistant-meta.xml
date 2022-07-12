@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PathAssistant xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <entityName>Merchant_Account_Plan__c</entityName>
+    <fieldName>Progress__c</fieldName>
+    <masterLabel>Merchant Account Plan Child</masterLabel>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Add the Contacts required for the successful completion of the Objectives and Actions.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Add Contacts</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Add any open opportunities related to the Account Plan. To add an opportunity, go to the opportunity and then to the Details tab. Select the Related Account Plan field and add the Account Plan.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;&lt;/span&gt;&lt;img src=&quot;https://fintrax--c.documentforce.com/servlet/rtaImage?eid=1CF5J000000bvZA&amp;amp;feoid=Info&amp;amp;refid=0EM5J000000x2zT&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <picklistValueName>Add Related Opportunities</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Account Plan is awaiting approval. You may not edit the account plan while it is in the approval process. If you need the edit the Account Plan immediately then go to the Approval History related list on the Account Plan and select the Recall option.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;&lt;/span&gt;&lt;img src=&quot;https://fintrax--c.documentforce.com/servlet/rtaImage?eid=1CF5J000000bvZC&amp;amp;feoid=Info&amp;amp;refid=0EM5J000000x2zi&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <picklistValueName>Approval Submitted</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Create Objectives and Actions.  The Objectives and Actions must be in line with those on the Parent Account Plan.  &lt;span style=&quot;font-size: 13px;&quot;&gt;Objectives and Actions must be linked to the related Focus Point.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;SWOTS are not required on Child Account Plans.&lt;/p&gt;</info>
+        <picklistValueName>Create Objectives and Actions</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;Focus Points should be created before creating the account plan. If you have not yet created the Focus Points, do the following:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Delete this Merchant Account Plan&lt;/li&gt;&lt;li&gt;Go back to the account&lt;/li&gt;&lt;li&gt;Create the Focus Points (at least one for each Workstream)&lt;/li&gt;&lt;li&gt;Create a new Merchant Account Plan&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;If you are adding Focus Points to an existing Account Plan be sure to add the Account Plan in the Merchant Account Plan field on the Focus Point.&lt;/p&gt;</info>
+        <picklistValueName>Focus Points Created</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Your account plan has been approved. Please remember to keep your plan up to date.&lt;/span&gt;&lt;/p&gt;</info>
+        <picklistValueName>Plan Approved</picklistValueName>
+    </pathAssistantSteps>
+    <pathAssistantSteps>
+        <info>&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;Submit the Account Plan for approval by clicking on Submit for Approval.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;&lt;/span&gt;&lt;img src=&quot;https://fintrax--c.documentforce.com/servlet/rtaImage?eid=1CF5J000000bvZB&amp;amp;feoid=Info&amp;amp;refid=0EM5J000000x2zd&quot;&gt;&lt;/img&gt;&lt;/p&gt;</info>
+        <picklistValueName>Submit Plan for Approval</picklistValueName>
+    </pathAssistantSteps>
+    <recordTypeName>Child_Account_Plan</recordTypeName>
+</PathAssistant>

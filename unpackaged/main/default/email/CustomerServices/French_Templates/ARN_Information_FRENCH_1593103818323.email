@@ -1,0 +1,39 @@
+</style>
+<![endif]--><!--StartFragment-->
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Bonjour </span><span style="font-family:Barlow;color:black">{{{Case.Tourist__c}}}</span><span lang="FR" style="font-family:Barlow;mso-ansi-language:FR">,<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR"><span style="mso-spacerun:yes">&nbsp;</span><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Merci pour votre message.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR"><span style="mso-spacerun:yes">&nbsp;</span>Je peux confirmer que le paiement de&nbsp;</span><!--StartFragment--><span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Refund_Amount__c}}}</span><!--EndFragment--><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR"> a &eacute;t&eacute; envoy&eacute; sur votre </span><!--StartFragment--><span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Credit_Card_Type__c}}}</span><!--EndFragment--><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR"><span style="color:#70AD47;mso-themecolor:accent6"> </span></span><!--StartFragment--><span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Credit_Card_Number__c}}}</span><!--EndFragment--><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">. Il a &eacute;t&eacute; trait&eacute; avec succ&egrave;s et l&#39;ARN (num&eacute;ro de r&eacute;f&eacute;rence de l&#39;acqu&eacute;reur) a &eacute;t&eacute; cr&eacute;&eacute; pour cette transaction.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR"><span style="mso-spacerun:yes">&nbsp; </span><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Si vous avez besoin d&#39;aide suppl&eacute;mentaire pour retrouver le paiement, veuillez appeler le service de votre banque qui g&egrave;re les paiements litigieux et lui fournir ce num&eacute;ro. Ils devraient pouvoir vous assister.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR"><span style="mso-spacerun:yes">&nbsp;</span><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Si vous avez d&rsquo;autres questions, n&#39;h&eacute;sitez pas &agrave; nous contacter.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Cordialement.<o:p></o:p></span></p>
+<!--EndFragment--></body>
+</html>

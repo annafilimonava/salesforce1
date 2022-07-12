@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>B2C_Rebate_Offset</fullName>
+    <active>true</active>
+    <label>B2C Rebate Offset</label>
+    <picklistValues>
+        <picklist>Duration__c</picklist>
+        <values>
+            <fullName>12 Months</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>6 Months</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Package__c</picklist>
+        <values>
+            <fullName>Premium - Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Premium - UK</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard - Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard - UK</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_Type__c</picklist>
+        <values>
+            <fullName>Incremental Rebate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Pot</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Activated</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proposed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

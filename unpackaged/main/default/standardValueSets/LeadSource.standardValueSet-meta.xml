@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Advertisement</fullName>
+        <default>false</default>
+        <label>Advertisement</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CEO Roundtable 2022</fullName>
+        <default>false</default>
+        <label>CEO Roundtable 2022</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee Referral</fullName>
+        <default>false</default>
+        <label>Employee Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Event</fullName>
+        <default>false</default>
+        <label>Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing merchant cross-sell</fullName>
+        <default>false</default>
+        <label>Existing merchant cross-sell</label>
+    </standardValue>
+    <standardValue>
+        <fullName>External Referral</fullName>
+        <default>false</default>
+        <label>External Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FITUR 2022</fullName>
+        <default>false</default>
+        <label>FITUR 2022</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hoist</fullName>
+        <default>false</default>
+        <label>Hoist</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Hospitality Paper</fullName>
+        <default>false</default>
+        <label>Hospitality Paper</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Independent Hotel Show</fullName>
+        <default>false</default>
+        <label>Independent Hotel Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Intertraffic</fullName>
+        <default>false</default>
+        <label>Intertraffic</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LinkedIn</fullName>
+        <default>false</default>
+        <label>LinkedIn</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pambianco 2021</fullName>
+        <default>false</default>
+        <label>Pambianco 2021</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paris Retail</fullName>
+        <default>false</default>
+        <label>Paris Retail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner</fullName>
+        <default>false</default>
+        <label>Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Planet</fullName>
+        <default>false</default>
+        <label>Planet</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Proximis Merchant</fullName>
+        <default>false</default>
+        <label>Proximis Merchant</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Public Relations</fullName>
+        <default>false</default>
+        <label>Public Relations</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail Forum 2022</fullName>
+        <default>false</default>
+        <label>Retail Forum 2022</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail Paper</fullName>
+        <default>false</default>
+        <label>Retail Paper</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Retail Tech Show 2022</fullName>
+        <default>false</default>
+        <label>Retail Tech Show 2022</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Persons Own</fullName>
+        <default>false</default>
+        <label>Sales Persons Own</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Skift</fullName>
+        <default>false</default>
+        <label>Skift</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Web</fullName>
+        <default>true</default>
+        <label>Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar – External</fullName>
+        <default>false</default>
+        <label>Webinar – External</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar – Internal</fullName>
+        <default>false</default>
+        <label>Webinar – Internal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Word of mouth</fullName>
+        <default>false</default>
+        <label>Word of mouth</label>
+    </standardValue>
+</StandardValueSet>

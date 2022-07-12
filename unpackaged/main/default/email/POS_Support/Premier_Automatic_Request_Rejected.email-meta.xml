@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Premier Automatic Request Rejected</name>
+    <style>none</style>
+    <subject>Premier Automatic Request for {!WorkOrder.Account} Declined</subject>
+    <textOnly>Your request for a Premier Automatic POS Solution has been declined for {!WorkOrder.Account}.  Please request a different type of POS Solution for this account.
+
+You can view the Work Order by clicking here {!WorkOrder.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

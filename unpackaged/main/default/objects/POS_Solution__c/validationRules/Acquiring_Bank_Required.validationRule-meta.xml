@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acquiring_Bank_Required</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISBLANK(Acquiring_Bank__c), CONTAINS(TEXT(Product__c), &quot;Payments&quot;), Owning_Country__c = &quot;Italy&quot;, ISCHANGED(Status__c), OR(TEXT(Solution__c) = &quot;PA&quot;, TEXT(Solution__c) = &quot;PC&quot;, TEXT(Solution__c) = &quot;PAOL&quot;, TEXT(Solution__c) = &quot;PA 3rd Party&quot;))</errorConditionFormula>
+    <errorMessage>PA, PC and PA 3rd Party Solutions with Payments must have a related Acquirer.</errorMessage>
+</ValidationRule>

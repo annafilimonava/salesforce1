@@ -1,0 +1,17 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;"> 
+  <img alt="Planet-FITUR-Email" src="{[devName:PlanetFITUREmail]}" style="max-width: 669.4333526611327px" title="Planet-FITUR-Email" /> 
+  <div style="text-align: right;">
+    &nbsp; 
+  </div> 
+  <div> <span lang="EN-US" style="font-size:14.0pt"><span style="font-family:&quot;Barlow Medium&quot;">Pavillion 8&nbsp;Travel Technology&nbsp; IFEMA, stand 8D22</span></span> 
+   <br /> 
+   <br /> <span style="font-family:&quot;Barlow&quot;">Dear {{{Recipient.FirstName}}},&nbsp;<br /> <br /> As a trusted Payments partner for many of the world’s best known and greatest brands, Planet is delighted to be exhibiting at <b>FITUR </b>at Feria de Madrid <b>from 19 to 23 January </b>2022.&nbsp;<br /> <br /> FITUR is the first appointment of the year for the world’s tourism professionals and the leading trade fair for inbound and outbound markets in Latin America.&nbsp;<br /> <br /> Planet is proud to deliver a </span><a href="https://www.planetpayment.com/en/about-us/knowledge-hub/case-studies/nh-hotel-group/"><span style="font-family:&quot;Barlow&quot;">five-star payments service for leading Global hotels brands</span></a> <span style="font-family:&quot;Barlow&quot;">, by connecting merchants and guests across multiple payment channels.<br /> <br /> Come and visit the Planet <b>stand 8D22</b> at FITUR to learn more about our range of </span><a href="https://www.planetpayment.com/en/about-us/in-the-news/2021-news-archive/planet-fitur-2022-hub/"><span style="font-family:&quot;Barlow&quot;">integrated digital payment solutions</span></a> <span style="font-family:&quot;Barlow&quot;"> designed to enhance the customer and guest experience.&nbsp;<br /> <br /> We look forward to seeing you there!</span> 
+   <br /> 
+   <br /> <span style="font-family:&quot;Barlow&quot;">To schedule a time for us to meet up at the event, please reply to this email.<br /> <br /> If you've not yet registered for the event, </span><a href="https://www.ifema.es/en/fitur/tickets-invitations"><span style="font-family:&quot;Barlow&quot;">get your visitor badge</span></a>&nbsp;<span style="font-family:&quot;Barlow&quot;">now.&nbsp;<br /> <br /> We look forward to seeing you there!<br /> <br /> Regards,<br /> {{{Sender.Signature__c}}}</span> 
+  </div> 
+ </body>
+</html>

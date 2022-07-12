@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Terminal_Detail_PTF</fullName>
+    <active>true</active>
+    <label>Terminal Detail PTF</label>
+    <picklistValues>
+        <picklist>Comms_Type__c</picklist>
+        <values>
+            <fullName>4G</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WiFi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WiFi %2B SIM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Connection_Type__c</picklist>
+        <values>
+            <fullName>Online</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason_for_Request__c</picklist>
+        <values>
+            <fullName>Additional Terminal %28Existing Store%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Defending Retailer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Store Opening</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Replacement Terminal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solution Upgrade %28VAT Only to Acquiring%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Temporary Rental%2FSample Sale</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Solution__c</picklist>
+        <values>
+            <fullName>PTF</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Planet Connect Mobility</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>p%40c</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Terminal_Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Denied</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Approved</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Approval</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Terminal_Type__c</picklist>
+        <values>
+            <fullName>Samsung A10</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Samsung Tab Active2</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Use__c</picklist>
+        <values>
+            <fullName>Tax Free Only</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Wallets and Union Pay</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

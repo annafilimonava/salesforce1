@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Supplier_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Supplier Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Accountant</fullName>
+                <default>false</default>
+                <label>Accountant</label>
+            </value>
+            <value>
+                <fullName>Agency</fullName>
+                <default>false</default>
+                <label>Agency</label>
+            </value>
+            <value>
+                <fullName>Auditor</fullName>
+                <default>false</default>
+                <label>Auditor</label>
+            </value>
+            <value>
+                <fullName>Banking</fullName>
+                <default>false</default>
+                <label>Banking</label>
+            </value>
+            <value>
+                <fullName>Benefits</fullName>
+                <default>false</default>
+                <label>Benefits</label>
+            </value>
+            <value>
+                <fullName>Consultancy</fullName>
+                <default>false</default>
+                <label>Consultancy</label>
+            </value>
+            <value>
+                <fullName>Courier</fullName>
+                <default>false</default>
+                <label>Courier</label>
+            </value>
+            <value>
+                <fullName>Credit Card Provider</fullName>
+                <default>false</default>
+                <label>Credit Card Provider</label>
+            </value>
+            <value>
+                <fullName>Cultural Trainer</fullName>
+                <default>false</default>
+                <label>Cultural Trainer</label>
+            </value>
+            <value>
+                <fullName>Customer Service Solutions</fullName>
+                <default>false</default>
+                <label>Customer Service Solutions</label>
+            </value>
+            <value>
+                <fullName>Developers</fullName>
+                <default>false</default>
+                <label>Developers</label>
+            </value>
+            <value>
+                <fullName>Events</fullName>
+                <default>false</default>
+                <label>Events</label>
+            </value>
+            <value>
+                <fullName>Front end solution partners</fullName>
+                <default>false</default>
+                <label>Front end solution partners</label>
+            </value>
+            <value>
+                <fullName>Health Care</fullName>
+                <default>false</default>
+                <label>Health Care</label>
+            </value>
+            <value>
+                <fullName>Insight/Data</fullName>
+                <default>false</default>
+                <label>Insight/Data</label>
+            </value>
+            <value>
+                <fullName>Insurance</fullName>
+                <default>false</default>
+                <label>Insurance</label>
+            </value>
+            <value>
+                <fullName>Legal and Financial</fullName>
+                <default>false</default>
+                <label>Legal and Financial</label>
+            </value>
+            <value>
+                <fullName>Marketing &amp; Promotion</fullName>
+                <default>false</default>
+                <label>Marketing &amp; Promotion</label>
+            </value>
+            <value>
+                <fullName>Misc HR</fullName>
+                <default>false</default>
+                <label>Misc HR</label>
+            </value>
+            <value>
+                <fullName>Misc IT</fullName>
+                <default>false</default>
+                <label>Misc IT</label>
+            </value>
+            <value>
+                <fullName>Office Costs</fullName>
+                <default>false</default>
+                <label>Office Costs</label>
+            </value>
+            <value>
+                <fullName>Office Hardware</fullName>
+                <default>false</default>
+                <label>Office Hardware</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Partnerships</fullName>
+                <default>false</default>
+                <label>Partnerships</label>
+            </value>
+            <value>
+                <fullName>Payroll</fullName>
+                <default>false</default>
+                <label>Payroll</label>
+            </value>
+            <value>
+                <fullName>Postage</fullName>
+                <default>false</default>
+                <label>Postage</label>
+            </value>
+            <value>
+                <fullName>Printing</fullName>
+                <default>false</default>
+                <label>Printing</label>
+            </value>
+            <value>
+                <fullName>Recruitment</fullName>
+                <default>false</default>
+                <label>Recruitment</label>
+            </value>
+            <value>
+                <fullName>Refund Agent</fullName>
+                <default>false</default>
+                <label>Refund Agent</label>
+            </value>
+            <value>
+                <fullName>Retailer Hardware</fullName>
+                <default>false</default>
+                <label>Retailer Hardware</label>
+            </value>
+            <value>
+                <fullName>Security</fullName>
+                <default>false</default>
+                <label>Security</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+            <value>
+                <fullName>Storage</fullName>
+                <default>false</default>
+                <label>Storage</label>
+            </value>
+            <value>
+                <fullName>Telecommunications</fullName>
+                <default>false</default>
+                <label>Telecommunications</label>
+            </value>
+            <value>
+                <fullName>Training provider</fullName>
+                <default>false</default>
+                <label>Training provider</label>
+            </value>
+            <value>
+                <fullName>Travel</fullName>
+                <default>false</default>
+                <label>Travel</label>
+            </value>
+            <value>
+                <fullName>Utilities</fullName>
+                <default>false</default>
+                <label>Utilities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

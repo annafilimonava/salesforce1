@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Topic__c</fullName>
+    <externalId>false</externalId>
+    <label>Topic</label>
+    <required>false</required>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contract Issue</fullName>
+                <default>false</default>
+                <label>Contract Issue</label>
+            </value>
+            <value>
+                <fullName>Contract Negotiation</fullName>
+                <default>false</default>
+                <label>Contract Negotiation</label>
+            </value>
+            <value>
+                <fullName>Finance</fullName>
+                <default>false</default>
+                <label>Finance</label>
+            </value>
+            <value>
+                <fullName>Marketing Materials</fullName>
+                <default>false</default>
+                <label>Marketing Materials</label>
+            </value>
+            <value>
+                <fullName>Marketing Products</fullName>
+                <default>false</default>
+                <label>Marketing Products</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Presentation</fullName>
+                <default>false</default>
+                <label>Presentation</label>
+            </value>
+            <value>
+                <fullName>Service Issue</fullName>
+                <default>false</default>
+                <label>Service Issue</label>
+            </value>
+            <value>
+                <fullName>Statistics/Reporting</fullName>
+                <default>false</default>
+                <label>Statistics/Reporting</label>
+            </value>
+            <value>
+                <fullName>Technical</fullName>
+                <default>false</default>
+                <label>Technical</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>TF – Installation</fullName>
+                <default>false</default>
+                <label>TF – Installation</label>
+            </value>
+            <value>
+                <fullName>TF – Incentive</fullName>
+                <default>false</default>
+                <label>TF – Incentive</label>
+            </value>
+            <value>
+                <fullName>TF – Compliance</fullName>
+                <default>false</default>
+                <label>TF – Compliance</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

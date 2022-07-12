@@ -1,0 +1,59 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow">Thank you for your email.<span style="mso-spacerun:yes">&nbsp; </span>I have checked our database for your Tax Free form {{{Case.Tax_Free_Form__c}}} and </span><span lang="EN-IE" style="font-size:11.0pt;font-family:Barlow;mso-bidi-font-family:Calibri;
+color:windowtext">noticed that</span><span lang="EN-IE" style="font-size:11.0pt;
+font-family:Barlow"> you have received your refund at the time of purchase in the store. Your refund amount was deducted from the total purchase amount. You can check your receipt for details on this transaction. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:windowtext">X$X#If P2 added# 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:windowtext">I can confirm that your Tax Free form has been processed successfully and no further actions are required from your end. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:windowtext"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:windowtext">X$X#If no P2# 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:windowtext">We have not yet processed your Tax Free form, so please ensure that the form is stamped and returned to us within the 21 days to avoid a charge to your account. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow">If I can be of any further assistance, please do not hesitate to contact me. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow">Thank you for using Planet.</span></p>
+ </body>
+</html>

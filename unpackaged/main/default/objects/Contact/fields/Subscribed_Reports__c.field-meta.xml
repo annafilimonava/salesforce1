@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subscribed_Reports__c</fullName>
+    <externalId>false</externalId>
+    <label>Subscribed Reports</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>0072-Top Stores</fullName>
+                <default>false</default>
+                <label>0072-Top Stores</label>
+            </value>
+            <value>
+                <fullName>0095-Store Statistics Report Suite</fullName>
+                <default>false</default>
+                <label>0095-Store Statistics Report Suite</label>
+            </value>
+            <value>
+                <fullName>0109-Top Nationalities LS</fullName>
+                <default>false</default>
+                <label>0109-Top Nationalities LS</label>
+            </value>
+            <value>
+                <fullName>0210-Voucher Listing</fullName>
+                <default>false</default>
+                <label>0210-Voucher Listing</label>
+            </value>
+            <value>
+                <fullName>0416a-March Rate Evolution</fullName>
+                <default>false</default>
+                <label>0416a-March Rate Evolution</label>
+            </value>
+            <value>
+                <fullName>0575-Code 99 Sales Reps</fullName>
+                <default>false</default>
+                <label>0575-Code 99 Sales Reps</label>
+            </value>
+            <value>
+                <fullName>1001-Summary Performance Report</fullName>
+                <default>false</default>
+                <label>1001-Summary Performance Report</label>
+            </value>
+            <value>
+                <fullName>3C Communication</fullName>
+                <default>false</default>
+                <label>3C Communication</label>
+            </value>
+            <value>
+                <fullName>China Talks Newsletter</fullName>
+                <default>false</default>
+                <label>Communication Central Europe</label>
+            </value>
+            <value>
+                <fullName>France Newsletter</fullName>
+                <default>false</default>
+                <label>France Newsletter</label>
+            </value>
+            <value>
+                <fullName>Group Performance Report EMEA</fullName>
+                <default>false</default>
+                <label>Group Performance Report EMEA</label>
+            </value>
+            <value>
+                <fullName>Group Performance Report France</fullName>
+                <default>false</default>
+                <label>Group Performance Report France</label>
+            </value>
+            <value>
+                <fullName>Group Performance Report Italy</fullName>
+                <default>false</default>
+                <label>Group Performance Report Italy</label>
+            </value>
+            <value>
+                <fullName>Group Performance Report Spain</fullName>
+                <default>false</default>
+                <label>Group Performance Report Spain</label>
+            </value>
+            <value>
+                <fullName>KaufLokal</fullName>
+                <default>false</default>
+                <label>KaufLokal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

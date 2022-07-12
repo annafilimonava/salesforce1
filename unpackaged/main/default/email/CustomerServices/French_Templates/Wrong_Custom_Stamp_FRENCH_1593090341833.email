@@ -1,0 +1,21 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Bonjour </span> <span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Tourist__c}}}</span> <span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">,</span><br /> <br /> &nbsp;</p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Merci pour votre message.</span><br /> <br /> &nbsp;</p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Je peux confirmer que nous avons re&ccedil;u votre forme de d&eacute;taxe </span> <span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Tax_Free_Form__c}}}</span> <span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">. Malheureusement nous ne sommes pas en mesure de compl&eacute;ter le remboursement parce que la forme de d&eacute;taxe avait &eacute;t&eacute; tamponn&eacute; par la douane de&nbsp;</span> <span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">X$X</span><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR"><span style="color:#FF6600">(insert country, ex. Russian)</span>. </span> <span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">X$X</span><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR"><span style="color:red">(I</span><span style="color:#FF6600">nsert country – ex. Russia) </span><span style="color:black;mso-themecolor:text1">ne fait partie de l’UE. En cons&eacute;quence le tampon n’est pas accept&eacute; pour le perc&eacute;s de la d&eacute;taxe Europ&eacute;enne. </span></span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Veuillez nous contacter si vous avez d’autres questions.<br /> <br /> <br /> <br /> Cordialement. </span></p>
+ </body>
+</html>

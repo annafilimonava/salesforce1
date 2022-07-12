@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Premier_Pass_Type__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(BEGINS(Premier_Pass_ID__c, &quot;888100&quot;) , &quot;CTrip&quot;,
+IF(Premier_Pass_ID__c = &quot;&quot;, &quot;&quot;, &quot;Standard&quot;))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Premier Pass Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

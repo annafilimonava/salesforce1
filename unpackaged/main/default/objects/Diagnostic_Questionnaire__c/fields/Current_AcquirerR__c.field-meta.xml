@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_AcquirerR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Current_Acquirer__c ) = &quot;AIB&quot;, 0,
+IF(TEXT(Current_Acquirer__c ) = &quot;B+S Card Services&quot;, 1,
+IF(TEXT(Current_Acquirer__c ) = &quot;Elavon&quot;, 2,
+IF(TEXT(Current_Acquirer__c ) = &quot;First Data&quot;, 2,
+IF(TEXT(Current_Acquirer__c ) = &quot;Hobex&quot;, 2,
+IF(TEXT(Current_Acquirer__c ) = &quot;HSBC&quot;, 3,
+IF(TEXT(Current_Acquirer__c ) = &quot;SIX&quot;, 3,
+IF(TEXT(Current_Acquirer__c ) = &quot;Worldpay&quot;, 4,
+IF(TEXT(Current_Acquirer__c ) = &quot;Other&quot;, 5, 0)))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Current AcquirerR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

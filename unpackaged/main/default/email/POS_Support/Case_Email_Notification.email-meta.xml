@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Case Email Notification</name>
+    <style>none</style>
+    <subject>{!Case.Subject}​</subject>
+    <textOnly>***Notification of Case/Request Registration***
+
+Please Reply above this message and do not modify the Subject line
+
+-----------------------------------------------------------------------------------------
+
+Dear Customer,
+
+
+We are pleased to inform you that your request has been recorded. Your assigned Reference Number is {!Case.CaseNumber}  . This number should be kept for reference purposes.
+
+
+Case Creation Date: {!Case.CreatedDate}
+
+
+We will reply soon to your request.
+
+
+Kind Regards,
+
+POS Support​</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

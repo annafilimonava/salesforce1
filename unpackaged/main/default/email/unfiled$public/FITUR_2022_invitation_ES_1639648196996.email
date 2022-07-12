@@ -1,0 +1,15 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;"> 
+  <img alt="Planet-FITUR-Email" src="{[devName:PlanetFITUREmail]}" style="max-width: 669.4333526611327px" title="Planet-FITUR-Email" /> 
+  <div style="text-align: right;">
+    &nbsp; 
+  </div> 
+  <div> <span lang="EN-US" style="font-size:14.0pt"><span style="font-family:&quot;Barlow Medium&quot;">Pabellón 8 Travel Technology IFEMA, stand 8D22</span></span> 
+   <br /> 
+   <br /> <span style="font-family:&quot;Barlow&quot;">Estimado/a {{{Recipient.FirstName}}}.&nbsp;<br /> <br /> Planet, socio de pagos de confianza para muchas de las marcas más importantes y conocidas del mundo, estará presente en <b>FITUR </b>en la Feria de Madrid <b>del 19 al 23 de enero</b> de 2022.<br /> <br /> FITUR es la primera cita anual para los profesionales del turismo mundial y la feria líder para los mercados receptivos y emisores de Iberoamérica<br /> <br /> En Planet estamos orgullosos de ofrecer un </span><a href="https://www.planetpayment.com/en/about-us/knowledge-hub/case-studies/nh-hotel-group/"><span style="font-family:&quot;Barlow&quot;">servicio de pagos de cinco estrellas a las principales marcas hoteleras mundiales</span></a><span style="font-family:&quot;Barlow&quot;">, conectando a los comercios y sus huéspedes a través de múltiples canales de pago.<br /> integradas<br /> Visite nuestro <b>stand 8D22 en FITUR</b> para obtener más información sobre nuestra gama de </span><a href="https://www.planetpayment.com/en/about-us/in-the-news/2021-news-archive/planet-fitur-2022-hub/"><span style="font-family:&quot;Barlow&quot;">soluciones&nbsp;integradas de pagos digitales</span></a> <span style="font-family:&quot;Barlow&quot;"> diseñadas para mejorar la experiencia del cliente y del huésped.<br /> <br /> Si desea que agendemos una reunión, por favor responda a este correo.<br /> <br /> Si aún no se ha registrado, </span><a href="https://www.ifema.es/fitur/entradas-invitaciones"><span style="font-family:&quot;Barlow&quot;">solicite aquí su invitación</span></a><span style="font-family:&quot;Barlow&quot;">.<br /> <br /> ¡Le esperamos!<br /> <br /> Atentamente,<br /> {{{Sender.Signature__c}}}</span> 
+  </div> 
+ </body>
+</html>

@@ -1,0 +1,4 @@
+<font face="arial" size=2>
+Your request for a Premier Automatic POS Solution has been approved for {!WorkOrder.Account}.  <p>
+
+You can view the Work Order by clicking here {!WorkOrder.Link}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_Of_Associates_greater_than_830</fullName>
+    <active>true</active>
+    <description>Enter SPOS Price if the Number of Associates is &gt; 830</description>
+    <errorConditionFormula>AND( Number_Of_Associates__c &gt; 830,  ISBLANK( SPOS_Price__c ))</errorConditionFormula>
+    <errorMessage>If the Number Of Associates is greater than 830, enter SPOS Price.</errorMessage>
+</ValidationRule>

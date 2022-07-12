@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_Support_ES_WorkOrder</fullName>
+    <columns>Name</columns>
+    <columns>Solution_Type__c</columns>
+    <columns>Subject</columns>
+    <columns>Account</columns>
+    <columns>Status</columns>
+    <columns>Priority</columns>
+    <columns>CreatedDate</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Status</field>
+        <operation>notEqual</operation>
+        <value>Completed,Cancelled</value>
+    </filters>
+    <filters>
+        <field>RecordType</field>
+        <operation>equals</operation>
+    </filters>
+    <label>POS Support ES</label>
+    <queue>POS_Support_ES</queue>
+    <sharedTo>
+        <role>Customer_Service_ES</role>
+        <role>POS_Support_ES</role>
+        <role>POS_Support_Management</role>
+        <role>South_west_Europe_Management</role>
+        <role>South_west_Europe_Marketing</role>
+        <role>Spain_International_Accounts</role>
+        <role>Spain_Management</role>
+        <role>Spain_National_Accounts</role>
+        <role>Spain_Sales_Support</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,21 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Cher </span><span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Tourist__c}}}</span><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">,</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Merci pour votre email.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">J'ai v&eacute;rifi&eacute; notre base de donn&eacute;es et &agrave; ce jour nous n'avons pas re&ccedil;u votre bordereau </span><span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Tax_Free_Form__c}}}</span><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Veuillez confirmer que vous nous avez retourn&eacute; votre formulaire estampill&eacute; hors taxes, y compris<br /> la date &agrave; laquelle il a &eacute;t&eacute; envoy&eacute;, l'adresse &agrave; laquelle il a &eacute;t&eacute; envoy&eacute; et la m&eacute;thode que vous avez envoy&eacute;e &agrave; notre bureau (par exemple: par courrier postal &agrave; une adresse en Pologne, drop-box &agrave; l’a&eacute;roport).</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Veuillez noter que sans le retour de bordereau tamponn&eacute; par les douaniers dans le d&eacute;lai indiqu&eacute;, nous ne pouvons pas vous rembourser.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Une fois que je recevrai les informations ci-dessus de votre part, je pourrai enqu&ecirc;ter davantage.<br /> <br /> Cordialement.</span></p>
+ </body>
+</html>

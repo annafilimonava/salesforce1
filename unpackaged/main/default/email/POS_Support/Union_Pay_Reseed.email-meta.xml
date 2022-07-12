@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Union Pay Reseed</name>
+    <style>none</style>
+    <subject>UNION PAY SUPPORT QUERY ({!Unit__c.TID__c})</subject>
+    <textOnly>Hi,
+
+Please can you authorise TID {!Unit__c.TID__c} to seed?
+
+Kind regards,
+
+{!User.Name}
+
+{!User.Title}| Fintrax Group
+
+Somerset House, 47-49 London Road| Redhill, RH1 1LU | UK
+
+T {!User.Phone}
+
+
+
+
+Disclaimer
+
+
+Fintrax Group Holdings Ltd. | reg. office. Martin House, IDA Business Park, Dangan, Galway, H91 A06C, Ireland. | reg. in Dublin, Ireland | reg. no. 160005 | Directors: P. Waldron, C. Flanagan, P. Faherty, C. Parkin (UK), J. Duffy, C Hafner (UK), S. Intemann (Austria).
+
+Follow us</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

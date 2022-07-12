@@ -1,0 +1,1852 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Case Reason</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>3rd Party TF activation</fullName>
+                <default>false</default>
+                <label>3rd Party TF activation</label>
+            </value>
+            <value>
+                <fullName>Access Request</fullName>
+                <default>false</default>
+                <label>Access Request</label>
+            </value>
+            <value>
+                <fullName>Additional Information Requested</fullName>
+                <default>false</default>
+                <label>Additional Information Requested</label>
+            </value>
+            <value>
+                <fullName>Additional training</fullName>
+                <default>false</default>
+                <label>Additional training</label>
+            </value>
+            <value>
+                <fullName>Address to Send Tax Free Form</fullName>
+                <default>false</default>
+                <label>Address to Send Tax Free Form</label>
+            </value>
+            <value>
+                <fullName>Amend Workflow</fullName>
+                <default>false</default>
+                <label>Amend Workflow</label>
+            </value>
+            <value>
+                <fullName>Application Update</fullName>
+                <default>false</default>
+                <label>Application Update</label>
+            </value>
+            <value>
+                <fullName>Cables order</fullName>
+                <default>false</default>
+                <label>Cables order</label>
+            </value>
+            <value>
+                <fullName>Change of Details</fullName>
+                <default>false</default>
+                <label>Change of Details</label>
+            </value>
+            <value>
+                <fullName>Change of Solution</fullName>
+                <default>false</default>
+                <label>Change of Solution</label>
+            </value>
+            <value>
+                <fullName>Change of Subscription Details</fullName>
+                <default>false</default>
+                <label>Change of Subscription Details</label>
+            </value>
+            <value>
+                <fullName>Cheque/Prepaid Card Cancellation</fullName>
+                <default>false</default>
+                <label>Cheque/Prepaid Card Cancellation</label>
+            </value>
+            <value>
+                <fullName>Code 99/AQ Mailing</fullName>
+                <default>false</default>
+                <label>Code 99/AQ Mailing</label>
+            </value>
+            <value>
+                <fullName>Complains</fullName>
+                <default>false</default>
+                <label>Complains</label>
+            </value>
+            <value>
+                <fullName>Configuration Error</fullName>
+                <default>false</default>
+                <label>Configuration Error</label>
+            </value>
+            <value>
+                <fullName>Configuration Update</fullName>
+                <default>false</default>
+                <label>Configuration Update</label>
+            </value>
+            <value>
+                <fullName>Consumable Orders</fullName>
+                <default>false</default>
+                <label>Consumable Orders</label>
+            </value>
+            <value>
+                <fullName>Currency &amp; Exchange Rate</fullName>
+                <default>false</default>
+                <label>Currency &amp; Exchange Rate</label>
+            </value>
+            <value>
+                <fullName>Customs</fullName>
+                <default>false</default>
+                <label>Customs</label>
+            </value>
+            <value>
+                <fullName>Debit – No Receipt</fullName>
+                <default>false</default>
+                <label>Debit – No Receipt</label>
+            </value>
+            <value>
+                <fullName>Debit – No Stamp</fullName>
+                <default>false</default>
+                <label>Debit – No Stamp</label>
+            </value>
+            <value>
+                <fullName>Debit – No Voucher</fullName>
+                <default>false</default>
+                <label>Debit – No Voucher</label>
+            </value>
+            <value>
+                <fullName>Debit vs Recredit Amount</fullName>
+                <default>false</default>
+                <label>Debit vs Recredit Amount</label>
+            </value>
+            <value>
+                <fullName>E-Customs error</fullName>
+                <default>false</default>
+                <label>E-Customs error</label>
+            </value>
+            <value>
+                <fullName>Email Template</fullName>
+                <default>false</default>
+                <label>Email Template</label>
+            </value>
+            <value>
+                <fullName>Error with Figures</fullName>
+                <default>false</default>
+                <label>Error with Figures</label>
+            </value>
+            <value>
+                <fullName>Export Request</fullName>
+                <default>false</default>
+                <label>Export Request</label>
+            </value>
+            <value>
+                <fullName>Fees</fullName>
+                <default>false</default>
+                <label>Fees</label>
+            </value>
+            <value>
+                <fullName>Forgot Password</fullName>
+                <default>false</default>
+                <label>Forgot Password</label>
+            </value>
+            <value>
+                <fullName>General Question</fullName>
+                <default>false</default>
+                <label>General Question</label>
+            </value>
+            <value>
+                <fullName>GLTTP</fullName>
+                <default>false</default>
+                <label>GLTTP</label>
+            </value>
+            <value>
+                <fullName>Hardware issue</fullName>
+                <default>false</default>
+                <label>Hardware issue</label>
+            </value>
+            <value>
+                <fullName>Import Request</fullName>
+                <default>false</default>
+                <label>Import Request</label>
+            </value>
+            <value>
+                <fullName>Incident \ Planet Outage</fullName>
+                <default>false</default>
+                <label>Incident \ Planet Outage</label>
+            </value>
+            <value>
+                <fullName>Inquiry</fullName>
+                <default>false</default>
+                <label>Inquiry</label>
+            </value>
+            <value>
+                <fullName>Installation\Training</fullName>
+                <default>false</default>
+                <label>Installation\Training</label>
+            </value>
+            <value>
+                <fullName>Installation Support</fullName>
+                <default>false</default>
+                <label>Installation Support</label>
+            </value>
+            <value>
+                <fullName>Integrator issue (not Planet related)</fullName>
+                <default>false</default>
+                <label>Integrator issue (not Planet related)</label>
+            </value>
+            <value>
+                <fullName>Invoice Not Paid</fullName>
+                <default>false</default>
+                <label>Invoice Not Paid</label>
+            </value>
+            <value>
+                <fullName>Invoices</fullName>
+                <default>false</default>
+                <label>Invoices</label>
+            </value>
+            <value>
+                <fullName>Login\Password issue</fullName>
+                <default>false</default>
+                <label>Login\Password issue</label>
+            </value>
+            <value>
+                <fullName>Mass Update Records</fullName>
+                <default>false</default>
+                <label>Mass Update Records</label>
+            </value>
+            <value>
+                <fullName>Merchant</fullName>
+                <default>false</default>
+                <label>Merchant</label>
+            </value>
+            <value>
+                <fullName>Missing Voucher &lt;60 days</fullName>
+                <default>false</default>
+                <label>Missing Voucher &lt;60 days</label>
+            </value>
+            <value>
+                <fullName>Missing Voucher &gt;60 days</fullName>
+                <default>false</default>
+                <label>Missing Voucher &gt;60 days</label>
+            </value>
+            <value>
+                <fullName>New Field</fullName>
+                <default>false</default>
+                <label>New Field</label>
+            </value>
+            <value>
+                <fullName>New Partnership</fullName>
+                <default>false</default>
+                <label>New Partnership</label>
+            </value>
+            <value>
+                <fullName>New Picklist Items</fullName>
+                <default>false</default>
+                <label>New Picklist Items</label>
+            </value>
+            <value>
+                <fullName>New problem</fullName>
+                <default>false</default>
+                <label>New problem</label>
+            </value>
+            <value>
+                <fullName>New Report</fullName>
+                <default>false</default>
+                <label>New Report</label>
+            </value>
+            <value>
+                <fullName>New User Request</fullName>
+                <default>false</default>
+                <label>New User Request</label>
+            </value>
+            <value>
+                <fullName>New Workflow</fullName>
+                <default>false</default>
+                <label>New Workflow</label>
+            </value>
+            <value>
+                <fullName>No Customs Stamp</fullName>
+                <default>false</default>
+                <label>No Customs Stamp</label>
+            </value>
+            <value>
+                <fullName>No Receipt</fullName>
+                <default>false</default>
+                <label>No Receipt</label>
+            </value>
+            <value>
+                <fullName>Order</fullName>
+                <default>false</default>
+                <label>Order</label>
+            </value>
+            <value>
+                <fullName>OTELLO - Verifica XSD Fallita</fullName>
+                <default>false</default>
+                <label>OTELLO - Verifica XSD Fallita</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Other payment issues</fullName>
+                <default>false</default>
+                <label>Other payment issues</label>
+            </value>
+            <value>
+                <fullName>Other Tax Free Company</fullName>
+                <default>false</default>
+                <label>Other Tax Free Company</label>
+            </value>
+            <value>
+                <fullName>Other Voucher Issues</fullName>
+                <default>false</default>
+                <label>Other Voucher Issues</label>
+            </value>
+            <value>
+                <fullName>PA ARN queries for customers</fullName>
+                <default>false</default>
+                <label>PA ARN queries for customers</label>
+            </value>
+            <value>
+                <fullName>PA batch-in / TMS failed</fullName>
+                <default>false</default>
+                <label>PA batch-in / TMS failed</label>
+            </value>
+            <value>
+                <fullName>PA bug found</fullName>
+                <default>false</default>
+                <label>PA bug found</label>
+            </value>
+            <value>
+                <fullName>PA card reader not woring</fullName>
+                <default>false</default>
+                <label>PA card reader not woring</label>
+            </value>
+            <value>
+                <fullName>PA credit card not recognized for DCC or VAT</fullName>
+                <default>false</default>
+                <label>PA credit card not recognized for DCC or VAT</label>
+            </value>
+            <value>
+                <fullName>PA customer charged twice</fullName>
+                <default>false</default>
+                <label>PA customer charged twice</label>
+            </value>
+            <value>
+                <fullName>PA error security alarm / please reboot etc</fullName>
+                <default>false</default>
+                <label>PA error security alarm / please reboot etc</label>
+            </value>
+            <value>
+                <fullName>PA Faulty Terminal</fullName>
+                <default>false</default>
+                <label>PA Faulty Terminal</label>
+            </value>
+            <value>
+                <fullName>PA no communication between till &amp; PDQ</fullName>
+                <default>false</default>
+                <label>PA no communication between till &amp; PDQ</label>
+            </value>
+            <value>
+                <fullName>PA no voucher range</fullName>
+                <default>false</default>
+                <label>PA no voucher range</label>
+            </value>
+            <value>
+                <fullName>PA offline auth transactions</fullName>
+                <default>false</default>
+                <label>PA offline auth transactions</label>
+            </value>
+            <value>
+                <fullName>PAOL Error 24 (Invocie already exist)</fullName>
+                <default>false</default>
+                <label>PAOL Error 24 (Invocie already exist)</label>
+            </value>
+            <value>
+                <fullName>PAOL Error 39 ( specific character no accepted )</fullName>
+                <default>false</default>
+                <label>PAOL Error 39 ( specific character no accepted )</label>
+            </value>
+            <value>
+                <fullName>PA printer issue</fullName>
+                <default>false</default>
+                <label>PA printer issue</label>
+            </value>
+            <value>
+                <fullName>PA Sale transaction not authorised</fullName>
+                <default>false</default>
+                <label>PA Sale transaction not authorised</label>
+            </value>
+            <value>
+                <fullName>PA switch to summer / winter time</fullName>
+                <default>false</default>
+                <label>PA switch to summer / winter time</label>
+            </value>
+            <value>
+                <fullName>PA terminal is not loading</fullName>
+                <default>false</default>
+                <label>PA terminal is not loading</label>
+            </value>
+            <value>
+                <fullName>PA terminal won&#39;t power up</fullName>
+                <default>false</default>
+                <label>PA terminal won&#39;t power up</label>
+            </value>
+            <value>
+                <fullName>PA training needed</fullName>
+                <default>false</default>
+                <label>PA training needed</label>
+            </value>
+            <value>
+                <fullName>PA VAT voucher is not printed</fullName>
+                <default>false</default>
+                <label>PA VAT voucher is not printed</label>
+            </value>
+            <value>
+                <fullName>Payments</fullName>
+                <default>false</default>
+                <label>Payments</label>
+            </value>
+            <value>
+                <fullName>Phone calls</fullName>
+                <default>false</default>
+                <label>Phone calls</label>
+            </value>
+            <value>
+                <fullName>PI Error code</fullName>
+                <default>false</default>
+                <label>PI Error code</label>
+            </value>
+            <value>
+                <fullName>PII - Fatal Error</fullName>
+                <default>false</default>
+                <label>PII - Fatal Error</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 1] Invoice Already Exists</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 1] Invoice Already Exists</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 10] Invoice Is Not Valid</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 10] Invoice Is Not Valid</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 100] Invalid Credit Card Format</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 100] Invalid Credit Card Format</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 101] Invalid Expiry Date Format</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 101] Invalid Expiry Date Format</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 102] Invalid Item Description</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 102] Invalid Item Description</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 103] The customer country is not eligible for taxFree</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 103] The customer country is not eligible for taxFree</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 104] Passport Number is empty</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 104] Passport Number is empty</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 105] Invalid Date of birth</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 105] Invalid Date of birth</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 106] Invalid Alipay phone number</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 106] Invalid Alipay phone number</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 107] Invalid Customer Passport Number</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 107] Invalid Customer Passport Number</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 108] Invalid Customer First Name</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 108] Invalid Customer First Name</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 109] Invalid Customer Last Name</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 109] Invalid Customer Last Name</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 11] Invoice Exchanged</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 11] Invoice Exchanged</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 110] Error Age Date Of Birth</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 110] Error Age Date Of Birth</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 111] The date entered is not valid.</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 111] The date entered is not valid.</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 112] The age of birth is not authorized</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 112] The age of birth is not authorized</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 113] InvalidCreditCardNumber</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 113] InvalidCreditCardNumber</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 114] CreditCardAuthorizationFailed</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 114] CreditCardAuthorizationFailed</label>
+            </value>
+            <value>
+                <fullName>PI Server - [Error 115] The fiscal number not provided nor generated for this store operation (115)</fullName>
+                <default>false</default>
+                <label>PI Server - [Error 115] The fiscal number not provided nor generated for this store operation (115)</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 115] UnAuthorizedOperation</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 115] UnAuthorizedOperation</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 116] CustomerNotFound</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 116] CustomerNotFound</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 117] RefundAmountNotCalculated</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 117] RefundAmountNotCalculated</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 118] VoucherAlreadyVoided</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 118] VoucherAlreadyVoided</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 119] InvalidPremierPassId</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 119] InvalidPremierPassId</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 12] Invoice Reversal</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 12] Invoice Reversal</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 120] InvalidIBAN</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 120] InvalidIBAN</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 121] InvalidLoyaltyCardNumber</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 121] InvalidLoyaltyCardNumber</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 122] InvalidUnitDescription</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 122] InvalidUnitDescription</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 123] TokenMaxLengthExceeded</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 123] TokenMaxLengthExceeded</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 124] RefundMethodRefused</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 124] RefundMethodRefused</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 125] UpdateInvoiceFailed</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 125] UpdateInvoiceFailed</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 13] Invoice Fraud</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 13] Invoice Fraud</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 14] Reference To Original Invoice Cannot Found</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 14] Reference To Original Invoice Cannot Found</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 15] Status Of Original Invoice Is Changed</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 15] Status Of Original Invoice Is Changed</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 16] Invoice Updated Successfully</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 16] Invoice Updated Successfully</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 17] Invoice Barcode Or Barcodes Not Found</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 17] Invoice Barcode Or Barcodes Not Found</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 18] Invalid Invoice Barcode Data</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 18] Invalid Invoice Barcode Data</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 19] Invalid Voucher Barcode Data</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 19] Invalid Voucher Barcode Data</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 2] Two</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 2] Two</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 20] No Voucher Found</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 20] No Voucher Found</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 21] Multiple Vouchers Found</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 21] Multiple Vouchers Found</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 22] Invoice Passed Is Not A Valid Sale Or Used Up</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 22] Invoice Passed Is Not A Valid Sale Or Used Up</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 23] Already Invoice Added To This Voucher</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 23] Already Invoice Added To This Voucher</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 24] Invoice Added To A Different Voucher</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 24] Invoice Added To A Different Voucher</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 25] Operator Name Is Invalid</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 25] Operator Name Is Invalid</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 26] Voucher Successfully Voided</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 26] Voucher Successfully Voided</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 27] Void Voucher</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 27] Void Voucher</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 28] Voucher Range Not found</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 28] Voucher Range Not found</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 29] Invoice Voided After Refund</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 29] Invoice Voided After Refund</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 3] No XML Document Found</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 3] No XML Document Found</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 30] Invoice Expired</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 30] Invoice Expired</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 31] Voucher And Invoice Refund Are Voided</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 31] Voucher And Invoice Refund Are Voided</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 32] Invalid Merchant</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 32] Invalid Merchant</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 33] Voucher Range Not Found</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 33] Voucher Range Not Found</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 34] Error Handler</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 34] Error Handler</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 35] Invoice Already Refunded</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 35] Invoice Already Refunded</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 36] Invoice Not Found</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 36] Invoice Not Found</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 37] The Voucher Eligible Amount is Under the Store Threshold</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 37] The Voucher Eligible Amount is Under the Store Threshold</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 38] Reference To Orignal Invoice Cannot Be Found</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 38] Reference To Orignal Invoice Cannot Be Found</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 39] Unhandled Error</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 39] Unhandled Error</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 4] Barcode Is NULL String</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 4] Barcode Is NULL String</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 40] Voucher Exported Unable To Reprint</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 40] Voucher Exported Unable To Reprint</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 41] No Refund Processed</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 41] No Refund Processed</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 42] Training Mode Set</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 42] Training Mode Set</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 43] XML Document Error</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 43] XML Document Error</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 44] Voucher Design not set</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 44] Voucher Design not set</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 45] Voucher Range Not Allocated</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 45] Voucher Range Not Allocated</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 46] Refund Method Not Allowed In Store</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 46] Refund Method Not Allowed In Store</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 47] Merchant Already Exists</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 47] Merchant Already Exists</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 48] Store Already Exists</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 48] Store Already Exists</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 49] Insert Merchant Failed</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 49] Insert Merchant Failed</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 5] Multiple Invoices Found</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 5] Multiple Invoices Found</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 50] Insert Store Failed</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 50] Insert Store Failed</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 51] Invalid Voucher Formula</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 51] Invalid Voucher Formula</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 52] An Invoice with this Invoice Number already exists for this store</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 52] An Invoice with this Invoice Number already exists for this store</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 55] Cannot Void a Refunded Voucher</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 55] Cannot Void a Refunded Voucher</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 56] Consolidation requires two or more vouchers</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 56] Consolidation requires two or more vouchers</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 57] Error Calling Web Service</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 57] Error Calling Web Service</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 58] No valid Invoice(s) - Invoices are either fully refunded or have no valid line items</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 58] No valid Invoice(s) - Invoices are either fully refunded or have no valid line items</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 6] No Invoice Found</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 6] No Invoice Found</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 60] Maximum quantity is reached</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 60] Maximum quantity is reached</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 7] Seven</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 7] Seven</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 8] Invoice Issued In Different Store</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 8] Invoice Issued In Different Store</label>
+            </value>
+            <value>
+                <fullName>PI Server  - [Error 9] Invoice Found Refered In Multiple Vouchers</fullName>
+                <default>false</default>
+                <label>PI Server  - [Error 9] Invoice Found Refered In Multiple Vouchers</label>
+            </value>
+            <value>
+                <fullName>POL user details missing</fullName>
+                <default>false</default>
+                <label>POL user details missing</label>
+            </value>
+            <value>
+                <fullName>POL - user locked</fullName>
+                <default>false</default>
+                <label>POL - user locked</label>
+            </value>
+            <value>
+                <fullName>Questions about Tax Free</fullName>
+                <default>false</default>
+                <label>Questions about Tax Free</label>
+            </value>
+            <value>
+                <fullName>Record Transfer</fullName>
+                <default>false</default>
+                <label>Record Transfer</label>
+            </value>
+            <value>
+                <fullName>Recredit</fullName>
+                <default>false</default>
+                <label>Recredit</label>
+            </value>
+            <value>
+                <fullName>Refund in Progress</fullName>
+                <default>false</default>
+                <label>Refund in Progress</label>
+            </value>
+            <value>
+                <fullName>Refund Method Update</fullName>
+                <default>false</default>
+                <label>Refund Method Update</label>
+            </value>
+            <value>
+                <fullName>Refund Not Received</fullName>
+                <default>false</default>
+                <label>Refund Not Received</label>
+            </value>
+            <value>
+                <fullName>Refund Paid – Cash</fullName>
+                <default>false</default>
+                <label>Refund Paid – Cash</label>
+            </value>
+            <value>
+                <fullName>Refund Paid – Cheque/Prepaid Card</fullName>
+                <default>false</default>
+                <label>Refund Paid – Cheque/Prepaid Card</label>
+            </value>
+            <value>
+                <fullName>Refund Paid – Non-cash</fullName>
+                <default>false</default>
+                <label>Refund Paid – Non-cash</label>
+            </value>
+            <value>
+                <fullName>Refund Point</fullName>
+                <default>false</default>
+                <label>Refund Point</label>
+            </value>
+            <value>
+                <fullName>Remove User</fullName>
+                <default>false</default>
+                <label>Remove User</label>
+            </value>
+            <value>
+                <fullName>Report/Dashboard Request</fullName>
+                <default>false</default>
+                <label>Report/Dashboard Request</label>
+            </value>
+            <value>
+                <fullName>Reporting Failure</fullName>
+                <default>false</default>
+                <label>Reporting Failure</label>
+            </value>
+            <value>
+                <fullName>Setup issue</fullName>
+                <default>false</default>
+                <label>Setup issue</label>
+            </value>
+            <value>
+                <fullName>Software issue</fullName>
+                <default>false</default>
+                <label>Software issue</label>
+            </value>
+            <value>
+                <fullName>Store Closure</fullName>
+                <default>false</default>
+                <label>Store Closure</label>
+            </value>
+            <value>
+                <fullName>Store Setup</fullName>
+                <default>false</default>
+                <label>Store Setup</label>
+            </value>
+            <value>
+                <fullName>Subscription Setup</fullName>
+                <default>false</default>
+                <label>Subscription Setup</label>
+            </value>
+            <value>
+                <fullName>Tax Free</fullName>
+                <default>false</default>
+                <label>Tax Free</label>
+            </value>
+            <value>
+                <fullName>Tax Free Form Not Issued</fullName>
+                <default>false</default>
+                <label>Tax Free Form Not Issued</label>
+            </value>
+            <value>
+                <fullName>Tax Free Procedure</fullName>
+                <default>false</default>
+                <label>Tax Free Procedure</label>
+            </value>
+            <value>
+                <fullName>TaxFree transaction Check</fullName>
+                <default>false</default>
+                <label>TaxFree transaction Check</label>
+            </value>
+            <value>
+                <fullName>Technical Issues</fullName>
+                <default>false</default>
+                <label>Technical Issues</label>
+            </value>
+            <value>
+                <fullName>Terminal Request</fullName>
+                <default>false</default>
+                <label>Terminal Request</label>
+            </value>
+            <value>
+                <fullName>Terminal Swap</fullName>
+                <default>false</default>
+                <label>Terminal Swap</label>
+            </value>
+            <value>
+                <fullName>Tourist</fullName>
+                <default>false</default>
+                <label>Tourist</label>
+            </value>
+            <value>
+                <fullName>Training</fullName>
+                <default>false</default>
+                <label>Training</label>
+            </value>
+            <value>
+                <fullName>User creation\Update</fullName>
+                <default>false</default>
+                <label>User creation\Update</label>
+            </value>
+            <value>
+                <fullName>Voiding</fullName>
+                <default>false</default>
+                <label>Voiding</label>
+            </value>
+            <value>
+                <fullName>Voucher Range Update</fullName>
+                <default>false</default>
+                <label>Voucher Range Update</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Order</controllingFieldValue>
+            <valueName>Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Questions about Tax Free</controllingFieldValue>
+            <valueName>Questions about Tax Free</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Technical Issues</controllingFieldValue>
+            <valueName>Technical Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voiding</controllingFieldValue>
+            <valueName>Voiding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>3rd Party TF activation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Additional training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Application Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Cables order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Complains</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Configuration Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Configuration Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Consumable Orders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>E-Customs error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Hardware issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Incident \ Planet Outage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Inquiry</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Installation\Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Installation Support</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Integrator issue (not Planet related)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Login\Password issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>PI Error code</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Setup issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Software issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>TaxFree transaction Check</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Terminal Swap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>User creation\Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Support Request</controllingFieldValue>
+            <valueName>Voucher Range Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queries</controllingFieldValue>
+            <valueName>Merchant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Queries</controllingFieldValue>
+            <valueName>Tourist</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stationary</controllingFieldValue>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <controllingFieldValue>Invoices</controllingFieldValue>
+            <valueName>Payments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Stationary</controllingFieldValue>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <controllingFieldValue>Invoices</controllingFieldValue>
+            <valueName>Tax Free</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Switchboard</controllingFieldValue>
+            <valueName>Phone calls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Amendment</controllingFieldValue>
+            <valueName>Change of Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Amendment</controllingFieldValue>
+            <valueName>Change of Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Amendment</controllingFieldValue>
+            <valueName>Store Closure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Amendment</controllingFieldValue>
+            <valueName>Store Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Amendment</controllingFieldValue>
+            <valueName>Terminal Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Change of Subscription Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Error with Figures</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Export Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Import Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>New Report</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Report/Dashboard Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Reporting Failure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting</controllingFieldValue>
+            <valueName>Subscription Setup</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Access</controllingFieldValue>
+            <valueName>Access Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Access</controllingFieldValue>
+            <valueName>Forgot Password</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Access</controllingFieldValue>
+            <valueName>New User Request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Access</controllingFieldValue>
+            <valueName>Remove User</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <controllingFieldValue>Amendment</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GLTTP</controllingFieldValue>
+            <valueName>GLTTP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <controllingFieldValue>Amendment</controllingFieldValue>
+            <valueName>New problem</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA ARN queries for customers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA batch-in / TMS failed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA bug found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA card reader not woring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA credit card not recognized for DCC or VAT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA customer charged twice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA error security alarm / please reboot etc</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PA Faulty Terminal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA no communication between till &amp; PDQ</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA no voucher range</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA offline auth transactions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PAOL Error 24 (Invocie already exist)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PAOL Error 39 ( specific character no accepted )</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA printer issue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA Sale transaction not authorised</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA switch to summer / winter time</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA terminal is not loading</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA terminal won&#39;t power up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA training needed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>PA VAT voucher is not printed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PII - Fatal Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 1] Invoice Already Exists</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 10] Invoice Is Not Valid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 100] Invalid Credit Card Format</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 101] Invalid Expiry Date Format</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 102] Invalid Item Description</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 103] The customer country is not eligible for taxFree</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 104] Passport Number is empty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 105] Invalid Date of birth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 106] Invalid Alipay phone number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 107] Invalid Customer Passport Number</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 108] Invalid Customer First Name</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 109] Invalid Customer Last Name</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 11] Invoice Exchanged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 110] Error Age Date Of Birth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 111] The date entered is not valid.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 112] The age of birth is not authorized</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 113] InvalidCreditCardNumber</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 114] CreditCardAuthorizationFailed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server - [Error 115] The fiscal number not provided nor generated for this store operation (115)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 115] UnAuthorizedOperation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 116] CustomerNotFound</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 117] RefundAmountNotCalculated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 118] VoucherAlreadyVoided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 119] InvalidPremierPassId</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 12] Invoice Reversal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 120] InvalidIBAN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 121] InvalidLoyaltyCardNumber</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 122] InvalidUnitDescription</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 123] TokenMaxLengthExceeded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 124] RefundMethodRefused</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 125] UpdateInvoiceFailed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 13] Invoice Fraud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 14] Reference To Original Invoice Cannot Found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 15] Status Of Original Invoice Is Changed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 16] Invoice Updated Successfully</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 17] Invoice Barcode Or Barcodes Not Found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 18] Invalid Invoice Barcode Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 19] Invalid Voucher Barcode Data</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 2] Two</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 20] No Voucher Found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 21] Multiple Vouchers Found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 22] Invoice Passed Is Not A Valid Sale Or Used Up</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 23] Already Invoice Added To This Voucher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 24] Invoice Added To A Different Voucher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 25] Operator Name Is Invalid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 26] Voucher Successfully Voided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 27] Void Voucher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 28] Voucher Range Not found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 29] Invoice Voided After Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 3] No XML Document Found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 30] Invoice Expired</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 31] Voucher And Invoice Refund Are Voided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 32] Invalid Merchant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 33] Voucher Range Not Found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 34] Error Handler</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 35] Invoice Already Refunded</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 36] Invoice Not Found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 37] The Voucher Eligible Amount is Under the Store Threshold</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 38] Reference To Orignal Invoice Cannot Be Found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 39] Unhandled Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 4] Barcode Is NULL String</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 40] Voucher Exported Unable To Reprint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 41] No Refund Processed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 42] Training Mode Set</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 43] XML Document Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 44] Voucher Design not set</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 45] Voucher Range Not Allocated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 46] Refund Method Not Allowed In Store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 47] Merchant Already Exists</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 48] Store Already Exists</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 49] Insert Merchant Failed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 5] Multiple Invoices Found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 50] Insert Store Failed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 51] Invalid Voucher Formula</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 52] An Invoice with this Invoice Number already exists for this store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 55] Cannot Void a Refunded Voucher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 56] Consolidation requires two or more vouchers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 57] Error Calling Web Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 58] No valid Invoice(s) - Invoices are either fully refunded or have no valid line items</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 6] No Invoice Found</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 60] Maximum quantity is reached</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 7] Seven</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 8] Invoice Issued In Different Store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>PI Server  - [Error 9] Invoice Found Refered In Multiple Vouchers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Problem</controllingFieldValue>
+            <valueName>POL user details missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Question</controllingFieldValue>
+            <valueName>General Question</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feature Request</controllingFieldValue>
+            <valueName>New Workflow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amendment</controllingFieldValue>
+            <valueName>Amend Workflow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amendment</controllingFieldValue>
+            <valueName>Email Template</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amendment</controllingFieldValue>
+            <valueName>Mass Update Records</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amendment</controllingFieldValue>
+            <valueName>New Field</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amendment</controllingFieldValue>
+            <valueName>New Picklist Items</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Amendment</controllingFieldValue>
+            <valueName>Record Transfer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid and Positive</controllingFieldValue>
+            <valueName>Refund in Progress</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid and Positive</controllingFieldValue>
+            <valueName>Refund Paid – Cash</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid and Positive</controllingFieldValue>
+            <valueName>Refund Paid – Cheque/Prepaid Card</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Paid and Positive</controllingFieldValue>
+            <valueName>Refund Paid – Non-cash</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher Issues</controllingFieldValue>
+            <valueName>Missing Voucher &lt;60 days</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher Issues</controllingFieldValue>
+            <valueName>Missing Voucher &gt;60 days</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher Issues</controllingFieldValue>
+            <valueName>No Customs Stamp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher Issues</controllingFieldValue>
+            <valueName>No Receipt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher Issues</controllingFieldValue>
+            <valueName>Other Voucher Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Voucher Issues</controllingFieldValue>
+            <valueName>Tax Free Form Not Issued</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payment Issues</controllingFieldValue>
+            <valueName>Cheque/Prepaid Card Cancellation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payment Issues</controllingFieldValue>
+            <valueName>Currency &amp; Exchange Rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payment Issues</controllingFieldValue>
+            <valueName>Fees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payment Issues</controllingFieldValue>
+            <valueName>Invoice Not Paid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payment Issues</controllingFieldValue>
+            <valueName>Other payment issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payment Issues</controllingFieldValue>
+            <valueName>Refund Method Update</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payment Issues</controllingFieldValue>
+            <valueName>Refund Not Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Information</controllingFieldValue>
+            <valueName>Additional Information Requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Information</controllingFieldValue>
+            <valueName>Address to Send Tax Free Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Information</controllingFieldValue>
+            <valueName>Customs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Information</controllingFieldValue>
+            <valueName>Other Tax Free Company</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Information</controllingFieldValue>
+            <valueName>Refund Point</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>General Information</controllingFieldValue>
+            <valueName>Tax Free Procedure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>Debit – No Receipt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>Debit – No Stamp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>Debit – No Voucher</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>Debit vs Recredit Amount</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Debit</controllingFieldValue>
+            <valueName>Recredit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Invoices</controllingFieldValue>
+            <valueName>Invoices</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New Partnership</controllingFieldValue>
+            <valueName>New Partnership</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

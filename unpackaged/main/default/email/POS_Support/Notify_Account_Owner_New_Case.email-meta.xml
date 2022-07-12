@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Notify Account Owner New Case</name>
+    <style>none</style>
+    <subject>New Case Created on {!NullValue(Case.Case_Account_Name__c, (Case.POS_Account__c))}</subject>
+    <textOnly>Dear {!Account.OwnerFirstName},
+
+A new POS Support case has been created on {!NullValue(Case.Case_Account_Name__c, (Case.POS_Account__c))}.
+
+Type: {!Case.Type}
+
+Case Reason: {!Case.Reason}
+
+Subject: {!Case.00N2400000IQf0F}
+
+You can see full details by clicking this link: {!Case.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

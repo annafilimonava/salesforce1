@@ -1,0 +1,31 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US">Thank you for your patience whilst we resolved your case. Please see the attachment with the proof of payment from our bank for your Tax Free form {{{Case.Tax_Free_Form__c}}}. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">If we can be of any further assistance, please do not hesitate to contact us.</span></p>
+ </body>
+</html>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DCC_Proposed_Solution__c</fullName>
+    <externalId>false</externalId>
+    <label>DCC Proposed Solution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DCC POS</fullName>
+                <default>false</default>
+                <label>DCC POS</label>
+            </value>
+            <value>
+                <fullName>Merchant Services DCC</fullName>
+                <default>false</default>
+                <label>Merchant Services DCC</label>
+            </value>
+            <value>
+                <fullName>Merchant Services Acquiring</fullName>
+                <default>false</default>
+                <label>Merchant Services Acquiring</label>
+            </value>
+            <value>
+                <fullName>DCC Incentive Platform</fullName>
+                <default>false</default>
+                <label>DCC Incentive Platform</label>
+            </value>
+            <value>
+                <fullName>DCC Portal</fullName>
+                <default>false</default>
+                <label>DCC Portal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,14 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;"> 
+  <p><img alt="PRW-eDM" src="{[devName:PRWeDM]}" style="max-width: 674.2361175537109px" title="PRW-eDM" /><br /> <br /> <span style="font-family:&quot;Barlow&quot;">Dear {{{Recipient.FirstName}}},&nbsp;<br /> <br /> Will you be attending Paris Retail Week this year?&nbsp;<br /> <br /> I'm excited to be heading back to a live event and taking part. The event marks a fresh start for retailers across Europe as they continue to welcome customers back in-store.<br /> <br /> During the pandemic, customers turned to online shopping. Now they are looking for an in-store experience that will be just as safe, effortless, and fast. We'll be showcasing our unique all-in-one <a href="https://www.planetpayment.com/en/paris-retail-week-hub/">digital payments platform</a>, offering acquiring and processing, digital wallets, VAT refunds, gateway services, currency conversion, total data, as well as sales and marketing consultancy.<br /> <br /> Planet will be exhibiting at stand G036 in the Payment Solutions area, over three days from 28th - 30th September 2021. To schedule a time for us to meet up at the event <a href="https://planetpayment.typeform.com/to/elC3eX9v">complete this form</a> or you can give me a call or reply to this email.<br /> <br /> If you've not yet registered for the event, get your <a href="https://en.parisretailweek.com/visit/Visitor-registration">free visitor badge</a> now. I look forward to seeing you at Paris Expo, Porte de Versailles.<br /> <br /> Regards,<br /> {{{Sender.Signature__c}}}</span></p> 
+  <div id="" style="left: 7.98611px; top: 15.9896px;">
+    &nbsp; 
+  </div> 
+  <div id="" style="left: 7.98611px; top: 15.9896px;">
+    &nbsp; 
+  </div> 
+ </body>
+</html>

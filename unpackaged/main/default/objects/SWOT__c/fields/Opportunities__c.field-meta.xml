@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Opportunities__c</fullName>
+    <externalId>false</externalId>
+    <label>Opportunities</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Workstream_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Agree on Regular Periodic Meetings</fullName>
+                <default>false</default>
+                <label>Agree on Regular Periodic Meetings</label>
+            </value>
+            <value>
+                <fullName>Alternative Nationality Focus (e.g. India)</fullName>
+                <default>false</default>
+                <label>Alternative Nationality Focus (e.g. India)</label>
+            </value>
+            <value>
+                <fullName>Become the Omni-Channel Provider</fullName>
+                <default>false</default>
+                <label>Become the Omni-Channel Provider</label>
+            </value>
+            <value>
+                <fullName>Build/Secure Relationship</fullName>
+                <default>false</default>
+                <label>Build/Secure Relationship</label>
+            </value>
+            <value>
+                <fullName>Close Missed Revenue Gaps</fullName>
+                <default>false</default>
+                <label>Close Missed Revenue Gaps</label>
+            </value>
+            <value>
+                <fullName>Commitment on KPIs</fullName>
+                <default>false</default>
+                <label>Commitment on KPIs</label>
+            </value>
+            <value>
+                <fullName>Compliance with EU Law</fullName>
+                <default>false</default>
+                <label>Compliance with EU Law</label>
+            </value>
+            <value>
+                <fullName>Cross Sell/Grow Revenue</fullName>
+                <default>false</default>
+                <label>Cross Sell/Grow Revenue</label>
+            </value>
+            <value>
+                <fullName>Develop a Consistent Training Plan</fullName>
+                <default>false</default>
+                <label>Develop a Consistent Training Plan</label>
+            </value>
+            <value>
+                <fullName>Develop a Tailored Training Plan Based on Store Performance</fullName>
+                <default>false</default>
+                <label>Develop a Tailored Training Plan Based on Store Performance</label>
+            </value>
+            <value>
+                <fullName>Domestic and e-comm</fullName>
+                <default>false</default>
+                <label>Domestic and e-comm</label>
+            </value>
+            <value>
+                <fullName>Engage with Client Marketing Team</fullName>
+                <default>false</default>
+                <label>Engage with Client Marketing Team</label>
+            </value>
+            <value>
+                <fullName>Enhanced Service</fullName>
+                <default>false</default>
+                <label>Enhanced Service</label>
+            </value>
+            <value>
+                <fullName>Exclusivity</fullName>
+                <default>false</default>
+                <label>Exclusivity</label>
+            </value>
+            <value>
+                <fullName>Extend Contract to Other Countries</fullName>
+                <default>false</default>
+                <label>Extend Contract to Other Countries</label>
+            </value>
+            <value>
+                <fullName>Extend Our Refund Options Offer</fullName>
+                <default>false</default>
+                <label>Extend Our Refund Options Offer</label>
+            </value>
+            <value>
+                <fullName>High International Shopper Spend</fullName>
+                <default>false</default>
+                <label>High International Shopper Spend</label>
+            </value>
+            <value>
+                <fullName>Identify Gaps to Merchant; Demonstrate How Planet Can Close These and Increase Sales Revenue</fullName>
+                <default>false</default>
+                <label>Identify Gaps to Merchant; Demonstrate How Planet Can Close These and Increase Sales Revenue</label>
+            </value>
+            <value>
+                <fullName>Improve Customer Experience</fullName>
+                <default>false</default>
+                <label>Improve Customer Experience</label>
+            </value>
+            <value>
+                <fullName>Improve Issue Rate</fullName>
+                <default>false</default>
+                <label>Improve Issue Rate</label>
+            </value>
+            <value>
+                <fullName>Improve Margins</fullName>
+                <default>false</default>
+                <label>Improve Margins</label>
+            </value>
+            <value>
+                <fullName>Improve Merchant &amp; Customer Payment Experience</fullName>
+                <default>false</default>
+                <label>Improve Merchant &amp; Customer Payment Experience</label>
+            </value>
+            <value>
+                <fullName>Improve Relationship</fullName>
+                <default>false</default>
+                <label>Improve Relationship</label>
+            </value>
+            <value>
+                <fullName>Improve Service and Relationship</fullName>
+                <default>false</default>
+                <label>Improve Service and Relationship</label>
+            </value>
+            <value>
+                <fullName>Improve Service Level</fullName>
+                <default>false</default>
+                <label>Improve Service Level</label>
+            </value>
+            <value>
+                <fullName>Increase Match Rate (or Other KPI)</fullName>
+                <default>false</default>
+                <label>Increase Match Rate (or Other KPI)</label>
+            </value>
+            <value>
+                <fullName>Increase Match Rate/Hit Rate (or Other KPI)</fullName>
+                <default>false</default>
+                <label>Increase Match Rate/Hit Rate (or Other KPI)</label>
+            </value>
+            <value>
+                <fullName>In-Fill Markets</fullName>
+                <default>false</default>
+                <label>In-Fill Markets</label>
+            </value>
+            <value>
+                <fullName>Integration with Payments</fullName>
+                <default>false</default>
+                <label>Integration with Payments</label>
+            </value>
+            <value>
+                <fullName>Introduce Additional Features</fullName>
+                <default>false</default>
+                <label>Introduce Additional Features</label>
+            </value>
+            <value>
+                <fullName>Meet New Decision Makers</fullName>
+                <default>false</default>
+                <label>Meet New Decision Makers</label>
+            </value>
+            <value>
+                <fullName>New Markets</fullName>
+                <default>false</default>
+                <label>New Markets</label>
+            </value>
+            <value>
+                <fullName>New Stores</fullName>
+                <default>false</default>
+                <label>New stores</label>
+            </value>
+            <value>
+                <fullName>Offer Ecommerce Acquiring for Chinese Wallets</fullName>
+                <default>false</default>
+                <label>Offer Ecommerce Acquiring for Chinese Wallets</label>
+            </value>
+            <value>
+                <fullName>Offer Omnipayment Package</fullName>
+                <default>false</default>
+                <label>Offer Omnipayment Package</label>
+            </value>
+            <value>
+                <fullName>Pan-EU Diagnostic Opportunity</fullName>
+                <default>false</default>
+                <label>Pan-EU Diagnostic Opportunity</label>
+            </value>
+            <value>
+                <fullName>Payment Partner Marketing (e.g. Alipay)</fullName>
+                <default>false</default>
+                <label>Payment Partner Marketing (e.g. Alipay)</label>
+            </value>
+            <value>
+                <fullName>Pilot Opportunity</fullName>
+                <default>false</default>
+                <label>Pilot Opportunity</label>
+            </value>
+            <value>
+                <fullName>Potential Sell In to  ISTP</fullName>
+                <default>false</default>
+                <label>Potential Sell In to  ISTP</label>
+            </value>
+            <value>
+                <fullName>Reduce Rebate</fullName>
+                <default>false</default>
+                <label>Reduce Rebate</label>
+            </value>
+            <value>
+                <fullName>Reporting on Items Purchased By Nationality</fullName>
+                <default>false</default>
+                <label>Reporting on Items Purchased By Nationality</label>
+            </value>
+            <value>
+                <fullName>Revenue Growth</fullName>
+                <default>false</default>
+                <label>Revenue Growth</label>
+            </value>
+            <value>
+                <fullName>Secure Relationship</fullName>
+                <default>false</default>
+                <label>Secure Relationship</label>
+            </value>
+            <value>
+                <fullName>Secure Relationship with Merchant</fullName>
+                <default>false</default>
+                <label>Secure Relationship with Merchant</label>
+            </value>
+            <value>
+                <fullName>Secure Relationship, Revenue Growth</fullName>
+                <default>false</default>
+                <label>Secure Relationship, Revenue Growth</label>
+            </value>
+            <value>
+                <fullName>Strengthen Relationship as Business Partner</fullName>
+                <default>false</default>
+                <label>Strengthen Relationship as Business Partner</label>
+            </value>
+            <value>
+                <fullName>Win Local Business</fullName>
+                <default>false</default>
+                <label>Win Local Business</label>
+            </value>
+            <value>
+                <fullName>Win Pan-EU Business</fullName>
+                <default>false</default>
+                <label>Win Pan-EU Business</label>
+            </value>
+            <value>
+                <fullName>Win the Overall Business/Revenue Growth</fullName>
+                <default>false</default>
+                <label>Win the Overall Business/Revenue Growth</label>
+            </value>
+            <value>
+                <fullName>Yearly Campaign Planning</fullName>
+                <default>false</default>
+                <label>Yearly Campaign Planning</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <valueName>Close Missed Revenue Gaps</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <valueName>Develop a Consistent Training Plan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Improve Relationship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <valueName>Increase Match Rate/Hit Rate (or Other KPI)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Potential Sell In to  ISTP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <valueName>Become the Omni-Channel Provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Improve Customer Experience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <valueName>Secure Relationship, Revenue Growth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Exclusivity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Extend Contract to Other Countries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Improve Margins</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Introduce Additional Features</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Reduce Rebate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Secure Relationship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Win the Overall Business/Revenue Growth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Agree on Regular Periodic Meetings</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Build/Secure Relationship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>In-Fill Markets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Meet New Decision Makers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>New Markets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>New Stores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>Identify Gaps to Merchant; Demonstrate How Planet Can Close These and Increase Sales Revenue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>Pan-EU Diagnostic Opportunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>Pilot Opportunity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>Strengthen Relationship as Business Partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDPR</controllingFieldValue>
+            <valueName>Compliance with EU Law</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planet Intelligence/Tableau</controllingFieldValue>
+            <valueName>Cross Sell/Grow Revenue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planet Intelligence/Tableau</controllingFieldValue>
+            <valueName>Improve Service and Relationship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Commitment on KPIs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Develop a Tailored Training Plan Based on Store Performance</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Enhanced Service</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Increase Match Rate (or Other KPI)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Reporting on Items Purchased By Nationality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Extend Our Refund Options Offer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Improve Issue Rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Improve Service Level</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Integration with Payments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Revenue Growth</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Secure Relationship with Merchant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Win Local Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Win Pan-EU Business</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Alternative Nationality Focus (e.g. India)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Domestic and e-comm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Engage with Client Marketing Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>High International Shopper Spend</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Payment Partner Marketing (e.g. Alipay)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Yearly Campaign Planning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Improve Merchant &amp; Customer Payment Experience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <valueName>Offer Omnipayment Package</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Offer Ecommerce Acquiring for Chinese Wallets</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

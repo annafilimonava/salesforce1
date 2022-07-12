@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Charges__c</fullName>
+    <externalId>false</externalId>
+    <label>Hardware Charges</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Service &amp; Support Recurring Fee Per Terminal</fullName>
+                <default>false</default>
+                <label>Service &amp; Support Recurring Fee Per Terminal</label>
+            </value>
+            <value>
+                <fullName>SIM Rental Per Terminal</fullName>
+                <default>false</default>
+                <label>SIM Rental Per Terminal</label>
+            </value>
+            <value>
+                <fullName>Terminal Managed Services Per Terminal</fullName>
+                <default>false</default>
+                <label>Terminal Managed Services Per Terminal</label>
+            </value>
+            <value>
+                <fullName>Terminal Rental Fee Per Terminal</fullName>
+                <default>false</default>
+                <label>Terminal Rental Fee Per Terminal</label>
+            </value>
+            <value>
+                <fullName>Terminal/PED Set-up fee per device</fullName>
+                <default>false</default>
+                <label>Terminal/PED Set-up fee per device</label>
+            </value>
+            <value>
+                <fullName>Set up fee per SIM</fullName>
+                <default>false</default>
+                <label>Set up fee per SIM</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

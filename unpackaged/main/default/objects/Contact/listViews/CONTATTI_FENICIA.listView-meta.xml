@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CONTATTI_FENICIA</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>italy</value>
+    </filters>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>equals</operation>
+        <value>active</value>
+    </filters>
+    <filters>
+        <field>CONTACT.LAST_NAME</field>
+        <operation>notEqual</operation>
+        <value>pec</value>
+    </filters>
+    <filters>
+        <field>Account_ID__c</field>
+        <operation>startsWith</operation>
+        <value>ITS</value>
+    </filters>
+    <filters>
+        <field>Position__c</field>
+        <operation>contains</operation>
+    </filters>
+    <filters>
+        <field>Parent_Account_On_Boarding__c</field>
+        <operation>equals</operation>
+        <value>yes</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.NAME</field>
+        <operation>equals</operation>
+        <value>,CAMICISSIMA,BUONGIORNO E TANTE BELLE COSE,NARA CAMICIE</value>
+    </filters>
+    <label>CONTATTI FENICIA</label>
+</ListView>

@@ -1,0 +1,32 @@
+</style>
+<![endif]--><!--StartFragment-->
+<p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US">Bonjour </span><span lang="EN-IE" style="font-size:11.0pt;font-family:Barlow">{{{Case.Tourist__c}}}</span><span style="font-size:11.0pt;font-family:Barlow;color:windowtext;mso-ansi-language:
+EN-US">,<o:p></o:p></span></p>
+
+<p class="MsoPlainText"><br style="mso-special-character:line-break" />
+<span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US"><!--[endif]--><o:p></o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:FR">Merci pour votre message.<o:p></o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:FR">J&#39;ai v&eacute;rifi&eacute; notre base de donn&eacute;es et, malheureusement, nous n&#39;avons toujours pas re&ccedil;u votre bordereau de d&eacute;taxe {{{Case.Tax_Free_Form__c}}}. Les formulaires <b style="mso-bidi-font-weight:normal">(fran&ccedil;ais)</b> sont accept&eacute;s 6 mois apr&egrave;s l&rsquo;achat et ils sont d&eacute;sormais expir&eacute;s et nous ne sommes plus autoris&eacute;s &agrave; les rembourser.<o:p></o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:FR">C&#39;est le gouvernement qui met en place les r&egrave;gles et les r&eacute;glementations relatives aux remboursements exempts d&#39;imp&ocirc;t et, malheureusement, nous n&#39;avons pas la permission de renverser ou de faire l&#39;impasse sur des d&eacute;cisions telles que les d&eacute;lais ou les directives de traitement.<o:p></o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:FR">Cordialement.<o:p></o:p></span></p>
+<!--EndFragment--></body>
+</html>

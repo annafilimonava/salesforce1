@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Operating_SystemR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(What_is_the_operating_system__c) = &quot;Windows&quot;, 1,
+IF(TEXT(What_is_the_operating_system__c) = &quot;Unix&quot;, 2,
+IF(TEXT(What_is_the_operating_system__c) = &quot;Linux&quot;, 2,
+IF(TEXT(What_is_the_operating_system__c) = &quot;Android&quot;, 3,
+IF(TEXT(What_is_the_operating_system__c) = &quot;iOS&quot;, 4,
+IF(TEXT(What_is_the_operating_system__c) = &quot;Own System&quot;, 5,
+IF(TEXT(What_is_the_operating_system__c) = &quot;None&quot;, 1, 0)))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Operating SystemR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BW_TEMP_Reparented__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used temporarily during Product Restructure for Account deduplication. Safe to delete.</description>
+    <externalId>false</externalId>
+    <label>BW_TEMP_Reparented</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

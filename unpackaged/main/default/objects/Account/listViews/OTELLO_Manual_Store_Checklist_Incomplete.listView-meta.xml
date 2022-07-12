@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OTELLO_Manual_Store_Checklist_Incomplete</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_ID__c</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>ACCOUNT.ADDRESS1_STREET</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.ADDRESS1_ZIP</columns>
+    <columns>CORE.USERS.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Manual_Forms__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>Computer__c</field>
+        <operation>notEqual</operation>
+        <value>Yes</value>
+    </filters>
+    <filters>
+        <field>Internet_Connection__c</field>
+        <operation>notEqual</operation>
+        <value>Yes</value>
+    </filters>
+    <filters>
+        <field>A4_Printer__c</field>
+        <operation>notEqual</operation>
+        <value>Yes</value>
+    </filters>
+    <filters>
+        <field>Browser__c</field>
+        <operation>notEqual</operation>
+        <value>Yes</value>
+    </filters>
+    <label>OTELLO Manual Store Checklist Incomplete</label>
+    <language>en_US</language>
+    <sharedTo>
+        <group>Italy_All_Users</group>
+    </sharedTo>
+</ListView>

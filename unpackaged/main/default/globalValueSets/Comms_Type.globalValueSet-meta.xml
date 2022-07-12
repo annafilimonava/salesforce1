@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>PSTN</fullName>
+        <default>false</default>
+        <label>PSTN</label>
+    </customValue>
+    <customValue>
+        <fullName>WiFi</fullName>
+        <default>false</default>
+        <label>WiFi</label>
+    </customValue>
+    <customValue>
+        <fullName>IP</fullName>
+        <default>false</default>
+        <label>IP</label>
+    </customValue>
+    <customValue>
+        <fullName>BT IP</fullName>
+        <default>false</default>
+        <label>BT IP</label>
+    </customValue>
+    <customValue>
+        <fullName>BT PSTN</fullName>
+        <default>false</default>
+        <label>BT PSTN</label>
+    </customValue>
+    <customValue>
+        <fullName>3G</fullName>
+        <default>false</default>
+        <label>3G</label>
+    </customValue>
+    <customValue>
+        <fullName>4G</fullName>
+        <default>false</default>
+        <label>4G</label>
+    </customValue>
+    <customValue>
+        <fullName>GPRS</fullName>
+        <default>false</default>
+        <label>GPRS</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Required</fullName>
+        <default>false</default>
+        <label>Not Required</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>WiFi + SIM</fullName>
+        <default>false</default>
+        <label>WiFi + SIM</label>
+    </customValue>
+    <masterLabel>Comms Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

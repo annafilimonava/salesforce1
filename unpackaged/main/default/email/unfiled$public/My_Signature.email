@@ -1,0 +1,52 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<div style=""><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><br></div><div style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" width="600" style="color: rgb(0, 0, 0); width: 6.25in;">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:46.5pt">
+  <td width="226" rowspan="2" style="width:169.5pt;padding:0in 0in 0in 0in;
+  height:46.5pt">
+  <p class="MsoNormal"><img src="https://fintrax--c.documentforce.com/servlet/servlet.ImageServer?id=0151o000004viDO&amp;oid=00D24000000ac79" border="0" align="left" alt=""><a href="https://www.planetpayment.com/"><br></a></p>
+  </td>
+  <td width="450" colspan="5" style="width:337.5pt;padding:0in 0in 0in 0in;
+  height:46.5pt">
+  <p class="MsoNormal"><span style="mso-ascii-font-family:Calibri;mso-fareast-font-family:
+  &quot;Times New Roman&quot;;mso-hansi-font-family:Calibri;mso-bidi-font-family:Calibri;
+  color:black;mso-ansi-language:EN-US;mso-no-proof:yes"><a href="https://www.planetpayment.com/"><br></a></span><font face="Lucida Sans Unicode, sans-serif"><span style="font-size: 15.3333px;">{!User.Name}</span></font><br><font color="#00b140" face="Lucida Sans Unicode, sans-serif"><span style="font-size: 15.3333px;">{!User.Title}</span></font></p>
+  </td>
+  <td width="71" rowspan="2" style="width:53.25pt;padding:0in 0in 0in 0in;
+  height:46.5pt"></td>
+ </tr>
+ <tr style="mso-yfti-irow:1;height:38.25pt">
+  <td width="200" style="width:150.0pt;padding:0in 0in 0in 0in;height:38.25pt">
+  <p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Lucida Sans Unicode&quot;,sans-serif;
+  mso-fareast-font-family:&quot;Times New Roman&quot;;color:#00B140;mso-ansi-language:
+  EN-US;mso-no-proof:yes">T&nbsp;</span><font face="Lucida Sans Unicode, sans-serif"><span style="font-size: 13.3333px;">{!User.Phone}</span></font><br>
+  <span style="font-size:10.0pt;font-family:&quot;Lucida Sans Unicode&quot;,sans-serif;
+  mso-fareast-font-family:&quot;Times New Roman&quot;;color:#00B140;mso-ansi-language:
+  EN-US;mso-no-proof:yes">M&nbsp;</span><font face="Lucida Sans Unicode, sans-serif"><span style="font-size: 13.3333px;">{!User.MobilePhone}</span></font></p>
+  </td>
+  <td style="padding:0in 0in 0in 0in;height:38.25pt">
+  <p class="MsoNormal"><img src="https://fintrax--c.documentforce.com/servlet/servlet.ImageServer?id=0151o000004vF76&amp;oid=00D24000000ac79" border="0" align="left" alt=""><br></p>
+  </td>
+  <td style="padding:0in 0in 0in 0in;height:38.25pt"></td>
+  <td style="padding:0in 0in 0in 0in;height:38.25pt"></td>
+  <td style="padding:0in 0in 0in 0in;height:38.25pt"></td>
+ </tr>
+ <tr style="mso-yfti-irow:2;height:11.25pt">
+  <td colspan="7" style="padding:0in 0in 0in 0in;height:11.25pt">
+  <p class="MsoNormal"><span style="font-size:7.5pt;font-family:&quot;Lucida Sans Unicode&quot;,sans-serif;
+  mso-fareast-font-family:&quot;Times New Roman&quot;;color:black;mso-ansi-language:EN-US;
+  mso-no-proof:yes">&nbsp;&nbsp;&nbsp;&nbsp; We have changed. Fintrax Group,
+  Premier Tax Free, GB Tax Free, Planet Payment are now Planet –</span><span style="font-size: 7pt; font-family: &quot;Lucida Sans Unicode&quot;, sans-serif;"><span style="text-decoration: none;"><a href="https://www.planetpayment.com" style="color: rgb(153, 153, 153);"> </a><a href="https://www.planetpayment.com/" style=""><font color="#c0c0c0">Click here for
+  more</font></a></span></span><font color="#c0c0c0"><o:p></o:p></font></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:3;mso-yfti-lastrow:yes;height:16.5pt">
+  <td colspan="5" style="padding:0in 0in 0in 0in;height:16.5pt">
+  <p class="MsoNormal"><span style="font-size: 7pt; font-family: &quot;Lucida Sans Unicode&quot;, sans-serif;"><font color="#c0c0c0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</font><span style="text-decoration: none;"><a href="http://www.fintrax.com/disclaimer" style=""><font color="#cccccc">Disclaimer</font></a></span></span><span style="color: rgb(204, 204, 204); font-size: 10pt; font-family: &quot;Lucida Sans Unicode&quot;, sans-serif;">•</span><span style="font-size: 7pt; font-family: &quot;Lucida Sans Unicode&quot;, sans-serif;"><span style="text-decoration: none;"><a href="http://www.fintrax.com/registered-companies" style=""><font color="#c0c0c0">Registered Companies</font></a></span></span><font color="#c0c0c0"><o:p></o:p></font></p>
+  </td>
+  <td style="padding:0in 0in 0in 0in;height:16.5pt"></td>
+ </tr>
+</tbody></table><br></div>]]></td>
+</tr>
+</table>

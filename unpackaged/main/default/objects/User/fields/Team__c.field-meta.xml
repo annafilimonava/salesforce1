@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team__c</fullName>
+    <externalId>false</externalId>
+    <label>Team</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LinkedIn Team Angela</fullName>
+                <default>false</default>
+                <label>LinkedIn Team Angela</label>
+            </value>
+            <value>
+                <fullName>LinkedIn Team Claudia</fullName>
+                <default>false</default>
+                <label>LinkedIn Team Claudia</label>
+            </value>
+            <value>
+                <fullName>LinkedIn Team Nathalie</fullName>
+                <default>false</default>
+                <label>LinkedIn Team Nathalie</label>
+            </value>
+            <value>
+                <fullName>LinkedIn Team Rebekka</fullName>
+                <default>false</default>
+                <label>LinkedIn Team Rebekka</label>
+            </value>
+            <value>
+                <fullName>LinkedIn Team Stuart</fullName>
+                <default>false</default>
+                <label>LinkedIn Team Stuart</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

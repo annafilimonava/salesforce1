@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Marketing_B2C_Income1__c</fullName>
+    <externalId>false</externalId>
+    <label>Marketing/B2C Income</label>
+    <summarizedField>Additional_Service__c.Total__c</summarizedField>
+    <summaryForeignKey>Additional_Service__c.Opportunity__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

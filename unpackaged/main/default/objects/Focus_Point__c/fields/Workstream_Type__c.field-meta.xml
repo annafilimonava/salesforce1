@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Workstream_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Workstream Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Workstream__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>Workstream_Type</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>POS Solution/IT</controllingFieldValue>
+            <valueName>POS Solutions</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Marketing</controllingFieldValue>
+            <valueName>Channel Marketing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <valueName>DCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <valueName>Acquiring</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <valueName>Chinese Wallets</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Payments</controllingFieldValue>
+            <valueName>eCommerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting and Consultancy</controllingFieldValue>
+            <valueName>Store Staff Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting and Consultancy</controllingFieldValue>
+            <valueName>ISTP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting and Consultancy</controllingFieldValue>
+            <valueName>Planet Intelligence/Tableau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Reporting and Consultancy</controllingFieldValue>
+            <valueName>HO/Store Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Strategic Business Development</controllingFieldValue>
+            <valueName>Relationship Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>Contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>GDPR</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

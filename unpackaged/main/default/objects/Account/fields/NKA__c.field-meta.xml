@@ -1,0 +1,1470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NKA__c</fullName>
+    <externalId>false</externalId>
+    <label>NKA</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>1.2.3</fullName>
+                <default>false</default>
+                <label>1.2.3</label>
+            </value>
+            <value>
+                <fullName>Abiraame Jewellers</fullName>
+                <default>false</default>
+                <label>Abiraame Jewellers</label>
+            </value>
+            <value>
+                <fullName>Acemedicals</fullName>
+                <default>false</default>
+                <label>Acemedicals</label>
+            </value>
+            <value>
+                <fullName>Acturus</fullName>
+                <default>false</default>
+                <label>Acturus</label>
+            </value>
+            <value>
+                <fullName>Adrimar</fullName>
+                <default>false</default>
+                <label>Adrimar</label>
+            </value>
+            <value>
+                <fullName>Agnes B</fullName>
+                <default>false</default>
+                <label>Agnes B</label>
+            </value>
+            <value>
+                <fullName>Åhléns</fullName>
+                <default>false</default>
+                <label>Åhléns</label>
+            </value>
+            <value>
+                <fullName>Alain Figaret</fullName>
+                <default>false</default>
+                <label>Alain Figaret</label>
+            </value>
+            <value>
+                <fullName>Al Duca D&#39;Aosta</fullName>
+                <default>false</default>
+                <label>Al Duca D&#39;Aosta</label>
+            </value>
+            <value>
+                <fullName>Alfred Dunhill</fullName>
+                <default>false</default>
+                <label>Alfred Dunhill</label>
+            </value>
+            <value>
+                <fullName>All Watches</fullName>
+                <default>false</default>
+                <label>All Watches</label>
+            </value>
+            <value>
+                <fullName>Alromaizan Gold &amp; Jewellery</fullName>
+                <default>false</default>
+                <label>Alromaizan Gold &amp; Jewellery</label>
+            </value>
+            <value>
+                <fullName>Anastasios Stephanides &amp; Son</fullName>
+                <default>false</default>
+                <label>Anastasios Stephanides &amp; Son</label>
+            </value>
+            <value>
+                <fullName>Answer</fullName>
+                <default>false</default>
+                <label>Answer</label>
+            </value>
+            <value>
+                <fullName>APC</fullName>
+                <default>false</default>
+                <label>APC</label>
+            </value>
+            <value>
+                <fullName>Apostrophe</fullName>
+                <default>false</default>
+                <label>Apostrophe</label>
+            </value>
+            <value>
+                <fullName>Appollo Sellappas</fullName>
+                <default>false</default>
+                <label>Appollo Sellappas</label>
+            </value>
+            <value>
+                <fullName>Aquascutum</fullName>
+                <default>false</default>
+                <label>Aquascutum</label>
+            </value>
+            <value>
+                <fullName>Aran Sweater Market</fullName>
+                <default>false</default>
+                <label>Aran Sweater Market</label>
+            </value>
+            <value>
+                <fullName>Arcades Ponthieu</fullName>
+                <default>false</default>
+                <label>Arcades Ponthieu</label>
+            </value>
+            <value>
+                <fullName>Arcadia</fullName>
+                <default>false</default>
+                <label>Arcadia</label>
+            </value>
+            <value>
+                <fullName>Argos</fullName>
+                <default>false</default>
+                <label>Argos</label>
+            </value>
+            <value>
+                <fullName>Arnotts</fullName>
+                <default>false</default>
+                <label>Arnotts</label>
+            </value>
+            <value>
+                <fullName>Arsenal FC</fullName>
+                <default>false</default>
+                <label>Arsenal FC</label>
+            </value>
+            <value>
+                <fullName>Art de Suisse</fullName>
+                <default>false</default>
+                <label>Art de Suisse</label>
+            </value>
+            <value>
+                <fullName>Atelier</fullName>
+                <default>false</default>
+                <label>Atelier</label>
+            </value>
+            <value>
+                <fullName>Atma</fullName>
+                <default>false</default>
+                <label>Atma</label>
+            </value>
+            <value>
+                <fullName>Auchan</fullName>
+                <default>false</default>
+                <label>Auchan</label>
+            </value>
+            <value>
+                <fullName>Aurum Holdings</fullName>
+                <default>false</default>
+                <label>Aurum Holdings</label>
+            </value>
+            <value>
+                <fullName>Austin Reed</fullName>
+                <default>false</default>
+                <label>Austin Reed</label>
+            </value>
+            <value>
+                <fullName>Avanti Fur</fullName>
+                <default>false</default>
+                <label>Avanti Fur</label>
+            </value>
+            <value>
+                <fullName>Bambini</fullName>
+                <default>false</default>
+                <label>Bambini</label>
+            </value>
+            <value>
+                <fullName>Barbour</fullName>
+                <default>false</default>
+                <label>Barbour</label>
+            </value>
+            <value>
+                <fullName>Basi</fullName>
+                <default>false</default>
+                <label>Basi</label>
+            </value>
+            <value>
+                <fullName>Best Denki</fullName>
+                <default>false</default>
+                <label>Best Denki</label>
+            </value>
+            <value>
+                <fullName>BHG</fullName>
+                <default>false</default>
+                <label>BHG</label>
+            </value>
+            <value>
+                <fullName>Biondini</fullName>
+                <default>false</default>
+                <label>Biondini</label>
+            </value>
+            <value>
+                <fullName>Boots</fullName>
+                <default>false</default>
+                <label>Boots</label>
+            </value>
+            <value>
+                <fullName>Botanicus</fullName>
+                <default>false</default>
+                <label>Botanicus</label>
+            </value>
+            <value>
+                <fullName>Brown Thomas</fullName>
+                <default>false</default>
+                <label>Brown Thomas</label>
+            </value>
+            <value>
+                <fullName>BTC Clothier</fullName>
+                <default>false</default>
+                <label>BTC Clothier</label>
+            </value>
+            <value>
+                <fullName>C &amp; A</fullName>
+                <default>false</default>
+                <label>C &amp; A</label>
+            </value>
+            <value>
+                <fullName>Canada Goose</fullName>
+                <default>false</default>
+                <label>Canada Goose</label>
+            </value>
+            <value>
+                <fullName>Carphone Warehouse</fullName>
+                <default>false</default>
+                <label>Carphone Warehouse</label>
+            </value>
+            <value>
+                <fullName>Carrera Y Carrera</fullName>
+                <default>false</default>
+                <label>Carrera Y Carrera</label>
+            </value>
+            <value>
+                <fullName>Carroll&#39;s Irish Gifts</fullName>
+                <default>false</default>
+                <label>Carroll&#39;s Irish Gifts</label>
+            </value>
+            <value>
+                <fullName>Catalogs</fullName>
+                <default>false</default>
+                <label>Catalogs</label>
+            </value>
+            <value>
+                <fullName>Ceský Národní Podnik</fullName>
+                <default>false</default>
+                <label>Ceský Národní Podnik</label>
+            </value>
+            <value>
+                <fullName>Charles &amp; Keith</fullName>
+                <default>false</default>
+                <label>Charles &amp; Keith</label>
+            </value>
+            <value>
+                <fullName>Chopard</fullName>
+                <default>false</default>
+                <label>Chopard</label>
+            </value>
+            <value>
+                <fullName>Christ</fullName>
+                <default>false</default>
+                <label>Christ</label>
+            </value>
+            <value>
+                <fullName>Cintamani</fullName>
+                <default>false</default>
+                <label>Cintamani</label>
+            </value>
+            <value>
+                <fullName>Citadium</fullName>
+                <default>false</default>
+                <label>Citadium</label>
+            </value>
+            <value>
+                <fullName>City Chain Stores</fullName>
+                <default>false</default>
+                <label>City Chain Stores</label>
+            </value>
+            <value>
+                <fullName>Coast</fullName>
+                <default>false</default>
+                <label>Coast</label>
+            </value>
+            <value>
+                <fullName>Colette</fullName>
+                <default>false</default>
+                <label>Colette</label>
+            </value>
+            <value>
+                <fullName>Concord Duty Free</fullName>
+                <default>false</default>
+                <label>Concord Duty Free</label>
+            </value>
+            <value>
+                <fullName>Coogi</fullName>
+                <default>false</default>
+                <label>Coogi</label>
+            </value>
+            <value>
+                <fullName>Craft and Woolen Markets</fullName>
+                <default>false</default>
+                <label>Craft and Woolen Markets</label>
+            </value>
+            <value>
+                <fullName>C-Retail</fullName>
+                <default>false</default>
+                <label>C-Retail</label>
+            </value>
+            <value>
+                <fullName>Crockett &amp; Jones</fullName>
+                <default>false</default>
+                <label>Crockett &amp; Jones</label>
+            </value>
+            <value>
+                <fullName>Damas Jewellery</fullName>
+                <default>false</default>
+                <label>Damas Jewellery</label>
+            </value>
+            <value>
+                <fullName>David Clulow</fullName>
+                <default>false</default>
+                <label>David Clulow</label>
+            </value>
+            <value>
+                <fullName>David M Robinson Jewellers</fullName>
+                <default>false</default>
+                <label>David M Robinson Jewellers</label>
+            </value>
+            <value>
+                <fullName>David Rosas</fullName>
+                <default>false</default>
+                <label>David Rosas</label>
+            </value>
+            <value>
+                <fullName>Diamond Sky Jewellery</fullName>
+                <default>false</default>
+                <label>Diamond Sky Jewellery</label>
+            </value>
+            <value>
+                <fullName>Diesel</fullName>
+                <default>false</default>
+                <label>Diesel</label>
+            </value>
+            <value>
+                <fullName>Distillery</fullName>
+                <default>false</default>
+                <label>Distillery</label>
+            </value>
+            <value>
+                <fullName>Dniprocat</fullName>
+                <default>false</default>
+                <label>Dniprocat</label>
+            </value>
+            <value>
+                <fullName>Dollars &amp; Scent</fullName>
+                <default>false</default>
+                <label>Dollars &amp; Scent</label>
+            </value>
+            <value>
+                <fullName>Dover Street Market</fullName>
+                <default>false</default>
+                <label>Dover Street Market</label>
+            </value>
+            <value>
+                <fullName>Drífa</fullName>
+                <default>false</default>
+                <label>Drífa</label>
+            </value>
+            <value>
+                <fullName>El Corte Ingles</fullName>
+                <default>false</default>
+                <label>El Corte Ingles</label>
+            </value>
+            <value>
+                <fullName>Elie Saab</fullName>
+                <default>false</default>
+                <label>Elie Saab</label>
+            </value>
+            <value>
+                <fullName>EpiCentre</fullName>
+                <default>false</default>
+                <label>EpiCentre</label>
+            </value>
+            <value>
+                <fullName>Erich Brodheim</fullName>
+                <default>false</default>
+                <label>Erich Brodheim</label>
+            </value>
+            <value>
+                <fullName>Ermes Department Store</fullName>
+                <default>false</default>
+                <label>Ermes Department Store</label>
+            </value>
+            <value>
+                <fullName>Essentials Pharmacy</fullName>
+                <default>false</default>
+                <label>Essentials Pharmacy</label>
+            </value>
+            <value>
+                <fullName>Etelä-Karjalan</fullName>
+                <default>false</default>
+                <label>Etelä-Karjalan</label>
+            </value>
+            <value>
+                <fullName>Evertrade</fullName>
+                <default>false</default>
+                <label>Evertrade</label>
+            </value>
+            <value>
+                <fullName>F. Ribeiro</fullName>
+                <default>false</default>
+                <label>F. Ribeiro</label>
+            </value>
+            <value>
+                <fullName>Fashion People</fullName>
+                <default>false</default>
+                <label>Fashion People</label>
+            </value>
+            <value>
+                <fullName>FC Barcelona Merchandising</fullName>
+                <default>false</default>
+                <label>FC Barcelona Merchandising</label>
+            </value>
+            <value>
+                <fullName>Feathers Fashion</fullName>
+                <default>false</default>
+                <label>Feathers Fashion</label>
+            </value>
+            <value>
+                <fullName>F J Benjamin</fullName>
+                <default>false</default>
+                <label>F J Benjamin</label>
+            </value>
+            <value>
+                <fullName>Franck Namani</fullName>
+                <default>false</default>
+                <label>Franck Namani</label>
+            </value>
+            <value>
+                <fullName>Francois Pinet</fullName>
+                <default>false</default>
+                <label>Francois Pinet</label>
+            </value>
+            <value>
+                <fullName>Freedom Sportsline</fullName>
+                <default>false</default>
+                <label>Freedom Sportsline</label>
+            </value>
+            <value>
+                <fullName>French Connection</fullName>
+                <default>false</default>
+                <label>French Connection</label>
+            </value>
+            <value>
+                <fullName>Futbol Corner</fullName>
+                <default>false</default>
+                <label>Futbol Corner</label>
+            </value>
+            <value>
+                <fullName>G2000 Apparel</fullName>
+                <default>false</default>
+                <label>G2000 Apparel</label>
+            </value>
+            <value>
+                <fullName>GALERIA Karstadt Kaufhof</fullName>
+                <default>false</default>
+                <label>GALERIA Karstadt Kaufhof</label>
+            </value>
+            <value>
+                <fullName>Galeria Lisl</fullName>
+                <default>false</default>
+                <label>Galeria Lisl</label>
+            </value>
+            <value>
+                <fullName>Gant</fullName>
+                <default>false</default>
+                <label>Gant</label>
+            </value>
+            <value>
+                <fullName>GD</fullName>
+                <default>false</default>
+                <label>GD</label>
+            </value>
+            <value>
+                <fullName>George V</fullName>
+                <default>false</default>
+                <label>George V</label>
+            </value>
+            <value>
+                <fullName>German Style Traded Shop</fullName>
+                <default>false</default>
+                <label>German Style Traded Shop</label>
+            </value>
+            <value>
+                <fullName>Geysir Shops</fullName>
+                <default>false</default>
+                <label>Geysir Shops</label>
+            </value>
+            <value>
+                <fullName>GGR</fullName>
+                <default>false</default>
+                <label>GGR</label>
+            </value>
+            <value>
+                <fullName>Gieves &amp; Hawkes</fullName>
+                <default>false</default>
+                <label>Gieves &amp; Hawkes</label>
+            </value>
+            <value>
+                <fullName>Gina Shoes</fullName>
+                <default>false</default>
+                <label>Gina Shoes</label>
+            </value>
+            <value>
+                <fullName>Global Merchandising</fullName>
+                <default>false</default>
+                <label>Global Merchandising</label>
+            </value>
+            <value>
+                <fullName>GMS Store</fullName>
+                <default>false</default>
+                <label>GMS Store</label>
+            </value>
+            <value>
+                <fullName>Gold Brothers</fullName>
+                <default>false</default>
+                <label>Gold Brothers</label>
+            </value>
+            <value>
+                <fullName>Golden Villa Jewellery</fullName>
+                <default>false</default>
+                <label>Golden Villa Jewellery</label>
+            </value>
+            <value>
+                <fullName>Gorestil</fullName>
+                <default>false</default>
+                <label>Gorestil</label>
+            </value>
+            <value>
+                <fullName>Görtz</fullName>
+                <default>false</default>
+                <label>Görtz</label>
+            </value>
+            <value>
+                <fullName>Go Sport</fullName>
+                <default>false</default>
+                <label>Go Sport</label>
+            </value>
+            <value>
+                <fullName>GPS Great Britain</fullName>
+                <default>false</default>
+                <label>GPS Great Britain</label>
+            </value>
+            <value>
+                <fullName>Grandoptical</fullName>
+                <default>false</default>
+                <label>Grandoptical</label>
+            </value>
+            <value>
+                <fullName>Gretna Green Group Ltd</fullName>
+                <default>false</default>
+                <label>Gretna Green Group Ltd</label>
+            </value>
+            <value>
+                <fullName>Gullfosskaffi</fullName>
+                <default>false</default>
+                <label>Gullfosskaffi</label>
+            </value>
+            <value>
+                <fullName>Hamleys</fullName>
+                <default>false</default>
+                <label>Hamleys</label>
+            </value>
+            <value>
+                <fullName>Handprjónasambandið</fullName>
+                <default>false</default>
+                <label>Handprjónasambandið</label>
+            </value>
+            <value>
+                <fullName>Haniffa</fullName>
+                <default>false</default>
+                <label>Haniffa</label>
+            </value>
+            <value>
+                <fullName>Harvey Nichols</fullName>
+                <default>false</default>
+                <label>Harvey Nichols</label>
+            </value>
+            <value>
+                <fullName>Heinemann</fullName>
+                <default>false</default>
+                <label>Heinemann</label>
+            </value>
+            <value>
+                <fullName>Horstmann &amp; Sander</fullName>
+                <default>false</default>
+                <label>Horstmann &amp; Sander</label>
+            </value>
+            <value>
+                <fullName>Hoss Intropia</fullName>
+                <default>false</default>
+                <label>Hoss Intropia</label>
+            </value>
+            <value>
+                <fullName>Housemarket</fullName>
+                <default>false</default>
+                <label>Housemarket</label>
+            </value>
+            <value>
+                <fullName>House of Fraser</fullName>
+                <default>false</default>
+                <label>House of Fraser</label>
+            </value>
+            <value>
+                <fullName>House of Hanover</fullName>
+                <default>false</default>
+                <label>House of Hanover</label>
+            </value>
+            <value>
+                <fullName>Indian Jewellers</fullName>
+                <default>false</default>
+                <label>Indian Jewellers</label>
+            </value>
+            <value>
+                <fullName>Infinity E-Solutions</fullName>
+                <default>false</default>
+                <label>Infinity E-Solutions</label>
+            </value>
+            <value>
+                <fullName>IRO</fullName>
+                <default>false</default>
+                <label>IRO</label>
+            </value>
+            <value>
+                <fullName>Isabel Marant</fullName>
+                <default>false</default>
+                <label>Isabel Marant</label>
+            </value>
+            <value>
+                <fullName>Issey Miyake</fullName>
+                <default>false</default>
+                <label>Issey Miyake</label>
+            </value>
+            <value>
+                <fullName>J. Crew</fullName>
+                <default>false</default>
+                <label>J. Crew</label>
+            </value>
+            <value>
+                <fullName>Jack Wills</fullName>
+                <default>false</default>
+                <label>Jack Wills</label>
+            </value>
+            <value>
+                <fullName>J Barbour &amp; Sons</fullName>
+                <default>false</default>
+                <label>J Barbour &amp; Sons</label>
+            </value>
+            <value>
+                <fullName>Jigsaw</fullName>
+                <default>false</default>
+                <label>Jigsaw</label>
+            </value>
+            <value>
+                <fullName>Jo Malone</fullName>
+                <default>false</default>
+                <label>Jo Malone</label>
+            </value>
+            <value>
+                <fullName>Joyalukkas Jewellery</fullName>
+                <default>false</default>
+                <label>Joyalukkas Jewellery</label>
+            </value>
+            <value>
+                <fullName>JS Lifestyle</fullName>
+                <default>false</default>
+                <label>JS Lifestyle</label>
+            </value>
+            <value>
+                <fullName>Juicy Couture</fullName>
+                <default>false</default>
+                <label>Juicy Couture</label>
+            </value>
+            <value>
+                <fullName>Juwelier Rüschenbeck KG</fullName>
+                <default>false</default>
+                <label>Juwelier Rüschenbeck KG</label>
+            </value>
+            <value>
+                <fullName>Kalyan Jewellers</fullName>
+                <default>false</default>
+                <label>Kalyan Jewellers</label>
+            </value>
+            <value>
+                <fullName>Kamala Jewellers</fullName>
+                <default>false</default>
+                <label>Kamala Jewellers</label>
+            </value>
+            <value>
+                <fullName>Kanz Jewellery</fullName>
+                <default>false</default>
+                <label>Kanz Jewellery</label>
+            </value>
+            <value>
+                <fullName>KBM Invest</fullName>
+                <default>false</default>
+                <label>KBM Invest</label>
+            </value>
+            <value>
+                <fullName>Kiko</fullName>
+                <default>false</default>
+                <label>Kiko</label>
+            </value>
+            <value>
+                <fullName>Kildare Village</fullName>
+                <default>false</default>
+                <label>Kildare Village</label>
+            </value>
+            <value>
+                <fullName>Kiltane Retail</fullName>
+                <default>false</default>
+                <label>Kiltane Retail</label>
+            </value>
+            <value>
+                <fullName>Kind Of Blue</fullName>
+                <default>false</default>
+                <label>Kind Of Blue</label>
+            </value>
+            <value>
+                <fullName>Kurt Geiger</fullName>
+                <default>false</default>
+                <label>Kurt Geiger</label>
+            </value>
+            <value>
+                <fullName>Kwang Sia International</fullName>
+                <default>false</default>
+                <label>Kwang Sia International</label>
+            </value>
+            <value>
+                <fullName>L&#39;Eclaireur</fullName>
+                <default>false</default>
+                <label>L&#39;Eclaireur</label>
+            </value>
+            <value>
+                <fullName>L&#39;Espionne</fullName>
+                <default>false</default>
+                <label>L&#39;Espionne</label>
+            </value>
+            <value>
+                <fullName>La Bagagerie</fullName>
+                <default>false</default>
+                <label>La Bagagerie</label>
+            </value>
+            <value>
+                <fullName>Laing The Jeweller</fullName>
+                <default>false</default>
+                <label>Laing The Jeweller</label>
+            </value>
+            <value>
+                <fullName>Lalique</fullName>
+                <default>false</default>
+                <label>Lalique</label>
+            </value>
+            <value>
+                <fullName>Lancel</fullName>
+                <default>false</default>
+                <label>Lancel</label>
+            </value>
+            <value>
+                <fullName>La Perla</fullName>
+                <default>false</default>
+                <label>La Perla</label>
+            </value>
+            <value>
+                <fullName>Le Bon Marche</fullName>
+                <default>false</default>
+                <label>Le Bon Marche</label>
+            </value>
+            <value>
+                <fullName>Leiser</fullName>
+                <default>false</default>
+                <label>Leiser</label>
+            </value>
+            <value>
+                <fullName>Leroy Merlin</fullName>
+                <default>false</default>
+                <label>Leroy Merlin</label>
+            </value>
+            <value>
+                <fullName>Les Terrasses du Port</fullName>
+                <default>false</default>
+                <label>Les Terrasses du Port</label>
+            </value>
+            <value>
+                <fullName>Lidl</fullName>
+                <default>false</default>
+                <label>Lidl</label>
+            </value>
+            <value>
+                <fullName>Linea Piu</fullName>
+                <default>false</default>
+                <label>Linea Piu</label>
+            </value>
+            <value>
+                <fullName>Links of London</fullName>
+                <default>false</default>
+                <label>Links of London</label>
+            </value>
+            <value>
+                <fullName>L K Bennett</fullName>
+                <default>false</default>
+                <label>L K Bennett</label>
+            </value>
+            <value>
+                <fullName>Lodenfrey</fullName>
+                <default>false</default>
+                <label>Lodenfrey</label>
+            </value>
+            <value>
+                <fullName>Louis Pion</fullName>
+                <default>false</default>
+                <label>Louis Pion</label>
+            </value>
+            <value>
+                <fullName>Louis Vuitton</fullName>
+                <default>false</default>
+                <label>Louis Vuitton</label>
+            </value>
+            <value>
+                <fullName>Love That Bag</fullName>
+                <default>false</default>
+                <label>Love That Bag</label>
+            </value>
+            <value>
+                <fullName>LPS</fullName>
+                <default>false</default>
+                <label>LPS</label>
+            </value>
+            <value>
+                <fullName>Lulu Lemon</fullName>
+                <default>false</default>
+                <label>Lulu Lemon</label>
+            </value>
+            <value>
+                <fullName>Lush</fullName>
+                <default>false</default>
+                <label>Lush</label>
+            </value>
+            <value>
+                <fullName>Luxury Brand Management</fullName>
+                <default>false</default>
+                <label>Luxury Brand Management</label>
+            </value>
+            <value>
+                <fullName>M&amp;M&#39;s World</fullName>
+                <default>false</default>
+                <label>M&amp;M&#39;s World</label>
+            </value>
+            <value>
+                <fullName>Magasin</fullName>
+                <default>false</default>
+                <label>Magasin</label>
+            </value>
+            <value>
+                <fullName>Malabar Gold &amp; Diamonds</fullName>
+                <default>false</default>
+                <label>Malabar Gold &amp; Diamonds</label>
+            </value>
+            <value>
+                <fullName>Marks &amp; Spencer</fullName>
+                <default>false</default>
+                <label>Marks &amp; Spencer</label>
+            </value>
+            <value>
+                <fullName>Matalan</fullName>
+                <default>false</default>
+                <label>Matalan</label>
+            </value>
+            <value>
+                <fullName>Matches Fashion</fullName>
+                <default>false</default>
+                <label>Matches Fashion</label>
+            </value>
+            <value>
+                <fullName>MCM</fullName>
+                <default>false</default>
+                <label>MCM</label>
+            </value>
+            <value>
+                <fullName>McMarket</fullName>
+                <default>false</default>
+                <label>McMarket</label>
+            </value>
+            <value>
+                <fullName>MD Lafayette</fullName>
+                <default>false</default>
+                <label>MD Lafayette</label>
+            </value>
+            <value>
+                <fullName>Meena Jewellers</fullName>
+                <default>false</default>
+                <label>Meena Jewellers</label>
+            </value>
+            <value>
+                <fullName>Melekkis &amp; Sons</fullName>
+                <default>false</default>
+                <label>Melekkis &amp; Sons</label>
+            </value>
+            <value>
+                <fullName>Messika</fullName>
+                <default>false</default>
+                <label>Messika</label>
+            </value>
+            <value>
+                <fullName>Miles &amp; More</fullName>
+                <default>false</default>
+                <label>Miles &amp; More</label>
+            </value>
+            <value>
+                <fullName>Millenia</fullName>
+                <default>false</default>
+                <label>Millenia</label>
+            </value>
+            <value>
+                <fullName>Minelli</fullName>
+                <default>false</default>
+                <label>Minelli</label>
+            </value>
+            <value>
+                <fullName>Minora Jewels</fullName>
+                <default>false</default>
+                <label>Minora Jewels</label>
+            </value>
+            <value>
+                <fullName>Montaigne Market</fullName>
+                <default>false</default>
+                <label>Montaigne Market</label>
+            </value>
+            <value>
+                <fullName>Montanari Group</fullName>
+                <default>false</default>
+                <label>Montanari Group</label>
+            </value>
+            <value>
+                <fullName>Moynat</fullName>
+                <default>false</default>
+                <label>Moynat</label>
+            </value>
+            <value>
+                <fullName>Muskita Hotel</fullName>
+                <default>false</default>
+                <label>Muskita Hotel</label>
+            </value>
+            <value>
+                <fullName>N. Peal</fullName>
+                <default>false</default>
+                <label>N. Peal</label>
+            </value>
+            <value>
+                <fullName>New Ben</fullName>
+                <default>false</default>
+                <label>New Ben</label>
+            </value>
+            <value>
+                <fullName>Nina Ricci</fullName>
+                <default>false</default>
+                <label>Nina Ricci</label>
+            </value>
+            <value>
+                <fullName>Norsund</fullName>
+                <default>false</default>
+                <label>Norsund</label>
+            </value>
+            <value>
+                <fullName>Notos</fullName>
+                <default>false</default>
+                <label>Notos</label>
+            </value>
+            <value>
+                <fullName>Office</fullName>
+                <default>false</default>
+                <label>Office</label>
+            </value>
+            <value>
+                <fullName>OG Private Limited</fullName>
+                <default>false</default>
+                <label>OG Private Limited</label>
+            </value>
+            <value>
+                <fullName>ONI Global</fullName>
+                <default>false</default>
+                <label>ONI Global</label>
+            </value>
+            <value>
+                <fullName>Panayiotis Panagides</fullName>
+                <default>false</default>
+                <label>Panayiotis Panagides</label>
+            </value>
+            <value>
+                <fullName>Paolo Moretti</fullName>
+                <default>false</default>
+                <label>Paolo Moretti</label>
+            </value>
+            <value>
+                <fullName>Parisi</fullName>
+                <default>false</default>
+                <label>Parisi</label>
+            </value>
+            <value>
+                <fullName>Paris Look</fullName>
+                <default>false</default>
+                <label>Paris Look</label>
+            </value>
+            <value>
+                <fullName>Parkway Cancer Centre</fullName>
+                <default>false</default>
+                <label>Parkway Cancer Centre</label>
+            </value>
+            <value>
+                <fullName>Pawa Brothers Trading</fullName>
+                <default>false</default>
+                <label>Pawa Brothers Trading</label>
+            </value>
+            <value>
+                <fullName>Pedro Group</fullName>
+                <default>false</default>
+                <label>Pedro Group</label>
+            </value>
+            <value>
+                <fullName>Penhaligon&#39;s</fullName>
+                <default>false</default>
+                <label>Penhaligon&#39;s</label>
+            </value>
+            <value>
+                <fullName>Pharmacie Anglaise</fullName>
+                <default>false</default>
+                <label>Pharmacie Anglaise</label>
+            </value>
+            <value>
+                <fullName>Pharmacie Monge</fullName>
+                <default>false</default>
+                <label>Pharmacie Monge</label>
+            </value>
+            <value>
+                <fullName>Pilma Disseny</fullName>
+                <default>false</default>
+                <label>Pilma Disseny</label>
+            </value>
+            <value>
+                <fullName>Poh Heng Jewellery</fullName>
+                <default>false</default>
+                <label>Poh Heng Jewellery</label>
+            </value>
+            <value>
+                <fullName>Polaris Network</fullName>
+                <default>false</default>
+                <label>Polaris Network</label>
+            </value>
+            <value>
+                <fullName>Porsche Design</fullName>
+                <default>false</default>
+                <label>Porsche Design</label>
+            </value>
+            <value>
+                <fullName>Pragmatrade</fullName>
+                <default>false</default>
+                <label>Pragmatrade</label>
+            </value>
+            <value>
+                <fullName>Printemps</fullName>
+                <default>false</default>
+                <label>Printemps</label>
+            </value>
+            <value>
+                <fullName>Punto Fa</fullName>
+                <default>false</default>
+                <label>Punto Fa</label>
+            </value>
+            <value>
+                <fullName>Punt Roma</fullName>
+                <default>false</default>
+                <label>Punt Roma</label>
+            </value>
+            <value>
+                <fullName>Quills</fullName>
+                <default>false</default>
+                <label>Quills</label>
+            </value>
+            <value>
+                <fullName>Rabat</fullName>
+                <default>false</default>
+                <label>Rabat</label>
+            </value>
+            <value>
+                <fullName>Radley &amp; Co</fullName>
+                <default>false</default>
+                <label>Radley &amp; Co</label>
+            </value>
+            <value>
+                <fullName>Reiss</fullName>
+                <default>false</default>
+                <label>Reiss</label>
+            </value>
+            <value>
+                <fullName>Renaissance</fullName>
+                <default>false</default>
+                <label>Renaissance</label>
+            </value>
+            <value>
+                <fullName>Rene Caovilla</fullName>
+                <default>false</default>
+                <label>Rene Caovilla</label>
+            </value>
+            <value>
+                <fullName>Repetto Groupe</fullName>
+                <default>false</default>
+                <label>Repetto Groupe</label>
+            </value>
+            <value>
+                <fullName>Resorts World at Sentosa</fullName>
+                <default>false</default>
+                <label>Resorts World at Sentosa</label>
+            </value>
+            <value>
+                <fullName>Rimowa</fullName>
+                <default>false</default>
+                <label>Rimowa</label>
+            </value>
+            <value>
+                <fullName>Rivoli</fullName>
+                <default>false</default>
+                <label>Rivoli</label>
+            </value>
+            <value>
+                <fullName>Rob Engström</fullName>
+                <default>false</default>
+                <label>Rob Engström</label>
+            </value>
+            <value>
+                <fullName>Romy Deluxe</fullName>
+                <default>false</default>
+                <label>Romy Deluxe</label>
+            </value>
+            <value>
+                <fullName>Royal Collection</fullName>
+                <default>false</default>
+                <label>Royal Collection</label>
+            </value>
+            <value>
+                <fullName>Rudolf Woehrl</fullName>
+                <default>false</default>
+                <label>Rudolf Woehrl</label>
+            </value>
+            <value>
+                <fullName>SAS Merci</fullName>
+                <default>false</default>
+                <label>SAS Merci</label>
+            </value>
+            <value>
+                <fullName>SCI Aeroville</fullName>
+                <default>false</default>
+                <label>SCI Aeroville</label>
+            </value>
+            <value>
+                <fullName>Scottish Experience</fullName>
+                <default>false</default>
+                <label>Scottish Experience</label>
+            </value>
+            <value>
+                <fullName>Scottish Souvenir Shop</fullName>
+                <default>false</default>
+                <label>Scottish Souvenir Shop</label>
+            </value>
+            <value>
+                <fullName>Selvasegara Jewellers</fullName>
+                <default>false</default>
+                <label>Selvasegara Jewellers</label>
+            </value>
+            <value>
+                <fullName>Semper Jewellery</fullName>
+                <default>false</default>
+                <label>Semper Jewellery</label>
+            </value>
+            <value>
+                <fullName>Signet</fullName>
+                <default>false</default>
+                <label>Signet</label>
+            </value>
+            <value>
+                <fullName>Signoria</fullName>
+                <default>false</default>
+                <label>Signoria</label>
+            </value>
+            <value>
+                <fullName>Skechers</fullName>
+                <default>false</default>
+                <label>Skechers</label>
+            </value>
+            <value>
+                <fullName>SK Jewellery</fullName>
+                <default>false</default>
+                <label>SK Jewellery</label>
+            </value>
+            <value>
+                <fullName>Sky Jewellery</fullName>
+                <default>false</default>
+                <label>Sky Jewellery</label>
+            </value>
+            <value>
+                <fullName>Sony Electronics</fullName>
+                <default>false</default>
+                <label>Sony Electronics</label>
+            </value>
+            <value>
+                <fullName>Soo Kee Jewellery</fullName>
+                <default>false</default>
+                <label>Soo Kee Jewellery</label>
+            </value>
+            <value>
+                <fullName>Space NK</fullName>
+                <default>false</default>
+                <label>Space NK</label>
+            </value>
+            <value>
+                <fullName>Spectacle Hut</fullName>
+                <default>false</default>
+                <label>Spectacle Hut</label>
+            </value>
+            <value>
+                <fullName>Sports Fashion</fullName>
+                <default>false</default>
+                <label>Sports Fashion</label>
+            </value>
+            <value>
+                <fullName>Staff International</fullName>
+                <default>false</default>
+                <label>Staff International</label>
+            </value>
+            <value>
+                <fullName>St Andrews Links</fullName>
+                <default>false</default>
+                <label>St Andrews Links</label>
+            </value>
+            <value>
+                <fullName>Stetj Passy</fullName>
+                <default>false</default>
+                <label>Stetj Passy</label>
+            </value>
+            <value>
+                <fullName>Stockmann</fullName>
+                <default>false</default>
+                <label>Stockmann</label>
+            </value>
+            <value>
+                <fullName>Sun Fashion Factory</fullName>
+                <default>false</default>
+                <label>Sun Fashion Factory</label>
+            </value>
+            <value>
+                <fullName>Sunglass Hut</fullName>
+                <default>false</default>
+                <label>Sunglass Hut</label>
+            </value>
+            <value>
+                <fullName>SUTL Sports</fullName>
+                <default>false</default>
+                <label>SUTL Sports</label>
+            </value>
+            <value>
+                <fullName>Taka Jewellery</fullName>
+                <default>false</default>
+                <label>Taka Jewellery</label>
+            </value>
+            <value>
+                <fullName>Tempus</fullName>
+                <default>false</default>
+                <label>Tempus</label>
+            </value>
+            <value>
+                <fullName>Tessilform</fullName>
+                <default>false</default>
+                <label>Tessilform</label>
+            </value>
+            <value>
+                <fullName>The Company Cosmetic Store</fullName>
+                <default>false</default>
+                <label>The Company Cosmetic Store</label>
+            </value>
+            <value>
+                <fullName>The Edinburgh Woollen Mill</fullName>
+                <default>false</default>
+                <label>The Edinburgh Woollen Mill</label>
+            </value>
+            <value>
+                <fullName>The Highlands</fullName>
+                <default>false</default>
+                <label>The Highlands</label>
+            </value>
+            <value>
+                <fullName>Theresa</fullName>
+                <default>false</default>
+                <label>Theresa</label>
+            </value>
+            <value>
+                <fullName>The Sweater Shop</fullName>
+                <default>false</default>
+                <label>The Sweater Shop</label>
+            </value>
+            <value>
+                <fullName>The Watch Gallery</fullName>
+                <default>false</default>
+                <label>The Watch Gallery</label>
+            </value>
+            <value>
+                <fullName>The White Company</fullName>
+                <default>false</default>
+                <label>The White Company</label>
+            </value>
+            <value>
+                <fullName>TLG Brands</fullName>
+                <default>false</default>
+                <label>TLG Brands</label>
+            </value>
+            <value>
+                <fullName>TL Group</fullName>
+                <default>false</default>
+                <label>TL Group</label>
+            </value>
+            <value>
+                <fullName>TL Trade u Travel</fullName>
+                <default>false</default>
+                <label>TL Trade u Travel</label>
+            </value>
+            <value>
+                <fullName>Tomas Colomer</fullName>
+                <default>false</default>
+                <label>Tomas Colomer</label>
+            </value>
+            <value>
+                <fullName>Tomáš Lochman</fullName>
+                <default>false</default>
+                <label>Tomáš Lochman</label>
+            </value>
+            <value>
+                <fullName>Tom Ford</fullName>
+                <default>false</default>
+                <label>Tom Ford</label>
+            </value>
+            <value>
+                <fullName>True Religion</fullName>
+                <default>false</default>
+                <label>True Religion</label>
+            </value>
+            <value>
+                <fullName>Unibail Rodamco</fullName>
+                <default>false</default>
+                <label>Unibail Rodamco</label>
+            </value>
+            <value>
+                <fullName>Urmaker Bjerke</fullName>
+                <default>false</default>
+                <label>Urmaker Bjerke</label>
+            </value>
+            <value>
+                <fullName>Vaalimaan Kauppakartano</fullName>
+                <default>false</default>
+                <label>Vaalimaan Kauppakartano</label>
+            </value>
+            <value>
+                <fullName>Valextra</fullName>
+                <default>false</default>
+                <label>Valextra</label>
+            </value>
+            <value>
+                <fullName>Valiram</fullName>
+                <default>false</default>
+                <label>Valiram</label>
+            </value>
+            <value>
+                <fullName>VDV</fullName>
+                <default>false</default>
+                <label>VDV</label>
+            </value>
+            <value>
+                <fullName>Vertu</fullName>
+                <default>false</default>
+                <label>Vertu</label>
+            </value>
+            <value>
+                <fullName>VGO Corporation</fullName>
+                <default>false</default>
+                <label>VGO Corporation</label>
+            </value>
+            <value>
+                <fullName>Vier Jahreszeiten Mode</fullName>
+                <default>false</default>
+                <label>Vier Jahreszeiten Mode</label>
+            </value>
+            <value>
+                <fullName>Vipro</fullName>
+                <default>false</default>
+                <label>Vipro</label>
+            </value>
+            <value>
+                <fullName>Vision Express</fullName>
+                <default>false</default>
+                <label>Vision Express</label>
+            </value>
+            <value>
+                <fullName>VSI</fullName>
+                <default>false</default>
+                <label>VSI</label>
+            </value>
+            <value>
+                <fullName>Warner&#39;s UK</fullName>
+                <default>false</default>
+                <label>Warner&#39;s UK</label>
+            </value>
+            <value>
+                <fullName>Weir &amp; Sons</fullName>
+                <default>false</default>
+                <label>Weir &amp; Sons</label>
+            </value>
+            <value>
+                <fullName>Welcome Trading</fullName>
+                <default>false</default>
+                <label>Welcome Trading</label>
+            </value>
+            <value>
+                <fullName>Wing Tai Clothing</fullName>
+                <default>false</default>
+                <label>Wing Tai Clothing</label>
+            </value>
+            <value>
+                <fullName>Woollen Mill</fullName>
+                <default>false</default>
+                <label>Woollen Mill</label>
+            </value>
+            <value>
+                <fullName>XXXLutz</fullName>
+                <default>false</default>
+                <label>XXXLutz</label>
+            </value>
+            <value>
+                <fullName>Yue Hwa Chinese Products</fullName>
+                <default>false</default>
+                <label>Yue Hwa Chinese Products</label>
+            </value>
+            <value>
+                <fullName>Z. Francois 1er</fullName>
+                <default>false</default>
+                <label>Z. Francois 1er</label>
+            </value>
+            <value>
+                <fullName>Z Capri</fullName>
+                <default>false</default>
+                <label>Z Capri</label>
+            </value>
+            <value>
+                <fullName>Μαιανδρος</fullName>
+                <default>false</default>
+                <label>Μαιανδρος</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

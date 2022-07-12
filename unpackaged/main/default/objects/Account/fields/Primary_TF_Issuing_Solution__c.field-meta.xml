@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Primary_TF_Issuing_Solution__c</fullName>
+    <externalId>false</externalId>
+    <label>Primary TF Issuing Solution</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Owning_Country__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>iPad Solution</fullName>
+                <default>false</default>
+                <label>iPad Solution</label>
+            </value>
+            <value>
+                <fullName>JCC Integration</fullName>
+                <default>false</default>
+                <label>JCC Integration</label>
+            </value>
+            <value>
+                <fullName>Not Supported</fullName>
+                <default>false</default>
+                <label>Not Supported</label>
+            </value>
+            <value>
+                <fullName>Own Offline Solution</fullName>
+                <default>false</default>
+                <label>Own Offline Solution</label>
+            </value>
+            <value>
+                <fullName>PII Plus</fullName>
+                <default>false</default>
+                <label>PII Plus</label>
+            </value>
+            <value>
+                <fullName>PA</fullName>
+                <default>false</default>
+                <label>PA</label>
+            </value>
+            <value>
+                <fullName>PA Offline</fullName>
+                <default>false</default>
+                <label>PA Offline</label>
+            </value>
+            <value>
+                <fullName>PA Web Services</fullName>
+                <default>false</default>
+                <label>PA Web Services</label>
+            </value>
+            <value>
+                <fullName>PA (TOPOS)</fullName>
+                <default>false</default>
+                <label>PA (TOPOS)</label>
+            </value>
+            <value>
+                <fullName>PAOL</fullName>
+                <default>false</default>
+                <label>PAOL</label>
+            </value>
+            <value>
+                <fullName>PC</fullName>
+                <default>false</default>
+                <label>PC</label>
+            </value>
+            <value>
+                <fullName>PC Web Services</fullName>
+                <default>false</default>
+                <label>PC Web Services</label>
+            </value>
+            <value>
+                <fullName>PC (TOPOS)</fullName>
+                <default>false</default>
+                <label>PC (TOPOS)</label>
+            </value>
+            <value>
+                <fullName>PD</fullName>
+                <default>false</default>
+                <label>PD</label>
+            </value>
+            <value>
+                <fullName>PD (TOPOS)</fullName>
+                <default>false</default>
+                <label>PD (TOPOS)</label>
+            </value>
+            <value>
+                <fullName>PI</fullName>
+                <default>false</default>
+                <label>PI</label>
+            </value>
+            <value>
+                <fullName>PI (TOPOS)</fullName>
+                <default>false</default>
+                <label>PI (TOPOS)</label>
+            </value>
+            <value>
+                <fullName>PII</fullName>
+                <default>false</default>
+                <label>PII</label>
+            </value>
+            <value>
+                <fullName>PII (TOPOS)</fullName>
+                <default>false</default>
+                <label>PII (TOPOS)</label>
+            </value>
+            <value>
+                <fullName>Kiosk</fullName>
+                <default>false</default>
+                <label>Kiosk</label>
+            </value>
+            <value>
+                <fullName>Premier Mobile</fullName>
+                <default>false</default>
+                <label>Premier Mobile</label>
+            </value>
+            <value>
+                <fullName>POL</fullName>
+                <default>false</default>
+                <label>POL</label>
+            </value>
+            <value>
+                <fullName>POL (TOPOS)</fullName>
+                <default>false</default>
+                <label>POL (TOPOS)</label>
+            </value>
+            <value>
+                <fullName>POL Pro</fullName>
+                <default>false</default>
+                <label>POL Pro</label>
+            </value>
+            <value>
+                <fullName>PT</fullName>
+                <default>false</default>
+                <label>PT</label>
+            </value>
+            <value>
+                <fullName>PT PAX</fullName>
+                <default>false</default>
+                <label>PT PAX</label>
+            </value>
+            <value>
+                <fullName>Manual Forms</fullName>
+                <default>false</default>
+                <label>Manual Forms</label>
+            </value>
+            <value>
+                <fullName>Auto Print</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Auto Print</label>
+            </value>
+            <value>
+                <fullName>Card Recognition Technology</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Card Recognition Technology</label>
+            </value>
+            <value>
+                <fullName>DCC Upgrade</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DCC Upgrade</label>
+            </value>
+            <value>
+                <fullName>Fast Refund</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fast Refund</label>
+            </value>
+            <value>
+                <fullName>Online Terminal</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Online Terminal</label>
+            </value>
+            <value>
+                <fullName>Premier Manual</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Premier Manual</label>
+            </value>
+            <value>
+                <fullName>iGrips</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>iGrips</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>iPad Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>JCC Integration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>Not Supported</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>Own Offline Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>PII Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>PA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>PA Offline</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>PA (TOPOS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>PC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>PC (TOPOS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>PD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>PD (TOPOS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>PI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>PI (TOPOS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>PII</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>PII (TOPOS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Kiosk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>Premier Mobile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>POL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <valueName>POL (TOPOS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>PT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>PT PAX</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>PAOL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>POL Pro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Manual Forms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>PA Web Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>PC Web Services</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

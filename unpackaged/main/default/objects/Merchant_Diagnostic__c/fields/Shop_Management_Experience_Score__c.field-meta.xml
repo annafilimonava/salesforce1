@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shop_Management_Experience_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>Staff_Confident_Offering_Tax_FreeR__c + Training_Inline_With_TurnoverR__c + Training_for_New_HiresR__c + Rebate_Part_of_ProfitabilityR__c + Ease_of_UseR__c + ReliabilityR__c + Quick_to_Respond_to_QueriesR__c + How_Quickly_Was_the_Issue_ResolvedR__c + Any_Stages_That_Disrupt_POS_ProcessR__c + Staff_Cultural_Sales_TrainingR__c + Do_You_Use_This_InformationR__c + Planet_Intelligence_BeneficialR__c + Delivered_on_CommitmentR__c + Tax_Free_POS_ProcessR__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Shop Management Experience Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

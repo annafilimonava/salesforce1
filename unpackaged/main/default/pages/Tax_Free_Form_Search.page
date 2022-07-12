@@ -1,0 +1,675 @@
+<apex:page standardStylesheets="false" standardController="Tax_Free_Form__c" extensions="Tax_Free_Form_Search_Ctrl"  showHeader="true" sidebar="false" id="PageId">
+    <apex:slds />
+    <link href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css" rel="stylesheet"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+    <apex:includeScript value="/support/console/40.0/integration.js"/>
+    <style>
+        html {
+            font-family: "Salesforce Sans", Arial, sans-serif !important;
+            font-size: 100% !important;
+            line-height: 1.5 !important;
+            background: #fff !important;
+            color: #16325c !important;
+            -webkit-tap-highlight-color: transparent !important;
+        }
+        
+        .slds-container--fluid {
+            width: 95%;
+            margin: auto;
+        }
+        
+        .slds-table thead th div.slds-truncate,
+        .slds-table tbody td div.slds-truncate {
+            width: 100px;
+        }
+        
+        .slds-table thead th {
+            font-size: 11px;
+        }
+        
+        .slds-table tbody th,
+        .slds-table tbody td {
+            font-size: 11px;
+        }
+        
+        .slds-modal__content {
+            border-top-right-radius: .25rem;
+            border-top-left-radius: .25rem;
+        }
+        
+        .slds-container--large,
+        .slds-container--medium {
+            margin: auto;
+        }
+        
+        .slds-add-button {
+            min-width:13em;
+            max-width:13em;
+        }
+        
+        .slds-table th {
+            font-weight: bold;
+            background: #29586d;
+            color: #fff;
+        }
+        
+        .slds-table--cell-buffer.slds-box,
+        .messageTable {
+            width: auto;
+        }
+        
+        .message > .messageTable {
+            margin: auto !important;
+            margin-top: 10px !important;
+            margin-bottom: 10px !important;
+            color: #fff;
+            border-radius: 5px;
+            background: red;
+            width: 398px;
+            display: block;
+            padding: 4px 18px !important;
+        }
+        
+        .slds-button--brand {
+            padding-left: 1rem;
+            padding-right: 1rem;
+            text-align: center;
+            vertical-align: middle;
+            background-color: #29586d;
+            border: 1px solid #29586d;
+            color: #fff;
+        }
+        
+        .slds-button--brand:focus,
+        .slds-button--brand:hover {
+            background-color: #29586d;
+            color: #fff;
+        }
+        
+        .slds-button.slds-button--neutral {
+            color: #29586d;
+        }
+        
+        .sfspinner{
+             position: fixed;
+                 margin: 0 0 0 95px;
+        }
+        
+        .dataTables_paginate.paging_simple_numbers {
+            margin-top: 20px;
+            text-align: center;
+            float: none;
+        }
+        
+        .slds-table.slds-table--bordered.slds-table--cell-buffer.slds-box {
+            position: relative;
+            top: 20px;
+        }
+        
+       
+        .dataTables_length {
+            display: none;
+        }
+        
+        table.dataTable.no-footer {
+            border-bottom: 1px solid #d8dde6;
+        }
+        
+        table.dataTable thead .sorting_asc,
+        table.dataTable thead .sorting {
+            background-image: none;
+        }
+        
+        .dataTables_wrapper .dataTables_paginate .paginate_button.current,
+        .dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+            background: linear-gradient(to bottom, #0070d2 0%, #0070d2 100%);
+            color: #fff !important;
+            border-radius: 15px;
+            height:25px;
+            width:25px;
+            padding: 0.13em 0em;
+            
+            
+        }
+        .draggable console_widget_header_bg darkBackground{
+        background: rgb(0, 179, 210) !important;
+        }
+        #cases-table_filter {
+            position: relative;
+            float: none;
+            text-align: left;
+            left: 82px;
+        }
+        
+        #cases-table_filter input {
+            background-color: #fff;
+            color: #16325c;
+            border: 1px solid #d8dde6;
+            border-radius: .25rem;
+            transition: border .1s linear, background-color .1s linear;
+            display: inline-block;
+            padding: 0 1rem 0 .75rem;
+            line-height: 1.875rem;
+        }
+        
+        .slds-scope .slds-scope {
+            border: #cdcdcd 3px solid;
+            border-radius: 22px;
+            margin-top: 15px;
+        }
+        
+        .table-wrapper {
+            overflow-x: scroll;
+            width: 90vw;
+            margin: auto;
+            padding-bottom: 20px;
+        }
+        #cases-table{
+        margin:1em auto;
+        }
+        .tableTitle{
+                margin: 10px 0px -20px 40px !important;
+        }
+        .verticalscroll{
+            overflow: auto;
+            width: 100%;
+            height: 60vh;
+        }
+        .dataTables_info  {
+        padding-left:2.4em;
+        }
+    </style>
+    <apex:form >
+         <div class='slds-scope slds-p-top--x-large'>
+            <h1 class="slds-text-heading--large slds-text-align--center ">Search Tax Free Form</h1>
+            <div class="slds-container--medium slds-m-bottom--medium slds-text-align--center">
+                <p><b>Enter Criteria below to search Tax Free Form records.</b></p>
+            </div>
+            <apex:outputPanel id="CardPanel">
+            <article class="slds-container--large slds-card">
+
+                <div class="slds-card__header slds-grid">
+                    <header class="slds-media slds-media_center slds-has-flexi-truncate">
+                        <div class="slds-media__body">
+                            <h2>
+                                <div class="slds-grid slds-wrap slds-grid--pull-padded">
+                                    <div class="slds-p-horizontal--small slds-large-size--3-of-12 slds-medium-size--2-of-6 slds-size--1-of-3">
+                                      <apex:selectList id="choosecriteria" value="{!searchField }" multiselect="false"  size="1" styleClass="slds-select searchFieldVal">
+                                               <apex:selectOptions value="{!FieldOptions}"/>
+                                       </apex:selectList>
+                                    </div>
+                                    <div class="slds-p-horizontal--small slds-large-size--6-of-12 slds-medium-size--3-of-6 slds-size--1-of-3">
+                                 
+                                        <apex:outputPanel id="slds-case-Subject">
+                                            <apex:inputText id="Subject-input-id-2" value="{!SearchTerm}" styleClass="slds-input slds-input-case searchTermVal" html-placeholder="Enter Search Term Here" onkeypress="return noenter(event)"/>
+                                        </apex:outputPanel>
+                                    </div>
+                                  <div class="slds-p-horizontal--small slds-large-size--3-of-12 slds-medium-size--1-of-6 slds-size--1-of-3">
+                                 
+                                       
+                                            <input type="button" value="Search"  class="slds-button slds-button--brand" onclick = "sfsearchMethod()"> 
+                                            
+                                            </input>
+                                        
+                                        <!-- <div class="slds-p-horizontal--small slds-size--1-of-2 slds-medium-size--1-of-6 slds-large-size--8-of-12 slds-add-button">
+                                            <input type="button" value="Fintrax Search" class="slds-button slds-button--brand" onclick = "fintraxsearchMethod()"/>
+                                        </div> -->
+                                   
+                                  </div> 
+                                    
+                                </div>
+                            </h2>
+                        </div>
+                    </header>
+                    <div class="slds-no-flex">
+
+                    </div>
+                </div>
+
+            </article>
+            </apex:outputPanel>
+
+        <apex:outputPanel layout="block" styleClass="verticalscroll">
+            <div class="">
+                <!-- Salesforce search table --> 
+                <apex:outputPanel id="sfdatatable" layout="block">
+                <apex:outputPanel rendered="{!sfdcSearchTable}">
+                    <apex:pageMessages />
+                    
+                    <table class="slds-table slds-table--bordered slds-table--cell-buffer slds-box" align="center"
+                        id="sf-table">
+                            <p class="tableTitle"><b> SFDC Search Table</b></p>
+                        <thead>
+                            <tr class="slds-text-title--caps">
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Tax Free Form Number">Tax Free Form Number </div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Retailer Name">Retailer Name</div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Retailer ID">Sales Amount</div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Passport Number ">Passport Number </div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Premier Pass ID">Premier Pass ID</div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Refund Amount">Refund Amount</div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Purchase Date">Purchase Date</div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Tourist Name ">Tourist Name </div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Status ">Status </div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="EMail Address">EMail Address</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <apex:repeat value="{!SFRecordsList}" var="rec">
+                                <tr>
+                                    <td scope="row" data-label="Tax Free Form ID">
+                                        <div class="slds-truncate" title="{!rec.Name}">
+                                            <apex:outputLink onClick="testOpenPrimaryTab('{!rec.Id}');return false">{!rec.Name}</apex:outputLink>
+                                        </div>
+                                    </td>
+                                    <td data-label="Retailer Name ">
+                                        <div class="slds-truncate" title="{!rec.Account_shop__r.Name}">{!rec.Account_shop__r.Name}</div>
+                                    </td>
+                                    <td data-label="Sales Amount">
+                                        <div class="slds-truncate" title="{!rec.Sales_Amount__c}">{!rec.Sales_Amount__c}</div>
+                                    </td>
+                                    <td data-label="Passport Number">
+                                        <div class="slds-truncate" title="{!rec.Tourist_Passport_Number__c}">{!rec.Tourist_Passport_Number__c}</div>
+                                    </td>
+                                    <td data-label="Premier Pass ID">
+                                        <div class="slds-truncate" title="{!rec.Tourist_Premier_Pass_Id__c}">{!rec.Tourist_Premier_Pass_Id__c}</div>
+                                    </td>
+                                    <td data-label="Refund Amount">
+                                        <div class="slds-truncate" title="{!rec.Refund_Amount__c}">{!rec.Refund_Amount__c}</div>
+                                    </td>
+                                    <td data-label="Purchase Date">
+                                        <div class="slds-truncate" title="{!rec.Purchase_Date__c}"><apex:outputField value="{!rec.Purchase_Date__c}" /></div>
+                                    </td>
+                                    <td data-label="Tourist Name">
+                                        <div class="slds-truncate" title="{!rec.Tourist_First_Name__c}">{!rec.Tourist__r.name}  </div>
+                                    </td>
+                                    <td data-label="Status">
+                                        <div class="slds-truncate" title="{!rec.Latest_Payment_Status__c}">{!rec.Latest_Payment_Status__c}</div>
+                                    </td>
+                                    <td data-label="Email Address">
+                                        <div class="slds-truncate" title="{!rec.Tourist_Email_Address__c}">{!rec.Tourist_Email_Address__c}</div>
+                                    </td>
+                                   
+                                </tr>
+                            </apex:repeat>
+                        </tbody>
+                    </table>
+                </apex:outputPanel>
+                <div class="slds-spinner_container slds-hide sfspinner">
+                    <div class="slds-spinner--brand slds-spinner slds-spinner--medium" role="alert">
+                        <span class="slds-assistive-text">Loading</span>
+                        <div class="slds-spinner__dot-a"></div>
+                        <div class="slds-spinner__dot-b"></div>
+                    </div>
+                </div>
+                <apex:outputPanel rendered="{! sfsearchsize == 0}">
+                         <p class="tableTitle"><b> SFDC Search Table</b></p>
+                        <div class="slds-modal__container">
+                        
+                            <div class="slds-modal__content slds-p-around--medium">
+                                <p class="slds-text-align--center">No records found for this search criteria</p>
+                            </div>
+                        </div>
+                </apex:outputPanel>
+                <apex:outputPanel rendered="{!sfsearchsize} > 20">
+                        <p class="tableTitle"><b> SFDC Search Table</b></p>
+                        <div class="slds-modal__container">
+                            <div class="slds-modal__content slds-p-around--medium">
+                                <p class="slds-text-align--center">There are more than 20 records, please narrow down your search criteria</p>
+                            </div>
+                        </div>
+                </apex:outputPanel>
+                </apex:outputPanel>
+                
+                <!--Fintrax Search Table -->
+                <apex:outputPanel id="findatatable" layout="block">
+                <apex:outputPanel rendered="{!fintraxSearchTable}">
+                    <apex:pageMessages />
+                    
+                    <table class="slds-table slds-table--bordered slds-table--cell-buffer slds-box" align="center"
+                        id="fin-table">
+                        <p class="tableTitle"><b> Fintrax Search Table</b></p>
+                        <thead>
+                            <tr class="slds-text-title--caps">
+                                 <th scope='col'>
+                                    <div class="" title="Select">Select</div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Tax Free Form Number">Tax Free Form Number </div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Retailer Name">Retailer Name</div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Retailer ID">Sales Amount</div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Passport Number ">Passport Number </div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Premier Pass ID">Premier Pass ID</div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Refund Amount">Refund Amount</div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Purchase Date">Purchase Date</div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Tourist Name ">Tourist Name </div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="Status ">Status </div>
+                                </th>
+                                <th scope='col'>
+                                    <div class="slds-truncate" title="EMail Address">EMail Address</div>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                         <apex:repeat value="{!FinRecordlist}" var="rec">
+                                <tr>
+                                    
+                                    <td scope="row" data-label="Select" class="slds-text-align--center">
+                                        <span class="slds-checkbox">
+                                    <input type="checkbox" name="options" id="checkbox-{!rec.TaxFreeFormId}" />
+                                    <label class="slds-checkbox__label" for="checkbox-{!rec.TaxFreeFormId}">
+                                        <span class="slds-checkbox--faux"></span>
+                                        </label>
+                                        </span>
+                                    </td>
+                                    <td scope="row" data-label="Tax Free Form ID">
+                                        <div class="slds-truncate" title="{!rec.TaxFreeFormId}">
+                                          {!rec.TaxFreeFormId}
+                                        </div>
+                                    </td>
+                                    <td data-label="Retailer Name ">
+                                        <div class="slds-truncate" title="{!rec.RetailerId}">{!rec.RetailerId}</div>
+                                    </td>
+                                    <td data-label="Sales Amount">
+                                        <div class="slds-truncate" title="{!rec.SalesAmount}">{!rec.SalesAmount}</div>
+                                    </td>
+                                    <td data-label="Passport Number">
+                                        <div class="slds-truncate" title="{!rec.TouristPassportNumber}">{!rec.TouristPassportNumber}</div>
+                                    </td>
+                                    <td data-label="Premier Pass ID">
+                                        <div class="slds-truncate" title="{!rec.TouristPremierPassId}">{!rec.TouristPremierPassId}</div>
+                                    </td>
+                                    <td data-label="Refund Amount">
+                                        <div class="slds-truncate" title="{!rec.RefundAmount}">{!rec.RefundAmount}</div>
+                                    </td>
+                                    <td data-label="Purchase Date">
+                                         <apex:outputText value="{0,date, dd'/'MM'/'YYYY}">
+                                            <apex:param value="{!rec.PurchaseDate}" /> 
+                                        </apex:outputText>
+                                       <!-- <div class="slds-truncate" title="{!rec.PurchaseDate}">{!rec.PurchaseDate}</div> -->
+                                    </td>
+                                    <td data-label="Tourist Name">
+                                        <div class="slds-truncate" title="{!rec.TouristFirstName}">{!rec.TouristFirstName}</div>
+                                    </td>
+                                    <td data-label="Status">
+                                        <div class="slds-truncate" title="{!rec.LatestPaymentStatus}">{!rec.LatestPaymentStatus}</div>
+                                    </td>
+                                    <td data-label="Email Address">
+                                        <div class="slds-truncate" title="{!rec.TouristEmailAddress}">{!rec.TouristEmailAddress}</div>
+                                    </td>
+                                   
+                                </tr>
+                            </apex:repeat> 
+                        </tbody>
+                    </table>
+                    <br/>
+                    <center> 
+                   <div class="slds-p-horizontal--small slds-size--1-of-2 slds-medium-size--1-of-6 slds-large-size--8-of-12 slds-add-button">
+                          <input type="button" value="Save to Salesforce" class="slds-button slds-button--brand slds-button--savetosalesforce"  />
+                    </div>   
+                 </center>
+                </apex:outputPanel>
+                <div class="slds-spinner_container slds-hide finspinner">
+                    <div class="slds-spinner--brand slds-spinner slds-spinner--medium" role="alert">
+                        <span class="slds-assistive-text">Loading</span>
+                        <div class="slds-spinner__dot-a"></div>
+                        <div class="slds-spinner__dot-b"></div>
+                    </div>
+                </div>
+                <apex:outputPanel rendered="{! fintraxsearchsize == 0}">
+                      <p class="tableTitle"><b> Fintrax Search Table</b></p>
+                        <div class="slds-modal__container">
+                        
+                            <div class="slds-modal__content slds-p-around--medium">
+                                <p class="slds-text-align--center">No records found for this search criteria</p>
+                            </div>
+                        </div>
+                </apex:outputPanel>
+                <apex:outputPanel rendered="{!fintraxsearchsize > 20}">
+                        <p class="tableTitle"><b> Fintrax Search Table</b></p> 
+                        <div class="slds-modal__container">
+                            <div class="slds-modal__content slds-p-around--medium">
+                                <p class="slds-text-align--center">There are more than 20 records, please narrow down your Search criteria</p>
+                            </div>
+                        </div>
+                </apex:outputPanel>
+                </apex:outputPanel>
+            </div>
+        </apex:outputPanel>
+            <br/>
+        </div>
+        <apex:actionFunction action="{!sfSearch}" name="sfApexSearchMethod"  reRender="sfdatatable,sfScriptPanel"/>
+        <apex:actionFunction action="{!fintrax_API_Search}" name="fintraxAPIsearchMethod" status="fintoggleSpin" reRender="findatatable,fintraxScriptPanel"/>
+        <apex:actionStatus onstart="showSpin()" onstop="hideSpin()" id="toggleSpin" /> 
+        <apex:actionStatus onstart="showSpin()" onstop="hideSpin()" id="fintoggleSpin" />
+        <apex:actionFunction name="insertInSf" action="{!insertDataInSf}" reRender="sfdatatable,sfScriptPanel,findatatable,fintraxScriptPanel"
+            status="toggleSpin">
+            <apex:param name="selIdsString" assignTo="{!selectedTFFids }" value="" />
+           
+        </apex:actionFunction>
+    </apex:form>
+    <apex:outputPanel id="sfScriptPanel">
+    <script>
+        $(document).ready(function() {
+            $('#sf-table').DataTable({bFilter: false});
+            $("#sf-table").wrap("<div class='table-wrapper'></div>");
+        });
+    </script>
+    </apex:outputPanel>
+    <apex:outputPanel id="fintraxScriptPanel">
+    <script>
+        $(document).ready(function() {
+        
+            $('#fin-table').DataTable({bFilter: false});
+            $("#fin-table").wrap("<div class='table-wrapper'></div>");
+        });
+    </script>
+    </apex:outputPanel>
+    
+    <script>
+    function noenter(){
+      if (window.event && window.event.keyCode == 13){
+          sfsearchMethod();
+           return false; 
+          }
+          else{
+             return true;
+          }
+       }
+        function showSpin() {
+            $(".sfspinner").removeClass('slds-hide');
+        }
+        function hideSpin() {
+            $(".sfspinner").addClass('slds-hide');
+        }
+        
+        function showSpin() {
+            $(".finspinner").removeClass('slds-hide');
+        }
+        function hideSpin() {
+            $(".finspinner").addClass('slds-hide');
+        }
+        
+        function sfsearchMethod(){
+            
+            validatMethodFunction();
+            if(callMet == true){
+              fintraxAPIsearchMethod();
+                sfApexSearchMethod();
+                
+            }
+        }
+        function fintraxsearchMethod(){
+
+            validatMethodFunction();
+            if(callMet == true){
+                fintraxAPIsearchMethod();
+            }
+        }
+            
+        var callMet;
+        function validatMethodFunction(){
+            var fieldVal = document.getElementsByClassName("searchFieldVal")[0].value;
+            var termVal = document.getElementsByClassName("searchTermVal")[0].value; 
+            //alert('@@@Field:'+fieldVal+'@@@@Term:'+termVal);
+            var filter = /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+
+            if(fieldVal == '' || termVal == ''){
+                alert('Please enter Search Term value.');
+                callMet = false;
+            }else{
+                if(termVal != '' && fieldVal == 'Credit Card Number'){
+                    //alert('inside card.'+termVal.length);
+                    if(termVal.length < 12 || termVal.length > 19){
+                        alert('Please enter valid Credit Card number (number should be min:12 and max:19).');
+                        callMet = false;
+                    }
+                    else{
+                        callMet = true;
+                        //alert('inside else.'+callMet);
+                    }
+                }
+                if(termVal != '' && fieldVal == 'Email'){
+                    //alert('inside Email.'+termVal.length);
+                    if(filter.test(termVal)){
+                        callMet = true;
+                        return true;
+                    }
+                    else{
+                        alert('Please enter valid Email Address (example: abc@xyz.com).');
+                        callMet = false;
+                    }
+                }
+                if(termVal != '' && fieldVal == 'Passport Number'){
+                    //alert('inside card.'+termVal.length);
+                    if(termVal.length < 7){
+                        alert('Please enter valid Passport number (Passport number should be min:7).');
+                        callMet = false;
+                    }
+                    else{
+                        callMet = true;
+                        //alert('inside else.'+callMet);
+                    }
+                }
+                if(termVal != '' && fieldVal == 'Tax Free Form Id'){
+                    //alert('inside card.'+termVal.length);
+                    if(termVal.length < 7){
+                        alert('Please enter valid Tax Free Form ID (Tax Free Form ID should be min:7).');
+                        callMet = false;
+                    }
+                    else{
+                        callMet = true;
+                        //alert('inside else.'+callMet);
+                    }
+                }
+                if(termVal != '' && fieldVal == 'Premier Pass Id'){
+                    //alert('inside card.'+termVal.length);
+                    if(termVal.length < 12){
+                        alert('Please enter valid Premier Pass ID (Premier Pass ID should be min:12).');
+                        callMet = false;
+                    }
+                    else{
+                        callMet = true;
+                        //alert('inside else.'+callMet);
+                    }
+                }
+            }
+        }
+        
+        function testOpenPrimaryTab(recId,recName) {
+          // alert(recId);
+          if (sforce.console.isInConsole()) {
+               sforce.console.openPrimaryTab(null, '/'+recId, true, recName);
+           }else{
+               sforce.one.navigateToSObject(recId)
+           }
+       }
+       var openSuccess = function openSuccess(result) {
+           if (result.success == true) {
+              // alert('Primary tab successfully opened');
+           } else {
+              // alert('Primary tab cannot be opened');
+           }
+       };
+       
+     $(document).ready(function() {
+          
+            var $checkBoxArr = $('[id="fin-table"] tbody tr :checkbox');
+           
+      
+            
+            
+            //$(".slds-button--savetosalesforce").unbind().click(function() {            
+            $(document).on('click', '.slds-button--savetosalesforce', function() {
+                var dupArr = [];
+               
+               // $('#fin-table input[type=checkbox]').each(function(i) {
+               
+                //if ($(this).prop('checked',false)){                    
+                    //   var a= $(this).attr('id').split('-')[1];
+                    //   alert(a);
+                  //  }
+               // });
+               
+                $("#fin-table input[type=checkbox]").each(function() {
+                if(this.checked) {
+        
+                 dupArr.push($(this).attr('id').split('-')[1]);
+                       
+                 }
+                  });
+               
+               
+                if (dupArr.length > 0) {
+                    var selIdsString = dupArr.join(',');
+                    //alert(selIdsString);
+                    var r = confirm("Please confirm to save the data in salesforce.\nThis process can not be undone");
+                    if (r == true) {
+                        insertInSf(selIdsString)
+                    }
+                    
+                } else {
+                    alert(
+                        "Please select a Tax Free Form to import."
+                    )
+                }
+            })
+        });
+    </script>
+</apex:page>

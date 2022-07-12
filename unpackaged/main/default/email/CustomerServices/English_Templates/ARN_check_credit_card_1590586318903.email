@@ -1,0 +1,47 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-style:italic">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-style:italic"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-style:italic">Thank you for contacting us regarding your refund. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-style:italic"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-style:italic">As I stated in my previous email, the refund is deemed successful once the ARN (Acquirer Reference Number) is generated. Unfortunately, this is the only number we are able to provide you with to track your payment. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-style:italic"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">If your credit card issuer was not able to locate our refund may I ask you to confirm your credit card number to me, so that I can make sure it was issued to the correct one? For security reasons, we request </span><span lang="EN-IE" style="font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">that you send the number divided across two emails.<span style="mso-bidi-font-style:
+italic"> 
+     <o:p></o:p></span></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;mso-bidi-font-family:
+Calibri;mso-bidi-theme-font:minor-latin;mso-bidi-font-style:italic"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <span lang="EN-IE" style="font-size:11.0pt;font-family:Barlow;mso-fareast-font-family:
+Calibri;mso-fareast-theme-font:minor-latin;mso-bidi-font-family:Calibri;
+mso-bidi-theme-font:minor-latin;mso-ansi-language:EN-IE;mso-fareast-language:
+EN-US;mso-bidi-language:AR-SA;mso-bidi-font-style:italic">Once I get a reply from you I will be able to investigate further. </span> 
+  <!--EndFragment-->
+ </body>
+</html>

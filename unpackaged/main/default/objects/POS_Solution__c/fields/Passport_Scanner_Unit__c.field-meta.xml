@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Passport_Scanner_Unit__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Passport Scanner Unit</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>Unit__c.Unit_Type__c</field>
+            <operation>equals</operation>
+            <value>Passport Scanner</value>
+        </filterItems>
+        <isOptional>true</isOptional>
+    </lookupFilter>
+    <referenceTo>Unit__c</referenceTo>
+    <relationshipLabel>POS Solutions (Passport Scanner Unit)</relationshipLabel>
+    <relationshipName>POS_Solutions6</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

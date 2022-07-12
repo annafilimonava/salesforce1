@@ -1,0 +1,9 @@
+<font face="arial"><font size=2><p>The opportunity with a value of {!Opportunity.Opportunity_Value__c} has been submitted for your approval by {!Approval_Requesting_User.Name}.</p>
+<br>
+Opportunity Type: <b>{!Opportunity.Type}</b><br>
+Opportunity Product: <b>{!Opportunity.Product__c}</b><br>
+Opportunity Owning Country: <b>{!Opportunity.Owning_Country__c}</b><br>
+Opportunity Countries: <b>{!Opportunity.Countries_of_Interest__c}</b><br>
+<br>
+<br>
+You may view the record by clicking here ->{!Opportunity.Link}</p>

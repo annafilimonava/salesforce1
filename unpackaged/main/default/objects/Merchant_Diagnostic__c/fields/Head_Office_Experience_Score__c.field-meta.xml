@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Head_Office_Experience_Score__c</fullName>
+    <externalId>false</externalId>
+    <formula>Confident_of_Staff_TF_TrainingR__c + Training_Inline_With_TurnoverR__c + Training_for_New_HiresR__c + Rebate_Part_of_ProfitabilityR__c + Tax_Free_Solution_ComparisonR__c + How_Innovative_is_Our_SolutionR__c + Strategy_to_Increase_FootfallR__c + Identify_Missed_Revenue_OpportunitiesR__c + Considered_Planet_s_Marketing_OfferingR__c + Utilise_Planet_IntelligenceR__c + Percent_Revenue_Tax_Free__c + Interested_in_a_Targeted_ProposalR__c + Planet_Intelligence_with_Other_ReportsR__c + Gaps_in_the_Information_ProvidedR__c + Outlook_For_The_Next_12_36_MonthsR__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Head Office Experience Score</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

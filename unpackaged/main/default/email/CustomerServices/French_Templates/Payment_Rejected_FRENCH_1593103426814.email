@@ -1,0 +1,38 @@
+</style>
+<![endif]--><!--StartFragment-->
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-ansi-language:FR">Bonjour </span><span lang="EN-IE" style="font-size:11.0pt;font-family:Barlow">{{{Case.Tourist__c}}}</span><span lang="FR" style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Barlow;
+mso-ansi-language:FR">,<o:p></o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-ansi-language:FR">Merci pour votre message.<o:p></o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-ansi-language:FR">J&#39;ai v&eacute;rifi&eacute; notre base de donn&eacute;es et je voudrais vous informer que le paiement envoy&eacute; &agrave; votre carte </span><!--StartFragment--><span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Credit_Card_Number__c}}}</span><!--EndFragment--><span lang="FR" style="font-size:11.0pt;mso-bidi-font-size:10.0pt;font-family:Barlow;
+mso-ansi-language:FR"> a &eacute;t&eacute; refus&eacute;.<o:p></o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-ansi-language:FR">Si possible, veuillez nous envoyer une autre carte de cr&eacute;dit afin de la&nbsp;mettre &agrave; jour et de vous rembourser. Veuillez diviser les chiffres en deux e-mails pour des raisons de s&eacute;curit&eacute;.<o:p></o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-ansi-language:FR">J&#39;attends votre r&eacute;ponse pour pouvoir vous assister d&#39;avantage. <o:p></o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-ansi-language:FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoPlainText"><span lang="FR" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow;mso-ansi-language:FR">Cordialement.<o:p></o:p></span></p>
+<!--EndFragment--></body>
+</html>

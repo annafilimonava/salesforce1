@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_POS_Contract_End_Date__c</fullName>
+    <description>Hoist - Saurabh 20/01/22</description>
+    <externalId>false</externalId>
+    <label>Current POS Contract End Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

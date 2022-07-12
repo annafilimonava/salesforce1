@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Alerts RM Management when an opportunity &gt;= NC 20k is created</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Big Opportunity Alert</name>
+    <style>none</style>
+    <subject>New Opportunity with a Value of {!Opportunity.Opportunity_Value__c} on {!Opportunity.Account}</subject>
+    <textOnly>A New Opportunity with a Value of {!Opportunity.Opportunity_Value__c} has been created on {!Opportunity.Account}.
+
+Opportunity Owner: {!Opportunity.OwnerFullName}
+Owning Country: {!Opportunity.Owning_Country__c}
+Opportunity Type: {!Opportunity.Type}
+Stage: {!Opportunity.StageName}
+
+To view the opportunity click the link below.
+
+{!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

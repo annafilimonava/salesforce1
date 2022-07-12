@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Strengths__c</fullName>
+    <externalId>false</externalId>
+    <label>Strengths</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Workstream_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Additional Refund Options Ready to Deliver</fullName>
+                <default>false</default>
+                <label>Additional Refund Options Ready to Deliver</label>
+            </value>
+            <value>
+                <fullName>All in One Solution</fullName>
+                <default>false</default>
+                <label>All in One solution</label>
+            </value>
+            <value>
+                <fullName>Budget Signed Off for New Pos Solution</fullName>
+                <default>false</default>
+                <label>Budget Signed Off for New Pos Solution</label>
+            </value>
+            <value>
+                <fullName>Can Offer Card Recognition with Auto-Print</fullName>
+                <default>false</default>
+                <label>Can Offer Card Recognition with Auto-Print</label>
+            </value>
+            <value>
+                <fullName>Competitive Marketing Proposal</fullName>
+                <default>false</default>
+                <label>Competitive Marketing Proposal</label>
+            </value>
+            <value>
+                <fullName>Competitive Pricing</fullName>
+                <default>false</default>
+                <label>Competitive Pricing</label>
+            </value>
+            <value>
+                <fullName>Contract is Rolling (No Expiry Date)</fullName>
+                <default>false</default>
+                <label>Contract is Rolling (No Expiry Date)</label>
+            </value>
+            <value>
+                <fullName>Contract was Recently Renewed</fullName>
+                <default>false</default>
+                <label>Contract was Recently Renewed</label>
+            </value>
+            <value>
+                <fullName>Data on Item Purchased by Nationality</fullName>
+                <default>false</default>
+                <label>Data on Item Purchased by Nationality</label>
+            </value>
+            <value>
+                <fullName>Data Pool</fullName>
+                <default>false</default>
+                <label>Data Pool</label>
+            </value>
+            <value>
+                <fullName>DCC Tailored Training</fullName>
+                <default>false</default>
+                <label>DCC Tailored Training</label>
+            </value>
+            <value>
+                <fullName>Ease of Deployment</fullName>
+                <default>false</default>
+                <label>Ease of Deployment</label>
+            </value>
+            <value>
+                <fullName>Exclusivity</fullName>
+                <default>false</default>
+                <label>Exclusivity</label>
+            </value>
+            <value>
+                <fullName>Existing Relationship with Merchant</fullName>
+                <default>false</default>
+                <label>Existing Relationship with Merchant</label>
+            </value>
+            <value>
+                <fullName>Expertise in Acceptance of International Payment Methods</fullName>
+                <default>false</default>
+                <label>Expertise in Acceptance of International Payment Methods</label>
+            </value>
+            <value>
+                <fullName>Focus on International Customers</fullName>
+                <default>false</default>
+                <label>Focus on International Customers</label>
+            </value>
+            <value>
+                <fullName>Full Integration Including New Features</fullName>
+                <default>false</default>
+                <label>Full Integration Including New Features</label>
+            </value>
+            <value>
+                <fullName>Good Relationship with HO/Decision Maker</fullName>
+                <default>false</default>
+                <label>Good Relationship with HO/Decision Maker</label>
+            </value>
+            <value>
+                <fullName>Good Relationship with Key Stakeholders</fullName>
+                <default>false</default>
+                <label>Good Relationship with Key Stakeholders</label>
+            </value>
+            <value>
+                <fullName>Good Relationship with Merchant</fullName>
+                <default>false</default>
+                <label>Good Relationship with Merchant</label>
+            </value>
+            <value>
+                <fullName>Good Relationship with Store Staff</fullName>
+                <default>false</default>
+                <label>Good Relationship with Store Staff</label>
+            </value>
+            <value>
+                <fullName>ISTP Training Programme</fullName>
+                <default>false</default>
+                <label>ISTP Training Programme</label>
+            </value>
+            <value>
+                <fullName>Lack of Existing Provider</fullName>
+                <default>false</default>
+                <label>Lack of Existing Provider</label>
+            </value>
+            <value>
+                <fullName>Local Dedicated Support Team</fullName>
+                <default>false</default>
+                <label>Local Dedicated Support Team</label>
+            </value>
+            <value>
+                <fullName>Margin Initiatives</fullName>
+                <default>false</default>
+                <label>Margin Initiatives</label>
+            </value>
+            <value>
+                <fullName>Marketing Funding in Place</fullName>
+                <default>false</default>
+                <label>Marketing Funding in Place</label>
+            </value>
+            <value>
+                <fullName>New Solution is Ready to Deliver</fullName>
+                <default>false</default>
+                <label>New Solution is Ready to Deliver</label>
+            </value>
+            <value>
+                <fullName>Ongoing Marketing Relationship</fullName>
+                <default>false</default>
+                <label>Ongoing Marketing Relationship</label>
+            </value>
+            <value>
+                <fullName>Pan-EU Contract</fullName>
+                <default>false</default>
+                <label>Pan-EU Contract</label>
+            </value>
+            <value>
+                <fullName>Pan-European Acquiring Offering</fullName>
+                <default>false</default>
+                <label>Pan-European Acquiring Offering</label>
+            </value>
+            <value>
+                <fullName>Pilot was Successful</fullName>
+                <default>false</default>
+                <label>Pilot was Successful</label>
+            </value>
+            <value>
+                <fullName>Planet as Only Provider for Tax Free and Payments</fullName>
+                <default>false</default>
+                <label>Planet as Only Provider for Tax Free and Payments</label>
+            </value>
+            <value>
+                <fullName>Planet Can Offer Additional Marketing Services</fullName>
+                <default>false</default>
+                <label>Planet Can Offer Additional Marketing Services</label>
+            </value>
+            <value>
+                <fullName>Planet Expertise</fullName>
+                <default>false</default>
+                <label>Planet Expertise</label>
+            </value>
+            <value>
+                <fullName>Planet is a Long-Time Trusted Partner</fullName>
+                <default>false</default>
+                <label>Planet is a Long-Time Trusted Partner</label>
+            </value>
+            <value>
+                <fullName>Planet MS Client</fullName>
+                <default>false</default>
+                <label>Planet MS Client</label>
+            </value>
+            <value>
+                <fullName>Planet Offers a Best Rate Guarantee</fullName>
+                <default>false</default>
+                <label>Planet Offers a Best Rate Guarantee</label>
+            </value>
+            <value>
+                <fullName>Planet Offers a Superior Solution</fullName>
+                <default>false</default>
+                <label>Planet Offers a Superior Solution</label>
+            </value>
+            <value>
+                <fullName>Range of Currencies for DCC</fullName>
+                <default>false</default>
+                <label>Range of Currencies for DCC</label>
+            </value>
+            <value>
+                <fullName>Regular and Automated Reports</fullName>
+                <default>false</default>
+                <label>Regular and Automated Reports</label>
+            </value>
+            <value>
+                <fullName>Regular Periodic HO Business Reviews</fullName>
+                <default>false</default>
+                <label>Regular Periodic HO Business Reviews</label>
+            </value>
+            <value>
+                <fullName>Regular Store Staff Training (Core, Advanced, Consulting)</fullName>
+                <default>false</default>
+                <label>Regular Store Staff Training (Core, Advanced, Consulting)</label>
+            </value>
+            <value>
+                <fullName>Regular Store Visits</fullName>
+                <default>false</default>
+                <label>Regular Store Visits</label>
+            </value>
+            <value>
+                <fullName>Reporting Capability</fullName>
+                <default>false</default>
+                <label>Reporting Capability</label>
+            </value>
+            <value>
+                <fullName>Seamless New Store Onboarding</fullName>
+                <default>false</default>
+                <label>Seamless New Store Onboarding</label>
+            </value>
+            <value>
+                <fullName>Sent/Received</fullName>
+                <default>false</default>
+                <label>Sent/Received</label>
+            </value>
+            <value>
+                <fullName>Sponsorship of Merchant IT Dept.</fullName>
+                <default>false</default>
+                <label>Sponsorship of Merchant IT Dept.</label>
+            </value>
+            <value>
+                <fullName>Strong Client Relationship</fullName>
+                <default>false</default>
+                <label>Strong Client Relationship</label>
+            </value>
+            <value>
+                <fullName>Support of Google Pay and Apple Pay</fullName>
+                <default>false</default>
+                <label>Support of Google Pay and Apple Pay</label>
+            </value>
+            <value>
+                <fullName>Support of Pay By Link Solution</fullName>
+                <default>false</default>
+                <label>Support of Pay By Link Solution</label>
+            </value>
+            <value>
+                <fullName>Tailored HO/Store Reports</fullName>
+                <default>false</default>
+                <label>Tailored HO/Store Reports</label>
+            </value>
+            <value>
+                <fullName>Tailored Refund Table</fullName>
+                <default>false</default>
+                <label>Tailored Refund Table</label>
+            </value>
+            <value>
+                <fullName>Trusted Relationship with Planet</fullName>
+                <default>false</default>
+                <label>Trusted Relationship with Planet</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <valueName>Good Relationship with Store Staff</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <valueName>ISTP Training Programme</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Store Staff Training</controllingFieldValue>
+            <valueName>Regular Store Staff Training (Core, Advanced, Consulting)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <valueName>Support of Google Pay and Apple Pay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>eCommerce</controllingFieldValue>
+            <valueName>Support of Pay By Link Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Contract is Rolling (No Expiry Date)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Contract was Recently Renewed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Exclusivity</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Good Relationship with HO/Decision Maker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Margin Initiatives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Pan-EU Contract</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Pilot was Successful</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contract</controllingFieldValue>
+            <valueName>Tailored Refund Table</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Good Relationship with Key Stakeholders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Local Dedicated Support Team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Planet is a Long-Time Trusted Partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Regular Periodic HO Business Reviews</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Regular Store Visits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Relationship Management</controllingFieldValue>
+            <valueName>Seamless New Store Onboarding</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>Planet Expertise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ISTP</controllingFieldValue>
+            <valueName>Trusted Relationship with Planet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GDPR</controllingFieldValue>
+            <valueName>Sent/Received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Planet Intelligence/Tableau</controllingFieldValue>
+            <valueName>Data Pool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Data on Item Purchased by Nationality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Regular and Automated Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HO/Store Reports</controllingFieldValue>
+            <valueName>Tailored HO/Store Reports</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Additional Refund Options Ready to Deliver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Budget Signed Off for New Pos Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Full Integration Including New Features</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Good Relationship with Merchant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>New Solution is Ready to Deliver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Planet Offers a Superior Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>POS Solutions</controllingFieldValue>
+            <valueName>Sponsorship of Merchant IT Dept.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Competitive Marketing Proposal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Focus on International Customers</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Marketing Funding in Place</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Ongoing Marketing Relationship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Planet MS Client</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Channel Marketing</controllingFieldValue>
+            <valueName>Strong Client Relationship</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <valueName>DCC Tailored Training</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Existing Relationship with Merchant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <valueName>Planet Offers a Best Rate Guarantee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <valueName>Range of Currencies for DCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DCC</controllingFieldValue>
+            <valueName>Reporting Capability</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <valueName>All in One Solution</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <valueName>Can Offer Card Recognition with Auto-Print</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <valueName>Expertise in Acceptance of International Payment Methods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <valueName>Pan-European Acquiring Offering</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Acquiring</controllingFieldValue>
+            <valueName>Planet as Only Provider for Tax Free and Payments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Competitive Pricing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Ease of Deployment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Lack of Existing Provider</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Chinese Wallets</controllingFieldValue>
+            <valueName>Planet Can Offer Additional Marketing Services</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

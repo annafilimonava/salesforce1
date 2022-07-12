@@ -1,0 +1,14 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <span style="font-family:Barlow">Dear {{{Case.Tourist__c}}},</span> 
+  <p class="MsoNormal">&nbsp;</p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Thank you for your email.</span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">&nbsp;</span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">I regret to inform you, but we are not able to issue a refund based on scans. The Tax Free rules and regulations require from us to have the original Tax Free form for processing purposes as per country regulations.</span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">&nbsp;</span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">If we can be of any other assistance, please do not hesitate to contact us.</span></p>
+ </body>
+</html>

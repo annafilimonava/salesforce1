@@ -1,0 +1,24 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  Sehr geehrte 
+  <span style="color:#e74c3c;">-/er ………,</span> 
+  <br /> 
+  <br /> Vielen Dank f&uuml;r Ihre E-Mail. 
+  <br /> 
+  <br /> Ich habe unsere Datenbank &uuml;berpr&uuml;ft und bisher haben wir Ihr Tax Free Formular&nbsp;{{{Case.Tax_Free_Form__c}}} nicht erhalten.&nbsp; 
+  <br /> Wenn Sie die Unterlagen vor kurzem geschickt haben, ist der Brief m&ouml;glicherweise noch nicht geliefert oder Ihre Unterlagen sind noch in der Bearbeitung. 
+  <br /> 
+  <br /> Bitte beachten Sie, dass die Bearbeitungszeit ca. von 6 bis 8 Wochen dauern kann. 
+  <br /> 
+  <br /> Melden Sie sich bitte bei mir nach dem oben genannten Zeitraum wieder, wenn die R&uuml;ckerstattung auf dem Konto nicht erscheint. 
+  <br /> 
+  <br /> Bei weiteren Fragen stehe ich gerne zur Verf&uuml;gung. 
+  <br /> 
+  <br /> Herzliche Gr&uuml;&szlig;e, 
+  <br /> 
+  <br /> &nbsp;
+ </body>
+</html>

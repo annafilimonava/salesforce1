@@ -1,0 +1,71 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">Thank you for your mail. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">We have received and processed your Tax Free form {{{Case.Tax_Free_Form__c}}} but to issue the refund we need your original store receipt. As per our terms and conditions for this region, we are not authorised to grant a refund without the original store receipt. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:windowtext"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:windowtext">If the original store receipt is still in your possession, please send it to our main processing centre so we can issue your refund. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin;color:windowtext"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="PL" style="font-family:Barlow;mso-ansi-language:
+PL;mso-bidi-font-weight:bold">PLANET PAYMENT 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="PL" style="font-family:Barlow;mso-ansi-language:
+PL;mso-bidi-font-weight:bold">ul. DOMANIEWSKA 39 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="PL" style="font-family:Barlow;mso-ansi-language:
+PL;mso-bidi-font-weight:bold">WARSZAWA 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-GB" style="font-family:Barlow;mso-ansi-language:
+EN-GB;mso-bidi-font-weight:bold">POLAND 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;mso-bidi-font-weight:
+bold">02-672 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;mso-bidi-font-weight:
+bold"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><b style="mso-bidi-font-weight:normal"><span style="font-family:Barlow;mso-bidi-font-family:
+Calibri;mso-ansi-language:EN-US">Please add a note with your Tax Free form number&nbsp;{{{Case.Tax_Free_Form__c}}} when sending your original store receipt. 
+     <o:p></o:p></span></b></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">I look forward to your response and assisting you further.</span></p>
+ </body>
+</html>

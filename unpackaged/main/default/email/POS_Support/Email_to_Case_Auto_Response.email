@@ -1,0 +1,24 @@
+<font face="arial" size=2>
+<b>***Notification of Case/Request Registration***</b><br>
+Please reply above this message and do not modify the Subject line<br>
+------------------------------------------------------------------------------------------<br>
+<br>
+Dear Customer<p>
+
+We are pleased to inform you that your request has been recorded.
+Your assigned Reference Number is <b>{!Case.CaseNumber}</b>. This number should be kept for reference purposes.<p>
+
+<b>Case Creation Date:</b> {!Case.CreatedDate}<br>
+<b>Case Subject:</b> {!Case.Subject}<br>
+<p>
+We will reply soon to your request.<p>
+
+Kind Regards,<p>
+
+POS Support<br>
+<br>
+<br>
+------------------------------------------------------------------------------------------<br>
+<b><u>Case Description</u></b><br>
+<br>
+{!Case.Description}

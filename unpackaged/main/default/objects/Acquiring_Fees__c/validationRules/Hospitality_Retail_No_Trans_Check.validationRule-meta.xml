@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hospitality_Retail_No_Trans_Check</fullName>
+    <active>true</active>
+    <description>When entering Hospitality or Retail Fee Per Click, if &#39;Actual Fees Per Click&#39; has a value, then &#39;No of Transactions&#39; must be entered.</description>
+    <errorConditionFormula>AND(
+TEXT(Vertical__c ) &lt;&gt; &#39;Parking&#39;,
+AND(
+NOT(ISBLANK(Actual_Fee_Per_Click__c)),
+ISBLANK(No_of_Transactions__c)
+)
+)</errorConditionFormula>
+    <errorMessage>When entering Hospitality or Retail Fee Per Click, if &#39;Actual Fees Per Click&#39; has a value, then &#39;No of Transactions&#39; must be entered.</errorMessage>
+</ValidationRule>

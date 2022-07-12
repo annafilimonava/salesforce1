@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Items_by_Priority_Kanban</fullName>
+    <columns>NAME</columns>
+    <columns>Subject__c</columns>
+    <columns>Status__c</columns>
+    <columns>Priority__c</columns>
+    <columns>Bluewave_Assignee__c</columns>
+    <columns>Description__c</columns>
+    <columns>Dependency__c</columns>
+    <columns>Internal_Owner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Not Started</value>
+    </filters>
+    <filters>
+        <field>Dependency__c</field>
+        <operation>equals</operation>
+    </filters>
+    <label>Items by Priority (Kanban)</label>
+</ListView>

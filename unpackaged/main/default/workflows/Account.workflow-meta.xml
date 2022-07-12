@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Contract_End_Date_30_Days</fullName>
+        <description>Contract End Date 30 Days</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <recipients>
+            <field>Owner_s_Manager__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Contract_Expiry_30_Days</template>
+    </alerts>
+    <alerts>
+        <fullName>Contract_End_Date_60_Days</fullName>
+        <description>Contract End Date 60 Days</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Contract_Expiry_60_Days</template>
+    </alerts>
+    <alerts>
+        <fullName>IT_Solutions_Rebranded</fullName>
+        <description>IT Solutions Rebranded</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jana.coric@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/IT_Solution_Rebranded</template>
+    </alerts>
+    <alerts>
+        <fullName>Shop_Closure_POS_DE</fullName>
+        <description>Shop Closure POS DE</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jana.coric@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Shop_Closed</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Owner_s_Manager</fullName>
+        <field>Owner_s_Manager__c</field>
+        <formula>Account_Owner_s_Manager__c</formula>
+        <name>Owner&#39;s Manager</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Owning_Country_Update_CZ</fullName>
+        <field>Owning_Country__c</field>
+        <literalValue>Czech Republic</literalValue>
+        <name>Owning Country Update CZ</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Owning_Country_Update_FR</fullName>
+        <field>Owning_Country__c</field>
+        <literalValue>France</literalValue>
+        <name>Owning Country Update FR</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Owning_Country_Update_UK</fullName>
+        <field>Owning_Country__c</field>
+        <literalValue>United Kingdom</literalValue>
+        <name>Owning Country Update UK</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Parent_Account_Text</fullName>
+        <field>Parent_Account_Text__c</field>
+        <formula>Parent.Name</formula>
+        <name>Parent Account Text</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Sales_Owner_GB</fullName>
+        <field>OwnerId</field>
+        <lookupValue>mark.chiverton@planetpayment.com</lookupValue>
+        <lookupValueType>User</lookupValueType>
+        <name>Sales Owner GB</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Category</fullName>
+        <field>Category__c</field>
+        <name>Update Category</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Contract Expiry 60 Days</fullName>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Contract_End_Date__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Contract_End_Date_60_Days</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Account.Contract_End_Date__c</offsetFromField>
+            <timeLength>-60</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+        <workflowTimeTriggers>
+            <actions>
+                <name>Contract_End_Date_30_Days</name>
+                <type>Alert</type>
+            </actions>
+            <offsetFromField>Account.Contract_End_Date__c</offsetFromField>
+            <timeLength>-30</timeLength>
+            <workflowTimeTriggerUnit>Days</workflowTimeTriggerUnit>
+        </workflowTimeTriggers>
+    </rules>
+    <rules>
+        <fullName>IT Solution Rebranded DE %26 NL %26  CH</fullName>
+        <actions>
+            <name>IT_Solutions_Rebranded</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.IT_Solutions_Rebranded__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>Germany,Netherlands,Switzerland</value>
+        </criteriaItems>
+        <description>Sends email alert to POS Support DE,NL,CH when IT Solutions Rebranded button ticked.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Owner%27s Manager</fullName>
+        <actions>
+            <name>Owner_s_Manager</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Owner_s_Manager__c</field>
+            <operation>notContain</operation>
+            <value>@</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Parent Account Text</fullName>
+        <actions>
+            <name>Parent_Account_Text</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.ParentId</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Sales Owner UK</fullName>
+        <actions>
+            <name>Sales_Owner_GB</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>Owner.UserRole.Name = &quot;Customer Service GB&quot;</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Shop Closed DE%2CNL%2CCH</fullName>
+        <actions>
+            <name>Shop_Closure_POS_DE</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Type</field>
+            <operation>equals</operation>
+            <value>Closed,Lost,Inactive</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Shop</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>Germany,Netherlands,Switzerland</value>
+        </criteriaItems>
+        <description>When a shop is closed an email alert is sent to POS Support DE,POS Support NL,POS Support CH</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Category</fullName>
+        <actions>
+            <name>Update_Category</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Account.Type</field>
+            <operation>equals</operation>
+            <value>Closed,Inactive,Stoplist</value>
+        </criteriaItems>
+        <description>Update the Category field to blank when Type is changed to Inactive, Closed or Stoplist</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

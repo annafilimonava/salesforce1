@@ -1,0 +1,33 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Bonjour </span><span style="color: rgb(0, 0, 0); font-family: Barlow; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">{{{Case.Tourist__c}}}</span><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">,</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Merci pour votre email.</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Pour vous aider dans votre recherche, merci de nous fournir quelques informations compl&eacute;mentaires sur vos achats qui me permettront de v&eacute;rifier la base de donn&eacute;es pour vous.</span><br /> &nbsp;</p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Pays d’achat :</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Nom et pr&eacute;nom fournis sur le bordereau :</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Num&eacute;ro de bordereau (sous le code-barres) :</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Date d’achat :</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">4 derniers chiffres de la carte de cr&eacute;dit fournie :</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Num&eacute;ro de passeport :</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Nom du magasin :</span></p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Montant total TTC :</span><br /> &nbsp;</p> 
+  <p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Cela me permettra d'enqu&ecirc;ter davantage sur votre cas et de vous revenir avec une r&eacute;ponse.</span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Cordialement. </span></p>
+ </body>
+</html>

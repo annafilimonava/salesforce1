@@ -1,0 +1,39 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal" style="text-autospace:none"><span style="font-family:Barlow;
+mso-ansi-language:EN-US">Thank you for your email. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal" style="text-autospace:none"><span style="font-family:Barlow;
+mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal" style="text-autospace:none"><span style="font-family:Barlow;
+mso-ansi-language:EN-US">I have checked our database and unfortunately, we still have not received your Tax Free form {{{Case.Tax_Free_Form__c}}}. As X$X<span style="color:#FF6600">French</span> Tax Free forms are only accepted for X$X<span style="color:#FF6600">6 months </span>after purchase they have now expired and we are not authorized to issue a refund for them anymore. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText">&nbsp;</p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">It is the government who sets in place the rules and regulations around Tax Free refunds and unfortunately, we do not have the permission to overturn or overlook decisions such as timelines or processing guidelines. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">We are very sorry for the inconvenience caused.</span></p>
+ </body>
+</html>

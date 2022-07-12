@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PlanetConnectMobility_Solutions</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+Owning_Country__c = &quot;Italy&quot;, 
+TEXT(Solution__c) = &quot;Planet Connect Mobility&quot;,
+OR( 
+ISBLANK(Till_System__r.Name),
+ISBLANK(Planet_App_Activation_Code__c)
+)
+)</errorConditionFormula>
+    <errorMessage>For Planet Connect Mobility Solutions please complete the Till System field and the Activation Code.</errorMessage>
+</ValidationRule>

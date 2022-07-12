@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Caixa_POS_Support_Case</fullName>
+        <ccEmails>caixabank@planetpayment.com</ccEmails>
+        <description>Caixa POS Support Case</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>nuria.carrillo@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>sara.cherroud@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Notify_Account_Owner_New_Case</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Closed_Alert</fullName>
+        <description>Case Closed Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>daniele.promutico@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Closure</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Closed_Alert_ITBS</fullName>
+        <description>Case Closed Alert ITBS</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ITBS</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Closure</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Due</fullName>
+        <description>Case Due</description>
+        <protected>false</protected>
+        <recipients>
+            <type>owner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Merchant_Service/Case_Due_Date_Email_Alert_GB</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Escalated_2nd_Line</fullName>
+        <description>Case Escalated 2nd Line GB</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>POS_Support_2nd_Line_GB</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Escalation_2nd_Line</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Escalated_2nd_Line_DE</fullName>
+        <description>Case Escalated 2nd Line DE</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>david.strachota@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Escalation_2nd_Line</template>
+    </alerts>
+    <alerts>
+        <fullName>Case_Escalated_2nd_Line_IT</fullName>
+        <description>Case Escalated 2nd Line IT</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>POS_Support_2nd_Line_IT</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Escalation_2nd_Line</template>
+    </alerts>
+    <alerts>
+        <fullName>Escalated_2nd_Line_DE</fullName>
+        <description>Escalated 2nd Line DE</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>david.strachota@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Escalation_2nd_Line</template>
+    </alerts>
+    <alerts>
+        <fullName>Escalated_2nd_Line_ES</fullName>
+        <description>Escalated 2nd Line ES</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>POS_Support_2nd_Line_ES</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Escalation_2nd_Line</template>
+    </alerts>
+    <alerts>
+        <fullName>Escalated_2nd_Line_FR</fullName>
+        <description>Escalated 2nd Line FR</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>alexis.fradelizio@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Escalation_2nd_Line</template>
+    </alerts>
+    <alerts>
+        <fullName>Escalated_2nd_Line_GB</fullName>
+        <description>Escalated 2nd Line GB</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>POS_Support_2nd_Line_GB</recipient>
+            <type>group</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Escalation_2nd_Line</template>
+    </alerts>
+    <alerts>
+        <fullName>Escalated_2nd_Line_IT</fullName>
+        <description>Escalated 2nd Line IT</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>daniele.promutico@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Escalation_2nd_Line</template>
+    </alerts>
+    <alerts>
+        <fullName>Escalated_Tier_2</fullName>
+        <description>Escalated Tier 2</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>karolina.kwiatkowska@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>pawel.bazyl@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Customer_Service/Case_Escalation_Tier_2</template>
+    </alerts>
+    <alerts>
+        <fullName>ITBS_New_Case</fullName>
+        <description>ITBS New Case</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ITBS</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>ITBS_Status_Change</fullName>
+        <description>ITBS Status Change</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ITBS</recipient>
+            <type>caseTeam</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Escalation</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Case_Alert</fullName>
+        <ccEmails>possupport.it@planetpayment.com</ccEmails>
+        <description>New Case Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>possupport.it@planetpayment.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>POS_Support/Email_to_Case_Auto_Response</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Case_Alert1</fullName>
+        <description>New Case Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>daniele.promutico@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Merchant_Service_ES_Case</fullName>
+        <ccEmails>merchantsupport@planetpayment.com</ccEmails>
+        <description>New Merchant Service ES Case</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>Merchant_Service/Notify_Merchant_Services_New_Case</template>
+    </alerts>
+    <alerts>
+        <fullName>New_POS_Case_DE</fullName>
+        <description>New POS Case DE</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>POS_Support_DE</recipient>
+            <type>role</type>
+        </recipients>
+        <recipients>
+            <recipient>ines.zillmann@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jana.coric@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>lara.gottwald@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>New_POS_Case_ES</fullName>
+        <ccEmails>tpvgestion@planetpayment.com</ccEmails>
+        <description>New POS Case ES</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>New_POS_Case_GB</fullName>
+        <ccEmails>possupport.uk@planetpayment.com</ccEmails>
+        <description>New POS Case GB</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>New_POS_Email_to_Case_DE</fullName>
+        <ccEmails>possupport.ce@planetpayment.com</ccEmails>
+        <description>New POS Email-to-Case DE</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jana.coric@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>New_POS_Email_to_Case_JC_LG</fullName>
+        <description>New POS Email-to-Case JC &amp; LG</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>ines.zillmann@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>jana.coric@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>lara.gottwald@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Email_Notification</template>
+    </alerts>
+    <alerts>
+        <fullName>New_Sales_Support_ES_Case</fullName>
+        <ccEmails>sales.supportspain@planetpayment.com</ccEmails>
+        <description>New Sales Support ES Case</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>Merchant_Service/Notify_Sales_Support_New_Case</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_Account_Manager_of_Closed_Case</fullName>
+        <description>Notify Account Manager of Closed Case</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Notify_Account_Owner_Closed_Case</template>
+    </alerts>
+    <alerts>
+        <fullName>Notify_Account_Owner_New_Case</fullName>
+        <description>Notify Account Owner New Case</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Owner_Email_Address__c</field>
+            <type>email</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Notify_Account_Owner_New_Case</template>
+    </alerts>
+    <alerts>
+        <fullName>POS_Case_Closed</fullName>
+        <ccEmails>possupport.it@planetpayment.com</ccEmails>
+        <description>POS Case Closed</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>possupport.it@planetpayment.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>POS_Support/Case_Closure</template>
+    </alerts>
+    <alerts>
+        <fullName>POS_Case_Escalation</fullName>
+        <ccEmails>possupport.it@planetpayment.com</ccEmails>
+        <description>POS Case Escalation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>possupport.it@planetpayment.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>POS_Support/Case_Escalation</template>
+    </alerts>
+    <alerts>
+        <fullName>Salesforce_Support</fullName>
+        <description>Salesforce Support</description>
+        <protected>false</protected>
+        <recipients>
+            <field>SuppliedEmail</field>
+            <type>email</type>
+        </recipients>
+        <senderAddress>salesforce@planetpayment.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>unfiled$public/Salesforce_Support_Auto_Response</template>
+    </alerts>
+    <alerts>
+        <fullName>Status_Change_Alert</fullName>
+        <description>Status Change Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>daniele.promutico@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Case_Escalation</template>
+    </alerts>
+    <alerts>
+        <fullName>Tier_1_Email_Alert</fullName>
+        <description>Tier 1 Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>hilda.griffin@fintrax.com</recipient>
+            <type>user</type>
+        </recipients>
+        <recipients>
+            <recipient>matthew.mcdonagh@fintrax.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Customer_Service/Case_Escalation_Tier_1</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Account_Owner_Email</fullName>
+        <field>Account_Owner_Email_Address__c</field>
+        <formula>Account_Owner_Email__c</formula>
+        <name>Account Owner Email</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approval_Rejected</fullName>
+        <field>Status</field>
+        <literalValue>Approval Rejected</literalValue>
+        <name>Approval Rejected</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Approved</fullName>
+        <field>Status</field>
+        <literalValue>Approved</literalValue>
+        <name>Approved</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Assign_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_GB</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Assign Owner</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Caixa_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Sales_Support_ES</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Caixa Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Owner_DE</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_DE</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Case Owner DE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Owner_ES</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_ES</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Case Owner ES</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Case_Owner_IE</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_IE</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Case Owner IE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Chinese_CS</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Chinese_CS</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Chinese CS</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>DCC_Best_Rate_Guarantee</fullName>
+        <field>OwnerId</field>
+        <lookupValue>DCC_Best_rate_guarantee</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>DCC Best Rate Guarantee</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Escalated_2nd_Line_DE</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_2nd_Line_Support_DE</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Escalated 2nd Line DE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Escalated_2nd_Line_ES</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_2nd_Line_Support_ES</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Escalated 2nd Line ES</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Escalated_2nd_Line_FR</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_2nd_Line_Support_FR</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Escalated 2nd Line FR</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Escalated_2nd_Line_GB</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_2nd_Line_Support_GB</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Escalated 2nd Line GB</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Escalated_2nd_Line_IT</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_2nd_Line_Support_Italy</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Escalated 2nd Line IT</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Escalated_Tier_1</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Tier_1</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Escalated Tier 1</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Escalated_Tier_2</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Tier_2</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Escalated Tier 2</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>French_CS</fullName>
+        <field>OwnerId</field>
+        <lookupValue>French_CS</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>French CS</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Merchant_Services_ES</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Merchant_Services_ES</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Merchant Services ES</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Case_Type</fullName>
+        <field>RecordTypeId</field>
+        <lookupValue>POS_Support</lookupValue>
+        <lookupValueType>RecordType</lookupValueType>
+        <name>POS Case Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Solution_Owner_IT</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_Italy</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Solution Owner IT</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Support_FR</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_FR</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Support FR</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Support_PT</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_PT</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Support PT</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Russian_CS</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Russian_CS</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Russian CS</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Sales_Support_ES</fullName>
+        <field>OwnerId</field>
+        <lookupValue>Sales_Support_ES</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Sales Support ES</name>
+        <notifyAssignee>true</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Change</fullName>
+        <field>Status</field>
+        <literalValue>Awaiting Approval</literalValue>
+        <name>Status Change</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Update_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_GB</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Update Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>WebQueries</fullName>
+        <field>OwnerId</field>
+        <lookupValue>WebQueries</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>WebQueries</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Account Owner Email</fullName>
+        <actions>
+            <name>Account_Owner_Email</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND( RecordType.Name  = &#39;POS Support&#39;, Account_Owner_Email_Address__c  &lt;&gt;  Account_Owner_Email__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Case Due Date Email Alert GB</fullName>
+        <actions>
+            <name>Case_Due</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Due_Date__c</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Status</field>
+            <operation>notEqual</operation>
+            <value>Back to AM,Forwarded to POS,Forwarded to CS,Forwarded to Finance,Closed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.Owner_Role__c</field>
+            <operation>equals</operation>
+            <value>UK</value>
+        </criteriaItems>
+        <description>Notifies Owner of Case if Due Date is Today.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Closed POS Support Case</fullName>
+        <actions>
+            <name>Notify_Account_Manager_of_Closed_Case</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Alerts account owner when Case is closed.</description>
+        <formula>AND(RecordTypeId = &quot;01224000000B9eQ&quot;,  Notify_Account_Owner__c = TRUE,  AccountId &lt;&gt; &quot;&quot;, ISCHANGED(IsClosed), IsClosed = TRUE)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>DCC Best Rate Guarantee</fullName>
+        <actions>
+            <name>DCC_Best_Rate_Guarantee</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>Best Rate</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.SuppliedEmail</field>
+            <operation>equals</operation>
+            <value>noreply@planetpayment.com</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Escalated 2nd Line DE</fullName>
+        <actions>
+            <name>Escalated_2nd_Line_DE</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Escalated_2nd_Line_DE</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(Status), TEXT(Status) = &quot;Escalated 2nd Line Support&quot;,  OR(Owner:User.Country = &quot;Germany&quot;,  Owner:Queue.QueueName = &quot;POS Support DE&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Escalated 2nd Line ES</fullName>
+        <actions>
+            <name>Escalated_2nd_Line_ES</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Escalated_2nd_Line_ES</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(Status), TEXT(Status) = &quot;Escalated 2nd Line Support&quot;,  OR(Owner:User.Country = &quot;Spain&quot;,  Owner:Queue.QueueName = &quot;POS Support ES&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Escalated 2nd Line FR</fullName>
+        <actions>
+            <name>Escalated_2nd_Line_FR</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Escalated_2nd_Line_FR</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(Status), TEXT(Status) = &quot;Escalated 2nd Line Support&quot;,  OR(Owner:User.Country = &quot;France&quot;,  Owner:Queue.QueueName = &quot;POS Support FR&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Escalated 2nd Line GB</fullName>
+        <actions>
+            <name>Escalated_2nd_Line_GB</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Escalated_2nd_Line_GB</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(Status), TEXT(Status) = &quot;Escalated 2nd Line Support&quot;,  OR(Owner:User.Country = &quot;United Kingdom&quot;,  Owner:Queue.QueueName = &quot;POS Support GB&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Escalated 2nd Line IT</fullName>
+        <actions>
+            <name>Escalated_2nd_Line_IT</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Escalated_2nd_Line_IT</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(Status), TEXT(Status) = &quot;Escalated 2nd Line Support&quot;,  OR(Owner:User.Country = &quot;Italy&quot;,  Owner:Queue.QueueName = &quot;POS Support IT&quot;))</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Escalated Tier 1</fullName>
+        <actions>
+            <name>Tier_1_Email_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Escalated_Tier_1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(Status), TEXT(Status) = &quot;Escalated Tier 1&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Escalated Tier 2</fullName>
+        <actions>
+            <name>Escalated_Tier_2</name>
+            <type>Alert</type>
+        </actions>
+        <actions>
+            <name>Escalated_Tier_2</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(Status), TEXT(Status) = &quot;Escalated Tier 2&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>New POS Case ES</fullName>
+        <actions>
+            <name>Case_Owner_ES</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Changes Owner of New Case to POS Support ES - this is needed in addition to case assignment because some users (Ana) create cases using the quick action button on pos solution which doesnt fire the rules</description>
+        <formula>AND($User.Country = &quot;Spain&quot;, RecordType.Name = &quot;POS Support&quot;, OR (NOT(INCLUDES(Account.TF_Current_Provider__c, &quot;Caixa&quot;)), POS_Solution__r.Caixa__c = TRUE))</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>New POS Email-to-Case DE</fullName>
+        <actions>
+            <name>New_POS_Email_to_Case_DE</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email to Case DE</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>New POS Email-to-Case ES</fullName>
+        <actions>
+            <name>New_POS_Case_ES</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email to Case ES</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>New POS Email-to-Case GB</fullName>
+        <actions>
+            <name>New_POS_Case_GB</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email to Case UK</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>New POS Email-to-Case JC %26 LG</fullName>
+        <actions>
+            <name>New_POS_Email_to_Case_JC_LG</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email to Case JC,Email to Case LG</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>New POS Support Case</fullName>
+        <actions>
+            <name>Notify_Account_Owner_New_Case</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Alerts account owner of new case.</description>
+        <formula>AND(ISNEW(),  RecordTypeId = &quot;01224000000B9eQ&quot;,  Notify_Account_Owner__c = TRUE,  AccountId &lt;&gt; &quot;&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Case Closed IT</fullName>
+        <actions>
+            <name>POS_Case_Closed</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Alerts Contact on Case when Case is Closed in Italy</description>
+        <formula>AND(ISCHANGED(Status), RecordType.Name = &quot;POS Support&quot;, TEXT(Account.Owning_Country__c) = &quot;Italy&quot;, TEXT(Status) = &quot;Closed&quot;, Send_Auto_Email__c = TRUE)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Case Escalation IT</fullName>
+        <actions>
+            <name>POS_Case_Escalation</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(Status), RecordType.Name = &quot;POS Support&quot;, TEXT(Account.Owning_Country__c) = &quot;Italy&quot;, TEXT(Status) &lt;&gt; &quot;Closed&quot;, TEXT(Status) &lt;&gt; &quot;New&quot;, Send_Auto_Email__c = TRUE)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Case Type</fullName>
+        <actions>
+            <name>POS_Case_Type</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Origin</field>
+            <operation>equals</operation>
+            <value>Email to Case UK,Email to Case IT,Email to Case IE</value>
+        </criteriaItems>
+        <description>Change case type to POS Support for email to case.</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Support Caixa</fullName>
+        <actions>
+            <name>Caixa_POS_Support_Case</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Sends email alert when owner of a case is changed to POS Support Caixa</description>
+        <formula>AND(ISCHANGED(OwnerId), Owner:Queue.QueueName  = &quot;POS Support Caixa&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Salesforce Support</fullName>
+        <actions>
+            <name>Salesforce_Support</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Auto Response to Salesforce Support tickets</description>
+        <formula>AND(
+RecordType.Name = &quot;Saleforce Support&quot;,
+NOT(SuppliedEmail = &quot;planet@myworkday.com&quot;),
+NOT(SuppliedEmail = &quot;cloudsservices@upsales.com&quot;)
+)</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>WebQueries</fullName>
+        <actions>
+            <name>WebQueries</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Case.Subject</field>
+            <operation>contains</operation>
+            <value>New form submission</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Case.SuppliedEmail</field>
+            <operation>equals</operation>
+            <value>noreply@planetpayment.com</value>
+        </criteriaItems>
+        <description>This workflow is required because the cases are getting generated from a web form and hence the case assignment rules wont fire.  Dont deactivate</description>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+</Workflow>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Acquiring_Solution_Subtotal__c</fullName>
+    <externalId>false</externalId>
+    <formula>Current_AcquirerR__c +  Current_DCC_ProviderR__c + DCC_Service_AvailableR__c +  CUP_PaymentsR__c +  Purchase_Amount_Auto_Transfer_R__c +  CRTR__c +  POS_Connected_Via_Eth_and_or_GPRSR__c +  Alipay_and_WeChat_PayR__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Acquiring Solution Subtotal</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

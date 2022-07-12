@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GDPR_Group_Company__c</fullName>
+    <externalId>false</externalId>
+    <label>GDPR Group Company</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Datatrans</fullName>
+                <default>false</default>
+                <label>Datatrans</label>
+            </value>
+            <value>
+                <fullName>Hoist</fullName>
+                <default>false</default>
+                <label>Hoist</label>
+            </value>
+            <value>
+                <fullName>Planet</fullName>
+                <default>false</default>
+                <label>Planet</label>
+            </value>
+            <value>
+                <fullName>Protel</fullName>
+                <default>false</default>
+                <label>Protel</label>
+            </value>
+            <value>
+                <fullName>Proximis</fullName>
+                <default>false</default>
+                <label>Proximis</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

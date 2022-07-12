@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PA_3rd_Party_Solutions</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Owning_Country__c = &quot;Italy&quot;, TEXT(Solution__c) = &quot;PA 3rd Party&quot;, OR(ISBLANK(Bank_TID__c), ISBLANK(PSP1__r.Name)))</errorConditionFormula>
+    <errorMessage>For PA 3rd Party Solutions please complete the Bank TID and PSP fields.</errorMessage>
+</ValidationRule>

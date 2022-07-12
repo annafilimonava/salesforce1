@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_ID__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Unique ID used for Tax Free merchants.</description>
+    <externalId>true</externalId>
+    <inlineHelpText>HO: 
+2-letter country code + TRS or AX number for HO 
+_____________________________
+Store: 
+2-letter country code + S + TRS or AX number for Shops + S for Single Sale + P for PTF</inlineHelpText>
+    <label>Account ID</label>
+    <length>64</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

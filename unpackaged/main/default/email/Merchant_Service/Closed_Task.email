@@ -1,0 +1,1 @@
+<p>The Task, {!Task.Subject}, has been closed by {!Task.LastModifiedBy}.  Click here to see further details {!Task.Link}.

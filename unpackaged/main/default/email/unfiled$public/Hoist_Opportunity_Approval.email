@@ -1,0 +1,13 @@
+<font face="arial" size=2> 
+<br>
+The Stage on Hoist Opportunity, {!Opportunity.Name}, has heen moved to {!Opportunity.StageName}.<br>
+<br>
+Account Name - {!Opportunity.Account}<br>
+<br>
+Opportunity Owner - {!Opportunity.OwnerFullName}<br>
+<br>
+Total Opportunity Value - {!Opportunity.Total_Opportunity_Value__c}<br>
+<br>
+Click on the link below for more details.<br>
+<br>
+{!Opportunity.Link}

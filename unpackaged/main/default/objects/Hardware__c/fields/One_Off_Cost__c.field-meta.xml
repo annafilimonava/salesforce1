@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>One_Off_Cost__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+    ISNULL(Sale_Price__c),  
+    Terminal_PED_Docking_unit_per_device__c +  Terminal_PED_Purchase_unit_per_device__c +  P2PE_license_fee_per_device__c + Software_license_fee_per_device__c + Terminal_PED_Set_up_fee_per_device__c + Set_up_fee_per_SIM__c, 
+    Terminal_PED_Docking_unit_per_device__c +  Terminal_PED_Purchase_unit_per_device__c +  P2PE_license_fee_per_device__c + Software_license_fee_per_device__c + Terminal_PED_Set_up_fee_per_device__c + Set_up_fee_per_SIM__c + Sale_Price__c
+)  
+* 
+Quantity__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>One Off Cost</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

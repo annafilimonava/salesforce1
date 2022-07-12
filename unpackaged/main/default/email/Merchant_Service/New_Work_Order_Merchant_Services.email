@@ -1,0 +1,8 @@
+<font face="arial" size=2> 
+Dear Merchant Services,<p>
+
+A new Work Order for has been created for {!WorkOrder.Account} with a due date of {!WorkOrder.Due_Date__c}.<p>
+
+Click on the below link to go directly to the Work Order.<p>
+
+{!WorkOrder.Link}

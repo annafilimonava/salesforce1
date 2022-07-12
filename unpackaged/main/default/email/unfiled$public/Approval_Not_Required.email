@@ -1,0 +1,3 @@
+<font face="arial"><font size=2><p>The opportunity with a value of {!Opportunity.Opportunity_Value__c} created by {!Opportunity.CreatedBy} does not require approval because the NC Per Form is {!Opportunity.TF_NC_Per_Form__c} and the Rebate % is {!Opportunity.TF_Rebate__c}.</p>
+
+<p>You may view the record by clicking here ->{!Opportunity.Link}</p>

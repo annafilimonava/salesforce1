@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Standard_TFF_Compact_Layout</fullName>
+    <fields>Country_Of_Purchase__c</fields>
+    <fields>Purchase_Date__c</fields>
+    <fields>Sales_Amount_Number__c</fields>
+    <fields>Tourist__c</fields>
+    <fields>Account_Shop__c</fields>
+    <label>Standard TFF Compact Layout</label>
+</CompactLayout>

@@ -1,0 +1,10 @@
+<font face="arial" size=2>
+<b>***Notification of Shop Closure***</b><br>
+<br>
+Dear POS Support,<br>
+<br>
+The shop, {!Account.Account_Name_ID__c} has had the Type changed to {!Account.Type} and may have POS Solutions that need to be removed and/or closed.<br>
+<br>
+Please click on the link below to go to the record. <br>
+<br>
+{!Account.Link}

@@ -1,0 +1,19 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;color:black">Dear {{{Case.Tourist__c}}}, </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;color:black"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">Thank you for your email.</span><span lang="EN-IE" style="font-family:Barlow;
+mso-fareast-font-family:Verdana;mso-bidi-font-family:&quot;Times New Roman&quot;;
+color:black"> </span><span lang="EN-IE" style="font-family:Barlow">I have checked our database and have found no record of your Tax Free form.</span><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;font-family:Barlow;color:black"> Can you please check the number again or send me a scanned copy of your Tax Free form and I will check it for you?</span><span lang="EN-IE" style="font-family:
+Barlow;mso-fareast-font-family:Verdana;mso-bidi-font-family:&quot;Times New Roman&quot;;
+color:black"> </span></p> 
+  <p class="MsoNormal" style="tab-stops:147.35pt"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;font-family:Barlow;color:black"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;color:black">In the meantime, if we can be of any further assistance please do not hesitate to contact us.</span></p>
+ </body>
+</html>

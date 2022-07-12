@@ -1,0 +1,14 @@
+<p class=MsoPlainText><span style='font-size:11.0pt;font-family:"Calibri","sans-serif"'>
+<p>
+<p>
+Dear {!Case.Change_Request_Approver__c},<br>
+<br>
+The following request has been made that requires approval.<br>
+<br>
+Subject: {!Case.Subject}<br>
+Case Type: {!Case.Type}<br>
+Case Reason: {!Case.Case_Reason__c}<br>
+Requested By: {!Case.Salesforce_User__c}<br>
+Due Date: {!Case.Due_Date__c}<br>
+<br>
+To see further details please click here. {!Case.Link}<br>

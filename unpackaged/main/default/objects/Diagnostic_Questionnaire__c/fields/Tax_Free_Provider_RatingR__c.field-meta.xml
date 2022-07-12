@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Free_Provider_RatingR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Tax_Free_Provider_Rating__c) = &quot;Excellent&quot;, 5,
+IF(TEXT(Tax_Free_Provider_Rating__c) = &quot;Good&quot;, 4,
+IF(TEXT(Tax_Free_Provider_Rating__c) = &quot;Average&quot;, 3,
+IF(TEXT(Tax_Free_Provider_Rating__c) = &quot;Below Average&quot;, 2,
+IF(TEXT(Tax_Free_Provider_Rating__c) = &quot;Poor&quot;, 1, 0)))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tax Free Provider RatingR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

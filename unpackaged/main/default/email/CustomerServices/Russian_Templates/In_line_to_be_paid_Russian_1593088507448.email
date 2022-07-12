@@ -1,0 +1,12 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">Добрый день,<br />
+<br />
+Спасибо за Ваше письмо.<br />
+<br />
+Ваша форма такс фри {{{Case.Tax_Free_Form_Id__c}}}, была успешно обработана и возврат будет осуществлен на указанную кредитную карту&nbsp;{{{Case.Credit_Card_Number__c}}} в течении <span style="color:#d35400;">X$Xмая&nbsp;</span>месяца.&nbsp;<br />
+<br />
+С уважением,
+</body></html>

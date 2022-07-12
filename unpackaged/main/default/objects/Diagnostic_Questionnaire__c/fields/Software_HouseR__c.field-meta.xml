@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Software_HouseR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Software_house__c) = &quot;Cegid&quot;, 1,
+IF(TEXT(Software_house__c) = &quot;Oracle&quot;, 2,
+IF(TEXT(Software_house__c) = &quot;Wincor&quot;, 3,
+IF(TEXT(Software_house__c) = &quot;Extenda&quot;, 3,
+IF(TEXT(Software_house__c) = &quot;Aptos&quot;, 3,
+IF(TEXT(Software_house__c) = &quot;Other&quot;, 5,
+IF(TEXT(Software_house__c) = &quot;None&quot;, 1, 0)))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Software HouseR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

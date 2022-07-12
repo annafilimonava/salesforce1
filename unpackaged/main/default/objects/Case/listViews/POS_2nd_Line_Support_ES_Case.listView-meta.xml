@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_2nd_Line_Support_ES_Case</fullName>
+    <columns>CASES.CASE_NUMBER</columns>
+    <columns>Solution__c</columns>
+    <columns>NAME</columns>
+    <columns>CASES.SUBJECT</columns>
+    <columns>CASES.STATUS</columns>
+    <columns>JIRA_Status__c</columns>
+    <columns>CASES.PRIORITY</columns>
+    <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>CASES.LAST_UPDATE_DATE_ONLY</columns>
+    <filterScope>Queue</filterScope>
+    <label>POS 2nd Line Support ES</label>
+    <queue>POS_2nd_Line_Support_ES</queue>
+    <sharedTo>
+        <role>POS_Support_ES</role>
+        <role>POS_Support_Management</role>
+        <role>South_west_Europe_Management</role>
+        <role>South_west_Europe_Marketing</role>
+        <role>Spain_International_Accounts</role>
+        <role>Spain_Management</role>
+        <role>Spain_National_Accounts</role>
+        <role>Spain_Sales_Support</role>
+    </sharedTo>
+</ListView>

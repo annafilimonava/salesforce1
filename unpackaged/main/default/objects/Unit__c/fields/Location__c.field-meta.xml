@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Location__c</fullName>
+    <defaultValue>&#39;In Transit to Planet&#39;</defaultValue>
+    <externalId>false</externalId>
+    <label>Location</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EIT UK</fullName>
+                <default>false</default>
+                <label>EIT UK</label>
+            </value>
+            <value>
+                <fullName>Planet Luxembourg</fullName>
+                <default>false</default>
+                <label>Planet Luxembourg</label>
+            </value>
+            <value>
+                <fullName>In Store</fullName>
+                <default>false</default>
+                <label>In Store</label>
+            </value>
+            <value>
+                <fullName>Planet Redhill</fullName>
+                <default>false</default>
+                <label>Planet Redhill</label>
+            </value>
+            <value>
+                <fullName>Planet Twickenham</fullName>
+                <default>false</default>
+                <label>Planet Twickenham</label>
+            </value>
+            <value>
+                <fullName>Worldline</fullName>
+                <default>false</default>
+                <label>Worldline</label>
+            </value>
+            <value>
+                <fullName>Repair – PAX</fullName>
+                <default>false</default>
+                <label>Repair – PAX</label>
+            </value>
+            <value>
+                <fullName>Repair – Ingenico</fullName>
+                <default>false</default>
+                <label>Repair – Ingenico</label>
+            </value>
+            <value>
+                <fullName>Repair – Worldline</fullName>
+                <default>false</default>
+                <label>Repair – Worldline</label>
+            </value>
+            <value>
+                <fullName>In Transit to Planet</fullName>
+                <default>true</default>
+                <label>In Transit to Planet</label>
+            </value>
+            <value>
+                <fullName>In Transit to Store</fullName>
+                <default>false</default>
+                <label>In Transit to Store</label>
+            </value>
+            <value>
+                <fullName>Celestra UK</fullName>
+                <default>false</default>
+                <label>Celestra UK</label>
+            </value>
+            <value>
+                <fullName>Celestra Germany</fullName>
+                <default>false</default>
+                <label>Celestra Germany</label>
+            </value>
+            <value>
+                <fullName>Barron McCann UK</fullName>
+                <default>false</default>
+                <label>Barron McCann UK</label>
+            </value>
+            <value>
+                <fullName>Barron McCann Germany</fullName>
+                <default>false</default>
+                <label>Barron McCann Germany</label>
+            </value>
+            <value>
+                <fullName>In Transit To Repair</fullName>
+                <default>false</default>
+                <label>In Transit To Repair</label>
+            </value>
+            <value>
+                <fullName>Whitbread Lab</fullName>
+                <default>false</default>
+                <label>Whitbread Lab</label>
+            </value>
+            <value>
+                <fullName>Planet Chicago</fullName>
+                <default>false</default>
+                <label>Planet Chicago</label>
+            </value>
+            <value>
+                <fullName>CDE US</fullName>
+                <default>false</default>
+                <label>CDE US</label>
+            </value>
+            <value>
+                <fullName>Italy</fullName>
+                <default>false</default>
+                <label>Italy</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

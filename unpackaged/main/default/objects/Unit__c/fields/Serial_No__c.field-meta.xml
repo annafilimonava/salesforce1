@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Serial_No__c</fullName>
+    <description>/lightning/r/Unit__c/a047a00000Ag7eaAAB/view</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;/lightning/r/&quot;&amp; CASESAFEID(Id) &amp;&quot;/view&quot; ,  Serial_Number__c  , &quot;_self&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Serial No</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

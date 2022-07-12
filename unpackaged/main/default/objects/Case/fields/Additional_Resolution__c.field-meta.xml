@@ -1,0 +1,675 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Additional_Resolution__c</fullName>
+    <externalId>false</externalId>
+    <label>Additional Resolution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Resolution__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>12-16 Weeks Advice</fullName>
+                <default>false</default>
+                <label>12-16 Weeks Advice</label>
+            </value>
+            <value>
+                <fullName>6-8 Weeks Advice</fullName>
+                <default>false</default>
+                <label>6-8 Weeks Advice</label>
+            </value>
+            <value>
+                <fullName>Account Currency Confirmation Requested</fullName>
+                <default>false</default>
+                <label>Account Currency Confirmation Requested</label>
+            </value>
+            <value>
+                <fullName>Additional Information Provided</fullName>
+                <default>false</default>
+                <label>Additional Information Provided</label>
+            </value>
+            <value>
+                <fullName>Advice to Contact the Store</fullName>
+                <default>false</default>
+                <label>Advice to Contact the Store</label>
+            </value>
+            <value>
+                <fullName>ARN Provided</fullName>
+                <default>false</default>
+                <label>ARN Provided</label>
+            </value>
+            <value>
+                <fullName>Case escalated to customs</fullName>
+                <default>false</default>
+                <label>Case escalated to customs</label>
+            </value>
+            <value>
+                <fullName>Case Escalated to PTF Queries for Investigation</fullName>
+                <default>false</default>
+                <label>Case Escalated to PTF Queries for Investigation</label>
+            </value>
+            <value>
+                <fullName>Case Escalated to Refund Network Manager</fullName>
+                <default>false</default>
+                <label>Case Escalated to Refund Network Manager</label>
+            </value>
+            <value>
+                <fullName>Case Forwarded to Finland</fullName>
+                <default>false</default>
+                <label>Case Forwarded to Finland</label>
+            </value>
+            <value>
+                <fullName>Case Forwarded to Turkey</fullName>
+                <default>false</default>
+                <label>Case Forwarded to Turkey</label>
+            </value>
+            <value>
+                <fullName>Case Forwarded to UAE</fullName>
+                <default>false</default>
+                <label>Case Forwarded to UAE</label>
+            </value>
+            <value>
+                <fullName>Cash Dispute</fullName>
+                <default>false</default>
+                <label>Cash Dispute</label>
+            </value>
+            <value>
+                <fullName>Cash Refund Airport/City Center/TOPOS - No P2</fullName>
+                <default>false</default>
+                <label>Cash Refund Airport/City Center/TOPOS - No P2</label>
+            </value>
+            <value>
+                <fullName>Cash Refund Airport/City Center/TOPOS - P2 received</fullName>
+                <default>false</default>
+                <label>Cash Refund Airport/City Center/TOPOS - P2 received</label>
+            </value>
+            <value>
+                <fullName>Cheque/Prepaid Card Cancelation Requested from PTF Queries</fullName>
+                <default>false</default>
+                <label>Cheque/Prepaid Card Cancelation Requested from PTF Queries</label>
+            </value>
+            <value>
+                <fullName>Cheque/Prepaid Card was Sent to Customer Confirmation</fullName>
+                <default>false</default>
+                <label>Cheque/Prepaid Card was Sent to Customer Confirmation</label>
+            </value>
+            <value>
+                <fullName>CIA</fullName>
+                <default>false</default>
+                <label>CIA</label>
+            </value>
+            <value>
+                <fullName>Copy of Stamped Voucher Requested</fullName>
+                <default>false</default>
+                <label>Copy of Stamped Voucher Requested</label>
+            </value>
+            <value>
+                <fullName>Credit Card Confirmation Requested</fullName>
+                <default>false</default>
+                <label>Credit Card Confirmation Requested</label>
+            </value>
+            <value>
+                <fullName>Customs Details Provided</fullName>
+                <default>false</default>
+                <label>Customs Details Provided</label>
+            </value>
+            <value>
+                <fullName>Customs Office Complaint</fullName>
+                <default>false</default>
+                <label>Customs Office Complaint</label>
+            </value>
+            <value>
+                <fullName>Debit Confirmation Due to no Customs Stamp</fullName>
+                <default>false</default>
+                <label>Debit Confirmation Due to no Customs Stamp</label>
+            </value>
+            <value>
+                <fullName>Debit Confirmation Due to No Receipt</fullName>
+                <default>false</default>
+                <label>Debit Confirmation Due to No Receipt</label>
+            </value>
+            <value>
+                <fullName>Debit Confirmation Due to no Tax Free Form</fullName>
+                <default>false</default>
+                <label>Debit Confirmation Due to no Tax Free Form</label>
+            </value>
+            <value>
+                <fullName>Embassy Procedure Advised</fullName>
+                <default>false</default>
+                <label>Embassy Procedure Advised</label>
+            </value>
+            <value>
+                <fullName>Goodwill</fullName>
+                <default>false</default>
+                <label>Goodwill</label>
+            </value>
+            <value>
+                <fullName>Information About Alternative Tax Free Company Provided</fullName>
+                <default>false</default>
+                <label>Information About Alternative Tax Free Company Provided</label>
+            </value>
+            <value>
+                <fullName>Information About Currency and Exchange Rate Provided</fullName>
+                <default>false</default>
+                <label>Information About Currency and Exchange Rate Provided</label>
+            </value>
+            <value>
+                <fullName>Information About Difference Provided</fullName>
+                <default>false</default>
+                <label>Information About Difference Provided</label>
+            </value>
+            <value>
+                <fullName>Information About Fees Provided</fullName>
+                <default>false</default>
+                <label>Information About Fees Provided</label>
+            </value>
+            <value>
+                <fullName>Information from Customs Web-page, Confirming &quot;No Customs Stamp&quot; Provided</fullName>
+                <default>false</default>
+                <label>Information from Customs Web-page, Confirming &quot;No Customs Stamp&quot; Provided</label>
+            </value>
+            <value>
+                <fullName>In Line to be Paid Information</fullName>
+                <default>false</default>
+                <label>In Line to be Paid Information</label>
+            </value>
+            <value>
+                <fullName>Internal Investigation</fullName>
+                <default>false</default>
+                <label>Internal Investigation</label>
+            </value>
+            <value>
+                <fullName>Invalid voucher sent back</fullName>
+                <default>false</default>
+                <label>Invalid voucher sent back</label>
+            </value>
+            <value>
+                <fullName>Marked as Priority</fullName>
+                <default>false</default>
+                <label>Marked as Priority</label>
+            </value>
+            <value>
+                <fullName>No Customs Stamp Information</fullName>
+                <default>false</default>
+                <label>No Customs Stamp Information</label>
+            </value>
+            <value>
+                <fullName>No Receipt Information</fullName>
+                <default>false</default>
+                <label>No Receipt Information</label>
+            </value>
+            <value>
+                <fullName>Out of 8 Weeks Advice</fullName>
+                <default>false</default>
+                <label>Out of 8 Weeks Advice</label>
+            </value>
+            <value>
+                <fullName>Posting Address Provided</fullName>
+                <default>false</default>
+                <label>Posting Address Provided</label>
+            </value>
+            <value>
+                <fullName>Put on Missing Voucher Log</fullName>
+                <default>false</default>
+                <label>Put on Missing Voucher Log</label>
+            </value>
+            <value>
+                <fullName>Recredit - In Line to be Paid Confirmation</fullName>
+                <default>false</default>
+                <label>Recredit - In Line to be Paid Confirmation</label>
+            </value>
+            <value>
+                <fullName>Recredit Successful Confirmation</fullName>
+                <default>false</default>
+                <label>Recredit Successful Confirmation</label>
+            </value>
+            <value>
+                <fullName>Refunding Details Requested</fullName>
+                <default>false</default>
+                <label>Refunding Details Requested</label>
+            </value>
+            <value>
+                <fullName>Refunding Not Possible Confirmation</fullName>
+                <default>false</default>
+                <label>Refunding Not Possible Confirmation</label>
+            </value>
+            <value>
+                <fullName>Refund Method Updated</fullName>
+                <default>false</default>
+                <label>Refund Method Updated</label>
+            </value>
+            <value>
+                <fullName>Refund Not Possible Due to Missing Invoice Payment</fullName>
+                <default>false</default>
+                <label>Refund Not Possible Due to Missing Invoice Payment</label>
+            </value>
+            <value>
+                <fullName>Refund Point Complaint</fullName>
+                <default>false</default>
+                <label>Refund Point Complaint</label>
+            </value>
+            <value>
+                <fullName>Refund Point Details Provided</fullName>
+                <default>false</default>
+                <label>Refund Point Details Provided</label>
+            </value>
+            <value>
+                <fullName>Refund Successful Confirmation</fullName>
+                <default>false</default>
+                <label>Refund Successful Confirmation</label>
+            </value>
+            <value>
+                <fullName>Scan/photo of Receipt Requested</fullName>
+                <default>false</default>
+                <label>Scan/photo of Receipt Requested</label>
+            </value>
+            <value>
+                <fullName>Scan of Voucher, Confirming &quot;No Customs Stamp&quot; Provided</fullName>
+                <default>false</default>
+                <label>Scan of Voucher, Confirming &quot;No Customs Stamp&quot; Provided</label>
+            </value>
+            <value>
+                <fullName>Scan of Voucher, Confirming &quot;No Receipt&quot; Provided</fullName>
+                <default>false</default>
+                <label>Scan of Voucher, Confirming &quot;No Receipt&quot; Provided</label>
+            </value>
+            <value>
+                <fullName>Tax Free Process Information</fullName>
+                <default>false</default>
+                <label>Tax Free Process Information</label>
+            </value>
+            <value>
+                <fullName>Tracking Number Investigation</fullName>
+                <default>false</default>
+                <label>Tracking Number Investigation</label>
+            </value>
+            <value>
+                <fullName>Voucher Status Confirmation</fullName>
+                <default>false</default>
+                <label>Voucher Status Confirmation</label>
+            </value>
+            <value>
+                <fullName>Case escalated to French Technical support team</fullName>
+                <default>false</default>
+                <label>Case escalated to French Technical support team</label>
+            </value>
+            <value>
+                <fullName>Debit</fullName>
+                <default>false</default>
+                <label>Debit</label>
+            </value>
+            <value>
+                <fullName>Debit confirmation</fullName>
+                <default>false</default>
+                <label>Debit confirmation</label>
+            </value>
+            <value>
+                <fullName>Details sent to Sales team</fullName>
+                <default>false</default>
+                <label>Details sent to Sales team</label>
+            </value>
+            <value>
+                <fullName>FNAC/LBM request</fullName>
+                <default>false</default>
+                <label>FNAC/LBM request</label>
+            </value>
+            <value>
+                <fullName>Further details requested</fullName>
+                <default>false</default>
+                <label>Further details requested</label>
+            </value>
+            <value>
+                <fullName>General Information</fullName>
+                <default>false</default>
+                <label>General Information</label>
+            </value>
+            <value>
+                <fullName>Investigate</fullName>
+                <default>false</default>
+                <label>Investigate</label>
+            </value>
+            <value>
+                <fullName>Order details sent</fullName>
+                <default>false</default>
+                <label>Order details sent</label>
+            </value>
+            <value>
+                <fullName>Paid and Positive</fullName>
+                <default>false</default>
+                <label>Paid and Positive</label>
+            </value>
+            <value>
+                <fullName>Password reset</fullName>
+                <default>false</default>
+                <label>Password reset</label>
+            </value>
+            <value>
+                <fullName>Payment Issues</fullName>
+                <default>false</default>
+                <label>Payment Issues</label>
+            </value>
+            <value>
+                <fullName>Refund - ARN provided</fullName>
+                <default>false</default>
+                <label>Refund - ARN provided</label>
+            </value>
+            <value>
+                <fullName>Tourist request</fullName>
+                <default>false</default>
+                <label>Tourist request</label>
+            </value>
+            <value>
+                <fullName>Void request denied</fullName>
+                <default>false</default>
+                <label>Void request denied</label>
+            </value>
+            <value>
+                <fullName>Voucher Issues</fullName>
+                <default>false</default>
+                <label>Voucher Issues</label>
+            </value>
+            <value>
+                <fullName>Voucher Voided</fullName>
+                <default>false</default>
+                <label>Voucher Voided</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Case escalated to French Technical support team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Debit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Debit confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Details sent to Sales team</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>FNAC/LBM request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Further details requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>General Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Investigate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Order details sent</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Paid and Positive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Password reset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Payment Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Refund - ARN provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Tourist request</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Void request denied</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Voucher Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Others</controllingFieldValue>
+            <valueName>Voucher Voided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>12-16 Weeks Advice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>6-8 Weeks Advice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Account Currency Confirmation Requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Additional Information Provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Advice to Contact the Store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>ARN Provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Case escalated to customs</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Case Escalated to PTF Queries for Investigation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Case Escalated to Refund Network Manager</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Case Forwarded to Finland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Case Forwarded to Turkey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Case Forwarded to UAE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Cash Dispute</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Cash Refund Airport/City Center/TOPOS - No P2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Cash Refund Airport/City Center/TOPOS - P2 received</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Cheque/Prepaid Card Cancelation Requested from PTF Queries</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Cheque/Prepaid Card was Sent to Customer Confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>CIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Copy of Stamped Voucher Requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Credit Card Confirmation Requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Customs Details Provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Customs Office Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Debit Confirmation Due to no Customs Stamp</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Debit Confirmation Due to No Receipt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Debit Confirmation Due to no Tax Free Form</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Embassy Procedure Advised</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Goodwill</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Information About Alternative Tax Free Company Provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Information About Currency and Exchange Rate Provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Information About Difference Provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Information About Fees Provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Information from Customs Web-page, Confirming &quot;No Customs Stamp&quot; Provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>In Line to be Paid Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Internal Investigation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Invalid voucher sent back</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Marked as Priority</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>No Customs Stamp Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>No Receipt Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Out of 8 Weeks Advice</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Posting Address Provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Put on Missing Voucher Log</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Recredit - In Line to be Paid Confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Recredit Successful Confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Refunding Details Requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Refunding Not Possible Confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Refund Method Updated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Refund Not Possible Due to Missing Invoice Payment</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Refund Point Complaint</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Refund Point Details Provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Refund Successful Confirmation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Scan/photo of Receipt Requested</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Scan of Voucher, Confirming &quot;No Customs Stamp&quot; Provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Scan of Voucher, Confirming &quot;No Receipt&quot; Provided</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Tax Free Process Information</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Tracking Number Investigation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>None of the above</controllingFieldValue>
+            <valueName>Voucher Status Confirmation</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

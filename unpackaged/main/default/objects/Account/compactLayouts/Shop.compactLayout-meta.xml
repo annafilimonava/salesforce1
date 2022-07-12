@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Shop</fullName>
+    <fields>Name</fields>
+    <fields>OwnerId</fields>
+    <fields>RecordTypeId</fields>
+    <fields>ParentId</fields>
+    <fields>BillingAddress</fields>
+    <fields>Account_ID__c</fields>
+    <fields>Type</fields>
+    <label>Shop</label>
+</CompactLayout>

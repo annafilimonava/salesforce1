@@ -1,0 +1,24 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  Lieber Kunde, 
+  <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
+  <br /> Vielen Dank f&uuml;r Ihre Email. &nbsp; 
+  <br /> 
+  <br /> Ich habe unsere Datenbank &uuml;berpr&uuml;ft und Sie haben Ihre R&uuml;ckerstattung bereits in bar am Flughafen/bei einem City Centre Ort &gt; 
+  <span style="color:#e74c3c;">(Name)</span> erhalten. 
+  <br /> 
+  <br /> #If P2 added# 
+  <br /> Ich kann best&auml;tigen, dass Ihr Tax Free Formular angekommen und erfolgreich bearbeitet wurde und keine weiteren Schritte von Ihnen erforderlich sind. 
+  <br /> 
+  <br /> #If no P2# 
+  <br /> Bis heute haben wir Ihr Tax Free Formular nicht erhalten, deswegen stellen Sie bitte daher sicher, dass Ihr Tax Free Formular innerhalb von 21 Tagen abgestempelt und an uns zur&uuml;ckgesandt wird, um eine Abbuchung der ausgezahlten R&uuml;ckerstattung von Ihrem Konto zu vermeiden. 
+  <br /> 
+  <br /> Bei weiteren Fragen stehe ich gerne zur Verf&uuml;gung. 
+  <br /> 
+  <br /> Herzliche Gr&uuml;&szlig;e, 
+  <br /> &nbsp;
+ </body>
+</html>

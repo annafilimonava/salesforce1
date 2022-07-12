@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Reason_for_Win__c</fullName>
+    <externalId>false</externalId>
+    <label>Reason for Win</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+                <label>Pricing</label>
+            </value>
+            <value>
+                <fullName>Technology</fullName>
+                <default>false</default>
+                <label>Technology</label>
+            </value>
+            <value>
+                <fullName>Marketing Support</fullName>
+                <default>false</default>
+                <label>Marketing Support</label>
+            </value>
+            <value>
+                <fullName>Analytics Support</fullName>
+                <default>false</default>
+                <label>Analytics Support</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Lack of integration to POS</fullName>
+                <default>false</default>
+                <label>Lack of integration to POS</label>
+            </value>
+            <value>
+                <fullName>Bound to contract w existing Payment</fullName>
+                <default>false</default>
+                <label>Bound to contract w existing Payment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

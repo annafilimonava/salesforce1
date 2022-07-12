@@ -1,0 +1,38 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p style="text-autospace:none"><span style="font-size:11.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p style="text-autospace:none"><span style="font-size:11.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">I am really sorry to hear of your disappointment with the exchange rates. 
+    <o:p></o:p></span></p> 
+  <p style="text-autospace:none"><span style="font-size:11.0pt;font-family:Barlow;
+mso-ansi-language:EN-US">Planet operates a Foreign Exchange Policy for its customers when processing certain refunds. For a refund in a different currency than the currency in which the purchase occurred, the following is applied:&nbsp; 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal" style="margin-top:2.0pt;margin-right:0cm;margin-bottom:2.0pt;
+margin-left:33.0pt;text-indent:-18.0pt;background:white;text-autospace:none"><font face="Barlow">&middot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The current 'we sell'&nbsp;rates of a recognized&nbsp;European Retail Bank plus a markup of between 3-5%.&nbsp; 
+    <o:p></o:p></font></p> 
+  <p class="MsoNormal" style="text-autospace:none"><span style="font-family:Barlow;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language:
+PL">&nbsp; 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal" style="text-autospace:none"><font face="Barlow">This information is included on our web-page&nbsp;under our </font><a href="https://www.planetpayment.com/en/terms-and-conditions/"><span style="font-family:Barlow;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language:
+PL">Terms and Conditions</span></a><span style="font-family:Barlow;
+mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:EN-US;mso-fareast-language:
+PL">. 
+    <o:p></o:p></span><span lang="EN-GB" style="font-family:Barlow;mso-bidi-font-family:&quot;Segoe UI&quot;;
+mso-ansi-language:EN-GB"> 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal" style="text-autospace:none"><span lang="EN-IE" style="font-family:Barlow;mso-bidi-font-family:&quot;Segoe UI&quot;"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:black">If we can be of any </span><span lang="EN-IE" style="font-family:Barlow">other<span style="color:black"> assistance, please do not hesitate to contact us.</span></span></p>
+ </body>
+</html>

@@ -1,0 +1,35 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US">Thank you for your email. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US">As your matter requires some more clarification, please bear with us as I forward your email to our specialized department for investigation. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span style="font-size:11.0pt;font-family:Barlow;
+color:windowtext;mso-ansi-language:EN-US">Our team will contact you as soon as they have more information regarding your query. In the meantime, thank you for your continued patience.</span></p>
+ </body>
+</html>

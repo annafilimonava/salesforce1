@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fieldUpdates>
+        <fullName>Head_Office_Experience</fullName>
+        <field>Head_Office_Experience_ScoreR__c</field>
+        <formula>Head_Office_Experience_Score__c</formula>
+        <name>Head Office Experience</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Merchant_Diagnostic_Name</fullName>
+        <field>Name</field>
+        <formula>Account__r.Name &amp; &quot; &quot; &amp; TEXT(MONTH(DATEVALUE(NOW()))) &amp; &quot;/&quot; &amp; TEXT(YEAR(DATEVALUE(NOW())))</formula>
+        <name>Merchant Diagnostic Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Shop_Management_Experience</fullName>
+        <field>Shop_Management_Experience_ScoreR__c</field>
+        <formula>Shop_Management_Experience_Score__c</formula>
+        <name>Shop Management Experience</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Shop_Staff_Experience</fullName>
+        <field>Shop_Staff_Experience_ScoreR__c</field>
+        <formula>Shop_Staff_Experience_Score__c</formula>
+        <name>Shop Staff Experience</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Merchant Diagnostic Name</fullName>
+        <actions>
+            <name>Merchant_Diagnostic_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Merchant_Diagnostic__c.CreatedById</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Merchant Diagnostic Score Update</fullName>
+        <actions>
+            <name>Head_Office_Experience</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Shop_Management_Experience</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <actions>
+            <name>Shop_Staff_Experience</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>Merchant_Diagnostic__c.CreatedDate</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

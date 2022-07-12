@@ -1,0 +1,10 @@
+*** CASE ESCALATION ALERT ***  
+
+The following case has been escalated to Tier 2:  
+
+Case:  {!Case.CaseNumber}:  {!Case.Subject} 
+Type:  {!Case.Type}  
+Reason: {!Case.Case_Reason__c}
+Priority: {!Case.Priority}
+
+Click on the link to access the case:  {!Case.Link}

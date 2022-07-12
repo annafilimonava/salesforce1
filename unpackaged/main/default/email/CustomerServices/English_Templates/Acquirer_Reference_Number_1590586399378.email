@@ -1,0 +1,31 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Thank you for contacting Planet. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:Calibri">The ARN stands for &quot;Acquirer Reference Number&quot;. It is a unique number that tags a credit card transaction from the merchants bank to the cardholder's bank.<span style="mso-spacerun:yes">&nbsp; </span>This is a reference number of your transaction. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:Calibri"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:Calibri">Kindly give the ARN to your credit cards issuer and they will help you trace the money.</span></p>
+ </body>
+</html>

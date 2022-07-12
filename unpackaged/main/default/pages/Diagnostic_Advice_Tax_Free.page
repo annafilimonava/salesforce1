@@ -1,0 +1,416 @@
+<apex:page standardController="Diagnostic__c" applyBodyTag="false" renderAs="pdf">
+
+<apex:form >
+          
+    <apex:outputPanel styleClass="summary">
+        
+     <apex:outputText rendered="{!Diagnostic__c.Tax_Free_Solution__c == 'Fully Integrated in Till'}">
+                                                <b><u>Tax Free Solution - Fully Integrated in Till</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                What Features Are Missing (CRT, Alipay Instant, TOPOS, VAT OFF, Passport Scanner, P1 Reporting, Data Capture with Reporting, Void, 
+                                                Consolidation, Digital Tax Free)?<br></br>
+                                                <b>Solution</b><br></br>
+                                                Pi/Pii<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Card Recognition with 40% plus increase in Issue Rate<br></br>
+                                                2. Significant increase in Net Profit Rebate through increased Issue Rate<br></br>
+                                                3. Increased Issue Rate even without CRT as it is a standard till solution accessible to all users at all tills<br></br> 
+                                                4. Highly compliant voucher with line items and customer details printed<br></br> 
+                                                5. Higher Match Rates through higher quality voucher<br></br>
+                                                6. Part 1 and 2 reporting with Product / SKU reporting level<br></br>
+                                                7. CRM Auto Fill and Passport Reader Capable<br></br>
+                                                8. Full range of Refund Options including Instant Alipay and Fast Card<br></br>
+                                                9. A4 and Thermal Printing Options<br></br>
+                                                10. Consolidation and Voiding<br></br>
+                                                11. Digital Tax Free ready<br></br>
+                                                12. Invoice linked to Voucher Number eliminating fraud<br></br>
+                                                13. Removes need For Additional Hardware at POS reducing Merchant support<br></br> 
+                                                14. Standard till operation making staff training BAU/SOP<br></br>
+                                                15. Faster to issue voucher saving time at Point of Sale<br></br>
+                                                16. Customs friendly Voucher with everything printed increasing Match Rates<br></br>
+                                                17. Till integration might help to reclaim selling space given over to Tax Lounges or Customer Service areas
+     </apex:outputText>  <styleClass="summary"/>
+   
+     <apex:outputText rendered="{!Diagnostic__c.Tax_Free_Solution__c == 'Web Link on Till (POL)'}">
+                                                <br></br><br></br><b><u>Tax Free Solution - Web Link on Till (POL)</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. No CRT<br></br>
+                                                2. Usually manual data entry of product and values<br></br>
+                                                3. Printing may be an issue with back office printers<br></br>
+                                                4. What is Missing  - Alipay Instant, TOPOS, VAT OFF, Passport Scanner, P1 Reporting, Void, Consolidation?<br></br>
+                                                <b>Solution</b><br></br>
+                                                Pi/Pii<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Card Recognition with 40% plus increase in Issue Rate<br></br>
+                                                2. Significant increase in Net Profit Rebate through increased Issue Rate<br></br>
+                                                3. Increased Issue Rate even without CRT as it is a standard till solution accessible to all users at all tills<br></br> 
+                                                4. Highly compliant voucher with line items and customer details printed<br></br> 
+                                                5. Higher Match Rates through higher quality voucher<br></br>
+                                                6. Part 1 and 2 reporting with Product / SKU reporting level<br></br>
+                                                7. CRM Auto Fill and Passport Reader Capable<br></br>
+                                                8. Full range of Refund Options including Instant Alipay and Fast Card<br></br>
+                                                9. A4 and Thermal Printing Options<br></br>
+                                                10. Consolidation and Voiding<br></br>
+                                                11. Digital Tax Free ready<br></br>
+                                                12. Invoice linked to Voucher Number eliminating fraud<br></br>
+                                                13. Removes need For Additional Hardware at POS reducing Merchant support<br></br> 
+                                                14. Standard till operation making staff training BAU/SOP<br></br>
+                                                15. Faster to issue voucher saving time at Point of Sale<br></br>
+                                                16. Customs friendly Voucher with everything printed increasing Match Rates<br></br>
+                                                17. Till integration might help to reclaim selling space given over to Tax Lounges or Customer Service areas
+        </apex:outputText>  <styleClass="summary"/>
+        
+        <apex:outputText rendered="{!Diagnostic__c.Tax_Free_Solution__c == 'Tablet'}">
+                                                <br></br><br></br><b><u>Tax Free Solution - Tablet</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. No CRT<br></br>
+                                                2. Manual data entry of product and values<br></br>
+                                                3. Printing may be a problem with back office printers or shared printers<br></br>
+                                                4. Slow to issue a Voucher<br></br>
+                                                5. Comms connection issues (WiFi, Sim Quality)<br></br>
+                                                6. Inconsistent scanning of Passports<br></br>
+                                                7. Easy to break and remove/lose<br></br>
+                                                8. Loss of charge making it useless<br></br>
+                                                9. Expensive to roll out to all Stores and all Till points<br></br>
+                                                10. Inefficient solution for stores with multiple Till Points<br></br>
+                                                11. Requires specialist knowledge/staff training<br></br>
+                                                12. Requires Merchant IT to support Hardware<br></br>
+                                                13. APP downloads need to be controlled by Merchant IT<br></br>
+                                                <b>Solution</b><br></br>
+                                                Pi/Pii<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Card Recognition with 40% plus increase in Issue Rate<br></br>
+                                                2. Significant increase in Net Profit Rebate through increased Issue Rate<br></br>
+                                                3. Increased Issue Rate even without CRT as it is a standard till solution accessible to all users at all tills<br></br> 
+                                                4. Highly compliant voucher with line items and customer details printed<br></br> 
+                                                5. Higher Match Rates through higher quality voucher<br></br>
+                                                6. Part 1 and 2 reporting with Product / SKU reporting level<br></br>
+                                                7. CRM Auto Fill and Passport Reader Capable<br></br>
+                                                8. Full range of Refund Options including Instant Alipay and Fast Card<br></br>
+                                                9. A4 and Thermal Printing Options<br></br>
+                                                10. Consolidation and Voiding<br></br>
+                                                11. Digital Tax Free ready<br></br>
+                                                12. Invoice linked to Voucher Number eliminating fraud<br></br>
+                                                13. Removes need For Additional Hardware at POS reducing Merchant support<br></br> 
+                                                14. Standard till operation making staff training BAU/SOP<br></br>
+                                                15. Faster to issue voucher saving time at Point of Sale<br></br>
+                                                16. Customs friendly Voucher with everything printed increasing Match Rates<br></br>
+                                                17. Till integration might help to reclaim selling space given over to Tax Lounges or Customer Service areas
+              
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.Tax_Free_Solution__c == 'In Payment Terminal'}">
+                                                <br></br><br></br><b><u>Tax Free Solution - In Payment Terminal</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Impossible to use in Digital Countries where names have to be captured<br></br>
+                                                2. No Passport Scanning on traditional terminals<br></br>
+                                                3. Poor quality Voucher with little room to complete customer details easily<br></br>
+                                                4. Lower Match Rates due to difficulty in completing Voucher<br></br>
+                                                5. No ability to capture customer data automatically<br></br>
+                                                6. No ability to capture line item data<br></br>
+                                                7. Reporting often without nationality info on Part 1<br></br>
+                                                8. May not have CRT<br></br>
+                                                <b>Solution</b><br></br>
+                                               Planet PAX A920<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Plant PAX has Passport Scanning which automatically and quickly captures Digital Country mandated Info<br></br>
+                                                2. Info is Automatically Printed on the Voucher leading to a higher refund completion rate (Match Rate)<br></br>
+                                                3. CRT significantly increases Issue Rate increasing Net Profit Rebate<br></br>
+                                                4. Richer data capture Including Nationality automatically captured from Passport<br></br>
+                                                5. The Planet Pax payment terminal with Tax Free and DCC gives Merchant view of total International Spend<br></br>
+                                                6. Daily reporting from terminal<br></br>
+                                                7. Planet PAX can come with all the benefits of Planet MS
+              
+        </apex:outputText>  <styleClass="summary"/>
+         <apex:outputText rendered="{!Diagnostic__c.Tax_Free_Solution__c == 'Vat Only Terminal'}">
+                                                <br></br><br></br><b><u>Tax Free Solution - VAT Only Terminal</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Impossible to use in Digital Countries where names have to be captured<br></br>
+                                                2. No Passport Scanning on traditional terminals<br></br>
+                                                3. Poor quality Voucher with little room to complete customer details easily<br></br>
+                                                4. Lower Match Rates due to difficulty in completing Voucher<br></br>
+                                                5. No ability to capture customer data automatically<br></br>
+                                                6. No ability to capture line item data<br></br>
+                                                7. Reporting often without nationality info on Part 1<br></br>
+                                                8. No CRT<br></br>
+                                                9. Might be Off Line<br></br>
+                                                <b>Solution</b><br></br>
+                                               Planet PAX A920<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Plant PAX has Passport Scanning which automatically and quickly captures Digital Country mandated Info<br></br>
+                                                2. Info is Automatically Printed on The Voucher Leading to a Higher Refund Completion Rate (Match Rate)<br></br>
+                                                3. Richer data capture Including Nationality automatically captured from Passport<br></br>
+                                                4. Can Be used to process Alipay and WeChat Pay as well as Tax Free all from the same provider (Planet)<br></br>
+                                                5. Daily reporting from terminal
+                                                
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.Tax_Free_Solution__c == 'Manual Pad'}">
+                                                <br></br><br></br><b><u>Tax Free Solution - Manual Pad</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Cannot be used in Digital Countries<br></br>
+                                                2. Offline with no Part 1 reporting<br></br>
+                                                3. Slow to complete a Voucher<br></br>
+                                                4. Staff avoid using Manual Pads leading to low Issue Rate<br></br>
+                                                5. Pads often lost leading to Zero Issue Rate<br></br>
+                                               <b>Solution</b><br></br>
+                                               POL  or Pi/Pii<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Planet POL provides a low cost solution for stores with a need to offer Tax Free but with low volumes<br></br>
+                                                2. Digital Tax Free ready<br></br>
+                                                3. Wider range of refund options including Alipay Instant<br></br>
+              
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.Voucher_Printing__c== 'A4'}">
+                                                <br></br><br></br><b><u>Voucher Printing - A4</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Is the Printer at the Point of Sale or in a Back Office<br></br>
+                                                2. Are there printers at each till point or are they shared<br></br>
+                                                <b>Solution</b><br></br>
+                                                Pi/Pii<br></br>
+                                                <b>Features</b><br></br>
+                                                If the Tax Free is Integrated then the printing would always be at the Point of Sale at every till point
+                                            
+        </apex:outputText>  <styleClass="summary"/>
+          <apex:outputText rendered="{!Diagnostic__c.Passport_Reader__c== 'No'}">
+                                                <br></br><br></br><b><u>Passport Reader - No</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Inefficient Voucher issuing in Digital Countries with mandated data capture<br></br>
+                                                2. Open to manual input errors leading to refund refusal at EU Exit Point<br></br>
+                                                3. Errors in data capture or no data capture leads to poor reporting<br></br>
+                                                4. Errors in data input leads to reconciliation issues for Merchant and possible issues with Customs<br></br>
+                                                5. Errors in data input can lead to Customer issues at the EU Exit Point reducing Match Rate and Customer Experience<br></br>
+                                                <b>Solution</b><br></br>
+                                                Passport Reader in key stores<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Saves significant time at Point of Sale for completing Vat Refund Forms (can be 1,000s of hours saved)<br></br>
+                                                2. Accurate Data Capture eliminates errors with reconciliation and issues with Customs<br></br>
+                                                3. Makes reporting and management info richer<br></br>
+                                                4. Significantly improves the Customer Experience and Journey both in-store and at EU Exit Point
+                                                
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.CRT__c== 'No'}">
+                                                <br></br><br></br><b><u>CRT - No</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. No ability to automatically identify eligible customers<br></br>
+                                                2. Low voucher issue rates<br></br>
+                                                3. Lost revenue due to low issue rate<br></br>
+                                                4. Lost data for reporting<br></br>
+                                                5. Poor Customer Experience<br></br>
+                                                <b>Solution</b><br></br>
+                                                CRT<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Will increase voucher issue rate to 90%<br></br>
+                                                2. Will increase Net Profit Rebate by as much as 100%<br></br>
+                                                3. Improves quality of reporting as far more data is captured<br></br>
+                                                4. Improves Customer Experience as more people are offered Tax Free Saving<br></br>
+                                                5. Leads to increased sales as customers become Tax Free aware whilst still in the store
+                                                
+        </apex:outputText>  <styleClass="summary"/>
+         <apex:outputText rendered="{!Diagnostic__c.Passport_Recall__c== 'Yes'}">
+                                                <br></br><br></br><b><u>Passport Recall - Yes</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                Passport Number is entered and cross referenced in GB database with Customer Details 
+                                                recalled and automatically populated on the Tax Free Voucher. How often is this used?<br></br>
+                                                <b>Planet Weakness</b><br></br>
+                                                We don’t have this<br></br>
+                                                <b>Solution</b><br></br>
+                                                No Solution Yet
+                                                
+        </apex:outputText>  <styleClass="summary"/>
+         <apex:outputText rendered="{!Diagnostic__c.CRM_Auto_fill__c== 'No'}">
+                                                <br></br><br></br><b><u>Auto fill - No</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Double data entry where customer data is entered to CRM and them again on the Tax Free Voucher <br></br>
+                                                2. Inefficient for Merchant and frustrating for Customer<br></br>
+                                                3. Open to data input errors on Tax Free Voucher<br></br>
+                                                <b>Solution</b><br></br>
+                                                Pi/Pii<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Single data input<br></br>
+                                                2. Highly efficient, time saved at Point of Sale<br></br>
+                                                3. Fewer data input errors<br></br>
+                                                4. Higher quality Voucher leading to higher Match Rates<br></br>
+                                                5. Improved Customer Experience and Journey
+                                                
+        </apex:outputText>  <styleClass="summary"/>
+         <apex:outputText rendered="{!Diagnostic__c.Void_Function__c== 'No'}">
+                                                <br></br><br></br><b><u>Void Function - No</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Potential for fraud<br></br>
+                                                2. Over reporting<br></br>
+                                                <b>Solution</b><br></br>
+                                                Pi/Pii/Touch, POL, Terminal <br></br>
+                                                <b>Features</b><br></br>
+                                                1. Reduces potential for fraud<br></br>
+                                                2. Accurate reporting
+                                                                        
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.Instant_Alipay__c== 'No'}">
+                                                <br></br><br></br><b><u>Instant Alipay - No</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. No instant gratification for high spending Chinese customers<br></br>
+                                                2. No incentive for high spending Chinese customers to visit the store<br></br>
+                                                3. Lack of key sales tool to close or up-sell<br></br>
+                                                4. No opportunity to benefit from re-spend following instant refund
+                                                <b>Solution</b><br></br>
+                                                Planet Instant Alipay<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Effective sales tool to help closing and up selling<br></br>
+                                                2. Feature which can be used in marketing to drive new Chinese footfall<br></br>
+                                                3. Possibility of re-spend following the instant refund<br></br>
+                                                4. Enhanced customer experience
+                                                
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.Fast_Card_Refund__c== 'No'}">
+                                                <br></br><br></br><b><u>Fast Card Refund - No</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Lack of key sales tool to close or up-sell<br></br>
+                                                2. No opportunity to re-spend following refund<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet Fast Card Refund<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Effective sales tool to help closing and up selling<br></br>
+                                                2. Feature which can be used in marketing to drive new footfalll<br></br>
+                                                3. Possibility of re-spend following the instant refund<br></br>
+                                                4. Enhanced customer experience
+                                                
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.TOPOS_or_Tax_Off__c== 'No'}">
+                                                <br></br><br></br><b><u>TOPOS or Tax Off - No</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Lack of key sales tool to close or up-sell<br></br>
+                                                2. Merchant not saving Card Processing Costs for the refunded value (2.2% of €xxxx.xx)<br></br>
+                                                <b>Solution</b><br></br>
+                                                TOPOS and Tax Off<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Key sales tool to help closing and up selling<br></br>
+                                                2. Merchant will save Card Processing Costs for the refunded value (2.2% of €xxxx.xx)<br></br>
+                                                3. Potential to market this feature to drive new footfall
+                                                                                                
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.Full_Vat_Refund__c== 'No'}">
+                                                <br></br><br></br><b><u>Full VAT Refund - No</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                Where the Refund Company processes a full vat refund (not immediately) and invoices the Merchant 
+                                                for the refund company share of the Gross Commission<br></br>
+                                                <b>Gaps</b><br></br>
+                                                Lack of key sales tool to close or up-sell<br></br>
+                                                <b>Solution</b><br></br>
+                                                Full Vat Refund<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Key sales tool to help closing and up selling<br></br>
+                                                2. Potential to market this feature to drive new footfall
+                                                                                                                                              
+        </apex:outputText>  <styleClass="summary"/>
+         <apex:outputText rendered="{!Diagnostic__c.In_Store_Cash__c== 'No'}">
+                                                <br></br><br></br><b><u>In Store Cash - No</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Lack of key sales tool to close or up-sell<br></br>
+                                                2. No opportunity to benefit from re-spend following refund
+                                                <b>Solution</b><br></br>
+                                                Planet Refund (PR)<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Key sales tool to help closing and up selling<br></br>
+                                                2. Potential footfall driver if opened up to all Planet Vouchers<br></br>
+                                                3. Opportunity to benefit from re-spend in store                                                
+                                                                                                                                              
+        </apex:outputText>  <styleClass="summary"/>
+         <apex:outputText rendered="{!Diagnostic__c.In_Store_Gift_Card__c== 'No'}">
+                                                <br></br><br></br><b><u>In Store Gift Card - No</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                Do they have a website that delivers Worldwide? Do they have a Gift Card/Voucher that can be redeemed online?<br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Vat Refund is spent outside of Merchant eco-system<br></br>
+                                                2. Vat Refund is spent in a direct competitor (airport stores)<br></br>
+                                                3. No mechanism to capture customer details with permissions to market to<br></br>
+                                                4. No mechanism to extend the Lifetime Value of Customer<br></br> 
+                                                <b>Solution</b><br></br>
+                                                Gift Card Refund<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Guaranteed re-spend with Merchant<br></br>
+                                                2. Opportunity to capture customer detail with permission to market to them<br></br>
+                                                3. Extended Customer Lifetime Value                                                
+                                                                                                                                              
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.Kiosks__c== 'None'}">
+                                                <br></br><br></br><b><u>Kiosks - None</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                Check with your local IT and Product team to see current Kiosk availability in your Country<br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. May have a large area dedicated to Tax Free administration, which could be converted to selling space<br></br>
+                                                2. Long queuing times leading to poor customer experience<br></br>
+                                                3. Large numbers of Merchant staff dedicated to Tax Free Administration<br></br>
+                                                4. Central Tax Lounges are often on the Top Floor leading to refund completion fall out<br></br> 
+                                                5. Face to face transactions does not suit Gen Y and Z<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet Kiosk<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Reclaim selling space (€500 per square metre)<br></br>
+                                                2. Re-allocate staff to more productive/profitable tasks<br></br>
+                                                3. Kiosks can be located throughout the store making them more accessible  - increased Issue and Match Rate<br></br> 
+                                                4. Significantly reduce queuing time, enhanced Customer Experience<br></br>
+                                                5. Culturally accepted and wanted by Gen Y and Z                                              
+                                                                                                                                              
+        </apex:outputText>  <styleClass="summary"/>
+         <apex:outputText rendered="{!Diagnostic__c.Secure_Courier__c== 'Yes'}">
+                                                <br></br><br></br><b><u>Secure Courier - Yes</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                How often is this used?<br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Very expensive compared to Tax Free Shopping and often funded by the Merchant<br></br>
+                                                2. Puts extra pressure on customer as they have to meet the courier to reclaim their goods<br></br>
+                                                3. Potentially slows down Airport experience as customer has multiple tasks (Standard Tax Free + Courier Meet)<br></br>
+                                                <b>Solution</b><br></br>
+                                                In-Store Refunds, Full Vat Refund, VIP Airport Service<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Planet VIP Airport Service (if available in your Country)<br></br>
+                                                2. In-store refund options can provide immediate refunds and allows the customer to walk away with the goods<br></br>
+                                                3. Planet refund options are significantly less expensive than Secure Courier<br></br> 
+                                                4. Merchant still gets a net profit rebate with Planet refund options  - not with Secure Courier
+                                                                   
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.Flexible_Refund_Table__c== 'No'}">
+                                                <br></br><br></br><b><u>Flexible Refund Table - No</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                Check availability in your Country<br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Merchant may be more expensive than competitors on high value sales reducing footfall<br></br>
+                                                2. Lower conversion rates on high value sales as no mechanism to increase the Vat Refund value<br></br>
+                                                3. Feature cannot be used to market externally to drive footfall<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet Flexible Refund Table<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Increases sales conversion rates for higher value sales<br></br>
+                                                2. Increases footfall<br></br>
+                                                3. Makes Merchant competitive or on the same level as direct competitors 
+                                                
+        </apex:outputText>  <styleClass="summary"/>
+         <apex:outputText rendered="{!Diagnostic__c.VIP_Airport_Service__c== 'No'}">
+                                                <br></br><br></br><b><u>VIP Airport Service - No</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                Check availability in your Country<br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Merchant has no ability to enhance the post sales customer experience<br></br>
+                                                2. Lower Match Rate due to customer encountering issues at the EU Exit Point<br></br>
+                                                3. High Spending customers will favour Merchants with VIP Airport service - reduced footfall<br></br>
+                                                4. Feature cannot be used to market externally - reduced footfalll<br></br>
+                                                5. Feature cannot be used to close or up-selll<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet VIP Airport Service<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Footfall driver<br></br>
+                                                2. Effective tool to close high value sales or up-sell<br></br>
+                                                3.Can we used to market externally to drive footfall<br></br>
+                                                4. Increased Match Rate<br></br>
+                                                5. Enhanced Customer Experience
+                                                
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.Direct_Shipping__c== 'Yes'}">
+                                                <br></br><br></br><b><u>Direct Shipping - Yes</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                What % of International Business?
+                                                                                                
+        </apex:outputText>  <styleClass="summary"/>
+        </apex:outputPanel>
+     
+    </apex:form>
+</apex:page>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Critical</fullName>
+        <default>false</default>
+        <label>Critical</label>
+    </standardValue>
+    <standardValue>
+        <fullName>High</fullName>
+        <default>false</default>
+        <label>High</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Medium</fullName>
+        <default>true</default>
+        <label>Medium</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Low</fullName>
+        <default>false</default>
+        <label>Low</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lowest</fullName>
+        <default>false</default>
+        <label>Lowest</label>
+    </standardValue>
+    <standardValue>
+        <fullName>P1 - system down, no service</fullName>
+        <default>false</default>
+        <label>P1 - system down, no service</label>
+    </standardValue>
+    <standardValue>
+        <fullName>P2 - severe - customer aware</fullName>
+        <default>false</default>
+        <label>P2 - severe</label>
+    </standardValue>
+    <standardValue>
+        <fullName>P3 - severe - no customer impact</fullName>
+        <default>false</default>
+        <label>P3 - severe - no customer impact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>P4 - moderate</fullName>
+        <default>false</default>
+        <label>P4 - moderate</label>
+    </standardValue>
+    <standardValue>
+        <fullName>P5 - low</fullName>
+        <default>false</default>
+        <label>P5 - low</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dev Request</fullName>
+        <default>false</default>
+        <label>Dev Request</label>
+    </standardValue>
+</StandardValueSet>

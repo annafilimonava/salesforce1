@@ -1,0 +1,1007 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SWOT</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Standard</compactLayoutAssignment>
+    <label>SWOT</label>
+    <picklistValues>
+        <picklist>Opportunities__c</picklist>
+        <values>
+            <fullName>Agree on Regular Periodic Meetings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alternative Nationality Focus %28e%2Eg%2E India%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Become the Omni-Channel Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Build%2FSecure Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Close Missed Revenue Gaps</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Commitment on KPIs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance with EU Law</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cross Sell%2FGrow Revenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Develop a Consistent Training Plan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Develop a Tailored Training Plan Based on Store Performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Domestic and e-comm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Engage with Client Marketing Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enhanced Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exclusivity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extend Contract to Other Countries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Extend Our Refund Options Offer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High International Shopper Spend</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Identify Gaps to Merchant%3B Demonstrate How Planet Can Close These and Increase Sales Revenue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Improve Customer Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Improve Issue Rate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Improve Margins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Improve Merchant %26 Customer Payment Experience</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Improve Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Improve Service Level</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Improve Service and Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In-Fill Markets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increase Match Rate %28or Other KPI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Increase Match Rate%2FHit Rate %28or Other KPI%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Integration with Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Introduce Additional Features</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meet New Decision Makers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Markets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Stores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offer Ecommerce Acquiring for Chinese Wallets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Offer Omnipayment Package</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pan-EU Diagnostic Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payment Partner Marketing %28e%2Eg%2E Alipay%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pilot Opportunity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Potential Sell In to  ISTP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reduce Rebate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting on Items Purchased By Nationality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Revenue Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secure Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secure Relationship with Merchant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Secure Relationship%2C Revenue Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strengthen Relationship as Business Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Win Local Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Win Pan-EU Business</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Win the Overall Business%2FRevenue Growth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yearly Campaign Planning</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Progress__c</picklist>
+        <values>
+            <fullName>Add Actions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Add Focus Point%28s%29</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Add Objective%28s%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SWOT Minimum Completed</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Strengths__c</picklist>
+        <values>
+            <fullName>Additional Refund Options Ready to Deliver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>All in One Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Budget Signed Off for New Pos Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Can Offer Card Recognition with Auto-Print</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitive Marketing Proposal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitive Pricing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract is Rolling %28No Expiry Date%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract was Recently Renewed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DCC Tailored Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data Pool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Data on Item Purchased by Nationality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ease of Deployment</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exclusivity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Relationship with Merchant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Expertise in Acceptance of International Payment Methods</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Focus on International Customers</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Full Integration Including New Features</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good Relationship with HO%2FDecision Maker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good Relationship with Key Stakeholders</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good Relationship with Merchant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Good Relationship with Store Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISTP Training Programme</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lack of Existing Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Local Dedicated Support Team</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Margin Initiatives</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Funding in Place</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Solution is Ready to Deliver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ongoing Marketing Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pan-EU Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pan-European Acquiring Offering</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pilot was Successful</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Can Offer Additional Marketing Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Expertise</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet MS Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Offers a Best Rate Guarantee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Offers a Superior Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet as Only Provider for Tax Free and Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet is a Long-Time Trusted Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Range of Currencies for DCC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regular Periodic HO Business Reviews</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regular Store Staff Training %28Core%2C Advanced%2C Consulting%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regular Store Visits</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regular and Automated Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting Capability</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seamless New Store Onboarding</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sent%2FReceived</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsorship of Merchant IT Dept%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strong Client Relationship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support of Google Pay and Apple Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Support of Pay By Link Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tailored HO%2FStore Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tailored Refund Table</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trusted Relationship with Planet</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Threats__c</picklist>
+        <values>
+            <fullName>Budget Freeze - Merchant Side</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cannot Make Autonomous Decisions as Part of a Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competition Still Operating Service in Some Countries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor Agencies</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor Offers Superior Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor has Better Benchmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitor is TF Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Competitors Working with Merchant in Other Countries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contact is Not Decision Maker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Decision Maker Left%2FChanged</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delay on Merchant%27s Side %28Internal Process%2FResourcing%2FInvestment%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exclusivity Not Permitted in Some Markets %28Competition Laws%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GB Offers Cultural Training for Free</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Gaps in Relationship are Entry Point for Competition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Go to Tender</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Staff Turnover</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>High Turnover of Top Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Legacy Solution with Limited Functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long Standing Relationship with Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Long-Time Relationship with Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing%2FConsultancy Offer is Not Competitive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant Complaints</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant Does Not Permit Planet Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant Doesn%27t See Us a  Priority</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant Doesn%E2%80%99t Agree With GDPR Terms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant Engagement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant Not Engaged in Discussion on Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant Not Satisfied with Service Delivered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant has a Direct Agreement with Alipay and%2For WeChat Pay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant is Changing ePOS Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mystery Shop Not Permitted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Decision Makers at Local Level</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Engagement from Store Staff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Measurable Outcome to Present Following Mystery Shop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Non Compliance Due to Not Signing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Not Allowed to Deliver Trainings</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Not Allowed to Send Store Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet is Competing Against the In-Store Acquirer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Campaign Performance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Engagement from Head Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing Offer is Not Competitive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pricing with Current Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recently Renewed Agreement with Their e-Comm Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Recipients Don%E2%80%99t Read the Report</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship with Current Provider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Slow Decision Making Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strong Relationship with Competition</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stronger Offering from Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Offer is Not Competitive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tourist Complaints</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Under Negotiation with Other Provider</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Weaknesses__c</picklist>
+        <values>
+            <fullName>Aged Debt</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Backup Solution Doesn%27t Meet All Needs</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Business Reviews Can Be Ad-Hoc%2FInconsistent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Complexity%2FAccuracy of Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract is Expiring This Year</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cost of Program</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cost of Tableau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delay in Delivery and Errors</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delay on Planet%27s Side %28Resourcing%2C PDP Process%2C Investment%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing Relationship with Merchant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Financial Issues - Planet Side</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Heavy Onboarding Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hidden%2FComplicated Fee Structure</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inconsistent Standard of Account Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incumbent Acquirer Offers a Competitive  Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lack of Consistency of Refund Options Across Europe</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lack of Consistent Benchmark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lack of Product To Sell</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lack of Proper Mystery Shoppers in Some Countries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lack of Standardised Training Material</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lack of Training on How to Sell In</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing Contract with Alternative Supplier</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant Rebate Negatively Impacted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant is Not Satisfied with Planet Service</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Merchant is Not Satisfied with Planet Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Benchmarking BI Offered</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Collateral%2FCase Studies to Leverage From</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Integration to Shopping Carts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Partnership with Incumbent Acquirer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Payment Marketing Options</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Standardised Training Material%2FCollateral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No Structured Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Enough Resources Compared to Competitor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Not Received</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Painful Automation%2FModification Process</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Delay in Delivering to Market</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Infrastructural Pricing is Not Competitive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Integration Not Available</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Intelligence Does Not Cover All Markets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Package Does Not Differentiate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Package Too Expensive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Pricing is Not Competitive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Scheme Pricing is Not Competitive</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet e-Comm Gateway Does Not Offer All Functionalities Required by Merchant</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet is Not Operating in Some Countries</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Awareness of Planet Marketing Services</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Comms Across IKA and In-Fill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Poor Relationship with Software House</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Potential Financial Exposure from Chargebacks</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationships Across Limited Number of Contacts%2FRoles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Runtime Extremely Long</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sales Managers Don%E2%80%99t Have Access to Tableau - Don%E2%80%99t Know How to Sell It</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Issues - Planet Side</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Technical Issues for Integration</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Time Consuming Diagnostic Debrief</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uncompetitive Proposal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Uncompetitive e-Commerce Acquiring Proposal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weak Relationship at HO Level</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Weak Relationship with Decision Makers</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Workstream1__c</picklist>
+        <values>
+            <fullName>Commercial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Solution%2FIT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporting and Consultancy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strategic Business Development</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Workstream_Type__c</picklist>
+        <values>
+            <fullName>Acquiring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Channel Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chinese Wallets</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contract</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DCC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GDPR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HO%2FStore Reports</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ISTP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Solutions</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Intelligence%2FTableau</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relationship Management</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store Staff Training</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>eCommerce</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Workstream__c</picklist>
+        <values>
+            <fullName>Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>POS Solution</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Payments</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Planet Intelligence</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Service and Logistics</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Statistical Reporting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Training and Consultancy</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

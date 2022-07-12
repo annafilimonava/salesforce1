@@ -1,0 +1,35 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">Thank you for your email. I can see from the attached scan of the Tax Free form that it is not a Planet Tax Free form, but Innova Tax Free form. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">Please visit </span><span lang="EN-IE" style="font-size:
+11.0pt;font-family:Barlow"><a href="http://www.innovataxfree.com"><span style="color:#FF6600">www.innovataxfree.com</span></a></span><span lang="EN-IE" style="font-size:11.0pt;font-family:Barlow;color:windowtext"> to query your refund status. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">I hope you will be able to receive your refund soon.</span></p>
+ </body>
+</html>

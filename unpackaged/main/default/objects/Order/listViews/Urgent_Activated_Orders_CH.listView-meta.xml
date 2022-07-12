@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Urgent_Activated_Orders_CH</fullName>
+    <columns>ORDERS.ORDER_NUMBER</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>Account_ID__c</columns>
+    <columns>Priority__c</columns>
+    <columns>ORDER.BILLING_STREET</columns>
+    <columns>ORDER.BILLING_CITY</columns>
+    <columns>ORDER.BILLING_ZIP</columns>
+    <columns>ORDERS.EFFECTIVE_DATE</columns>
+    <columns>ORDERS.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ORDERS.STATUS</field>
+        <operation>equals</operation>
+        <value>Activated</value>
+    </filters>
+    <filters>
+        <field>Priority__c</field>
+        <operation>equals</operation>
+        <value>Urgent</value>
+    </filters>
+    <filters>
+        <field>Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>Switzerland</value>
+    </filters>
+    <label>Urgent Activated Orders CH</label>
+    <sharedTo>
+        <group>Merchant_Services_CH</group>
+        <role>Switzerland_National_Accounts</role>
+    </sharedTo>
+</ListView>

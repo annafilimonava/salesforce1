@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Outlet_Option__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>To select if the report is for All Stores, Outlet Stores or only Full price stores. By applying an outlet filter, any specific outlet pages will be removed from the report.</inlineHelpText>
+    <label>Outlet Option</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>All</fullName>
+                <default>true</default>
+                <label>All</label>
+            </value>
+            <value>
+                <fullName>Outlet</fullName>
+                <default>false</default>
+                <label>Outlet</label>
+            </value>
+            <value>
+                <fullName>Full Price</fullName>
+                <default>false</default>
+                <label>Full Price</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

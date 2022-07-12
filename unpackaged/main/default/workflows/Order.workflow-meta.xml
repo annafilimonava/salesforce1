@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>New_Order</fullName>
+        <description>New Order</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Dispatch/Order_Dispatch</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Billing_City</fullName>
+        <field>BillingCity</field>
+        <formula>Account.BillingCity</formula>
+        <name>Billing City</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Billing_Post_Code</fullName>
+        <field>BillingPostalCode</field>
+        <formula>Account.BillingPostalCode</formula>
+        <name>Billing Post Code</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Billing_Street</fullName>
+        <field>BillingStreet</field>
+        <formula>Account.BillingStreet</formula>
+        <name>Billing Street</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Dispatch_Date</fullName>
+        <field>Dispatch_Date__c</field>
+        <formula>NOW()</formula>
+        <name>Dispatch Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Priority_Customer</fullName>
+        <field>Priority__c</field>
+        <literalValue>Urgent</literalValue>
+        <name>Priority Customer</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+</Workflow>

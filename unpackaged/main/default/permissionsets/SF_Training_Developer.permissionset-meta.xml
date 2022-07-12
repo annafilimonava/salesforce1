@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <applicationVisibilities>
+        <application>SF_Training</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <applicationVisibilities>
+        <application>SF_Training_Lightning</application>
+        <visible>true</visible>
+    </applicationVisibilities>
+    <description>Permission Set generated for access to custom object SF Training for the app SF Training</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>SF Training Developer</label>
+    <license>Salesforce</license>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>SF_Training__c</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+    <tabSettings>
+        <tab>SF_Training__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
+</PermissionSet>

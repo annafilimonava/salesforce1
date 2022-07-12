@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>POS Solutions</fullName>
+        <default>false</default>
+        <label>POS Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Channel Marketing</fullName>
+        <default>false</default>
+        <label>Channel Marketing</label>
+    </customValue>
+    <customValue>
+        <fullName>DCC</fullName>
+        <default>false</default>
+        <label>DCC</label>
+    </customValue>
+    <customValue>
+        <fullName>Acquiring</fullName>
+        <default>false</default>
+        <label>Acquiring</label>
+    </customValue>
+    <customValue>
+        <fullName>Chinese Wallets</fullName>
+        <default>false</default>
+        <label>Chinese Wallets</label>
+    </customValue>
+    <customValue>
+        <fullName>eCommerce</fullName>
+        <default>false</default>
+        <label>eCommerce</label>
+    </customValue>
+    <customValue>
+        <fullName>Store Staff Training</fullName>
+        <default>false</default>
+        <label>Store Staff Training</label>
+    </customValue>
+    <customValue>
+        <fullName>ISTP</fullName>
+        <default>false</default>
+        <label>ISTP</label>
+    </customValue>
+    <customValue>
+        <fullName>Planet Intelligence/Tableau</fullName>
+        <default>false</default>
+        <label>Planet Intelligence/Tableau</label>
+    </customValue>
+    <customValue>
+        <fullName>HO/Store Reports</fullName>
+        <default>false</default>
+        <label>HO/Store Reports</label>
+    </customValue>
+    <customValue>
+        <fullName>Relationship Management</fullName>
+        <default>false</default>
+        <label>Relationship Management</label>
+    </customValue>
+    <customValue>
+        <fullName>Contract</fullName>
+        <default>false</default>
+        <label>Contract</label>
+    </customValue>
+    <customValue>
+        <fullName>GDPR</fullName>
+        <default>false</default>
+        <label>GDPR</label>
+    </customValue>
+    <customValue>
+        <fullName>Default Value</fullName>
+        <default>false</default>
+        <label>Default Value</label>
+    </customValue>
+    <customValue>
+        <fullName>Head Office Meeting</fullName>
+        <default>false</default>
+        <label>Head Office Meeting</label>
+    </customValue>
+    <masterLabel>Workstream Type</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

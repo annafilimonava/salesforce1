@@ -1,0 +1,35 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">I regret to inform you that we cannot send you back your Tax Free form {{{Case.Tax_Free_Form__c}}}. Once they are processed, we must store all documentation for audit purposes. Even forms that do not qualify for a refund are audited by governmental authorities.<span style="mso-spacerun:yes">&nbsp; </span>Additionally, to take advantage of the VAT export scheme all goods must be personally exported upon exiting EU. There may be heavy penalties for suspected attempt of fraudulent activity and in this case returning the form back to you to have it re-stamped, may be viewed as taking advantage of the Retail Export Scheme.<span style="mso-spacerun:yes">&nbsp; </span> 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">I understand that this might not be a satisfactory answer to you, but due to the above mentioned reasons we cannot breach our policy. 
+    <o:p></o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">Best regards,</span></p>
+ </body>
+</html>

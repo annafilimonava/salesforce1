@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pan_Euro_Opp_Value__c</fullName>
+    <externalId>false</externalId>
+    <formula>All_Annual_Gross_Profit__c + All_Annual_Net_Commission__c + All_Additional_Income__c + All_Payments_Annual_GP__c + All_Pay_by_Link_Annual_GP__c</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Pan Euro Opp Value</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TF_System_Affected_Detail__c</fullName>
+    <externalId>false</externalId>
+    <label>TF System Affected Detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>TF_Systems_Affected__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>AXAPTA</fullName>
+                <default>false</default>
+                <label>AXAPTA</label>
+            </value>
+            <value>
+                <fullName>BI Reporting</fullName>
+                <default>false</default>
+                <label>BI Reporting</label>
+            </value>
+            <value>
+                <fullName>BIZTalk</fullName>
+                <default>false</default>
+                <label>BIZTalk</label>
+            </value>
+            <value>
+                <fullName>CSMS Refunds</fullName>
+                <default>false</default>
+                <label>CSMS Refunds</label>
+            </value>
+            <value>
+                <fullName>Data Warehouse</fullName>
+                <default>false</default>
+                <label>Data Warehouse</label>
+            </value>
+            <value>
+                <fullName>Enterprise API</fullName>
+                <default>false</default>
+                <label>Enterprise API</label>
+            </value>
+            <value>
+                <fullName>eTF Admin</fullName>
+                <default>false</default>
+                <label>eTF Admin</label>
+            </value>
+            <value>
+                <fullName>eTF ATM - Airport</fullName>
+                <default>false</default>
+                <label>eTF ATM - Airport</label>
+            </value>
+            <value>
+                <fullName>eTF ATM - Border</fullName>
+                <default>false</default>
+                <label>eTF ATM - Border</label>
+            </value>
+            <value>
+                <fullName>eTF ATM - Harbour</fullName>
+                <default>false</default>
+                <label>eTF ATM - Harbour</label>
+            </value>
+            <value>
+                <fullName>eTF ATM - Merchant</fullName>
+                <default>false</default>
+                <label>eTF ATM - Merchant</label>
+            </value>
+            <value>
+                <fullName>eTF CRM</fullName>
+                <default>false</default>
+                <label>eTF CRM</label>
+            </value>
+            <value>
+                <fullName>eTF Customs Interface</fullName>
+                <default>false</default>
+                <label>eTF Customs Interface</label>
+            </value>
+            <value>
+                <fullName>eTF Merchant Terminal</fullName>
+                <default>false</default>
+                <label>eTF Merchant Terminal</label>
+            </value>
+            <value>
+                <fullName>eTF MyAccount App</fullName>
+                <default>false</default>
+                <label>eTF MyAccount App</label>
+            </value>
+            <value>
+                <fullName>eTF Refund</fullName>
+                <default>false</default>
+                <label>eTF Refund</label>
+            </value>
+            <value>
+                <fullName>eTF Reporting</fullName>
+                <default>false</default>
+                <label>eTF Reporting</label>
+            </value>
+            <value>
+                <fullName>eTF Validation app &amp; Money exchange</fullName>
+                <default>false</default>
+                <label>eTF Validation app &amp; Money exchange</label>
+            </value>
+            <value>
+                <fullName>eTRS Singapore</fullName>
+                <default>false</default>
+                <label>eTRS Singapore</label>
+            </value>
+            <value>
+                <fullName>I&#39;ve added a detailed description</fullName>
+                <default>false</default>
+                <label>I&#39;ve added a detailed description</label>
+            </value>
+            <value>
+                <fullName>Kiosk</fullName>
+                <default>false</default>
+                <label>Kiosk</label>
+            </value>
+            <value>
+                <fullName>MCCP</fullName>
+                <default>false</default>
+                <label>MCCP</label>
+            </value>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Orchestrator (TAX)</fullName>
+                <default>false</default>
+                <label>Orchestrator (TAX)</label>
+            </value>
+            <value>
+                <fullName>PABLO</fullName>
+                <default>false</default>
+                <label>PABLO</label>
+            </value>
+            <value>
+                <fullName>PI Chanel</fullName>
+                <default>false</default>
+                <label>PI Chanel</label>
+            </value>
+            <value>
+                <fullName>POS</fullName>
+                <default>false</default>
+                <label>POS</label>
+            </value>
+            <value>
+                <fullName>POS Batch Host</fullName>
+                <default>false</default>
+                <label>POS Batch Host</label>
+            </value>
+            <value>
+                <fullName>POS Softpay</fullName>
+                <default>false</default>
+                <label>POS Softpay</label>
+            </value>
+            <value>
+                <fullName>POS Superpay</fullName>
+                <default>false</default>
+                <label>POS Superpay</label>
+            </value>
+            <value>
+                <fullName>Premier Integrated</fullName>
+                <default>false</default>
+                <label>Premier Integrated</label>
+            </value>
+            <value>
+                <fullName>Premier Int Interface</fullName>
+                <default>false</default>
+                <label>Premier Int Interface</label>
+            </value>
+            <value>
+                <fullName>Premier Online-POL</fullName>
+                <default>false</default>
+                <label>Premier Online-POL</label>
+            </value>
+            <value>
+                <fullName>Premier Refund</fullName>
+                <default>false</default>
+                <label>Premier Refund</label>
+            </value>
+            <value>
+                <fullName>Premier Tax Free tourist app – Android</fullName>
+                <default>false</default>
+                <label>Premier Tax Free tourist app – Android</label>
+            </value>
+            <value>
+                <fullName>Premier Tax Free tourist app – iOS</fullName>
+                <default>false</default>
+                <label>Premier Tax Free tourist app – iOS</label>
+            </value>
+            <value>
+                <fullName>Premier Touch – Android</fullName>
+                <default>false</default>
+                <label>Premier Touch – Android</label>
+            </value>
+            <value>
+                <fullName>Premier Touch – iOS</fullName>
+                <default>false</default>
+                <label>Premier Touch – iOS</label>
+            </value>
+            <value>
+                <fullName>SalesForce</fullName>
+                <default>false</default>
+                <label>SalesForce</label>
+            </value>
+            <value>
+                <fullName>Scanning System</fullName>
+                <default>false</default>
+                <label>Scanning System</label>
+            </value>
+            <value>
+                <fullName>TRS</fullName>
+                <default>false</default>
+                <label>TRS</label>
+            </value>
+            <value>
+                <fullName>UVT/FVF</fullName>
+                <default>false</default>
+                <label>UVT/FVF</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>None</controllingFieldValue>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <controllingFieldValue>I&#39;m not sure</controllingFieldValue>
+            <controllingFieldValue>Internal Processing</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>BI Reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Enterprise API</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>eTF ATM - Airport</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>eTF ATM - Border</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>eTF ATM - Harbour</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>eTF ATM - Merchant</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>eTF Customs Interface</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>eTF Merchant Terminal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>eTF MyAccount App</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>eTF Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>eTF Validation app &amp; Money exchange</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>eTRS Singapore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Kiosk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>PI Chanel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>POS Batch Host</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>POS Softpay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>POS Superpay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Premier Integrated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Premier Int Interface</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Premier Online-POL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Premier Refund</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Premier Tax Free tourist app – Android</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Premier Tax Free tourist app – iOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Premier Touch – Android</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Premier Touch – iOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>AXAPTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>CSMS Refunds</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>Data Warehouse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>eTF Admin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>eTF CRM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>eTF Reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>MCCP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>SalesForce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>Scanning System</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>TRS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I&#39;m not sure</controllingFieldValue>
+            <valueName>I&#39;ve added a detailed description</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Processing</controllingFieldValue>
+            <valueName>BIZTalk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Processing</controllingFieldValue>
+            <valueName>Orchestrator (TAX)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Processing</controllingFieldValue>
+            <valueName>PABLO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Internal Processing</controllingFieldValue>
+            <valueName>UVT/FVF</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

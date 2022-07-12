@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>A920 - White (1 GB)</fullName>
+        <default>false</default>
+        <label>A920 - White (1 GB)</label>
+    </customValue>
+    <customValue>
+        <fullName>Artema Compact</fullName>
+        <default>false</default>
+        <label>Artema Compact</label>
+    </customValue>
+    <customValue>
+        <fullName>Artema Compact V3</fullName>
+        <default>false</default>
+        <label>Artema Compact V3</label>
+    </customValue>
+    <customValue>
+        <fullName>i5100</fullName>
+        <default>false</default>
+        <label>i5100</label>
+    </customValue>
+    <customValue>
+        <fullName>i7780</fullName>
+        <default>false</default>
+        <label>i7780</label>
+    </customValue>
+    <customValue>
+        <fullName>ICT220</fullName>
+        <default>false</default>
+        <label>ICT220</label>
+    </customValue>
+    <customValue>
+        <fullName>ICT250</fullName>
+        <default>false</default>
+        <label>ICT250</label>
+    </customValue>
+    <customValue>
+        <fullName>Ingenico Lane 3000</fullName>
+        <default>false</default>
+        <label>Ingenico Lane 3000</label>
+    </customValue>
+    <customValue>
+        <fullName>IWL220</fullName>
+        <default>false</default>
+        <label>IWL220</label>
+    </customValue>
+    <customValue>
+        <fullName>IWL250</fullName>
+        <default>false</default>
+        <label>IWL250</label>
+    </customValue>
+    <customValue>
+        <fullName>Not Required</fullName>
+        <default>false</default>
+        <label>Not Required</label>
+    </customValue>
+    <customValue>
+        <fullName>Omni 3350</fullName>
+        <default>false</default>
+        <label>Omni 3350</label>
+    </customValue>
+    <customValue>
+        <fullName>Omni 3750</fullName>
+        <default>false</default>
+        <label>Omni 3750</label>
+    </customValue>
+    <customValue>
+        <fullName>Pax A920 - Black (1GB)</fullName>
+        <default>false</default>
+        <label>Pax A920 - Black (1GB)</label>
+    </customValue>
+    <customValue>
+        <fullName>Pax A920 - Black (2GB)</fullName>
+        <default>false</default>
+        <label>Pax A920 - Black (2GB)</label>
+    </customValue>
+    <customValue>
+        <fullName>A920</fullName>
+        <default>false</default>
+        <label>Pax A920 - Legacy (1 GB)</label>
+    </customValue>
+    <customValue>
+        <fullName>Pax A920 - White (2GB)</fullName>
+        <default>false</default>
+        <label>Pax A920 - White (2GB)</label>
+    </customValue>
+    <customValue>
+        <fullName>Samsung A10</fullName>
+        <default>false</default>
+        <label>Samsung A10</label>
+    </customValue>
+    <customValue>
+        <fullName>Samsung Tab Active2</fullName>
+        <default>false</default>
+        <label>Samsung Tab Active2</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>Vx510</fullName>
+        <default>false</default>
+        <label>Vx510</label>
+    </customValue>
+    <customValue>
+        <fullName>Vx520</fullName>
+        <default>false</default>
+        <label>Vx520</label>
+    </customValue>
+    <customValue>
+        <fullName>Vx520/820</fullName>
+        <default>false</default>
+        <label>Vx520/820</label>
+    </customValue>
+    <customValue>
+        <fullName>Vx570</fullName>
+        <default>false</default>
+        <label>Vx570</label>
+    </customValue>
+    <customValue>
+        <fullName>Vx610</fullName>
+        <default>false</default>
+        <label>Vx610</label>
+    </customValue>
+    <customValue>
+        <fullName>Vx670</fullName>
+        <default>false</default>
+        <label>Vx670</label>
+    </customValue>
+    <customValue>
+        <fullName>Vx680 3G</fullName>
+        <default>false</default>
+        <label>Vx680 3G</label>
+    </customValue>
+    <customValue>
+        <fullName>Vx680 BT/Wi-Fi</fullName>
+        <default>false</default>
+        <label>Vx680 BT/Wi-Fi</label>
+    </customValue>
+    <customValue>
+        <fullName>Vx690</fullName>
+        <default>false</default>
+        <label>Vx690</label>
+    </customValue>
+    <customValue>
+        <fullName>Vx810</fullName>
+        <default>false</default>
+        <label>Vx810</label>
+    </customValue>
+    <customValue>
+        <fullName>Wordline Valina</fullName>
+        <default>false</default>
+        <label>Wordline Valina</label>
+    </customValue>
+    <customValue>
+        <fullName>Worldline Yomani XR</fullName>
+        <default>false</default>
+        <label>Worldline Yomani XR</label>
+    </customValue>
+    <customValue>
+        <fullName>Pax A920 Pro</fullName>
+        <default>false</default>
+        <label>Pax A920 Pro</label>
+    </customValue>
+    <customValue>
+        <fullName>M010</fullName>
+        <default>false</default>
+        <label>M010</label>
+    </customValue>
+    <customValue>
+        <fullName>Pax A77</fullName>
+        <default>false</default>
+        <label>Pax A77</label>
+    </customValue>
+    <customValue>
+        <fullName>Pax A80</fullName>
+        <default>false</default>
+        <label>Pax A80</label>
+    </customValue>
+    <customValue>
+        <fullName>Move 2500</fullName>
+        <default>false</default>
+        <label>Move 2500</label>
+    </customValue>
+    <customValue>
+        <fullName>Worldline Valina</fullName>
+        <default>false</default>
+        <label>Worldline Valina</label>
+    </customValue>
+    <masterLabel>Terminal Type</masterLabel>
+    <sorted>true</sorted>
+</GlobalValueSet>

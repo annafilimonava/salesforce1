@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Threat_Date1</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(Resolution_Date__c)=&quot;&quot;,TEXT(Status__c)&lt;&gt;&quot;Ongoing&quot;)</errorConditionFormula>
+    <errorMessage>You must complete the Resolution Date field.</errorMessage>
+</ValidationRule>

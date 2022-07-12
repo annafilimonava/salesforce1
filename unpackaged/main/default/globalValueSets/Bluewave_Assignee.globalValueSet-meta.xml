@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Jaymie Woodhouse</fullName>
+        <default>false</default>
+        <label>Jaymie Woodhouse</label>
+    </customValue>
+    <customValue>
+        <fullName>Florin Galea</fullName>
+        <default>false</default>
+        <label>Florin Galea</label>
+    </customValue>
+    <masterLabel>Bluewave Assignee</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

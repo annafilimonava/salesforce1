@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Tax Free Only</fullName>
+        <default>false</default>
+        <label>Tax Free Only</label>
+    </customValue>
+    <customValue>
+        <fullName>DCC Only</fullName>
+        <default>false</default>
+        <label>DCC Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Tax Free &amp; DCC</fullName>
+        <default>false</default>
+        <label>Tax Free &amp; DCC</label>
+    </customValue>
+    <customValue>
+        <fullName>Tax Free &amp; Domestic Payments Only</fullName>
+        <default>false</default>
+        <label>Tax Free &amp; Domestic Payments Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Domestic Payments Only</fullName>
+        <default>false</default>
+        <label>Domestic Payments Only</label>
+    </customValue>
+    <customValue>
+        <fullName>Tax Free &amp; Planet Union Pay</fullName>
+        <default>false</default>
+        <label>Tax Free &amp; Planet Union Pay</label>
+    </customValue>
+    <customValue>
+        <fullName>Planet Union Pay</fullName>
+        <default>false</default>
+        <label>Planet Union Pay</label>
+    </customValue>
+    <customValue>
+        <fullName>Wallets (AP &amp; WXP)</fullName>
+        <default>false</default>
+        <label>Wallets (AP &amp; WXP)</label>
+    </customValue>
+    <customValue>
+        <fullName>Wallets and Union Pay</fullName>
+        <default>false</default>
+        <label>Wallets and Union Pay</label>
+    </customValue>
+    <customValue>
+        <fullName>Payments &amp; DCC</fullName>
+        <default>false</default>
+        <label>Payments &amp; DCC</label>
+    </customValue>
+    <masterLabel>Use</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

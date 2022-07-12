@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Parent_Account_Plan_Same_as_Account_Plan</fullName>
+    <active>true</active>
+    <errorConditionFormula>Account_Plan__c = Parent_Merchant_Account_Plan__c</errorConditionFormula>
+    <errorDisplayField>Parent_Merchant_Account_Plan__c</errorDisplayField>
+    <errorMessage>Please enter the correct Parent Account Plan</errorMessage>
+</ValidationRule>

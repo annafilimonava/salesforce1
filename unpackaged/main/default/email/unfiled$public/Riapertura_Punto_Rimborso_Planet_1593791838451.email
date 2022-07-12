@@ -1,0 +1,486 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <meta content="text/html; charset=utf-8" /> 
+  <meta name="ProgId" content="Word.Document" /> 
+  <meta name="Generator" content="Microsoft Word 15" /> 
+  <meta name="Originator" content="Microsoft Word 15" /> 
+  <style type="text/css"><!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:"Barlow Light";
+	panose-1:0 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:536870919 0 0 0 403 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	mso-themecolor:hyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:#954F72;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
+	{mso-style-priority:34;
+	mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-type:export-only;
+	margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	mso-add-space:auto;
+	line-height:107%;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:8.0pt;
+	line-height:107%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:2.0cm 2.0cm 49.65pt 2.0cm;
+	mso-header-margin:35.4pt;
+	mso-footer-margin:35.4pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:313721755;
+	mso-list-type:hybrid;
+	mso-list-template-ids:336742574 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:90.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:162.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:198.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:234.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:270.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:306.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:342.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:1881671108;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-991931270 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:54.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:90.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:126.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:162.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:198.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:234.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:270.0pt;
+	text-indent:-18.0pt;
+	font-family:Symbol;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:306.0pt;
+	text-indent:-18.0pt;
+	font-family:"Courier New";}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:342.0pt;
+	text-indent:-18.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+
+
+  </style> 
+  <p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:
+&quot;Barlow Light&quot;;mso-ansi-language:IT">Gentile&nbsp;</span></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;mso-ansi-language:
+IT">il 1&deg; luglio ’20, l’Unione Europea ha riaperto le sue frontiere a 15 Paesi extra UE. </span></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;
+mso-ansi-language:IT">Pertanto, per il momento, p<span style="color:#0A0A0A;
+background:white">otranno entrare nell’area Schengen soltanto i visitatori provenienti da:</span><br /> <span style="color:#0A0A0A"><b><span style="background:white">Algeria </span></b></span></span></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;
+background:white;mso-ansi-language:IT">Australia </span></b></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;
+background:white;mso-ansi-language:IT">Canada </span></b></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal"><b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;
+color:#0A0A0A;background:white;mso-ansi-language:IT">Cina</span></b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;background:
+white;mso-ansi-language:IT">* </span></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;
+background:white;mso-ansi-language:IT">Corea del Sud </span></b></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;
+background:white;mso-ansi-language:IT">Georgia </span></b></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;
+background:white;mso-ansi-language:IT">Giappone </span></b></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;
+background:white;mso-ansi-language:IT">Marocco </span></b></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;
+background:white;mso-ansi-language:IT">Montenegro </span></b></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;
+background:white;mso-ansi-language:IT">Nuova Zelanda </span></b></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;
+background:white;mso-ansi-language:IT">Rwanda </span></b></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;
+background:white;mso-ansi-language:IT">Serbia </span></b></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;
+background:white;mso-ansi-language:IT">Thailandia </span></b></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;
+background:white;mso-ansi-language:IT">Tunisia </span></b></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal"><b><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;
+color:#0A0A0A;background:white;mso-ansi-language:IT">Uruguay</span></b><br style="mso-special-character:line-break" /> &nbsp;</p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal"><u><span style="font-size:10.0pt;font-family:&quot;Barlow Light&quot;;
+color:#0A0A0A;background:white;mso-ansi-language:IT">*ma solo se rispetta il criterio di reciprocit&agrave;, cio&egrave; se eliminer&agrave; a sua volta la quarantena obbligatoria nei confronti dei cittadini europei che si recano in Cina</span></u><span style="font-size:10.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;background:
+white;mso-ansi-language:IT"> </span></p> 
+  <p class="MsoNormalCxSpMiddle" style="margin-bottom:0cm;margin-bottom:.0001pt;
+mso-add-space:auto;text-align:justify;line-height:normal"><br /> <span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;mso-ansi-language:
+IT"><span style="background:white">Per il momento sono&nbsp;esclusi USA, Russia, Brasile, India e Israele. </span></span></p> 
+  <p class="MsoNormalCxSpMiddle" style="margin-bottom:0cm;margin-bottom:.0001pt;
+mso-add-space:auto;text-align:justify;line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;background:
+white;mso-ansi-language:IT">La&nbsp;Gran Bretagna, nonostante la Brexit, viene ancora formalmente considerata parte della UE per tutta la durata del periodo di transizione, che terminer&agrave; a fine 2020. </span></p> 
+  <p class="MsoNormalCxSpMiddle" style="margin-bottom:0cm;margin-bottom:.0001pt;
+mso-add-space:auto;text-align:justify;line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;background:
+white;mso-ansi-language:IT">Grazie a queste novit&agrave; riapriranno alcuni punti di rimborso in aree che stanno registrando una maggiore ripresa del tax free shopping. </span></p> 
+  <p class="MsoNormalCxSpMiddle" style="margin-bottom:0cm;margin-bottom:.0001pt;
+mso-add-space:auto;text-align:justify;line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;background:
+white;mso-ansi-language:IT">&nbsp; </span></p> 
+  <p class="MsoNormalCxSpLast" style="margin-bottom:0cm;margin-bottom:.0001pt;
+mso-add-space:auto;text-align:justify;line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;background:
+white;mso-ansi-language:IT">Riaprono, tra i nostri partner per i servizi di rimborso: </span></p> 
+  <p class="MsoListParagraphCxSpFirst" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify;text-indent:-18.0pt;line-height:normal;mso-list:l1 level1 lfo1"><span style="font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#0A0A0A;mso-ansi-language:IT"><span style="mso-list:Ignore">&middot;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span> <span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;
+color:#0A0A0A;background:white;mso-ansi-language:IT">Maccorp (Forexchange) nelle aree landside degli aeroporti di Bergamo, Pisa e Napoli (con un orario ridotto, connesso ai voli attualmente attivi) </span></p> 
+  <p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify;text-indent:-18.0pt;line-height:normal;mso-list:l1 level1 lfo1"><span style="font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#0A0A0A;mso-ansi-language:IT"><span style="mso-list:Ignore">&middot;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span> <span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;
+color:#0A0A0A;background:white;mso-ansi-language:IT">Piccadilly in Svizzera </span></p> 
+  <p class="MsoListParagraphCxSpMiddle" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify;text-indent:-18.0pt;line-height:normal;mso-list:l1 level1 lfo1"><span style="font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#0A0A0A;mso-ansi-language:IT"><span style="mso-list:Ignore">&middot;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span> <span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;
+color:#0A0A0A;background:white;mso-ansi-language:IT">Tichange Foxtown a Mendrisio (con momentanei limiti di rimborso) </span></p> 
+  <p class="MsoListParagraphCxSpLast" style="margin-bottom:0cm;margin-bottom:.0001pt;
+mso-add-space:auto;text-align:justify;line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;background:
+white;mso-ansi-language:IT">&nbsp; </span></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;mso-add-space:
+auto;text-align:justify;line-height:normal"><span style="font-size:12.0pt;
+font-family:&quot;Barlow Light&quot;;color:#0A0A0A;background:white;mso-ansi-language:
+IT">Restano ancora chiusi: </span></p> 
+  <p class="MsoListParagraphCxSpFirst" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify;text-indent:-18.0pt;line-height:normal;mso-list:l0 level1 lfo2"><span style="font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#0A0A0A;mso-ansi-language:IT"><span style="mso-list:Ignore">&middot;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span> <span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;
+color:#0A0A0A;background:white;mso-ansi-language:IT">Gli altri punti di rimborso downtown, inclusi i punti di rimborso Planet di via Montenapoleone (Milano), via Gregoriana (Roma) e c/o The Mall (Sanremo) </span></p> 
+  <p class="MsoListParagraphCxSpLast" style="margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:54.0pt;margin-bottom:.0001pt;mso-add-space:auto;
+text-align:justify;text-indent:-18.0pt;line-height:normal;mso-list:l0 level1 lfo2"><span style="font-size:12.0pt;font-family:Symbol;mso-fareast-font-family:Symbol;
+mso-bidi-font-family:Symbol;color:#0A0A0A;mso-ansi-language:IT"><span style="mso-list:Ignore">&middot;<span style="font:7.0pt &quot;Times New Roman&quot;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span> <span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;
+color:#0A0A0A;background:white;mso-ansi-language:IT">I punti negli altri aeroporti, compresi i punti di rimborso Planet negli aeroporti di Milano Malpensa, Roma Fiumicino e Venezia Marco Polo. </span></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;
+color:#0A0A0A;background:white;mso-ansi-language:IT">&nbsp; </span></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;
+color:#0A0A0A;background:white;mso-ansi-language:IT">Sar&agrave; nostra cura tenervi tempestivamente informati sulle prossime aperture. </span></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;
+color:#0A0A0A;background:white;mso-ansi-language:IT">Sul nostro sito potete sempre consultare la lista completa: </span></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal"><span lang="EN-US"><a href="https://www.planetpayment.com/en/export-validation-points/"><span lang="IT" style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;background:white;
+mso-ansi-language:IT">https://www.planetpayment.com/en/export-validation-points/</span></a></span><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;background:
+white;mso-ansi-language:IT"> </span></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;text-align:
+justify;line-height:normal"><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;
+color:#0A0A0A;background:white;mso-ansi-language:IT">&nbsp; </span></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;
+background:white;mso-ansi-language:IT">Cordiali Saluti </span></p> 
+  <p class="MsoNormal" style="margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+normal"><span style="font-size:12.0pt;font-family:&quot;Barlow Light&quot;;color:#0A0A0A;
+background:white;mso-ansi-language:IT">Planet Payment Italy<i> </i></span></p>
+ </body>
+</html>

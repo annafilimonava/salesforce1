@@ -1,0 +1,823 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Fallback_Online</fullName>
+        <description>Fallback Online</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>possupport.it@planetpayment.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>POS_Support/Fallback_Online</template>
+    </alerts>
+    <alerts>
+        <fullName>New_POS_Solution_Notice</fullName>
+        <description>New POS Solution Notice</description>
+        <protected>false</protected>
+        <recipients>
+            <recipient>jana.coric@planetpayment.com</recipient>
+            <type>user</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/New_POS_Notice</template>
+    </alerts>
+    <alerts>
+        <fullName>PII_Activation</fullName>
+        <ccEmails>it.support@planetpayment.com</ccEmails>
+        <description>PII Activation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>possupport.autoreply@planetpayment.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>POS_Support/PII</template>
+    </alerts>
+    <alerts>
+        <fullName>PI_Activation</fullName>
+        <ccEmails>it.support@planetpayment.com</ccEmails>
+        <description>PI Activation</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>possupport.autoreply@planetpayment.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>POS_Support/PI</template>
+    </alerts>
+    <alerts>
+        <fullName>POS_Training</fullName>
+        <description>POS Training</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Account_Owner__c</field>
+            <type>userLookup</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Merchant_Service/Shop_Training</template>
+    </alerts>
+    <alerts>
+        <fullName>Planet_Connect_Mobility</fullName>
+        <ccEmails>possupport.it@planetpayment.com</ccEmails>
+        <description>Planet Connect Mobility</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>possupport.autoreply@planetpayment.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>POS_Support/Planet_Connect_Mobility</template>
+    </alerts>
+    <alerts>
+        <fullName>Premier_Online_Email_Alert</fullName>
+        <ccEmails>office.it@premiertaxfree.com, it.support@planetpayment.com</ccEmails>
+        <description>Premier Online Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>possupport.autoreply@planetpayment.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>POS_Support/POL</template>
+    </alerts>
+    <alerts>
+        <fullName>Premier_Touch_Email_Alert</fullName>
+        <ccEmails>office.it@premiertaxfree.com, it.support@planetpayment.com</ccEmails>
+        <description>Premier Touch Email Alert</description>
+        <protected>false</protected>
+        <recipients>
+            <field>Contact__c</field>
+            <type>contactLookup</type>
+        </recipients>
+        <senderAddress>possupport.autoreply@planetpayment.com</senderAddress>
+        <senderType>OrgWideEmailAddress</senderType>
+        <template>POS_Support/Planet_PT</template>
+    </alerts>
+    <alerts>
+        <fullName>Shop_Training</fullName>
+        <description>Shop Training</description>
+        <protected>false</protected>
+        <recipients>
+            <type>accountOwner</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>Merchant_Service/Shop_Training</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Account_ID</fullName>
+        <field>Account_ID__c</field>
+        <formula>Account__r.Account_ID__c</formula>
+        <name>Account ID</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Account_Name</fullName>
+        <field>Account_Name__c</field>
+        <formula>Account__r.Name</formula>
+        <name>Account Name</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Caixa_POS</fullName>
+        <field>Caixa__c</field>
+        <literalValue>1</literalValue>
+        <name>Caixa POS</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Outbound_Label</fullName>
+        <field>Shipment_Type__c</field>
+        <literalValue>OUTBOUND</literalValue>
+        <name>Outbound Label</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_GB</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Solution_Owner</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_GB</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Solution Owner</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Solution_Owner_CH</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_CH</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Solution Owner CH</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Solution_Owner_CZ</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_CZ</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Solution Owner CZ</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Solution_Owner_DE</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_DE</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Solution Owner DE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Solution_Owner_ES</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_ES</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Solution Owner ES</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Solution_Owner_HU</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_HU</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Solution Owner HU</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Solution_Owner_IE</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_IE</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Solution Owner IE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Solution_Owner_IT</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_Italy</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Solution Owner IT</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Support_FI</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_FI</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Support FI</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Support_FR</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_FR</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Support FR</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>POS_Support_PT</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_PT</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>POS Support PT</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Return_Label</fullName>
+        <field>Shipment_Type__c</field>
+        <literalValue>RETURN</literalValue>
+        <name>Return Label</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Roll_Out_Date</fullName>
+        <field>Actual_Rollout_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Roll Out Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Roll_Out_Date1</fullName>
+        <field>Actual_Rollout_Date__c</field>
+        <formula>TODAY()</formula>
+        <name>Roll Out Date</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Service_Type</fullName>
+        <field>Service_Type__c</field>
+        <formula>&quot;UPS_STANDARD&quot;</formula>
+        <name>Service Type</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Status_Dispatched</fullName>
+        <field>Status__c</field>
+        <literalValue>Dispatched</literalValue>
+        <name>Status Dispatched</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Literal</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <fieldUpdates>
+        <fullName>Work_Order_IE</fullName>
+        <field>OwnerId</field>
+        <lookupValue>POS_Support_IE</lookupValue>
+        <lookupValueType>Queue</lookupValueType>
+        <name>Work Order IE</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>LookupValue</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Caixa POS</fullName>
+        <actions>
+            <name>Caixa_POS</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>INCLUDES(Account__r.TF_Current_Provider__c, &quot;Caixa&quot;)</formula>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Fallback Online</fullName>
+        <actions>
+            <name>Fallback_Online</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>POS_Solution__c.Fallback__c</field>
+            <operation>equals</operation>
+            <value>Fallback Online</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>Italy</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Send_Fallback_Online_Email__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <description>Sends email to Contact on POS Solution when Fallback Online select on POS Solution in Italy.</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>New POS Solution Notice DE%2CNL%2CCH</fullName>
+        <actions>
+            <name>New_POS_Solution_Notice</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>POS_Solution__c.Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>Germany,Switzerland,Netherlands,Austria</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.CreatedById</field>
+            <operation>notEqual</operation>
+            <value>Jana Coric</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>Outbound Label</fullName>
+        <actions>
+            <name>Outbound_Label</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>POS_Solution__c.Shipment_Type__c</field>
+            <operation>notEqual</operation>
+            <value>OUTBOUND</value>
+        </criteriaItems>
+        <triggerType>onCreateOnly</triggerType>
+    </rules>
+    <rules>
+        <fullName>PI IT</fullName>
+        <actions>
+            <name>PI_Activation</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
+        <criteriaItems>
+            <field>POS_Solution__c.Contact_Email__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Managed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>Italy</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Solution__c</field>
+            <operation>equals</operation>
+            <value>PI</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Parent_VAT__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Reference_ID__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Sends email to contact on PI POS once activated</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PII IT</fullName>
+        <actions>
+            <name>PII_Activation</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
+        <criteriaItems>
+            <field>POS_Solution__c.Contact_Email__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Managed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>Italy</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Solution__c</field>
+            <operation>equals</operation>
+            <value>PII</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Parent_VAT__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Reference_ID__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Sends email to contact on PII POS once activated</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>POL IT</fullName>
+        <actions>
+            <name>Premier_Online_Email_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
+        <criteriaItems>
+            <field>POS_Solution__c.Contact_Email__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Managed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>Italy</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Solution__c</field>
+            <operation>equals</operation>
+            <value>POL</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Password__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Login__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Sends email to contact on Premier Online POS once activated</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Solution Owner CH</fullName>
+        <actions>
+            <name>POS_Solution_Owner_CH</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support CH&quot;,  TEXT(Account__r.Owning_Country__c) = &quot;Switzerland&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Solution Owner CZ</fullName>
+        <actions>
+            <name>POS_Solution_Owner_CZ</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support CZ&quot;,  TEXT(Account__r.Owning_Country__c) = &quot;Czech Republic&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Solution Owner DE%2FNL</fullName>
+        <actions>
+            <name>POS_Solution_Owner_DE</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(
+Owner:Queue.QueueName &lt;&gt; &quot;POS Support DE&quot;,  
+OR(
+TEXT(Account__r.Owning_Country__c) = &quot;Germany&quot;,
+TEXT(Account__r.Owning_Country__c) = &quot;Netherlands&quot;,
+TEXT(Account__r.Owning_Country__c) = &quot;Austria&quot;
+)
+)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Solution Owner ES</fullName>
+        <actions>
+            <name>POS_Solution_Owner_ES</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support ES&quot;, Owner:Queue.QueueName &lt;&gt; &quot;POS Support Caixa&quot;, TEXT(Account__r.Owning_Country__c) = &quot;Spain&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Solution Owner FI</fullName>
+        <actions>
+            <name>POS_Support_FI</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support FI&quot;,  TEXT(Account__r.Owning_Country__c) = &quot;Finland&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Solution Owner FR</fullName>
+        <actions>
+            <name>POS_Support_FR</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support FR&quot;,  TEXT(Account__r.Owning_Country__c) = &quot;France&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Solution Owner GB</fullName>
+        <actions>
+            <name>POS_Solution_Owner</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support GB&quot;,  TEXT(Account__r.Owning_Country__c) = &quot;United Kingdom&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Solution Owner HU</fullName>
+        <actions>
+            <name>POS_Solution_Owner_HU</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support HU&quot;,  TEXT(Account__r.Owning_Country__c) = &quot;Hungary&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Solution Owner IE</fullName>
+        <actions>
+            <name>POS_Solution_Owner_IE</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support IE&quot;,  TEXT(Account__r.Owning_Country__c) = &quot;Ireland&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Solution Owner IT</fullName>
+        <actions>
+            <name>POS_Solution_Owner_IT</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support IT&quot;,  TEXT(Account__r.Owning_Country__c) = &quot;Italy&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Solution Owner PT</fullName>
+        <actions>
+            <name>POS_Support_PT</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(Owner:Queue.QueueName &lt;&gt; &quot;POS Support PT&quot;,  TEXT(Account__r.Owning_Country__c) = &quot;Portugal&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>POS Training</fullName>
+        <actions>
+            <name>POS_Training</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>POS_Solution__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Managed,Active</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Product__c</field>
+            <operation>equals</operation>
+            <value>VAT &amp; Payments &amp; DCC,Payments &amp; DCC</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>Italy</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Account_Owner__c</field>
+            <operation>equals</operation>
+            <value>Simone Cattani</value>
+        </criteriaItems>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>PT IT</fullName>
+        <actions>
+            <name>Premier_Touch_Email_Alert</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6</booleanFilter>
+        <criteriaItems>
+            <field>POS_Solution__c.Contact_Email__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Managed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>Italy</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Solution__c</field>
+            <operation>equals</operation>
+            <value>PT</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Password__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Login__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Sends email to contact on PT POS once activated</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Planet Connect Mobility IT</fullName>
+        <actions>
+            <name>Planet_Connect_Mobility</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <booleanFilter>1 AND 2 AND 3 AND 4 AND 5 AND 6 AND 7</booleanFilter>
+        <criteriaItems>
+            <field>POS_Solution__c.Contact_Email__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Managed</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>Italy</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Solution__c</field>
+            <operation>equals</operation>
+            <value>Planet Connect Mobility</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Parent_VAT__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Reference_ID__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <criteriaItems>
+            <field>POS_Solution__c.Planet_App_Activation_Code__c</field>
+            <operation>notEqual</operation>
+        </criteriaItems>
+        <description>Sends email to contact on Planet Connect Mobility POS once activated</description>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+    <rules>
+        <fullName>Return Label</fullName>
+        <actions>
+            <name>Return_Label</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(Print_Return_Label__c),  Print_Return_Label__c = TRUE)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Roll Out Date</fullName>
+        <actions>
+            <name>Roll_Out_Date1</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Update Roll Out Date field with Rolled Out field is Yes.</description>
+        <formula>AND(ISCHANGED(Rolled_Out__c), TEXT(Rolled_Out__c) = &quot;Yes&quot;)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>UPS Outbound Shipping</fullName>
+        <actions>
+            <name>Service_Type</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <formula>AND(ISCHANGED(UPS_Outbound_Shipping__c), UPS_Outbound_Shipping__c = TRUE)</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Account ID</fullName>
+        <actions>
+            <name>Account_ID</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Account Name</fullName>
+        <actions>
+            <name>Account_Name</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <criteriaItems>
+            <field>User.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </criteriaItems>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <tasks>
+        <fullName>Configure_New_POS_Solution</fullName>
+        <assignedToType>owner</assignedToType>
+        <dueDateOffset>14</dueDateOffset>
+        <notifyAssignee>false</notifyAssignee>
+        <offsetFromField>POS_Solution__c.CreatedDate</offsetFromField>
+        <priority>Normal</priority>
+        <protected>false</protected>
+        <status>Open</status>
+        <subject>Configure New POS Solution</subject>
+    </tasks>
+</Workflow>

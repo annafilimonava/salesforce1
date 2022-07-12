@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_DCC_ProviderR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Current_DCC_Provider__c) = &quot;Barclays&quot;, 1,
+IF(TEXT(Current_DCC_Provider__c) = &quot;ConCardis&quot;, 1,
+IF(TEXT(Current_DCC_Provider__c) = &quot;Elavon&quot;, 2,
+IF(TEXT(Current_DCC_Provider__c) = &quot;Other&quot;, 1,
+IF(TEXT(Current_DCC_Provider__c) = &quot;Fexco&quot;, 3,
+IF(TEXT(Current_DCC_Provider__c) = &quot;Global Blue&quot;, 2,
+IF(TEXT(Current_DCC_Provider__c) = &quot;SIX&quot;, 4,
+IF(TEXT(Current_DCC_Provider__c) = &quot;Worldpay&quot;, 5,
+IF(TEXT(Current_DCC_Provider__c) = &quot;No Current Provider&quot;, 0, 0)))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Current DCC ProviderR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

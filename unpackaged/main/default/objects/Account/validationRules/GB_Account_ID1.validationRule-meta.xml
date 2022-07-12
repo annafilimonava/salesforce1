@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GB_Account_ID1</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(Type)=&quot;Active&quot;, TEXT(Owning_Country__c) = &quot;United Kingdom&quot;, RecordType.Name = &quot;Shop&quot;, INCLUDES( TF_Current_Provider__c,&quot;Premier Tax Free&quot;), NOT( BEGINS(Account_ID__c, &quot;GBS&quot;)))</errorConditionFormula>
+    <errorDisplayField>Account_ID__c</errorDisplayField>
+    <errorMessage>The Account ID must be in the correct format.</errorMessage>
+</ValidationRule>

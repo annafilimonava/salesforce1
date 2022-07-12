@@ -1,0 +1,37 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoPlainText"><span lang="ZH-CN" style="font-size:12.0pt;font-family:
+SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;color:windowtext;mso-ansi-language:EN-US;
+mso-fareast-language:ZH-CN">尊敬的{{{Case.Tourist__c}}}，</span><span lang="EN-US" style="font-size:
+12.0pt;font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;color:windowtext;mso-ansi-language:
+EN-US;mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoPlainText"><span lang="ZH-CN" style="font-size:12.0pt;font-family:
+SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;color:windowtext;mso-ansi-language:EN-US;
+mso-fareast-language:ZH-CN">您好。</span><span lang="EN-US" style="font-size:12.0pt;
+font-family:SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:
+minor-fareast;mso-hansi-theme-font:minor-fareast;color:windowtext;mso-ansi-language:
+EN-US;mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoPlainText"><span lang="ZH-CN" style="font-size:12.0pt;font-family:
+SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;color:windowtext;mso-ansi-language:EN-US;
+mso-fareast-language:ZH-CN">很遗憾地通知您，我们无法将您的免税表格{{{Case.Tax_Free_Form__c}}}寄回给您。文件一旦受理后，所有文件必须被存档以供审核使用。 即使不符合退款条件的表格也需要经过政府机构的审核。另外，如需通过增值税出口方案获得退税，所有商品必须由退税人亲自带离欧盟。对于涉嫌欺诈活动的企图可能会受到重罚，在这种情况下，将表格退还给您以进行重新海关认证，可能会被视为利用了零售出口计划。</span><span lang="EN-US" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+color:windowtext;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN"> </span></p> 
+  <p class="MsoPlainText"><span lang="EN-US" style="font-size:12.0pt;font-family:
+SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;color:windowtext;mso-ansi-language:EN-US;
+mso-fareast-language:ZH-CN">&nbsp; </span></p> 
+  <p class="MsoPlainText"><span lang="ZH-CN" style="font-size:12.0pt;font-family:
+SimSun;mso-ascii-theme-font:minor-fareast;mso-fareast-theme-font:minor-fareast;
+mso-hansi-theme-font:minor-fareast;color:windowtext;mso-ansi-language:EN-US;
+mso-fareast-language:ZH-CN">这可能不是一个令人满意的答案。但是综上所述，我们不能违反我们的政策。</span><span lang="EN-US" style="font-size:12.0pt;font-family:SimSun;mso-ascii-theme-font:
+minor-fareast;mso-fareast-theme-font:minor-fareast;mso-hansi-theme-font:minor-fareast;
+color:windowtext;mso-ansi-language:EN-US;mso-fareast-language:ZH-CN"> </span></p>
+ </body>
+</html>

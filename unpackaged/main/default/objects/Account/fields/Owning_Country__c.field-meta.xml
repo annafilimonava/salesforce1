@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Owning_Country__c</fullName>
+    <defaultValue>IF($User.Country = &quot;United Kingdom&quot;, &quot;United Kingdom&quot;,
+IF($User.Country = &quot;Austria&quot;, &quot;Austria&quot;,
+IF($User.Country = &quot;Belgium&quot;, &quot;Belgium&quot;,
+IF($User.Country = &quot;Colombia&quot;, &quot;Colombia&quot;,
+IF($User.Country = &quot;Czech Republic&quot;, &quot;Czech Republic&quot;,
+IF($User.Country = &quot;Denmark&quot;, &quot;Denmark&quot;,
+IF($User.Country = &quot;Finland&quot;, &quot;Finland&quot;,
+IF($User.Country = &quot;France&quot;, &quot;France&quot;,
+IF($User.Country = &quot;Germany&quot;, &quot;Germany&quot;,
+IF($User.Country = &quot;Greece&quot;, &quot;Greece&quot;,
+IF($User.Country = &quot;Hong Kong&quot;, &quot;Hong Kong&quot;,
+IF($User.Country = &quot;Hungary&quot;, &quot;Hungary&quot;,
+IF($User.Country = &quot;Iceland&quot;, &quot;Iceland&quot;,
+IF($User.Country = &quot;Ireland&quot;, &quot;Ireland&quot;,
+IF($User.Country = &quot;Italy&quot;, &quot;Italy&quot;,
+IF($User.Country = &quot;Korea, Republic of&quot;, &quot;Korea, Republic of&quot;,
+IF($User.Country = &quot;Poland&quot;, &quot;Poland&quot;,
+IF($User.Country = &quot;Portugal&quot;, &quot;Portugal&quot;,
+IF($User.Country = &quot;Singapore&quot;, &quot;Singapore&quot;,
+IF($User.Country = &quot;Spain&quot;, &quot;Spain&quot;,
+IF($User.Country = &quot;Sweden&quot;, &quot;Sweden&quot;,
+IF($User.Country = &quot;United States&quot;, &quot;United States&quot;,
+IF($User.Country = &quot;Canada&quot;, &quot;Canada&quot;,
+IF($User.Country = &quot;Turkey&quot;, &quot;Turkey&quot;,
+IF($User.Country = &quot;Switzerland&quot;, &quot;&quot;, null)))))))))))))))))))))))))</defaultValue>
+    <externalId>false</externalId>
+    <label>Owning Country</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Company_Sector__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Afghanistan</fullName>
+                <default>false</default>
+                <label>Afghanistan</label>
+            </value>
+            <value>
+                <fullName>Argentina</fullName>
+                <default>false</default>
+                <label>Argentina</label>
+            </value>
+            <value>
+                <fullName>Armenia</fullName>
+                <default>false</default>
+                <label>Armenia</label>
+            </value>
+            <value>
+                <fullName>Aruba</fullName>
+                <default>false</default>
+                <label>Aruba</label>
+            </value>
+            <value>
+                <fullName>Australia</fullName>
+                <default>false</default>
+                <label>Australia</label>
+            </value>
+            <value>
+                <fullName>Austria</fullName>
+                <default>false</default>
+                <label>Austria</label>
+            </value>
+            <value>
+                <fullName>Azerbaijan</fullName>
+                <default>false</default>
+                <label>Azerbaijan</label>
+            </value>
+            <value>
+                <fullName>Bahrain</fullName>
+                <default>false</default>
+                <label>Bahrain</label>
+            </value>
+            <value>
+                <fullName>Bangladesh</fullName>
+                <default>false</default>
+                <label>Bangladesh</label>
+            </value>
+            <value>
+                <fullName>Barbados</fullName>
+                <default>false</default>
+                <label>Barbados</label>
+            </value>
+            <value>
+                <fullName>Belgium</fullName>
+                <default>false</default>
+                <label>Belgium</label>
+            </value>
+            <value>
+                <fullName>Belize</fullName>
+                <default>false</default>
+                <label>Belize</label>
+            </value>
+            <value>
+                <fullName>Bhutan</fullName>
+                <default>false</default>
+                <label>Bhutan</label>
+            </value>
+            <value>
+                <fullName>Bolivia</fullName>
+                <default>false</default>
+                <label>Bolivia</label>
+            </value>
+            <value>
+                <fullName>Brazil</fullName>
+                <default>false</default>
+                <label>Brazil</label>
+            </value>
+            <value>
+                <fullName>Brunei</fullName>
+                <default>false</default>
+                <label>Brunei</label>
+            </value>
+            <value>
+                <fullName>Bulgaria</fullName>
+                <default>false</default>
+                <label>Bulgaria</label>
+            </value>
+            <value>
+                <fullName>Cambodia</fullName>
+                <default>false</default>
+                <label>Cambodia</label>
+            </value>
+            <value>
+                <fullName>Canada</fullName>
+                <default>false</default>
+                <label>Canada</label>
+            </value>
+            <value>
+                <fullName>Chile</fullName>
+                <default>false</default>
+                <label>Chile</label>
+            </value>
+            <value>
+                <fullName>China</fullName>
+                <default>false</default>
+                <label>China</label>
+            </value>
+            <value>
+                <fullName>Colombia</fullName>
+                <default>false</default>
+                <label>Colombia</label>
+            </value>
+            <value>
+                <fullName>Costa Rica</fullName>
+                <default>false</default>
+                <label>Costa Rica</label>
+            </value>
+            <value>
+                <fullName>Croatia</fullName>
+                <default>false</default>
+                <label>Croatia</label>
+            </value>
+            <value>
+                <fullName>Cyprus</fullName>
+                <default>false</default>
+                <label>Cyprus</label>
+            </value>
+            <value>
+                <fullName>Czech Republic</fullName>
+                <default>false</default>
+                <label>Czech Republic</label>
+            </value>
+            <value>
+                <fullName>Denmark</fullName>
+                <default>false</default>
+                <label>Denmark</label>
+            </value>
+            <value>
+                <fullName>Dominican Republic</fullName>
+                <default>false</default>
+                <label>Dominican Republic</label>
+            </value>
+            <value>
+                <fullName>Dubai</fullName>
+                <default>false</default>
+                <label>Dubai</label>
+            </value>
+            <value>
+                <fullName>Ecuador</fullName>
+                <default>false</default>
+                <label>Ecuador</label>
+            </value>
+            <value>
+                <fullName>Egypt</fullName>
+                <default>false</default>
+                <label>Egypt</label>
+            </value>
+            <value>
+                <fullName>El Salvador</fullName>
+                <default>false</default>
+                <label>El Salvador</label>
+            </value>
+            <value>
+                <fullName>Equador</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Equador</label>
+            </value>
+            <value>
+                <fullName>Estonia</fullName>
+                <default>false</default>
+                <label>Estonia</label>
+            </value>
+            <value>
+                <fullName>Faroe Islands</fullName>
+                <default>false</default>
+                <label>Faroe Islands</label>
+            </value>
+            <value>
+                <fullName>Finland</fullName>
+                <default>false</default>
+                <label>Finland</label>
+            </value>
+            <value>
+                <fullName>France</fullName>
+                <default>false</default>
+                <label>France</label>
+            </value>
+            <value>
+                <fullName>French West Indies</fullName>
+                <default>false</default>
+                <label>French West Indies</label>
+            </value>
+            <value>
+                <fullName>Georgia</fullName>
+                <default>false</default>
+                <label>Georgia</label>
+            </value>
+            <value>
+                <fullName>Germany</fullName>
+                <default>false</default>
+                <label>Germany</label>
+            </value>
+            <value>
+                <fullName>Gibraltar</fullName>
+                <default>false</default>
+                <label>Gibraltar</label>
+            </value>
+            <value>
+                <fullName>Greece</fullName>
+                <default>false</default>
+                <label>Greece</label>
+            </value>
+            <value>
+                <fullName>Guadeloupe</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Guadeloupe</label>
+            </value>
+            <value>
+                <fullName>Guatemala</fullName>
+                <default>false</default>
+                <label>Guatemala</label>
+            </value>
+            <value>
+                <fullName>Honduras</fullName>
+                <default>false</default>
+                <label>Honduras</label>
+            </value>
+            <value>
+                <fullName>Hong Kong</fullName>
+                <default>false</default>
+                <label>Hong Kong</label>
+            </value>
+            <value>
+                <fullName>Hungary</fullName>
+                <default>false</default>
+                <label>Hungary</label>
+            </value>
+            <value>
+                <fullName>Iceland</fullName>
+                <default>false</default>
+                <label>Iceland</label>
+            </value>
+            <value>
+                <fullName>India</fullName>
+                <default>false</default>
+                <label>India</label>
+            </value>
+            <value>
+                <fullName>Indonesia</fullName>
+                <default>false</default>
+                <label>Indonesia</label>
+            </value>
+            <value>
+                <fullName>Iran</fullName>
+                <default>false</default>
+                <label>Iran</label>
+            </value>
+            <value>
+                <fullName>Iraq</fullName>
+                <default>false</default>
+                <label>Iraq</label>
+            </value>
+            <value>
+                <fullName>Ireland</fullName>
+                <default>false</default>
+                <label>Ireland</label>
+            </value>
+            <value>
+                <fullName>Israel</fullName>
+                <default>false</default>
+                <label>Israel</label>
+            </value>
+            <value>
+                <fullName>Italy</fullName>
+                <default>false</default>
+                <label>Italy</label>
+            </value>
+            <value>
+                <fullName>Jamaica</fullName>
+                <default>false</default>
+                <label>Jamaica</label>
+            </value>
+            <value>
+                <fullName>Japan</fullName>
+                <default>false</default>
+                <label>Japan</label>
+            </value>
+            <value>
+                <fullName>Jordan</fullName>
+                <default>false</default>
+                <label>Jordan</label>
+            </value>
+            <value>
+                <fullName>Kazakhstan</fullName>
+                <default>false</default>
+                <label>Kazakhstan</label>
+            </value>
+            <value>
+                <fullName>Kenya</fullName>
+                <default>false</default>
+                <label>Kenya</label>
+            </value>
+            <value>
+                <fullName>Kuwait</fullName>
+                <default>false</default>
+                <label>Kuwait</label>
+            </value>
+            <value>
+                <fullName>Kyrgyzstan</fullName>
+                <default>false</default>
+                <label>Kyrgyzstan</label>
+            </value>
+            <value>
+                <fullName>Laos</fullName>
+                <default>false</default>
+                <label>Laos</label>
+            </value>
+            <value>
+                <fullName>Latvia</fullName>
+                <default>false</default>
+                <label>Latvia</label>
+            </value>
+            <value>
+                <fullName>Lebanon</fullName>
+                <default>false</default>
+                <label>Lebanon</label>
+            </value>
+            <value>
+                <fullName>Lithuania</fullName>
+                <default>false</default>
+                <label>Lithuania</label>
+            </value>
+            <value>
+                <fullName>Luxembourg</fullName>
+                <default>false</default>
+                <label>Luxembourg</label>
+            </value>
+            <value>
+                <fullName>Macao</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Macao</label>
+            </value>
+            <value>
+                <fullName>Macau</fullName>
+                <default>false</default>
+                <label>Macau</label>
+            </value>
+            <value>
+                <fullName>Malaysia</fullName>
+                <default>false</default>
+                <label>Malaysia</label>
+            </value>
+            <value>
+                <fullName>Maldives</fullName>
+                <default>false</default>
+                <label>Maldives</label>
+            </value>
+            <value>
+                <fullName>Malta</fullName>
+                <default>false</default>
+                <label>Malta</label>
+            </value>
+            <value>
+                <fullName>Martinique</fullName>
+                <default>false</default>
+                <label>Martinique</label>
+            </value>
+            <value>
+                <fullName>Mexico</fullName>
+                <default>false</default>
+                <label>Mexico</label>
+            </value>
+            <value>
+                <fullName>Monaco</fullName>
+                <default>false</default>
+                <label>Monaco</label>
+            </value>
+            <value>
+                <fullName>Mongolia</fullName>
+                <default>false</default>
+                <label>Mongolia</label>
+            </value>
+            <value>
+                <fullName>Myanmar</fullName>
+                <default>false</default>
+                <label>Myanmar</label>
+            </value>
+            <value>
+                <fullName>Nepal</fullName>
+                <default>false</default>
+                <label>Nepal</label>
+            </value>
+            <value>
+                <fullName>Netherlands</fullName>
+                <default>false</default>
+                <label>Netherlands</label>
+            </value>
+            <value>
+                <fullName>Nicaragua</fullName>
+                <default>false</default>
+                <label>Nicaragua</label>
+            </value>
+            <value>
+                <fullName>North Korea</fullName>
+                <default>false</default>
+                <label>North Korea</label>
+            </value>
+            <value>
+                <fullName>Norway</fullName>
+                <default>false</default>
+                <label>Norway</label>
+            </value>
+            <value>
+                <fullName>Oman</fullName>
+                <default>false</default>
+                <label>Oman</label>
+            </value>
+            <value>
+                <fullName>Pakistan</fullName>
+                <default>false</default>
+                <label>Pakistan</label>
+            </value>
+            <value>
+                <fullName>Panama</fullName>
+                <default>false</default>
+                <label>Panama</label>
+            </value>
+            <value>
+                <fullName>Paraguay</fullName>
+                <default>false</default>
+                <label>Paraguay</label>
+            </value>
+            <value>
+                <fullName>Peru</fullName>
+                <default>false</default>
+                <label>Peru</label>
+            </value>
+            <value>
+                <fullName>Philippines</fullName>
+                <default>false</default>
+                <label>Philippines</label>
+            </value>
+            <value>
+                <fullName>Poland</fullName>
+                <default>false</default>
+                <label>Poland</label>
+            </value>
+            <value>
+                <fullName>Portugal</fullName>
+                <default>false</default>
+                <label>Portugal</label>
+            </value>
+            <value>
+                <fullName>Puerto Rico</fullName>
+                <default>false</default>
+                <label>Puerto Rico</label>
+            </value>
+            <value>
+                <fullName>Qatar</fullName>
+                <default>false</default>
+                <label>Qatar</label>
+            </value>
+            <value>
+                <fullName>Republic of Korea</fullName>
+                <default>false</default>
+                <label>Republic of Korea</label>
+            </value>
+            <value>
+                <fullName>Reunion</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Reunion</label>
+            </value>
+            <value>
+                <fullName>Romania</fullName>
+                <default>false</default>
+                <label>Romania</label>
+            </value>
+            <value>
+                <fullName>Russian Federation</fullName>
+                <default>false</default>
+                <label>Russian Federation</label>
+            </value>
+            <value>
+                <fullName>Saudi Arabia</fullName>
+                <default>false</default>
+                <label>Saudi Arabia</label>
+            </value>
+            <value>
+                <fullName>Singapore</fullName>
+                <default>false</default>
+                <label>Singapore</label>
+            </value>
+            <value>
+                <fullName>Slovakia</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Slovakia</label>
+            </value>
+            <value>
+                <fullName>Slovak Republic</fullName>
+                <default>false</default>
+                <label>Slovak Republic</label>
+            </value>
+            <value>
+                <fullName>Slovenia</fullName>
+                <default>false</default>
+                <label>Slovenia</label>
+            </value>
+            <value>
+                <fullName>South Africa</fullName>
+                <default>false</default>
+                <label>South Africa</label>
+            </value>
+            <value>
+                <fullName>South Korea</fullName>
+                <default>false</default>
+                <label>South Korea</label>
+            </value>
+            <value>
+                <fullName>Spain</fullName>
+                <default>false</default>
+                <label>Spain</label>
+            </value>
+            <value>
+                <fullName>Sri Lanka</fullName>
+                <default>false</default>
+                <label>Sri Lanka</label>
+            </value>
+            <value>
+                <fullName>State of Palestine</fullName>
+                <default>false</default>
+                <label>State of Palestine</label>
+            </value>
+            <value>
+                <fullName>Sweden</fullName>
+                <default>false</default>
+                <label>Sweden</label>
+            </value>
+            <value>
+                <fullName>Switzerland</fullName>
+                <default>false</default>
+                <label>Switzerland</label>
+            </value>
+            <value>
+                <fullName>Syria</fullName>
+                <default>false</default>
+                <label>Syria</label>
+            </value>
+            <value>
+                <fullName>Taiwan</fullName>
+                <default>false</default>
+                <label>Taiwan</label>
+            </value>
+            <value>
+                <fullName>Tajikistan</fullName>
+                <default>false</default>
+                <label>Tajikistan</label>
+            </value>
+            <value>
+                <fullName>Thailand</fullName>
+                <default>false</default>
+                <label>Thailand</label>
+            </value>
+            <value>
+                <fullName>The Bahamas</fullName>
+                <default>false</default>
+                <label>The Bahamas</label>
+            </value>
+            <value>
+                <fullName>The Netherlands</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>The Netherlands</label>
+            </value>
+            <value>
+                <fullName>Timor-Leste</fullName>
+                <default>false</default>
+                <label>Timor-Leste</label>
+            </value>
+            <value>
+                <fullName>Trinidad and Tobago</fullName>
+                <default>false</default>
+                <label>Trinidad and Tobago</label>
+            </value>
+            <value>
+                <fullName>Turkey</fullName>
+                <default>false</default>
+                <label>Turkey</label>
+            </value>
+            <value>
+                <fullName>Turkmenistan</fullName>
+                <default>false</default>
+                <label>Turkmenistan</label>
+            </value>
+            <value>
+                <fullName>United Arab Emirates</fullName>
+                <default>false</default>
+                <label>United Arab Emirates</label>
+            </value>
+            <value>
+                <fullName>United Kingdom</fullName>
+                <default>false</default>
+                <label>United Kingdom</label>
+            </value>
+            <value>
+                <fullName>United States</fullName>
+                <default>false</default>
+                <label>United States</label>
+            </value>
+            <value>
+                <fullName>Uruguay</fullName>
+                <default>false</default>
+                <label>Uruguay</label>
+            </value>
+            <value>
+                <fullName>Uzbekistan</fullName>
+                <default>false</default>
+                <label>Uzbekistan</label>
+            </value>
+            <value>
+                <fullName>Vietnam</fullName>
+                <default>false</default>
+                <label>Vietnam</label>
+            </value>
+            <value>
+                <fullName>Yemen</fullName>
+                <default>false</default>
+                <label>Yemen</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Afghanistan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Argentina</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Armenia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Aruba</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Australia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Austria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Azerbaijan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Bahrain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Bangladesh</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Barbados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Belgium</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Belize</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Bhutan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Bolivia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Brazil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Brunei</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Bulgaria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Cambodia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Canada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Chile</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>China</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Colombia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Costa Rica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Croatia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Cyprus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Czech Republic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Denmark</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Dominican Republic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Ecuador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Egypt</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>El Salvador</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Estonia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Faroe Islands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Finland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>France</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>French West Indies</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Georgia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Germany</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Gibraltar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Greece</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Guatemala</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Honduras</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Hong Kong</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Hungary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Iceland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>India</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Indonesia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Iran</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Iraq</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Ireland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Israel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Italy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Jamaica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Japan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Jordan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Kazakhstan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Kenya</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Kuwait</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Kyrgyzstan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Laos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Latvia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Lebanon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Lithuania</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Luxembourg</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Macau</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Malaysia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Maldives</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Malta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Mexico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Monaco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Mongolia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Myanmar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Nepal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Netherlands</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Nicaragua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>North Korea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Norway</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Oman</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Pakistan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Panama</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Paraguay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Peru</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Philippines</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Poland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Portugal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Puerto Rico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Qatar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Republic of Korea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Romania</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Russian Federation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Saudi Arabia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Singapore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Slovak Republic</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Slovenia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>South Africa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>South Korea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Spain</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Sri Lanka</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>State of Palestine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Sweden</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Switzerland</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Syria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Taiwan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Tajikistan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Thailand</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>The Bahamas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Timor-Leste</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Trinidad and Tobago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>Turkey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Turkmenistan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>United Arab Emirates</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>United Kingdom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Hospitality</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <controllingFieldValue>Retail</controllingFieldValue>
+            <valueName>United States</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Uruguay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Uzbekistan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <controllingFieldValue>Parking</controllingFieldValue>
+            <valueName>Vietnam</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Financial Partner</controllingFieldValue>
+            <valueName>Yemen</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

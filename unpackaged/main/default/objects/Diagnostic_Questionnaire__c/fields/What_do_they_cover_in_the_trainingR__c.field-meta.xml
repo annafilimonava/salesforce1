@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>What_do_they_cover_in_the_trainingR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(INCLUDES(What_do_they_cover_in_the_training__c, &quot;Basic Procedures&quot;), 1,
+IF(INCLUDES(What_do_they_cover_in_the_training__c, &quot;Upselling&quot;), 3,
+IF(INCLUDES(What_do_they_cover_in_the_training__c, &quot;Cultural Training&quot;), 5,
+IF(INCLUDES(What_do_they_cover_in_the_training__c, &quot;No Training&quot;), 0, 0))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>What do they cover in the trainingR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

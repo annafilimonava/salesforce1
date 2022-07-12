@@ -1,0 +1,20 @@
+<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif"><span lang="FR" style="font-family:Barlow">Bonjour </span><span lang="EN-IE" style="font-family:Barlow">{{{Case.Tourist__c}}}</span><span lang="FR" style="font-family:Barlow">,</span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif"><span lang="FR" style="font-family:Barlow">Merci pour votre message.</span></span></span></span><br />
+<br />
+<span style="line-height:115%"><font face="Barlow"><span style="font-size:11pt">J&rsquo;ai v&eacute;rifi&eacute; dans notre </span><span style="font-size:14.6667px">syst&egrave;me</span><span style="font-size:11pt">&nbsp;et nous avons bien re&ccedil;u votre bordereau {{{Case.Tax_Free_Form__c}}}.</span></font></span><br />
+<br />
+<span style="line-height:115%"><font face="Barlow"><span style="font-size:11pt">Cependant comme vous avez choisi votre m&eacute;thode de remboursement initiale en esp&egrave;ces, nos proc&eacute;dures nous obligent &agrave; patienter un d&eacute;lai de deux semaines depuis la validation du bordereau sur la borne PABLO, pour effectuer une mise-</span><span style="font-size:14.6667px">&agrave;</span><span style="font-size:11pt">-jour de votre X$X</span></font><span style="font-size:11pt"><span style="font-family:Barlow"><span style="color:#ff6600">carte de cr&eacute;dit/compte bancaire.</span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif"><span lang="FR" style="font-family:Barlow">Si vous voulez vous pouvez nous donner votre num&eacute;ro de carte de cr&eacute;dit maintenant et j&rsquo;effectuerai la mise-a-jour environs le X$X<span style="color:#ff6600">00/00/2018.</span></span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif"><span lang="FR" style="font-family:Barlow">Vous pouvez aussi &eacute;ventuellement nous recontacter apr&egrave;s le d&eacute;lai des deux semaines pour nous confirmer le num&eacute;ro pour le remboursement. &nbsp;</span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif"><span lang="FR" style="font-family:Barlow">Dans tous les cas, nous recommandons toujours d&rsquo;envoyer le num&eacute;ro divis&eacute; en deux parties pour des raisons de s&eacute;curit&eacute;s. La premi&egrave;re partie dans un email et la deuxi&egrave;me dans un autre.</span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif"><span lang="FR" style="font-family:Barlow">Merci pour votre compr&eacute;hension.</span></span></span></span><br />
+<br />
+<span style="font-size:11pt"><span style="line-height:115%"><span style="font-family:Calibri,sans-serif"><span lang="FR" style="font-family:Barlow">Cordialement.</span></span></span></span></body>
+</html>

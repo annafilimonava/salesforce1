@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Front_End_Solution__c</fullName>
+    <externalId>false</externalId>
+    <label>Front End Solution</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>eTF</fullName>
+                <default>false</default>
+                <label>eTF</label>
+            </value>
+            <value>
+                <fullName>PA</fullName>
+                <default>false</default>
+                <label>PA</label>
+            </value>
+            <value>
+                <fullName>PA 3rd Party</fullName>
+                <default>false</default>
+                <label>PA 3rd Party</label>
+            </value>
+            <value>
+                <fullName>PA Offline</fullName>
+                <default>false</default>
+                <label>PA Offline</label>
+            </value>
+            <value>
+                <fullName>PAOL</fullName>
+                <default>false</default>
+                <label>PAOL</label>
+            </value>
+            <value>
+                <fullName>PC</fullName>
+                <default>false</default>
+                <label>PC</label>
+            </value>
+            <value>
+                <fullName>PD</fullName>
+                <default>false</default>
+                <label>PD</label>
+            </value>
+            <value>
+                <fullName>PI</fullName>
+                <default>false</default>
+                <label>PI</label>
+            </value>
+            <value>
+                <fullName>PII</fullName>
+                <default>false</default>
+                <label>PII</label>
+            </value>
+            <value>
+                <fullName>POL</fullName>
+                <default>false</default>
+                <label>POL</label>
+            </value>
+            <value>
+                <fullName>POL Pro</fullName>
+                <default>false</default>
+                <label>POL Pro</label>
+            </value>
+            <value>
+                <fullName>PT</fullName>
+                <default>false</default>
+                <label>PT</label>
+            </value>
+            <value>
+                <fullName>Kiosk</fullName>
+                <default>false</default>
+                <label>Kiosk</label>
+            </value>
+            <value>
+                <fullName>Manual</fullName>
+                <default>false</default>
+                <label>Manual</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

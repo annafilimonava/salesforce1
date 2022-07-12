@@ -1,0 +1,254 @@
+<apex:page standardController="Diagnostic__c" applyBodyTag="false" renderAs="pdf">
+
+<apex:form >
+          
+    <apex:outputPanel styleClass="summary">
+        <apex:outputText ><b><u>Acquirer</u></b><br></br><br></br>
+                                        <b>Notes</b><br></br>
+                                        Does this Acquirer have European Coverage?<br></br>
+                                        <b>Gaps</b><br></br>
+                                        1. European Coverage?<br></br>
+                                        2. Chinese Wallets?<br></br>
+                                        3. DCC?<br></br>
+                                        4. Tax Free Shopping?<br></br>
+                                        5. Modern Android terminal?<br></br>
+                                        6. Does the acquirer provide all of the above or do they use 3rd Parties for some services (like Planet)?<br></br>
+                                        <b>Solution</b><br></br>
+                                        Planet MS<br></br>
+                                        <b>Features</b><br></br>
+                                        1. Pan European Acquiring Licence (UK, 30 EEA Countries and Switzerland)<br></br>
+                                        2. Same hardware in all Countries reducing training and support resource from Merchant<br></br>
+                                        3. Single Platform for Reporting and Reconciliation saving time for Merchant<br></br>
+                                        4. Unique Levels of Data and Insight (Payment, DCC, Tax Free, Chinese Wallets)<br></br>
+                                        5. Single point of contact for Issues and Queries<br></br>
+                                        6. Price arbitrage possibilities providing greater Merchant value<br></br>
+                                        7. Market leading Gateway/PSP (3C)<br></br>
+                                        8. Integrated Payments with Tokenisation and Single View of Customer<br></br>
+                                        9. All Channels Covered (Face to Face, e-Commerce, Mpos, Unattended)<br></br>
+                                        10. All Verticals Covered (Retail, Hospitality, F and B, Unattended)<br></br>
+                                        11. Standard Payments and Alternative Payments (Alipay, WeChat Pay, Union Pay)<br></br>
+                                        12. Low and High Value Contactless (Apple Pay and Google Pay)<br></br>
+                                        13. Pan European Account Management<br></br>
+                                        14. Specialist Training to increase Merchant Revenue (Hit and Match Rate)<br></br>
+                                        15. In-House Technical Support, 24/7/365 Help Line<br></br>
+                                        16. Acquirer as a Revenue Generator (we make the Merchant money)<br></br>
+                                        17. Market Leading DCC Offer Message via Nationality Flags (Hit Rate uplift by as much as 30%)<br></br>
+                                        18. Tax Free With CRT increasing revenue and Customer Experience (issue rate increase by as much as 50%)<br></br>
+                                        19. Modern Android Terminal With Camera Scanning and Large Colour Touch Screen<br></br>
+                                        20. In-House R and D and Innovation Lab
+                                     
+     </apex:outputText>  <styleClass="summary"/>
+     <apex:outputText ><br></br><br></br><b><u>E-Commerce Acquirer</u></b><br></br><br></br>
+                                        <b>Notes</b><br></br>
+                                        Is the e-Commerce Acquirer different to store acquirer?<br></br>
+                                        <b>Gaps</b><br></br>
+                                        1. Loss of single view of customer<br></br>
+                                        2. More complex reconciliation as settlement coming from multiple Acquirers<br></br>
+                                        3. Loss of Omni Channel/Unified Commerce<br></br>
+                                        4. Loss of reporting insight<br></br>
+                                        5. Loss of arbitrage of pricing <br></br>
+                                        <b>Solution</b><br></br>
+                                        Planet MS<br></br>
+                                        <b>Features</b><br></br>
+                                        1. Single View of Customer<br></br>
+                                        2. Omni-Channel/Unified Commerce<br></br>
+                                        3. Greater reporting insight<br></br>
+                                        4. Significant time saved in reconciliation<br></br>
+                                        5. More cost effective as all transactions running through the same Acquirer
+                  
+     </apex:outputText>  <styleClass="summary"/>
+     <apex:outputText rendered="{!Diagnostic__c.Integrated_Payment__c == 'No'}">
+                                                <br></br><br></br><b><u>Integrated Payment</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                Can we Integrate our payments to their till?<br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Reconciliation issues both at Store and Head Office level<br></br>
+                                                2. Wasted time in reconciling keying errors<br></br>
+                                                3. Merchant will lose money each year from keying errors<br></br> 
+                                                4. Customers will be over or under charged leading to poor Customer Experience<br></br>
+                                                5. Merchant has no Tokenisation capability<br></br>
+                                                6. Merchant lacks single view of customer<br></br>
+                                                <b>Solution</b><br></br>
+                                                3C Integration<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Removes manual Key Entry on the Payment Device eliminating reconciliation issues<br></br>
+                                                2. Significant time saved at store and head office on reconciliation<br></br> 
+                                                3. Sales Value entered Into the Till is automatically sent to the Payment Device<br></br>
+                                                4. Real time reporting capability via payment portal<br></br>
+                                                5. Ability to manage refunds from a central payment portal<br></br>
+                                                6. Tokenisation provides high PCI compliance and future customer marketing opportunities (single view of customer)<br></br>
+                                                7. P2PE means the highest level of PCI-DSS compliance     
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.PSP_if_integrated__c != null}">
+                                                <br></br><br></br><b><u>PSP if Integrated</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                Do we work with this PSP for DCC or Tax Free? <br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Does the Merchant have DCC?<br></br>
+                                                2.  Does the Merchant have Tax Free with CRT?<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet DCC and Tax Free via PSP<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Planet Direct or Indirect DCC adding value to Merchant payment solution<br></br>
+                                                2. CRT via PSP to enhance the Tax Free solution on the till of the Merchant 
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.Camera_on_Terminal__c == 'No'}">
+                                                <br></br><br></br><b><u>Camera on Terminal</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. No Scanning Capability For Passport or QR Codes<br></br>
+                                                2. Slow to issue voucher at Point of Sale<br></br>
+                                                3. Potential for keying errors resulting in Merchant reconciliation issues with Customs<br></br> 
+                                                4. Keying errors leading to problems for Customers at EU Exit Point<br></br>
+                                                5. Chinese Wallet scanning done by Customer instead of Merchant<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet All in One PAX A920<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Scanning capability for Passport and Bar/QR Codes<br></br>
+                                                2. Saves significant time at Point of Sale when issuing Tax Free Vouchers<br></br> 
+                                                3. Eliminates keying errors on Tax Free Vouchers providing a better Customer Experience In-Store and at The EU Exit Point<br></br>
+                                                4. Eliminates Merchant reconciliation issues with Customs<br></br>
+                                                5. Acceptance of Chinese Wallets in the most compliant way possible (Merchant scanning customers QR code)
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.Diners_JCB__c == 'Yes'}">
+                                                <br></br><br></br><b><u>Diners, JCB</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                Find out volumes on Diners/JCB<br></br>
+                                                <b>Planet Weakness</b><br></br>
+                                                We don’t support Diners or JCB<br></br>
+                                                <b>Solution</b><br></br>
+                                                Diners is on our Roadmap
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.Union_Pay__c == 'No'}">
+                                                <br></br><br></br><b><u>Union Pay</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                Loss of Sales from Chinese visitors<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet MS Union Pay<br></br>
+                                                <b>Features</b><br></br>
+                                                The Most Popular Chinese Payment Method for Gen X and above 
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.Alipay__c == 'No'}">
+                                                <br></br><br></br><b><u>Alipay</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Loss of Sales from Chinese visitors<br></br>
+                                                2. Loss of Sales from local Chinese residents<br></br>
+                                                3. Loss of exposure on an APP with 1.3bn users <br></br>
+                                                4. Loss of participation in Red Packet promotions at Golden Week and CNY<br></br>
+                                                5. Closed for business to Gen Y and Z Chinese<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet MS Alipay<br></br>
+                                                <b>Features</b><br></br>
+                                                1. The most popular Chinese Payment Method for Gen Z and Y<br></br>
+                                                2. Preferred payment option for Inbound Visitors and Local Residents (young professionals) due to easy top up and favourable exchange rates<br></br>
+                                                3. Unique digital marketing opportunities on an APP with 1.3 Billion Users including complimentary listing on Alipay Store Front<br></br>
+                                                4. Free promotions around key times of year (Red Packet) to drive new footfall 
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.WeChat_Pay__c == 'No'}">
+                                                <br></br><br></br><b><u>WeChat Pay</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Loss of Sales from Chinese visitors<br></br>
+                                                2. Loss of Sales from local Chinese residents<br></br>
+                                                3. Loss of exposure on an APP with 1bn users<br></br>
+                                                4. Loss of participation in Lucky Money promotions at Golden Week and CNY<br></br>
+                                                5. Closed for business to Gen Y and Z Chinese<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet MS WeChat Pay<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Popular Chinese Payment Method for Gen Z and Y<br></br>
+                                                2. Preferred payment option for Inbound Visitors and Local Residents (young professionals) due to easy top up and favourable exchange rates<br></br>
+                                                3. Unique digital marketing opportunities on an APP with 1 Billion Users<br></br>
+                                                4. Free promotions around key times of year (free money) to drive new footfall
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText rendered="{!Diagnostic__c.Separate_Terminal_AP_WCP__c == 'Yes'}">
+                                                <br></br><br></br><b><u>Separate Terminal AP/WCP</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Takes up space at Point of Sale<br></br>
+                                                2. Cost of additional IP Ports, IP Addresses<br></br>
+                                                3. Inefficient to use taking time at Point of Sale<br></br>
+                                                4. Higher potential for errors<br></br>
+                                                5. Requires specialist staff knowledge and training<br></br>
+                                                6. Requires Merchant IT to support additional hardware<br></br>
+                                                7. Requires Merchant to contact an additional supplier for support<br></br>
+                                                8. Requires separate reconciliation<br></br>
+                                                9. Reporting in isolation of other payment data - no Insight<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet All in One Terminal (PAX or Verifone)<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Reduces space at Point of Sale<br></br>
+                                                2. Saves IP ports/addresses Merchant expense<br></br>
+                                                3. Faster transaction times at Point of Sale<br></br>
+                                                4. Easier staff training and hardware support for the Merchant<br></br>
+                                                5. Single point of contact for support<br></br>
+                                                6. Single source of reconciliation and reporting with Insight
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText >           <br></br><br></br><b><u>AP/WCP Provider</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                Are they financially stable, are they the Acquirer as well?<br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Does the Wallet provider also acquire the transaction?<br></br>
+                                                2. If not does the Merchant know who settles their funds?<br></br>
+                                                3. Is Merchant comfortable working with a hidden Acquirer who is responsible for settling their funds?<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet MS<br></br>
+                                                <b>Features</b><br></br>
+                                                Merchant deals with a single supplier (Planet) For Hardware, Software, Acquiring, Settlement, Training, Account Management, Reporting, Technical Support and Product Innovation and Development
+        </apex:outputText>  <styleClass="summary"/>
+         <apex:outputText rendered="{!Diagnostic__c.DCC__c == 'No'}"> 
+                                               <br></br><br></br><b><u>DCC</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Loss of Revenue<br></br>
+                                                2. Loss of Data and Insight<br></br>
+                                                3. Poor Customer Experience<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet MS DCC<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Simplest way to reduce Card Processing Costs<br></br>
+                                                2. Bottom line saving on every converted transaction<br></br>
+                                                3. 150 currencies supported leading to the highest possible Hit Rates<br></br>
+                                                4. Best Rate Guarantee at 150% leading to higher Hit Rates<br></br>
+                                                5. Market leading DCC offer message with Nationality Flags Increasing Hit Rates by Up To 30%<br></br>
+                                                6. Ability to report on EU Spend by Country coupled with our Tax Free data provides valuable data set<br></br>
+                                                7. On-Line Portal For DCC performance and reconciliation<br></br>
+                                                8. Training by Planet available across all Regions<br></br>
+                                                9. Market leading Incentive/Ambassador Programmes<br></br>
+                                                10. Point of Sale collateral and sales support material<br></br>
+                                                11. Large number of options to consume Planet DCC (Direct, Indirect, PSP, Terminal, e-Commerce,  ATM, Unattended)<br></br>
+        </apex:outputText>  <styleClass="summary"/>
+        <apex:outputText >           <br></br><br></br><b><u>DCC Provider</u></b><br></br><br></br>
+                                                <b>Notes</b><br></br>
+                                                What features are missing to optimise DCC revenue?<br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Does the DCC provider offer training and Hit Rate reporting?<br></br>
+                                                2. Do they support 150 Currencies?<br></br>
+                                                3. Do they use Nationality Flags?<br></br>
+                                                4. Is there an On-Line Portal?<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Simplest way to reduce Card Processing Costs<br></br>
+                                                2. Bottom line saving on every converted transaction<br></br>
+                                                3. 150 currencies supported leading to the highest possible Hit Rates<br></br>
+                                                4. Best Rate Guarantee at 150% leading to higher Hit Rates<br></br>
+                                                5. Market leading DCC offer message with Nationality Flags Increasing Hit Rates by Up To 30%<br></br>
+                                                6. Ability to report on EU Spend by Country coupled with our Tax Free data provides valuable data set<br></br>
+                                                7. On-Line Portal For DCC performance and reconciliation - hit rate reporting<br></br>
+                                                8. Training by Planet available across all Regions<br></br>
+                                                9. Market leading Incentive / Ambassador Programmes<br></br>
+                                                10. Point of Sale collateral and sales support material<br></br>
+                                                11. Large number of options to consume Planet DCC (Direct, Indirect, PSP, Terminal, e-Commerce,  ATM, Unattended)
+           </apex:outputText>  <styleClass="summary"/>                                      
+          <apex:outputText rendered="{!Diagnostic__c.DCC_with_Flags__c == 'No'}"> 
+                                               <br></br><br></br><b><u>DCC with Flags</u></b><br></br><br></br>
+                                                <b>Gaps</b><br></br>
+                                                1. Reduced Hit Rate by As Much As 30%<br></br>
+                                                2. Reduced DCC compliance due to language barrier<br></br>
+                                                <b>Solution</b><br></br>
+                                                Planet MS DCC<br></br>
+                                                <b>Features</b><br></br>
+                                                1. Increases Hit Rate by as much as 30%<br></br>
+                                                2. Offer Message is clear and cuts through language barrier<br></br>
+                                                3. Improved DCC compliance<br></br>
+                                                4. Easier for Merchant staff to offer DCC
+        </apex:outputText>  <styleClass="summary"/>
+        </apex:outputPanel>
+     
+    </apex:form>
+</apex:page>

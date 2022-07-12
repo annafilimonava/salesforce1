@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Draft_Orders_NL</fullName>
+    <columns>ORDERS.ORDER_NUMBER</columns>
+    <columns>Priority__c</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>ORDER.BILLING_STREET</columns>
+    <columns>ORDER.BILLING_CITY</columns>
+    <columns>ORDER.BILLING_ZIP</columns>
+    <columns>ORDERS.EFFECTIVE_DATE</columns>
+    <columns>ORDERS.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ORDERS.STATUS_CODE</field>
+        <operation>equals</operation>
+        <value>D</value>
+    </filters>
+    <filters>
+        <field>Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>Netherlands</value>
+    </filters>
+    <label>All Draft Orders NL</label>
+</ListView>

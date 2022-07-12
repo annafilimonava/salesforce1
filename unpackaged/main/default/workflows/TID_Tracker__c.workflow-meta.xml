@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>Low_TIDs</fullName>
+        <ccEmails>possupport.uk@premiertaxfree.com</ccEmails>
+        <description>Low TIDs</description>
+        <protected>false</protected>
+        <senderType>CurrentUser</senderType>
+        <template>POS_Support/Low_TIDs</template>
+    </alerts>
+    <fieldUpdates>
+        <fullName>Update_Remaining</fullName>
+        <field>TIDs_Remaining__c</field>
+        <formula>Remaining_TIDs__c</formula>
+        <name>Update Remaining</name>
+        <notifyAssignee>false</notifyAssignee>
+        <operation>Formula</operation>
+        <protected>false</protected>
+        <reevaluateOnChange>false</reevaluateOnChange>
+    </fieldUpdates>
+    <rules>
+        <fullName>Low TIDs</fullName>
+        <actions>
+            <name>Low_TIDs</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <description>Warning sent to users when Terminal IDs have fewer than 10 remaining.</description>
+        <formula>TIDs_Remaining__c &lt;= 10</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+    <rules>
+        <fullName>Update Remaining</fullName>
+        <actions>
+            <name>Update_Remaining</name>
+            <type>FieldUpdate</type>
+        </actions>
+        <active>true</active>
+        <description>Updates Remaining Terminal IDs on TID Tracker</description>
+        <formula>ISCHANGED(Latest_TID__c )</formula>
+        <triggerType>onAllChanges</triggerType>
+    </rules>
+</Workflow>

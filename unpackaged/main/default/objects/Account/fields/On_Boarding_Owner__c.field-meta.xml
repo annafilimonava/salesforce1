@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>On_Boarding_Owner__c</fullName>
+    <externalId>false</externalId>
+    <label>On Boarding Owner</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Alessandro Bonincontro</fullName>
+                <default>false</default>
+                <label>Alessandro Bonincontro</label>
+            </value>
+            <value>
+                <fullName>Andrea Colombo</fullName>
+                <default>false</default>
+                <label>Andrea Colombo</label>
+            </value>
+            <value>
+                <fullName>Chiara Cenedese</fullName>
+                <default>false</default>
+                <label>Chiara Cenedese</label>
+            </value>
+            <value>
+                <fullName>Claudia Cipolla</fullName>
+                <default>false</default>
+                <label>Claudia Cipolla</label>
+            </value>
+            <value>
+                <fullName>Daniela Sarno</fullName>
+                <default>false</default>
+                <label>Daniela Sarno</label>
+            </value>
+            <value>
+                <fullName>Enrica Zancan</fullName>
+                <default>false</default>
+                <label>Enrica Zancan</label>
+            </value>
+            <value>
+                <fullName>Francesca Bertolino</fullName>
+                <default>false</default>
+                <label>Francesca Bertolino</label>
+            </value>
+            <value>
+                <fullName>Francesco Salvino</fullName>
+                <default>false</default>
+                <label>Francesco Salvino</label>
+            </value>
+            <value>
+                <fullName>Merchant Support</fullName>
+                <default>false</default>
+                <label>Merchant Support</label>
+            </value>
+            <value>
+                <fullName>Michela Amoruso</fullName>
+                <default>false</default>
+                <label>Michela Amoruso</label>
+            </value>
+            <value>
+                <fullName>Monica Capobianco</fullName>
+                <default>false</default>
+                <label>Monica Capobianco</label>
+            </value>
+            <value>
+                <fullName>Roberto Lepri</fullName>
+                <default>false</default>
+                <label>Roberto Lepri</label>
+            </value>
+            <value>
+                <fullName>Sara Bernabe</fullName>
+                <default>false</default>
+                <label>Sara Bernabe</label>
+            </value>
+            <value>
+                <fullName>Silvia Comolli</fullName>
+                <default>false</default>
+                <label>Silvia Comolli</label>
+            </value>
+            <value>
+                <fullName>Simone Cattani</fullName>
+                <default>false</default>
+                <label>Simone Cattani</label>
+            </value>
+            <value>
+                <fullName>Stefano Uggeri</fullName>
+                <default>false</default>
+                <label>Stefano Uggeri</label>
+            </value>
+            <value>
+                <fullName>Yen Phi</fullName>
+                <default>false</default>
+                <label>Yen Phi</label>
+            </value>
+            <value>
+                <fullName>Yuliya Skrypnik</fullName>
+                <default>false</default>
+                <label>Yuliya Skrypnik</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

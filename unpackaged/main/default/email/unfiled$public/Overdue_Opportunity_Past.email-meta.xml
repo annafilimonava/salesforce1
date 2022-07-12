@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Overdue Opportunity Past</name>
+    <style>none</style>
+    <subject>Close Date for Opportunity on Account {!Account.Name} Has Expired</subject>
+    <textOnly>The close date for the opportunity on the Account {!Account.Name} expired on {!Opportunity.CloseDate}.  Please change the Close Date or close the opportunity.
+
+Click on the link to go directly to the opportunity. {!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

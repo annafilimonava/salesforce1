@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BW_TEMP_Charge_Migrated__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Temporarily used during Product Restructure. Safe to delete.</description>
+    <externalId>false</externalId>
+    <label>BW_TEMP_Charge_Migrated</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

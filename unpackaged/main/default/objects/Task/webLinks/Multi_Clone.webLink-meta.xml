@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebLink xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Multi_Clone</fullName>
+    <availability>online</availability>
+    <description>Clone a task multiple times</description>
+    <displayType>button</displayType>
+    <encodingKey>UTF-8</encodingKey>
+    <height>600</height>
+    <linkType>url</linkType>
+    <masterLabel>Multi Clone</masterLabel>
+    <openType>sidebar</openType>
+    <protected>false</protected>
+    <url>/apex/dh_superclone__superclone?rid={!Task.Id}&amp;cfg=TaskClone</url>
+</WebLink>

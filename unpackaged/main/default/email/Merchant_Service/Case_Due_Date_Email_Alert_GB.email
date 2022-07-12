@@ -1,0 +1,8 @@
+The case on account {!Case.Account} is due today.<br>
+<br>
+Case Number - {!Case.CaseNumber}<br>
+Created Date - {!Case.CreatedDate}<br>
+Type - {!Case.Type}<br>
+Status - {!Case.Status}<br>
+<br>
+To view the case click here {!Case.Link}

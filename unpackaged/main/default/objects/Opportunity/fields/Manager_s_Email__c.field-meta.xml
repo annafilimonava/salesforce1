@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Manager_s_Email__c</fullName>
+    <description>Changing label from Manager&#39;s Email -&gt; to Opportunity Approver&#39;s Email to capture Opportunity Approver&#39;s email address - Saurabh 06/10/21</description>
+    <externalId>false</externalId>
+    <formula>Owner.Opportunity_Approver__r.Email
+
+
+/*
+
+Updating the field to capture Opportunity Approver Email instead of Manager
+
+Old Field Label -&gt; Manager&#39;s Email
+
+Old Formula -&gt; Owner.Manager.Email
+
+*/</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Opportunity Approver&#39;s Email</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

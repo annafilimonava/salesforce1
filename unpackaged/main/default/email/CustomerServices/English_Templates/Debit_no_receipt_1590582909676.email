@@ -1,0 +1,130 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">Dear {{{Case.Tourist__c}}}, </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">&nbsp; </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">Thank you for your email. </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow">The reason your account was debited was because we had received your Tax Free form {{{Case.Tax_Free_Form__c}}} without the original store receipt. This is unfortunately obligatory as per </span><a href="https://www.planetpayment.com/en/countries/"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow">conditions </span></a> <span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow">for this region. Upon receiving your cash refund you have signed a declaration authorizing Planet to debit your card if we did not receive your stamped Tax Free form with the original store receipt within the agreed period.&nbsp;Can you please specify any problems you faced while completing the process?</span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">&nbsp; </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">Can you please advise as well if you have the receipt in your possession and can you send it to our main processing centre? If yes, you can send it to the following address: </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;mso-bidi-font-size:
+10.0pt;font-family:Barlow">&nbsp; </span></p>
+
+<p class="MsoNormal"><meta content="text/html; charset=utf-8" /><meta content="Word.Document" name="ProgId" /><meta content="Microsoft Word 15" name="Generator" /><meta content="Microsoft Word 15" name="Originator" />
+<style type="text/css"><!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:-536869121 1107305727 33554432 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:Barlow;
+	panose-1:0 0 5 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:536870919 0 0 0 403 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-IE;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-ansi-language:EN-IE;}
+.MsoPapDefault
+	{mso-style-type:export-only;
+	margin-bottom:10.0pt;
+	line-height:115%;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+</p>
+
+<p class="MsoNormal"><span lang="PL" style="font-size:10.0pt;mso-bidi-font-size:
+11.0pt;font-family:Barlow;mso-ansi-language:PL;mso-bidi-font-weight:bold">PLANET PAYMENT </span> <span lang="PL" style="font-size:10.0pt;mso-bidi-font-size:
+11.0pt;font-family:Barlow;mso-ansi-language:PL;mso-bidi-font-weight:bold"> </span></p>
+
+<p class="MsoNormal"><span lang="PL" style="font-size:10.0pt;mso-bidi-font-size:
+11.0pt;font-family:Barlow;mso-ansi-language:PL;mso-bidi-font-weight:bold">ul. DOMANIEWSKA 39 </span></p>
+
+<p class="MsoNormal"><span lang="PL" style="font-size:10.0pt;mso-bidi-font-size:
+11.0pt;font-family:Barlow;mso-ansi-language:PL;mso-bidi-font-weight:bold">WARSZAWA </span></p>
+
+<p class="MsoNormal"><span lang="EN-GB" style="font-size:10.0pt;mso-bidi-font-size:
+11.0pt;font-family:Barlow;mso-ansi-language:EN-GB;mso-bidi-font-weight:bold">POLAND </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-size:10.0pt;mso-bidi-font-size:
+11.0pt;font-family:Barlow;mso-bidi-font-weight:bold">02-672 </span></p>
+
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><span style="font-family:Barlow;mso-bidi-font-family:Calibri;mso-ansi-language:EN-US">&nbsp; </span></p>
+
+<p class="MsoNormal" style="mso-layout-grid-align:none;text-autospace:none"><b style="mso-bidi-font-weight:normal"><span style="font-family:Barlow;mso-bidi-font-family:
+Calibri;mso-ansi-language:EN-US">Please add a note with your Tax Free form {{{Case.Tax_Free_Form__c}}} number when sending your original store receipt. </span></b></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;mso-fareast-font-family:
+Verdana">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;mso-fareast-font-family:
+Verdana">We recommend that customers use registered post when sending their documents to us. </span><span lang="EN-IE" style="font-family:Barlow">If you need any further assistance, please do not hesitate to contact us.</span></p>
+
+</body></html>

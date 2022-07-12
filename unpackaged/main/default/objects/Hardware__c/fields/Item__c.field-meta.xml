@@ -1,0 +1,1183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Item__c</fullName>
+    <description>Hardware List</description>
+    <externalId>false</externalId>
+    <label>Item</label>
+    <required>true</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Region__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>3CLINK RASPBERRY PI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>3CLINK RASPBERRY PI</label>
+            </value>
+            <value>
+                <fullName>Canada A80 7.1 (not released)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Canada A80 7.1 (not released)</label>
+            </value>
+            <value>
+                <fullName>Canada B77 – Charging Base</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Canada B77 – Charging Base</label>
+            </value>
+            <value>
+                <fullName>Canada IM30 4G+LAN+BT+WIFI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Canada IM30 4G+LAN+BT+WIFI</label>
+            </value>
+            <value>
+                <fullName>Canada L920Pro-Charging Base</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Canada L920Pro-Charging Base</label>
+            </value>
+            <value>
+                <fullName>Canada L920Pro-Full Base</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Canada L920Pro-Full Base</label>
+            </value>
+            <value>
+                <fullName>Canada PAX A30</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Canada PAX A30</label>
+            </value>
+            <value>
+                <fullName>Canada PAX A77</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Canada PAX A77</label>
+            </value>
+            <value>
+                <fullName>Canada PAX A77 (not released)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Canada PAX A77 (not released)</label>
+            </value>
+            <value>
+                <fullName>Canada  PAX A80</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Canada  PAX A80</label>
+            </value>
+            <value>
+                <fullName>Canada PAX A920PRO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Canada PAX A920PRO</label>
+            </value>
+            <value>
+                <fullName>Canada PAX A920 PRO SCAN Extra Memory</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Canada PAX A920 PRO SCAN Extra Memory</label>
+            </value>
+            <value>
+                <fullName>CRADLE FOR YOXIMO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CRADLE FOR YOXIMO</label>
+            </value>
+            <value>
+                <fullName>DA VINCI CARD READER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DA VINCI CARD READER</label>
+            </value>
+            <value>
+                <fullName>DA VINCI PINPAD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>DA VINCI PINPAD</label>
+            </value>
+            <value>
+                <fullName>E355 P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>E355 P2PE</label>
+            </value>
+            <value>
+                <fullName>INGENICO DESK 5000</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>INGENICO DESK 5000</label>
+            </value>
+            <value>
+                <fullName>INGENICO DESK 5000 HOSP</fullName>
+                <default>false</default>
+                <label>INGENICO DESK 5000 HOSP</label>
+            </value>
+            <value>
+                <fullName>INGENICO DESK 5000 RETAIL</fullName>
+                <default>false</default>
+                <label>INGENICO DESK 5000 RETAIL</label>
+            </value>
+            <value>
+                <fullName>INGENICO ICT220</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>INGENICO ICT220</label>
+            </value>
+            <value>
+                <fullName>INGENICO IPP320</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>INGENICO IPP320</label>
+            </value>
+            <value>
+                <fullName>INGENICO IWL220</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>INGENICO IWL220</label>
+            </value>
+            <value>
+                <fullName>Ingenico Lane</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ingenico Lane</label>
+            </value>
+            <value>
+                <fullName>INGENICO LANE 3000</fullName>
+                <default>false</default>
+                <label>INGENICO LANE 3000</label>
+            </value>
+            <value>
+                <fullName>Ingenico Move</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ingenico Move</label>
+            </value>
+            <value>
+                <fullName>INGENICO MOVE 5000</fullName>
+                <default>false</default>
+                <label>INGENICO MOVE 5000</label>
+            </value>
+            <value>
+                <fullName>INGENICO PINPAD220</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>INGENICO PINPAD220</label>
+            </value>
+            <value>
+                <fullName>INTEGRA SERVER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>INTEGRA SERVER</label>
+            </value>
+            <value>
+                <fullName>Legacy Terminal</fullName>
+                <default>false</default>
+                <label>Legacy Terminal</label>
+            </value>
+            <value>
+                <fullName>MIURA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>MIURA</label>
+            </value>
+            <value>
+                <fullName>Miura M020</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Miura M020</label>
+            </value>
+            <value>
+                <fullName>On Site Install</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>On Site Install</label>
+            </value>
+            <value>
+                <fullName>PAX A30 1GB LAN White EU</fullName>
+                <default>false</default>
+                <label>PAX A30 1GB LAN White EU</label>
+            </value>
+            <value>
+                <fullName>PAX A30 1GB LAN White NA</fullName>
+                <default>false</default>
+                <label>PAX A30 1GB LAN White NA</label>
+            </value>
+            <value>
+                <fullName>PAX A30 1GB LAN White UK</fullName>
+                <default>false</default>
+                <label>PAX A30 1GB LAN White UK</label>
+            </value>
+            <value>
+                <fullName>PAX A35 1GB LAN+BT+WIFI White NA</fullName>
+                <default>false</default>
+                <label>PAX A35 1GB LAN+BT+WIFI White NA</label>
+            </value>
+            <value>
+                <fullName>PAX A35 1GB LAN White EU</fullName>
+                <default>false</default>
+                <label>PAX A35 1GB LAN White EU</label>
+            </value>
+            <value>
+                <fullName>PAX A35 1GB LAN White UK</fullName>
+                <default>false</default>
+                <label>PAX A35 1GB LAN White UK</label>
+            </value>
+            <value>
+                <fullName>PAX A77 1GB White NA + Charging base</fullName>
+                <default>false</default>
+                <label>PAX A77 1GB White NA + Charging base</label>
+            </value>
+            <value>
+                <fullName>PAX A77 1GB White NA No base</fullName>
+                <default>false</default>
+                <label>PAX A77 1GB White NA No base</label>
+            </value>
+            <value>
+                <fullName>PAX A77 2GB White EU/UK + Charging base</fullName>
+                <default>false</default>
+                <label>PAX A77 2GB White EU/UK + Charging base</label>
+            </value>
+            <value>
+                <fullName>PAX A77 2GB White EU/UK No base</fullName>
+                <default>false</default>
+                <label>PAX A77 2GB White EU/UK No base</label>
+            </value>
+            <value>
+                <fullName>PAX A77 2GB White NA + Charging base</fullName>
+                <default>false</default>
+                <label>PAX A77 2GB White NA + Charging base</label>
+            </value>
+            <value>
+                <fullName>PAX A77 2GB White NA No base</fullName>
+                <default>false</default>
+                <label>PAX A77 2GB White NA No base</label>
+            </value>
+            <value>
+                <fullName>PAX A80 1GB LAN White EU</fullName>
+                <default>false</default>
+                <label>PAX A80 1GB LAN White EU</label>
+            </value>
+            <value>
+                <fullName>PAX A80 1GB LAN White NA</fullName>
+                <default>false</default>
+                <label>PAX A80 1GB LAN White NA</label>
+            </value>
+            <value>
+                <fullName>PAX A80 1GB LAN White UK</fullName>
+                <default>false</default>
+                <label>PAX A80 1GB LAN White UK</label>
+            </value>
+            <value>
+                <fullName>PAX A920</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PAX A920</label>
+            </value>
+            <value>
+                <fullName>PAX A920 1GB Black EU/UK + Charging base</fullName>
+                <default>false</default>
+                <label>PAX A920 1GB Black EU/UK + Charging base</label>
+            </value>
+            <value>
+                <fullName>PAX A920 1GB Black EU/UK No base</fullName>
+                <default>false</default>
+                <label>PAX A920 1GB Black EU/UK No base</label>
+            </value>
+            <value>
+                <fullName>PAX A920 1GB White EU/UK + Charging &amp; Ethernet base</fullName>
+                <default>false</default>
+                <label>PAX A920 1GB White EU/UK + Charging &amp; Ethernet base</label>
+            </value>
+            <value>
+                <fullName>PAX A920 1GB White EU/UK + Charging base</fullName>
+                <default>false</default>
+                <label>PAX A920 1GB White EU/UK + Charging base</label>
+            </value>
+            <value>
+                <fullName>PAX A920 1GB White EU/UK No base</fullName>
+                <default>false</default>
+                <label>PAX A920 1GB White EU/UK No base</label>
+            </value>
+            <value>
+                <fullName>PAX A920 2GB White EU/UK + Charging &amp; Ethernet base</fullName>
+                <default>false</default>
+                <label>PAX A920 2GB White EU/UK + Charging &amp; Ethernet base</label>
+            </value>
+            <value>
+                <fullName>PAX A920 2GB White EU/UK + Charging base</fullName>
+                <default>false</default>
+                <label>PAX A920 2GB White EU/UK + Charging base</label>
+            </value>
+            <value>
+                <fullName>PAX A920 2GB White EU/UK No base</fullName>
+                <default>false</default>
+                <label>PAX A920 2GB White EU/UK No base</label>
+            </value>
+            <value>
+                <fullName>PAX A920 Black 1GB</fullName>
+                <default>false</default>
+                <label>PAX A920 Black 1GB</label>
+            </value>
+            <value>
+                <fullName>PAX A920Pro 1GB White EU/UK + Charging base</fullName>
+                <default>false</default>
+                <label>PAX A920Pro 1GB White EU/UK + Charging base</label>
+            </value>
+            <value>
+                <fullName>PAX A920Pro 1GB White EU/UK No base</fullName>
+                <default>false</default>
+                <label>PAX A920Pro 1GB White EU/UK No base</label>
+            </value>
+            <value>
+                <fullName>PAX A920Pro 1GB White NA + Charging base</fullName>
+                <default>false</default>
+                <label>PAX A920Pro 1GB White NA + Charging base</label>
+            </value>
+            <value>
+                <fullName>PAX A920Pro 1GB White NA No base</fullName>
+                <default>false</default>
+                <label>PAX A920Pro 1GB White NA No base</label>
+            </value>
+            <value>
+                <fullName>PAX A920Pro 2GB White EU/UK + Charging base</fullName>
+                <default>false</default>
+                <label>PAX A920Pro 2GB White EU/UK + Charging base</label>
+            </value>
+            <value>
+                <fullName>PAX A920Pro 2GB White EU/UK No base</fullName>
+                <default>false</default>
+                <label>PAX A920Pro 2GB White EU/UK No base</label>
+            </value>
+            <value>
+                <fullName>PAX A920Pro 2GB White NA + Charging base</fullName>
+                <default>false</default>
+                <label>PAX A920Pro 2GB White NA + Charging base</label>
+            </value>
+            <value>
+                <fullName>PAX A920Pro 2GB White NA No base</fullName>
+                <default>false</default>
+                <label>PAX A920Pro 2GB White NA No base</label>
+            </value>
+            <value>
+                <fullName>PAX IM30 1GB 4G+LAN+BT+WIFI EU</fullName>
+                <default>false</default>
+                <label>PAX IM30 1GB 4G+LAN+BT+WIFI EU</label>
+            </value>
+            <value>
+                <fullName>PAX IM30 1GB 4G+LAN+BT+WIFI NA</fullName>
+                <default>false</default>
+                <label>PAX IM30 1GB 4G+LAN+BT+WIFI NA</label>
+            </value>
+            <value>
+                <fullName>PAX IM30 1GB 4G+LAN+BT+WIFI UK</fullName>
+                <default>false</default>
+                <label>PAX IM30 1GB 4G+LAN+BT+WIFI UK</label>
+            </value>
+            <value>
+                <fullName>PAX IM30 1GB LAN+BT+WIFI EU</fullName>
+                <default>false</default>
+                <label>PAX IM30 1GB LAN+BT+WIFI EU</label>
+            </value>
+            <value>
+                <fullName>PAX IM30 1GB LAN+BT+WIFI UK</fullName>
+                <default>false</default>
+                <label>PAX IM30 1GB LAN+BT+WIFI UK</label>
+            </value>
+            <value>
+                <fullName>PAX IM30 1GB LAN EU</fullName>
+                <default>false</default>
+                <label>PAX IM30 1GB LAN EU</label>
+            </value>
+            <value>
+                <fullName>PAX IM30 1GB LAN UK</fullName>
+                <default>false</default>
+                <label>PAX IM30 1GB LAN UK</label>
+            </value>
+            <value>
+                <fullName>RACK SERVER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>RACK SERVER</label>
+            </value>
+            <value>
+                <fullName>US - A30</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>US - A30</label>
+            </value>
+            <value>
+                <fullName>US - A77 Extra Mem Base Charging Only</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>US - A77 Extra Mem Base Charging Only</label>
+            </value>
+            <value>
+                <fullName>US - A77 Extra memory</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>US - A77 Extra memory</label>
+            </value>
+            <value>
+                <fullName>US - A77 standard</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>US - A77 standard</label>
+            </value>
+            <value>
+                <fullName>US - A77 Standard Base Charging Only</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>US - A77 Standard Base Charging Only</label>
+            </value>
+            <value>
+                <fullName>US - A80</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>US - A80</label>
+            </value>
+            <value>
+                <fullName>US - A920 PRO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>US - A920 PRO</label>
+            </value>
+            <value>
+                <fullName>US - A920 PRO Charging Base</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>US - A920 PRO Charging Base</label>
+            </value>
+            <value>
+                <fullName>US - A920 PRO CHARGING STATION ONLY PAX</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>US - A920 PRO CHARGING STATION ONLY PAX</label>
+            </value>
+            <value>
+                <fullName>US - A920 PRO SCAN Extra memory</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>US - A920 PRO SCAN Extra memory</label>
+            </value>
+            <value>
+                <fullName>US - Desk 5000-V4-ColorTS-Terminal-Printer-PIN Pad-SCR-Contactless</fullName>
+                <default>false</default>
+                <label>US - Desk 5000-V4-ColorTS-Terminal-Printer-PIN Pad-SCR-Contactless</label>
+            </value>
+            <value>
+                <fullName>US - E355-V.4-Wifi-BT-W/O Barcode-PinPad-Card Reader-SCR-Contactless</fullName>
+                <default>false</default>
+                <label>US - E355-V.4-Wifi-BT-W/O Barcode-PinPad-Card Reader-SCR-Contactless</label>
+            </value>
+            <value>
+                <fullName>US - IM30</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>US - IM30</label>
+            </value>
+            <value>
+                <fullName>US - Lane 3000-PCI.5-USB-RS232-ETH-Terminal-Pin Pad-SCR-Contactless</fullName>
+                <default>false</default>
+                <label>US - Lane 3000-PCI.5-USB-RS232-ETH-Terminal-Pin Pad-SCR-Contactless</label>
+            </value>
+            <value>
+                <fullName>US - Move 5000-V.5-ColorTS-Wifi-BT-Terminal-Printer-PIN Pad-SCR-Contactless</fullName>
+                <default>false</default>
+                <label>US - Move 5000-V.5-ColorTS-Wifi-BT-Terminal-Printer-PIN Pad-SCR-Contactless</label>
+            </value>
+            <value>
+                <fullName>US - Move 5000-V.5-GPS-4G-2 SIM-Wifi-BT-Terminal-Printer-PIN Pad-SCR-Contactless</fullName>
+                <default>false</default>
+                <label>US - Move 5000-V.5-GPS-4G-2 SIM-Wifi-BT-Terminal-Printer-PIN Pad-SCR-Contactless</label>
+            </value>
+            <value>
+                <fullName>US - P400plus-V.5-RS232-USB-Touch-Ethernet-Wifi-BT-PIN Pad-Card Reader-SCR-Contactless</fullName>
+                <default>false</default>
+                <label>US - P400plus-V.5-RS232-USB-Touch-Ethernet-Wifi-BT-PIN Pad-Card Reader-SCR-Contactless</label>
+            </value>
+            <value>
+                <fullName>VERIFONE E355</fullName>
+                <default>false</default>
+                <label>VERIFONE E355</label>
+            </value>
+            <value>
+                <fullName>Verifone P400</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Verifone P400</label>
+            </value>
+            <value>
+                <fullName>VERIFONE P400 + SECURE POLE</fullName>
+                <default>false</default>
+                <label>VERIFONE P400 + SECURE POLE</label>
+            </value>
+            <value>
+                <fullName>Verifone V240m</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Verifone V240m</label>
+            </value>
+            <value>
+                <fullName>VX 680</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VX 680</label>
+            </value>
+            <value>
+                <fullName>VX 680 OPI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VX 680 OPI</label>
+            </value>
+            <value>
+                <fullName>VX 680 P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VX 680 P2PE</label>
+            </value>
+            <value>
+                <fullName>VX 820 DUET</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VX 820 DUET</label>
+            </value>
+            <value>
+                <fullName>VX 820 DUET P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VX 820 DUET P2PE</label>
+            </value>
+            <value>
+                <fullName>VX 820 PINPAD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VX 820 PINPAD</label>
+            </value>
+            <value>
+                <fullName>VX 820 PINPAD OPI</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VX 820 PINPAD OPI</label>
+            </value>
+            <value>
+                <fullName>VX 820 PINPAD P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>VX 820 PINPAD P2PE</label>
+            </value>
+            <value>
+                <fullName>WORLDINE YOMANI COMPACT PCI4 P2PE</fullName>
+                <default>false</default>
+                <label>WORLDINE YOMANI COMPACT PCI4 P2PE</label>
+            </value>
+            <value>
+                <fullName>Worldline Valina</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Worldline Valina</label>
+            </value>
+            <value>
+                <fullName>WORLDLINE VALINA E T PCI4 P2PE</fullName>
+                <default>false</default>
+                <label>WORLDLINE VALINA E T PCI4 P2PE</label>
+            </value>
+            <value>
+                <fullName>WORLDLINE VALINA PCI4 P2PE</fullName>
+                <default>false</default>
+                <label>WORLDLINE VALINA PCI4 P2PE</label>
+            </value>
+            <value>
+                <fullName>WORLDLINE YOMANI PINPAD PCI4 P2PE</fullName>
+                <default>false</default>
+                <label>WORLDLINE YOMANI PINPAD PCI4 P2PE</label>
+            </value>
+            <value>
+                <fullName>WORLDLINE YOMANI PINPAD PCI4 P2PE + Merchant Unit</fullName>
+                <default>false</default>
+                <label>WORLDLINE YOMANI PINPAD PCI4 P2PE + Merchant Unit</label>
+            </value>
+            <value>
+                <fullName>WORLDLINE YOMANI PINPAD REDSYS PCI4 P2PE + Merchant Unit</fullName>
+                <default>false</default>
+                <label>WORLDLINE YOMANI PINPAD REDSYS PCI4 P2PE + Merchant Unit</label>
+            </value>
+            <value>
+                <fullName>WORLDLINE YOXIMO 4G PCI4 P2PE EU CHARGING CABLE</fullName>
+                <default>false</default>
+                <label>WORLDLINE YOXIMO 4G PCI4 P2PE EU CHARGING CABLE</label>
+            </value>
+            <value>
+                <fullName>WORLDLINE YOXIMO PCI4 P2PE EU WITH CRADLE</fullName>
+                <default>false</default>
+                <label>WORLDLINE YOXIMO PCI4 P2PE EU WITH CRADLE</label>
+            </value>
+            <value>
+                <fullName>WORLDLINE YOXIMO PCI4 P2PE EU WITHOUT CRADLE</fullName>
+                <default>false</default>
+                <label>WORLDLINE YOXIMO PCI4 P2PE EU WITHOUT CRADLE</label>
+            </value>
+            <value>
+                <fullName>WORLDLINE YOXIMO PCI4 P2PE UK WITH CRADLE</fullName>
+                <default>false</default>
+                <label>WORLDLINE YOXIMO PCI4 P2PE UK WITH CRADLE</label>
+            </value>
+            <value>
+                <fullName>WORLDLINE YOXIMO PCI4 P2PE UK WITHOUT  CRADLE</fullName>
+                <default>false</default>
+                <label>WORLDLINE YOXIMO PCI4 P2PE UK WITHOUT  CRADLE</label>
+            </value>
+            <value>
+                <fullName>WORLDLINE YOXIMO PCI4 P2PE  WITH CRADLE</fullName>
+                <default>false</default>
+                <label>WORLDLINE YOXIMO PCI4 P2PE  WITH CRADLE</label>
+            </value>
+            <value>
+                <fullName>WORLDLINE YOXIMO PCI4 P2PE  WITHOUT CRADLE</fullName>
+                <default>false</default>
+                <label>WORLDLINE YOXIMO PCI4 P2PE  WITHOUT CRADLE</label>
+            </value>
+            <value>
+                <fullName>WORLDLINE YOXIMO redsys PCI4 P2PE EU WITH CRADLE</fullName>
+                <default>false</default>
+                <label>WORLDLINE YOXIMO redsys PCI4 P2PE EU WITH CRADLE</label>
+            </value>
+            <value>
+                <fullName>XENOA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>XENOA</label>
+            </value>
+            <value>
+                <fullName>XENOA ECO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>XENOA ECO</label>
+            </value>
+            <value>
+                <fullName>XENOA ECO P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>XENOA ECO P2PE</label>
+            </value>
+            <value>
+                <fullName>XENTEO COMBI PACK</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>XENTEO COMBI PACK</label>
+            </value>
+            <value>
+                <fullName>XENTEO COMBI PACK P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>XENTEO COMBI PACK P2PE</label>
+            </value>
+            <value>
+                <fullName>XENTEO ECO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>XENTEO ECO</label>
+            </value>
+            <value>
+                <fullName>XENTEO ECO P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>XENTEO ECO P2PE</label>
+            </value>
+            <value>
+                <fullName>XENTEO PINPAD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>XENTEO PINPAD</label>
+            </value>
+            <value>
+                <fullName>XENTEO PINPAD P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>XENTEO PINPAD P2PE</label>
+            </value>
+            <value>
+                <fullName>XENTEO READER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>XENTEO READER</label>
+            </value>
+            <value>
+                <fullName>XENTEO READER P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>XENTEO READER P2PE</label>
+            </value>
+            <value>
+                <fullName>YOMANI COMPACT</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YOMANI COMPACT</label>
+            </value>
+            <value>
+                <fullName>YOMANI COMPACT P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YOMANI COMPACT P2PE</label>
+            </value>
+            <value>
+                <fullName>YOMANI COMPACT US</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YOMANI COMPACT US</label>
+            </value>
+            <value>
+                <fullName>YOMANI COMPACT US P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YOMANI COMPACT US P2PE</label>
+            </value>
+            <value>
+                <fullName>YOMANI Merchant Unit</fullName>
+                <default>false</default>
+                <label>YOMANI Merchant Unit</label>
+            </value>
+            <value>
+                <fullName>YOMANI MERCHANT UNIT ONLY</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YOMANI MERCHANT UNIT ONLY</label>
+            </value>
+            <value>
+                <fullName>YOMANI PINPAD</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YOMANI PINPAD</label>
+            </value>
+            <value>
+                <fullName>YOMANI PINPAD OPI P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YOMANI PINPAD OPI P2PE</label>
+            </value>
+            <value>
+                <fullName>YOMANI PINPAD P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YOMANI PINPAD P2PE</label>
+            </value>
+            <value>
+                <fullName>YOMANI REDSYS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YOMANI REDSYS</label>
+            </value>
+            <value>
+                <fullName>YONEO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YONEO</label>
+            </value>
+            <value>
+                <fullName>YONEO FOR XENOA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YONEO FOR XENOA</label>
+            </value>
+            <value>
+                <fullName>YONEO FOR XENOA P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YONEO FOR XENOA P2PE</label>
+            </value>
+            <value>
+                <fullName>YONEO FOR XENTEO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YONEO FOR XENTEO</label>
+            </value>
+            <value>
+                <fullName>YONEO FOR XENTEO P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YONEO FOR XENTEO P2PE</label>
+            </value>
+            <value>
+                <fullName>YOXIMO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YOXIMO</label>
+            </value>
+            <value>
+                <fullName>YOXIMO CRADLE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YOXIMO CRADLE</label>
+            </value>
+            <value>
+                <fullName>YOXIMO OPI P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YOXIMO OPI P2PE</label>
+            </value>
+            <value>
+                <fullName>YOXIMO P2PE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YOXIMO P2PE</label>
+            </value>
+            <value>
+                <fullName>Yoximo P2PE 4G</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Yoximo P2PE 4G</label>
+            </value>
+            <value>
+                <fullName>YOXIMO REDSYS</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>YOXIMO REDSYS</label>
+            </value>
+            <value>
+                <fullName>Yoximo Redsys 4G</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Yoximo Redsys 4G</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <controllingFieldValue>AE</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>Legacy Terminal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>PAX A30 1GB LAN White NA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>PAX A35 1GB LAN+BT+WIFI White NA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>PAX A77 1GB White NA + Charging base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>PAX A77 1GB White NA No base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>PAX A77 2GB White NA + Charging base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>PAX A77 2GB White NA No base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>PAX A80 1GB LAN White NA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <controllingFieldValue>AE</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>PAX A920 Black 1GB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>PAX A920Pro 1GB White NA + Charging base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>PAX A920Pro 1GB White NA No base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>PAX A920Pro 2GB White NA + Charging base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>PAX A920Pro 2GB White NA No base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>PAX IM30 1GB 4G+LAN+BT+WIFI NA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <controllingFieldValue>AE</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>WORLDLINE VALINA E T PCI4 P2PE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <controllingFieldValue>AE</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>WORLDLINE VALINA PCI4 P2PE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CA</controllingFieldValue>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <controllingFieldValue>AE</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>YOMANI Merchant Unit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>INGENICO DESK 5000 HOSP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>INGENICO DESK 5000 RETAIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>INGENICO LANE 3000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>INGENICO MOVE 5000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <valueName>PAX A30 1GB LAN White EU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <valueName>PAX A35 1GB LAN White EU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A77 2GB White EU/UK + Charging base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A77 2GB White EU/UK No base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <valueName>PAX A80 1GB LAN White EU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A920 1GB Black EU/UK + Charging base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A920 1GB Black EU/UK No base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A920 1GB White EU/UK + Charging &amp; Ethernet base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A920 1GB White EU/UK + Charging base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A920 1GB White EU/UK No base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A920 2GB White EU/UK + Charging &amp; Ethernet base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A920 2GB White EU/UK + Charging base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A920 2GB White EU/UK No base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A920Pro 1GB White EU/UK + Charging base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A920Pro 1GB White EU/UK No base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A920Pro 2GB White EU/UK + Charging base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A920Pro 2GB White EU/UK No base</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <valueName>PAX IM30 1GB 4G+LAN+BT+WIFI EU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <valueName>PAX IM30 1GB LAN+BT+WIFI EU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <valueName>PAX IM30 1GB LAN EU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>VERIFONE E355</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>VERIFONE P400 + SECURE POLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <controllingFieldValue>AE</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>WORLDINE YOMANI COMPACT PCI4 P2PE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <controllingFieldValue>AE</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>WORLDLINE YOMANI PINPAD PCI4 P2PE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <controllingFieldValue>AE</controllingFieldValue>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>WORLDLINE YOMANI PINPAD PCI4 P2PE + Merchant Unit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <valueName>WORLDLINE YOMANI PINPAD REDSYS PCI4 P2PE + Merchant Unit</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>WORLDLINE YOXIMO 4G PCI4 P2PE EU CHARGING CABLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <valueName>WORLDLINE YOXIMO PCI4 P2PE EU WITH CRADLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <valueName>WORLDLINE YOXIMO PCI4 P2PE EU WITHOUT CRADLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>EU</controllingFieldValue>
+            <valueName>WORLDLINE YOXIMO redsys PCI4 P2PE EU WITH CRADLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A30 1GB LAN White UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A35 1GB LAN White UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX A80 1GB LAN White UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX IM30 1GB 4G+LAN+BT+WIFI UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX IM30 1GB LAN+BT+WIFI UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <valueName>PAX IM30 1GB LAN UK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <controllingFieldValue>AE</controllingFieldValue>
+            <valueName>WORLDLINE YOXIMO PCI4 P2PE UK WITH CRADLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>UK</controllingFieldValue>
+            <controllingFieldValue>AE</controllingFieldValue>
+            <valueName>WORLDLINE YOXIMO PCI4 P2PE UK WITHOUT  CRADLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>US - Desk 5000-V4-ColorTS-Terminal-Printer-PIN Pad-SCR-Contactless</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>US - E355-V.4-Wifi-BT-W/O Barcode-PinPad-Card Reader-SCR-Contactless</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>US - Lane 3000-PCI.5-USB-RS232-ETH-Terminal-Pin Pad-SCR-Contactless</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>US - Move 5000-V.5-ColorTS-Wifi-BT-Terminal-Printer-PIN Pad-SCR-Contactless</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>US - Move 5000-V.5-GPS-4G-2 SIM-Wifi-BT-Terminal-Printer-PIN Pad-SCR-Contactless</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>US - P400plus-V.5-RS232-USB-Touch-Ethernet-Wifi-BT-PIN Pad-Card Reader-SCR-Contactless</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>WORLDLINE YOXIMO PCI4 P2PE  WITH CRADLE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>USA</controllingFieldValue>
+            <valueName>WORLDLINE YOXIMO PCI4 P2PE  WITHOUT CRADLE</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TF_Current_Provider__c</fullName>
+    <externalId>false</externalId>
+    <label>TF Current Provider</label>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Planet Tax Free</fullName>
+                <default>false</default>
+                <label>Planet Tax Free</label>
+            </value>
+            <value>
+                <fullName>GB Tax Free</fullName>
+                <default>false</default>
+                <label>GB Tax Free</label>
+            </value>
+            <value>
+                <fullName>Global Blue</fullName>
+                <default>false</default>
+                <label>Global Blue</label>
+            </value>
+            <value>
+                <fullName>B.Free</fullName>
+                <default>false</default>
+                <label>B.Free</label>
+            </value>
+            <value>
+                <fullName>Caixa</fullName>
+                <default>false</default>
+                <label>Caixa</label>
+            </value>
+            <value>
+                <fullName>Cerfa</fullName>
+                <default>false</default>
+                <label>Cerfa</label>
+            </value>
+            <value>
+                <fullName>Custom Cash</fullName>
+                <default>false</default>
+                <label>Custom Cash</label>
+            </value>
+            <value>
+                <fullName>Détaxe SA</fullName>
+                <default>false</default>
+                <label>Détaxe SA</label>
+            </value>
+            <value>
+                <fullName>Digital Tax Free</fullName>
+                <default>false</default>
+                <label>Digital Tax Free</label>
+            </value>
+            <value>
+                <fullName>DSD</fullName>
+                <default>false</default>
+                <label>DSD</label>
+            </value>
+            <value>
+                <fullName>Easy Tax Free</fullName>
+                <default>false</default>
+                <label>Easy Tax Free</label>
+            </value>
+            <value>
+                <fullName>Eurotaxfree</fullName>
+                <default>false</default>
+                <label>Eurotaxfree</label>
+            </value>
+            <value>
+                <fullName>EU TaxFree</fullName>
+                <default>false</default>
+                <label>EU TaxFree</label>
+            </value>
+            <value>
+                <fullName>Fair Tax Free</fullName>
+                <default>false</default>
+                <label>Fair Tax Free</label>
+            </value>
+            <value>
+                <fullName>Fexco</fullName>
+                <default>false</default>
+                <label>Fexco</label>
+            </value>
+            <value>
+                <fullName>Global Blue &amp; Invoice</fullName>
+                <default>false</default>
+                <label>Global Blue &amp; Invoice</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>Hi Sky</fullName>
+                <default>false</default>
+                <label>Hi Sky</label>
+            </value>
+            <value>
+                <fullName>Iceland Tax Free</fullName>
+                <default>false</default>
+                <label>Iceland Tax Free</label>
+            </value>
+            <value>
+                <fullName>Innova</fullName>
+                <default>false</default>
+                <label>Innova</label>
+            </value>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>MR Antalya</fullName>
+                <default>false</default>
+                <label>MR Antalya</label>
+            </value>
+            <value>
+                <fullName>New Tax Free Vat Refund</fullName>
+                <default>false</default>
+                <label>New Tax Free Vat Refund</label>
+            </value>
+            <value>
+                <fullName>No Current Provider</fullName>
+                <default>false</default>
+                <label>No Current Provider</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>PieVat</fullName>
+                <default>false</default>
+                <label>PieVat</label>
+            </value>
+            <value>
+                <fullName>Premier eTF</fullName>
+                <default>false</default>
+                <label>Premier eTF</label>
+            </value>
+            <value>
+                <fullName>Premier eTF &amp; GB</fullName>
+                <default>false</default>
+                <label>Premier eTF &amp; GB</label>
+            </value>
+            <value>
+                <fullName>Premier eTF &amp; GB &amp; Invoice</fullName>
+                <default>false</default>
+                <label>Premier eTF &amp; GB &amp; Invoice</label>
+            </value>
+            <value>
+                <fullName>Premier eTF &amp; Invoice</fullName>
+                <default>false</default>
+                <label>Premier eTF &amp; Invoice</label>
+            </value>
+            <value>
+                <fullName>Premier eTF &amp; Other</fullName>
+                <default>false</default>
+                <label>Premier eTF &amp; Other</label>
+            </value>
+            <value>
+                <fullName>Safety Tax Free</fullName>
+                <default>false</default>
+                <label>Safety Tax Free</label>
+            </value>
+            <value>
+                <fullName>Self Service</fullName>
+                <default>false</default>
+                <label>Self Service</label>
+            </value>
+            <value>
+                <fullName>Simply Tax Free</fullName>
+                <default>false</default>
+                <label>Simply Tax Free</label>
+            </value>
+            <value>
+                <fullName>Solpay</fullName>
+                <default>false</default>
+                <label>Solpay</label>
+            </value>
+            <value>
+                <fullName>Tax Free Easy</fullName>
+                <default>false</default>
+                <label>Tax Free Easy</label>
+            </value>
+            <value>
+                <fullName>Tax Free Germany</fullName>
+                <default>false</default>
+                <label>Tax Free Germany</label>
+            </value>
+            <value>
+                <fullName>Tax Free Rus</fullName>
+                <default>false</default>
+                <label>Tax Free Rus</label>
+            </value>
+            <value>
+                <fullName>Tax Free Zone</fullName>
+                <default>false</default>
+                <label>Tax Free Zone</label>
+            </value>
+            <value>
+                <fullName>Tax Refund Italy</fullName>
+                <default>false</default>
+                <label>Tax Refund Italy</label>
+            </value>
+            <value>
+                <fullName>Travel Easy</fullName>
+                <default>false</default>
+                <label>Travel Easy</label>
+            </value>
+            <value>
+                <fullName>Travel Tax Free</fullName>
+                <default>false</default>
+                <label>Travel Tax Free</label>
+            </value>
+            <value>
+                <fullName>Unknown</fullName>
+                <default>false</default>
+                <label>Unknown</label>
+            </value>
+            <value>
+                <fullName>U Shop</fullName>
+                <default>false</default>
+                <label>U Shop</label>
+            </value>
+            <value>
+                <fullName>VAT Free</fullName>
+                <default>false</default>
+                <label>VAT Free</label>
+            </value>
+            <value>
+                <fullName>VP Tax Free</fullName>
+                <default>false</default>
+                <label>VP Tax Free</label>
+            </value>
+            <value>
+                <fullName>Zone</fullName>
+                <default>false</default>
+                <label>Zone</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

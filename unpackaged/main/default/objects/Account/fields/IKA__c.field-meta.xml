@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IKA__c</fullName>
+    <externalId>false</externalId>
+    <label>IKA</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>A. Lange &amp; Söhne</fullName>
+                <default>false</default>
+                <label>A. Lange &amp; Söhne</label>
+            </value>
+            <value>
+                <fullName>Adidas AG</fullName>
+                <default>false</default>
+                <label>Adidas AG</label>
+            </value>
+            <value>
+                <fullName>Adolfo Dominguez</fullName>
+                <default>false</default>
+                <label>Adolfo Dominguez</label>
+            </value>
+            <value>
+                <fullName>Agent Provocateur</fullName>
+                <default>false</default>
+                <label>Agent Provocateur</label>
+            </value>
+            <value>
+                <fullName>Alaïa</fullName>
+                <default>false</default>
+                <label>Alaïa</label>
+            </value>
+            <value>
+                <fullName>Alexander McQueen</fullName>
+                <default>false</default>
+                <label>Alexander McQueen</label>
+            </value>
+            <value>
+                <fullName>All Saints</fullName>
+                <default>false</default>
+                <label>All Saints</label>
+            </value>
+            <value>
+                <fullName>American Apparel</fullName>
+                <default>false</default>
+                <label>American Apparel</label>
+            </value>
+            <value>
+                <fullName>Armani</fullName>
+                <default>false</default>
+                <label>Armani</label>
+            </value>
+            <value>
+                <fullName>Asics</fullName>
+                <default>false</default>
+                <label>Asics</label>
+            </value>
+            <value>
+                <fullName>Balenciaga</fullName>
+                <default>false</default>
+                <label>Balenciaga</label>
+            </value>
+            <value>
+                <fullName>Baume &amp; Mercier</fullName>
+                <default>false</default>
+                <label>Baume &amp; Mercier</label>
+            </value>
+            <value>
+                <fullName>Berluti</fullName>
+                <default>false</default>
+                <label>Berluti</label>
+            </value>
+            <value>
+                <fullName>Bershka</fullName>
+                <default>false</default>
+                <label>Bershka</label>
+            </value>
+            <value>
+                <fullName>Bimba &amp; Lola</fullName>
+                <default>false</default>
+                <label>Bimba &amp; Lola</label>
+            </value>
+            <value>
+                <fullName>Bottega Veneta</fullName>
+                <default>false</default>
+                <label>Bottega Veneta</label>
+            </value>
+            <value>
+                <fullName>Boucheron</fullName>
+                <default>false</default>
+                <label>Boucheron</label>
+            </value>
+            <value>
+                <fullName>Calvin Klein</fullName>
+                <default>false</default>
+                <label>Calvin Klein</label>
+            </value>
+            <value>
+                <fullName>Calzedonia</fullName>
+                <default>false</default>
+                <label>Calzedonia</label>
+            </value>
+            <value>
+                <fullName>Cartier</fullName>
+                <default>false</default>
+                <label>Cartier</label>
+            </value>
+            <value>
+                <fullName>Cath Kidston</fullName>
+                <default>false</default>
+                <label>Cath Kidston</label>
+            </value>
+            <value>
+                <fullName>Celine</fullName>
+                <default>false</default>
+                <label>Celine</label>
+            </value>
+            <value>
+                <fullName>Celio</fullName>
+                <default>false</default>
+                <label>Celio</label>
+            </value>
+            <value>
+                <fullName>Chanel</fullName>
+                <default>false</default>
+                <label>Chanel</label>
+            </value>
+            <value>
+                <fullName>Chloé</fullName>
+                <default>false</default>
+                <label>Chloé</label>
+            </value>
+            <value>
+                <fullName>Christian Dior</fullName>
+                <default>false</default>
+                <label>Christian Dior</label>
+            </value>
+            <value>
+                <fullName>Christian Louboutin</fullName>
+                <default>false</default>
+                <label>Christian Louboutin</label>
+            </value>
+            <value>
+                <fullName>Christopher Kane</fullName>
+                <default>false</default>
+                <label>Christopher Kane</label>
+            </value>
+            <value>
+                <fullName>Clarks</fullName>
+                <default>false</default>
+                <label>Clarks</label>
+            </value>
+            <value>
+                <fullName>Coach</fullName>
+                <default>false</default>
+                <label>Coach</label>
+            </value>
+            <value>
+                <fullName>Desigual</fullName>
+                <default>false</default>
+                <label>Desigual</label>
+            </value>
+            <value>
+                <fullName>DFS</fullName>
+                <default>false</default>
+                <label>DFS</label>
+            </value>
+            <value>
+                <fullName>Disney Store</fullName>
+                <default>false</default>
+                <label>Disney Store</label>
+            </value>
+            <value>
+                <fullName>Dolce &amp; Gabbana</fullName>
+                <default>false</default>
+                <label>Dolce &amp; Gabbana</label>
+            </value>
+            <value>
+                <fullName>dunhill</fullName>
+                <default>false</default>
+                <label>dunhill</label>
+            </value>
+            <value>
+                <fullName>Emilio Pucci</fullName>
+                <default>false</default>
+                <label>Emilio Pucci</label>
+            </value>
+            <value>
+                <fullName>Eres</fullName>
+                <default>false</default>
+                <label>Eres</label>
+            </value>
+            <value>
+                <fullName>Faconnable</fullName>
+                <default>false</default>
+                <label>Faconnable</label>
+            </value>
+            <value>
+                <fullName>Fendi</fullName>
+                <default>false</default>
+                <label>Fendi</label>
+            </value>
+            <value>
+                <fullName>FENTY</fullName>
+                <default>false</default>
+                <label>FENTY</label>
+            </value>
+            <value>
+                <fullName>FNAC</fullName>
+                <default>false</default>
+                <label>FNAC</label>
+            </value>
+            <value>
+                <fullName>Folli Follie</fullName>
+                <default>false</default>
+                <label>Folli Follie</label>
+            </value>
+            <value>
+                <fullName>Forever 21</fullName>
+                <default>false</default>
+                <label>Forever 21</label>
+            </value>
+            <value>
+                <fullName>Fossil</fullName>
+                <default>false</default>
+                <label>Fossil</label>
+            </value>
+            <value>
+                <fullName>Furla</fullName>
+                <default>false</default>
+                <label>Furla</label>
+            </value>
+            <value>
+                <fullName>GAP</fullName>
+                <default>false</default>
+                <label>GAP</label>
+            </value>
+            <value>
+                <fullName>Geox</fullName>
+                <default>false</default>
+                <label>Geox</label>
+            </value>
+            <value>
+                <fullName>Givenchy</fullName>
+                <default>false</default>
+                <label>Givenchy</label>
+            </value>
+            <value>
+                <fullName>Goyard</fullName>
+                <default>false</default>
+                <label>Goyard</label>
+            </value>
+            <value>
+                <fullName>Gucci</fullName>
+                <default>false</default>
+                <label>Gucci</label>
+            </value>
+            <value>
+                <fullName>Guess</fullName>
+                <default>false</default>
+                <label>Guess</label>
+            </value>
+            <value>
+                <fullName>Hard Rock Café</fullName>
+                <default>false</default>
+                <label>Hard Rock Café</label>
+            </value>
+            <value>
+                <fullName>Hermes</fullName>
+                <default>false</default>
+                <label>Hermes</label>
+            </value>
+            <value>
+                <fullName>Hugo Boss</fullName>
+                <default>false</default>
+                <label>Hugo Boss</label>
+            </value>
+            <value>
+                <fullName>IWC Schaffhausen</fullName>
+                <default>false</default>
+                <label>IWC Schaffhausen</label>
+            </value>
+            <value>
+                <fullName>Jaeger</fullName>
+                <default>false</default>
+                <label>Jaeger</label>
+            </value>
+            <value>
+                <fullName>JD Sports</fullName>
+                <default>false</default>
+                <label>JD Sports</label>
+            </value>
+            <value>
+                <fullName>J M Weston</fullName>
+                <default>false</default>
+                <label>J M Weston</label>
+            </value>
+            <value>
+                <fullName>Karen Millen</fullName>
+                <default>false</default>
+                <label>Karen Millen</label>
+            </value>
+            <value>
+                <fullName>Karl Lagerfeld</fullName>
+                <default>false</default>
+                <label>Karl Lagerfeld</label>
+            </value>
+            <value>
+                <fullName>Kenzo</fullName>
+                <default>false</default>
+                <label>Kenzo</label>
+            </value>
+            <value>
+                <fullName>Kipling</fullName>
+                <default>false</default>
+                <label>Kipling</label>
+            </value>
+            <value>
+                <fullName>L&#39;Occitane</fullName>
+                <default>false</default>
+                <label>L&#39;Occitane</label>
+            </value>
+            <value>
+                <fullName>L&#39;Oreal</fullName>
+                <default>false</default>
+                <label>L&#39;Oreal</label>
+            </value>
+            <value>
+                <fullName>Lacoste</fullName>
+                <default>false</default>
+                <label>Lacoste</label>
+            </value>
+            <value>
+                <fullName>Loewe</fullName>
+                <default>false</default>
+                <label>Loewe</label>
+            </value>
+            <value>
+                <fullName>Loro Piana</fullName>
+                <default>false</default>
+                <label>Loro Piana</label>
+            </value>
+            <value>
+                <fullName>Louis Vuitton</fullName>
+                <default>false</default>
+                <label>Louis Vuitton</label>
+            </value>
+            <value>
+                <fullName>Mango</fullName>
+                <default>false</default>
+                <label>Mango</label>
+            </value>
+            <value>
+                <fullName>Marc Jacobs</fullName>
+                <default>false</default>
+                <label>Marc Jacobs</label>
+            </value>
+            <value>
+                <fullName>Marionnaud</fullName>
+                <default>false</default>
+                <label>Marionnaud</label>
+            </value>
+            <value>
+                <fullName>Massimo Dutti</fullName>
+                <default>false</default>
+                <label>Massimo Dutti</label>
+            </value>
+            <value>
+                <fullName>Michael Kors</fullName>
+                <default>false</default>
+                <label>Michael Kors</label>
+            </value>
+            <value>
+                <fullName>Missoni</fullName>
+                <default>false</default>
+                <label>Missoni</label>
+            </value>
+            <value>
+                <fullName>Montblanc</fullName>
+                <default>false</default>
+                <label>Montblanc</label>
+            </value>
+            <value>
+                <fullName>Moynat</fullName>
+                <default>false</default>
+                <label>Moynat</label>
+            </value>
+            <value>
+                <fullName>Mulberry</fullName>
+                <default>false</default>
+                <label>Mulberry</label>
+            </value>
+            <value>
+                <fullName>Napapijri</fullName>
+                <default>false</default>
+                <label>Napapijri</label>
+            </value>
+            <value>
+                <fullName>New Look</fullName>
+                <default>false</default>
+                <label>New Look</label>
+            </value>
+            <value>
+                <fullName>Nicholas Kirkwood</fullName>
+                <default>false</default>
+                <label>Nicholas Kirkwood</label>
+            </value>
+            <value>
+                <fullName>Nike</fullName>
+                <default>false</default>
+                <label>Nike</label>
+            </value>
+            <value>
+                <fullName>Officine Panerai</fullName>
+                <default>false</default>
+                <label>Officine Panerai</label>
+            </value>
+            <value>
+                <fullName>Oysho</fullName>
+                <default>false</default>
+                <label>Oysho</label>
+            </value>
+            <value>
+                <fullName>Pandora</fullName>
+                <default>false</default>
+                <label>Pandora</label>
+            </value>
+            <value>
+                <fullName>Parfois</fullName>
+                <default>false</default>
+                <label>Parfois</label>
+            </value>
+            <value>
+                <fullName>Patek Philippe</fullName>
+                <default>false</default>
+                <label>Patek Philippe</label>
+            </value>
+            <value>
+                <fullName>Patou</fullName>
+                <default>false</default>
+                <label>Patou</label>
+            </value>
+            <value>
+                <fullName>Paul Smith</fullName>
+                <default>false</default>
+                <label>Paul Smith</label>
+            </value>
+            <value>
+                <fullName>Peter Millar</fullName>
+                <default>false</default>
+                <label>Peter Millar</label>
+            </value>
+            <value>
+                <fullName>Piaget</fullName>
+                <default>false</default>
+                <label>Piaget</label>
+            </value>
+            <value>
+                <fullName>Pink Shirtmaker</fullName>
+                <default>false</default>
+                <label>Pink Shirtmaker</label>
+            </value>
+            <value>
+                <fullName>Pull &amp; Bear</fullName>
+                <default>false</default>
+                <label>Pull &amp; Bear</label>
+            </value>
+            <value>
+                <fullName>Puma</fullName>
+                <default>false</default>
+                <label>Puma</label>
+            </value>
+            <value>
+                <fullName>Purdey</fullName>
+                <default>false</default>
+                <label>Purdey</label>
+            </value>
+            <value>
+                <fullName>Ralph Lauren</fullName>
+                <default>false</default>
+                <label>Ralph Lauren</label>
+            </value>
+            <value>
+                <fullName>RIMOWA</fullName>
+                <default>false</default>
+                <label>RIMOWA</label>
+            </value>
+            <value>
+                <fullName>River Island</fullName>
+                <default>false</default>
+                <label>River Island</label>
+            </value>
+            <value>
+                <fullName>Roger Dubuis</fullName>
+                <default>false</default>
+                <label>Roger Dubuis</label>
+            </value>
+            <value>
+                <fullName>Saint Laurent</fullName>
+                <default>false</default>
+                <label>Saint Laurent</label>
+            </value>
+            <value>
+                <fullName>Schuh</fullName>
+                <default>false</default>
+                <label>Schuh</label>
+            </value>
+            <value>
+                <fullName>Selfridges &amp; Co</fullName>
+                <default>false</default>
+                <label>Selfridges &amp; Co</label>
+            </value>
+            <value>
+                <fullName>Sephora</fullName>
+                <default>false</default>
+                <label>Sephora</label>
+            </value>
+            <value>
+                <fullName>Serapian</fullName>
+                <default>false</default>
+                <label>Serapian</label>
+            </value>
+            <value>
+                <fullName>Sergio Rossi</fullName>
+                <default>false</default>
+                <label>Sergio Rossi</label>
+            </value>
+            <value>
+                <fullName>SMCP</fullName>
+                <default>false</default>
+                <label>SMCP</label>
+            </value>
+            <value>
+                <fullName>Stella McCartney</fullName>
+                <default>false</default>
+                <label>Stella McCartney</label>
+            </value>
+            <value>
+                <fullName>Stradivarius</fullName>
+                <default>false</default>
+                <label>Stradivarius</label>
+            </value>
+            <value>
+                <fullName>Suit Supply</fullName>
+                <default>false</default>
+                <label>Suit Supply</label>
+            </value>
+            <value>
+                <fullName>Sunglass Hut</fullName>
+                <default>false</default>
+                <label>Sunglass Hut</label>
+            </value>
+            <value>
+                <fullName>Superdry</fullName>
+                <default>false</default>
+                <label>Superdry</label>
+            </value>
+            <value>
+                <fullName>Swatch</fullName>
+                <default>false</default>
+                <label>Swatch</label>
+            </value>
+            <value>
+                <fullName>The North Face</fullName>
+                <default>false</default>
+                <label>The North Face</label>
+            </value>
+            <value>
+                <fullName>Thomas Sabo</fullName>
+                <default>false</default>
+                <label>Thomas Sabo</label>
+            </value>
+            <value>
+                <fullName>Timberland</fullName>
+                <default>false</default>
+                <label>Timberland</label>
+            </value>
+            <value>
+                <fullName>Tommy Hilfiger</fullName>
+                <default>false</default>
+                <label>Tommy Hilfiger</label>
+            </value>
+            <value>
+                <fullName>Tory Burch</fullName>
+                <default>false</default>
+                <label>Tory Burch</label>
+            </value>
+            <value>
+                <fullName>Uniqlo</fullName>
+                <default>false</default>
+                <label>Uniqlo</label>
+            </value>
+            <value>
+                <fullName>Uno de 50</fullName>
+                <default>false</default>
+                <label>Uno de 50</label>
+            </value>
+            <value>
+                <fullName>Urban Outfitters</fullName>
+                <default>false</default>
+                <label>Urban Outfitters</label>
+            </value>
+            <value>
+                <fullName>Vacheron Constantin</fullName>
+                <default>false</default>
+                <label>Vacheron Constantin</label>
+            </value>
+            <value>
+                <fullName>Valentino</fullName>
+                <default>false</default>
+                <label>Valentino</label>
+            </value>
+            <value>
+                <fullName>Van Cleef &amp; Arpels</fullName>
+                <default>false</default>
+                <label>Van Cleef &amp; Arpels</label>
+            </value>
+            <value>
+                <fullName>Vans</fullName>
+                <default>false</default>
+                <label>Vans</label>
+            </value>
+            <value>
+                <fullName>Zadig &amp; Voltaire</fullName>
+                <default>false</default>
+                <label>Zadig &amp; Voltaire</label>
+            </value>
+            <value>
+                <fullName>Zara</fullName>
+                <default>false</default>
+                <label>Zara</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

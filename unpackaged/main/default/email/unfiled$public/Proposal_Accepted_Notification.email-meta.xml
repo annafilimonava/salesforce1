@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Proposal Accepted Notification</name>
+    <style>none</style>
+    <subject>Stage Change on Opportunity for {!Opportunity.Account}</subject>
+    <textOnly>The stage on the opportunity with a value of {!Opportunity.Opportunity_Value__c} has been changed to Proposal Accepted by {!Opportunity.LastModifiedBy}.
+
+You may view the record by clicking here -&gt;{!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

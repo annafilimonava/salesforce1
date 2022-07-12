@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DCC_System_Affected_Detail__c</fullName>
+    <externalId>false</externalId>
+    <label>DCC System Affected Detail</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>DCC_Systems_Affected__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>AMPS Settlement</fullName>
+                <default>false</default>
+                <label>AMPS Settlement</label>
+            </value>
+            <value>
+                <fullName>Authorisation Host</fullName>
+                <default>false</default>
+                <label>Authorisation Host</label>
+            </value>
+            <value>
+                <fullName>CRT / BRT</fullName>
+                <default>false</default>
+                <label>CRT / BRT</label>
+            </value>
+            <value>
+                <fullName>CSMS</fullName>
+                <default>false</default>
+                <label>CSMS</label>
+            </value>
+            <value>
+                <fullName>CSMS.NET</fullName>
+                <default>false</default>
+                <label>CSMS.NET</label>
+            </value>
+            <value>
+                <fullName>DCC Datawarehouse</fullName>
+                <default>false</default>
+                <label>DCC Datawarehouse</label>
+            </value>
+            <value>
+                <fullName>DCC Gateway</fullName>
+                <default>false</default>
+                <label>DCC Gateway</label>
+            </value>
+            <value>
+                <fullName>DCC Orchestrator</fullName>
+                <default>false</default>
+                <label>DCC Orchestrator</label>
+            </value>
+            <value>
+                <fullName>Dynamics Rates Generator</fullName>
+                <default>false</default>
+                <label>Dynamics Rates Generator</label>
+            </value>
+            <value>
+                <fullName>FDVO</fullName>
+                <default>false</default>
+                <label>FDVO</label>
+            </value>
+            <value>
+                <fullName>File Movements</fullName>
+                <default>false</default>
+                <label>File Movements</label>
+            </value>
+            <value>
+                <fullName>I&#39;m not sure</fullName>
+                <default>false</default>
+                <label>I&#39;m not sure</label>
+            </value>
+            <value>
+                <fullName>I&#39;ve included a detailed description.</fullName>
+                <default>false</default>
+                <label>I&#39;ve included a detailed description.</label>
+            </value>
+            <value>
+                <fullName>MCP / Way4</fullName>
+                <default>false</default>
+                <label>MCP / Way4</label>
+            </value>
+            <value>
+                <fullName>Merchant Management</fullName>
+                <default>false</default>
+                <label>Merchant Management</label>
+            </value>
+            <value>
+                <fullName>Operational Reporting</fullName>
+                <default>false</default>
+                <label>Operational Reporting</label>
+            </value>
+            <value>
+                <fullName>Operation Reporting</fullName>
+                <default>false</default>
+                <label>Operation Reporting</label>
+            </value>
+            <value>
+                <fullName>POS</fullName>
+                <default>false</default>
+                <label>POS</label>
+            </value>
+            <value>
+                <fullName>POS Batch Host</fullName>
+                <default>false</default>
+                <label>POS Batch Host</label>
+            </value>
+            <value>
+                <fullName>POS Softpay</fullName>
+                <default>false</default>
+                <label>POS Softpay</label>
+            </value>
+            <value>
+                <fullName>POS Superpay</fullName>
+                <default>false</default>
+                <label>POS Superpay</label>
+            </value>
+            <value>
+                <fullName>Rates Configuration</fullName>
+                <default>false</default>
+                <label>Rates Configuration</label>
+            </value>
+            <value>
+                <fullName>Tokenisation</fullName>
+                <default>false</default>
+                <label>Tokenisation</label>
+            </value>
+            <value>
+                <fullName>TPP</fullName>
+                <default>false</default>
+                <label>TPP</label>
+            </value>
+            <value>
+                <fullName>Treasury Management</fullName>
+                <default>false</default>
+                <label>Treasury Management</label>
+            </value>
+            <value>
+                <fullName>Visa/Mastercard</fullName>
+                <default>false</default>
+                <label>Visa/Mastercard</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>None</controllingFieldValue>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <controllingFieldValue>I&#39;m not sure</controllingFieldValue>
+            <valueName>None</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Authorisation Host</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>CRT / BRT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>CSMS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>DCC Gateway</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>FDVO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>MCP / Way4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>Merchant Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Operational Reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>POS Batch Host</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>POS Softpay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>POS Superpay</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Rates Configuration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Tokenisation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>TPP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer Facing</controllingFieldValue>
+            <valueName>Visa/Mastercard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>AMPS Settlement</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>CSMS.NET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>DCC Datawarehouse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>DCC Orchestrator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>Dynamics Rates Generator</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>File Movements</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>I&#39;m not sure</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>Operation Reporting</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Backoffice</controllingFieldValue>
+            <valueName>Treasury Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>I&#39;m not sure</controllingFieldValue>
+            <valueName>I&#39;ve included a detailed description.</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

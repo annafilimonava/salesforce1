@@ -1,0 +1,23 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">Dear {{{Case.Tourist__c}}}, </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">Thank you for your email. </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size:10.0pt;font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">Please be advised that the Tax Free form on the image you provided is a Global Blue Tax Free form. Global Blue is an alternative&nbsp;tax refund company. </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">Please contact them directly regarding your tax refund. Please visit <a href="https://secure.globalblue.com/customer-services/contact-us/"><span style="mso-bidi-font-size:10.0pt">https://secure.globalblue.com/customer-services/contact-us/</span></a>. </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">I hope you will be able to receive your refund soon.</span></p>
+ </body>
+</html>

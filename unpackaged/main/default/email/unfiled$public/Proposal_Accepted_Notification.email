@@ -1,0 +1,3 @@
+<font face="arial"><font size=2><p>The stage on the opportunity with a value of {!Opportunity.Opportunity_Value__c} has been changed to <b>Proposal Accepted</b> by {!Opportunity.LastModifiedBy}.</p>
+
+<p>You may view the record by clicking here ->{!Opportunity.Link}</p>

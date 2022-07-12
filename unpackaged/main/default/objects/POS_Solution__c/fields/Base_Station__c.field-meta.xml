@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Base_Station__c</fullName>
+    <externalId>false</externalId>
+    <label>Base Station</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Comms_Type__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A920 BT Station and Charging Cradle</fullName>
+                <default>false</default>
+                <label>A920 BT Station and Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>i7780 Base Station</fullName>
+                <default>false</default>
+                <label>i7780 Base Station</label>
+            </value>
+            <value>
+                <fullName>iWL220-250 Base Station</fullName>
+                <default>false</default>
+                <label>iWL220-250 Base Station</label>
+            </value>
+            <value>
+                <fullName>L920</fullName>
+                <default>false</default>
+                <label>L920</label>
+            </value>
+            <value>
+                <fullName>Vx670 BT Station</fullName>
+                <default>false</default>
+                <label>Vx670 BT Station</label>
+            </value>
+            <value>
+                <fullName>Vx670 Charging Cradle</fullName>
+                <default>false</default>
+                <label>Vx670 Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>Vx680 Charging Cradle</fullName>
+                <default>false</default>
+                <label>Vx680 Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>Vx680 Charging Cradle W/BT</fullName>
+                <default>false</default>
+                <label>Vx680 Charging Cradle W/BT</label>
+            </value>
+            <value>
+                <fullName>Vx690 Charging Cradle</fullName>
+                <default>false</default>
+                <label>Vx690 Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>true</default>
+                <label>Not Required</label>
+            </value>
+            <value>
+                <fullName>Pax A920 Charging Cradle</fullName>
+                <default>false</default>
+                <label>Pax A920 Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>Pax A77 Charging Cradle</fullName>
+                <default>false</default>
+                <label>Pax A77 Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>Yoximo Charging Cradle</fullName>
+                <default>false</default>
+                <label>Yoximo Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>Tetra Move 5000 Charging Cradle</fullName>
+                <default>false</default>
+                <label>Tetra Move 5000 Charging Cradle</label>
+            </value>
+            <value>
+                <fullName>E355 Charging Cradle</fullName>
+                <default>false</default>
+                <label>E355 Charging Cradle</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>PSTN</controllingFieldValue>
+            <controllingFieldValue>WiFi</controllingFieldValue>
+            <controllingFieldValue>IP</controllingFieldValue>
+            <controllingFieldValue>BT IP</controllingFieldValue>
+            <controllingFieldValue>BT PSTN</controllingFieldValue>
+            <controllingFieldValue>3G</controllingFieldValue>
+            <controllingFieldValue>GPRS</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <controllingFieldValue>Unknown</controllingFieldValue>
+            <valueName>A920 BT Station and Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PSTN</controllingFieldValue>
+            <controllingFieldValue>WiFi</controllingFieldValue>
+            <controllingFieldValue>IP</controllingFieldValue>
+            <controllingFieldValue>BT IP</controllingFieldValue>
+            <controllingFieldValue>BT PSTN</controllingFieldValue>
+            <controllingFieldValue>3G</controllingFieldValue>
+            <controllingFieldValue>GPRS</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>i7780 Base Station</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PSTN</controllingFieldValue>
+            <controllingFieldValue>WiFi</controllingFieldValue>
+            <controllingFieldValue>IP</controllingFieldValue>
+            <controllingFieldValue>BT IP</controllingFieldValue>
+            <controllingFieldValue>BT PSTN</controllingFieldValue>
+            <controllingFieldValue>3G</controllingFieldValue>
+            <controllingFieldValue>GPRS</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>iWL220-250 Base Station</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PSTN</controllingFieldValue>
+            <controllingFieldValue>WiFi</controllingFieldValue>
+            <controllingFieldValue>IP</controllingFieldValue>
+            <controllingFieldValue>BT IP</controllingFieldValue>
+            <controllingFieldValue>BT PSTN</controllingFieldValue>
+            <controllingFieldValue>3G</controllingFieldValue>
+            <controllingFieldValue>GPRS</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <controllingFieldValue>Unknown</controllingFieldValue>
+            <valueName>L920</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PSTN</controllingFieldValue>
+            <controllingFieldValue>WiFi</controllingFieldValue>
+            <controllingFieldValue>IP</controllingFieldValue>
+            <controllingFieldValue>BT IP</controllingFieldValue>
+            <controllingFieldValue>BT PSTN</controllingFieldValue>
+            <controllingFieldValue>3G</controllingFieldValue>
+            <controllingFieldValue>GPRS</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Vx670 Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PSTN</controllingFieldValue>
+            <controllingFieldValue>WiFi</controllingFieldValue>
+            <controllingFieldValue>IP</controllingFieldValue>
+            <controllingFieldValue>BT IP</controllingFieldValue>
+            <controllingFieldValue>BT PSTN</controllingFieldValue>
+            <controllingFieldValue>3G</controllingFieldValue>
+            <controllingFieldValue>GPRS</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Vx680 Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PSTN</controllingFieldValue>
+            <controllingFieldValue>WiFi</controllingFieldValue>
+            <controllingFieldValue>IP</controllingFieldValue>
+            <controllingFieldValue>BT IP</controllingFieldValue>
+            <controllingFieldValue>BT PSTN</controllingFieldValue>
+            <controllingFieldValue>3G</controllingFieldValue>
+            <controllingFieldValue>GPRS</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Vx690 Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PSTN</controllingFieldValue>
+            <controllingFieldValue>WiFi</controllingFieldValue>
+            <controllingFieldValue>IP</controllingFieldValue>
+            <controllingFieldValue>BT IP</controllingFieldValue>
+            <controllingFieldValue>BT PSTN</controllingFieldValue>
+            <controllingFieldValue>3G</controllingFieldValue>
+            <controllingFieldValue>GPRS</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <controllingFieldValue>Unknown</controllingFieldValue>
+            <valueName>Not Required</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WiFi</controllingFieldValue>
+            <controllingFieldValue>IP</controllingFieldValue>
+            <valueName>Pax A920 Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WiFi</controllingFieldValue>
+            <controllingFieldValue>IP</controllingFieldValue>
+            <valueName>Pax A77 Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WiFi</controllingFieldValue>
+            <controllingFieldValue>IP</controllingFieldValue>
+            <valueName>Yoximo Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WiFi</controllingFieldValue>
+            <controllingFieldValue>IP</controllingFieldValue>
+            <valueName>Tetra Move 5000 Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>WiFi</controllingFieldValue>
+            <controllingFieldValue>IP</controllingFieldValue>
+            <valueName>E355 Charging Cradle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BT IP</controllingFieldValue>
+            <controllingFieldValue>BT PSTN</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Vx670 BT Station</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BT IP</controllingFieldValue>
+            <controllingFieldValue>BT PSTN</controllingFieldValue>
+            <controllingFieldValue>Not Required</controllingFieldValue>
+            <valueName>Vx680 Charging Cradle W/BT</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

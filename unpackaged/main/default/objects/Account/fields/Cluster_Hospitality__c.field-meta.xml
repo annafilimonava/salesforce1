@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cluster_Hospitality__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE(TEXT(Owning_Country__c),
+&quot;Austria&quot;,&quot;Central &amp; Eastern Europe&quot;,
+&quot;Bahrain&quot;,&quot;MEA&quot;,
+&quot;Belgium&quot;,&quot;France &amp; Benelux&quot;,
+&quot;Bulgaria&quot;,&quot;Southern Europe&quot;,
+&quot;Canada&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;Croatia&quot;,&quot;Southern Europe&quot;,
+&quot;Cyprus&quot;,&quot;Southern Europe&quot;,
+&quot;Czech Republic&quot;,&quot;Southern Europe&quot;,
+&quot;Denmark&quot;,&quot;Nordics&quot;,
+&quot;Egypt&quot;,&quot;MEA&quot;,
+&quot;Estonia&quot;,&quot;Nordics&quot;,
+&quot;Faroe Islands&quot;,&quot;Nordics&quot;,
+&quot;Finland&quot;,&quot;Nordics&quot;,
+&quot;France&quot;,&quot;France &amp; Benelux&quot;,
+&quot;Germany&quot;,&quot;Central &amp; Eastern Europe&quot;,
+&quot;Greece&quot;,&quot;Southern Europe&quot;,
+&quot;Hong Kong&quot;,&quot;Asia&quot;,
+&quot;Hungary&quot;,&quot;Southern Europe&quot;,
+&quot;Iceland&quot;,&quot;Nordics&quot;,
+&quot;India&quot;,&quot;MEA&quot;,
+&quot;Ireland&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;Italy&quot;,&quot;Southern Europe&quot;,
+&quot;Jamaica&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;Jordan&quot;,&quot;MEA&quot;,
+&quot;Latvia&quot;,&quot;Nordics&quot;,
+&quot;Lithuania&quot;,&quot;Nordics&quot;,
+&quot;Luxembourg&quot;,&quot;France &amp; Benelux&quot;,
+&quot;Maldives&quot;,&quot;MEA&quot;,
+&quot;Malta&quot;,&quot;Southern Europe&quot;,
+&quot;Mexico&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;Netherlands&quot;,&quot;France &amp; Benelux&quot;,
+&quot;Norway&quot;,&quot;Nordics&quot;,
+&quot;Pakistan&quot;,&quot;MEA&quot;,
+&quot;Poland&quot;,&quot;Southern Europe&quot;,
+&quot;Portugal&quot;,&quot;Southern Europe&quot;,
+&quot;Puerto Rico&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;Qatar&quot;,&quot;Middle East&quot;,
+&quot;Romania&quot;, &quot;Central &amp; Eastern Europe&quot;,
+&quot;Russian Federation&quot;,&quot;MEA&quot;,
+&quot;Singapore&quot;,&quot;MEA&quot;,
+&quot;Slovenia&quot;,&quot;Southern Europe&quot;,
+&quot;South Africa&quot;,&quot;MEA&quot;,
+&quot;Spain&quot;,&quot;Southern Europe&quot;,
+&quot;Sri Lanka&quot;,&quot;MEA&quot;,
+&quot;Sweden&quot;,&quot;Nordics&quot;,
+&quot;Switzerland&quot;, &quot;Central &amp; Eastern Europe&quot;,
+&quot;United Kingdom&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;United States&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;Colombia&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;French West Indies&quot;,&quot;UK &amp; Ireland &amp; NA&quot;,
+&quot;Slovak Republic&quot;,&quot;Central &amp; Eastern Europe&quot;,
+&quot;United Arab Emirates&quot;,&quot;Middle East&quot;,
+&quot;&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Cluster Hospitality</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

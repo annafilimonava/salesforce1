@@ -1,0 +1,9 @@
+<font face="arial" size=2> 
+<br>
+The contract on {!Account.Name} will expire in 60 days on {!Account.Contract_End_Date__c}.  Please start the renewal process and update the Contract End Date when done.<br>
+<br>
+Click below to go directly to the contract record.<br>
+<br>
+{!Account.Link}<br>
+<br>
+<br>

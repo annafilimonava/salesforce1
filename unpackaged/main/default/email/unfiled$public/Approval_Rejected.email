@@ -1,0 +1,3 @@
+<font face="arial"><font size=2><p>The opportunity with a value of {!Opportunity.Opportunity_Value__c} has been <b>rejected</b> due to {!ApprovalRequest.Comments}. Please amend opportunity as required and resubmit for approval.</p>
+
+<p>You may view the record by clicking here ->{!Opportunity.Link}</p>

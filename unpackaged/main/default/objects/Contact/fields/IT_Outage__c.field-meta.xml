@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IT_Outage__c</fullName>
+    <externalId>false</externalId>
+    <label>IT Outage Contact For</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PA</fullName>
+                <default>false</default>
+                <label>PA</label>
+            </value>
+            <value>
+                <fullName>PAOL</fullName>
+                <default>false</default>
+                <label>PAOL</label>
+            </value>
+            <value>
+                <fullName>PC</fullName>
+                <default>false</default>
+                <label>PC</label>
+            </value>
+            <value>
+                <fullName>PI</fullName>
+                <default>false</default>
+                <label>PI</label>
+            </value>
+            <value>
+                <fullName>PII</fullName>
+                <default>false</default>
+                <label>PII</label>
+            </value>
+            <value>
+                <fullName>POL</fullName>
+                <default>false</default>
+                <label>POL</label>
+            </value>
+            <value>
+                <fullName>POL Pro</fullName>
+                <default>false</default>
+                <label>POL Pro</label>
+            </value>
+            <value>
+                <fullName>POL Pro PAX</fullName>
+                <default>false</default>
+                <label>POL Pro PAX</label>
+            </value>
+            <value>
+                <fullName>PT</fullName>
+                <default>false</default>
+                <label>PT</label>
+            </value>
+            <value>
+                <fullName>PT PAX</fullName>
+                <default>false</default>
+                <label>PT PAX</label>
+            </value>
+            <value>
+                <fullName>eTF</fullName>
+                <default>false</default>
+                <label>eTF</label>
+            </value>
+            <value>
+                <fullName>Kiosk</fullName>
+                <default>false</default>
+                <label>Kiosk</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,5 @@
+<font face="arial"><font size=2><p>The opportunity with a value of {!Opportunity.Opportunity_Value__c} has been submitted for approval by {!Approval_Requesting_User.Name}.</p>
+
+This opportunity will require approval by the Commercial Committee.  If you are the country manager you may reject and then amend opportunity and resubmit or you may approve and the opportunity approval request will be forwarded to the Regional Director.  If you are the Regional Director please get approval from the Commercial Committee for this opportunity before approving.
+
+<p>You may view the record by clicking here ->{!Opportunity.Link}</p>

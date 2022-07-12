@@ -1,0 +1,11 @@
+<font face="arial" size=2> 
+<br>
+The Stage on opportunity, {!Opportunity.Name}, has heen moved to {!Opportunity.StageName}.<br>
+<br>
+Account Name - {!Opportunity.Account}<br>
+<br>
+Opportunity Owner - {!Opportunity.OwnerFullName}<br>
+<br>
+Click on the link below for more details.<br>
+<br>
+{!Opportunity.Link}

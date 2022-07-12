@@ -1,0 +1,21 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  Lieber Kunde, 
+  <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
+  <br /> Vielen Dank f&uuml;r Ihre Email.&nbsp; 
+  <br /> 
+  <br /> Ich habe unsere Datenbank &uuml;berpr&uuml;ft und Ihr Tax Free Formular wurde erfolgreich bearbeitet. 
+  <br /> Die R&uuml;ckerstattung wurde am 
+  <span style="color:#e74c3c;">00/00/2019</span> auf die Karte {{{Case.Credit_Card_Number__c}}} &uuml;berwiesen.&nbsp; 
+  <br /> 
+  <br /> Bitte beachten Sie, dass es bis zu ca. 10 Arbeitstagen dauern kann, bis die R&uuml;ckerstattung auf dem Konto erscheint. 
+  <br /> 
+  <br /> Bitte pr&uuml;fen Sie Ihr Konto wieder und geben Sie mir Bescheid, wenn Sie weitere Hilfe ben&ouml;tigen. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+  <br /> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; 
+  <br /> Herzliche Gr&uuml;&szlig;e, 
+  <br /> &nbsp;
+ </body>
+</html>

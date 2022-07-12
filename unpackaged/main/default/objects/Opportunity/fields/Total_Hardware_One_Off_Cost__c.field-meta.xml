@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Hardware_One_Off_Cost__c</fullName>
+    <description>Total Hardware Cost of sold hardware.</description>
+    <externalId>false</externalId>
+    <label>Total Hardware One Off Cost</label>
+    <summarizedField>Hardware__c.One_Off_Cost__c</summarizedField>
+    <summaryForeignKey>Hardware__c.Opportunity__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

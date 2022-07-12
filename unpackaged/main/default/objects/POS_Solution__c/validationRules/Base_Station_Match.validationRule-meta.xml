@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Base_Station_Match</fullName>
+    <active>false</active>
+    <errorConditionFormula>OR(AND(TEXT(Base_Station__c) = &quot;Vx670 Charging Cradle&quot;,
+TEXT(Terminal__c) &lt;&gt; &quot;Vx670&quot;),
+(AND(TEXT(Base_Station__c) = &quot;Vx670 BT Station&quot;,
+TEXT(Terminal__c) &lt;&gt; &quot;Vx670&quot;)),
+(AND(TEXT(Base_Station__c) = &quot;Vx680 Charging Cradle&quot;,
+TEXT(Terminal__c) &lt;&gt; &quot;Vx680 3G&quot;)),
+(AND(TEXT(Base_Station__c) = &quot;A920 Charging Cradle&quot;,
+TEXT(Terminal__c) &lt;&gt; &quot;A920&quot;)),
+(AND(TEXT(Base_Station__c) = &quot;L920&quot;,
+TEXT(Terminal__c) &lt;&gt; &quot;A920&quot;)),
+(AND(TEXT(Base_Station__c) = &quot;i7780 Base Station&quot;,
+TEXT(Terminal__c) &lt;&gt; &quot;i7780&quot;)),
+(AND(TEXT(Base_Station__c) = &quot;Vx680 Charging Cradle W/BT&quot;,
+TEXT(Terminal__c) &lt;&gt; &quot;Vx680 BT/Wi-fi&quot;)),
+(AND(TEXT(Base_Station__c) = &quot;Vx690 Charging Cradle&quot;,
+TEXT(Terminal__c) &lt;&gt; &quot;Vx690&quot;)))</errorConditionFormula>
+    <errorDisplayField>Base_Station__c</errorDisplayField>
+    <errorMessage>Terminal and Base Stations do not match.</errorMessage>
+</ValidationRule>

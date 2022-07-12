@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mass_Roll_Out_OTELLO_from_Manual_to_POL</fullName>
+    <columns>NAME</columns>
+    <columns>Head_Office_Rank__c</columns>
+    <columns>Account_ID__c</columns>
+    <columns>Account_Name__c</columns>
+    <columns>Solution__c</columns>
+    <columns>Status__c</columns>
+    <columns>Parent_Number_of_Child_Records__c</columns>
+    <columns>Proposed_Solution__c</columns>
+    <columns>Proposed_Solution_Store__c</columns>
+    <columns>Contact__c</columns>
+    <columns>Login__c</columns>
+    <columns>Account_Owner__c</columns>
+    <columns>City__c</columns>
+    <columns>On_Boarding__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>012240000002qoj</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Pending</value>
+    </filters>
+    <filters>
+        <field>Product__c</field>
+        <operation>notEqual</operation>
+        <value>Payments,Payments &amp; DCC</value>
+    </filters>
+    <filters>
+        <field>Solution__c</field>
+        <operation>notEqual</operation>
+        <value>Manual,TBD</value>
+    </filters>
+    <filters>
+        <field>On_Boarding__c</field>
+        <operation>equals</operation>
+        <value>Yes</value>
+    </filters>
+    <label>POS Solutions Pending Italy</label>
+</ListView>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Call_Connected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call Connected</shortDescription>
+        <value>Connected</value>
+    </labels>
+    <labels>
+        <fullName>Call_Connecting</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call Connecting</shortDescription>
+        <value>Connecting</value>
+    </labels>
+    <labels>
+        <fullName>Call_Disconnected</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call Disconnected</shortDescription>
+        <value>Disconnected</value>
+    </labels>
+    <labels>
+        <fullName>Call_Notified</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call Notified</shortDescription>
+        <value>Notified</value>
+    </labels>
+    <labels>
+        <fullName>Call_OnHold</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call OnHold</shortDescription>
+        <value>OnHold</value>
+    </labels>
+    <labels>
+        <fullName>Call_StatusChanged</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call StatusChanged</shortDescription>
+        <value>StatusChanged</value>
+    </labels>
+    <labels>
+        <fullName>Call_Transferring</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call Transferring</shortDescription>
+        <value>Transferring</value>
+    </labels>
+    <labels>
+        <fullName>DefaultRetailerAccount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>DefaultRetailerAccount</shortDescription>
+        <value>0012400001LGlNQAA1</value>
+    </labels>
+</CustomLabels>

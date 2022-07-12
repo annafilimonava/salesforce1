@@ -1,0 +1,102 @@
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">Gentile Cliente,</span></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">la contattiamo in merito all&rsquo;attivazione della soluzione </span></span><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#00b050">Integrated for POS </span></span><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">per l&rsquo;emissione di fatture Tax Free integrata con il sistema di cassa per il negozio seguente:</span></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><b><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">{{{POS_Solution__c.Account_Name__c}}}</span></span></b></span></span></span><br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">{{{POS_Solution__c.Street__c}}}<br />
+{{{POS_Solution__c.Post_Code__c}}}&nbsp;{{{POS_Solution__c.City__c}}}</span></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">In allegato le inviamo una breve guida per l&rsquo;installazione e la configurazione della nostra applicazione </span></span><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#00b050">Planet Integrated Interface (PII)</span></span><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">, che dovrebbe gi&agrave; avere a disposizione.</span></span></span></span></span><br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">Di seguito, pu&ograve; trovare i parametri necessari per la configurazione:</span></span></span></span></span><br />
+&nbsp;
+<table border="1" cellpadding="0" cellspacing="0" class="MsoTableGrid" style="width:432.35pt;margin-left:-1.15pt;border-collapse:collapse;border:
+ none;mso-border-alt:solid white 2.25pt;mso-border-themecolor:background1;
+ mso-yfti-tbllook:1184;mso-padding-alt:0cm 5.4pt 0cm 5.4pt;mso-border-insideh:
+ 2.25pt solid white;mso-border-insideh-themecolor:background1;mso-border-insidev:
+ 2.25pt solid white;mso-border-insidev-themecolor:background1" width="576">
+	<tbody>
+		<tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:19.6pt">
+			<td style="width:120.5pt;border:solid white 2.25pt;mso-border-themecolor:
+  background1;background:#37B45A;padding:0cm 5.4pt 0cm 5.4pt;height:19.6pt" width="161">
+			<p class="MsoNormal"><span lang="EN-US" style="font-family:&quot;Barlow Light&quot;;
+  mso-bidi-font-family:Arial;color:white;mso-themecolor:background1;mso-fareast-language:
+  EN-GB;mso-bidi-font-weight:bold">PTF Shop Number</span></p>
+			</td>
+			<td style="width:11.0cm;border:solid white 2.25pt;mso-border-themecolor:
+  background1;border-left:none;mso-border-left-alt:solid white 2.25pt;
+  mso-border-left-themecolor:background1;background:#F2F2F2;mso-background-themecolor:
+  background1;mso-background-themeshade:242;padding:0cm 5.4pt 0cm 5.4pt;
+  height:19.6pt" width="416">
+			<p class="MsoNormal"><span style="font-size:11.0pt;font-family:&quot;Barlow Light&quot;;
+  mso-bidi-font-family:&quot;Courier New&quot;;color:#0D0D0D;mso-themecolor:text1;
+  mso-themetint:242;mso-ansi-language:EN-GB;mso-bidi-font-weight:bold">&nbsp;{{{POS_Solution__c.Account_ID__c}}}</span></p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:1;height:19.6pt">
+			<td style="width:120.5pt;border:solid white 2.25pt;mso-border-themecolor:
+  background1;border-top:none;mso-border-top-alt:solid white 2.25pt;mso-border-top-themecolor:
+  background1;background:#37B45A;padding:0cm 5.4pt 0cm 5.4pt;height:19.6pt" width="161">
+			<p class="MsoNormal"><span lang="EN-US" style="font-family:&quot;Barlow Light&quot;;
+  mso-bidi-font-family:Arial;color:white;mso-themecolor:background1;mso-fareast-language:
+  EN-GB;mso-bidi-font-weight:bold">Customer Store ID</span></p>
+			</td>
+			<td style="width:11.0cm;border-top:none;border-left:none;
+  border-bottom:solid white 2.25pt;mso-border-bottom-themecolor:background1;
+  border-right:solid white 2.25pt;mso-border-right-themecolor:background1;
+  mso-border-top-alt:solid white 2.25pt;mso-border-top-themecolor:background1;
+  mso-border-left-alt:solid white 2.25pt;mso-border-left-themecolor:background1;
+  background:#F2F2F2;mso-background-themecolor:background1;mso-background-themeshade:
+  242;padding:0cm 5.4pt 0cm 5.4pt;height:19.6pt" width="416">
+			<p class="MsoNormal"><span style="font-size: 11pt; font-family: &quot;Barlow Light&quot;;">&nbsp;{{{POS_Solution__c.Reference_or_Account_ID__c}}}</span></p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:2;height:20.65pt">
+			<td style="width:120.5pt;border:solid white 2.25pt;mso-border-themecolor:
+  background1;border-top:none;mso-border-top-alt:solid white 2.25pt;mso-border-top-themecolor:
+  background1;background:#37B45A;padding:0cm 5.4pt 0cm 5.4pt;height:20.65pt" width="161">
+			<p class="MsoNormal"><span lang="EN-US" style="font-family:&quot;Barlow Light&quot;;
+  mso-bidi-font-family:Arial;color:white;mso-themecolor:background1;mso-fareast-language:
+  EN-GB;mso-bidi-font-weight:bold">VAT Number</span></p>
+			</td>
+			<td style="width:11.0cm;border-top:none;border-left:none;
+  border-bottom:solid white 2.25pt;mso-border-bottom-themecolor:background1;
+  border-right:solid white 2.25pt;mso-border-right-themecolor:background1;
+  mso-border-top-alt:solid white 2.25pt;mso-border-top-themecolor:background1;
+  mso-border-left-alt:solid white 2.25pt;mso-border-left-themecolor:background1;
+  background:#F2F2F2;mso-background-themecolor:background1;mso-background-themeshade:
+  242;padding:0cm 5.4pt 0cm 5.4pt;height:20.65pt" width="416">
+			<p class="MsoNormal"><span lang="EN-US" style="font-size:11.0pt"><span style="font-family:&quot;Barlow Light&quot;">{{{POS_Solution__c.Parent_VAT__c}}}</span></span></p>
+			</td>
+		</tr>
+		<tr style="mso-yfti-irow:3;mso-yfti-lastrow:yes;height:20.65pt">
+			<td style="width:120.5pt;border:solid white 2.25pt;mso-border-themecolor:
+  background1;border-top:none;mso-border-top-alt:solid white 2.25pt;mso-border-top-themecolor:
+  background1;background:#37B45A;padding:0cm 5.4pt 0cm 5.4pt;height:20.65pt" width="161">
+			<p class="MsoNormal"><span lang="EN-US" style="font-family:&quot;Barlow Light&quot;;
+  mso-bidi-font-family:Arial;color:white;mso-themecolor:background1;mso-fareast-language:
+  EN-GB;mso-bidi-font-weight:bold">Country Code</span></p>
+			</td>
+			<td style="width:11.0cm;border-top:none;border-left:none;
+  border-bottom:solid white 2.25pt;mso-border-bottom-themecolor:background1;
+  border-right:solid white 2.25pt;mso-border-right-themecolor:background1;
+  mso-border-top-alt:solid white 2.25pt;mso-border-top-themecolor:background1;
+  mso-border-left-alt:solid white 2.25pt;mso-border-left-themecolor:background1;
+  background:#F2F2F2;mso-background-themecolor:background1;mso-background-themeshade:
+  242;padding:0cm 5.4pt 0cm 5.4pt;height:20.65pt" width="416">
+			<p class="MsoNormal"><span style="font-size:11.0pt;font-family:&quot;Barlow Light&quot;;
+  mso-bidi-font-family:&quot;Courier New&quot;;color:#0D0D0D;mso-themecolor:text1;
+  mso-themetint:242;mso-ansi-language:EN-GB;mso-bidi-font-weight:bold">&nbsp;</span><span style="font-size:11.0pt"><span style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">380 (ITALY)</span></span></span></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">Durante la configurazione di PII, si assicuri che all&rsquo;interno del tab <b><i>Ptf Access</i></b> sia stato attivato il pulsante <span style="background:lightgrey">Live Mode</span> cos&igrave; da trasmettere le transazioni all&rsquo;ambiente di produzione.</span></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">Le inviamo inoltre in allegato il manuale generico di </span></span><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#00b050">PII</span></span><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">. In ogni caso, per informazioni puntuali sulla procedura da utilizzare in cassa per l&rsquo;emissione, l&rsquo;annullamento e la ristampa di un Tax Free, la invitiamo a fare riferimento al provider del sistema da voi utilizzato.</span></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;">Per supporto in merito all&rsquo;attivazione, la invitiamo a contattare il supporto tecnico Planet scrivendo una email a <span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><span style="color:#00b050"><a href="mailto:it.support@planetpayment.com" style="color:#0563c1; text-decoration:underline"><span style="color:#00b050">it.support@planetpayment.com</span></a></span></span></span>.</span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;">La ringraziamo per la collaborazione.</span></span></span></span><br />
+<br />
+&nbsp;

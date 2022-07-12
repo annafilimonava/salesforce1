@@ -1,0 +1,6 @@
+<font face="arial" size=2>
+The Merchant Account Plan for {!Merchant_Account_Plan__c.Account__c} has been approved.<br>
+<br>
+Click on the link below to navigate directly to the plan.<br>
+<br>
+{!Merchant_Account_Plan__c.Link}

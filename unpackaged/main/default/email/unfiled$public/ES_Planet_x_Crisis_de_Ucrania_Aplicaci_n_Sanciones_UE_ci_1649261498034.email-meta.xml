@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Crisis de Ucrania - Comunicación comercial Aplicación de las sanciones de la UE relativas a la venta de artículos de lujo a ciudadanos rusos La Unión</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ES Planet x Crisis de Ucrania Aplicación Sanciones UE ciudadanos rusos</name>
+    <relatedEntityType>ListEmail</relatedEntityType>
+    <style>none</style>
+    <subject>Crisis de Ucrania - Comunicación comercial Aplicación de las sanciones de la UE relativas a la venta de artículos de lujo a ciudadanos rusos La Unión</subject>
+    <type>custom</type>
+    <uiType>SFX</uiType>
+</EmailTemplate>

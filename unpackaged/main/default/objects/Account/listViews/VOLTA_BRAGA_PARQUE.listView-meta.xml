@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VOLTA_BRAGA_PARQUE</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_ID__c</columns>
+    <columns>ACCOUNT.ADDRESS1_STREET</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_CITY</field>
+        <operation>contains</operation>
+        <value>BRAGA</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_STREET</field>
+        <operation>contains</operation>
+        <value>BRAGA PARQUE</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Shop</value>
+    </filters>
+    <label>VOLTA BRAGA PARQUE</label>
+    <sharedTo>
+        <group>Portugal_All</group>
+    </sharedTo>
+</ListView>

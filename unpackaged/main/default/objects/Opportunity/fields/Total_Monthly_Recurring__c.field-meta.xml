@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Monthly_Recurring__c</fullName>
+    <description>roll up of recurring charges from Charges object</description>
+    <externalId>false</externalId>
+    <label>Total Annualised Recurring Fees</label>
+    <summarizedField>Charges__c.Total_Price__c</summarizedField>
+    <summaryFilterItems>
+        <field>Charges__c.Type__c</field>
+        <operation>equals</operation>
+        <value>Monthly Recurring</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Charges__c.Opportunity__c</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

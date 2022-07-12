@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DCC_Contract</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(Product__c) = &quot;DCC&quot; , TEXT(GP__c) = &quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>GP__c</errorDisplayField>
+    <errorMessage>You must complete the GP % for DCC contracts.</errorMessage>
+</ValidationRule>

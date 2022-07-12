@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Training_Head_Office__c</fullName>
+    <externalId>false</externalId>
+    <formula>(Confident_of_Staff_TF_TrainingR__c + Training_Inline_With_TurnoverR__c + Training_for_New_HiresR__c + Rebate_Part_of_ProfitabilityR__c) / 4</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Training Head Office</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

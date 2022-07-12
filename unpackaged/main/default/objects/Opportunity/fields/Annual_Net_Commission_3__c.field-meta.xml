@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Net_Commission_3__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Contract_Start_Date_Month__c = 4,  Calendar_Month__c = 4),  TF_Net_Commission_Actual__c / 0.0645671,
+IF(AND(Contract_Start_Date_Month__c = 4,  Calendar_Month__c = 5),  TF_Net_Commission_Actual__c / 0.1385335,
+IF(AND(Contract_Start_Date_Month__c = 4,  Calendar_Month__c = 6),  TF_Net_Commission_Actual__c / 0.2202262,
+IF(AND(Contract_Start_Date_Month__c = 4,  Calendar_Month__c = 7),  TF_Net_Commission_Actual__c / 0.3200341,
+IF(AND(Contract_Start_Date_Month__c = 4,  Calendar_Month__c = 8),  TF_Net_Commission_Actual__c / 0.4403348,
+IF(AND(Contract_Start_Date_Month__c = 4,  Calendar_Month__c = 9),  TF_Net_Commission_Actual__c / 0.5500626,
+IF(AND(Contract_Start_Date_Month__c = 4,  Calendar_Month__c = 10),  TF_Net_Commission_Actual__c / 0.6628256,
+IF(AND(Contract_Start_Date_Month__c = 4,  Calendar_Month__c = 11),  TF_Net_Commission_Actual__c / 0.7448989,
+IF(AND(Contract_Start_Date_Month__c = 4,  Calendar_Month__c = 12),  TF_Net_Commission_Actual__c / 0.8201378,
+IF(AND(Contract_Start_Date_Month__c = 5,  Calendar_Month__c = 5),  TF_Net_Commission_Actual__c / 0.0739664,
+IF(AND(Contract_Start_Date_Month__c = 5,  Calendar_Month__c = 6),  TF_Net_Commission_Actual__c / 0.1556591,
+IF(AND(Contract_Start_Date_Month__c = 5,  Calendar_Month__c = 7),  TF_Net_Commission_Actual__c / 0.255467,
+IF(AND(Contract_Start_Date_Month__c = 5,  Calendar_Month__c = 8),  TF_Net_Commission_Actual__c / 0.3757677,
+IF(AND(Contract_Start_Date_Month__c = 5,  Calendar_Month__c = 9),  TF_Net_Commission_Actual__c / 0.4854955,
+IF(AND(Contract_Start_Date_Month__c = 5,  Calendar_Month__c = 10),  TF_Net_Commission_Actual__c / 0.5982585,
+IF(AND(Contract_Start_Date_Month__c = 5,  Calendar_Month__c = 11),  TF_Net_Commission_Actual__c / 0.6803318,
+IF(AND(Contract_Start_Date_Month__c = 5,  Calendar_Month__c = 12),  TF_Net_Commission_Actual__c / 0.7555707,0)))))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Annual Net Commission 3</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

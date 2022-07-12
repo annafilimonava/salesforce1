@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Email_Opt_Out</fullName>
+    <active>true</active>
+    <description>Once Email Opt Out has been ticked, it cannot be un-ticked.</description>
+    <errorConditionFormula>AND(PRIORVALUE(HasOptedOutOfEmail), TRUE,
+ISCHANGED(HasOptedOutOfEmail),$Profile.Name &lt;&gt; &quot;Marketing&quot;, $Profile.Name &lt;&gt; &quot;System Administrator&quot;)</errorConditionFormula>
+    <errorDisplayField>HasOptedOutOfEmail</errorDisplayField>
+    <errorMessage>Once Email Opt Out has been ticked, it cannot be un-ticked.</errorMessage>
+</ValidationRule>

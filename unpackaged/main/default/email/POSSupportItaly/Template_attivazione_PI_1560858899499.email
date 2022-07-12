@@ -1,0 +1,33 @@
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">Gentile Cliente,</span></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">la contattiamo in merito all&rsquo;attivazione della soluzione </span></span><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#00b050">Integrated for POS </span></span><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">per l&rsquo;emissione di fatture Tax Free integrata con il sistema di cassa per il negozio seguente:</span></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><b><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">{{{POS_Solution__c.Account_Name__c}}}</span></span></b><br />
+<span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">{{{POS_Solution__c.Street__c}}}<br />
+{{{POS_Solution__c.Post_Code__c}}}&nbsp;{{{POS_Solution__c.City__c}}}</span></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">Di seguito, pu&ograve; trovare i parametri necessari per la configurazione, da includere nei tag evidenziati per ciascuna richiesta inviata al nostro server:</span></span></span></span></span>
+<table class="MsoTableGrid" style="width:432.35pt; margin-left:-1px; border-collapse:collapse; border:solid white 2.25pt" width="576">
+	<tbody>
+		<tr style="height:19.6pt">
+			<td style="border:solid white 2.25pt; background:#37b45a; width:120.5pt; padding:0cm 5.4pt 0cm 5.4pt; height:19.6pt" width="161"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><b><span lang="EN-US" style="font-size:11.0pt"><span style="font-family:&quot;Barlow Light&quot;"><span style="color:white">Merchant_Id</span></span></span></b></span></span></td>
+			<td style="border:solid white 2.25pt; background:#f2f2f2; width:11.0cm; border-left:none; padding:0cm 5.4pt 0cm 5.4pt; height:19.6pt" width="416">{{{POS_Solution__c.Reference_or_Account_ID__c}}}</td>
+		</tr>
+		<tr style="height:20.65pt">
+			<td style="border:solid white 2.25pt; background:#37b45a; width:120.5pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt; height:20.65pt" width="161"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><b><span lang="EN-US" style="font-size:11.0pt"><span style="font-family:&quot;Barlow Light&quot;"><span style="color:white">Merchant_VAT_Number</span></span></span></b></span></span></td>
+			<td style="border-bottom:solid white 2.25pt; background:#f2f2f2; width:11.0cm; border-top:none; border-left:none; border-right:solid white 2.25pt; padding:0cm 5.4pt 0cm 5.4pt; height:20.65pt" width="416">{{{POS_Solution__c.Parent_VAT__c}}}</td>
+		</tr>
+		<tr style="height:20.65pt">
+			<td style="border:solid white 2.25pt; background:#37b45a; width:120.5pt; border-top:none; padding:0cm 5.4pt 0cm 5.4pt; height:20.65pt" width="161"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><b><span lang="EN-US" style="font-size:11.0pt"><span style="font-family:&quot;Barlow Light&quot;"><span style="color:white">Merchant_Country_Code</span></span></span></b></span></span></td>
+			<td style="border-bottom:solid white 2.25pt; background:#f2f2f2; width:11.0cm; border-top:none; border-left:none; border-right:solid white 2.25pt; padding:0cm 5.4pt 0cm 5.4pt; height:20.65pt" width="416"><span style="font-size:12pt"><span style="font-family:Calibri,sans-serif"><span style="font-size:11.0pt"><span style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">380 (ITALY)</span></span></span></span></span></td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">L&rsquo;indirizzo dei servizi </span></span><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#00b050">Integrated for POS </span></span><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#0d0d0d">in ambiente di produzione &egrave;:</span></span></span></span></span><br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><span lang="IT" style="font-family:&quot;Barlow Light&quot;"><span style="color:#00b050"><a href="https://pi.fintrax.com/pi_public_v2/service.asmx" style="color:#0563c1; text-decoration:underline"><span style="color:#00b050">https://pi.fintrax.com/pi_public_v2/service.asmx</span></a></span></span></span></span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;">Per supporto in merito all&rsquo;attivazione, la invitiamo a contattare il supporto tecnico Planet scrivendo una email a <span class="MsoHyperlink" style="color:#0563c1"><span style="text-decoration:underline"><span style="color:#00b050"><a href="mailto:it.support@planetpayment.com" style="color:#0563c1; text-decoration:underline"><span style="color:#00b050">it.support@planetpayment.com</span></a></span></span></span>.</span></span></span></span><br />
+<br />
+<span style="font-size:12pt"><span style="line-height:110%"><span style="font-family:Calibri,sans-serif"><span lang="IT" style="font-family:&quot;Barlow Light&quot;">La ringraziamo per la collaborazione.</span></span></span></span><br />
+&nbsp;

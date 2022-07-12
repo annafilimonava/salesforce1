@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>ines.zillmann@planetpayment.com</email>
+    <name>Onboarding DE,CH,NL</name>
+    <queueMembers>
+        <users>
+            <user>david.strachota@planetpayment.com</user>
+            <user>ines.zillmann@planetpayment.com</user>
+            <user>lara.gottwald@planetpayment.com</user>
+            <user>philipp.wagner@planetpayment.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Order</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>WorkOrder</sobjectType>
+    </queueSobject>
+</Queue>

@@ -1,0 +1,24 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;">
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Thank you for your mail. </span></p>
+
+<p class="MsoNormal" style="tab-stops:64.45pt"><span lang="EN-IE" style="font-family:
+Barlow"><span style="mso-tab-count:1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span> </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">I have checked our database and can confirm that we have received your Tax Free form&nbsp;{{{Case.Tax_Free_Form__c}}} successfully. The Tax Free form has been processed, but unfortunately we do not have any credit card details to issue the refund to you. </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">In order for us to complete the refund for you, please send us your credit card details. For security reasons, we request that you send the 16-digits number divided across two emails. Please be advised that we do not need the expiry date or security code of the card to issue the refund. X$XWe also require scanned copy of your passport to complete the process.</span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">&nbsp; </span></p>
+
+<p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Once I receive this data I hope I can resolve this matter promptly for you. Looking forward to hearing back from you.</span></p>
+
+</body></html>

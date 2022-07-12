@@ -1,0 +1,14 @@
+<font face="arial" size=2> 
+Dear {!WorkOrder.OwnerFullName},<p>
+
+The ownership on the Work Order for a POS Solution on account {!WorkOrder.Account} with a due date of {!WorkOrder.Due_Date__c} has been changed to {!WorkOrder.OwnerFullName}.<p>
+
+<b>Solution:</b> {!NullValue(WorkOrder.Solution__c, "N/A")}<br>
+<b>Terminal:</b> {!NullValue(WorkOrder.Terminal__c, "N/A")}<br>
+<b>Till System:</b> {!NullValue(WorkOrder.Till_System__c, "N/A")}<br>
+<b>PSP:</b> {!NullValue(WorkOrder.PSP__c, "N/A")}<p>
+
+
+Click on the below link to go directly to the Word Order.<p>
+
+{!WorkOrder.Link}

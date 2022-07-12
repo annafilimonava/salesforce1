@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApprovalProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <allowRecall>false</allowRecall>
+    <allowedSubmitters>
+        <type>owner</type>
+    </allowedSubmitters>
+    <approvalPageFields>
+        <field>Name</field>
+        <field>Owner</field>
+        <field>StageName</field>
+        <field>Opportunity_Value__c</field>
+        <field>RecordType</field>
+        <field>Type</field>
+    </approvalPageFields>
+    <approvalStep>
+        <allowDelegate>false</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>svetlana.somova@planetpayment.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+            <criteriaItems>
+                <field>Opportunity.TF_NC_Per_Form__c</field>
+                <operation>lessThan</operation>
+                <value>EUR 8</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.TF_Annual_Net_Commission1__c</field>
+                <operation>greaterOrEqual</operation>
+                <value>&quot;EUR 20,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.TF_Rebate__c</field>
+                <operation>greaterOrEqual</operation>
+                <value>50</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Capex_Required__c</field>
+                <operation>greaterThan</operation>
+                <value>EUR 0</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>ApproveRecord</ifCriteriaNotMet>
+        <label>Country Manager Approval</label>
+        <name>Country_Manager_Approval</name>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <approvalActions>
+            <action>
+                <name>Approvers_User_ID_IE</name>
+                <type>FieldUpdate</type>
+            </action>
+        </approvalActions>
+        <assignedApprover>
+            <approver>
+                <name>julien.richard@planetpayment.com</name>
+                <type>user</type>
+            </approver>
+            <approver>
+                <name>peter.daly@planetpayment.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <booleanFilter>1 OR 2 OR 3 OR 4</booleanFilter>
+            <criteriaItems>
+                <field>Opportunity.TF_NC_Per_Form__c</field>
+                <operation>lessOrEqual</operation>
+                <value>EUR 4</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.TF_Annual_Net_Commission1__c</field>
+                <operation>greaterOrEqual</operation>
+                <value>&quot;EUR 50,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.TF_Rebate__c</field>
+                <operation>greaterOrEqual</operation>
+                <value>65</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Capex_Required__c</field>
+                <operation>greaterThan</operation>
+                <value>&quot;EUR 2,500&quot;</value>
+            </criteriaItems>
+        </entryCriteria>
+        <ifCriteriaNotMet>ApproveRecord</ifCriteriaNotMet>
+        <label>Central Team Approval</label>
+        <name>Central_Team_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <approvalStep>
+        <allowDelegate>true</allowDelegate>
+        <assignedApprover>
+            <approver>
+                <name>peter.daly@planetpayment.com</name>
+                <type>user</type>
+            </approver>
+            <whenMultipleApprovers>FirstResponse</whenMultipleApprovers>
+        </assignedApprover>
+        <entryCriteria>
+            <booleanFilter>1 AND 2 AND 3 AND 4</booleanFilter>
+            <criteriaItems>
+                <field>Opportunity.TF_NC_Per_Form__c</field>
+                <operation>lessOrEqual</operation>
+                <value>EUR 4</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.TF_Annual_Net_Commission1__c</field>
+                <operation>greaterOrEqual</operation>
+                <value>&quot;EUR 250,000&quot;</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.TF_Rebate__c</field>
+                <operation>greaterOrEqual</operation>
+                <value>75</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Opportunity.Approver_s_User_ID__c</field>
+                <operation>notEqual</operation>
+                <value>00524000001CdCjAAK</value>
+            </criteriaItems>
+        </entryCriteria>
+        <label>ELT Approval</label>
+        <name>ELT_Approval</name>
+        <rejectBehavior>
+            <type>RejectRequest</type>
+        </rejectBehavior>
+    </approvalStep>
+    <description>TF for Russian Federation</description>
+    <emailTemplate>unfiled$public/Approval_Request</emailTemplate>
+    <enableMobileDeviceAccess>true</enableMobileDeviceAccess>
+    <entryCriteria>
+        <criteriaItems>
+            <field>Opportunity.Product__c</field>
+            <operation>equals</operation>
+            <value>TF,TF &amp; DCC,TF &amp; DCC &amp; Payments</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Approval_Status__c</field>
+            <operation>equals</operation>
+            <value>Not Approved,Rejected</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Opportunity.Type</field>
+            <operation>notEqual</operation>
+            <value>Upgrade</value>
+        </criteriaItems>
+        <criteriaItems>
+            <field>Account.Owning_Country__c</field>
+            <operation>equals</operation>
+            <value>Russian Federation</value>
+        </criteriaItems>
+    </entryCriteria>
+    <finalApprovalActions>
+        <action>
+            <name>Approval_Approved</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalApprovalActions>
+    <finalApprovalRecordLock>false</finalApprovalRecordLock>
+    <finalRejectionActions>
+        <action>
+            <name>Approval_Rejected</name>
+            <type>Alert</type>
+        </action>
+        <action>
+            <name>Set_to_Rejected</name>
+            <type>FieldUpdate</type>
+        </action>
+    </finalRejectionActions>
+    <finalRejectionRecordLock>false</finalRejectionRecordLock>
+    <initialSubmissionActions>
+        <action>
+            <name>Update_to_Pending</name>
+            <type>FieldUpdate</type>
+        </action>
+    </initialSubmissionActions>
+    <label>TF Opportunity Approval RU</label>
+    <nextAutomatedApprover>
+        <useApproverFieldOfRecordOwner>false</useApproverFieldOfRecordOwner>
+        <userHierarchyField>Opportunity_Approver__c</userHierarchyField>
+    </nextAutomatedApprover>
+    <processOrder>9</processOrder>
+    <recallActions>
+        <action>
+            <name>Set_to_Not_Approved</name>
+            <type>FieldUpdate</type>
+        </action>
+    </recallActions>
+    <recordEditability>AdminOrCurrentApprover</recordEditability>
+    <showApprovalHistory>true</showApprovalHistory>
+</ApprovalProcess>

@@ -1,0 +1,15 @@
+<font face="arial" size=2>
+<b>***Notification of IT Solution Rebranded***</b><br>
+The IT Solution on {!Account.Name} has been rebranded.<br>
+<br>
+<b>Details:</b><br>
+<br>
+</b>Account ID:</b> {!Account.Text_Account_ID__c}<br>
+</b>Street:</b> {!Account.BillingStreet}<br>
+</b>City:</b> {!Account.BillingCity}<br>
+</b>Postcode:</b> {!Account.BillingPostalCode}<br>
+</b>Account Manager:</b> {!Account.OwnerFullName}<br>
+<br>
+Click below to navigate to the account record in Salesforce:<br>
+<br>
+{!Account.Link}

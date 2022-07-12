@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Product__c</fullName>
+    <externalId>false</externalId>
+    <label>Product</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>TF</fullName>
+                <default>false</default>
+                <label>TF</label>
+            </value>
+            <value>
+                <fullName>DCC</fullName>
+                <default>false</default>
+                <label>DCC</label>
+            </value>
+            <value>
+                <fullName>DCC &amp; Payments</fullName>
+                <default>false</default>
+                <label>DCC &amp; Payments (Acquiring)</label>
+            </value>
+            <value>
+                <fullName>TF &amp; DCC</fullName>
+                <default>false</default>
+                <label>TF &amp; DCC</label>
+            </value>
+            <value>
+                <fullName>TF &amp; DCC &amp; Payments</fullName>
+                <default>false</default>
+                <label>TF &amp; DCC &amp; Payments</label>
+            </value>
+            <value>
+                <fullName>Wirecard</fullName>
+                <default>false</default>
+                <label>Wirecard</label>
+            </value>
+            <value>
+                <fullName>Payments</fullName>
+                <default>false</default>
+                <label>Payments</label>
+            </value>
+            <value>
+                <fullName>Gateway</fullName>
+                <default>false</default>
+                <label>Gateway</label>
+            </value>
+            <value>
+                <fullName>Acquiring and Gateway</fullName>
+                <default>false</default>
+                <label>Acquiring and Gateway</label>
+            </value>
+            <value>
+                <fullName>Acquiring &amp; TF</fullName>
+                <default>false</default>
+                <label>Acquiring &amp; TF</label>
+            </value>
+            <value>
+                <fullName>Gateway &amp; TF</fullName>
+                <default>false</default>
+                <label>Gateway &amp; TF</label>
+            </value>
+            <value>
+                <fullName>Acquiring &amp; Gateway &amp; TF</fullName>
+                <default>false</default>
+                <label>Acquiring &amp; Gateway &amp; TF</label>
+            </value>
+            <value>
+                <fullName>Indirect</fullName>
+                <default>false</default>
+                <label>Indirect</label>
+            </value>
+            <value>
+                <fullName>Gateway &amp; DCC</fullName>
+                <default>false</default>
+                <label>Gateway &amp; DCC</label>
+            </value>
+            <value>
+                <fullName>Acquiring</fullName>
+                <default>false</default>
+                <label>Acquiring</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Country In-Fill</controllingFieldValue>
+            <controllingFieldValue>Cross-Sell</controllingFieldValue>
+            <controllingFieldValue>New Pan Euro</controllingFieldValue>
+            <valueName>TF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Marketing/B2C Consultancy</controllingFieldValue>
+            <controllingFieldValue>Country In-Fill</controllingFieldValue>
+            <controllingFieldValue>Cross-Sell</controllingFieldValue>
+            <controllingFieldValue>New Pan Euro</controllingFieldValue>
+            <valueName>DCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Country In-Fill</controllingFieldValue>
+            <controllingFieldValue>Cross-Sell</controllingFieldValue>
+            <controllingFieldValue>New Pan Euro</controllingFieldValue>
+            <valueName>DCC &amp; Payments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Marketing/B2C Consultancy</controllingFieldValue>
+            <controllingFieldValue>Country In-Fill</controllingFieldValue>
+            <controllingFieldValue>New Pan Euro</controllingFieldValue>
+            <valueName>TF &amp; DCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Country In-Fill</controllingFieldValue>
+            <controllingFieldValue>Cross-Sell</controllingFieldValue>
+            <controllingFieldValue>New Pan Euro</controllingFieldValue>
+            <valueName>TF &amp; DCC &amp; Payments</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <valueName>Wirecard</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Country In-Fill</controllingFieldValue>
+            <controllingFieldValue>Cross-Sell</controllingFieldValue>
+            <valueName>Gateway</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Country In-Fill</controllingFieldValue>
+            <controllingFieldValue>Cross-Sell</controllingFieldValue>
+            <valueName>Acquiring and Gateway</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Country In-Fill</controllingFieldValue>
+            <controllingFieldValue>Cross-Sell</controllingFieldValue>
+            <valueName>Acquiring &amp; TF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Country In-Fill</controllingFieldValue>
+            <controllingFieldValue>Cross-Sell</controllingFieldValue>
+            <valueName>Gateway &amp; TF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Country In-Fill</controllingFieldValue>
+            <controllingFieldValue>Cross-Sell</controllingFieldValue>
+            <valueName>Acquiring &amp; Gateway &amp; TF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Cross-Sell</controllingFieldValue>
+            <valueName>Indirect</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>New</controllingFieldValue>
+            <controllingFieldValue>Renewal</controllingFieldValue>
+            <controllingFieldValue>Upgrade</controllingFieldValue>
+            <controllingFieldValue>Country In-Fill</controllingFieldValue>
+            <controllingFieldValue>Cross-Sell</controllingFieldValue>
+            <valueName>Gateway &amp; DCC</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

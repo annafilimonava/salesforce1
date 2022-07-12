@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Report_Pages__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select which page the report should contain</inlineHelpText>
+    <label>Report Pages</label>
+    <required>true</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <controllingField>Report_Name__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ALL</fullName>
+                <default>true</default>
+                <label>ALL</label>
+            </value>
+            <value>
+                <fullName>Cover</fullName>
+                <default>false</default>
+                <label>Cover</label>
+            </value>
+            <value>
+                <fullName>About Us</fullName>
+                <default>false</default>
+                <label>About Us</label>
+            </value>
+            <value>
+                <fullName>Commentary_Group</fullName>
+                <default>false</default>
+                <label>Commentary_Group</label>
+            </value>
+            <value>
+                <fullName>Commentary_Country</fullName>
+                <default>false</default>
+                <label>Commentary_Country</label>
+            </value>
+            <value>
+                <fullName>Summary</fullName>
+                <default>false</default>
+                <label>Summary</label>
+            </value>
+            <value>
+                <fullName>Competitive Benchmark</fullName>
+                <default>false</default>
+                <label>Competitive Benchmark</label>
+            </value>
+            <value>
+                <fullName>Destination</fullName>
+                <default>false</default>
+                <label>Destination</label>
+            </value>
+            <value>
+                <fullName>Destination YTD</fullName>
+                <default>false</default>
+                <label>Destination YTD</label>
+            </value>
+            <value>
+                <fullName>Top 3 Destinaitons</fullName>
+                <default>false</default>
+                <label>Top 3 Destinaitons</label>
+            </value>
+            <value>
+                <fullName>Nationality Analysis</fullName>
+                <default>false</default>
+                <label>Nationality Analysis</label>
+            </value>
+            <value>
+                <fullName>Nationality Analysis YTD</fullName>
+                <default>false</default>
+                <label>Nationality Analysis YTD</label>
+            </value>
+            <value>
+                <fullName>Nationality Top 3</fullName>
+                <default>false</default>
+                <label>Nationality Top 3</label>
+            </value>
+            <value>
+                <fullName>Location Analysis</fullName>
+                <default>false</default>
+                <label>Location Analysis</label>
+            </value>
+            <value>
+                <fullName>Location Analysis YTD</fullName>
+                <default>false</default>
+                <label>Location Analysis YTD</label>
+            </value>
+            <value>
+                <fullName>Location Top 3</fullName>
+                <default>false</default>
+                <label>Location Top 3</label>
+            </value>
+            <value>
+                <fullName>Outlet Full Price</fullName>
+                <default>false</default>
+                <label>Outlet Full Price</label>
+            </value>
+            <value>
+                <fullName>Outlet Destinations Monthly</fullName>
+                <default>false</default>
+                <label>Outlet Destinations Monthly</label>
+            </value>
+            <value>
+                <fullName>Outlet Destinations</fullName>
+                <default>false</default>
+                <label>Outlet Destinations</label>
+            </value>
+            <value>
+                <fullName>Outlet Nationalities</fullName>
+                <default>false</default>
+                <label>Outlet Nationalities</label>
+            </value>
+            <value>
+                <fullName>Refund Methods</fullName>
+                <default>false</default>
+                <label>Refund Methods</label>
+            </value>
+            <value>
+                <fullName>Refund Details</fullName>
+                <default>false</default>
+                <label>Refund Details</label>
+            </value>
+            <value>
+                <fullName>Match Rate</fullName>
+                <default>false</default>
+                <label>Match Rate</label>
+            </value>
+            <value>
+                <fullName>Match Rate Summary</fullName>
+                <default>false</default>
+                <label>Match Rate Summary</label>
+            </value>
+            <value>
+                <fullName>Match Rate Destination</fullName>
+                <default>false</default>
+                <label>Match Rate Destination</label>
+            </value>
+            <value>
+                <fullName>Match Rate Nationality</fullName>
+                <default>false</default>
+                <label>Match Rate Nationality</label>
+            </value>
+            <value>
+                <fullName>Match Rate Store</fullName>
+                <default>false</default>
+                <label>Match Rate Store</label>
+            </value>
+            <value>
+                <fullName>Glossary</fullName>
+                <default>false</default>
+                <label>Glossary</label>
+            </value>
+            <value>
+                <fullName>Spender Cover</fullName>
+                <default>false</default>
+                <label>Spender Cover</label>
+            </value>
+            <value>
+                <fullName>Spender Segmentation</fullName>
+                <default>false</default>
+                <label>Spender Segmentation</label>
+            </value>
+            <value>
+                <fullName>Spender Segmentation 2</fullName>
+                <default>false</default>
+                <label>Spender Segmentation 2</label>
+            </value>
+            <value>
+                <fullName>Elite</fullName>
+                <default>false</default>
+                <label>Elite</label>
+            </value>
+            <value>
+                <fullName>Age Cover</fullName>
+                <default>false</default>
+                <label>Age Cover</label>
+            </value>
+            <value>
+                <fullName>Age Detail</fullName>
+                <default>false</default>
+                <label>Age Detail</label>
+            </value>
+            <value>
+                <fullName>Age Detail 2</fullName>
+                <default>false</default>
+                <label>Age Detail 2</label>
+            </value>
+            <value>
+                <fullName>Age Detail 3</fullName>
+                <default>false</default>
+                <label>Age Detail 3</label>
+            </value>
+            <value>
+                <fullName>Page 1</fullName>
+                <default>false</default>
+                <label>Page 1</label>
+            </value>
+            <value>
+                <fullName>Page 2</fullName>
+                <default>false</default>
+                <label>Page 2</label>
+            </value>
+            <value>
+                <fullName>Page 3</fullName>
+                <default>false</default>
+                <label>Page 3</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <controllingFieldValue>Spender Profile Report</controllingFieldValue>
+            <controllingFieldValue>Top Nationality Report</controllingFieldValue>
+            <controllingFieldValue>Top Store Report</controllingFieldValue>
+            <controllingFieldValue>Financial Compliance</controllingFieldValue>
+            <controllingFieldValue>DCC Executive Report</controllingFieldValue>
+            <controllingFieldValue>Store Summary</controllingFieldValue>
+            <valueName>ALL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <controllingFieldValue>Spender Profile Report</controllingFieldValue>
+            <controllingFieldValue>Top Nationality Report</controllingFieldValue>
+            <controllingFieldValue>Top Store Report</controllingFieldValue>
+            <controllingFieldValue>Store Summary</controllingFieldValue>
+            <valueName>Cover</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <controllingFieldValue>Spender Profile Report</controllingFieldValue>
+            <controllingFieldValue>Top Nationality Report</controllingFieldValue>
+            <controllingFieldValue>Top Store Report</controllingFieldValue>
+            <controllingFieldValue>Store Summary</controllingFieldValue>
+            <valueName>About Us</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <valueName>Commentary_Group</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <controllingFieldValue>Store Summary</controllingFieldValue>
+            <valueName>Commentary_Country</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <controllingFieldValue>Store Summary</controllingFieldValue>
+            <valueName>Summary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <valueName>Competitive Benchmark</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <valueName>Destination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <valueName>Destination YTD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <valueName>Top 3 Destinaitons</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <controllingFieldValue>Store Summary</controllingFieldValue>
+            <valueName>Nationality Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <controllingFieldValue>Store Summary</controllingFieldValue>
+            <valueName>Nationality Analysis YTD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <controllingFieldValue>Store Summary</controllingFieldValue>
+            <valueName>Nationality Top 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <valueName>Location Analysis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <valueName>Location Analysis YTD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <valueName>Location Top 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <valueName>Outlet Full Price</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <valueName>Outlet Destinations Monthly</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <valueName>Outlet Destinations</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <valueName>Outlet Nationalities</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <controllingFieldValue>Store Summary</controllingFieldValue>
+            <valueName>Refund Methods</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <controllingFieldValue>Store Summary</controllingFieldValue>
+            <valueName>Refund Details</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <controllingFieldValue>Store Summary</controllingFieldValue>
+            <valueName>Match Rate</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <controllingFieldValue>Store Summary</controllingFieldValue>
+            <valueName>Match Rate Summary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <valueName>Match Rate Destination</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <controllingFieldValue>Store Summary</controllingFieldValue>
+            <valueName>Match Rate Nationality</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <valueName>Match Rate Store</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Executive Report</controllingFieldValue>
+            <controllingFieldValue>Spender Profile Report</controllingFieldValue>
+            <controllingFieldValue>Top Nationality Report</controllingFieldValue>
+            <controllingFieldValue>Top Store Report</controllingFieldValue>
+            <controllingFieldValue>Store Summary</controllingFieldValue>
+            <valueName>Glossary</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spender Profile Report</controllingFieldValue>
+            <valueName>Spender Cover</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spender Profile Report</controllingFieldValue>
+            <valueName>Spender Segmentation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spender Profile Report</controllingFieldValue>
+            <valueName>Spender Segmentation 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spender Profile Report</controllingFieldValue>
+            <valueName>Elite</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spender Profile Report</controllingFieldValue>
+            <valueName>Age Cover</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spender Profile Report</controllingFieldValue>
+            <valueName>Age Detail</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spender Profile Report</controllingFieldValue>
+            <valueName>Age Detail 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spender Profile Report</controllingFieldValue>
+            <valueName>Age Detail 3</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Nationality Report</controllingFieldValue>
+            <controllingFieldValue>Top Store Report</controllingFieldValue>
+            <valueName>Page 1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Nationality Report</controllingFieldValue>
+            <controllingFieldValue>Top Store Report</controllingFieldValue>
+            <valueName>Page 2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Top Nationality Report</controllingFieldValue>
+            <valueName>Page 3</valueName>
+        </valueSettings>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

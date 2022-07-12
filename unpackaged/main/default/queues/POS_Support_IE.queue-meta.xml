@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>false</doesSendEmailToMembers>
+    <email>possupport.irl@fintrax.com</email>
+    <name>POS Support IE</name>
+    <queueMembers>
+        <publicGroups>
+            <publicGroup>Ireland_All_Users</publicGroup>
+        </publicGroups>
+        <users>
+            <user>eamonn.jones@planetpayment.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>POS_Solution__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>Unit__c</sobjectType>
+    </queueSobject>
+    <queueSobject>
+        <sobjectType>WorkOrder</sobjectType>
+    </queueSobject>
+</Queue>

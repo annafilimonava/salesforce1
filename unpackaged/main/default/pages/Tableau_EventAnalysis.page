@@ -1,0 +1,4 @@
+<apex:page standardController="BI_Analytics__c" showheader="false" sidebar="false">
+  <apex:iframe src="https://intelligence.planetpayment.com/t/Planet/views/SalesforceAccountPlanAnlaysis/StoreEvents?:showAppBanner=false&:embed=yes&:display_count=n&:showShareOptions=false&:toolbar=yes&:tabs=false&:highdpi=true&:showVizHome=n&:origin=viz_share_link" height="1200px" width="100%" scrolling="false">
+  </apex:iframe>
+</apex:page>

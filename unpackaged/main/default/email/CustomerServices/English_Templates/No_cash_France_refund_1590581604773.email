@@ -1,0 +1,24 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">Dear {{{Case.Tourist__c}}}, </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">&nbsp; </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow">Thank you for your email</span><span lang="EN-IE" style="font-size:11.0pt;
+font-family:Barlow;color:windowtext">.&nbsp; I can confirm that we have received your Tax Free form&nbsp;{{{Case.Tax_Free_Form__c}}} and it has been processed successfully. </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">&nbsp; </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">However, our records show that you have chosen cash as your preferred refund method for this Tax Free Form. Can you please confirm if the Tax Free form has been cashed upon your departure from EU? Please provide us the scanned copy of your Tax Free form as well to confirm the cash is not paid.&nbsp;</span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">&nbsp; </span></p>
+
+<p class="MsoPlainText"><span lang="EN-IE" style="font-size:11.0pt;font-family:
+Barlow;color:windowtext">I look forward to your reply and assisting you further.</span></p></body></html>

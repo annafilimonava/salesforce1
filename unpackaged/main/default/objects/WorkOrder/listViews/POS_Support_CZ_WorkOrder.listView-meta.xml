@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_Support_CZ_WorkOrder</fullName>
+    <columns>Name</columns>
+    <columns>Subject</columns>
+    <columns>Account</columns>
+    <columns>Priority</columns>
+    <columns>Status</columns>
+    <filterScope>Queue</filterScope>
+    <label>POS Support CZ</label>
+    <queue>POS_Support_CZ</queue>
+    <sharedTo>
+        <roleAndSubordinates>Czech_Republic_Management</roleAndSubordinates>
+        <roleAndSubordinates>POS_Support_CZ</roleAndSubordinates>
+    </sharedTo>
+</ListView>

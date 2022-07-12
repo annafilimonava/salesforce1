@@ -1,0 +1,50 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Thank you for your email. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">A Tax Free form must be stamped in your exit point in order to be considered as valid and just only the tax free form holder can be entitled to obtain the customs stamp. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">In case you were not able to obtain the Customs approval the procedure to follow is below: 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">-<span style="mso-tab-count:
+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Go to Italian embassy/consulate in order to get the customs stamp 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">-<span style="mso-tab-count:
+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span>Send your stamped Tax Free form to the Customs Office (must be the same of your exit point) including a copy of your passport, copy of your EU visa, copy of your boarding card and a declaration which states the reasons of your missing stamp. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">On receiving your documents, the Customs Office will decide if you are entitled to receive the Customs approval. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span style="font-family:Barlow">Please feel free to contact me again in case of further assistance.</span></p>
+ </body>
+</html>

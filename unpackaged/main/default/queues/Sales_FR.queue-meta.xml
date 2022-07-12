@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <name>Sales FR</name>
+    <queueMembers>
+        <users>
+            <user>ludivine.chautard@planetpayment.com</user>
+            <user>nathalie.delacretaz@planetpayment.com</user>
+            <user>patrice.fortin@planetpayment.com</user>
+            <user>sami.mouna@planetpayment.com</user>
+            <user>sisi.miao@planetpayment.com</user>
+            <user>sosse.philipossian@planetpayment.com</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Lead</sobjectType>
+    </queueSobject>
+</Queue>

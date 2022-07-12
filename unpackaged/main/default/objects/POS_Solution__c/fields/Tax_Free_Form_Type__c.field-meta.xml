@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tax_Free_Form_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Tax Free Form Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>A4 FULL BLANK</fullName>
+                <default>false</default>
+                <label>A4 FULL BLANK</label>
+            </value>
+            <value>
+                <fullName>PA IMPACT Forms (3 copies)</fullName>
+                <default>false</default>
+                <label>PA IMPACT Forms (3 copies)</label>
+            </value>
+            <value>
+                <fullName>PA IMPACT Forms (4 copies)</fullName>
+                <default>false</default>
+                <label>PA IMPACT Forms (4 copies)</label>
+            </value>
+            <value>
+                <fullName>PREPRINTED</fullName>
+                <default>false</default>
+                <label>PREPRINTED</label>
+            </value>
+            <value>
+                <fullName>SW3B Forms New</fullName>
+                <default>false</default>
+                <label>SW3B Forms New</label>
+            </value>
+            <value>
+                <fullName>SW3B Forms Old</fullName>
+                <default>false</default>
+                <label>SW3B Forms Old</label>
+            </value>
+            <value>
+                <fullName>SW3P Forms</fullName>
+                <default>false</default>
+                <label>SW3P Forms</label>
+            </value>
+            <value>
+                <fullName>T40 Rolls</fullName>
+                <default>false</default>
+                <label>T40 Rolls</label>
+            </value>
+            <value>
+                <fullName>T80 Rolls</fullName>
+                <default>false</default>
+                <label>T80 Rolls</label>
+            </value>
+            <value>
+                <fullName>T80 Rolls (with logo)</fullName>
+                <default>false</default>
+                <label>T80 Rolls (with logo)</label>
+            </value>
+            <value>
+                <fullName>Valentino SW3P Forms</fullName>
+                <default>false</default>
+                <label>Valentino SW3P Forms</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

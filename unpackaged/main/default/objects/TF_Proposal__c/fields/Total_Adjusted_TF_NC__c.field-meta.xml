@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Adjusted_TF_NC__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Contract_Start_Date_Month__c = 13, (TF_Annual_Net_Commission__c * 0.05488870) *  Opportunity__r.Probability ,
+IF(Contract_Start_Date_Month__c = 12, (TF_Annual_Net_Commission__c * 0.1130595) * Opportunity__r.Probability,
+IF(Contract_Start_Date_Month__c = 11, (TF_Annual_Net_Commission__c * 0.1776266) * Opportunity__r.Probability,
+IF(Contract_Start_Date_Month__c = 10, (TF_Annual_Net_Commission__c * 0.251593) * Opportunity__r.Probability,
+IF(Contract_Start_Date_Month__c = 9, (TF_Annual_Net_Commission__c * 0.3332857) * Opportunity__r.Probability,
+IF(Contract_Start_Date_Month__c = 8, (TF_Annual_Net_Commission__c * 0.4330936) * Opportunity__r.Probability,
+IF(Contract_Start_Date_Month__c = 7, (TF_Annual_Net_Commission__c * 0.5533943) * Opportunity__r.Probability,
+IF(Contract_Start_Date_Month__c = 6, (TF_Annual_Net_Commission__c * 0.6631221) * Opportunity__r.Probability,
+IF(Contract_Start_Date_Month__c = 5, (TF_Annual_Net_Commission__c * 0.7758851) * Opportunity__r.Probability,
+IF(Contract_Start_Date_Month__c = 4, (TF_Annual_Net_Commission__c * 0.8579584) * Opportunity__r.Probability,
+IF(Contract_Start_Date_Month__c = 3, (TF_Annual_Net_Commission__c * 0.9331973) * Opportunity__r.Probability,
+IF(Contract_Start_Date_Month__c = 2, (TF_Annual_Net_Commission__c * Opportunity__r.Probability), 0))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Adjusted TF NC</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

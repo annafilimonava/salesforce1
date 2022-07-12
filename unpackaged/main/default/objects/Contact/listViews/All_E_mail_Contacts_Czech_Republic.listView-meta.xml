@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_E_mail_Contacts_Czech_Republic</fullName>
+    <booleanFilter>1 AND 2 AND 9 AND (3 OR 4 OR 5 OR 6 OR 7 OR 8)</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>Account_Owner__c</columns>
+    <columns>Inactive__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>CONTACT.EMAIL</field>
+        <operation>contains</operation>
+        <value>@</value>
+    </filters>
+    <filters>
+        <field>Position__c</field>
+        <operation>equals</operation>
+        <value>Accountant,Administration Manager,Area Manager,Assistant Manager,Brand Manager,CEO,CFO (Europe),CFO (Group),Chairman,Chief Marketing Officer,CIO,Commercial Director,Commercial Manager,COO,Corporate Office,Country Director,CRM Manager</value>
+    </filters>
+    <filters>
+        <field>Position__c</field>
+        <operation>equals</operation>
+        <value>Finance,Finance &amp; Internal Control Manager,Finance Controller,Finance Director,Front Office Manager,General Manager,Head of Retail,Head of Risk and Compliance,Head of Sales,Head of Training and Development,HR Director</value>
+    </filters>
+    <filters>
+        <field>Position__c</field>
+        <operation>equals</operation>
+        <value>IT,IT Director,IT Manager,Managing Director,Marketing,Marketing Director,Marketing Manager,Operations Director,Other,Owner</value>
+    </filters>
+    <filters>
+        <field>Position__c</field>
+        <operation>equals</operation>
+        <value>President,Procurement,Procurement Director,Product Director,Product Manager,Product Vice President,Purchase Director,Sales Manager,Store Manager,Store Manager (Country),Store Operations</value>
+    </filters>
+    <filters>
+        <field>Position__c</field>
+        <operation>equals</operation>
+        <value>Regional Manager,Relationship Manager,Retail Director,Retail Manager,Retail Manager (Europe),Retail Manager (International),Retail Manager (Northern Europe),Retail Operations,Retail Operations Manager</value>
+    </filters>
+    <filters>
+        <field>Position__c</field>
+        <operation>equals</operation>
+        <value>Tax Manager (Country),Tax Manager (Regional),Training Director (Group),Training Manager,Treasurer,Treasurer (Group),Treasury Manager,Unknown,Vice-President,Vice-President (Europe)</value>
+    </filters>
+    <filters>
+        <field>Account_Owner__c</field>
+        <operation>equals</operation>
+        <value>Josef Vondrak,Veronika Bílková,Jana Schneider,Václav Melša,Zbynek Ambroz</value>
+    </filters>
+    <label>All E-mail Contacts Czech Republic</label>
+</ListView>

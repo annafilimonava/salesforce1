@@ -1,0 +1,1006 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Top_Street__c</fullName>
+    <externalId>false</externalId>
+    <label>Top Street</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Owning_Country__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Boulevard Haussmann</fullName>
+                <default>false</default>
+                <label>Boulevard Haussmann</label>
+            </value>
+            <value>
+                <fullName>Avenue Montaigne</fullName>
+                <default>false</default>
+                <label>Avenue Montaigne</label>
+            </value>
+            <value>
+                <fullName>Rue de Sevres</fullName>
+                <default>false</default>
+                <label>Rue de Sevres</label>
+            </value>
+            <value>
+                <fullName>Rue Cambon</fullName>
+                <default>false</default>
+                <label>Rue Cambon</label>
+            </value>
+            <value>
+                <fullName>Rue Saint Honore</fullName>
+                <default>false</default>
+                <label>Rue Saint Honore</label>
+            </value>
+            <value>
+                <fullName>Rue Royale</fullName>
+                <default>false</default>
+                <label>Rue Royale</label>
+            </value>
+            <value>
+                <fullName>Cours de la Garonne</fullName>
+                <default>false</default>
+                <label>Cours de la Garonne</label>
+            </value>
+            <value>
+                <fullName>Avenue des Champs Elysees</fullName>
+                <default>false</default>
+                <label>Avenue des Champs Elysees</label>
+            </value>
+            <value>
+                <fullName>Rue du Faubourg Saint-Honore</fullName>
+                <default>false</default>
+                <label>Rue du Faubourg Saint-Honore</label>
+            </value>
+            <value>
+                <fullName>Rue de Rivoli</fullName>
+                <default>false</default>
+                <label>Rue de Rivoli</label>
+            </value>
+            <value>
+                <fullName>Maximilianstrasse</fullName>
+                <default>false</default>
+                <label>Maximilianstrasse</label>
+            </value>
+            <value>
+                <fullName>Goethestrasse</fullName>
+                <default>false</default>
+                <label>Goethestrasse</label>
+            </value>
+            <value>
+                <fullName>Unterschweinstiege</fullName>
+                <default>false</default>
+                <label>Unterschweinstiege</label>
+            </value>
+            <value>
+                <fullName>Reutlinger Strasse</fullName>
+                <default>false</default>
+                <label>Reutlinger Strasse</label>
+            </value>
+            <value>
+                <fullName>Tauentzienstrasse</fullName>
+                <default>false</default>
+                <label>Tauentzienstrasse</label>
+            </value>
+            <value>
+                <fullName>Konigsallee</fullName>
+                <default>false</default>
+                <label>Konigsallee</label>
+            </value>
+            <value>
+                <fullName>Schwangauer Strasse</fullName>
+                <default>false</default>
+                <label>Schwangauer Strasse</label>
+            </value>
+            <value>
+                <fullName>Kurfurstendamm</fullName>
+                <default>false</default>
+                <label>Kurfurstendamm</label>
+            </value>
+            <value>
+                <fullName>Otto-Hahn-Strasse</fullName>
+                <default>false</default>
+                <label>Otto-Hahn-Strasse</label>
+            </value>
+            <value>
+                <fullName>Gernsbacher Strasse</fullName>
+                <default>false</default>
+                <label>Gernsbacher Strasse</label>
+            </value>
+            <value>
+                <fullName>San Marco</fullName>
+                <default>false</default>
+                <label>San Marco</label>
+            </value>
+            <value>
+                <fullName>Via Monte Napoleone</fullName>
+                <default>false</default>
+                <label>Via Monte Napoleone</label>
+            </value>
+            <value>
+                <fullName>Via Europa</fullName>
+                <default>false</default>
+                <label>Via Europa</label>
+            </value>
+            <value>
+                <fullName>Via Sant&#39;Andrea</fullName>
+                <default>false</default>
+                <label>Via Sant&#39;Andrea</label>
+            </value>
+            <value>
+                <fullName>Via dei Condotti</fullName>
+                <default>false</default>
+                <label>Via dei Condotti</label>
+            </value>
+            <value>
+                <fullName>Piazza di Spagna</fullName>
+                <default>false</default>
+                <label>Piazza di Spagna</label>
+            </value>
+            <value>
+                <fullName>Via della Moda</fullName>
+                <default>false</default>
+                <label>Via della Moda</label>
+            </value>
+            <value>
+                <fullName>Piazza della Signoria</fullName>
+                <default>false</default>
+                <label>Piazza della Signoria</label>
+            </value>
+            <value>
+                <fullName>Via de&#39; Tornabuoni</fullName>
+                <default>false</default>
+                <label>Via de&#39; Tornabuoni</label>
+            </value>
+            <value>
+                <fullName>Via Ugo Foscolo</fullName>
+                <default>false</default>
+                <label>Via Ugo Foscolo</label>
+            </value>
+            <value>
+                <fullName>Passeig de Gracia</fullName>
+                <default>false</default>
+                <label>Passeig de Gracia</label>
+            </value>
+            <value>
+                <fullName>Santa Agnes de Malanyanes</fullName>
+                <default>false</default>
+                <label>Santa Agnes de Malanyanes</label>
+            </value>
+            <value>
+                <fullName>Plaza de Catalunya</fullName>
+                <default>false</default>
+                <label>Plaza de Catalunya</label>
+            </value>
+            <value>
+                <fullName>Calle de Serrano</fullName>
+                <default>false</default>
+                <label>Calle de Serrano</label>
+            </value>
+            <value>
+                <fullName>Calle de Jose Ortega y Gasset</fullName>
+                <default>false</default>
+                <label>Calle de Jose Ortega y Gasset</label>
+            </value>
+            <value>
+                <fullName>Avinguda Diagonal</fullName>
+                <default>false</default>
+                <label>Avinguda Diagonal</label>
+            </value>
+            <value>
+                <fullName>Calle Juan Ramon Jimenez</fullName>
+                <default>false</default>
+                <label>Calle Juan Ramon Jimenez</label>
+            </value>
+            <value>
+                <fullName>Carrer d&#39;Aristides Maillol</fullName>
+                <default>false</default>
+                <label>Carrer d&#39;Aristides Maillol</label>
+            </value>
+            <value>
+                <fullName>Avinguda del Portal de l&#39;Angel</fullName>
+                <default>false</default>
+                <label>Avinguda del Portal de l&#39;Angel</label>
+            </value>
+            <value>
+                <fullName>Calle Preciados</fullName>
+                <default>false</default>
+                <label>Calle Preciados</label>
+            </value>
+            <value>
+                <fullName>Pingle Drive</fullName>
+                <default>false</default>
+                <label>Pingle Drive</label>
+            </value>
+            <value>
+                <fullName>Oxford Street</fullName>
+                <default>false</default>
+                <label>Oxford Street</label>
+            </value>
+            <value>
+                <fullName>Regent Street</fullName>
+                <default>false</default>
+                <label>Regent Street</label>
+            </value>
+            <value>
+                <fullName>New Bond Street</fullName>
+                <default>false</default>
+                <label>New Bond Street</label>
+            </value>
+            <value>
+                <fullName>Sloane Street</fullName>
+                <default>false</default>
+                <label>Sloane Street</label>
+            </value>
+            <value>
+                <fullName>Old Bond Street</fullName>
+                <default>false</default>
+                <label>Old Bond Street</label>
+            </value>
+            <value>
+                <fullName>Brompton Road</fullName>
+                <default>false</default>
+                <label>Brompton Road</label>
+            </value>
+            <value>
+                <fullName>Ariel Way</fullName>
+                <default>false</default>
+                <label>Ariel Way</label>
+            </value>
+            <value>
+                <fullName>Mount Street</fullName>
+                <default>false</default>
+                <label>Mount Street</label>
+            </value>
+            <value>
+                <fullName>Knightsbridge</fullName>
+                <default>false</default>
+                <label>Knightsbridge</label>
+            </value>
+            <value>
+                <fullName>Grafton Street</fullName>
+                <default>false</default>
+                <label>Grafton Street</label>
+            </value>
+            <value>
+                <fullName>Dublin City North</fullName>
+                <default>false</default>
+                <label>Dublin City North</label>
+            </value>
+            <value>
+                <fullName>Dublin City South</fullName>
+                <default>false</default>
+                <label>Dublin City South</label>
+            </value>
+            <value>
+                <fullName>Kildare Village</fullName>
+                <default>false</default>
+                <label>Kildare Village</label>
+            </value>
+            <value>
+                <fullName>Galway</fullName>
+                <default>false</default>
+                <label>Galway</label>
+            </value>
+            <value>
+                <fullName>Cork City</fullName>
+                <default>false</default>
+                <label>Cork City</label>
+            </value>
+            <value>
+                <fullName>Killarney</fullName>
+                <default>false</default>
+                <label>Killarney</label>
+            </value>
+            <value>
+                <fullName>High Street, Kilkenny</fullName>
+                <default>false</default>
+                <label>High Street, Kilkenny</label>
+            </value>
+            <value>
+                <fullName>Dundrum Town Centre</fullName>
+                <default>false</default>
+                <label>Dundrum Town Centre</label>
+            </value>
+            <value>
+                <fullName>Pieter Cornelisz Hooftstraat</fullName>
+                <default>false</default>
+                <label>Pieter Cornelisz Hooftstraat</label>
+            </value>
+            <value>
+                <fullName>Leidsestraat</fullName>
+                <default>false</default>
+                <label>Leidsestraat</label>
+            </value>
+            <value>
+                <fullName>Kalverstraat</fullName>
+                <default>false</default>
+                <label>Kalverstraat</label>
+            </value>
+            <value>
+                <fullName>Cornelis Schuytsraat</fullName>
+                <default>false</default>
+                <label>Cornelis Schuytsraat</label>
+            </value>
+            <value>
+                <fullName>Nieuwendijk</fullName>
+                <default>false</default>
+                <label>Nieuwendijk</label>
+            </value>
+            <value>
+                <fullName>De Negen Straatjes</fullName>
+                <default>false</default>
+                <label>De Negen Straatjes</label>
+            </value>
+            <value>
+                <fullName>Utrechtsestraat</fullName>
+                <default>false</default>
+                <label>Utrechtsestraat</label>
+            </value>
+            <value>
+                <fullName>McArthur Glen Roermond</fullName>
+                <default>false</default>
+                <label>McArthur Glen Roermond</label>
+            </value>
+            <value>
+                <fullName>Magna Plaza</fullName>
+                <default>false</default>
+                <label>Magna Plaza</label>
+            </value>
+            <value>
+                <fullName>Boulevard de Waterloo</fullName>
+                <default>false</default>
+                <label>Boulevard de Waterloo</label>
+            </value>
+            <value>
+                <fullName>Avenue Louise</fullName>
+                <default>false</default>
+                <label>Avenue Louise</label>
+            </value>
+            <value>
+                <fullName>Avenue de la Toison d’Or</fullName>
+                <default>false</default>
+                <label>Avenue de la Toison d’Or</label>
+            </value>
+            <value>
+                <fullName>Grand Place</fullName>
+                <default>false</default>
+                <label>Grand Place</label>
+            </value>
+            <value>
+                <fullName>Galerie de la Reine</fullName>
+                <default>false</default>
+                <label>Galerie de la Reine</label>
+            </value>
+            <value>
+                <fullName>Galerie du Roi</fullName>
+                <default>false</default>
+                <label>Galerie du Roi</label>
+            </value>
+            <value>
+                <fullName>Rue de l’Etuve</fullName>
+                <default>false</default>
+                <label>Rue de l’Etuve</label>
+            </value>
+            <value>
+                <fullName>Rue de Namur</fullName>
+                <default>false</default>
+                <label>Rue de Namur</label>
+            </value>
+            <value>
+                <fullName>Place du Grand Sablon</fullName>
+                <default>false</default>
+                <label>Place du Grand Sablon</label>
+            </value>
+            <value>
+                <fullName>Korte Gasthuisstraat</fullName>
+                <default>false</default>
+                <label>Korte Gasthuisstraat</label>
+            </value>
+            <value>
+                <fullName>Huidvettersstraat</fullName>
+                <default>false</default>
+                <label>Huidvettersstraat</label>
+            </value>
+            <value>
+                <fullName>CENTRO COMERCIAL COLOMBO</fullName>
+                <default>false</default>
+                <label>CENTRO COMERCIAL COLOMBO</label>
+            </value>
+            <value>
+                <fullName>CENTRO COMERCIAL VASCO DA GAMA</fullName>
+                <default>false</default>
+                <label>CENTRO COMERCIAL VASCO DA GAMA</label>
+            </value>
+            <value>
+                <fullName>AVENIDA DA LIBERDADE LISBOA</fullName>
+                <default>false</default>
+                <label>AVENIDA DA LIBERDADE LISBOA</label>
+            </value>
+            <value>
+                <fullName>FREEPORT OUTLET</fullName>
+                <default>false</default>
+                <label>FREEPORT OUTLET</label>
+            </value>
+            <value>
+                <fullName>AMOREIRAS</fullName>
+                <default>false</default>
+                <label>AMOREIRAS</label>
+            </value>
+            <value>
+                <fullName>CENTRO COMERCIAL NORTE SHOPPING</fullName>
+                <default>false</default>
+                <label>CENTRO COMERCIAL NORTE SHOPPING</label>
+            </value>
+            <value>
+                <fullName>FASHION OUTLET</fullName>
+                <default>false</default>
+                <label>FASHION OUTLET</label>
+            </value>
+            <value>
+                <fullName>VIA SANTA CATARINA</fullName>
+                <default>false</default>
+                <label>VIA SANTA CATARINA</label>
+            </value>
+            <value>
+                <fullName>BOAVISTA PORTO</fullName>
+                <default>false</default>
+                <label>BOAVISTA PORTO</label>
+            </value>
+            <value>
+                <fullName>CLERIGOS</fullName>
+                <default>false</default>
+                <label>CLERIGOS</label>
+            </value>
+            <value>
+                <fullName>BAIXA DO PORTO</fullName>
+                <default>false</default>
+                <label>BAIXA DO PORTO</label>
+            </value>
+            <value>
+                <fullName>BAIXA LISBOA</fullName>
+                <default>false</default>
+                <label>BAIXA LISBOA</label>
+            </value>
+            <value>
+                <fullName>CHIADO</fullName>
+                <default>false</default>
+                <label>CHIADO</label>
+            </value>
+            <value>
+                <fullName>CENTRO COMERCIAL CASCAIS SHOPPING</fullName>
+                <default>false</default>
+                <label>CENTRO COMERCIAL CASCAIS SHOPPING</label>
+            </value>
+            <value>
+                <fullName>Red Square</fullName>
+                <default>false</default>
+                <label>Red Square</label>
+            </value>
+            <value>
+                <fullName>Tverskaya Street</fullName>
+                <default>false</default>
+                <label>Tverskaya Street</label>
+            </value>
+            <value>
+                <fullName>Okhotny Ryad Street</fullName>
+                <default>false</default>
+                <label>Okhotny Ryad Street</label>
+            </value>
+            <value>
+                <fullName>Petrovka Street</fullName>
+                <default>false</default>
+                <label>Petrovka Street</label>
+            </value>
+            <value>
+                <fullName>Stoleshnikov Lane</fullName>
+                <default>false</default>
+                <label>Stoleshnikov Lane</label>
+            </value>
+            <value>
+                <fullName>Nikolskaya Street</fullName>
+                <default>false</default>
+                <label>Nikolskaya Street</label>
+            </value>
+            <value>
+                <fullName>Tretyakovsky Passage</fullName>
+                <default>false</default>
+                <label>Tretyakovsky Passage</label>
+            </value>
+            <value>
+                <fullName>Kuznetsky Bridge Street</fullName>
+                <default>false</default>
+                <label>Kuznetsky Bridge Street</label>
+            </value>
+            <value>
+                <fullName>Nevsky Avenue</fullName>
+                <default>false</default>
+                <label>Nevsky Avenue</label>
+            </value>
+            <value>
+                <fullName>Bolshaya Konyushennaya Street</fullName>
+                <default>false</default>
+                <label>Bolshaya Konyushennaya Street</label>
+            </value>
+            <value>
+                <fullName>Kutuzovsky Avenue</fullName>
+                <default>false</default>
+                <label>Kutuzovsky Avenue</label>
+            </value>
+            <value>
+                <fullName>Novy Arbat Street</fullName>
+                <default>false</default>
+                <label>Novy Arbat Street</label>
+            </value>
+            <value>
+                <fullName>ALEKSANTERINKATU</fullName>
+                <default>false</default>
+                <label>ALEKSANTERINKATU</label>
+            </value>
+            <value>
+                <fullName>POHJOISESPLANADI</fullName>
+                <default>false</default>
+                <label>POHJOISESPLANADI</label>
+            </value>
+            <value>
+                <fullName>Birger Jarlsgatan &amp; Biblioteksgatan</fullName>
+                <default>false</default>
+                <label>Birger Jarlsgatan &amp; Biblioteksgatan</label>
+            </value>
+            <value>
+                <fullName>Drottninggatan &amp; Centrum</fullName>
+                <default>false</default>
+                <label>Drottninggatan &amp; Centrum</label>
+            </value>
+            <value>
+                <fullName>Gamla Stan</fullName>
+                <default>false</default>
+                <label>Gamla Stan</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <valueName>Grafton Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <valueName>Dublin City North</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <valueName>Dublin City South</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <valueName>Kildare Village</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <valueName>Galway</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <valueName>Cork City</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <valueName>Killarney</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <valueName>High Street, Kilkenny</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <valueName>Dundrum Town Centre</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <valueName>Birger Jarlsgatan &amp; Biblioteksgatan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <valueName>Drottninggatan &amp; Centrum</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <valueName>Gamla Stan</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <valueName>ALEKSANTERINKATU</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Finland</controllingFieldValue>
+            <valueName>POHJOISESPLANADI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <valueName>Boulevard de Waterloo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <valueName>Avenue Louise</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <valueName>Avenue de la Toison d’Or</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <valueName>Grand Place</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <valueName>Galerie de la Reine</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <valueName>Galerie du Roi</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <valueName>Rue de l’Etuve</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <valueName>Rue de Namur</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <valueName>Place du Grand Sablon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <valueName>Korte Gasthuisstraat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Belgium</controllingFieldValue>
+            <valueName>Huidvettersstraat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>Pieter Cornelisz Hooftstraat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>Leidsestraat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>Kalverstraat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>Cornelis Schuytsraat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>Nieuwendijk</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>De Negen Straatjes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>Utrechtsestraat</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>McArthur Glen Roermond</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Netherlands</controllingFieldValue>
+            <valueName>Magna Plaza</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Boulevard Haussmann</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Avenue Montaigne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Rue de Sevres</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Rue Cambon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Rue Saint Honore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Rue Royale</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Cours de la Garonne</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Avenue des Champs Elysees</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Rue du Faubourg Saint-Honore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <valueName>Rue de Rivoli</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Pingle Drive</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Oxford Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Regent Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>New Bond Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Sloane Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Old Bond Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Brompton Road</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Ariel Way</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Mount Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Knightsbridge</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>San Marco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Via Monte Napoleone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Via Europa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Via Sant&#39;Andrea</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Via dei Condotti</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Piazza di Spagna</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Via della Moda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Piazza della Signoria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Via de&#39; Tornabuoni</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>Via Ugo Foscolo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Passeig de Gracia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Santa Agnes de Malanyanes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Plaza de Catalunya</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Calle de Serrano</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Calle de Jose Ortega y Gasset</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Avinguda Diagonal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Calle Juan Ramon Jimenez</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Carrer d&#39;Aristides Maillol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Avinguda del Portal de l&#39;Angel</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <valueName>Calle Preciados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Maximilianstrasse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Goethestrasse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Unterschweinstiege</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Reutlinger Strasse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Tauentzienstrasse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Konigsallee</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Schwangauer Strasse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Kurfurstendamm</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Otto-Hahn-Strasse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Gernsbacher Strasse</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>CENTRO COMERCIAL COLOMBO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>CENTRO COMERCIAL VASCO DA GAMA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>AVENIDA DA LIBERDADE LISBOA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>FREEPORT OUTLET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>AMOREIRAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>CENTRO COMERCIAL NORTE SHOPPING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>FASHION OUTLET</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>VIA SANTA CATARINA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>BOAVISTA PORTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>CLERIGOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>BAIXA DO PORTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>BAIXA LISBOA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>CHIADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>CENTRO COMERCIAL CASCAIS SHOPPING</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Red Square</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Tverskaya Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Okhotny Ryad Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Petrovka Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Stoleshnikov Lane</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Nikolskaya Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Tretyakovsky Passage</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Kuznetsky Bridge Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Nevsky Avenue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Bolshaya Konyushennaya Street</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Kutuzovsky Avenue</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Russian Federation</controllingFieldValue>
+            <valueName>Novy Arbat Street</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

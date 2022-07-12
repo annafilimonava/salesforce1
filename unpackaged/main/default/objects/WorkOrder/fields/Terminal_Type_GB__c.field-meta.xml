@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Terminal_Type_GB__c</fullName>
+    <externalId>false</externalId>
+    <label>Terminal Type GB</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>A920</fullName>
+                <default>false</default>
+                <label>A920</label>
+            </value>
+            <value>
+                <fullName>Vx510</fullName>
+                <default>false</default>
+                <label>Vx510</label>
+            </value>
+            <value>
+                <fullName>Vx520</fullName>
+                <default>false</default>
+                <label>Vx520</label>
+            </value>
+            <value>
+                <fullName>Vx570</fullName>
+                <default>false</default>
+                <label>Vx570</label>
+            </value>
+            <value>
+                <fullName>Vx610</fullName>
+                <default>false</default>
+                <label>Vx610</label>
+            </value>
+            <value>
+                <fullName>Vx670</fullName>
+                <default>false</default>
+                <label>Vx670</label>
+            </value>
+            <value>
+                <fullName>Vx680 3G</fullName>
+                <default>false</default>
+                <label>Vx680 3G</label>
+            </value>
+            <value>
+                <fullName>Vx680 BT/Wi-fi</fullName>
+                <default>false</default>
+                <label>Vx680 BT/Wi-fi</label>
+            </value>
+            <value>
+                <fullName>Vx690</fullName>
+                <default>false</default>
+                <label>Vx690</label>
+            </value>
+            <value>
+                <fullName>Vx810</fullName>
+                <default>false</default>
+                <label>Vx810</label>
+            </value>
+            <value>
+                <fullName>Vx520/820</fullName>
+                <default>false</default>
+                <label>Vx520/820</label>
+            </value>
+            <value>
+                <fullName>Not Required</fullName>
+                <default>false</default>
+                <label>Not Required</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

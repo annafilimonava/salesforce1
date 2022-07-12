@@ -1,0 +1,3 @@
+<font face="arial"><font size=2><p>An Opportunity of value {!Opportunity.Total_Opportunity_Value__c} has been submitted for your approval by {!Opportunity.OwnerFullName}.</p>
+
+<p>You may view the record by clicking here ->{!Opportunity.Link}</p>

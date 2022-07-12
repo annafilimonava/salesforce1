@@ -1,0 +1,25 @@
+<font face="arial" size=2>
+<b>***Notification of Case/Request Resolution***</b><br>
+Please reply above this message and do not modify the Subject line<br>
+------------------------------------------------------------------------------------------<br>
+<br>
+Dear Customer<p>
+
+We are pleased to inform you that your request has been <u>resolved</u>.<p>
+
+<b>Case Creation Date:</b> {!Case.CreatedDate}<br>
+<b>Case Number:</b> {!Case.CaseNumber}<br>
+<b>Case Priority:</b> {!Case.Priority}<br>
+<b>Case Type:</b> {!Case.Type}​<br>
+<b>Case Reason:</b> {!Case.Case_Reason__c}<br>
+<b>Case Subject:</b> {!Case.Subject_Line__c}<br>
+<b>Case Status:</b> {!Case.Status}<br>
+<b>Case Closed Date:</b> {!Case.ClosedDate}<br>
+<b>Account:</b> {!Account.Account_ID__c}, {!Account.BillingStreet}, {!Account.BillingCity}<br>
+<b>POS Solution ID:</b> {!NullValue(Case.POS_Solution_Name__c, "No POS ID")}, {!NullValue(Case.Terminal_ID__c, "No Terminal ID")}<p>
+Your request has been resolved with the following resolution:<br>
+{!Case.Resolution_Reason__c}<p>
+
+Kind Regards,<p>
+
+POS Support

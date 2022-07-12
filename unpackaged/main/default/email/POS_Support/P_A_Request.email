@@ -1,0 +1,4 @@
+<font face="arial" size=2>
+A new request for a PA POS Solution has been made for {!WorkOrder.Account}.  Please approve or decline the request.<p>
+
+You can view the Work Order request by clicking here {!WorkOrder.Link}

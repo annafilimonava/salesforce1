@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Any_back_up_in_case_of_breakdown__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Is there any back-up solution in case of service breakdown to issue Vouchers?</inlineHelpText>
+    <label>Any Back-up in Case of Breakdown?</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+            <value>
+                <fullName>Not Applicable (Manual Forms)</fullName>
+                <default>false</default>
+                <label>Not Applicable (Manual Forms)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

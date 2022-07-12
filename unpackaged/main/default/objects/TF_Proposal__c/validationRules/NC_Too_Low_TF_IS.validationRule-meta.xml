@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NC_Too_Low_TF_IS</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(Opportunity__r.Owning_Country__c = &quot;Iceland&quot;, TEXT(Opportunity__r.Type) &lt;&gt; &quot;New Pan Euro&quot;, TEXT(Opportunity__r.Type) &lt;&gt; &quot;Marketing/B2C Consultancy&quot;, TF_Annual_Net_Commission__c &lt; 61032.993)</errorConditionFormula>
+    <errorMessage>An opportunity may not have a Net Commission below €500</errorMessage>
+</ValidationRule>

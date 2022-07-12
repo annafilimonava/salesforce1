@@ -1,0 +1,8 @@
+<apex:page standardController="Account" showheader="false" sidebar="false" lightningStylesheets="true" tabStyle="Opportunity">
+ <apex:form >
+  <apex:commandButton value="Full Screen" onclick="window.open('https://intelligence.planetpayment.com/t/Planet/views/TaxFree-TopNationalityReport/Cover?Store%20Brand={!URLENCODE(Account.Warehouse_Brand__c)}')" reRender="frm"/>
+  </apex:form>
+  <h4>  </h4>
+  <apex:iframe src="https://intelligence.planetpayment.com/t/Planet/views/TaxFree-TopNationalityReport/Cover?:showAppBanner=false&:embed=y&:display_count=n&:showShareOptions=false&:toolbar=yes&:highdpi=true&:showVizHome=n&:origin=viz_share_link&Store%20Brand={!URLENCODE(Account.Warehouse_Brand__c)}"  height="1100" width="100%" scrolling="false" >
+   </apex:iframe>
+</apex:page>

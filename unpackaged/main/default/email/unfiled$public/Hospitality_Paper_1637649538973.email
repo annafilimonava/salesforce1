@@ -1,0 +1,19 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body bgcolor="#f2f2f2" style="height: auto; min-height: auto;"> 
+  <table align="center" bgcolor="#ffffff" border="0" cellpadding="20" cellspacing="2" width="540"> 
+   <tbody> 
+    <tr> 
+     <td><img alt="hospitality-report-salesforce-a" src="{[devName:hospitalityreportsalesforcea]}" style="max-width: 714.7100952148437px" title="hospitality-report-salesforce-a" /> <p><span style="font-family:&quot;Barlow&quot;">Dear {{{Recipient.FirstName}}},<br /> <br /> I hope you are well.<br /> <br /> I wanted to let you know that we've just&nbsp;published our </span><a href="https://www.planetpayment.com/media/5355/planet-hospitality-report.pdf"><span style="font-family:&quot;Barlow&quot;">Planet Hospitality Report</span></a><span style="font-family:&quot;Barlow&quot;"> "A five-star experience: Delight guests with technology and service".<br /> <br /> As a valued customer, I'd like&nbsp;you to be one of the first people to receive the report.<br /> <br /> The Hospitality sector is changing like never before.<br /> <br /> The rapid adoption of digital and mobile technology is changing how we engage with our customers and guests. It's been accelerated by the pandemic and is here to stay.&nbsp;<br /> <br /> <span style="font-family:&quot;Barlow&quot;">Our new report looks at:</span></span></p> 
+      <ul> 
+       <li><span style="font-family:&quot;Barlow&quot;"><span style="font-family:&quot;Barlow&quot;">How digital and mobile technology can help you provide a personalised, luxury guest experience where payments may as well be invisible</span></span></li> 
+       <li><span style="font-family:&quot;Barlow&quot;"><span style="font-family:&quot;Barlow&quot;">How to simplify complex hotel operations and build a fast, simple service across each step of the journey to dazzle your guests</span></span></li> 
+       <li><span style="font-family:&quot;Barlow&quot;"><span style="font-family:&quot;Barlow&quot;">The importance of payments to help you understand your guests better, and how to make sure SCA does not get in the way of five-star service</span></span></li> 
+      </ul> <span style="font-family:&quot;Barlow&quot;"><span style="font-family:&quot;Barlow&quot;">We hope you enjoy reading it and if you would like to discuss any of the ideas further and get some more Dinngggg in your payments, then please let me know and we can arrange a call.<br /> <br /> Happy reading!<br /> <br /> All the best,</span></span></td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body>
+</html>

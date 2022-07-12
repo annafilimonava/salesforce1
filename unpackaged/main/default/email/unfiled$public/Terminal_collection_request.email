@@ -1,0 +1,16 @@
+<p><span style="font-family:tahoma,geneva,sans-serif;">Buongiorno<br />
+<br />
+Il seguente POS sar&agrave; sostituito, potreste prenotare un ritiro di quello guasto?<br />
+<br />
+Grazie mille<br />
+POS Support IT<br />
+<br />
+Account ID={!Case.Account_ID__c}<br />
+Account Name =&nbsp;{!Case.Case_Account_Name__c}<br />
+Case Creation Date:&nbsp;{!Case.CreatedDate}<br />
+Case Priority Case :&nbsp;{!Case.Priority}<br />
+Case Type:&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;​{!Case.Type}<br />
+Case Reason:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;{!Case.Case_Reason__c}​<br />
+Case Subject:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; {!Case.Subject}&nbsp;<br />
+Case Status:&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;{!Case.Status}</span><br />
+&nbsp;</p>

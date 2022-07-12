@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_Support_Validation</fullName>
+    <active>true</active>
+    <description>For record type &quot;POS Support&quot;
+
+The below fields need to be set as mandatory but only if status is NOT EQUAL to NEW.   For non UK.</description>
+    <errorConditionFormula>IF(TEXT(Origin) = &#39;Email&#39; &amp;&amp; TEXT(Status) &lt;&gt; &#39;New&#39; &amp;&amp; RecordTypeId = &#39;01224000000B9eQ&#39; &amp;&amp; TEXT(Account.Owning_Country__c) &lt;&gt; &#39;United Kingdom&#39;,
+ISBLANK(ContactId),
+AND (
+RecordTypeId = &#39;01224000000B9eQ&#39;,
+TEXT(Status) &lt;&gt; &#39;New&#39;,
+TEXT(Account.Owning_Country__c) &lt;&gt; &#39;United Kingdom&#39;,
+OR(
+ISBLANK(Subject),
+ISBLANK(AccountId),
+ISBLANK(TEXT(Status)),
+ISBLANK(TEXT(Priority)) ,
+ISBLANK(TEXT(Type)) ,
+ISBLANK(TEXT(Case_Reason__c)) ,
+ISBLANK(Subject),
+ISBLANK(Description)),
+OR(
+$Profile.Name &lt;&gt; &#39;System Administrator&#39;,
+$Profile.Name = &#39;POS Support DE&#39;,
+$Profile.Name = &#39;POS Support PT&#39;,
+$Profile.Name = &#39;POS Support ES&#39;,
+$User.Id= &#39;0051o000009z6ViAAI&#39;,
+$User.Id= &#39;00524000003KrmQAAS&#39;
+)
+))</errorConditionFormula>
+    <errorMessage>Please complete these fields : Account Name, Type, Case Reason, Priority, Subject, Description. If the case origin is &#39;Email&#39;, please fill Contact Name.</errorMessage>
+</ValidationRule>

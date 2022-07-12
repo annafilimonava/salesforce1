@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Opportunity_Value__c</fullName>
+    <description>Replacing the old opportunity value field - value depends on records type name - be careful if record type name changes</description>
+    <externalId>false</externalId>
+    <formula>IF(
+
+	OR(
+		AND(
+			Owning_Country__c &lt;&gt; &#39;United Kingdom&#39;,
+			TEXT(StageName) = &#39;Proposal Signed&#39; ,
+			LastStageChangeDate &lt;= DATETIMEVALUE( &quot;2021-07-09 00:00:00&quot; ) ,
+			OwnerId &lt;&gt; &#39;00524000001CTFbAAO&#39;
+		),
+
+		AND(
+			(TF_Annual_Net_Commission__c + DCC_Annual_Gross_Profit1__c + Net_Commission__c + Payments_Annual_GP__c + Pay_by_Link_Annual_GP__c) &gt; (Total_Acquiring_Profit__c + Total_Charges__c + Total_DCC_Profit__c + TF_Annual_Net_Commission__c),
+			(Total_Acquiring_Profit__c + Total_Charges__c + Total_DCC_Profit__c + TF_Annual_Net_Commission__c) = 0.00
+		)
+	)
+	,
+
+	TF_Annual_Net_Commission__c + DCC_Annual_Gross_Profit1__c + Net_Commission__c + Payments_Annual_GP__c + Pay_by_Link_Annual_GP__c + Total_Hardware_Annualized_Recurring_Fees__c + Total_Hardware_One_Off_Cost__c, /*opp value*/
+
+	Total_Acquiring_Profit__c + Total_Charges__c + Total_DCC_Profit__c + TF_Annual_Net_Commission__c + Total_Subscription_Fees__c + Total_Hardware_Annualized_Recurring_Fees__c + Total_Hardware_One_Off_Cost__c +  Total_Gateway_Processing_Fees__c + Total_Partner_Gross_Profit__c /*total opp value*/
+)
+
+
+/*Total_Acquiring_Profit__c + Total_Charges__c + Total_DCC_Profit__c + TF_Annual_Net_Commission__c */</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Opportunity Value</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

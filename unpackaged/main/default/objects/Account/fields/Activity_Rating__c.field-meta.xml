@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activity_Rating__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TODAY() - Last_Activity_Date__c &lt; 30, IMAGE(&quot;/servlet/servlet.FileDownload?file=01524000004lpcv&quot;, &quot;Green&quot;,19, 19),
+IF(AND(TODAY() - Last_Activity_Date__c &gt; 30, TODAY() - Last_Activity_Date__c &lt; 60), IMAGE(&quot;/servlet/servlet.FileDownload?file=01524000004lpcq&quot;, &quot;Amber&quot;,19, 19), IMAGE(&quot;/servlet/servlet.FileDownload?file=01524000004lpcl&quot;, &quot;Red&quot;,19, 19)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Activity Rating</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Store_Rebranding</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <columns>Category__c</columns>
+    <columns>Refund_Rules__c</columns>
+    <columns>Refund_Template__c</columns>
+    <columns>In_Store_Collateral_Rebranded__c</columns>
+    <columns>IT_Solutions_Rebranded__c</columns>
+    <columns>Forms_Rebranded__c</columns>
+    <columns>Account_ID__c</columns>
+    <columns>PARENT_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Account.Shop</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>Parent_Account_ID__c</field>
+        <operation>equals</operation>
+        <value>GB301243</value>
+    </filters>
+    <label>Store Rebranding</label>
+    <sharedTo>
+        <role>Regional_Markets</role>
+    </sharedTo>
+</ListView>

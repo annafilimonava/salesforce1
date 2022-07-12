@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Terminal Approval Request</name>
+    <style>none</style>
+    <subject>Approval Request for Terminals</subject>
+    <textOnly>A terminal request for terminals has been submitted for your approval by {!Terminal_Request__c.CreatedBy}.
+
+
+Number of Vx Terminals: {!Terminal_Request__c.Quantity_Vx__c}
+
+Number of PAX Terminals: {!Terminal_Request__c.Quantity_PAX__c}
+
+Number of PTF Terminals: {!Terminal_Request__c.Quantity_PTF__c}
+
+Comments: {!ApprovalRequest.Comments}
+
+You may view the record by clicking here -&gt;{!Terminal_Request__c.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

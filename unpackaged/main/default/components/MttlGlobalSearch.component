@@ -1,0 +1,212 @@
+<apex:component controller="MttlGlobalSearchController">
+<html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <apex:stylesheet value="{!URLFOR($Resource.Uidesigns, 'assets/styles/salesforce-lightning-design-system-vf.css')}" />
+    <link rel='stylesheet' type='text/css' href='//cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css' />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.13.0/moment.js"></script>
+    <script src="{!URLFOR($Resource.aljs, '/jquery/jquery.aljs-all.min.js')}"></script>
+    <script src="//cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <apex:includeScript value="/support/console/20.0/integration.js" />
+    <script src="https://cdn.jsdelivr.net/svg4everybody/2.1.0/svg4everybody.min.js"></script>
+<script>svg4everybody();</script>
+    <style>
+        .slds .slds-input {
+            width: 25%;
+        }
+        .slds .slds-form-element {
+            position: relative;
+            text-align: center;
+            margin-top: 5%;
+            margin-bottom: 4%;
+        }
+        .slds .slds-input-has-icon .slds-input__icon {
+            top: 50%;
+            margin-right: 37%;
+        }
+        .content {
+            width: 90%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .thead,
+        th {
+            background: #00bfff;
+            color: #FFF;
+            height: 20px;
+        }
+        .slds .slds-table--bordered td,
+        .slds .slds-table--bordered th {
+            border-top: 1px solid #d8dde6;
+            font-weight: bold;
+        }
+        .slds .slds-table--bordered td,
+        .slds .slds-table--bordered td {
+            color: #000;
+            font-weight: normal;
+        }
+    </style>
+    <!--- Open Every Record as a Sub Tab of Incoming Callpage --->
+    <script>
+        var exid;
+        var tbname;
+        function OpenMatchRecordSubtab(existId,tabname) {
+          exid=existId;
+          tbname=tabname;
+          sforce.console.getEnclosingPrimaryTabId(openexistrecSubtab); 
+        }
+        var openexistrecSubtab= function openexistrecSubtab(result){
+           var primaryTabId =result.id;
+           if(exid.startsWith('001')){             
+              sforce.console.openSubtab(primaryTabId ,'/'+exid, true,tbname);     
+            }
+            else if(exid.startsWith('003')){
+              sforce.console.openSubtab(primaryTabId,'/'+exid,true,tbname,null,'','salesforceSubtab');     
+            }
+        }
+        var openSuccess = function openSuccess(result) {
+            if (result.success==true) {
+            } else {
+            }
+        };
+    </script>
+    <!--- End Open Every Record as a Sub Tab of Incoming Callpage --->
+    <div class="slds">
+        <apex:actionFunction name="dosearch" action="{!soslSearchMethod}" reRender="dataRecords" status="actStatusId" />
+        <div class="slds-form-element">
+            <div class="slds-form-element__control slds-input-has-icon slds-input-has-icon--right">
+                <svg aria-hidden="true" class="slds-input__icon slds-icon-text-default">
+                    <use xlink:href="{!URLFOR($Resource.Uidesigns, '/assets/icons/utility-sprite/svg/symbols.svg#search')}"></use>
+                </svg>
+                <apex:inputText value="{!searchStr}" onkeyup="dosearch();" styleclass="slds-input" html-placeholder="Search" />
+            </div>
+        </div>
+        <apex:actionStatus id="actStatusId">
+            <apex:facet name="start">
+                <img src="/img/loading.gif" />
+            </apex:facet>
+        </apex:actionStatus>
+        <apex:outputPanel title="" id="error">
+            <apex:pageMessages ></apex:pageMessages>
+        </apex:outputPanel>
+        <div class="content">
+            <apex:outputPanel id="dataRecords">
+               <!-------- Account Table --------->
+                <apex:outputPanel rendered="{!accList.size!=null}">
+                    <table class="slds-table slds-table--bordered slds-table--cell-buffer slds-table--fixed-layout" id='contactsTable'>
+                        <thead>
+                            <tr>
+                                <th>Account Name
+                                </th>
+                                <th>Phone
+                                </th>
+                                <th>Type
+                                </th>
+                                <th>Industry
+                                </th>
+                                <th>Rating
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <apex:repeat value="{!accList}" var="acc">
+                                <tr class="slds-hint-parent">
+                                    <td class="slds-truncate"  data-label="name">
+                                       <a onclick="OpenMatchRecordSubtab('{!acc.id}','{!acc.Name}');"> {!acc.Name}</a>
+                                    </td>
+                                    <td data-label="Close Date" >{!acc.phone}
+                                    </td>
+                                    <td data-label="Close Date" >{!acc.Type}
+                                    </td>
+                                    <td data-label="Close Date" >{!acc.Industry}
+                                    </td>
+                                    <td data-label="Close Date" >{!acc.Rating}
+                                    </td>
+                                </tr>
+                            </apex:repeat>
+                        </tbody>
+                    </table>
+                </apex:outputPanel>
+                <!-------- Contact Table --------->
+                <apex:outputPanel rendered="{!conList.size!=null}">
+                    <table class="slds-table slds-table--bordered slds-table--cell-buffer slds-table--fixed-layout" id='contactsTable'>
+                        <thead>
+                            <tr>
+                                <th>Contact Name
+                                </th>
+                                <th>Account Name
+                                </th>
+                                <th>Title
+                                </th>
+                                <th>Mobile
+                                </th>
+                                <th>Email
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <apex:repeat value="{!conList}" var="con">
+                                <tr class="slds-hint-parent">
+                                    <td class="slds-truncate"  data-label="name" >
+                                       <a onclick="OpenMatchRecordSubtab('{!con.id}','{!con.Name}');"> {!con.Name}</a>
+                                    </td>
+                                    <td class="slds-truncate"  data-label="name" title="Cloudhub">
+                                       <a onclick="OpenMatchRecordSubtab('{!con.id}','{!con.Account.Name}');"> {!con.Account.Name}</a>
+                                    </td>
+                                   
+                                    <td data-label="Close Date">{!con.Title}
+                                    </td>
+                                    <td data-label="Close Date">{!con.Mobilephone}
+                                    </td>
+                                    <td data-label="Close Date">{!con.Email}
+                                    </td>
+                                </tr>
+                            </apex:repeat>
+                        </tbody>
+                    </table>
+                </apex:outputPanel>
+                <!-------- Case Table --------->
+                <apex:outputPanel rendered="{!caseList.size!=null}">
+                    <table class="slds-table slds-table--bordered slds-table--cell-buffer slds-table--fixed-layout" id='contactsTable'>
+                        <thead>
+                            <tr>
+                                <th>Case Number
+                                </th>
+                                <th>Subject
+                                </th>
+                                <th>Contact
+                                </th>
+                                <th>Account
+                                </th>
+                                <th>Status
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <apex:repeat value="{!caseList}" var="opty">
+                                <tr class="slds-hint-parent">
+                                    <td class="slds-truncate"  data-label="name">
+                                       <a onclick="OpenMatchRecordSubtab('{!opty.id}','{!opty.casenumber}');"> {!opty.casenumber}</a>
+                                    </td>
+                                    <td data-label="Close Date">{!opty.Subject}
+                                    </td>
+                                    <td class="slds-truncate"  data-label="name">
+                                       <a onclick="OpenMatchRecordSubtab('{!opty.id}','{!opty.Contact.Name}');"> {!opty.Contact.Name}</a>
+                                    </td>
+                                    <td class="slds-truncate"  data-label="name">
+                                       <a onclick="OpenMatchRecordSubtab('{!opty.id}','{!opty.Account.Name}');"> {!opty.Account.Name}</a>
+                                    </td>
+                                    <td data-label="Close Date" >{!opty.Status}
+                                    </td>
+
+                                </tr>
+                            </apex:repeat>
+                        </tbody>
+                    </table>
+                </apex:outputPanel>
+            </apex:outputPanel>
+        </div>
+    </div>
+    </html>
+</apex:component>

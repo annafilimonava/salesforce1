@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Lead Assignment</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>angela.clift@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR( Country = &quot;Austria&quot;, Country = &quot;Belgium&quot;, Country = &quot;Cyprus&quot;, Country = &quot;Slovenia&quot;, Country = &quot;Czech Republic&quot;, Country = &quot;Denmark&quot;, Country = &quot;Faroe Islands&quot;, Country = &quot;Finland&quot;, Country = &quot;France&quot;, Country = &quot;Germany&quot;, Country = &quot;Greece&quot;, Country = &quot;Hungary&quot;, Country = &quot;Slovakia&quot;, Country = &quot;Iceland&quot;, Country = &quot;Ireland&quot;, Country = &quot;Italy&quot;, Country = &quot;Luxembourg&quot;, Country = &quot;Netherlands&quot;, Country = &quot;Norway&quot;, Country = &quot;Poland&quot;, Country = &quot;Portugal&quot;, Country = &quot;Spain&quot;, Country = &quot;Sweden&quot;, Country = &quot;Switzerland&quot;, Country = &quot;Turkey&quot; ), TEXT(Company_Sector__c) = &quot;Retail&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>duncan.bews@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( Country = &quot;United Kingdom&quot;, TEXT(Company_Sector__c) = &quot;Retail&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>svetlana.somova@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( Country = &quot;Russian Federation&quot;, TEXT(Company_Sector__c) = &quot;Retail&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Lead_1</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND( OR (Country = &quot;Canada&quot;, Country = &quot;United States&quot;), TEXT(Company_Sector__c) = &quot;Retail&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Lead_2</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND( OR( Country = &quot;Anguilla&quot;, Country = &quot;Antigua and Barbuda&quot;, Country = &quot;Argentina&quot;, Country = &quot;Aruba&quot;, Country = &quot;Bahamas&quot;, Country = &quot;Barbados&quot;, Country = &quot;Belize&quot;, Country = &quot;Bermuda&quot;, Country = &quot;Bolivia, Plurinational State of&quot;, Country = &quot;Cayman Islands&quot;, Country = &quot;Chile&quot;, Country = &quot;Colombia&quot;, Country = &quot;Costa Rica&quot;, Country = &quot;Cuba&quot;, Country = &quot;Curaçao&quot;, Country = &quot;Dominica&quot;, Country = &quot;Dominican Republic&quot;, Country = &quot;Ecuador&quot;, Country = &quot;El Salvador&quot;, Country = &quot;French Guiana&quot;, Country = &quot;Grenada&quot;, Country = &quot;Guatemala&quot;, Country = &quot;Guyana&quot;, Country = &quot;Haiti&quot;, Country = &quot;Honduras&quot;, Country = &quot;Jamaica&quot;, Country = &quot;Martinique&quot;, Country = &quot;Montserrat&quot;, Country = &quot;Nicaragua&quot;, Country = &quot;Panama&quot;, Country = &quot;Paraguay&quot;, Country = &quot;Peru&quot;, Country = &quot;Trinidad and Tobago&quot;, Country = &quot;Uruguay&quot;, Country = &quot;Venezuela, Bolivarian Republic of&quot;), TEXT(Company_Sector__c) = &quot;Retail&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>maud.aguado@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR( Country = &quot;Hong Kong&quot;, Country = &quot;Singapore&quot;, Country = &quot;Republic of Korea&quot;, Country = &quot;India&quot; ), TEXT(Company_Sector__c) = &quot;Retail&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>ibrahim.salim@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR( Country = &quot;United Arab Emirates&quot;, Country = &quot;Bahrain&quot;, Country = &quot;Qatar&quot; ), TEXT(Company_Sector__c) = &quot;Hospitality&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>paul.alfaris@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR( Country = &quot;United Arab Emirates&quot;, Country = &quot;Bahrain&quot;, Country = &quot;Qatar&quot; ), TEXT(Company_Sector__c) = &quot;Retail&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>stephan.esten-feilen@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR ( Country = &quot;Austria&quot;, Country = &quot;Czech Republic&quot;, Country = &quot;Germany&quot;, Country = &quot;Hungary&quot;, Country = &quot;Slovakia&quot;, Country = &quot;Switzerland&quot;, Country = &quot;Poland&quot;), TEXT(Company_Sector__c) = &quot;Hospitality&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>damien.estrade@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR (Country = &quot;Belgium&quot;, Country = &quot;Luxembourg&quot;, Country = &quot;Netherlands&quot;), TEXT(Company_Sector__c) = &quot;Hospitality&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>edoardo.rocca@3cpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR (Country = &quot;Cyprus&quot;, Country = &quot;Slovenia&quot;, Country = &quot;Greece&quot;, Country = &quot;Italy&quot;), TEXT(Company_Sector__c) = &quot;Hospitality&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>jeffrey.horowitz@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR ( Country = &quot;Denmark&quot;, Country = &quot;Faroe Islands&quot;, Country = &quot;Finland&quot;, Country = &quot;Iceland&quot;, Country = &quot;Norway&quot;, Country = &quot;Sweden&quot;), TEXT(Company_Sector__c) = &quot;Hospitality&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Leads_France</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND( Country = &quot;France&quot;, TEXT(Company_Sector__c) = &quot;Hospitality&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>manya.lusenge@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR ( Country = &quot;Ireland&quot;, Country = &quot;United Kingdom&quot;), TEXT(Company_Sector__c) = &quot;Hospitality&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Leads_Spain</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND( Country = &quot;Spain&quot;, TEXT(Company_Sector__c) = &quot;Hospitality&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>gregory.paka@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( Country = &quot;Portugal&quot;, TEXT(Company_Sector__c) = &quot;Hospitality&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>rui.ramos@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( Country = &quot;Portugal&quot;, TEXT(Company_Sector__c) = &quot;Other&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>mehmet.baykam.c@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( Country = &quot;Turkey&quot;, TEXT(Company_Sector__c) = &quot;Hospitality&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>bomassi@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( Country = &quot;Canada&quot;, TEXT(Company_Sector__c) = &quot;Hospitality&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Lead_Management_2</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND( Country = &quot;Russian Federation&quot;, TEXT(Company_Sector__c) = &quot;Hospitality&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>bob.arsenault@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR( Country = &quot;United States&quot;, Country = &quot;Anguilla&quot;, Country = &quot;Antigua and Barbuda&quot;, Country = &quot;Argentina&quot;, Country = &quot;Aruba&quot;, Country = &quot;Bahamas&quot;, Country = &quot;Barbados&quot;, Country = &quot;Belize&quot;, Country = &quot;Bermuda&quot;, Country = &quot;Bolivia, Plurinational State of&quot;, Country = &quot;Cayman Islands&quot;, Country = &quot;Chile&quot;, Country = &quot;Colombia&quot;, Country = &quot;Costa Rica&quot;, Country = &quot;Cuba&quot;, Country = &quot;Curaçao&quot;, Country = &quot;Dominica&quot;, Country = &quot;Dominican Republic&quot;, Country = &quot;Ecuador&quot;, Country = &quot;El Salvador&quot;, Country = &quot;French Guiana&quot;, Country = &quot;Grenada&quot;, Country = &quot;Guatemala&quot;, Country = &quot;Guyana&quot;, Country = &quot;Haiti&quot;, Country = &quot;Honduras&quot;, Country = &quot;Jamaica&quot;, Country = &quot;Martinique&quot;, Country = &quot;Montserrat&quot;, Country = &quot;Nicaragua&quot;, Country = &quot;Panama&quot;, Country = &quot;Paraguay&quot;, Country = &quot;Peru&quot;, Country = &quot;Trinidad and Tobago&quot;, Country = &quot;Uruguay&quot;, Country = &quot;Venezuela, Bolivarian Republic of&quot;), TEXT(Company_Sector__c) = &quot;Hospitality&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>tchau@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR( Country = &quot;Hong Kong&quot;, Country = &quot;Singapore&quot;, Country = &quot;Republic of Korea&quot;, Country = &quot;India&quot; ), TEXT(Company_Sector__c) = &quot;Hospitality&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>christopher.octon@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR( Country = &quot;Austria&quot;, Country = &quot;Belgium&quot;, Country = &quot;Cyprus&quot;, Country = &quot;Slovenia&quot;, Country = &quot;Czech Republic&quot;, Country = &quot;Denmark&quot;, Country = &quot;Faroe Islands&quot;, Country = &quot;Finland&quot;, Country = &quot;France&quot;, Country = &quot;Germany&quot;, Country = &quot;Greece&quot;, Country = &quot;Hungary&quot;, Country = &quot;Slovakia&quot;, Country = &quot;Iceland&quot;, Country = &quot;Ireland&quot;, Country = &quot;Italy&quot;, Country = &quot;Luxembourg&quot;, Country = &quot;Netherlands&quot;, Country = &quot;Norway&quot;, Country = &quot;Poland&quot;, Country = &quot;Portugal&quot;, Country = &quot;Spain&quot;, Country = &quot;Sweden&quot;, Country = &quot;Switzerland&quot;, Country = &quot;Turkey&quot;, Country = &quot;United Kingdom&quot;, Country = &quot;Russian Federation&quot;, Country = &quot;United Arab Emirates&quot;, Country = &quot;Bahrain&quot;, Country = &quot;Qatar&quot;, Country = &quot;Hong Kong&quot;, Country = &quot;Singapore&quot;, Country = &quot;Republic of Korea&quot;, Country = &quot;India&quot; ), TEXT(Company_Sector__c) = &quot;Parking&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>sally.donatiello@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR( Country = &quot;Canada&quot;, Country = &quot;United States&quot;, Country = &quot;Anguilla&quot;, Country = &quot;Antigua and Barbuda&quot;, Country = &quot;Argentina&quot;, Country = &quot;Aruba&quot;, Country = &quot;Bahamas&quot;, Country = &quot;Barbados&quot;, Country = &quot;Belize&quot;, Country = &quot;Bermuda&quot;, Country = &quot;Bolivia, Plurinational State of&quot;, Country = &quot;Cayman Islands&quot;, Country = &quot;Chile&quot;, Country = &quot;Colombia&quot;, Country = &quot;Costa Rica&quot;, Country = &quot;Cuba&quot;, Country = &quot;Curaçao&quot;, Country = &quot;Dominica&quot;, Country = &quot;Dominican Republic&quot;, Country = &quot;Ecuador&quot;, Country = &quot;El Salvador&quot;, Country = &quot;French Guiana&quot;, Country = &quot;Grenada&quot;, Country = &quot;Guatemala&quot;, Country = &quot;Guyana&quot;, Country = &quot;Haiti&quot;, Country = &quot;Honduras&quot;, Country = &quot;Jamaica&quot;, Country = &quot;Martinique&quot;, Country = &quot;Montserrat&quot;, Country = &quot;Nicaragua&quot;, Country = &quot;Panama&quot;, Country = &quot;Paraguay&quot;, Country = &quot;Peru&quot;, Country = &quot;Trinidad and Tobago&quot;, Country = &quot;Uruguay&quot;, Country = &quot;Venezuela, Bolivarian Republic of&quot;), TEXT(Company_Sector__c) = &quot;Parking&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>gilbert.soueidy@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR( Country = &quot;Austria&quot;, Country = &quot;Belgium&quot;, Country = &quot;Cyprus&quot;, Country = &quot;Slovenia&quot;, Country = &quot;Czech Republic&quot;, Country = &quot;Denmark&quot;, Country = &quot;Faroe Islands&quot;, Country = &quot;Finland&quot;, Country = &quot;France&quot;, Country = &quot;Germany&quot;, Country = &quot;Greece&quot;, Country = &quot;Hungary&quot;, Country = &quot;Slovakia&quot;, Country = &quot;Iceland&quot;, Country = &quot;Ireland&quot;, Country = &quot;Italy&quot;, Country = &quot;Luxembourg&quot;, Country = &quot;Netherlands&quot;, Country = &quot;Norway&quot;, Country = &quot;Poland&quot;, Country = &quot;Portugal&quot;, Country = &quot;Spain&quot;, Country = &quot;Sweden&quot;, Country = &quot;Switzerland&quot;, Country = &quot;Turkey&quot;, Country = &quot;United Kingdom&quot; ), TEXT(Company_Sector__c) = &quot;Financial Partners&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>vladimir.raspopov@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( Country = &quot;Canada&quot;, TEXT(Company_Sector__c) = &quot;Financial Partners&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Lead_2</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <formula>AND( OR( Country = &quot;Anguilla&quot;, Country = &quot;Antigua and Barbuda&quot;, Country = &quot;Argentina&quot;, Country = &quot;Aruba&quot;, Country = &quot;Bahamas&quot;, Country = &quot;Barbados&quot;, Country = &quot;Belize&quot;, Country = &quot;Bermuda&quot;, Country = &quot;Bolivia, Plurinational State of&quot;, Country = &quot;Cayman Islands&quot;, Country = &quot;Chile&quot;, Country = &quot;Colombia&quot;, Country = &quot;Costa Rica&quot;, Country = &quot;Cuba&quot;, Country = &quot;Curaçao&quot;, Country = &quot;Dominica&quot;, Country = &quot;Dominican Republic&quot;, Country = &quot;Ecuador&quot;, Country = &quot;El Salvador&quot;, Country = &quot;French Guiana&quot;, Country = &quot;Grenada&quot;, Country = &quot;Guatemala&quot;, Country = &quot;Guyana&quot;, Country = &quot;Haiti&quot;, Country = &quot;Honduras&quot;, Country = &quot;Jamaica&quot;, Country = &quot;Martinique&quot;, Country = &quot;Montserrat&quot;, Country = &quot;Nicaragua&quot;, Country = &quot;Panama&quot;, Country = &quot;Paraguay&quot;, Country = &quot;Peru&quot;, Country = &quot;Trinidad and Tobago&quot;, Country = &quot;Uruguay&quot;, Country = &quot;Venezuela, Bolivarian Republic of&quot;), TEXT(Company_Sector__c) = &quot;Financial Partners&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>cgreenstein@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( Country = &quot;United States&quot;, TEXT(Company_Sector__c) = &quot;Financial Partners&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>simon.marsden@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR( Country = &quot;United Arab Emirates&quot;, Country = &quot;Bahrain&quot;, Country = &quot;Qatar&quot; ), TEXT(Company_Sector__c) = &quot;Financial Partners&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>tchau@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( OR( Country = &quot;Hong Kong&quot;, Country = &quot;Singapore&quot;, Country = &quot;Republic of Korea&quot;), TEXT(Company_Sector__c) = &quot;Financial Partners&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>naushad.abdul@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <formula>AND( Country = &quot;India&quot;, TEXT(Company_Sector__c) = &quot;Financial Partners&quot;, spam__c = false )</formula>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>duncan.bews@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.LeadSource</field>
+                <operation>equals</operation>
+                <value>Retail Tech Show 2022</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Lead_Management</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Lead.Company_Sector__c</field>
+                <operation>equals</operation>
+                <value>Financial Partner,Other</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.spam__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Lead_Management_2</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Lead.Company_Sector__c</field>
+                <operation>equals</operation>
+                <value>Retail</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.spam__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Lead_Management_3</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Lead.Company_Sector__c</field>
+                <operation>equals</operation>
+                <value>Hospitality</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.spam__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>christopher.octon@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Lead.Company_Sector__c</field>
+                <operation>equals</operation>
+                <value>Parking</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Lead.spam__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>Lead_Management</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Lead.spam__c</field>
+                <operation>equals</operation>
+                <value>False</value>
+            </criteriaItems>
+            <template>unfiled$public/Lead_Assignment</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>michael.kelly@planetpayment.com</assignedTo>
+            <assignedToType>User</assignedToType>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

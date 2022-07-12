@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Notify Account Owner Closed Work Order</name>
+    <style>none</style>
+    <subject>Work Order Closed for {!WorkOrder.Account}</subject>
+    <textOnly>Dear {!WorkOrder.Account_Manager__c},
+
+The Work Order for {!WorkOrder.Account} has been closed.
+
+New POS Solution Request? {!WorkOrder.New_POS_Solution__c}
+
+New Merchant Closure? {!WorkOrder.Merchant_Closure__c}
+
+Subject: {!WorkOrder.Subject}
+
+You can see full details by clicking this link: {!WorkOrder.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

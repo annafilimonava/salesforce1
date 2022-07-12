@@ -1,0 +1,39 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">Bonjour &nbsp;{{{Case.Tourist__c}}},</span> 
+  <br /> &nbsp; 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">Merci pour votre message.</span><br /> &nbsp;</p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">La raison pour laquelle votre compte a &eacute;t&eacute; d&eacute;bit&eacute; est que nous n’avons pas re&ccedil;u votre formulaire de d&eacute;taxe {{{Case.Tax_Free_Form__c}}}.</span><br /> &nbsp;</p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">D&egrave;s r&eacute;ception de votre remboursement en esp&egrave;ces, vous avez sign&eacute; une d&eacute;claration autorisant Planet &agrave; d&eacute;biter votre carte si nous n’avons pas re&ccedil;u votre formulaire approuv&eacute; par la douane dans les 21 jours.</span><br /> &nbsp;</p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">&Agrave; ce jour, nous ne l'avons pas re&ccedil;u et, par cons&eacute;quent, un d&eacute;bit automatique a &eacute;t&eacute; effectu&eacute; sur votre compte.</span><br /> &nbsp;</p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">Une fois que nous aurons re&ccedil;u et trait&eacute; votre formulaire de d&eacute;taxe, nous pourrons vous recr&eacute;er le montant de votre remboursement.</span><br /> &nbsp;</p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">Si vous avez besoin d’aide suppl&eacute;mentaire, n'h&eacute;sitez pas &agrave; nous contacter.</span><br /> &nbsp;</p> 
+  <p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto;
+line-height:normal"><span lang="FR" style="font-family:Barlow;mso-fareast-font-family:
+&quot;Times New Roman&quot;;mso-bidi-font-family:&quot;Times New Roman&quot;;mso-ansi-language:
+FR">Cordialement.</span></p>
+ </body>
+</html>

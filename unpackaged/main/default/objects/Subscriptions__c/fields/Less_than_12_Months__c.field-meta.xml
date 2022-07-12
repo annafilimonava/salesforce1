@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Less_than_12_Months__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Client has been active less than 12 months, therefore YoY is not available</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Tick this box if the client has been active less than 12 months, therefore YoY is not available</inlineHelpText>
+    <label>Less than 12 Months</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

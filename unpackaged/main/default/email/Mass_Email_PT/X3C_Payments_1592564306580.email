@@ -1,0 +1,713 @@
+<html><head>
+	<title></title>
+</head>
+<body style="height: auto; min-height: auto;"><span style="font-family:&quot;Barlow Light&quot;"><span lang="PT" style="font-size: 11pt; line-height: 120%; font-family: &quot;Barlow Light&quot;;">Boa tarde&nbsp;</span>{{{Recipient.T_tulo__c}}} {{{Recipient.FirstName}}}&nbsp;{{{Recipient.LastName}}}<br />
+<br />
+<meta content="text/html; charset=utf-8" /> <meta name="ProgId" content="Word.Document" /> <meta name="Generator" content="Microsoft Word 15" /> <meta name="Originator" content="Microsoft Word 15" />
+<style type="text/css"><!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:宋体;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"Barlow Light";
+	panose-1:0 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:536870919 0 0 0 403 0;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:IT;
+	mso-fareast-language:IT;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Georgia",serif;
+	mso-ascii-font-family:Georgia;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:Georgia;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+</span>
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:120%;
+background:white"><span style="font-family:&quot;Barlow Light&quot;"><span lang="PT" style="font-size: 11pt; line-height: 120%; font-family: &quot;Barlow Light&quot;;">Hoje, 19 de Junho 2020, temos o prazer de anunciar o acordo de aquisi&ccedil;&atilde;o da 3C Payment, uma empresa de solu&ccedil;&otilde;es de pagamento em franco crescimento. Ao incluir 3C Payment na fam&iacute;lia Planet, estamos a acelerar a nossa promessa de oferecer uma excepcional experi&ecirc;ncia de pagamentos aos nossos clientes por meio dos nossos servi&ccedil;os, tecnologias e pessoas.</span><br />
+<br />
+<meta content="text/html; charset=utf-8" /> <meta name="ProgId" content="Word.Document" /> <meta name="Generator" content="Microsoft Word 15" /> <meta name="Originator" content="Microsoft Word 15" />
+<style type="text/css"><!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:宋体;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"Barlow Light";
+	panose-1:0 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:536870919 0 0 0 403 0;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:IT;
+	mso-fareast-language:IT;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Georgia",serif;
+	mso-ascii-font-family:Georgia;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:Georgia;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+</span></p>
+<span style="font-family:&quot;Barlow Light&quot;"> </span>
+
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:120%;
+background:white"><span style="font-family:&quot;Barlow Light&quot;"><span lang="PT" style="font-size: 11pt; line-height: 120%; font-family: &quot;Barlow Light&quot;;">As capacidades da 3C Payment, com recursos de gateway, integra&ccedil;&atilde;o e terminais, combinados com os nossos servi&ccedil;os de pagamento de valor acrescentado, criar&atilde;o uma plataforma exclusiva no setor de pagamentos para todas as empresas que pretendam aumentar a sua receita. </span></span></p>
+<span style="font-family:&quot;Barlow Light&quot;"> </span>
+
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:120%;
+background:white"><span style="font-family:&quot;Barlow Light&quot;"><meta content="text/html; charset=utf-8" /> <meta name="ProgId" content="Word.Document" /> <meta name="Generator" content="Microsoft Word 15" /> <meta name="Originator" content="Microsoft Word 15" />
+<style type="text/css"><!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:宋体;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"Barlow Light";
+	panose-1:0 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:536870919 0 0 0 403 0;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:IT;
+	mso-fareast-language:IT;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Georgia",serif;
+	mso-ascii-font-family:Georgia;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:Georgia;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+</span></p>
+<span style="font-family:&quot;Barlow Light&quot;"> </span>
+
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:120%;
+background:white"><span style="font-family:&quot;Barlow Light&quot;"><span lang="PT" style="font-size: 11pt; line-height: 120%; font-family: &quot;Barlow Light&quot;;">A integra&ccedil;&atilde;o dos nossos produtos combinados com a rede de clientes, permitir&aacute; que ambas as empresas realcem a qualidade da nossa oferta, seja atrav&eacute;s dos nossos servi&ccedil;os de acquiring ou processamento, convers&atilde;o de moeda ou Tax Free, <span style="mso-spacerun:yes">&nbsp;</span>ou pelas integra&ccedil;&otilde;es s&oacute;lidas da 3C Payment a sistemas corporativos e de solu&ccedil;&otilde;es de pagamento nos setores da Hotelaria, Com&eacute;rcio e Restaura&ccedil;&atilde;o. </span></span></p>
+<span style="font-family:&quot;Barlow Light&quot;"> </span>
+
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:120%;
+background:white"><span style="font-family:&quot;Barlow Light&quot;"><meta content="text/html; charset=utf-8" /> <meta name="ProgId" content="Word.Document" /> <meta name="Generator" content="Microsoft Word 15" /> <meta name="Originator" content="Microsoft Word 15" />
+<style type="text/css"><!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:宋体;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"Barlow Light";
+	panose-1:0 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:536870919 0 0 0 403 0;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:IT;
+	mso-fareast-language:IT;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Georgia",serif;
+	mso-ascii-font-family:Georgia;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:Georgia;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+</span></p>
+<span style="font-family:&quot;Barlow Light&quot;"> </span>
+
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:120%;
+background:white"><span style="font-family:&quot;Barlow Light&quot;"><span lang="PT" style="font-size: 11pt; line-height: 120%; font-family: &quot;Barlow Light&quot;;">Para si, nosso valioso cliente, isto representa uma enorme oportunidade para os nossos neg&oacute;cios, uma vez que colocaremos ao seu&nbsp;dispor&nbsp;uma oferta ainda melhor, e mais ampla, de tecnologia e servi&ccedil;os. </span></span></p>
+<span style="font-family:&quot;Barlow Light&quot;"> </span>
+
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:120%;
+background:white"><span style="font-family:&quot;Barlow Light&quot;"><meta content="text/html; charset=utf-8" /> <meta name="ProgId" content="Word.Document" /> <meta name="Generator" content="Microsoft Word 15" /> <meta name="Originator" content="Microsoft Word 15" />
+<style type="text/css"><!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:宋体;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"Barlow Light";
+	panose-1:0 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:536870919 0 0 0 403 0;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:IT;
+	mso-fareast-language:IT;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Georgia",serif;
+	mso-ascii-font-family:Georgia;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:Georgia;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+</span></p>
+<span style="font-family:&quot;Barlow Light&quot;"> </span>
+
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:120%;
+background:white"><span style="font-family:&quot;Barlow Light&quot;"><span lang="PT" style="font-size: 11pt; line-height: 120%; font-family: &quot;Barlow Light&quot;;">Com esta uni&atilde;o, a Planet e a 3C Payment, criam uma empresa de pagamentos que, combinada,&nbsp;processa mais de 300 milh&otilde;es de opera&ccedil;&otilde;es, no valor aproximado de €45 bili&otilde;es, apoiando mais de 600.000 comerciantes. Atrav&eacute;s dos nossos servi&ccedil;os e plataformas, sair&aacute; beneficiado&nbsp;com uma solu&ccedil;&atilde;o exclusiva de pagamentos geradores de receita adicional, e que simplifica a experi&ecirc;ncia de pagamentos, tanto a si como aos seus clientes. </span></span></p>
+<span style="font-family:&quot;Barlow Light&quot;"> </span>
+
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:120%;
+background:white"><span style="font-family:&quot;Barlow Light&quot;"><meta content="text/html; charset=utf-8" /> <meta name="ProgId" content="Word.Document" /> <meta name="Generator" content="Microsoft Word 15" /> <meta name="Originator" content="Microsoft Word 15" />
+<style type="text/css"><!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:宋体;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"Barlow Light";
+	panose-1:0 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:536870919 0 0 0 403 0;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:IT;
+	mso-fareast-language:IT;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Georgia",serif;
+	mso-ascii-font-family:Georgia;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:Georgia;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+</span></p>
+<span style="font-family:&quot;Barlow Light&quot;"> </span>
+
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:120%;
+background:white"><span style="font-family:&quot;Barlow Light&quot;"><span lang="PT" style="font-size: 11pt; line-height: 120%; font-family: &quot;Barlow Light&quot;;">Este&nbsp;acordo est&aacute; sujeito &agrave; aprova&ccedil;&atilde;o regulamentar por parte da FCA <i style="mso-bidi-font-style:normal">(Financial Conduct Authority)</i> no Reino Unido, ficando o processo finalizado nos pr&oacute;ximos dias.</span></span></p>
+<span style="font-family:&quot;Barlow Light&quot;"> </span>
+
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:120%;
+background:white"><span style="font-family:&quot;Barlow Light&quot;"><meta content="text/html; charset=utf-8" /> <meta name="ProgId" content="Word.Document" /> <meta name="Generator" content="Microsoft Word 15" /> <meta name="Originator" content="Microsoft Word 15" />
+<style type="text/css"><!--
+ /* Font Definitions */
+ @font-face
+	{font-family:SimSun;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:宋体;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:1;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:0 0 0 0 0 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-469750017 -1073732485 9 0 511 0;}
+@font-face
+	{font-family:Georgia;
+	panose-1:2 4 5 2 5 4 5 2 3 3;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:"Barlow Light";
+	panose-1:0 0 4 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:536870919 0 0 0 403 0;}
+@font-face
+	{font-family:"\@SimSun";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:IT;
+	mso-fareast-language:IT;}
+p
+	{mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:"Times New Roman",serif;
+	mso-fareast-font-family:"Times New Roman";}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-size:10.0pt;
+	mso-ansi-font-size:10.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Georgia",serif;
+	mso-ascii-font-family:Georgia;
+	mso-fareast-font-family:SimSun;
+	mso-hansi-font-family:Georgia;
+	mso-ansi-language:EN-US;
+	mso-fareast-language:EN-US;}
+@page WordSection1
+	{size:612.0pt 792.0pt;
+	margin:70.85pt 3.0cm 70.85pt 3.0cm;
+	mso-header-margin:36.0pt;
+	mso-footer-margin:36.0pt;
+	mso-paper-source:0;}
+div.WordSection1
+	{page:WordSection1;}
+-->
+</style>
+</span></p>
+<span style="font-family:&quot;Barlow Light&quot;"> </span>
+
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:120%;
+background:white"><span style="font-family:&quot;Barlow Light&quot;"><span lang="PT" style="font-size: 11pt; line-height: 120%; font-family: &quot;Barlow Light&quot;;">Se tiver alguma d&uacute;vida ou quest&atilde;o, por favor entre em contacto com o seu Gestor de Conta, ou para os nosso Apoio ao Cliente.<br />
+<br />
+Com os meus melhores cumprimentos,</span><br />
+&nbsp;<br />
+Rui Ramos</span></p>
+<span style="font-family:&quot;Barlow Light&quot;"> </span>
+
+<p style="margin-top:0cm;margin-right:0cm;margin-bottom:12.0pt;margin-left:
+0cm;text-align:justify;text-justify:inter-ideograph;line-height:120%;
+background:white"><span style="font-family:&quot;Barlow Light&quot;">&nbsp;</span></p>
+<span style="font-family:&quot;Barlow Light&quot;"> </span></body></html>

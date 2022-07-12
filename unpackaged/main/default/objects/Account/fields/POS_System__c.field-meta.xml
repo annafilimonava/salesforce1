@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_System__c</fullName>
+    <externalId>false</externalId>
+    <label>POS System (Terminal)</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Owning_Country__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Adyen</fullName>
+                <default>false</default>
+                <label>Adyen</label>
+            </value>
+            <value>
+                <fullName>Artema Hybrid</fullName>
+                <default>false</default>
+                <label>Artema Hybrid</label>
+            </value>
+            <value>
+                <fullName>Cardtech</fullName>
+                <default>false</default>
+                <label>Cardtech</label>
+            </value>
+            <value>
+                <fullName>Concardis</fullName>
+                <default>false</default>
+                <label>Concardis</label>
+            </value>
+            <value>
+                <fullName>Easy Cash</fullName>
+                <default>false</default>
+                <label>Easy Cash</label>
+            </value>
+            <value>
+                <fullName>EFT930B Couleur (Réf 280)</fullName>
+                <default>false</default>
+                <label>EFT930B Couleur (Réf 280)</label>
+            </value>
+            <value>
+                <fullName>EFT930B Noir et blanc (Réf 270)</fullName>
+                <default>false</default>
+                <label>EFT930B Noir et blanc (Réf 270)</label>
+            </value>
+            <value>
+                <fullName>EFT930B Noir et blanc (Réf 280)</fullName>
+                <default>false</default>
+                <label>EFT930B Noir et blanc (Réf 280)</label>
+            </value>
+            <value>
+                <fullName>EFT930G Couleur (Réf 270)</fullName>
+                <default>false</default>
+                <label>EFT930G Couleur (Réf 270)</label>
+            </value>
+            <value>
+                <fullName>EFT930P (Réf 260)</fullName>
+                <default>false</default>
+                <label>EFT930P (Réf 260)</label>
+            </value>
+            <value>
+                <fullName>EFT930S (Réf 290)</fullName>
+                <default>false</default>
+                <label>EFT930S (Réf 290)</label>
+            </value>
+            <value>
+                <fullName>EFT930W Noir et Blanc (Réf 250)</fullName>
+                <default>false</default>
+                <label>EFT930W Noir et Blanc (Réf 250)</label>
+            </value>
+            <value>
+                <fullName>EFTSMART (Réf 320)</fullName>
+                <default>false</default>
+                <label>EFTSMART (Réf 320)</label>
+            </value>
+            <value>
+                <fullName>EFTSMART (Réf 420)</fullName>
+                <default>false</default>
+                <label>EFTSMART (Réf 420)</label>
+            </value>
+            <value>
+                <fullName>EFTSMART + PinPad avec carte (Réf 321)</fullName>
+                <default>false</default>
+                <label>EFTSMART + PinPad avec carte (Réf 321)</label>
+            </value>
+            <value>
+                <fullName>EFTSMART + PinPad avec insertion carte (Réf 421)</fullName>
+                <default>false</default>
+                <label>EFTSMART + PinPad avec insertion carte (Réf 421)</label>
+            </value>
+            <value>
+                <fullName>EFTSMART + PinPad sans insertion carte (Réf 324)</fullName>
+                <default>false</default>
+                <label>EFTSMART + PinPad sans insertion carte (Réf 324)</label>
+            </value>
+            <value>
+                <fullName>EFTSMART + PinPad sans insertion carte (Réf 424)</fullName>
+                <default>false</default>
+                <label>EFTSMART + PinPad sans insertion carte (Réf 424)</label>
+            </value>
+            <value>
+                <fullName>Extenda</fullName>
+                <default>false</default>
+                <label>Extenda</label>
+            </value>
+            <value>
+                <fullName>Hypercom</fullName>
+                <default>false</default>
+                <label>Hypercom</label>
+            </value>
+            <value>
+                <fullName>ICT220 PEM (Réf 100)</fullName>
+                <default>false</default>
+                <label>ICT220 PEM (Réf 100)</label>
+            </value>
+            <value>
+                <fullName>ICT220 PEM + PinPad sans carte (Réf 104)</fullName>
+                <default>false</default>
+                <label>ICT220 PEM + PinPad sans carte (Réf 104)</label>
+            </value>
+            <value>
+                <fullName>ICT220 PEM PinPad carte (Réf 101)</fullName>
+                <default>false</default>
+                <label>ICT220 PEM PinPad carte (Réf 101)</label>
+            </value>
+            <value>
+                <fullName>ICT220 PGEM (Réf 170)</fullName>
+                <default>false</default>
+                <label>ICT220 PGEM (Réf 170)</label>
+            </value>
+            <value>
+                <fullName>ICT220 PGEM + PP30S (Réf 174)</fullName>
+                <default>false</default>
+                <label>ICT220 PGEM + PP30S (Réf 174)</label>
+            </value>
+            <value>
+                <fullName>ICT220 PGEM PinPad Carte</fullName>
+                <default>false</default>
+                <label>ICT220 PGEM PinPad Carte</label>
+            </value>
+            <value>
+                <fullName>ICT250 PEM + PinPad avec insertion carte (Réf 101_106)</fullName>
+                <default>false</default>
+                <label>ICT250 PEM + PinPad avec insertion carte (Réf 101_106)</label>
+            </value>
+            <value>
+                <fullName>ICT250 PEM  + PPad sans insertion carte (Réf 104_109)</fullName>
+                <default>false</default>
+                <label>ICT250 PEM  + PPad sans insertion carte (Réf 104_109)</label>
+            </value>
+            <value>
+                <fullName>ICT250 PEM Sans PinPad (Réf 100_105)</fullName>
+                <default>false</default>
+                <label>ICT250 PEM Sans PinPad (Réf 100_105)</label>
+            </value>
+            <value>
+                <fullName>ICT250 PGEM (Réf 170)</fullName>
+                <default>false</default>
+                <label>ICT250 PGEM (Réf 170)</label>
+            </value>
+            <value>
+                <fullName>ICT250 PGEM + PinPad avec insertion carte (Réf 171)</fullName>
+                <default>false</default>
+                <label>ICT250 PGEM + PinPad avec insertion carte (Réf 171)</label>
+            </value>
+            <value>
+                <fullName>ICT250 PGEM + PinPad sans insertion carte (Réf 174)</fullName>
+                <default>false</default>
+                <label>ICT250 PGEM + PinPad sans insertion carte (Réf 174)</label>
+            </value>
+            <value>
+                <fullName>Ingenico</fullName>
+                <default>false</default>
+                <label>Ingenico</label>
+            </value>
+            <value>
+                <fullName>Ingenico iCT220</fullName>
+                <default>false</default>
+                <label>Ingenico iCT220</label>
+            </value>
+            <value>
+                <fullName>Ingenico iCT250</fullName>
+                <default>false</default>
+                <label>Ingenico iCT250</label>
+            </value>
+            <value>
+                <fullName>Ingenico IWL 250</fullName>
+                <default>false</default>
+                <label>Ingenico IWL 250</label>
+            </value>
+            <value>
+                <fullName>Ingenico iWL 250B</fullName>
+                <default>false</default>
+                <label>Ingenico iWL 250B</label>
+            </value>
+            <value>
+                <fullName>Ingenico iWL 250G</fullName>
+                <default>false</default>
+                <label>Ingenico iWL 250G</label>
+            </value>
+            <value>
+                <fullName>IPP320 (Réf 120)</fullName>
+                <default>false</default>
+                <label>IPP320 (Réf 120)</label>
+            </value>
+            <value>
+                <fullName>IPP320 (Réf 330)</fullName>
+                <default>false</default>
+                <label>IPP320 (Réf 330)</label>
+            </value>
+            <value>
+                <fullName>IPP350 (Réf 120)</fullName>
+                <default>false</default>
+                <label>IPP350 (Réf 120)</label>
+            </value>
+            <value>
+                <fullName>IPP350 (Réf 340)</fullName>
+                <default>false</default>
+                <label>IPP350 (Réf 340)</label>
+            </value>
+            <value>
+                <fullName>iSC480</fullName>
+                <default>false</default>
+                <label>iSC480</label>
+            </value>
+            <value>
+                <fullName>iSC480 + PPAD IPP280</fullName>
+                <default>false</default>
+                <label>iSC480 + PPAD IPP280</label>
+            </value>
+            <value>
+                <fullName>iSMP (Réf 190)</fullName>
+                <default>false</default>
+                <label>iSMP (Réf 190)</label>
+            </value>
+            <value>
+                <fullName>IWL250 Bluetooth (Réf 180)</fullName>
+                <default>false</default>
+                <label>IWL250 Bluetooth (Réf 180)</label>
+            </value>
+            <value>
+                <fullName>iWL 250 Flexible</fullName>
+                <default>false</default>
+                <label>iWL 250 Flexible</label>
+            </value>
+            <value>
+                <fullName>IWL250 GPRS (modèle 180)</fullName>
+                <default>false</default>
+                <label>IWL250 GPRS (modèle 180)</label>
+            </value>
+            <value>
+                <fullName>IWL280 TOUCH (Réf 150)</fullName>
+                <default>false</default>
+                <label>IWL280 TOUCH (Réf 150)</label>
+            </value>
+            <value>
+                <fullName>IWL350</fullName>
+                <default>false</default>
+                <label>IWL350</label>
+            </value>
+            <value>
+                <fullName>Payleven</fullName>
+                <default>false</default>
+                <label>Payleven</label>
+            </value>
+            <value>
+                <fullName>REA T3 Pro</fullName>
+                <default>false</default>
+                <label>REA T3 Pro</label>
+            </value>
+            <value>
+                <fullName>Six</fullName>
+                <default>false</default>
+                <label>Six</label>
+            </value>
+            <value>
+                <fullName>Thales</fullName>
+                <default>false</default>
+                <label>Thales</label>
+            </value>
+            <value>
+                <fullName>Thales Artema Hybrid</fullName>
+                <default>false</default>
+                <label>Thales Artema Hybrid</label>
+            </value>
+            <value>
+                <fullName>Verifone</fullName>
+                <default>false</default>
+                <label>Verifone</label>
+            </value>
+            <value>
+                <fullName>Verifone Artema Hybrid</fullName>
+                <default>false</default>
+                <label>Verifone Artema Hybrid</label>
+            </value>
+            <value>
+                <fullName>Verifone H5000</fullName>
+                <default>false</default>
+                <label>Verifone H5000</label>
+            </value>
+            <value>
+                <fullName>Verifone Mx925</fullName>
+                <default>false</default>
+                <label>Verifone Mx925</label>
+            </value>
+            <value>
+                <fullName>Verifone Vx520</fullName>
+                <default>false</default>
+                <label>Verifone Vx520</label>
+            </value>
+            <value>
+                <fullName>Verifone Vx670</fullName>
+                <default>false</default>
+                <label>Verifone Vx670</label>
+            </value>
+            <value>
+                <fullName>Verifone Vx680</fullName>
+                <default>false</default>
+                <label>Verifone Vx680</label>
+            </value>
+            <value>
+                <fullName>Verifone Vx810 Duet</fullName>
+                <default>false</default>
+                <label>Verifone Vx810 Duet</label>
+            </value>
+            <value>
+                <fullName>Verifone Vx820</fullName>
+                <default>false</default>
+                <label>Verifone Vx820</label>
+            </value>
+            <value>
+                <fullName>Verifone Vx825</fullName>
+                <default>false</default>
+                <label>Verifone Vx825</label>
+            </value>
+            <value>
+                <fullName>Yomani</fullName>
+                <default>false</default>
+                <label>Yomani</label>
+            </value>
+            <value>
+                <fullName>Ancon</fullName>
+                <default>false</default>
+                <label>Ancon</label>
+            </value>
+            <value>
+                <fullName>ICR Touch</fullName>
+                <default>false</default>
+                <label>ICR Touch</label>
+            </value>
+            <value>
+                <fullName>Kassamagneetti</fullName>
+                <default>false</default>
+                <label>Kassamagneetti</label>
+            </value>
+            <value>
+                <fullName>Lightspeed</fullName>
+                <default>false</default>
+                <label>Lightspeed</label>
+            </value>
+            <value>
+                <fullName>Micros</fullName>
+                <default>false</default>
+                <label>Micros</label>
+            </value>
+            <value>
+                <fullName>Open One</fullName>
+                <default>false</default>
+                <label>Open One</label>
+            </value>
+            <value>
+                <fullName>PC Cash</fullName>
+                <default>false</default>
+                <label>PC Cash</label>
+            </value>
+            <value>
+                <fullName>PCK</fullName>
+                <default>false</default>
+                <label>PCK</label>
+            </value>
+            <value>
+                <fullName>Pi Electronique</fullName>
+                <default>false</default>
+                <label>Pi Electronique</label>
+            </value>
+            <value>
+                <fullName>RMSV (SMS)</fullName>
+                <default>false</default>
+                <label>RMSV (SMS)</label>
+            </value>
+            <value>
+                <fullName>SU Soft</fullName>
+                <default>false</default>
+                <label>SU Soft</label>
+            </value>
+            <value>
+                <fullName>Trivec</fullName>
+                <default>false</default>
+                <label>Trivec</label>
+            </value>
+            <value>
+                <fullName>Until POS</fullName>
+                <default>false</default>
+                <label>Until POS</label>
+            </value>
+            <value>
+                <fullName>Volante</fullName>
+                <default>false</default>
+                <label>Volante</label>
+            </value>
+            <value>
+                <fullName>WinPOS</fullName>
+                <default>false</default>
+                <label>WinPOS</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Artema Hybrid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Concardis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>Hypercom</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>iWL 250 Flexible</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>REA T3 Pro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>Six</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>Thales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>Thales Artema Hybrid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Singapore</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>Verifone</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Verifone Artema Hybrid</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Verifone H5000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Verifone Vx820</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Verifone Vx825</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Austria</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Yomani</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>Ancon</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>ICR Touch</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>Kassamagneetti</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>Lightspeed</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>Micros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>Open One</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>PC Cash</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>PCK</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>Pi Electronique</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>RMSV (SMS)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>SU Soft</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>Trivec</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>Until POS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>Volante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>WinPOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Ireland</controllingFieldValue>
+            <controllingFieldValue>Norway</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sweden</controllingFieldValue>
+            <valueName>Extenda</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>EFT930B Couleur (Réf 280)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>EFT930B Noir et blanc (Réf 270)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>EFT930B Noir et blanc (Réf 280)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>EFT930G Couleur (Réf 270)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>EFT930P (Réf 260)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>EFT930S (Réf 290)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>EFT930W Noir et Blanc (Réf 250)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>EFTSMART (Réf 320)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>EFTSMART (Réf 420)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>EFTSMART + PinPad avec carte (Réf 321)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>EFTSMART + PinPad avec insertion carte (Réf 421)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>EFTSMART + PinPad sans insertion carte (Réf 324)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>EFTSMART + PinPad sans insertion carte (Réf 424)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>ICT220 PEM (Réf 100)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>ICT220 PEM + PinPad sans carte (Réf 104)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>ICT220 PEM PinPad carte (Réf 101)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>ICT220 PGEM (Réf 170)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>ICT220 PGEM + PP30S (Réf 174)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>ICT220 PGEM PinPad Carte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>ICT250 PEM + PinPad avec insertion carte (Réf 101_106)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>ICT250 PEM  + PPad sans insertion carte (Réf 104_109)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>ICT250 PEM Sans PinPad (Réf 100_105)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>ICT250 PGEM (Réf 170)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>ICT250 PGEM + PinPad avec insertion carte (Réf 171)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>ICT250 PGEM + PinPad sans insertion carte (Réf 174)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>IPP320 (Réf 120)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>IPP320 (Réf 330)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>IPP350 (Réf 120)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>IPP350 (Réf 340)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>iSC480</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>iSC480 + PPAD IPP280</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>iSMP (Réf 190)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>IWL250 Bluetooth (Réf 180)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>IWL250 GPRS (modèle 180)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>IWL280 TOUCH (Réf 150)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>France</controllingFieldValue>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <valueName>IWL350</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Cardtech</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Easy Cash</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Singapore</controllingFieldValue>
+            <controllingFieldValue>Spain</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <controllingFieldValue>Portugal</controllingFieldValue>
+            <valueName>Ingenico</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Ingenico iCT220</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Ingenico iCT250</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Italy</controllingFieldValue>
+            <controllingFieldValue>Switzerland</controllingFieldValue>
+            <valueName>Ingenico IWL 250</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Verifone Vx520</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Verifone Vx670</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Verifone Vx680</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>United Kingdom</controllingFieldValue>
+            <valueName>Verifone Vx810 Duet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Ingenico iWL 250B</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Ingenico iWL 250G</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Germany</controllingFieldValue>
+            <valueName>Verifone Mx925</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

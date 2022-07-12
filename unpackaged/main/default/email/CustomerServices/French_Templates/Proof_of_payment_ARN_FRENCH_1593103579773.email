@@ -1,0 +1,33 @@
+</style>
+<![endif]--><!--StartFragment-->
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Bonjour </span><span style="font-family:Barlow">{{{Case.Tourist__c}}}</span>,<span lang="FR" style="font-family:Barlow;mso-ansi-language:FR"><o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Merci pour votre message.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Veuillez trouver ci-dessous les d&eacute;tails de la preuve de paiement pour votre formulaire de d&eacute;taxe {{{Case.Tax_Free_Form__c}}}. Veuillez indiquer le num&eacute;ro de r&eacute;f&eacute;rence ARN (num&eacute;ro de r&eacute;f&eacute;rence de l&rsquo;acqu&eacute;reur) au sp&eacute;cialiste de votre banque. Il sera en mesure de localiser le paiement pour vous.<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Date de traitement:<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Montant:<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">ARN:<o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR"><o:p>&nbsp;</o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Si nous pouvons vous aider davantage, n&#39;h&eacute;sitez pas &agrave; nous contacter. <o:p></o:p></span></p>
+
+<p class="MsoNormal"><span lang="FR" style="font-family:Barlow;mso-ansi-language:
+FR">Cordialement.<o:p></o:p></span></p>
+<!--EndFragment--></body>
+</html>

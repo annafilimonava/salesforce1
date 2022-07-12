@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Lead Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Company Acquisition</fullName>
+                <default>false</default>
+                <label>Company Acquisition</label>
+            </value>
+            <value>
+                <fullName>Cultural &amp; Sales Training</fullName>
+                <default>false</default>
+                <label>Cultural &amp; Sales Training</label>
+            </value>
+            <value>
+                <fullName>Currency Conversion for Acquirers</fullName>
+                <default>false</default>
+                <label>Currency Conversion for Acquirers</label>
+            </value>
+            <value>
+                <fullName>Data &amp; Insights</fullName>
+                <default>false</default>
+                <label>Data &amp; Insights</label>
+            </value>
+            <value>
+                <fullName>eCommerce Merchant solutions</fullName>
+                <default>false</default>
+                <label>eCommerce Merchant solutions</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Payment Gateway</fullName>
+                <default>false</default>
+                <label>Payment Gateway</label>
+            </value>
+            <value>
+                <fullName>Payments</fullName>
+                <default>false</default>
+                <label>Payments</label>
+            </value>
+            <value>
+                <fullName>Payments - ACH</fullName>
+                <default>false</default>
+                <label>Payments - ACH</label>
+            </value>
+            <value>
+                <fullName>POS Merchant solutions</fullName>
+                <default>false</default>
+                <label>POS Merchant solutions</label>
+            </value>
+            <value>
+                <fullName>Tax Free</fullName>
+                <default>false</default>
+                <label>Tax Free</label>
+            </value>
+            <value>
+                <fullName>Prospect</fullName>
+                <default>false</default>
+                <label>Prospect</label>
+            </value>
+            <value>
+                <fullName>Client Cross Sell</fullName>
+                <default>false</default>
+                <label>Client Cross Sell</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

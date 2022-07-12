@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Value__c</fullName>
+    <externalId>false</externalId>
+    <label>Value</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Available</fullName>
+                <default>false</default>
+                <label>Available</label>
+            </value>
+            <value>
+                <fullName>Busy</fullName>
+                <default>false</default>
+                <label>Busy</label>
+            </value>
+            <value>
+                <fullName>Do not disturb</fullName>
+                <default>false</default>
+                <label>Do not disturb</label>
+            </value>
+            <value>
+                <fullName>Be right back</fullName>
+                <default>false</default>
+                <label>Be right back</label>
+            </value>
+            <value>
+                <fullName>Off work</fullName>
+                <default>false</default>
+                <label>Off work</label>
+            </value>
+            <value>
+                <fullName>Away</fullName>
+                <default>false</default>
+                <label>Away</label>
+            </value>
+            <value>
+                <fullName>In a call</fullName>
+                <default>false</default>
+                <label>In a call</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Data Page</label>
+    <license>Salesforce</license>
+    <pageAccesses>
+        <apexPage>Tableau_Payments_BrandLevel</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Tableau_Payments_CountryLevel</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Tableau_Tax_BrandLevel</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+    <pageAccesses>
+        <apexPage>Tableau_Tax_CountryLevel</apexPage>
+        <enabled>true</enabled>
+    </pageAccesses>
+</PermissionSet>

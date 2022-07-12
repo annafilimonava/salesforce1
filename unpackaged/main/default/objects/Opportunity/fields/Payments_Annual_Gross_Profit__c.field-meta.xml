@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Payments_Annual_Gross_Profit__c</fullName>
+    <externalId>false</externalId>
+    <formula>(Payments_Annual_Value__c * VISA_MC_Intl_of_Total__c * VISA_MC_Intl__c) + (Payments_Annual_Value__c * VISA_MC_Domestic_EEA_of_Total__c * VISA_MC_Domestic_EEA__c) + (Payments_Annual_Value__c * Union_Pay_of_Total__c * Union_Pay__c) + (Payments_Annual_Value__c * AMEX_of_Total__c * AMEX__c) + 
+(Payments_Annual_Value__c * Alipay_of_Total__c * Alipay__c) + 
+(Payments_Annual_Value__c * WeChat_of_Total__c * WeChat__c) + 
+(Payments_Annual_Value__c * JCB_of_Total__c * JCB__c)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Payments: Annual Gross Profit</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

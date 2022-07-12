@@ -1,0 +1,7 @@
+An order for {!Account.Name} {!Account.Back_End_System__c} Number {!Account.Account_ID__c} has been submitted for dispatch by {!Order.ActivatedBy}.
+<p>
+Priority: {!Order.Priority__c}
+<p>
+Refund Template: {!Account.Refund_Template__c}
+<p>
+You may view the record by clicking here ->{!Order.Link}

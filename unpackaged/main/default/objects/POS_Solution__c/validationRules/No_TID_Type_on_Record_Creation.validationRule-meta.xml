@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_TID_Type_on_Record_Creation</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(ISNEW(), TEXT(TID_Type__c) &lt;&gt; &quot;&quot;)</errorConditionFormula>
+    <errorMessage>Please enter the TID after record is created.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,19 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body bgcolor="#f2f2f2" style="height: auto; min-height: auto;"> 
+  <table align="center" bgcolor="#ffffff" border="0" cellpadding="20" cellspacing="2" width="540"> 
+   <tbody> 
+    <tr> 
+     <td><img alt="planet-retail-report" src="{[devName:planetretailreport]}" style="max-width: 1447.2326904296874px" title="planet-retail-report" /> <p><span style="font-family:&quot;Barlow&quot;">Dear {{{Recipient.FirstName}}},<br /> <br /> I hope you are well.<br /> <br /> I wanted to let you know that we’ve just published our </span><a href="https://www.planetpayment.com/media/5354/planet-retail-report.pdf"><span style="font-family:&quot;Barlow&quot;">Planet Retail Report</span></a><span style="font-family:&quot;Barlow&quot;"> "The best of online in-store: Retail’s next big prize".<br /> <br /> I'd like you to be one of the first people to receive the report.<br /> <br /> In the report, we look at ways in which retailers can deliver better shopping experiences, convenience, and value while generating more revenue from payments. &nbsp;<br /> <br /> <span style="font-family:&quot;Barlow&quot;">We also identify how you can:</span></span></p> 
+      <ul> 
+       <li><span style="font-family:&quot;Barlow&quot;"><span style="font-family:&quot;Barlow&quot;">Build a true unified commerce model that links online and offline to unlimited inventories</span></span></li> 
+       <li><span style="font-family:&quot;Barlow&quot;"><span style="font-family:&quot;Barlow&quot;">Make life easier by consolidating&nbsp;multiple supplier arrangements onto one platform</span></span></li> 
+       <li><span style="font-family:&quot;Barlow&quot;"><span style="font-family:&quot;Barlow&quot;">Better understand your customers with richer data and deeper insights through a single customer view.</span></span></li> 
+      </ul> <span style="font-family:&quot;Barlow&quot;"><span style="font-family:&quot;Barlow&quot;">If you would like to discuss any of the ideas further and get some more Tinngggg in your payments, then please let me know and we can arrange a call.<br /> <br /> Happy reading!<br /> <br /> All the best,</span></span> <p>&nbsp;</p> </td> 
+    </tr> 
+   </tbody> 
+  </table> 
+ </body>
+</html>

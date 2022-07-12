@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VOLTA_ARR_BIDA_SHOPPING</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_ID__c</columns>
+    <columns>ACCOUNT.ADDRESS1_CITY</columns>
+    <columns>ACCOUNT.ADDRESS1_STREET</columns>
+    <columns>ACCOUNT.TYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_STREET</field>
+        <operation>contains</operation>
+        <value>ARRABIDA</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.TYPE</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>Account_ID__c</field>
+        <operation>contains</operation>
+        <value>PTS</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.ADDRESS1_STREET</field>
+        <operation>contains</operation>
+        <value>arrabida</value>
+    </filters>
+    <label>VOLTA ARRÁBIDA SHOPPING</label>
+    <sharedTo>
+        <group>Portugal_All</group>
+    </sharedTo>
+</ListView>

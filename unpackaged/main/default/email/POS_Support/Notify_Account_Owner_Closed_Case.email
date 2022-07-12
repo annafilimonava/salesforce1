@@ -1,0 +1,14 @@
+<font face="arial" size=2> 
+Dear {!Account.OwnerFirstName},<p>
+
+The POS Support case on {!NullValue(Case.Case_Account_Name__c, (Case.POS_Account__c))} has been closed.<p>
+
+Type: {!Case.Type}<p>
+
+Case Reason: {!Case.Reason}<p>
+
+Subject: {!Case.00N2400000IQf0F}<p>
+
+Resolution: {!Case.Resolution_Reason__c}<p>
+
+You can see full details by clicking this link: {!Case.Link}<p>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_Support_DE_POS_Solution</fullName>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Street__c</columns>
+    <columns>City__c</columns>
+    <columns>Post_Code__c</columns>
+    <columns>Terminal_ID_TID__c</columns>
+    <columns>Product__c</columns>
+    <columns>Solution__c</columns>
+    <columns>Terminal__c</columns>
+    <columns>Base_Station__c</columns>
+    <columns>Printer__c</columns>
+    <columns>Pinpad__c</columns>
+    <columns>Passport_Scanner__c</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>POS Support DE</label>
+    <sharedTo>
+        <role>Germany_International_Accounts</role>
+        <role>Germany_Management</role>
+        <role>Germany_Marketing</role>
+        <role>Germany_National_Accounts</role>
+        <role>Germany_New_Business</role>
+        <role>Germany_Sales_Support</role>
+        <role>POS_Support_DE</role>
+        <role>POS_Support_External_DE</role>
+        <role>POS_Support_Management</role>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Annual_Net_Commission__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Calendar_Month__c = 1, TF_Net_Commission_YTD__c/0.0668027, 
+IF(Calendar_Month__c = 2, TF_Net_Commission_YTD__c/0.1216914, 
+IF(Calendar_Month__c = 3, TF_Net_Commission_YTD__c/0.1798622, 
+IF(Calendar_Month__c = 4, TF_Net_Commission_YTD__c/0.2444293, 
+IF(Calendar_Month__c = 5, TF_Net_Commission_YTD__c/0.3183957, 
+IF(Calendar_Month__c = 6, TF_Net_Commission_YTD__c/0.4000884, 
+IF(Calendar_Month__c = 7, TF_Net_Commission_YTD__c/0.4998963, 
+IF(Calendar_Month__c = 8, TF_Net_Commission_YTD__c/0.620197, 
+IF(Calendar_Month__c = 9, TF_Net_Commission_YTD__c/0.7299248, 
+IF(Calendar_Month__c = 10, TF_Net_Commission_YTD__c/0.8426878, 
+IF(Calendar_Month__c = 11, TF_Net_Commission_YTD__c/0.9247611, 
+IF(Calendar_Month__c = 12, TF_Net_Commission_YTD__c/1,0))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Annual Net Commission</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

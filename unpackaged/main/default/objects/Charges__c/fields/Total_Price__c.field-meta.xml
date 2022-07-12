@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Total_Price__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Charges__c)=&quot;Incentive&quot;,0-(Unit_Price__c*Quantity__c), 
+IF(TEXT(Charges__c)=&quot;Terminal Rental Fee Per Terminal&quot;,(Unit_Price__c*Recurring_Quantity__c), 
+IF(TEXT(Charges__c)=&quot;SIM Rental&quot;,(Unit_Price__c*Recurring_Quantity__c), 
+IF(TEXT(Charges__c)=&quot;Gateway Recurring Fee&quot;,(Unit_Price__c*Recurring_Quantity__c), 
+IF(TEXT(Charges__c)=&quot;Service &amp; Support Recurring Fee Per Location&quot;,(Unit_Price__c*Recurring_Quantity__c), 
+IF(TEXT(Charges__c)=&quot;Service &amp; Support Recurring Fee Per Terminal&quot;,(Unit_Price__c*Recurring_Quantity__c), 
+IF(TEXT(Charges__c)=&quot;Terminal Managed Services Per Terminal&quot;,(Unit_Price__c*Recurring_Quantity__c), 
+IF(TEXT(Charges__c)=&quot;Token Service Support Per Merchant&quot;,(Unit_Price__c*Recurring_Quantity__c), 
+IF(TEXT(Charges__c)=&quot;Gateway Processing Per Location&quot;,(Unit_Price__c*Recurring_Quantity__c), 
+IF(TEXT(Charges__c)=&quot;Gateway Processing Per Terminal&quot;,(Unit_Price__c*Recurring_Quantity__c), 
+IF(TEXT(Charges__c)=&quot;Other&quot; &amp;&amp; TEXT(Type__c)&lt;&gt;&quot;One Off&quot;,(Unit_Price__c*Recurring_Quantity__c),
+Unit_Price__c  *  Quantity__c)))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Total Price</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

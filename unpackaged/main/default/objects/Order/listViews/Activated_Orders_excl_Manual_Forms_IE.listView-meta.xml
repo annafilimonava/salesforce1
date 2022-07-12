@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Activated_Orders_excl_Manual_Forms_IE</fullName>
+    <columns>ORDERS.ORDER_NUMBER</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>Account_ID__c</columns>
+    <columns>Priority__c</columns>
+    <columns>ORDER.BILLING_STREET</columns>
+    <columns>ORDER.BILLING_CITY</columns>
+    <columns>ORDER.BILLING_ZIP</columns>
+    <columns>ORDERS.EFFECTIVE_DATE</columns>
+    <columns>ORDERS.STATUS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>ORDERS.STATUS</field>
+        <operation>equals</operation>
+        <value>Activated</value>
+    </filters>
+    <filters>
+        <field>Manual_Forms__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>Ireland</value>
+    </filters>
+    <label>Activated Orders excl Manual Forms IE</label>
+    <sharedTo>
+        <group>Ireland_All_Users</group>
+    </sharedTo>
+</ListView>

@@ -1,0 +1,4 @@
+<apex:page standardController="BI_Analytics__c" showheader="false" sidebar="false">
+  <apex:iframe src="https://intelligence.planetpayment.com/t/Planet/views/OpportunityAnalysisWorkbook/Summary?:showAppBanner=false&:embed=yes&:display_count=n&:showShareOptions=true&:toolbar=yes&:highdpi=true&:showVizHome=n&:origin=Salesforce" height="900px" width="100%" scrolling="false">
+  </apex:iframe>
+</apex:page>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Country_Target_DCC__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Account.Owning_Country__c) = &quot;Austria&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Belgium&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Czech Republic&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Cyprus&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Denmark&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Faroe Islands&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Finland&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;France&quot;, 508228,
+IF(TEXT(Account.Owning_Country__c) = &quot;Germany&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Greece&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Iceland&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Ireland&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Italy&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Luxembourg&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Netherlands&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Norway&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Poland&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Portugal&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Russian Federation&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Spain&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Sweden&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Switzerland&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;Turkey&quot;, 0,
+IF(TEXT(Account.Owning_Country__c) = &quot;United Kingdom&quot;, 169095, 0))))))))))))))))))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Country Target DCC</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

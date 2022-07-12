@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CONTATTI_TAORMINA</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>CONTACT.TITLE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>ITALY</value>
+    </filters>
+    <filters>
+        <field>Account_Type__c</field>
+        <operation>equals</operation>
+        <value>active</value>
+    </filters>
+    <filters>
+        <field>CONTACT.LAST_NAME</field>
+        <operation>notEqual</operation>
+        <value>PEC</value>
+    </filters>
+    <filters>
+        <field>Account_ID__c</field>
+        <operation>startsWith</operation>
+        <value>ITS</value>
+    </filters>
+    <filters>
+        <field>CONTACT.ADDRESS2_ZIP</field>
+        <operation>equals</operation>
+        <value>94011</value>
+    </filters>
+    <filters>
+        <field>Position__c</field>
+        <operation>contains</operation>
+        <value>Accountant,Administration Manager,Assistant Manager,Front Office Manager,Other,Owner,Retail Operations,Retail Operations Manager,Sales Manager,Store Manager,Store Operations,Unknown</value>
+    </filters>
+    <filters>
+        <field>Account_City__c</field>
+        <operation>contains</operation>
+        <value>agira,agira (EN)</value>
+    </filters>
+    <filters>
+        <field>Parent_Account_On_Boarding__c</field>
+        <operation>equals</operation>
+        <value>yes</value>
+    </filters>
+    <label>CONTATTI AGIRA</label>
+</ListView>

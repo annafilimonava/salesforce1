@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Spam_Trap_for_Web_to_Lead</fullName>
+    <active>true</active>
+    <description>Catches rude or offensive words submitted via Planet website - in response to spam received on 22-11-21</description>
+    <errorConditionFormula>OR(
+CONTAINS(Description, &quot;nude&quot;),
+CONTAINS(Description, &quot;sex&quot;),
+CONTAINS(Description, &quot;horny&quot;),
+CONTAINS(Description, &quot;porn&quot;),
+CONTAINS(Description, &quot;articlemarket&quot;),
+CONTAINS(Description, &quot;boostleadgeneration.com&quot;)
+)</errorConditionFormula>
+    <errorMessage>This Lead has not been added.  Please check with your Admin.</errorMessage>
+</ValidationRule>

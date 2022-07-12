@@ -1,0 +1,12 @@
+<font face="verdana,arial,sans-serif">
+A New Opportunity with a Value of {!Opportunity.Opportunity_Value__c} has been created on {!Opportunity.Account}.<p>
+
+Opportunity Owner: {!Opportunity.OwnerFullName}<br>
+Owning Country: {!Opportunity.Owning_Country__c}<br>
+Opportunity Product: {!Opportunity.Product__c}<br>
+Opportunity Type: {!Opportunity.Type}<br>
+Stage: {!Opportunity.StageName}<br>
+<br>
+To view the opportunity click the link below.<br>
+<br>
+{!Opportunity.Link}

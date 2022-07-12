@@ -1,0 +1,30 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">Thank you for your email. I’m sorry to hear that you were expecting a refund in a different currency. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">I would like to inform you that Planet issues refunds according to the currency recognized by the Bin Range Tables (BRT). &shy;&shy; 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">The first 6 digits of every credit card are known as the Bank Identification Number (BIN) and they allow us to identify the bank as well as the country of issue. In our terms and conditions, paragraph 16, we state that all refunds are processed in the customer’s local currency. As your credit card number was recognized as X$X<span style="color:#FF6600">XXX</span><span style="color:red"> </span>your refund amount was sent in X$X<span style="color:#FF6600">XXX. </span><span style="color:red"> 
+     <o:p></o:p></span></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow;color:red"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-family:Barlow">My apologies for any inconvenience caused and if we can of any further assistance, please let us know.</span></p>
+ </body>
+</html>

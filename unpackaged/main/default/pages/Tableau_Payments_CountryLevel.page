@@ -1,0 +1,4 @@
+<apex:page standardController="Account" showheader="false" sidebar="false">
+  <apex:iframe src="https://intelligence.planetpayment.com/t/Planet/views/PaymentWeeklySummary/Summary?:showAppBanner=false&:embed=yes&:tabs=no&:display_count=n&:showShareOptions=false&:toolbar=yes&:highdpi=true&:showVizHome=n&:origin=viz_share_link&StoreCountry={!URLENCODE(Account.Owning_Country__c)}&Salesforce%20Brand={!URLENCODE(Account.Warehouse_Brand__c)}" height="900px" width="100%" scrolling="false">
+  </apex:iframe>
+</apex:page>

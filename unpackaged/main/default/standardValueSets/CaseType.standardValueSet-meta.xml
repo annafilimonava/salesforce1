@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Access</fullName>
+        <default>false</default>
+        <label>Access</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Acquiring</fullName>
+        <default>false</default>
+        <label>Acquiring</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Amendment</fullName>
+        <default>false</default>
+        <label>Amendment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Debit</fullName>
+        <default>false</default>
+        <label>Debit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Feature Request</fullName>
+        <default>false</default>
+        <label>Feature Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>General Information</fullName>
+        <default>false</default>
+        <label>General Information</label>
+    </standardValue>
+    <standardValue>
+        <fullName>GLTTP</fullName>
+        <default>false</default>
+        <label>GLTTP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invoices</fullName>
+        <default>false</default>
+        <label>Invoices</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Manual Set Up</fullName>
+        <default>false</default>
+        <label>Manual Set Up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Partnership</fullName>
+        <default>false</default>
+        <label>New Partnership</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Onboarding</fullName>
+        <default>false</default>
+        <label>Onboarding</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Order</fullName>
+        <default>false</default>
+        <label>Order</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other Query</fullName>
+        <default>false</default>
+        <label>Other Query</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Others</fullName>
+        <default>false</default>
+        <label>Others</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paid and Positive</fullName>
+        <default>false</default>
+        <label>Paid and Positive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Payment Issues</fullName>
+        <default>false</default>
+        <label>Payment Issues</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Problem</fullName>
+        <default>false</default>
+        <label>Problem</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Queries</fullName>
+        <default>false</default>
+        <label>Queries</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Question</fullName>
+        <default>false</default>
+        <label>Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Questions</fullName>
+        <default>false</default>
+        <label>Questions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Questions about Tax Free</fullName>
+        <default>false</default>
+        <label>Questions about Tax Free</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reporting</fullName>
+        <default>false</default>
+        <label>Reporting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Roll Out</fullName>
+        <default>false</default>
+        <label>Roll Out</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Stationary</fullName>
+        <default>false</default>
+        <label>Stationary</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Store Amendment</fullName>
+        <default>false</default>
+        <label>Store Amendment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Support Request</fullName>
+        <default>false</default>
+        <label>Support Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Switchboard</fullName>
+        <default>false</default>
+        <label>Switchboard</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Technical Issues</fullName>
+        <default>false</default>
+        <label>Technical Issues</label>
+    </standardValue>
+    <standardValue>
+        <fullName>VAT Only</fullName>
+        <default>false</default>
+        <label>VAT Only</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Voiding</fullName>
+        <default>false</default>
+        <label>Voiding</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Voucher Issues</fullName>
+        <default>false</default>
+        <label>Voucher Issues</label>
+    </standardValue>
+</StandardValueSet>

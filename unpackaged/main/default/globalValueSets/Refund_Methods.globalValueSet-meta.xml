@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>WeChat Real-Time</fullName>
+        <default>false</default>
+        <label>WeChat Real-Time</label>
+    </customValue>
+    <customValue>
+        <fullName>Union Pay Instant Store</fullName>
+        <default>false</default>
+        <label>Union Pay Instant Store</label>
+    </customValue>
+    <customValue>
+        <fullName>Alipay Instant Store</fullName>
+        <default>false</default>
+        <label>Alipay Instant Store</label>
+    </customValue>
+    <customValue>
+        <fullName>TOPOS</fullName>
+        <default>false</default>
+        <label>TOPOS</label>
+    </customValue>
+    <customValue>
+        <fullName>Fast Refund Store</fullName>
+        <default>false</default>
+        <label>Fast Refund Store</label>
+    </customValue>
+    <customValue>
+        <fullName>Ctrip Pass</fullName>
+        <default>false</default>
+        <label>Ctrip Pass</label>
+    </customValue>
+    <masterLabel>Refund Methods</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

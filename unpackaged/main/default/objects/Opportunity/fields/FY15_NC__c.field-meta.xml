@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FY15_NC__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Contract_Start_Date__c &lt; DATE(YEAR(TODAY()),01,01), TF_Annual_Net_Commission1__c *  FY15__c, 0)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>TF : FY NC</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transit_Units_GB</fullName>
+    <columns>NAME</columns>
+    <columns>Unit_Type__c</columns>
+    <columns>Unit_Subtype__c</columns>
+    <columns>Serial_Number__c</columns>
+    <columns>Asset_Number__c</columns>
+    <columns>Location__c</columns>
+    <columns>Owning_Country__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Transit</value>
+    </filters>
+    <label>Transit Units GB</label>
+    <language>en_US</language>
+    <queue>POS_Support_GB</queue>
+    <sharedTo>
+        <role>POS_Support_GB</role>
+        <role>POS_Support_Management</role>
+    </sharedTo>
+</ListView>

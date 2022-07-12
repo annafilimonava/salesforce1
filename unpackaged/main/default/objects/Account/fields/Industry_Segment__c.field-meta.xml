@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Industry_Segment__c</fullName>
+    <externalId>false</externalId>
+    <label>Industry Segment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Luxury</fullName>
+                <default>false</default>
+                <label>Luxury</label>
+            </value>
+            <value>
+                <fullName>Medium</fullName>
+                <default>false</default>
+                <label>Medium</label>
+            </value>
+            <value>
+                <fullName>Basic</fullName>
+                <default>false</default>
+                <label>Basic</label>
+            </value>
+            <value>
+                <fullName>IAD/ISO</fullName>
+                <default>false</default>
+                <label>IAD/ISO</label>
+            </value>
+            <value>
+                <fullName>Processing Provider</fullName>
+                <default>false</default>
+                <label>Processing Provider</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

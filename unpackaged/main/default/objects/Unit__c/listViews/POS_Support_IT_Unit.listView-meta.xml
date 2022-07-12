@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>POS_Support_IT_Unit</fullName>
+    <columns>NAME</columns>
+    <columns>Unit_Type__c</columns>
+    <columns>Unit_Subtype__c</columns>
+    <columns>Status__c</columns>
+    <columns>POS_Solution__c</columns>
+    <columns>PTID__c</columns>
+    <columns>Serial_Number__c</columns>
+    <columns>Unit_Supported_Comms_Type__c</columns>
+    <columns>Owning_Country__c</columns>
+    <columns>Location__c</columns>
+    <columns>Delivery_Location_Recipient__c</columns>
+    <filterScope>Queue</filterScope>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Stock</value>
+    </filters>
+    <label>POS Support Italy</label>
+    <queue>POS_Support_Italy</queue>
+    <sharedTo>
+        <group>POS_Support_GB</group>
+        <role>POS_Support_IT</role>
+        <role>POS_Support_Management</role>
+    </sharedTo>
+</ListView>

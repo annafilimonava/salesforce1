@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mass_Roll_Out_PAOL_All_Pending</fullName>
+    <columns>NAME</columns>
+    <columns>Head_Office_Rank__c</columns>
+    <columns>On_Boarding__c</columns>
+    <columns>Account_ID__c</columns>
+    <columns>Account_Name__c</columns>
+    <columns>Product__c</columns>
+    <columns>PSP1__c</columns>
+    <columns>Terminal_ID_TID__c</columns>
+    <columns>Number_of_HO_Child_Records__c</columns>
+    <columns>Bank_TID__c</columns>
+    <columns>Terminal__c</columns>
+    <columns>Comms_Type__c</columns>
+    <columns>Proposed_Solution__c</columns>
+    <columns>Proposed_Solution_Store__c</columns>
+    <columns>Account_Owner__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>012240000002qoj</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Managed,Active</value>
+    </filters>
+    <filters>
+        <field>Product__c</field>
+        <operation>notEqual</operation>
+        <value>Payments,Payments &amp; DCC</value>
+    </filters>
+    <filters>
+        <field>Solution__c</field>
+        <operation>equals</operation>
+        <value>PA,PA 3rd Party,PAOL</value>
+    </filters>
+    <filters>
+        <field>Terminal__c</field>
+        <operation>notEqual</operation>
+        <value>Artema Compact,Artema Compact V3,Omni 3350,Omni 3750,Vx510,Vx520,Vx570,Vx610,Vx670,Vx680,Vx690,Vx810,Vx820</value>
+    </filters>
+    <filters>
+        <field>Configured__c</field>
+        <operation>notEqual</operation>
+        <value>Yes</value>
+    </filters>
+    <label>Mass Roll Out PAOL_All_Pending</label>
+</ListView>

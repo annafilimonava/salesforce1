@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Premier_Vision</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(Planet_Intelligence__c=TRUE, Email =&quot;&quot;)</errorConditionFormula>
+    <errorDisplayField>Planet_Intelligence__c</errorDisplayField>
+    <errorMessage>In order to receive Premier Vision a contact must have an e-mail address</errorMessage>
+</ValidationRule>

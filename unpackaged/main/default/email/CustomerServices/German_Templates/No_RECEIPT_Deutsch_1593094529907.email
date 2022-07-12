@@ -1,0 +1,28 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  Sehr geehrte 
+  <span style="color:#e74c3c;">-/er ………,</span> 
+  <br /> 
+  <br /> Danke f&uuml;r Ihre Email. 
+  <br /> 
+  <br /> Wir haben Ihr Tax Free Formular {{{Case.Tax_Free_Form__c}}}erhalten aber f&uuml;r die Bearbeitung ben&ouml;tigen wir noch die Originalkassenquittung. 
+  <br /> 
+  <br /> Bitte schicken Sie die fehlende Quittung an die unten genannte Adresse zu. 
+  <br /> 
+  <br /> PREMIER TAX FREE 
+  <br /> ul. DOMANIEWSKA 39 
+  <br /> WARSZAWA 
+  <br /> POLAND&nbsp; 
+  <br /> 02-672 
+  <br /> 
+  <br /> Bitte schreiben Sie noch auf der Quittung Ihre Tax Free Formularnummer: {{{Case.Tax_Free_Form__c}}} 
+  <br /> 
+  <br /> Bei weiteren Fragen stehe ich gerne zur Verf&uuml;gung. 
+  <br /> 
+  <br /> Herzliche Gr&uuml;&szlig;e, 
+  <br /> &nbsp;
+ </body>
+</html>

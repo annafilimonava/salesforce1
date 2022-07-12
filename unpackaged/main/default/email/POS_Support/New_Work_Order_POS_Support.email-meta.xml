@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>New Work Order POS Support</name>
+    <style>none</style>
+    <subject>New Work Order, Number {!WorkOrder.WorkOrderNumber}, Priority {!WorkOrder.Priority}, Status {!WorkOrder.Status} Created for {!WorkOrder.Account}</subject>
+    <textOnly>Dear POS Support,
+
+A new Work Order for a POS Solution has been created for {!WorkOrder.Account} with a due date of {!WorkOrder.Due_Date__c} and assigned to POS Support.
+
+Click on the below link to go directly to the Work Order.
+
+{!WorkOrder.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

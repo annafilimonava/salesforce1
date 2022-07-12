@@ -1,0 +1,9 @@
+<!--
+  @description       : 
+  @author            : Florin Galea
+  @group             : 
+  @last modified on  : 05-03-2022
+  @last modified by  : Florin Galea
+-->
+<apex:page StandardController="Hardware__c" extensions="AddHardwareFlowRouter" action="{!routeToFlow}" cache="false">
+</apex:page>

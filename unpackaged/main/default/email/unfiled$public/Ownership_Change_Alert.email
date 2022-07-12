@@ -1,0 +1,5 @@
+Dear Stuart,<br>
+<br>
+The owner on opportunity {!Opportunity.Name} has been changed from you to {!Opportunity.OwnerFullName}.<br>
+<br>
+To view the opportunity click this link {!Opportunity.Link}.

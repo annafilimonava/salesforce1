@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solution__c</fullName>
+    <externalId>false</externalId>
+    <label>Solution</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Digital Tax Free</fullName>
+                <default>false</default>
+                <label>Digital Tax Free</label>
+            </value>
+            <value>
+                <fullName>Free Axept</fullName>
+                <default>false</default>
+                <label>Free Axept</label>
+            </value>
+            <value>
+                <fullName>Free Core</fullName>
+                <default>false</default>
+                <label>Free Core</label>
+            </value>
+            <value>
+                <fullName>Free Form</fullName>
+                <default>false</default>
+                <label>Free Form</label>
+            </value>
+            <value>
+                <fullName>Free Move</fullName>
+                <default>false</default>
+                <label>Free Move</label>
+            </value>
+            <value>
+                <fullName>Free Serve</fullName>
+                <default>false</default>
+                <label>Free Serve</label>
+            </value>
+            <value>
+                <fullName>Free Solo</fullName>
+                <default>false</default>
+                <label>Free Solo</label>
+            </value>
+            <value>
+                <fullName>Free Solo Evolution</fullName>
+                <default>false</default>
+                <label>Free Solo Evolution</label>
+            </value>
+            <value>
+                <fullName>Premier Automatic Batch</fullName>
+                <default>false</default>
+                <label>Premier Automatic Batch</label>
+            </value>
+            <value>
+                <fullName>Premier Automatic Offline</fullName>
+                <default>false</default>
+                <label>Premier Automatic Offline</label>
+            </value>
+            <value>
+                <fullName>Premier Automatic Real-time</fullName>
+                <default>false</default>
+                <label>Premier Automatic Real-time</label>
+            </value>
+            <value>
+                <fullName>Premier Connect Batch</fullName>
+                <default>false</default>
+                <label>Premier Connect Batch</label>
+            </value>
+            <value>
+                <fullName>Premier Connect Real-time</fullName>
+                <default>false</default>
+                <label>Premier Connect Real-time</label>
+            </value>
+            <value>
+                <fullName>Premier Desktop</fullName>
+                <default>false</default>
+                <label>Premier Desktop</label>
+            </value>
+            <value>
+                <fullName>Premier Integrated</fullName>
+                <default>false</default>
+                <label>Premier Integrated</label>
+            </value>
+            <value>
+                <fullName>Premier Integrated Interface</fullName>
+                <default>false</default>
+                <label>Premier Integrated Interface</label>
+            </value>
+            <value>
+                <fullName>Premier Kiosk</fullName>
+                <default>false</default>
+                <label>Premier Kiosk</label>
+            </value>
+            <value>
+                <fullName>Premier Manual</fullName>
+                <default>false</default>
+                <label>Premier Manual</label>
+            </value>
+            <value>
+                <fullName>Premier Mobile</fullName>
+                <default>false</default>
+                <label>Premier Mobile</label>
+            </value>
+            <value>
+                <fullName>Premier Online</fullName>
+                <default>false</default>
+                <label>Premier Online</label>
+            </value>
+            <value>
+                <fullName>TP Automatic Offline</fullName>
+                <default>false</default>
+                <label>TP Automatic Offline</label>
+            </value>
+            <value>
+                <fullName>TP Automatic Batch</fullName>
+                <default>false</default>
+                <label>TP Automatic Batch</label>
+            </value>
+            <value>
+                <fullName>TP Automatic Real-time</fullName>
+                <default>false</default>
+                <label>TP Automatic Real-time</label>
+            </value>
+            <value>
+                <fullName>Not Supported</fullName>
+                <default>false</default>
+                <label>Not Supported</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

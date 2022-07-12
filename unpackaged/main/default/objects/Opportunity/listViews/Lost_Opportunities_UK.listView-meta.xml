@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lost_Opportunities_UK</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Contract_Start_Date__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Total_Opportunity_Value__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Owning_Country__c</field>
+        <operation>equals</operation>
+        <value>United Kingdom</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.CLOSE_DATE</field>
+        <operation>greaterThan</operation>
+        <value>1/1/2021</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Proposal Lost</value>
+    </filters>
+    <filters>
+        <field>Product__c</field>
+        <operation>equals</operation>
+        <value>DCC,DCC &amp; Payments,DCC &amp; Payments (Acquiring),TF &amp; DCC,TF &amp; DCC &amp; Payments,Wirecard,Payments,Gateway,Acquiring and Gateway,Acquiring &amp; TF,Gateway &amp; TF,Acquiring &amp; Gateway &amp; TF,Indirect,Gateway &amp; DCC,Acquiring</value>
+    </filters>
+    <label>Lost Opportunities UK</label>
+</ListView>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_TF_Issuing_SolutionR__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Current_TF_Issuing_Solution__c) = &quot;Stand Alone&quot;, 2,
+IF(TEXT(Current_TF_Issuing_Solution__c) = &quot;Online Terminal&quot;, 3, 
+IF(TEXT(Current_TF_Issuing_Solution__c) = &quot;Tablet&quot;, 4, 
+IF(TEXT(Current_TF_Issuing_Solution__c) = &quot;Online Web-based&quot;, 3, 
+IF(TEXT(Current_TF_Issuing_Solution__c) = &quot;Integrated Solution&quot;, 5,
+IF(TEXT(Current_TF_Issuing_Solution__c) = &quot;Other/Unknown&quot;, 3,
+IF(TEXT(Current_TF_Issuing_Solution__c) = &quot;Manual Forms&quot;, 0.1, 0)))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Current TF Issuing SolutionR</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

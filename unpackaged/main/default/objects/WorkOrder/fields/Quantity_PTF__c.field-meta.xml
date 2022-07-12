@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Quantity_PTF__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(TEXT(Terminal_Type__c) = &quot;Samsung A10&quot;, Quantity__c,
+IF(TEXT(Terminal_Type__c) = &quot;Samsung Tab Active2&quot;, Quantity__c, 0))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Quantity PTF</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

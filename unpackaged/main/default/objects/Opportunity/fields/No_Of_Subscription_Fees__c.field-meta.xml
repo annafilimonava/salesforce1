@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Of_Subscription_Fees__c</fullName>
+    <description>Shows the number of subscription fees records attached to a particular opportunity.</description>
+    <externalId>false</externalId>
+    <label>No_Of_Subscription_Fees</label>
+    <summaryForeignKey>Subscription_Fees__c.Opportunity__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

@@ -1,0 +1,20 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size: 12pt; font-family: SimSun;">尊敬的{{{Case.Tourist__c}}}，</span><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size: 12pt; font-family: SimSun;">感谢您的邮件。</span><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size: 12pt; font-family: SimSun;">您的帐户被扣款的原因是我们未收到您的退税单{{{Case.Tax_Free_Form__c}}}。</span><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size: 12pt; font-family: SimSun;">在市中心获取现金退税款后，如果我们在</span><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;">21</span><span lang="ZH-CN" style="font-size: 12pt; font-family: SimSun;">天内未收到您的经海关验证的退税单，根据您已签署的声明，将授权</span><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;">Planet</span><span lang="ZH-CN" style="font-size: 12pt; font-family: SimSun;">从您的担保的信用卡中扣回退税款或并附以罚金。</span><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size: 12pt; font-family: SimSun;">截至今日，我们尚未收到您的退税单，因此您的帐户已自动扣除现金退税款金额。</span><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size: 12pt; font-family: SimSun;">我们在收到并处理您的有效退税单后，将能够将您的退税款金额归还给您。</span><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;"> </span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;">&nbsp; </span></p> 
+  <p class="MsoNormal"><span lang="ZH-CN" style="font-size: 12pt; font-family: SimSun;">如果您需要进一步的帮助信息，请随时联系我们。</span><span lang="EN-IE" style="font-size: 12pt; font-family: SimSun;"> </span></p>
+ </body>
+</html>

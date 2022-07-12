@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Value_Proposition__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Standard Service pays highest rebate but lowest ‘TF &amp; DCC revenue ¦ 
+Premier Service pays lower rebates but generates more TF &amp; DCC revenue ¦ 
+Premier-Plus Service ideally pays Zero Rebates as it involves PTF investing in growing share of Non-EU market</inlineHelpText>
+    <label>Value Proposition</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Standard Service</fullName>
+                <default>false</default>
+                <label>Standard Service</label>
+            </value>
+            <value>
+                <fullName>Premier Service</fullName>
+                <default>false</default>
+                <label>Premier Service</label>
+            </value>
+            <value>
+                <fullName>Premier-Plus Service</fullName>
+                <default>false</default>
+                <label>Premier-Plus Service</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

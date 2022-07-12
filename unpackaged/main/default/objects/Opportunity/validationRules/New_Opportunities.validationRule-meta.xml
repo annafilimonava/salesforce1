@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>New_Opportunities</fullName>
+    <active>true</active>
+    <description>Prevents users from creating new Opportunities at stages &#39;Opportunity Recorded&#39; or &#39;Proposal Qualified&#39;.</description>
+    <errorConditionFormula>AND(
+NOT(OR(
+TEXT(StageName) = &quot;Opportunity Recorded&quot;, 
+TEXT(StageName) = &quot;Prospect Qualified&quot; 
+)),  
+ISNEW(),
+ NOT($User.Email = &quot;tim.moyce@planetpayment.com&quot;)
+)</errorConditionFormula>
+    <errorMessage>You can only create new Opportunities at stages &#39;Opportunity Recorded&#39; or &#39;Proposal Qualified&#39;.</errorMessage>
+</ValidationRule>

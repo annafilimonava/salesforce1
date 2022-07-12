@@ -1,0 +1,2 @@
+<apex:page standardController="BI_Analytics__c" showheader="false" sidebar="false">
+</apex:page>

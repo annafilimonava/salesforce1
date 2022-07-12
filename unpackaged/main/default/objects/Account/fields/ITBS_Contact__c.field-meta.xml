@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ITBS_Contact__c</fullName>
+    <externalId>false</externalId>
+    <label>ITBS Contact</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Bernardo Vicente</fullName>
+                <default>false</default>
+                <label>Bernardo Vicente</label>
+            </value>
+            <value>
+                <fullName>Charles Mardirossian</fullName>
+                <default>false</default>
+                <label>Charles Mardirossian</label>
+            </value>
+            <value>
+                <fullName>Daniel Sanchez</fullName>
+                <default>false</default>
+                <label>Daniel Sanchez</label>
+            </value>
+            <value>
+                <fullName>Isabelle Schmit</fullName>
+                <default>false</default>
+                <label>Isabelle Schmit</label>
+            </value>
+            <value>
+                <fullName>Karel Serin</fullName>
+                <default>false</default>
+                <label>Karel Serin</label>
+            </value>
+            <value>
+                <fullName>Luca Calzoni</fullName>
+                <default>false</default>
+                <label>Luca Calzoni</label>
+            </value>
+            <value>
+                <fullName>Luis Guilherme</fullName>
+                <default>false</default>
+                <label>Luis Guilherme</label>
+            </value>
+            <value>
+                <fullName>Maurizio Simeone</fullName>
+                <default>false</default>
+                <label>Maurizio Simeone</label>
+            </value>
+            <value>
+                <fullName>Richard Smith</fullName>
+                <default>false</default>
+                <label>Richard Smith</label>
+            </value>
+            <value>
+                <fullName>Samuel Montero</fullName>
+                <default>false</default>
+                <label>Samuel Montero</label>
+            </value>
+            <value>
+                <fullName>Tobias Pecksteiner</fullName>
+                <default>false</default>
+                <label>Tobias Pecksteiner</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

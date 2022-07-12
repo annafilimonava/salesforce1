@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <letterhead>Planet_Premier_Touch</letterhead>
+    <name>PI</name>
+    <style>freeForm</style>
+    <subject>Attivazione PI</subject>
+    <textOnly>Gentile Cliente,
+
+la contattiamo in merito all’attivazione della soluzione Integrated for POS per l’emissione di fatture Tax Free integrata con il sistema di cassa per il negozio seguente:
+
+{!POS_Solution__c.Account_Name__c}
+{!POS_Solution__c.Street__c}
+{!POS_Solution__c.Post_Code__c} {!POS_Solution__c.City__c}
+
+Di seguito, può trovare i parametri necessari per la configurazione, da includere nei tag evidenziati per ciascuna richiesta inviata al nostro server:
+
+Merchant_Id {!POS_Solution__c.Reference_or_Account_ID__c}
+Merchant_VAT_Number {!POS_Solution__c.Parent_VAT__c}
+Merchant_Country_Code 380 (ITALY)
+
+
+L’indirizzo dei servizi Integrated for POS in ambiente di produzione è:
+https://pi.fintrax.com/pi_public_v2/service.asmx
+
+Per supporto in merito all’attivazione, la invitiamo a contattare il supporto tecnico Planet scrivendo una email a it.support@planetpayment.com.
+
+La ringraziamo per la collaborazione.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

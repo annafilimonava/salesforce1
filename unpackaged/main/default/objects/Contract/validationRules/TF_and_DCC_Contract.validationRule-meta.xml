@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TF_and_DCC_Contract</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(Product__c) = &quot;TF &amp; DCC&quot; , OR(TEXT(Rebate__c) = &quot;&quot;, TEXT(GP__c) = &quot;&quot;))</errorConditionFormula>
+    <errorMessage>You must complete the Rebate % and GP % fields for TF &amp; DCC contracts.</errorMessage>
+</ValidationRule>

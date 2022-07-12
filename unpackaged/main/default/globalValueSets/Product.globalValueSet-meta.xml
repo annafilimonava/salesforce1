@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>VAT</fullName>
+        <default>false</default>
+        <label>VAT</label>
+    </customValue>
+    <customValue>
+        <fullName>VAT &amp; Payments</fullName>
+        <default>false</default>
+        <label>VAT &amp; Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>VAT &amp; Payments &amp; DCC</fullName>
+        <default>false</default>
+        <label>VAT &amp; Payments &amp; DCC</label>
+    </customValue>
+    <customValue>
+        <fullName>VAT &amp; Token</fullName>
+        <default>false</default>
+        <label>VAT &amp; Token</label>
+    </customValue>
+    <customValue>
+        <fullName>Payments</fullName>
+        <default>false</default>
+        <label>Payments</label>
+    </customValue>
+    <customValue>
+        <fullName>Payments &amp; DCC</fullName>
+        <default>false</default>
+        <label>Payments &amp; DCC</label>
+    </customValue>
+    <customValue>
+        <fullName>Refunding Non Cash</fullName>
+        <default>false</default>
+        <label>Refunding Non Cash</label>
+    </customValue>
+    <masterLabel>Product</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

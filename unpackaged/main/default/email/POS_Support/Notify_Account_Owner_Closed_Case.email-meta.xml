@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Notify Account Owner Closed Case</name>
+    <style>none</style>
+    <subject>Case Closed on {!NullValue(Case.Case_Account_Name__c, (Case.POS_Account__c))}</subject>
+    <textOnly>Dear {!Account.OwnerFirstName},
+
+The POS Support case on {!NullValue(Case.Case_Account_Name__c, (Case.POS_Account__c))} has been closed.
+
+Type: {!Case.Type}
+
+Case Reason: {!Case.Reason}
+
+Subject: {!Case.00N2400000IQf0F}
+
+Resolution: {!Case.Resolution_Reason__c}
+
+You can see full details by clicking this link: {!Case.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DCC_Customer_Reporting__c</fullName>
+    <externalId>false</externalId>
+    <formula>&#39;http://iedc-ptf-pav006/Reports/Pages/Folder.aspx?ItemPath=%2fFintrax+Customer+Reports%2fDCC+Reports&#39;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>DCC Customer Reporting</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

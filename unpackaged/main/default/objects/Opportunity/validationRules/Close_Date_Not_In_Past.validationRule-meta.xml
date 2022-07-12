@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Close_Date_Not_In_Past</fullName>
+    <active>true</active>
+    <description>On Contract Signed, closed date should not be in past</description>
+    <errorConditionFormula>AND(
+ISCHANGED(StageName),
+TEXT(StageName) =&#39;Contract Signed&#39;,
+CloseDate &lt; Today(),
+NOT(CONTAINS($Profile.Name ,&quot;Admin&quot;)),
+NOT($Profile.Name = &quot;Finance Approver&quot;)
+)</errorConditionFormula>
+    <errorMessage>Close Date cannot be in the past.</errorMessage>
+</ValidationRule>

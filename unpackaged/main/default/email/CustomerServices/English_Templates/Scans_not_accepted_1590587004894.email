@@ -1,0 +1,37 @@
+<html>
+ <head> 
+  <title></title> 
+ </head> 
+ <body style="height: auto; min-height: auto;">
+  <!--[endif]----> 
+  <!--StartFragment--> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">Dear {{{Case.Tourist__c}}}, 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">Thank you for your email. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">I regret to inform you, but we are not able to issue a refund based on scans. The Tax Free </span><a href="https://www.planetpayment.com/en/countries/"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">rules </span></a> <span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">and regulations require from us to have the original Tax Free form for processing purposes as per country regulations. 
+    <o:p></o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin"> 
+    <o:p>
+      &nbsp; 
+    </o:p></span></p> 
+  <p class="MsoNormal"><span lang="EN-IE" style="mso-bidi-font-size:10.0pt;
+font-family:Barlow;mso-bidi-font-family:Calibri;mso-bidi-theme-font:minor-latin">If we can be of any other assistance, please do not hesitate to contact us.</span></p>
+ </body>
+</html>

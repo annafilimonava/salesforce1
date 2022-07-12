@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Connection_Type</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(TEXT(Use__c) = &quot;Tax Free Only&quot;,  RecordType.Name = &quot;Terminal Detail Vx&quot;, ISBLANK(TEXT(Connection_Type__c)))</errorConditionFormula>
+    <errorDisplayField>Connection_Type__c</errorDisplayField>
+    <errorMessage>Please enter the Connection Type</errorMessage>
+</ValidationRule>
